@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.98" initialView="View 1" PIVersion="1.0.0.0" href="file:///\\ecnbjmw0014\fa_s$\TelephoneApplicationForm.xsn" name="urn:schemas-microsoft-com:office:infopath:TelephoneApplicationForm:-dataFormSolution" productVersion="11.0.8165" ?><?mso-application progid="InfoPath.Document"?><dfs:myFields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:q="http://schemas.microsoft.com/office/infopath/2003/ado/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2003/ado/dataFields" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-03-23T01:59:01" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xml:lang="en-us" xmlns:xdado="http://schemas.microsoft.com/office/infopath/2003/adomapping" xdado:dataModified="">
+	<dfs:queryFields>
+		<q:TelephoneApplicationForm RecordID="" Name="" Unit="" FillDate="" EMailAddress="" LMAddress="" CC="" Requirement="" PhoneType="" Function="" PhoneNo="" PasswordForIDD="" PasswordForDDD="" PasswordForCity="" PasswordForInternal="" NewPhone="" Note=""></q:TelephoneApplicationForm>
+	</dfs:queryFields>
+	<dfs:dataFields>
+		<d:TelephoneApplicationForm RecordID="" Name="" Unit="ENC/RD/AR" FillDate="2011-10-25" EMailAddress="" LMAddress="yijian.yan@ericsson.com" CC="636" Requirement="Phone Transfer" PhoneType="Extension" Function="DDD" PhoneNo="" PasswordForIDD="" PasswordForDDD="" PasswordForCity="" PasswordForInternal="" NewPhone="" Note="Seat moved. My mobile phone is 13915953319."></d:TelephoneApplicationForm>
+	</dfs:dataFields>
+	<my:Note1></my:Note1>
+	<my:Note2></my:Note2>
+	<my:status>0</my:status>
+	<my:tracelog></my:tracelog>
+	<my:status_temp>0</my:status_temp>
+</dfs:myFields>
