@@ -10017,8 +10017,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x63a5;&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;&#x540e;&#x7684;&#x64cd;&#x4f5c;" ID="ID_707530146" CREATED="1335189178372" MODIFIED="1335191062078"><richcontent TYPE="NOTE">
 
 <html>
@@ -10353,8 +10353,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 </html>
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1020581049" CREATED="1335178561878" MODIFIED="1335265048012" HGAP="37" VSHIFT="63"><richcontent TYPE="NODE">
 
@@ -23120,7 +23120,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </body>
 </html>
 </richcontent>
-<node TEXT="Non-HALI2&#x7684;RICR Delivery" ID="ID_1178785109" CREATED="1356000927873" MODIFIED="1359095094996">
+<node TEXT="Non-HALI2&#x7684;RICR Delivery" ID="ID_1178785109" CREATED="1356000927873" MODIFIED="1363593681191">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
@@ -23193,10 +23193,10 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
                     <div class="patternContent">
                       <div class="patternTopic">
                         <p class="MsoNormal">
-                          <font face="Arial,sans-serif" color="#0000cc"><b>&#160;&#160;&#160;cleartool mount /vobs/rbs/hw/xmu/alcor </b></font>
+                          <font color="#0000cc" face="Arial,sans-serif"><b>&#160;&#160;&#160;cleartool mount /vobs/rbs/hw/xmu/alcor </b></font>
                         </p>
                         <p class="MsoNormal">
-                          <font face="Arial,sans-serif" color="#0000cc"><b>&#160;&#160;&#160;source /proj/nci_up/homedir/delivery/nci_env</b></font><b><font face="Times New Roman,serif" color="#0000cc"><o color="#0000cc" p="#DEFAULT"></o></font></b>
+                          <font color="#0000cc" face="Arial,sans-serif"><b>&#160;&#160;&#160;source /proj/nci_up/homedir/delivery/nci_env</b></font><b><font color="#0000cc" face="Times New Roman,serif"><o color="#0000cc" p="#DEFAULT"></o></font></b>
                         </p>
                       </div>
                     </div>
@@ -23234,7 +23234,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
                           &#28982;&#21518;&#26356;&#26032;CS&#25991;&#20214;&#20013;&#30340;&#26631;&#31614;,&#19968;&#33324;&#26469;&#35828;&#19979;&#38754;&#30340;&#26631;&#31614;&#35201;&#26356;&#26032;,&#26681;&#25454;&#35268;&#21017;,&#26816;&#26597;&#32769;&#30340;&#26631;&#31614;,&#30830;&#23450;&#26032;&#30340;&#26631;&#31614;&#21517;(&#35268;&#21017;&#26159;&#20160;&#20040;,&#21442;&#32771;&#29233;&#31435;&#20449;&#26032;&#21592;&#24037;&#22521;&#35757;...)
                         </p>
                         <p>
-                          &#28982;&#21518;set&#36825;&#20010;cs&#25991;&#20214;.
+                          &#28982;&#21518;set&#36825;&#20010;cs&#25991;&#20214;.(<font color="#006666">&#22312;&#23376;node&#19978;,&#26377;&#19968;&#20010;&#25130;&#22270;&#30340;&#23454;&#20363;,&#21442;&#32771;&#36825;&#20010;&#25130;&#22270;&#23601;&#22823;&#33268;&#30693;&#36947;&#35201;&#25913;&#21738;&#20123;&#26631;&#31614;&#20102;</font>.)
                         </p>
                         <p>
                           <font color="#cc0099"><b>-XPP label </b></font>
@@ -23274,7 +23274,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#36825;&#37096;&#20998;&#33258;&#24049;&#25805;&#20316;,&#38656;&#35201;&#27880;&#24847;&#30340;&#26159;,&#19981;&#20165;&#20165;SW&#36335;&#24452;&#19979;&#38656;&#35201;merge,&#26377;&#26102;&#20505;IFU&#36335;&#24452;&#19979;&#20063;&#20250;&#26377;&#25509;&#21475;&#25913;&#21160;,&#25152;&#20197;&#20063;&#26377;&#21487;&#33021;&#35201;merge.
     </p>
     <p>
-      &#36825;&#37096;&#20998;&#28789;&#27963;&#25805;&#20316;.&#29087;&#32451;&#20351;&#29992;clearcase&#30340;findmerge.
+      &#36825;&#37096;&#20998;&#28789;&#27963;&#25805;&#20316;.&#29087;&#32451;&#20351;&#29992;clearcase&#30340;findmerge.(<font color="#006666">&#20851;&#20110;find merge&#30340;&#20351;&#29992;,&#20063;&#21442;&#32771;&#23376;node&#19978;&#30340;&#19968;&#20010;&#25130;&#22270;&#20171;&#32461;.&#25805;&#20316;&#36215;&#26469;&#20063;&#24456;&#31616;&#21333;.</font>)
     </p>
     <p>
       &#23545;&#20110;&#20027;&#20998;&#25903;,&#30446;&#21069;&#25105;&#20204;&#20351;&#29992;&#30340;&#23601;&#26159;ricr_maint_m13a&#36825;&#20010;&#20998;&#25903;.&#25152;&#26377;&#30340;TR,CR&#30340;&#20195;&#30721;&#25913;&#21160;&#37117;&#38656;&#35201;merge&#21040;&#36825;&#20010;&#20998;&#25903;&#19978;.
@@ -23337,7 +23337,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#39318;&#20808;&#38656;&#35201;&#25226;delivery&#30340;&#20449;&#24687;&#22635;&#20837;&#21040;CDM&#30340;&#25991;&#26723;&#20013;&#21435;.
     </p>
     <p>
-      <span style="color: blue"><font color="blue" face="Arial,sans-serif" size="10.0pt"><a href="http://cdmweb.ericsson.se/TeamCenter/controller/ViewDocs?DocumentName=1%2F0062-FCP1018490&amp;Latest=true">http://cdmweb.ericsson.se/TeamCenter/controller/ViewDocs?DocumentName=1%2F0062-FCP1018490&amp;Latest=true</a></font></span>
+      <font color="blue" face="Arial,sans-serif"><a href="http://cdmweb.ericsson.se/TeamCenter/controller/ViewDocs?DocumentName=1%2F0062-FCP1018490&amp;Latest=true">http://cdmweb.ericsson.se/TeamCenter/controller/ViewDocs?DocumentName=1%2F0062-FCP1018490&amp;Latest=true</a></font>
     </p>
     <p>
       
@@ -23369,50 +23369,53 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     <p>
       &#22914;&#26524;&#26576;&#20123;&#25509;&#21475;&#27809;&#26377;&#26356;&#25913;,&#22914;RICI&#21644;RICRAI&#30340;&#35805;,&#23601;&#19981;&#29992;&#36755;&#20837;,&#30452;&#25509;&#22238;&#36710;,&#23601;skip&#25481;&#20102;.
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      (<font color="#006666">&#22914;&#26524;&#33050;&#26412;&#25191;&#34892;&#20986;&#38169;&#33258;&#34892;&#36864;&#20986;&#30340;&#35805;,&#25110;&#32773;&#36755;&#38169;&#20102;&#26631;&#31614;,&#24819;&#37325;&#26032;&#25191;&#34892;&#33050;&#26412;&#30340;&#35805;,&#21442;&#32771;&#23376;node&#20013;&#20171;&#32461;&#30340;&#26041;&#27861;</font>)
+    </p>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
       
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">RICR&#30340;delivery&#26631;&#31614;:&#160;&#160;RICR_5.x.x </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>RICR&#30340;delivery&#26631;&#31614;:&#160;&#160;RICR_5.x.x </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">aum2e&#38745;&#24577;&#24211;&#26631;&#31614;:CYB10173_5-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>aum2e&#38745;&#24577;&#24211;&#26631;&#31614;:CYB10173_5-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">warp3&#38745;&#24577;&#24211;&#26631;&#31614;:CYB10173_6-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>warp3&#38745;&#24577;&#24211;&#26631;&#31614;:CYB10173_6-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">xpsim&#38745;&#24577;&#24211;&#26631;&#31614;:CYB10173_7-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>xpsim&#38745;&#24577;&#24211;&#26631;&#31614;:CYB10173_7-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">RICR&#28304;&#20195;&#30721;&#26631;&#31614;:CAH1091285_1-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>RICR&#28304;&#20195;&#30721;&#26631;&#31614;:CAH1091285_1-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">RICI&#25509;&#21475;&#26631;&#31614;:CAH1091473_1-Rxxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>RICI&#25509;&#21475;&#26631;&#31614;:CAH1091473_1-Rxxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">RICRAI&#25509;&#21475;&#26631;&#31614;:CAH1091395_1-Rxxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>RICRAI&#25509;&#21475;&#26631;&#31614;:CAH1091395_1-Rxxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">HRICRAI&#25509;&#21475;&#26631;&#31614;:CAH1092125_1-Rxxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>HRICRAI&#25509;&#21475;&#26631;&#31614;:CAH1092125_1-Rxxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_app.xlf: LXA119792_1-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_app.xlf: LXA119792_1-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_aub.xlf: LXA119792_2-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_aub.xlf: LXA119792_2-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_sapp.xlf:&#160;&#160;LXA119793_1-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_sapp.xlf:&#160;&#160;LXA119793_1-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_saub.xlf: LXA119793_2-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>&#27979;&#35797;LMC&#26631;&#31614; RICR_aum2e_saub.xlf: LXA119793_2-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">&#27979;&#35797;LMC&#26631;&#31614; RICR_warp3_app.xlf:&#160;&#160;LXA119793_3-Rxxx </font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>&#27979;&#35797;LMC&#26631;&#31614; RICR_warp3_app.xlf:&#160;&#160;LXA119793_3-Rxxx </i></font>
     </p>
-    <p style="font-size: 11.0pt; font-family: Calibri; margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0in">
-      <i><font color="#660000">&#27979;&#35797;LMC&#26631;&#31614; RICR_warp3_aub.xlf: LXA119793_4-Rxxx</font></i>
+    <p style="margin-top: 0in; margin-left: 0in; margin-right: 0in; font-family: Calibri; margin-bottom: 0in; font-size: 11.0pt">
+      <font color="#660000"><i>&#27979;&#35797;LMC&#26631;&#31614; RICR_warp3_aub.xlf: LXA119793_4-Rxxx</i></font>
     </p>
     <p>
       
@@ -23425,6 +23428,12 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
     <p>
       &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;,IFU&#30446;&#24405;&#19979;&#20063;&#26377;&#21487;&#33021;&#26377;checkout&#30340;&#25991;&#20214;,&#19981;&#35201;&#24536;&#35760;&#23558;&#23427;&#20204;&#20063;checkin.
+    </p>
+    <p>
+      (&#21487;&#20197;&#20351;&#29992;&#21629;&#20196;&#19968;&#27425;&#24615;&#23558;&#25152;&#26377;checkout&#30340;&#25991;&#20214;&#37117;checkin,&#21442;&#32771;&#23376;node&#20171;&#32461;&#30340;&#26041;&#27861;)
+    </p>
+    <p>
+      
     </p>
     <p>
       
@@ -23481,22 +23490,87 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       
     </p>
     <p>
-      &#28982;&#21518;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;,&#22522;&#20110;&#26368;&#26032;&#30340;baseline,&#21019;&#24314;&#19968;&#20010;&#26356;&#26032;&#30340;baseline(&#35268;&#21017;&#20854;&#23454;&#20063;&#24456;&#31616;&#21333;,&#22914;&#26524;&#26368;&#26032;&#30340;baseline&#26159;&#27604;&#22914;<font color="#660000">VER_38.41.5</font>,&#37027;&#20040;&#25105;&#20204;&#21019;&#24314;&#30340;&#26032;&#30340;baseline&#23601;&#26159;<font color="#660000">VER_38.42.0</font>,&#23601;&#26159;&#26368;&#21518;&#19968;&#20301;&#28165;&#38646;,&#20498;&#25968;&#31532;&#20108;&#20301;&#21152;1):
+      &#28982;&#21518;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;,&#22522;&#20110;&#26368;&#26032;&#30340;baseline,&#21019;&#24314;&#19968;&#20010;&#26356;&#26032;&#30340;baseline(&#35268;&#21017;&#20854;&#23454;&#20063;&#24456;&#31616;&#21333;,&#22312;maintaanance&#30340;&#39033;&#30446;&#19979;,&#26032;&#30340;baseline&#21482;&#26159;&#25226;&#26368;&#26032;&#30340;baseline&#26368;&#21518;&#19968;&#20301;&#21152;&#19978;1&#23601;&#34892;&#20102;.&#20854;&#23454;&#30475;&#30475;ru_cs.cs&#25991;&#20214;&#30340;&#29256;&#26412;&#26641;&#23601;&#33021;&#22815;&#30693;&#36947;&#20102;,&#35268;&#21017;&#24456;&#31616;&#21333;):
     </p>
     <p>
-      <font color="#0000cc"><b>./deliv_tool/ru_delivery.sh -o VER_yy.yy.0 -p VER_xx.xx.xx</b></font>
+      <font color="#0000cc"><b>./deliv_tool/ru_delivery.sh -o VER_yy.yy.yy -p VER_xx.xx.xx</b></font>
     </p>
     <p>
       &#28982;&#21518;deliver RICR&#21040;&#36825;&#20010;&#26032;&#30340;baseline(&#19979;&#38754;&#30340;RICR_xx.xx.xx&#23601;&#26159;&#36825;&#27425;RICR&#35201;delivery&#30340;&#26631;&#31614;):
     </p>
     <p>
-      <font color="#0000cc"><b>./deliv_tool/ru_delivery.sh RICR_xx.xx.xx VER_yy.yy.0</b></font>
+      <font color="#0000cc"><b>./deliv_tool/ru_delivery.sh RICR_xx.xx.xx VER_yy.yy.yy</b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_344425218" MIDDLE_LABEL="&#x66f4;&#x65b0;baseline" STARTINCLINATION="215;0;" ENDINCLINATION="215;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x4e4b;&#x524d;&#x8bb0;&#x5f55;&#x7684;&#x4e00;&#x4e9b;&#x6ce8;&#x610f;&#x4e8b;&#x9879;" ID="ID_986678720" CREATED="1362358955646" MODIFIED="1362358996651" LINK="../MiscDocuments/RICR_delivery_&#x6ce8;&#x610f;&#x70b9;.txt"/>
+<node TEXT="&#x66f4;&#x65b0;CS&#x6587;&#x4ef6;&#x65f6;,&#x9700;&#x8981;&#x66f4;&#x65b0;&#x7684;&#x5177;&#x4f53;&#x6807;&#x7b7e;" ID="ID_1341913558" CREATED="1363585152051" MODIFIED="1363585360406" LINK="../MiscDocuments/update_ricr_cs.png"/>
+<node TEXT="&#x5982;&#x4f55;&#x8fdb;&#x884c;find merge&#x7684;&#x64cd;&#x4f5c;" ID="ID_86766445" CREATED="1363585138866" MODIFIED="1363585471021" LINK="../MiscDocuments/find_merge_process.png"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#20570;delivery&#30340;&#26102;&#20505;,&#27491;&#24120;&#24773;&#20917;&#19979;&#37117;&#38656;&#35201;&#23558;&#20195;&#30721;&#20174;&#24320;&#21457;&#20998;&#25903;merge&#21040;&#20027;&#20998;&#25903;&#19978;.
+    </p>
+    <p>
+      &#36825;&#26102;&#20505;&#20351;&#29992;&#22270;&#24418;&#21270;&#30340;find merge&#24037;&#20855;&#23601;&#24456;&#26041;&#20415;&#20102;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#39318;&#20808;&#25970;&#20837;xclearcase &amp;&#21629;&#20196;.&#28982;&#21518;&#25353;&#29031;&#38468;&#20214;&#25152;&#31034;&#30340;&#26041;&#27861;&#25805;&#20316;,&#19968;&#27493;&#27493;&#20570;&#23601;&#21487;&#20197;&#20102;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x4f7f;&#x7528;./label_ricr&#x547d;&#x4ee4;&#x65f6;&#x51fa;&#x9519;&#x7684;&#x5904;&#x7406;" ID="ID_388764487" CREATED="1363589289461" MODIFIED="1363589544944" LINK="#ID_1900737563"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26377;&#26102;&#20505;&#22312;&#25191;&#34892;./label_ricr&#30340;&#26102;&#20505;,&#22914;&#26524;&#36755;&#20837;&#30340;&#26631;&#31614;&#20986;&#38169;&#20102;&#25110;&#32773;&#20986;&#20102;&#20854;&#20182;&#30340;&#19968;&#20123;&#38169;&#35823;&#23548;&#33268;&#33050;&#26412;&#25191;&#34892;&#20986;&#38169;&#25552;&#21069;&#36864;&#20986;&#30340;&#24773;&#20917;.
+    </p>
+    <p>
+      &#36825;&#26102;&#30452;&#25509;&#37325;&#26032;&#36816;&#34892;&#36825;&#20010;&#33050;&#26412;&#26159;&#19981;&#34892;&#30340;,&#22240;&#20026;&#26377;&#20123;&#26631;&#31614;&#24050;&#32463;&#34987;&#25171;&#19978;&#21435;&#20102;.&#25152;&#20197;&#22312;&#37325;&#26032;&#36305;&#33050;&#26412;&#20043;&#21069;,&#38656;&#35201;&#20570;&#19968;&#20123;&#22788;&#29702;.
+    </p>
+    <p>
+      &#26368;&#31616;&#21333;&#30340;&#23601;&#26159;&#23558;&#25152;&#26377;&#24050;&#32463;&#25171;&#19978;&#30340;&#26631;&#31614;&#32473;&#21024;&#38500;&#25481;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21024;&#38500;&#25171;&#19978;&#30340;&#26631;&#31614;&#20197;&#21450;&#26631;&#31614;type&#26412;&#36523;,&#20351;&#29992;&#38142;&#25509;&#36716;&#21521;node&#30340;&#21629;&#20196;&#23601;&#34892;&#20102;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20294;&#26159;&#38656;&#35201;&#27880;&#24847;&#30340;&#26159;,&#38500;&#20102;&#22312;RICR&#30340;vob&#20013;&#38656;&#35201;&#36827;&#34892;&#21024;&#38500;&#26631;&#31614;&#30340;&#25805;&#20316;.
+    </p>
+    <p>
+      &#22312;/vobs/rbs/hw/cbd_common/deliv/ifu&#36825;&#20010;vob&#37324;&#38754;,RICR_x_y_z&#30340;&#26631;&#31614;&#21516;&#26679;&#25171;&#19978;&#20102;,&#25152;&#20197;,&#20063;&#38656;&#35201;&#22312;&#36825;&#20010;vob&#20013;&#23558;&#20854;&#21024;&#38500;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x4e00;&#x6b21;&#x6027;&#x5c06;&#x6240;&#x6709;checkou&#x7684;&#x6587;&#x4ef6;&#x90fd;checkin" ID="ID_948438752" CREATED="1363591227207" MODIFIED="1363591592499">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_64238629" MIDDLE_LABEL="&#x53c2;&#x8003;&#x6307;&#x5411;&#x94fe;&#x63a5;&#x4e2d;&#x7684;&#x547d;&#x4ee4;" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
 </node>
 <node TEXT="HALI2&#x7684;RICR Delivery" ID="ID_1567994028" CREATED="1356000944283" MODIFIED="1362359385968">
 <icon BUILTIN="yes"/>
@@ -24235,7 +24309,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -24287,7 +24360,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </node>
 </node>
 <node TEXT="&#x4fbf;&#x6377;&#x547d;&#x4ee4;(SHELL/CC command)" ID="ID_1466485032" CREATED="1355394369729" MODIFIED="1357638887808">
-<node TEXT="clearcase&#x4e2d;checkin&#x5f53;&#x524d;&#x76ee;&#x5f55;&#x4e0b;&#x6240;&#x6709;&#x7684;checkout&#x7684;&#x6587;&#x4ef6;" ID="ID_64238629" CREATED="1355394376607" MODIFIED="1355394778451"><richcontent TYPE="NOTE">
+<node TEXT="clearcase&#x4e2d;checkin&#x5f53;&#x524d;&#x76ee;&#x5f55;&#x4e0b;&#x6240;&#x6709;&#x7684;checkout&#x7684;&#x6587;&#x4ef6;" ID="ID_64238629" CREATED="1355394376607" MODIFIED="1363591150778"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -24295,16 +24368,12 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </head>
   <body>
     <p>
-      <font color="#000066" size="4"><b>cleartool lsco -r -cview | awk -F\&quot; '{print $2}' |xargs cleartool ci -nc</b></font>
+      <font size="4" color="#000066"><b>cleartool lsco -r -cview -short | xargs cleartool ci -nc</b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="&#x4f7f;&#x7528;cleartool find&#x505a;&#x7684;&#x53e6;&#x5916;&#x4e00;&#x79cd;&#x65b9;&#x5f0f;" ID="ID_1777429183" CREATED="1357227054809" MODIFIED="1358175276241">
-<icon BUILTIN="help"/>
-<icon BUILTIN="help"/>
-<icon BUILTIN="help"/>
-</node>
 </node>
 <node TEXT="&#x5220;&#x9664;label type&#x7684;&#x547d;&#x4ee4;" ID="ID_1900737563" CREATED="1355394420431" MODIFIED="1355394661990"><richcontent TYPE="NOTE">
 
