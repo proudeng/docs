@@ -288,6 +288,48 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x4e2d;&#x6587;&#x73af;&#x5883;&#x8bbe;&#x7f6e;" ID="ID_1596274777" CREATED="1363757604114" MODIFIED="1363757834793"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#40664;&#35748;&#30340;&#23433;&#35013;&#26159;&#19981;&#25903;&#25345;&#20013;&#25991;&#30340;.&#38656;&#35201;&#36827;&#34892;&#37197;&#32622;&#25165;&#33021;&#22815;&#35753;Debian&#26174;&#31034;&#20013;&#25991;&#21644;&#25903;&#25345;&#20013;&#25991;&#36755;&#20837;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20854;&#23454;&#25903;&#25345;&#20013;&#25991;&#26174;&#31034;&#38656;&#35201;&#20570;&#30340;&#19996;&#35199;&#24182;&#19981;&#22810;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1.&#22312;root&#29992;&#25143;&#27169;&#24335;&#19979;,&#20351;&#29992;dpkg-reconfigure locales&#21629;&#20196;&#37325;&#26032;&#37197;&#32622;locale.&#36873;&#25321;&#19978;zn&#30456;&#20851;&#30340;&#20960;&#20010;locale.&#40664;&#35748;&#30340;local&#36873;&#25321;en&#21363;&#21487;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2.&#20351;&#29992;&#19979;&#38754;&#30340;&#20960;&#20010;&#21629;&#20196;&#23433;&#35013;&#20013;&#25991;&#30340;font.&#20854;&#23454;,&#25105;&#35797;&#39564;&#36807;&#20102;,&#21482;&#35201;&#23433;&#35013;&#31532;&#19968;&#20010;font&#23601;&#33021;&#22815;&#26174;&#31034;&#20013;&#25991;&#20102;.
+    </p>
+    <p>
+      <span class="comment">aptitude install&#160;ttf-arphic-uming&#160;</span><span>&#160;&#160; </span>
+    </p>
+    <p>
+      <span class="comment">aptitude install&#160;xfonts-intl-chinese&#160;</span><span>&#160;&#160; </span>
+    </p>
+    <p>
+      <span class="comment">aptitude install&#160;xfonts-wqy</span><span>&#160;&#160;</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1352817675019"><richcontent TYPE="NOTE">
 
@@ -2647,9 +2689,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
@@ -3039,8 +3081,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
@@ -3689,7 +3731,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53c2;&#x8003;&#x5185;&#x5bb9;2" ID="ID_745861624" CREATED="1361551890643" MODIFIED="1361552431925" LINK="../MiscDocuments/&#x7834;&#x89e3;&#x4e2d;&#x5174;%20ZXA10%20F460%20V3.0&#x7248;&#x672c;&#x732b;.pdf"/>

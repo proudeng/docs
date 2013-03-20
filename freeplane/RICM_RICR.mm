@@ -6076,6 +6076,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 <node TEXT="RingMux&#x4ecb;&#x7ecd;" ID="ID_759274786" CREATED="1359527185856" MODIFIED="1359527228477" LINK="../MiscDocuments/RingMux.ppt"/>
 <node TEXT="[by Morteza]XP_Target_Test_Intro" ID="ID_1347729510" CREATED="1359686868662" MODIFIED="1359686943807" LINK="../MiscDocuments/Target%20Test%20tutorial.ppt"/>
 <node TEXT="XIO_Frame" ID="ID_1288043681" CREATED="1362359307330" MODIFIED="1362359359072" LINK="../RICR_document_base/XIO_Frame_8_15519-CRH1090445.doc"/>
+<node TEXT="[by Phillip]RICR Regression test process" ID="ID_93213079" CREATED="1363758753546" MODIFIED="1363758820511" LINK="../RICR_document_base/StepsOfRegressionTestForClassicRICR-PA2.doc"/>
 </node>
 <node TEXT="RICR&#x529f;&#x80fd;" POSITION="left" ID="ID_1448966896" CREATED="1332407833788" MODIFIED="1341294012562"><richcontent TYPE="NOTE">
 
@@ -9986,8 +9987,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1514796674" CREATED="1335180842040" MODIFIED="1335265675712"><richcontent TYPE="NODE">
 
@@ -10352,9 +10353,9 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1020581049" CREATED="1335178561878" MODIFIED="1335265048012" HGAP="37" VSHIFT="63"><richcontent TYPE="NODE">
 
@@ -10649,8 +10650,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="104;57;" ENDINCLINATION="181;111;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="469;0;" ENDINCLINATION="469;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="104;57;" ENDINCLINATION="181;111;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="CPRI&#x94fe;&#x8def;&#x72b6;&#x6001;&#x673a;(Slave)&#x76f8;&#x5173;&#x7684;&#x5b9a;&#x65f6;&#x5668;" ID="ID_749880012" CREATED="1335179225500" MODIFIED="1335183544916">
@@ -22821,7 +22822,22 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </node>
 </node>
 </node>
-<node TEXT="FT&#x6d41;&#x7a0b;" ID="ID_18536040" CREATED="1334924464969" MODIFIED="1338278732766">
+<node TEXT="FT&#x6d41;&#x7a0b;" ID="ID_18536040" CREATED="1334924464969" MODIFIED="1363758903972"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23376;node&#30340;&#20013;&#30340;&#20869;&#23481;&#24456;&#20037;&#27809;&#26377;&#26356;&#26032;&#20102;.
+    </p>
+    <p>
+      &#20854;&#23454;&#20851;&#20110;FT&#30340;&#27969;&#31243;,FT&#24590;&#20040;&#20570;,Phillip&#24050;&#32463;&#24635;&#32467;&#20102;&#19968;&#20010;&#24456;&#22909;&#24456;&#20840;&#30340;&#25991;&#26723;.&#21487;&#20197;&#21442;&#32771;&#25991;&#26723;&#20013;&#30340;&#27969;&#31243;&#26469;&#20570;.Phillip&#30340;&#25991;&#26723;&#20063;&#20316;&#20026;&#19968;&#20010;&#23376;node.
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="&#x521d;&#x59cb;&#x5316;&#x7684;&#x5de5;&#x4f5c;" ID="ID_70725644" CREATED="1338290049382" MODIFIED="1338290899297"><richcontent TYPE="NOTE">
 
 <html>
@@ -23061,6 +23077,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </richcontent>
 </node>
 <node TEXT="&#x6267;&#x884c;&#x6d4b;&#x8bd5;&#x7528;&#x4f8b;" ID="ID_315332075" CREATED="1338292306696" MODIFIED="1338292317241"/>
+<node TEXT="Phillip&#x7f16;&#x5199;&#x7684;&#x5173;&#x4e8e;&#x5982;&#x4f55;&#x505a;FT&#x7684;&#x6587;&#x6863;" ID="ID_1425117631" CREATED="1363758910273" MODIFIED="1363758941343" LINK="#ID_93213079"/>
 </node>
 <node TEXT="&#x5357;&#x4eac;Booking node&#x7f51;&#x9875;" ID="ID_417545334" CREATED="1361242728664" MODIFIED="1361243052832"><richcontent TYPE="NOTE">
 
@@ -23503,7 +23520,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_344425218" MIDDLE_LABEL="&#x66f4;&#x65b0;baseline" STARTINCLINATION="215;0;" ENDINCLINATION="215;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x4e4b;&#x524d;&#x8bb0;&#x5f55;&#x7684;&#x4e00;&#x4e9b;&#x6ce8;&#x610f;&#x4e8b;&#x9879;" ID="ID_986678720" CREATED="1362358955646" MODIFIED="1362358996651" LINK="../MiscDocuments/RICR_delivery_&#x6ce8;&#x610f;&#x70b9;.txt"/>
@@ -23529,7 +23545,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4f7f;&#x7528;./label_ricr&#x547d;&#x4ee4;&#x65f6;&#x51fa;&#x9519;&#x7684;&#x5904;&#x7406;" ID="ID_388764487" CREATED="1363589289461" MODIFIED="1363589544944" LINK="#ID_1900737563"><richcontent TYPE="NOTE">
@@ -23565,7 +23580,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4e00;&#x6b21;&#x6027;&#x5c06;&#x6240;&#x6709;checkou&#x7684;&#x6587;&#x4ef6;&#x90fd;checkin" ID="ID_948438752" CREATED="1363591227207" MODIFIED="1363591592499">
@@ -24176,6 +24190,20 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </node>
 <node TEXT="MHWEB&#x5904;&#x7406;&#x76f8;&#x5173;&#x5185;&#x5bb9;" ID="ID_325269762" CREATED="1357915697886" MODIFIED="1357915873541">
 <node TEXT="answer &#x4e00;&#x4e2a;RICR TR&#x7684;&#x65f6;&#x5019;,&#x4e00;&#x822c;&#x4f7f;&#x7528;code B18" ID="ID_1562203349" CREATED="1357915708417" MODIFIED="1357915780228"/>
+<node TEXT="&#x5728;Mhweb&#x4e0a;&#x5982;&#x4f55;&#x521b;&#x5efa;&#x4e00;&#x4e2a;TR" ID="ID_154607402" CREATED="1363744368630" MODIFIED="1363749194747"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35980;&#20284;&#27809;&#26377;&#19968;&#20010;&#23448;&#26041;&#30340;&#27969;&#31243;&#20171;&#32461;.&#38382;&#20154;&#21543;..
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="&#x5bf9;&#x4e8e;&#x6d4b;&#x8bd5;&#x800c;&#x8a00;,&#x6d41;&#x7a0b;&#x4e0a;,RICR&#x4e0d;&#x4f1a;&#x53d1;&#x5230;&#x5916;&#x9762;&#x53bb;send for test.&#x6d4b;&#x8bd5;&#x90fd;&#x5199;&#x81ea;&#x5df1;&#x5185;&#x90e8;&#x7684;mho" ID="ID_1232660585" CREATED="1357915764708" MODIFIED="1357915844339"/>
 <node TEXT="&#x5982;&#x4f55;&#x5728;&#x5f00;&#x53d1;&#x5206;&#x652f;&#x548c;&#x7ef4;&#x62a4;&#x5206;&#x652f;&#x4e4b;&#x95f4;mapping TR" ID="ID_1218813400" CREATED="1358350107440" MODIFIED="1362642437388"><richcontent TYPE="NOTE">
 
@@ -24372,7 +24400,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5220;&#x9664;label type&#x7684;&#x547d;&#x4ee4;" ID="ID_1900737563" CREATED="1355394420431" MODIFIED="1355394661990"><richcontent TYPE="NOTE">
