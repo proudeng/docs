@@ -327,7 +327,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1637,6 +1636,207 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x9009;&#x62e9;&#x901f;&#x5ea6;&#x5feb;&#x7684;aptitude&#x6e90;" ID="ID_868438502" CREATED="1364909698254" MODIFIED="1364909871452"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26377;&#19968;&#20010;&#24037;&#20855;&#21487;&#20197;&#33258;&#21160;&#30340;&#22312;&#20840;&#29699;&#36873;&#25321;&#36895;&#24230;&#24555;&#30340;aptitude&#28304;&#12290;
+    </p>
+    <p>
+      &#36825;&#20010;&#24037;&#20855;&#21483;&#20570;apt-spy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30452;&#25509;&#25191;&#34892;&#19979;&#38754;&#30340;&#21629;&#20196;&#23601;&#21487;&#20197;&#23433;&#35013;&#20102;:
+    </p>
+    <p>
+      <b><font color="#0033cc" size="6"><i>aptitude install apt-spy</i></font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20851;&#20110;&#36825;&#20010;&#24037;&#20855;&#30340;&#20351;&#29992;&#26041;&#27861;&#65292;&#30452;&#25509;&#25191;&#34892;apt-spy&#21629;&#20196;&#65292;&#23601;&#20250;&#26377;&#19979;&#38754;&#30340;&#20851;&#20110;&#36825;&#20010;&#21629;&#20196;&#20351;&#29992;&#30340;&#25552;&#31034;&#20986;&#29616;&#20102;&#65306;
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>root@yardvps:/home/proudeng# apt-spy </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>Usage: apt-spy [options] </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>options: </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-d distribution Debian distribution (ie, stable). Required unless updating. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-a area Area to benchmark. (eg, Europe). </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-c config Configuration file to use. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-e number Number of servers to benchmark before exiting. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-y section-list Comma separated list of section other then main to include. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-f file File to grab when benchmarking. (relative to Debian base). </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-i file Specify input file. For use with the -w option. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-m mirror-list Mirror list to use, or mirror-list to update when updating. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-o output-file Where to put output. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-p proxy Proxy server to use. In format &lt;server&gt;:[port] </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-s country_list List of countries to benchmark. Cannot be used with -a. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-t time Time to benchmark each server for. An approximate value only. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-u update-URL URL to grab mirror-list from when updating. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-w file Output top servers (5 by default) to file for use with -i. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-n number Specifies number of top servers to output with -w. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-v Output a version number. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>-h Display this message. </i></font></b>
+    </p>
+    <p>
+      <b><font color="#0033cc" size="3"><i>update Update the mirror list.</i></font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4e00;&#x4e2a;&#x4f7f;&#x7528;&#x4f8b;&#x5b50;" ID="ID_1917778704" CREATED="1364909951244" MODIFIED="1364910018545"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19979;&#38754;&#30340;&#21629;&#20196;&#21482;&#26159;&#19968;&#20010;&#20351;&#29992;&#30340;&#20363;&#23376;&#65306;
+    </p>
+    <p>
+      &#19979;&#38754;&#21629;&#20196;&#30340;&#24847;&#24605;&#26159;&#65292;&#22312;&#20122;&#27954;&#21306;&#65292;&#25628;&#32034;20&#20010;&#28304;&#65292;&#20174;&#20013;&#36873;&#20986;3&#20010;&#36895;&#24230;&#26368;&#24555;&#30340;&#28304;&#65292;&#23558;&#20182;&#20204;&#20889;&#20837;&#21040;sourcelist.txt&#25991;&#20214;&#20013;&#21435;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0033cc" size="6"><i>apt-spy -a Asia -e 20 -n 3 -o sourcelist.txt</i></font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;&#x53d6;&#x6d88;&#x5b89;&#x88c5;&#x3011;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_621452073" CREATED="1364909361456" MODIFIED="1364914319370"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33021;&#22815;&#22312;VPS&#19978;&#23433;&#35013;&#20195;&#29702;&#26381;&#21153;&#22120;&#30340;&#22909;&#22788;&#33258;&#28982;&#24456;&#22810;&#12290;&#27604;&#22914;&#35828;&#32763;&#22681;&#12290;&#12290;&#12290;&#12290;
+    </p>
+    <p>
+      &#26412;&#26469;&#20934;&#22791;&#25630;&#19968;&#20010;VPN&#30340;&#12290;
+    </p>
+    <p>
+      &#19981;&#36807;&#24819;&#26469;&#24819;&#21435;&#65292;&#22312;VPS&#19978;&#23433;&#35013;VPN&#23545;&#20110;&#25105;&#26469;&#35828;&#65292;&#36824;&#30495;&#30340;&#27809;&#21861;&#24847;&#24605;&#65292;&#36824;&#19981;&#22914;&#35013;&#20010;&#20195;&#29702;&#26381;&#21153;&#22120;&#26469;&#30340;&#23454;&#22312;&#65292;&#20854;&#23454;&#29992;&#36884;&#24456;&#31616;&#21333;&#65292;&#20063;&#23601;&#26159;&#29992;&#26469;&#32763;&#22681;&#30340;&#12290;&#12290;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;&#32593;&#19978;&#25628;&#20102;&#19968;&#19979;&#36731;&#37327;&#32423;&#30340;&#20195;&#29702;&#26381;&#21153;&#22120;&#65292;&#19981;&#24590;&#20040;&#33021;&#22815;&#25628;&#24471;&#21040;&#12290;
+    </p>
+    <p>
+      &#25214;&#21040;&#20004;&#20010;,&#19968;&#20010;&#26159;tinyproxy&#65292;&#19968;&#20010;&#26159;polipo
+    </p>
+    <p>
+      &#25105;&#36873;&#20102;polipo,&#21453;&#27491;&#37117;&#26159;&#36731;&#37327;&#32423;&#30340;&#20195;&#29702;&#26381;&#21153;&#22120;&#12290;&#20294;&#26159;polipo&#25552;&#20379;&#20102;access control.&#32780;tinyproxy&#27809;&#26377;&#25552;&#20379;&#29992;&#25143;&#21517;&#23494;&#30721;&#30340;&#31649;&#25511;&#65288;&#34429;&#28982;&#25353;&#29031;polipo&#30340;&#35828;&#27861;&#65292;&#29992;&#25143;&#21517;/&#23494;&#30721;&#20351;&#29992;&#26126;&#25991;&#20256;&#36755;&#30340;&#65292;&#25152;&#20197;&#20063;&#19981;&#23433;&#20840;&#65289;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26368;&#26032;&#26356;&#26032;&#65306;
+    </p>
+    <p>
+      &#21462;&#28040;&#23433;&#35013;&#20195;&#29702;&#26381;&#21153;&#22120;&#65292;&#21407;&#22240;&#26159;&#21363;&#20351;&#26377;&#20195;&#29702;&#26381;&#21153;&#22120;&#24456;&#22810;&#30340;&#32593;&#31449;&#20063;&#19981;&#33021;&#19978;&#65292;&#22240;&#20026;DNS&#35299;&#26512;&#20063;&#26377;&#38382;&#39064;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Polipo&#x7684;&#x5b89;&#x88c5;" ID="ID_1041590964" CREATED="1364909537815" MODIFIED="1364914363819"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23433;&#35013;polipo.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0033cc" size="6"><i>aptitude install polipo</i></font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Polipo&#x7684;&#x914d;&#x7f6e;" ID="ID_1482285326" CREATED="1364910087697" MODIFIED="1364914382647"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;Debian&#31995;&#32479;&#20013;&#65292;&#23433;&#35013;&#22909;&#30340;polipo&#30340;&#37197;&#32622;&#25991;&#20214;&#26159;&#25918;&#22312;/etc&#30446;&#24405;&#19979;&#38754;&#30340;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#26469;&#35828;&#65292;&#37197;&#32622;&#25991;&#20214;&#20026;<b><font color="#006666" size="4">/etc/polipo/config</font></b>&#25991;&#20214;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
 <node TEXT="apache" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
@@ -2689,9 +2889,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
@@ -3081,8 +3281,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
