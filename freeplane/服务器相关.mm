@@ -421,6 +421,83 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="VIM&#x4e2d;&#x4f7f;&#x7528;cscope" ID="ID_1706934409" CREATED="1365410570289" MODIFIED="1365411037409"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cscope&#24037;&#20855;&#21487;&#20197;&#29992;&#26469;&#22312;&#20195;&#30721;&#20013;&#36827;&#34892;&#36339;&#36716;.
+    </p>
+    <p>
+      &#29992;&#26469;&#26597;&#25214;&#20989;&#25968;/&#31526;&#21495;&#23450;&#20041;&#30340;&#22320;&#26041;&#21644;&#20351;&#29992;&#30340;&#22320;&#26041;&#31561;&#31561;.&#36824;&#26159;&#34542;&#22909;&#29992;&#30340;.
+    </p>
+    <p>
+      cscope&#24212;&#35813;&#22312;&#31995;&#32479;&#19978;&#26159;&#23433;&#35013;&#22909;&#30340;,&#22914;&#26524;&#27809;&#26377;&#23433;&#35013;&#22909;&#30340;&#35805;.&#21482;&#35201;&#23433;&#35013;&#19968;&#19979;&#23601;&#34892;&#20102;.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x5feb;&#x6377;&#x952e;&#x914d;&#x7f6e;" ID="ID_1234769349" CREATED="1365410652679" MODIFIED="1365411710581"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>&#22312;home&#30446;&#24405;&#19979;&#21019;&#24314;&#19968;&#20010;.vimrc&#30340;&#25991;&#20214;.&#28982;&#21518;&#22312;&#25991;&#20214;&#20013;&#28155;&#21152;&#19979;&#38754;&#30340;&#20960;&#34892;&#37197;&#32622;&#25991;&#20214;.
+
+<font color="#990099">nmap &lt;C-_&gt;s :cs find s &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;<br color="#990099"/>nmap &lt;C-_&gt;g :cs find g &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;<br color="#990099"/>nmap &lt;C-_&gt;c :cs find c &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;<br color="#990099"/>nmap &lt;C-_&gt;t :cs find t &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;<br color="#990099"/>nmap &lt;C-_&gt;e :cs find e &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;<br color="#990099"/>nmap &lt;C-_&gt;f :cs find f &lt;C-R&gt;=expand(&quot;&lt;cfile&gt;&quot;)&lt;CR&gt;&lt;CR&gt;<br color="#990099"/>nmap &lt;C-_&gt;i :cs find i &lt;C-R&gt;=expand(&quot;&lt;cfile&gt;&quot;)&lt;CR&gt;&lt;CR&gt;<br color="#990099"/>nmap &lt;C-_&gt;d :cs find d &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt; </font></pre>
+    <p>
+      
+    </p>
+    <p>
+      &#24555;&#25463;&#38190;&#30340;&#20351;&#29992;&#35828;&#26126;:
+    </p>
+    <pre>&lt;C-_&gt;g&#30340;&#25353;&#27861;&#26159;&#20808;&#25353;&quot;Ctrl+Shift+-&quot;, &#28982;&#21518;&#24456;&#24555;&#20877;&#25353;&quot;s&quot;</pre>
+    <p>
+      
+    </p>
+    <p>
+      cscope&#30340;find&#25628;&#32034;&#21629;&#20196;&#21442;&#25968;&#35828;&#26126;:
+    </p>
+    <p>
+      
+    </p>
+    <pre><b><font color="#ff3333">    0 &#25110; s   &#26597;&#25214;&#26412; C &#31526;&#21495;(&#21487;&#20197;&#36339;&#36807;&#27880;&#37322;) <br color="#ff3333"/>    1 &#25110; g   &#26597;&#25214;&#26412;&#23450;&#20041; <br color="#ff3333"/>    2 &#25110; d   &#26597;&#25214;&#26412;&#20989;&#25968;&#35843;&#29992;&#30340;&#20989;&#25968; <br color="#ff3333"/>    3 &#25110; c   &#26597;&#25214;&#35843;&#29992;&#26412;&#20989;&#25968;&#30340;&#20989;&#25968; <br color="#ff3333"/>    4 &#25110; t   &#26597;&#25214;&#26412;&#23383;&#31526;&#20018; <br color="#ff3333"/>    6 &#25110; e   &#26597;&#25214;&#26412; egrep &#27169;&#24335; <br color="#ff3333"/>    7 &#25110; f   &#26597;&#25214;&#26412;&#25991;&#20214; <br color="#ff3333"/>    8 &#25110; i   &#26597;&#25214;&#21253;&#21547;&#26412;&#25991;&#20214;&#30340;&#25991;&#20214; </font></b></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5982;&#x4f55;&#x5728;vim&#x4e2d;&#x4f7f;&#x7528;cscope" ID="ID_657914668" CREATED="1365410885038" MODIFIED="1365411772988"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30452;&#25509;&#20174;&#32593;&#19978;&#25688;&#25220;&#20102;&#22914;&#19979;&#30340;&#20869;&#23481;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      http://blog.csdn.net/dengxiayehu/article/details/6330200
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="Git&#x5ba2;&#x6237;&#x7aef;&#x7684;&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;" ID="ID_1134784686" CREATED="1365400095521" MODIFIED="1365400112272">
 <node TEXT="git&#x547d;&#x4ee4;&#x7684;&#x8f93;&#x51fa;&#x4e2d;,&#x652f;&#x6301;&#x4e2d;&#x6587;&#x663e;&#x793a;" ID="ID_198766797" CREATED="1365400521253" MODIFIED="1365400780692"><richcontent TYPE="NOTE">
@@ -441,7 +518,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -499,7 +575,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="VirtualBox&#x4e0a;&#x8bbe;&#x7f6e;&#x5171;&#x4eab;&#x76d8;&#x7528;&#x4e8e;&#x865a;&#x62df;&#x673a;&#x548c;&#x5bbf;&#x4e3b;&#x673a;&#x4e4b;&#x95f4;&#x6587;&#x4ef6;&#x5171;&#x4eab;" ID="ID_1022434570" CREATED="1365400163177" MODIFIED="1365400295931"><richcontent TYPE="NOTE">
@@ -514,7 +589,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5f53;&#x7136;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x7f16;&#x8f91;/etc/fstab&#x6765;&#x81ea;&#x5df1;&#x9009;&#x62e9;&#x6302;&#x8f7d;&#x70b9;" ID="ID_404778722" CREATED="1365400299625" MODIFIED="1365400431009"><richcontent TYPE="NOTE">
 
@@ -534,7 +608,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -604,7 +677,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5b89;&#x88c5;perl&#x6a21;&#x5757;" ID="ID_1372121527" CREATED="1346422912930" MODIFIED="1346428199804"><richcontent TYPE="NOTE">
@@ -3095,8 +3167,8 @@
 </html>
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
@@ -3486,8 +3558,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
