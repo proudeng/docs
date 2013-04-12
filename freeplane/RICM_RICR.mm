@@ -1617,6 +1617,18 @@
 </node>
 </node>
 </node>
+<node TEXT="RICR&#x5728;RU&#x4e0a;&#x8bfb;&#x53d6;FPGA&#x7684;&#x547d;&#x4ee4;" ID="ID_551601748" CREATED="1365477987007" MODIFIED="1365478013218"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    !--StartFragment--&gt;
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="vob&#x64cd;&#x4f5c;" POSITION="right" ID="ID_1943103024" CREATED="1323056031909" MODIFIED="1347432170423"><richcontent TYPE="NOTE">
 
@@ -1685,6 +1697,30 @@
     </ul>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="&#x4f7f;&#x7528;VNC&#x767b;&#x5f55;hub" ID="ID_1669362491" CREATED="1365647836530" MODIFIED="1365647963712" LINK="../MiscDocuments/Use%20VNC%20instead%20of%20Citrix%20for%20Win7%20laptop.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#26032;&#39046;&#30340;win7&#30005;&#33041;&#19978;,&#26080;&#27861;&#23433;&#35013;Critx&#23458;&#25143;&#31471;&#30331;&#24405;Solaris&#26381;&#21153;&#22120;.
+    </p>
+    <p>
+      (NX&#23458;&#25143;&#31471;&#30331;&#24405;Linux&#26426;&#22120;&#26159;&#21487;&#20197;&#20351;&#29992;&#30340;.)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21016;&#38686;&#20998;&#20139;&#30340;&#22914;&#20309;&#20351;&#29992;VNC&#20195;&#26367;Ctrix&#30331;&#24405;Solaris&#26381;&#21153;&#22120;.
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -3408,7 +3444,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6032,7 +6067,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 <node TEXT="XHP" ID="ID_284392098" CREATED="1356905933244" MODIFIED="1356906128112" LINK="../RICR_document_base/XHP_Intro_10_1551-CAH109550_1.pdf"/>
 <node TEXT="BHP" ID="ID_1601070578" CREATED="1356906441304" MODIFIED="1357735710253" LINK="../RICR_document_base/BHP_5_1551-CAH109790_1.pdf"/>
 <node TEXT="BXP FD" ID="ID_1177958750" CREATED="1357140792792" MODIFIED="1357140804283" LINK="../RICR_document_base/BXP_FD_17_1551-CAH109790_1.pdf"/>
-<node TEXT="IWD HDLC Lay2" ID="ID_95530044" CREATED="1356905951884" MODIFIED="1356906142521" LINK="../RICR_document_base/IWD_HDLC_Layer2_7_15519-HRB105102_1.pdf"/>
+<node TEXT="IWD HDLC Lay2" ID="ID_95530044" CREATED="1356905951884" MODIFIED="1365656550059" LINK="../RICR_document_base/IWD_HDLC_Layer2_7_15519-HRB105102_1.pdf"/>
 <node TEXT="HDLC&#x4ecb;&#x7ecd;&#x6027;&#x6587;&#x6863;" ID="ID_1879007367" CREATED="1356906603454" MODIFIED="1356906620887" LINK="#ID_785034644"/>
 <node TEXT="IWD RICR Application Dependencies" ID="ID_1688955859" CREATED="1331297304002" MODIFIED="1339399767956" LINK="../RICR_document_base/IWD_RICR_Application_dependencies.pdf"/>
 <node TEXT="WARP3 User Guide" ID="ID_1214797618" CREATED="1331649480576" MODIFIED="1339399780175" LINK="../RICR_document_base/WARP3_User_Guide.pdf"/>
@@ -6098,6 +6133,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 <node TEXT="[by Morteza]XP_Target_Test_Intro" ID="ID_1347729510" CREATED="1359686868662" MODIFIED="1359686943807" LINK="../MiscDocuments/Target%20Test%20tutorial.ppt"/>
 <node TEXT="XIO_Frame" ID="ID_1288043681" CREATED="1362359307330" MODIFIED="1362359359072" LINK="../RICR_document_base/XIO_Frame_8_15519-CRH1090445.doc"/>
 <node TEXT="[by Phillip]RICR Regression test process" ID="ID_93213079" CREATED="1363758753546" MODIFIED="1363758820511" LINK="../RICR_document_base/StepsOfRegressionTestForClassicRICR-PA2.doc"/>
+<node TEXT="NDS:RBS6000 with RRUS31" ID="ID_1972358435" CREATED="1365647745183" MODIFIED="1365647815618" LINK="../RICR_document_base/NDS%20RBS%206000%20with%20RRUS%2031%20B25%20MSMM%20L+C.doc"/>
 </node>
 <node TEXT="RICR&#x529f;&#x80fd;" POSITION="left" ID="ID_1448966896" CREATED="1332407833788" MODIFIED="1341294012562"><richcontent TYPE="NOTE">
 
@@ -10008,8 +10044,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1514796674" CREATED="1335180842040" MODIFIED="1335265675712"><richcontent TYPE="NODE">
 
@@ -10039,8 +10075,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x63a5;&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;&#x540e;&#x7684;&#x64cd;&#x4f5c;" ID="ID_707530146" CREATED="1335189178372" MODIFIED="1335191062078"><richcontent TYPE="NOTE">
 
 <html>
