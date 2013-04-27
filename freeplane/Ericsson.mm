@@ -78,7 +78,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x51fa;&#x5dee;&#x62a5;&#x9500;&#x7684;&#x65f6;&#x5019;,&#x9700;&#x8981;&#x628a;&#x51fa;&#x5dee;&#x4efb;&#x52a1;&#x7533;&#x8bf7;&#x8868;&#x4e5f;&#x622a;&#x5c4f;&#x8fdb;&#x5165;concur" ID="ID_88736393" CREATED="1361774524408" MODIFIED="1361774544048"/>
@@ -243,6 +242,10 @@
 <node TEXT="&#x5982;&#x4f55;&#x7ed9;&#x745e;&#x5178;&#x6253;&#x7535;&#x8bdd;" ID="ID_483895137" CREATED="1338967252492" MODIFIED="1338967464991" LINK="Some%20tips.msg"/>
 <node TEXT="NPI&#x76f8;&#x5173;" ID="ID_865696915" CREATED="1345615664620" MODIFIED="1345615675901">
 <node TEXT="NPI&#x9700;&#x8981;&#x7b26;&#x5408;&#x7684;Criteria" ID="ID_598336924" CREATED="1345615677792" MODIFIED="1345615839898" LINK="../MiscDocuments/NPI%20Criterion.ppt"/>
+</node>
+<node TEXT="&#x7533;&#x8bf7;&#x624b;&#x673a;&#x76f8;&#x5173;&#x7684;&#x6d41;&#x7a0b;" ID="ID_255297681" CREATED="1366867670896" MODIFIED="1366867677930">
+<node TEXT="&#x90ae;&#x4ef6;" ID="ID_1479097854" CREATED="1366867680438" MODIFIED="1366867740650" LINK="../MiscDocuments/&#x3010;Administration&#x3011;&#x300a;ENC&#x79fb;&#x52a8;&#x901a;&#x4fe1;&#x7ba1;&#x7406;&#x89c4;&#x5b9a;&#x300b;&#x66f4;&#x65b0;%20ENC%20Mobile%20Communication%20Directive%20Updating.msg"/>
+<node TEXT="FAQ" ID="ID_1059572818" CREATED="1366867683272" MODIFIED="1366867749250" LINK="../MiscDocuments/ENC%20Mobile%20Directive%20-%20FAQ.doc"/>
 </node>
 </node>
 <node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
