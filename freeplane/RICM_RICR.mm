@@ -1629,6 +1629,26 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="RICI_SYNC_PORT_IND" ID="ID_1398454108" CREATED="1367119698234" MODIFIED="1367119824169" LINK="#ID_834138738"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#28040;&#24687;&#26159;RICM&#30340;&#19968;&#20010;&#26032;&#30340;feature&#24320;&#21457;&#30340;&#26102;&#20505;,RICR&#23454;&#29616;&#30340;(&#23454;&#38469;&#19978;&#26159;RICR&#20808;&#23454;&#29616;&#30340;&#36825;&#20010;&#28040;&#24687;,&#28982;&#21518;RICM&#22522;&#20110;&#36825;&#20010;&#28040;&#24687;&#20570;&#20102;&#20182;&#20204;&#30340;GPS OUT&#36825;&#20010;feature)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#25351;&#21521;&#30340;&#25991;&#26723;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="vob&#x64cd;&#x4f5c;" POSITION="right" ID="ID_1943103024" CREATED="1323056031909" MODIFIED="1366109650319">
 <node TEXT="&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x540d;&#x79f0;" ID="ID_463911252" CREATED="1323056040326" MODIFIED="1323056062950"><richcontent TYPE="NOTE">
@@ -5182,6 +5202,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 </html>
 </richcontent>
 </node>
+<node TEXT="RICM&#x7684;&#x5173;&#x4e8e;GPS OUT&#x7684;&#x5f00;&#x53d1;demo&#x6587;&#x6863;" ID="ID_834138738" CREATED="1367119631579" MODIFIED="1367119690851" LINK="../RICM_document_base/MR1205%20Demo.ppt"/>
 </node>
 <node TEXT="RICR&#x6587;&#x6863;" POSITION="left" ID="ID_1039320453" CREATED="1330937181842" MODIFIED="1330937189560">
 <node TEXT="RICR Overview" ID="ID_182944170" CREATED="1331135769826" MODIFIED="1339399578564" LINK="../RICR_document_base/RICR_overview.odp"/>
@@ -10121,8 +10142,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x63a5;&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;&#x540e;&#x7684;&#x64cd;&#x4f5c;" ID="ID_707530146" CREATED="1335189178372" MODIFIED="1335191062078"><richcontent TYPE="NOTE">
 
 <html>
@@ -10456,9 +10477,9 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1020581049" CREATED="1335178561878" MODIFIED="1335265048012" HGAP="37" VSHIFT="63"><richcontent TYPE="NODE">
 
@@ -10753,8 +10774,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="469;0;" ENDINCLINATION="469;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="104;57;" ENDINCLINATION="181;111;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="469;0;" ENDINCLINATION="469;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="CPRI&#x94fe;&#x8def;&#x72b6;&#x6001;&#x673a;(Slave)&#x76f8;&#x5173;&#x7684;&#x5b9a;&#x65f6;&#x5668;" ID="ID_749880012" CREATED="1335179225500" MODIFIED="1366341828147"><richcontent TYPE="NOTE">
@@ -13211,7 +13232,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </richcontent>
 </node>
 </node>
-<node TEXT="NPI&#x5019;&#x9009;&#x9879;" POSITION="left" ID="ID_1500132070" CREATED="1366786913016" MODIFIED="1367032179686"><richcontent TYPE="NOTE">
+<node TEXT="RICR&#x7684;NPI&#x5019;&#x9009;&#x9879;" POSITION="left" ID="ID_1500132070" CREATED="1366786913016" MODIFIED="1367464550990"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -13235,7 +13256,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7cbe;&#x786e;&#x5224;&#x65ad;active_slave" ID="ID_1364353957" CREATED="1366786919034" MODIFIED="1367031915024"><richcontent TYPE="NOTE">
 
@@ -13252,10 +13272,9 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="&#x8c03;&#x6574;keep&#x901f;&#x7387;&#x7b97;&#x6cd5;" ID="ID_1148861889" CREATED="1366786939411" MODIFIED="1367031774289"><richcontent TYPE="NOTE">
+<node TEXT="&#x8c03;&#x6574;keep&#x901f;&#x7387;&#x7b97;&#x6cd5;" ID="ID_1148861889" CREATED="1366786939411" MODIFIED="1367461175637"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -13264,6 +13283,12 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   <body>
     <p>
       &#36825;&#20010;NPI&#30340;&#32972;&#26223;&#21487;&#20197;&#21442;&#32771;Saad&#25152;&#20570;&#30340;TR HQ80079.&#26377;&#19968;&#20123;&#35752;&#35770;&#30340;&#20869;&#23481;&#20013;,&#25105;&#26366;&#32463;&#25552;&#21040;&#36807;&#19968;&#20010;&#25913;&#32463;&#30340;&#26041;&#26696;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19981;&#36807;EAB&#37027;&#36793;&#24182;&#27809;&#26377;&#37319;&#32435;,&#25105;&#20204;&#21487;&#20197;&#20316;&#20026;&#19968;&#20010;NPI&#26469;&#22788;&#29702;.
     </p>
   </body>
 </html>
@@ -13285,7 +13310,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="force_interrupt&#x7684;&#x65f6;&#x5019;,&#x5728;&#x67d0;&#x4e9b;&#x60c5;&#x51b5;&#x4e0b;&#x4f1a;&#x9020;&#x6210;&#x67d0;&#x4e9b;&#x53d8;&#x91cf;&#x6765;&#x4e0d;&#x53ca;&#x66f4;&#x65b0;" ID="ID_992847995" CREATED="1366787074872" MODIFIED="1367031817937"><richcontent TYPE="NOTE">
@@ -13300,10 +13324,62 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="&#x5bf9;&#x5e94;&#x4e8e;TF HQ58231,Thomas&#x8981;&#x6c42;&#x8003;&#x8651;&#x53ef;&#x80fd;&#x589e;&#x52a0;CPRI Rev&#x6216;&#x8005;&#x589e;&#x52a0;CPRI&#x63a7;&#x5236;&#x5b57;&#x7528;&#x4e8e;&#x5224;&#x65ad;&#x662f;&#x5426;&#x4e00;&#x76f4;&#x6253;&#x5f00;TX" ID="ID_141385985" CREATED="1366787177366" MODIFIED="1367461727802"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#20010;&#33021;&#21542;&#20316;&#20026;&#19968;&#20010;NPI&#21602;,&#36824;&#26159;&#20316;&#20026;&#19968;&#20010;CR?
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
-<node TEXT="&#x5bf9;&#x5e94;&#x4e8e;TF HQ58231,Thomas&#x8981;&#x6c42;&#x8003;&#x8651;&#x53ef;&#x80fd;&#x589e;&#x52a0;CPRI Rev&#x6216;&#x8005;&#x589e;&#x52a0;CPRI&#x63a7;&#x5236;&#x5b57;&#x7528;&#x4e8e;&#x5224;&#x65ad;&#x662f;&#x5426;&#x4e00;&#x76f4;&#x6253;&#x5f00;TX" ID="ID_141385985" CREATED="1366787177366" MODIFIED="1366787237944"/>
+<node TEXT="&#x8003;&#x8651;&#x5728;link&#x51fa;&#x95ee;&#x9898;&#x7684;&#x65f6;&#x5019;&#x5c06;&#x4e00;&#x4e9b;&#x5173;&#x952e;&#x4fe1;&#x606f;&#x5b58;&#x5165;&#x786c;&#x4ef6;log" ID="ID_1324211911" CREATED="1367460423351" MODIFIED="1367460999527"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;RICR&#26469;&#35828;,&#32463;&#24120;&#30896;&#21040;&#30340;&#38382;&#39064;&#26159;,&#38142;&#36335;&#22312;&#26576;&#19968;&#20010;&#26102;&#21051;&#26029;&#25481;&#20102;,&#38543;&#20043;&#32780;&#26469;&#30340;&#32467;&#26524;&#23601;&#26159;,&#22914;&#26524;&#26159;&#20174;DU&#19978;&#20351;&#29992;Monitor&#26469;&#35835;&#21462;log&#30340;&#35805;,&#26174;&#28982;&#27492;&#26102;,&#20174;DU&#19978;&#23601;&#27809;&#27861;&#35835;&#21462;&#21040;RU&#30340;log&#20102;,&#21482;&#26377;&#24403;&#38142;&#36335;&#21448;&#37325;&#26032;&#24314;&#31435;&#36215;&#26469;&#20043;&#21518;,&#25165;&#33021;&#20877;&#27425;&#35835;&#21462;RU&#19978;&#30340;log.
+    </p>
+    <p>
+      &#20877;&#27425;&#33021;&#35835;&#21462;&#30340;&#26102;&#20505;,&#26377;&#21487;&#33021;&#30456;&#24212;&#30340;Log&#24050;&#32463;&#34987;&#20914;&#25481;&#20102;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23545;&#20110;RICR&#26469;&#35828;,&#24688;&#24688;&#26159;&#36825;&#19968;&#27573;&#26102;&#38388;&#30340;log&#26159;&#26368;&#20026;&#37325;&#35201;&#30340;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20197;&#19968;&#20010;&#27604;&#36739;&#31895;&#31961;&#30340;&#24819;&#27861;&#23601;&#26159;,&#22312;&#27599;&#27425;&#38142;&#36335;&#26029;&#25481;&#30340;&#26102;&#20505;,&#23558;&#19968;&#20123;&#21487;&#33021;&#33021;&#22815;&#29992;&#26469;&#36861;&#36394;&#20026;&#20160;&#20040;&#38142;&#36335;&#26029;&#25481;&#30340;&#20449;&#24687;&#25110;&#32773;&#33021;&#22815;&#29992;&#26469;&#36861;&#36394;&#22312;&#38142;&#36335;&#26029;&#25481;&#30340;&#26102;&#20505;&#21457;&#29983;&#20102;&#20160;&#20040;&#30340;&#36825;&#26679;&#30340;&#20449;&#24687;&#20445;&#23384;&#22312;&#22312;hw log(&#25110;&#32773;&#20854;&#20182;&#26356;&#21152;&#21512;&#36866;&#30340;&#22320;&#26041;?).
+    </p>
+    <p>
+      &#36825;&#26679;&#30340;&#35805;,&#24403;&#38142;&#36335;&#20877;&#27425;&#36830;&#25509;&#19978;&#30340;&#26102;&#20505;,&#23601;&#33021;&#22815;&#36890;&#36807;&#35835;&#21462;&#20445;&#23384;&#20110;hw log&#20013;&#30340;&#20449;&#24687;&#24471;&#30693;&#19978;&#27425;&#38142;&#36335;&#26029;&#25481;&#26102;&#20445;&#23384;&#30340;&#19968;&#20123;&#20449;&#24687;,&#20174;&#32780;&#21152;&#24555;&#38382;&#39064;&#30340;&#36861;&#36394;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x5e38;&#x7528;&#x7ed3;&#x70b9;&#x96c6;&#x7ed3;&#x5730;" POSITION="left" ID="ID_862698349" CREATED="1361436071773" MODIFIED="1361436081473">
 <node TEXT="RICR&#x7684;delivery&#x6d41;&#x7a0b;" ID="ID_1013750034" CREATED="1361436086563" MODIFIED="1361436114292" LINK="#ID_1891844003"/>
