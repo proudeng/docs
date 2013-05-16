@@ -6514,7 +6514,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="only_send" ID="ID_1485632004" CREATED="1337589162331" MODIFIED="1337592479911">
 <icon BUILTIN="full-1"/>
@@ -6601,7 +6600,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="send_ch_clk_src" ID="ID_1070665597" CREATED="1337589172486" MODIFIED="1367823070129">
@@ -6658,7 +6656,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </ul>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_220457443" MIDDLE_LABEL="&#x5b9e;&#x9645;&#x7684;&#x51fd;&#x6570;" STARTINCLINATION="216;0;" ENDINCLINATION="216;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -6767,7 +6764,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 </node>
 </node>
 </node>
-<node TEXT="&#x5404;&#x79cd;&#x72b6;&#x6001;&#x4e0b;&#x7684;&#x4e2d;&#x65ad;&#x884c;&#x4e3a;&#x7684;&#x914d;&#x7f6e;" ID="ID_1433319575" CREATED="1367823298180" MODIFIED="1367825059860"><richcontent TYPE="NOTE">
+<node TEXT="&#x5404;&#x79cd;&#x72b6;&#x6001;&#x4e0b;&#x7684;&#x4e2d;&#x65ad;&#x884c;&#x4e3a;&#x7684;&#x914d;&#x7f6e;" ID="ID_1433319575" CREATED="1367823298180" MODIFIED="1367981711255"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6775,7 +6772,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </head>
   <body>
     <p>
-      &#36825;&#20010;&#32467;&#28857;&#20013;&#20250;&#26426;&#20013;&#35752;&#35770;&#22312;&#21508;&#31181;&#24773;&#20917;&#19979;,&#21508;&#20010;port&#30340;&#20013;&#26029;&#34892;&#20026;&#26159;&#20160;&#20040;&#26679;&#30340;?
+      &#36825;&#20010;&#32467;&#28857;&#20013;&#20250;&#38598;&#20013;&#35752;&#35770;&#22312;&#21508;&#31181;&#24773;&#20917;&#19979;,&#21508;&#20010;port&#30340;&#20013;&#26029;&#34892;&#20026;&#26159;&#20160;&#20040;&#26679;&#30340;?
     </p>
     <p>
       
@@ -6793,14 +6790,13 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
       PS:
     </p>
     <p>
-      &#25152;&#35859;&#20013;&#26029;&#34892;&#20026;&#30340;&#37197;&#32622;,&#20854;&#23454;&#37197;&#32622;&#30340;&#26159;&quot;<font color="#ff0033" size="4"><b>&#24403;&#19979;&#19968;&#27425;&#36825;&#20010;&#31471;&#21475;&#19978;&#26377;&#20013;&#26029;&#21457;&#29983;&#30340;&#26102;&#20505;,RICR&#20250;&#24590;&#20040;&#20570;</b></font>&quot;
+      &#25152;&#35859;&#20013;&#26029;&#34892;&#20026;&#30340;&#37197;&#32622;,&#20854;&#23454;&#37197;&#32622;&#30340;&#26159;&quot;<font size="4" color="#ff0033"><b>&#24403;&#19979;&#19968;&#27425;&#36825;&#20010;&#31471;&#21475;&#19978;&#26377;&#20013;&#26029;&#21457;&#29983;&#30340;&#26102;&#20505;,RICR&#20250;&#24590;&#20040;&#20570;</b></font>&quot;
     </p>
     <p>
       &#25152;&#20197;&#36825;&#37324;&#25152;&#35859;&#30340;&#37197;&#32622;,&#23454;&#38469;&#19978;&#26159;&#37197;&#32622;&#30340;&#19979;&#19968;&#27425;&#30340;&#20013;&#26029;&#34892;&#20026;
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Master&#x7aef;&#x53e3;" ID="ID_930890106" CREATED="1367823373834" MODIFIED="1367823544296"><richcontent TYPE="NOTE">
 
@@ -6814,7 +6810,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x975e;mixed-mode&#x914d;&#x7f6e;&#x65f6;Slave&#x7aef;&#x53e3;" ID="ID_958598936" CREATED="1367823551350" MODIFIED="1367823808358"><richcontent TYPE="NOTE">
@@ -6837,7 +6832,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7aef;&#x53e3;&#x5904;&#x4e8e;operational&#x72b6;&#x6001;" ID="ID_1421244916" CREATED="1367823650055" MODIFIED="1367824536213"><richcontent TYPE="NOTE">
 
@@ -6851,7 +6845,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x7aef;&#x53e3;&#x5904;&#x4e8e;&#x975e;operational&#x72b6;&#x6001;" ID="ID_1628856244" CREATED="1367823657366" MODIFIED="1367824544605"><richcontent TYPE="NOTE">
@@ -6866,7 +6859,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6885,7 +6877,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6bcf;&#x4e00;&#x6761;&#x94fe;&#x8def;&#x90fd;&#x6ee1;&#x8db3;&#x6700;&#x4f18;&#x72b6;&#x6001;[hfnsync ==1,operational==1,sbit==1]" ID="ID_1607297717" CREATED="1367824110371" MODIFIED="1367824554587">
 <icon BUILTIN="full-1"/>
@@ -6901,10 +6892,9 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="&#x8fbe;&#x4e0d;&#x5230;1&#x7684;&#x6761;&#x4ef6;,&#x4f46;&#x662f;&#x672c;&#x7aef;&#x53e3;operational ==1" ID="ID_1157905125" CREATED="1367824309330" MODIFIED="1367824563164">
+<node TEXT="&#x8fbe;&#x4e0d;&#x5230;1&#x7684;&#x6761;&#x4ef6;,&#x4f46;&#x662f;&#x672c;&#x7aef;&#x53e3;operational ==1" ID="ID_1157905125" CREATED="1367824309330" MODIFIED="1367981721947">
 <icon BUILTIN="full-2"/>
 <richcontent TYPE="NOTE">
 
@@ -6918,7 +6908,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="1&#x8ddf;2&#x7684;&#x6761;&#x4ef6;&#x90fd;&#x8fbe;&#x4e0d;&#x5230;" ID="ID_250056157" CREATED="1367824450506" MODIFIED="1367824569961">
@@ -6935,7 +6924,6 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10319,8 +10307,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1514796674" CREATED="1335180842040" MODIFIED="1335265675712"><richcontent TYPE="NODE">
 
@@ -13533,7 +13521,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5bf9;&#x5e94;&#x4e8e;TF HQ58231,Thomas&#x8981;&#x6c42;&#x8003;&#x8651;&#x53ef;&#x80fd;&#x589e;&#x52a0;CPRI Rev&#x6216;&#x8005;&#x589e;&#x52a0;CPRI&#x63a7;&#x5236;&#x5b57;&#x7528;&#x4e8e;&#x5224;&#x65ad;&#x662f;&#x5426;&#x4e00;&#x76f4;&#x6253;&#x5f00;TX" ID="ID_141385985" CREATED="1366787177366" MODIFIED="1367461727802"><richcontent TYPE="NOTE">
+<node TEXT="&#x5bf9;&#x5e94;&#x4e8e;TF HQ58231,Thomas&#x8981;&#x6c42;&#x8003;&#x8651;&#x53ef;&#x80fd;&#x589e;&#x52a0;CPRI Rev&#x6216;&#x8005;&#x589e;&#x52a0;CPRI&#x63a7;&#x5236;&#x5b57;&#x7528;&#x4e8e;&#x5224;&#x65ad;&#x662f;&#x5426;&#x4e00;&#x76f4;&#x6253;&#x5f00;TX" ID="ID_141385985" CREATED="1366787177366" MODIFIED="1368166176809"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -13541,13 +13529,19 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </head>
   <body>
     <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
       &#36825;&#20010;&#33021;&#21542;&#20316;&#20026;&#19968;&#20010;NPI&#21602;,&#36824;&#26159;&#20316;&#20026;&#19968;&#20010;CR?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      &#24456;&#22823;&#21487;&#33021;&#19978;,&#36825;&#20010;&#19996;&#35199;&#26159;&#19981;&#20250;&#20316;&#20026;NPI&#20986;&#29616;&#30340;.&#25913;&#21160;&#38750;&#24120;&#30340;&#26126;&#26174;,&#28041;&#21450;&#21040;CPRI&#29256;&#26412;&#30340;&#26356;&#26032;.
+    </p>
+    <p>
+      &#21015;&#22312;&#36825;&#37324;,&#21482;&#26159;&#20316;&#20026;&#19968;&#20010;&#21487;&#36935;&#35265;&#30340;&#25913;&#21160;,&#22914;&#26524;&#20915;&#23450;&#19981;&#25913;&#30340;&#35805;,&#25105;&#20204;&#21487;&#20197;&#20316;&#20026;&#19968;&#20010;NPI&#25552;&#20986;&#26469;.
     </p>
   </body>
 </html>
@@ -13580,6 +13574,65 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
     <p>
       &#36825;&#26679;&#30340;&#35805;,&#24403;&#38142;&#36335;&#20877;&#27425;&#36830;&#25509;&#19978;&#30340;&#26102;&#20505;,&#23601;&#33021;&#22815;&#36890;&#36807;&#35835;&#21462;&#20445;&#23384;&#20110;hw log&#20013;&#30340;&#20449;&#24687;&#24471;&#30693;&#19978;&#27425;&#38142;&#36335;&#26029;&#25481;&#26102;&#20445;&#23384;&#30340;&#19968;&#20123;&#20449;&#24687;,&#20174;&#32780;&#21152;&#24555;&#38382;&#39064;&#30340;&#36861;&#36394;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x53d1;&#x9001;&#x7ed9;Radio SW&#x7684;status indication&#x53ef;&#x4ee5;&#x7cbe;&#x7b80;" ID="ID_718572814" CREATED="1368083341845" MODIFIED="1368492402887"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26681;&#25454;Radio&#30340;&#36755;&#20837;:
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <font face="Calibri,sans-serif" size="11.0pt" color="#1F497D">&quot;As stated below, radio SW only needs to know when the CPRI link goes OFF and ON. The ON state corresponds to hfnSync=linkOperational=syncBit=1 while other combinations render link OFF. The other parameters in the UPDATE_IND are also necessary.<o p="#DEFAULT"></o>&quot; </font>
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      Radio&#30340;&#20154;&#38656;&#35201;&#36825;&#20010;&#25913;&#36827;,&#20294;&#26159;&#21516;&#26102;,&#36825;&#20010;&#25913;&#36827;&#38656;&#35201;Radio&#37027;&#36793;&#20063;&#25913;&#19981;&#23569;&#30340;&#20195;&#30721;,&#25152;&#20197;&#26242;&#26102;&#20808;&#25918;&#19968;&#25918;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x53d1;&#x9001;&#x7ed9;Radio SW&#x7684;status indication&#x53ef;&#x4ee5;&#x4f18;&#x5316;" ID="ID_1308795887" CREATED="1368155404324" MODIFIED="1368155614697" LINK="../MiscDocuments/RE%20Reporting%20link%20status%20changes%20RICR-radio%20SW.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#20197;&#21442;&#32771;&#38468;&#20214;&#20013;&#21015;&#20986;&#26469;&#30340;case.
+    </p>
+    <p>
+      &#22312;&#25105;&#20204;&#21457;&#36865;&#32473;Radio SW&#30340;status indication&#28040;&#24687;&#20013;,&#25105;&#20204;&#21487;&#20197;&#20027;&#21160;&#30340;&#20570;&#19968;&#20123;&#36923;&#36753;&#21028;&#26029;,&#32780;&#19981;&#26159;&#20165;&#20165;&#31616;&#31616;&#21333;&#21333;&#30340;&#23558;&#20174;FPGA&#20013;&#35835;&#20986;&#26469;&#30340;&#20540;&#21333;&#32431;&#30340;&#19978;&#25253;.
+    </p>
+    <p>
+      &#22312;&#26576;&#20123;&#24773;&#20917;&#19979;,&#23545;&#20110;&#20102;&#35299;&#38142;&#36335;&#30340;&#30495;&#23454;&#29366;&#24577;&#26159;&#26377;&#24110;&#21161;&#30340;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19981;&#36807;,&#36825;&#20010;&#25913;&#21160;&#21487;&#20197;&#20316;&#20026;NPI&#20040;?&#20197;&#20160;&#20040;&#29702;&#30001;&#21602;?HW&#30340;&#32570;&#38519;?
     </p>
   </body>
 </html>
@@ -19717,6 +19770,16 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1944356813" STARTINCLINATION="646;0;" ENDINCLINATION="646;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
+<node TEXT="[RICR]TR-HR33557&#x5b9e;&#x73b0;" POSITION="right" ID="ID_1278874737" CREATED="1368694621259" MODIFIED="1368694632819">
+<node TEXT="&#x8ba8;&#x8bba;&#x8fc7;&#x7a0b;&#x548c;&#x7ed3;&#x679c;" ID="ID_1757811043" CREATED="1368694637857" MODIFIED="1368694647172">
+<node TEXT="&#x8ba8;&#x8bba;" ID="ID_674662461" CREATED="1368694738771" MODIFIED="1368694780182" LINK="../MiscDocuments/RE%20about%20TR%20HR33557.msg"/>
+<node TEXT="disable SFP monitor" ID="ID_864347475" CREATED="1368694745461" MODIFIED="1368694788014" LINK="../MiscDocuments/RE%20about%20TR%20HR33557_2.msg"/>
+</node>
+<node TEXT="&#x95ee;&#x9898;&#x8868;&#x73b0;,log&#x5206;&#x6790;" ID="ID_1917258756" CREATED="1368694796377" MODIFIED="1368694806538">
+<node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_132214807" CREATED="1368694849739" MODIFIED="1368694872894" LINK="../MiscDocuments/timing_1_commented.png"/>
+<node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_434248434" CREATED="1368694851305" MODIFIED="1368694882502" LINK="../MiscDocuments/timing_2_commented.png"/>
+</node>
+</node>
 <node TEXT="[RICR]&#x66f4;&#x65b0;RIHI&#x63a5;&#x53e3;&#x7684;Doxygen&#x6587;&#x6863;" POSITION="right" ID="ID_1109704318" CREATED="1359012659296" MODIFIED="1359013064020"><richcontent TYPE="NOTE">
 
 <html>
@@ -22536,7 +22599,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 <node TEXT="CYB&#x6807;&#x7b7e;" ID="ID_1560708027" CREATED="1338388427619" MODIFIED="1338388431580"/>
 </node>
 </node>
-<node TEXT="HALI2&#x67b6;&#x6784;&#x4e0b;&#x5982;&#x4f55;&#x7f16;&#x8bd1;lib/LMC" ID="ID_1755998622" CREATED="1355311920709" MODIFIED="1364289344062"><richcontent TYPE="NOTE">
+<node TEXT="HALI2&#x67b6;&#x6784;&#x4e0b;&#x5982;&#x4f55;&#x7f16;&#x8bd1;lib/LMC" ID="ID_1755998622" CREATED="1355311920709" MODIFIED="1368510985908"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -22566,13 +22629,13 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
     <ol>
       <li>
-        <b><font color="#990099">&#32534;&#35793;libricr.a </font></b>
+        <font color="#990099"><b>&#32534;&#35793;libricr.a </b></font>
       </li>
       <li>
-        <b><font color="#990099">&#32534;&#35793;libhricr.a </font></b>
+        <font color="#990099"><b>&#32534;&#35793;libhricr.a </b></font>
       </li>
       <li>
-        <b><font color="#990099">&#22522;&#20110;&#32534;&#35793;&#20986;&#26469;&#30340;libricr.a&#24211;&#21644;libhricr.a&#24211;,&#25509;&#30528;&#32534;&#35793;test application</font>&#160;</b>
+        <font color="#990099"><b>&#22522;&#20110;&#32534;&#35793;&#20986;&#26469;&#30340;libricr.a&#24211;&#21644;libhricr.a&#24211;,&#25509;&#30528;&#32534;&#35793;test application</b></font><b>&#160;</b>
       </li>
     </ol>
     <p>
@@ -22585,7 +22648,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       
     </p>
     <p>
-      <b><font color="#000099">cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/ricr/make</font></b>
+      <font color="#000099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/ricr/make</b></font>
     </p>
     <p>
       &#19981;&#24102;&#20219;&#20309;&#21442;&#25968;&#25191;&#34892;make&#21629;&#20196;,&#21487;&#20197;&#26597;&#30475;make&#30340;&#36873;&#39033;.
@@ -22594,13 +22657,13 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#19968;&#33324;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#21363;&#21487;&#32534;&#35793;libricr.a,&#32780;&#19981;&#38656;&#35201;&#35937;classic&#30340;RICR&#19968;&#26679;&#23545;&#20110;&#19981;&#21516;&#30828;&#20214;&#24179;&#21488;,&#32534;&#35793;&#19981;&#21516;&#30340;libricr.a&#24211;:
     </p>
     <p>
-      <b><font color="#000099">make clean;make libclean;make lib</font></b>
+      <font color="#000099"><b>make clean;make libclean;make lib</b></font>
     </p>
     <p>
       &#32534;&#35793;&#20986;&#30340;lib&#24211;libricr.a&#23384;&#25918;&#22312;&#19979;&#38754;&#30340;&#36335;&#24452;&#20013;:
     </p>
     <p>
-      <b><font color="#000099">/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/ricr/obj/target/common</font></b>
+      <font color="#000099"><b>/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/ricr/obj/target/common</b></font>
     </p>
     <p>
       
@@ -22612,7 +22675,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       
     </p>
     <p>
-      <b><font color="#000099">cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/make</font></b>
+      <font color="#000099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/make</b></font>
     </p>
     <p>
       &#19981;&#24102;&#20219;&#20309;&#21442;&#25968;&#25191;&#34892;make&#21629;&#20196;,&#21487;&#20197;&#26597;&#30475;make&#30340;&#36873;&#39033;.&#27880;&#24847;,&#32534;&#35793;libhricr.a&#30340;&#26102;&#20505;,&#23601;&#38656;&#35201;&#23545;&#24212;&#20110;&#19981;&#21516;&#30340;&#36719;&#20214;&#24179;&#21488;,&#20998;&#21035;&#32534;&#35793;&#20986;&#21508;&#33258;&#30340;libhricr.a&#20102;.
@@ -22621,13 +22684,13 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#20998;&#21035;&#32534;&#35793;&#20986;AUM2E&#24179;&#21488;/WARP3&amp;3.5&#24179;&#21488;/HOST&#24179;&#21488;&#19978;&#20351;&#29992;&#30340;libhricr.a&#24211;(&#24403;&#28982;&#20063;&#21487;&#20197;&#36873;&#25321;&#21482;&#32534;&#35793;&#33258;&#24049;&#38656;&#35201;&#30340;&#24211;,&#19981;&#29992;&#20840;&#37096;&#37117;&#32534;&#35793;):
     </p>
     <p>
-      <b><font color="#000099">make clean;make aclean;make alib </font></b>
+      <font color="#000099"><b>make clean;make aclean;make alib </b></font>
     </p>
     <p>
-      <b><font color="#000099">make clean;make wclean;make wlib </font></b>
+      <font color="#000099"><b>make clean;make wclean;make wlib </b></font>
     </p>
     <p>
-      <b><font color="#000099">make clean;make sclean;make slib</font></b>
+      <font color="#000099"><b>make clean;make sclean;make slib</b></font>
     </p>
     <p>
       
@@ -22636,7 +22699,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#32534;&#35793;&#20986;&#30340;lib&#24211;&#23384;&#25918;&#22312;&#19979;&#38754;&#30340;&#30446;&#24405;&#20013;,&#19981;&#21516;&#30340;&#30828;&#20214;&#23384;&#25918;&#20110;&#21508;&#33258;&#30340;&#30446;&#24405;&#20013;:
     </p>
     <p>
-      <b><font color="#000099">/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/obj/target</font></b>
+      <font color="#000099"><b>/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/obj/target</b></font>
     </p>
     <p>
       
@@ -22648,7 +22711,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       
     </p>
     <p>
-      <b><font color="#000099">cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/test/app/make</font></b>
+      <font color="#000099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/test/app/make</b></font>
     </p>
     <p>
       &#19981;&#24102;&#20219;&#20309;&#21442;&#25968;&#25191;&#34892;make&#21629;&#20196;,&#21487;&#20197;&#26597;&#30475;make&#30340;&#36873;&#39033;.
@@ -22660,37 +22723,37 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#19968;&#33324;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#20998;&#21035;&#32534;&#35793;AUM2E/WARP3/aum2e-RRUS&#19979;&#30340;test application(&#27599;&#31181;&#30828;&#20214;&#31867;&#22411;&#19978;&#30340;test application&#21448;&#20998;AUBOOT&#21644;APPLIC&#20004;&#31181;LMC&#31867;&#22411;):
     </p>
     <p>
-      <b><font color="#ff0000">AUM2E:</font></b>
+      <font color="#ff0000"><b>AUM2E:</b></font>
     </p>
     <p>
-      <b><font color="#000099">make clean;make xclean;make xlfclean;make make aapp; </font></b>
+      <font color="#000099"><b>make clean;make xclean;make xlfclean;make&#160;&#160;aapp; </b></font>
     </p>
     <p>
-      <b><font color="#000099">make clean;make xclean;make xlfclean;make make aaub;</font></b>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <b><font color="#ff0000">WARP3/WARP3.5:</font></b>
-    </p>
-    <p>
-      <b><font color="#000099">make clean;make xclean;make xlfclean;make make wapp; </font></b>
-    </p>
-    <p>
-      <b><font color="#000099">make clean;make xclean;make xlfclean;make make waub; </font></b>
+      <font color="#000099"><b>make clean;make xclean;make xlfclean;make&#160;&#160;aaub;</b></font>
     </p>
     <p>
       
     </p>
     <p>
-      <b><font color="#ff0000">AUM2E-RRUS:</font></b>
+      <font color="#ff0000"><b>WARP3/WARP3.5:</b></font>
     </p>
     <p>
-      <b><font color="#000099">make clean;make xclean;make xlfclean;make make sapp; </font></b>
+      <font color="#000099"><b>make clean;make xclean;make xlfclean;make&#160;&#160;wapp; </b></font>
     </p>
     <p>
-      <b><font color="#000099">make clean;make xclean;make xlfclean;make make waub;</font></b>
+      <font color="#000099"><b>make clean;make xclean;make xlfclean;make&#160;&#160;waub; </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000"><b>AUM2E-RRUS:</b></font>
+    </p>
+    <p>
+      <font color="#000099"><b>make clean;make xclean;make xlfclean;make&#160;&#160;sapp; </b></font>
+    </p>
+    <p>
+      <font color="#000099"><b>make clean;make xclean;make xlfclean;make&#160;&#160;waub;</b></font>
     </p>
     <p>
       
@@ -22699,10 +22762,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#29983;&#25104;&#30340;xlf&#25991;&#20214;&#23384;&#25918;&#20110;&#19979;&#38754;&#30340;&#36335;&#24452;&#20013;,&#25353;&#29031;&#30828;&#20214;&#31867;&#22411;,&#20998;&#30446;&#24405;&#23384;&#25918;:
     </p>
     <p>
-      <b><font color="#000099">/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/test/app/obj/target</font></b>
-    </p>
-    <p>
-      
+      <font color="#000099"><b>/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/test/app/obj/target</b></font>
     </p>
     <p>
       
@@ -22733,6 +22793,46 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </html>
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1721296764" STARTINCLINATION="205;0;" ENDINCLINATION="205;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="&#x7f16;&#x8bd1;&#x5931;&#x8d25;&#x5904;&#x7406;" ID="ID_218661711" CREATED="1368520560693" MODIFIED="1368520566363">
+<node TEXT="case1" ID="ID_267728583" CREATED="1368520568689" MODIFIED="1368520672315"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      <i>/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/../tools/ccd-gcc -c -g -O2 -Wall -Wextra -std=c99 -mcpu=powerpc -msoft-float -mstrict-align -mtune=powerpc -msdata=none -G 0 -finline-limit=300 -fstrict-aliasing -fno-omit-frame-pointer -fno-schedule-insns -fno-schedule-insns2 -mmultiple -mstring&#160;&#160;-pedantic -Wno-long-long -DOS_DEBUG&#160;&#160;-DPPC -DOSE_DELTA -DXAMPLE -DINLINE=__inline__ -DBIG_ENDIAN -DWORKAROUND=0x2&#160;&#160; -I/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/hwif/inc -I/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/../shared/sw/inc -I/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/inc -I/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/config/inc -I/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/common/inc -I/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/control/inc -I/vobs/rbs/hw/cbd_common/deliv/ifu/hricrai/inc -I/vobs/rbs/hw/cbd_common/deliv/ifu/rihi/inc -I/vobs/rbs/hw/bcp/xp/deliv/XPAI4/inc -I/vobs/rbs/hw/bcp/xp/deliv/XDAI2/inc -I/vobs/rbs/hw/ru_deliveries/fpga/com_ctrl/inc -I/vobs/rbs/hw/ru_deliveries/asic/warp3 -I/vobs/rbs/hw/ru_deliveries/asic/warp3.5 -I/vobs/rbs/hw/xmu/alcor/regmap -I/vobs/crbs/clib/sigBaseBl/sigBaseIfU/inc -I/vobs/rbs/sw/blib/blibss/blibsigbasendlu/src -I/vobs/wds/ose5/OSE5.3.1/include -I/vobs/wds/ose5/OSE5.3.1/include/ose_spi -I/vobs/wds/ose5/OSE5.3.1/include/ose_spi/powerpc -I/vobs/wds/ose5/OSE5.3.1/include/ose_err -I/vobs/wds/ose5/OSE5.3.1/include/ose4 -I/vobs/wds/ose5/OSE5.3.1/include/zlib&#160;&#160;-o /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/control/src/nci_control.o /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/control/src/nci_control.c </i>
+    </p>
+    <p>
+      <i><font color="#ff0033">nci_control.c: In function `fast_sw_clk_src':</font> </i>
+    </p>
+    <p>
+      <i><font color="#ff0033">nci_control.c:561: error: union has no member named `rihiInterruptInd'</font> </i>
+    </p>
+    <p>
+      <i><font color="#ff0033">make: *** [/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/sw/control/src/nci_control.o] Error 1 </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#21457;&#29983;&#20102;&#19978;&#38754;&#30340;&#38169;&#35823;&#30340;&#35805;,&#25105;&#30340;&#32463;&#39564;&#26159;,&#25442;&#19968;&#20010;view&#37325;&#26032;&#20570;&#23601;&#22909;&#20102;.
+    </p>
+    <p>
+      &#22909;&#20687;&#25105;&#22312;edenjun_ricr_hali2&#36825;&#20010;view&#20013;,&#24635;&#26159;&#19981;&#34892;.&#25442;&#19968;&#20010;&#26032;&#30340;view&#23601;&#21487;&#20197;&#20102;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="&#x5982;&#x4f55;&#x5c06;load&#x9009;&#x4e2d;&#x7684;LMC&#x5230;RU&#x4e0a;&#x53bb;?" ID="ID_1605166126" CREATED="1347527119769" MODIFIED="1347527143776">
@@ -25124,6 +25224,90 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 <node TEXT="&#x5bf9;&#x4e8e;&#x6539;&#x52a8;&#x4ee3;&#x7801;&#x7684;TR,&#x5982;&#x4f55;&#x5728;Mhweb&#x4e0a;&#x8d70;&#x6d41;&#x7a0b;" ID="ID_1224161569" CREATED="1362623321275" MODIFIED="1362623375988">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_482627652" STARTINCLINATION="78;0;" ENDINCLINATION="78;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
+<node TEXT="&#x5bf9;&#x4e8e;RICR&#x7684;TR,&#x5904;&#x7406;&#x65f6;&#x5982;&#x4f55;&#x6253;&#x5f00;trace" ID="ID_490942768" CREATED="1368075857884" MODIFIED="1368076457049"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26377;&#26102;&#20505;&#22312;&#22788;&#29702;TR&#30340;&#26102;&#20505;,&#37325;&#29616;&#38382;&#39064;&#30340;&#26102;&#20505;,&#38656;&#35201;&#25235;&#21462;log.
+    </p>
+    <p>
+      &#40664;&#35748;&#30340;trace&#24456;&#26377;&#21487;&#33021;&#26159;&#19981;&#22815;&#30340;,&#37027;&#20040;&#25105;&#20204;&#38656;&#35201;&#24320;&#19968;&#20123;&#39069;&#22806;&#30340;trace&#26469;&#24110;&#25105;&#36741;&#21161;&#20998;&#26512;&#38382;&#39064;.
+    </p>
+    <p>
+      &#36825;&#20010;&#32467;&#28857;&#29992;&#20110;&#23567;&#32467;&#19968;&#19979;&#36890;&#24120;&#24773;&#20917;&#19979;,&#22312;RICR&#20013;&#25105;&#20204;&#38656;&#35201;&#24320;&#30340;trace.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x901a;&#x5e38;&#x5728;&#x94fe;&#x8def;&#x51fa;&#x73b0;&#x95ee;&#x9898;&#x7684;&#x65f6;&#x5019;" ID="ID_1722734074" CREATED="1368075887499" MODIFIED="1368076098182"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;&#19968;&#33324;&#30340;Radio&#32780;&#35328;,&#19968;&#20010;RU&#19978;&#20250;&#26377;&#20004;&#20010;&#31471;&#21475;.
+    </p>
+    <p>
+      &#26576;&#20010;&#31471;&#21475;&#19978;&#30340;&#38142;&#36335;&#20986;&#29616;&#38382;&#39064;&#30340;&#26102;&#20505;,&#21487;&#20197;&#30456;&#24212;&#30340;&#25171;&#24320;&#23545;&#24212;&#38142;&#36335;&#36827;&#31243;&#30340;log
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#26159;port0&#30340;&#35805;,&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;trace2,trace9&#25171;&#24320;:
+    </p>
+    <p>
+      <font size="4" color="#0000ff"><b>te e trace2 trace9 RICR_sup_link_0</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#26159;port1&#30340;&#35805;,&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;trace2,trace9&#25171;&#24320;:
+    </p>
+    <p>
+      <b><font size="4" color="#0000ff">te e trace2 trace9 RICR_sup_link_1</font></b>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5982;&#x679c;&#x9700;&#x8981;&#x8ffd;&#x8e2a;RICI&#x6d88;&#x606f;&#x4ea4;&#x4e92;&#x7684;log" ID="ID_1325166595" CREATED="1368075914191" MODIFIED="1368076363724"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26377;&#26102;&#20505;,&#22914;&#26524;&#38656;&#35201;&#25171;&#24320;log&#21435;&#26597;&#30475;RICR&#36319;RICM&#20043;&#38388;RICI&#28040;&#24687;&#20132;&#20114;&#30340;&#36807;&#31243;&#30340;&#35805;,&#21487;&#20197;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#20854;&#25171;&#24320;.
+    </p>
+    <p>
+      (&#22312;&#40664;&#35748;&#30340;&#24773;&#20917;&#19979;,&#22312;RICR&#20013;,&#20851;&#20110;&#25509;&#25910;&#21644;&#21457;&#36865;&#30340;RICI&#30340;&#28040;&#24687;,&#26159;&#19981;&#20250;&#22312;log&#37324;&#38754;&#25171;&#21360;&#20986;&#26469;&#30340;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#0000ff"><b>te e rec_sig send_sig param RICR</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="&#x4fbf;&#x6377;&#x547d;&#x4ee4;(SHELL/CC command)" ID="ID_1466485032" CREATED="1355394369729" MODIFIED="1357638887808">
 <node TEXT="clearcase&#x4e2d;checkin&#x5f53;&#x524d;&#x76ee;&#x5f55;&#x4e0b;&#x6240;&#x6709;&#x7684;checkout&#x7684;&#x6587;&#x4ef6;" ID="ID_64238629" CREATED="1355394376607" MODIFIED="1363591150778"><richcontent TYPE="NOTE">
@@ -25267,6 +25451,9 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;" ID="ID_711392709" CREATED="1368495751704" MODIFIED="1368495946408">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_525544350" MIDDLE_LABEL="&#x53c2;&#x8003;&#x6307;&#x5411;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="200;0;" ENDINCLINATION="200;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="edenjun&#x7535;&#x8bdd;&#x4f1a;&#x8bae;&#x53f7;&#x7801;" ID="ID_9166575" CREATED="1357128936050" MODIFIED="1359960319014"><richcontent TYPE="NOTE">
@@ -25548,21 +25735,21 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;(&#x4fdd;&#x7559;&#x6e90;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;)" ID="ID_525544350" CREATED="1354902309590" MODIFIED="1358179302328"><richcontent TYPE="NOTE">
+<node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;(&#x4fdd;&#x7559;&#x6e90;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;)" ID="ID_525544350" CREATED="1354902309590" MODIFIED="1368496243141"><richcontent TYPE="NOTE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p lang="zh-CN" style="margin-bottom: 0in; font-family: Calibri; margin-top: 0in; margin-right: 0in; font-size: 11.0pt; margin-left: 0in">
+    <p style="font-family: Calibri; margin-top: 0in; margin-bottom: 0in; font-size: 11.0pt; margin-right: 0in; margin-left: 0in" lang="zh-CN">
       &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#26631;&#31614;RICR_6.0.1&#21644;RICR_6.0.2&#20043;&#38388;&#21464;&#21160;&#30340;&#25991;&#20214;&#37117;&#25214;&#20986;&#26469;,&#28982;&#21518;&#25171;&#25104;&#19968;&#20010;tar&#21387;&#32553;&#21253;,&#21517;&#23383;&#21483;&#20570;ricr_swu.tar.
     </p>
-    <p lang="zh-CN" style="margin-bottom: 0in; font-family: Calibri; margin-top: 0in; font-size: 11.0pt; margin-right: 0in; margin-left: 0in">
+    <p style="font-family: Calibri; margin-top: 0in; font-size: 11.0pt; margin-bottom: 0in; margin-right: 0in; margin-left: 0in" lang="zh-CN">
       
     </p>
-    <p lang="zh-CN" style="margin-bottom: 0in; font-family: Calibri; margin-top: 0in; font-size: 11.0pt; margin-right: 0in; margin-left: 0in">
-      <font size="4" face="Arial" color="#660066"><b>tar cvf ricr_swu.tar `cleartool find . -version &quot;lbtype(RICR_6.0.2) &amp;&amp;! lbtype(RICR_6.0.1)&quot; -print | cut -d@ -f1`</b></font>
+    <p style="font-family: Calibri; margin-top: 0in; font-size: 11.0pt; margin-bottom: 0in; margin-right: 0in; margin-left: 0in" lang="zh-CN">
+      <b><font face="Arial" size="4" color="#660066">tar cvf ricr_swu.tar `cleartool find . -version &quot;lbtype(RICR_6.0.2) &amp;&amp;! lbtype(RICR_6.0.1)&quot; -print | cut -d@ -f1`</font></b>
     </p>
     <p>
       
@@ -25574,7 +25761,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       
     </p>
     <p>
-      <font size="4" face="Arial" color="#660066"><b>ct find . -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -print | awk -F@ '{print $1}' | xargs tar -cvf ricr_swu.tar </b></font>
+      <b><font face="Arial" size="4" color="#660066">ct find . -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -print | awk -F@ '{print $1}' | xargs tar -cvf ricr_swu.tar </font></b>
     </p>
     <p>
       
@@ -25590,9 +25777,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
     <p>
       &#28982;&#21518;&#23558;&#25171;&#21253;&#25991;&#20214;&#25335;&#36125;&#21040;&#26412;&#22320;&#35299;&#21387;&#32553;(&#30446;&#24405;&#19968;&#23450;&#35201;&#23545;&#40784;),&#25913;&#21160;&#30340;&#25991;&#20214;&#23601;&#20250;&#33258;&#21160;&#30340;&#34987;&#26356;&#26032;&#20102;(&#24403;&#28982;&#20250;&#38656;&#35201;&#19968;&#20010;&#20010;&#30340;&#25353;&#30830;&#23450;)
-    </p>
-    <p>
-      
     </p>
     <p>
       
