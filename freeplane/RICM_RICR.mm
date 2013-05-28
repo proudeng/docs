@@ -8925,7 +8925,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7ed3;&#x8bba;" ID="ID_525247247" CREATED="1339990231342" MODIFIED="1339992950691"><richcontent TYPE="NOTE">
+<node TEXT="&#x7ed3;&#x8bba;" ID="ID_525247247" CREATED="1339990231342" MODIFIED="1369711437861"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8940,14 +8940,14 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
         set_clock_quality()
       </li>
       <li>
-        update_clock_quality()
+        update_clock_source()
       </li>
     </ul>
     <p>
       &#32780;set_clock_quality()&#20989;&#25968;&#21482;&#22312;RICR&#20027;&#36827;&#31243;&#22312;&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#34987;&#35843;&#29992;&#19968;&#27425;.&#23558;&#25152;&#26377;&#30340;link&#30340;clock quality&#37117;&#21021;&#22987;&#21270;&#20026;NO_GOOD.&#20854;&#20182;&#30340;&#22330;&#21512;&#36825;&#20010;&#20989;&#25968;&#37117;&#27809;&#26377;&#34987;&#35843;&#29992;.
     </p>
     <p>
-      &#25152;&#20197;&#20027;&#35201;&#30340;&#23545;clock quality&#30340;&#26356;&#25913;,&#20027;&#35201;&#26159;&#22312;update_clock_quality()&#20989;&#25968;&#20013;&#36827;&#34892;&#30340;.
+      &#25152;&#20197;&#20027;&#35201;&#30340;&#23545;clock quality&#30340;&#26356;&#25913;,&#20027;&#35201;&#26159;&#22312;update_clock_source()&#20989;&#25968;&#20013;&#36827;&#34892;&#30340;.
     </p>
     <p>
       
@@ -8963,16 +8963,16 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
     </p>
     <ul>
       <li>
-        &#38142;&#36335;&#22788;&#20110;<b><font color="#ff0033">DOWN</font></b>&#29366;&#24577;,clock quality&#30340;&#20540;&#20026;<b><font color="#0000ff">NO_GOOD</font></b>
+        &#38142;&#36335;&#22788;&#20110;<b><font color="#ff0033">DOWN</font></b>&#29366;&#24577;,clock quality&#30340;&#20540;&#20026;<font color="#0000ff"><b>NO_GOOD</b></font>
       </li>
       <li>
-        &#38142;&#36335;&#22788;&#20110;<b><font color="#ff0033">HFNSYNC</font></b>&#29366;&#24577;,clock quality&#30340;&#20540;&#20026;<b><font color="#0000ff">HFNSYNC</font></b>
+        &#38142;&#36335;&#22788;&#20110;<font color="#ff0033"><b>HFNSYNC</b></font>&#29366;&#24577;,clock quality&#30340;&#20540;&#20026;<font color="#0000ff"><b>HFNSYNC</b></font>
       </li>
       <li>
-        &#38142;&#36335;&#22788;&#20110;<b><font color="#ff0033">OPERATIONAL</font></b>&#29366;&#24577;,clock quality&#30340;&#20540;&#20026;<b><font color="#0000ff">OPERATIONAL</font></b>
+        &#38142;&#36335;&#22788;&#20110;<font color="#ff0033"><b>OPERATIONAL</b></font>&#29366;&#24577;,clock quality&#30340;&#20540;&#20026;<font color="#0000ff"><b>OPERATIONAL</b></font>
       </li>
       <li>
-        &#38142;&#36335;&#22788;&#20110;<b><font color="#ff0033">OPERATIONAL</font></b>&#29366;&#24577;,&#19988;&#38142;&#36335;&#19978;<b><font color="#ff0033">S-bit</font></b>&#23384;&#22312;,&#21017;clock quality&#30340;&#20540;&#20026;<b><font color="#0000ff">SBIT</font></b>
+        &#38142;&#36335;&#22788;&#20110;<font color="#ff0033"><b>OPERATIONAL</b></font>&#29366;&#24577;,&#19988;&#38142;&#36335;&#19978;<font color="#ff0033"><b>S-bit</b></font>&#23384;&#22312;,&#21017;clock quality&#30340;&#20540;&#20026;<font color="#0000ff"><b>SBIT</b></font>
       </li>
     </ul>
   </body>
@@ -10673,9 +10673,9 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1020581049" CREATED="1335178561878" MODIFIED="1335265048012" HGAP="37" VSHIFT="63"><richcontent TYPE="NODE">
 
@@ -13637,6 +13637,54 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="Reduce RIHI &#x6d88;&#x606f;&#x7684;&#x4ea4;&#x4e92;" ID="ID_1417574947" CREATED="1369752005798" MODIFIED="1369752146594"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21457;&#29616;&#22312;RICR&#30340;&#20195;&#30721;&#20013;,&#23384;&#22312;&#30528;&#22823;&#37327;&#30340;RIHI signal&#30340;&#20132;&#20114;.&#36825;&#26159;&#24403;&#26102;&#36719;&#20214;&#35774;&#35745;&#26102;&#30340;&#24605;&#36335;,&#27809;&#27861;&#36991;&#20813;
+    </p>
+    <p>
+      &#20294;&#26159;,signal&#20132;&#20114;&#27605;&#31455;&#20250;&#23545;&#24615;&#33021;&#26377;&#25152;&#24433;&#21709;.
+    </p>
+    <p>
+      &#32780;&#19988;&#21457;&#29616;&#22312;&#20195;&#30721;&#20013;,&#26377;&#19968;&#20123;RIHI signal&#30340;&#20132;&#20114;,&#26159;&#27809;&#26377;&#24517;&#35201;&#30340;,&#23436;&#20840;&#21487;&#20197;&#22312;RICR&#37096;&#20998;&#36890;&#36807;&#36923;&#36753;&#21028;&#26029;&#32473;&#36807;&#28388;&#25481;.
+    </p>
+    <p>
+      &#36825;&#20010;node&#19978;,&#23601;&#26159;&#20570;&#36825;&#20040;&#26679;&#30340;&#19968;&#20010;&#23567;&#32467;.&#25214;&#20986;&#26377;&#21738;&#20123;&#22320;&#26041;&#33021;&#22815;&#20570;&#36825;&#26679;&#30340;&#19968;&#20010;&#36807;&#28388;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="update_clock_source()&#x51fd;&#x6570;" ID="ID_1919463137" CREATED="1369752156506" MODIFIED="1369752404132"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#20989;&#25968;&#22312;&#26368;&#32456;&#35843;&#29992;rihi_set_clock_source()&#20043;&#21069;,&#23436;&#20840;&#21487;&#20197;&#20808;&#21028;&#26029;&#19968;&#19979;&#38656;&#19981;&#38656;&#35201;&#26356;&#26032;clock source,&#22914;&#26524;clock source&#26681;&#26412;&#23601;&#27809;&#26377;&#25913;&#21464;,&#37027;&#20040;&#23601;&#27809;&#26377;&#24517;&#35201;&#35843;&#29992;&#36825;&#20010;&#20989;&#25968;&#20102;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      update:
+    </p>
+    <p>
+      &#19978;&#38754;&#30340;&#35770;&#36848;&#19981;&#25104;&#31435;.&#27492;&#22788;&#26159;&#27809;&#27861;&#36991;&#20813;&#30340;,&#36824;&#26159;&#38656;&#35201;&#35843;&#29992;&#36825;&#20010;rihi&#25509;&#21475;&#30340;&#20989;&#25968;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="&#x5e38;&#x7528;&#x7ed3;&#x70b9;&#x96c6;&#x7ed3;&#x5730;" POSITION="left" ID="ID_862698349" CREATED="1361436071773" MODIFIED="1361436081473">
@@ -24362,7 +24410,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_344425218" MIDDLE_LABEL="&#x66f4;&#x65b0;baseline" STARTINCLINATION="215;0;" ENDINCLINATION="215;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x4e4b;&#x524d;&#x8bb0;&#x5f55;&#x7684;&#x4e00;&#x4e9b;&#x6ce8;&#x610f;&#x4e8b;&#x9879;" ID="ID_986678720" CREATED="1362358955646" MODIFIED="1362358996651" LINK="../MiscDocuments/RICR_delivery_&#x6ce8;&#x610f;&#x70b9;.txt"/>
@@ -25445,7 +25492,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5f3a;&#x5927;&#x7684;clearcase find&#x547d;&#x4ee4;" ID="ID_1142545559" CREATED="1356623343989" MODIFIED="1356624624642"><richcontent TYPE="NOTE">
+<node TEXT="&#x5f3a;&#x5927;&#x7684;clearcase find&#x547d;&#x4ee4;" ID="ID_1142545559" CREATED="1356623343989" MODIFIED="1369709164227"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -25478,6 +25525,27 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
         $CLEARCASE_XPN --&gt;&#36825;&#20010;&#34920;&#31034;find&#23547;&#25214;&#20986;&#26469;&#30340;&#25991;&#20214;&#21517;,&#26159;&#20840;&#21517;&#23601;&#26159;pathname&#21518;&#38754;&#36824;&#26377;@@/main/xxx/yyy&#20043;&#31867;&#30340;.&#34920;&#31034;&#29305;&#23450;&#30340;&#29256;&#26412;
       </li>
     </ul>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#20010;&#20363;&#23376;:
+    </p>
+    <p>
+      &#19979;&#38754;&#30340;&#36825;&#20010;&#21629;&#20196;&#30340;&#20316;&#29992;&#26159;&#25214;&#20986;RICR_5.12.10&#29256;&#26412;&#21644;RICR_5.12.9&#29256;&#26412;&#20043;&#38388;&#25913;&#21160;&#30340;&#25991;&#20214;,&#28982;&#21518;&#20877;&#23558;&#25152;&#26377;&#25913;&#21160;&#30340;&#25991;&#20214;&#36890;&#36807;clearcase&#30340;diff&#22270;&#24418;&#24037;&#20855;&#26174;&#31034;&#20986;&#26469;.
+    </p>
+    <p>
+      <b><font size="4" color="#0000ff">ct find . -version &quot;lbtype(RICR_5.12.10) &amp;&amp;! lbtype(RICR_5.12.9)&quot; -exe 'cleartool diff -g -pre $CLEARCASE_XPN'</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
     <p>
       
     </p>
