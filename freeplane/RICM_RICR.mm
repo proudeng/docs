@@ -10307,8 +10307,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1514796674" CREATED="1335180842040" MODIFIED="1335265675712"><richcontent TYPE="NODE">
 
@@ -10338,8 +10338,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x63a5;&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;&#x540e;&#x7684;&#x64cd;&#x4f5c;" ID="ID_707530146" CREATED="1335189178372" MODIFIED="1335191062078"><richcontent TYPE="NOTE">
 
 <html>
@@ -13659,7 +13659,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="update_clock_source()&#x51fd;&#x6570;" ID="ID_1919463137" CREATED="1369752156506" MODIFIED="1369752404132"><richcontent TYPE="NOTE">
 
@@ -13682,9 +13681,47 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+</node>
+<node TEXT="Improvement Idea&#x5019;&#x9009;&#x9879;" POSITION="left" ID="ID_247439083" CREATED="1370316711949" MODIFIED="1370316856258"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#32467;&#28857;&#24403;&#20013;&#35760;&#24405;&#21487;&#33021;&#20316;&#20026;Improvement Idea&#30340;&#20505;&#36873;&#39033;&#12290;
+    </p>
+    <p>
+      &#22909;&#30340;&#28857;&#23376;&#24456;&#24555;&#23601;&#20250;&#24536;&#35760;&#65292;&#24819;&#21040;&#20102;&#65292;&#35760;&#19979;&#26469;&#26159;&#19968;&#20010;&#22909;&#30340;&#26041;&#24335;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="[FT]&#x4f18;&#x5316;OSE GateWay Daemon,&#x4f7f;&#x5176;&#x4fdd;&#x6301;&#x6c38;&#x8fdc;&#x8fd0;&#x884c;" ID="ID_130383179" CREATED="1370316721224" MODIFIED="1370316818225"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OSE Gateway Daemon&#26377;&#26102;&#20505;&#20250;Crash.&#22312;Crash&#20043;&#21518;&#20250;&#38656;&#35201;&#19987;&#20154;&#21435;&#32500;&#25252;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;&#25913;&#36827;&#35753;&#20854;&#22312;Crash&#20043;&#21518;&#33021;&#22815;&#33258;&#21160;&#24674;&#22797;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="&#x5e38;&#x7528;&#x7ed3;&#x70b9;&#x96c6;&#x7ed3;&#x5730;" POSITION="left" ID="ID_862698349" CREATED="1361436071773" MODIFIED="1361436081473">
