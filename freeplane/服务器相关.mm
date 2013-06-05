@@ -701,7 +701,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5728;&#x5ba2;&#x6237;&#x7aef;&#x751f;&#x6210;&#x5bc6;&#x94a5;&#x548c;&#x516c;&#x94a5;&#x6587;&#x4ef6;" ID="ID_1022418868" CREATED="1370313949125" MODIFIED="1370325593509">
 <icon BUILTIN="full-1"/>
@@ -787,7 +786,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5728;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x5b89;&#x653e;&#x516c;&#x94a5;&#x6587;&#x4ef6;" ID="ID_1102343727" CREATED="1370313960970" MODIFIED="1370326370076">
@@ -852,10 +850,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="keychain&#x7ba1;&#x7406;&#x5bc6;&#x94a5;&#xff0c;&#x5b9e;&#x73b0;&#x5b8c;&#x5168;&#x81ea;&#x52a8;&#x767b;&#x5f55;" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1370325586331"><richcontent TYPE="NOTE">
+<node TEXT="keychain&#x7ba1;&#x7406;&#x5bc6;&#x94a5;&#xff0c;&#x5b9e;&#x73b0;&#x5b8c;&#x5168;&#x81ea;&#x52a8;&#x767b;&#x5f55;" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1370360188217"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -863,18 +860,115 @@
   </head>
   <body>
     <p>
-      &#20284;&#20046;&#23454;&#38469;&#19978;&#24182;&#19981;&#38656;&#35201;&#36825;&#20010;&#24037;&#20855;&#12290;
+      &#36825;&#20010;&#24037;&#20855;&#23384;&#22312;&#30340;&#29702;&#30001;&#26159;&#24517;&#28982;&#26159;&#19981;&#20351;&#29992;&#36825;&#20010;&#24037;&#20855;&#26102;&#25152;&#22266;&#26377;&#30340;&#32570;&#38519;&#21644;&#19981;&#26041;&#20415;&#12290;
     </p>
     <p>
-      &#22312;&#23454;&#38469;&#30340;&#20351;&#29992;&#36807;&#31243;&#24403;&#20013;&#65292;&#20174;&#19968;&#20010;&#22266;&#23450;&#30340;client&#21435;&#36830;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#65292;&#21482;&#26159;&#31532;&#19968;&#27425;&#36830;&#30340;&#26102;&#20505;&#20250;&#35201;&#20320;&#36755;&#20837;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#65292;&#20043;&#21518;&#20877;&#27425;&#36830;&#25509;&#30340;&#35805;&#23601;&#19981;&#38656;&#35201;&#36755;&#20837;&#23494;&#30721;&#20102;&#65292;&#30452;&#25509;&#33021;&#22815;&#30331;&#24405;&#12290;
+      
     </p>
     <p>
-      &#25152;&#20197;&#65292;&#25105;&#19981;&#26159;&#24456;&#28165;&#26970;&#36825;&#20010;&#24037;&#20855;&#26377;&#20160;&#20040;&#20316;&#29992;&#12290;
+      &#22312;&#20351;&#29992;&#23494;&#38053;&#30331;&#24405;&#30340;&#26102;&#20505;&#65292;&#21482;&#35201;&#36755;&#20837;&#19968;&#27425;&#8221;&#23494;&#30721;&#30701;&#21477;&#8221;&#20043;&#21518;&#65292;&#20197;&#21518;&#20877;&#27425;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#35805;&#65292;&#37117;&#19981;&#38656;&#35201;&#36755;&#20837;&#23494;&#30721;&#30701;&#21477;&#65292;&#33021;&#22815;&#30452;&#25509;&#30331;&#24405;&#20102;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#65292;&#38382;&#39064;&#26159;&#65292;&#24403;&#23458;&#25143;&#31471;&#30340;&#26426;&#22120;&#37325;&#21551;&#20043;&#21518;&#65292;&#25105;&#20204;&#20877;&#27425;&#24819;&#36830;&#25509;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#65292;&#23601;&#21448;&#38656;&#35201;&#20877;&#27425;&#36755;&#20837;&#23494;&#30721;&#30701;&#21477;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      keychain&#30340;&#30446;&#30340;&#23601;&#26159;&#35753;&#36825;&#20010;&#25805;&#20316;&#30465;&#25481;&#65292;&#25105;&#20204;&#21482;&#35201;&#36755;&#20837;&#19968;&#27425;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#65292;&#28982;&#21518;&#25105;&#20204;&#23601;&#21487;&#20197;&#25226;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#32473;&#24536;&#25481;&#65292;&#26080;&#35770;&#23458;&#25143;&#31471;&#24590;&#20040;&#37325;&#21551;&#65292;&#25105;&#20204;&#20063;&#19981;&#38656;&#35201;&#20877;&#27425;&#36755;&#20837;&#23494;&#30721;&#21435;&#30331;&#24405;&#26381;&#21153;&#22120;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25805;&#20316;&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#39318;&#20808;&#20999;&#25442;&#21040;root&#29992;&#25143;&#65292;&#28982;&#21518;&#20351;&#29992;<font color="#0000cc" size="3"><b>aptitude install keychain</b></font>&#21629;&#20196;&#23433;&#35013;keychain&#24037;&#20855;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2.
+    </p>
+    <p>
+      &#22312;&#23433;&#35013;&#23436;&#25104;&#20043;&#21518;&#65292;&#25512;&#20986;root&#29992;&#25143;&#65292;&#36824;&#26159;&#29992;&#25105;&#20204;&#24037;&#20316;&#26102;&#20351;&#29992;&#30340;&#29992;&#25143;&#30331;&#24405;&#65292;&#28982;&#21518;&#32534;&#36753;~/.bashrc&#25991;&#20214;&#65292;
+    </p>
+    <p>
+      &#22312;&#25991;&#20214;&#30340;&#26368;&#21518;&#21152;&#19978;&#19968;&#27573;&#37197;&#32622;&#20195;&#30721;&#65306;
+    </p>
+    <pre class="bash"><i><font color="#808080"><b>### START-Keychain #### Let  re-use </b></font><b><font color="#c20cb9">ssh-agent</font><font color="#808080"> and/or gpg-agent between logins</font></b></i><b><font color="#0000cc">/usr/bin/keychain </font><font color="#007800">$HOME</font><font color="#0000cc">/.</font><font color="#c20cb9">ssh</font><font color="#0000cc">/id_dsa</font><font color="#7a0874">source</font><font color="#0000cc"> </font><font color="#007800">$HOME</font><font color="#0000cc">/.keychain/</font><font color="#007800">$HOSTNAME</font><font color="#0000cc">-</font><font color="#c20cb9">sh</font><i><font color="#808080">### End-Keychain ###</font></i></b></pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      OK&#65292;&#23601;&#23436;&#25104;&#20102;&#65281;&#28982;&#21518;&#25105;&#20204;&#20351;&#29992;&#30340;&#26102;&#20505;&#65292;&#21482;&#35201;&#22312;&#31532;&#19968;&#27425;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#36755;&#20837;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#65292;&#28982;&#21518;&#21363;&#20351;&#23458;&#25143;&#31471;&#37325;&#21551;&#65292;&#20063;&#19981;&#29992;&#20877;&#27425;&#36755;&#20837;&#23494;&#30721;&#30701;&#21477;&#20102;&#12290;
     </p>
   </body>
 </html>
 
 </richcontent>
+<node TEXT="&#x521d;&#x6b21;&#x542f;&#x52a8;shell&#x65f6;&#x5019;&#x7684;&#x8f93;&#x5165;" ID="ID_340530375" CREATED="1370360315954" MODIFIED="1370360394922"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#31995;&#32479;&#21551;&#21160;&#26102;&#65292;&#31532;&#19968;&#27425;&#21551;&#21160;shell&#30340;&#26102;&#20505;&#65292;&#20250;&#26377;&#19979;&#38754;&#30340;&#31867;&#20284;&#30340;&#36755;&#20986;&#65306;
+    </p>
+    <p>
+      <i><font color="#3300cc">KeyChain 2.6.8; http://www.gentoo.org/proj/en/keychain/ </font></i>
+    </p>
+    <p>
+      <i><font color="#3300cc">Copyright 2002-2004 Gentoo Foundation; Distributed under the GPL </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#3300cc">&#160;* Inheriting ssh-agent (1723) </font></i>
+    </p>
+    <p>
+      <i><font color="#3300cc">&#160;* Initializing /home/proudeng/.keychain/debian-sh file... </font></i>
+    </p>
+    <p>
+      <i><font color="#3300cc">&#160;* Initializing /home/proudeng/.keychain/debian-csh file... </font></i>
+    </p>
+    <p>
+      <i><font color="#3300cc">&#160;* Initializing /home/proudeng/.keychain/debian-fish file... </font></i>
+    </p>
+    <p>
+      <i><font color="#3300cc">&#160;* Known ssh key: /home/proudeng/.ssh/id_dsa </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20854;&#23454;keychain&#36825;&#20010;&#24037;&#20855;&#36824;&#26159;&#29992;&#21040;&#20102;ssh-agent&#12290;
+    </p>
+    <p>
+      &#35814;&#32454;&#30340;&#20102;&#35299;keychain,&#21487;&#20197;&#20808;&#20102;&#35299;ssh-agent&#30456;&#20851;&#30340;&#30693;&#35782;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="[&#x9644;&#x4ef6;]&#x751f;&#x6210;&#x7684;&#x516c;&#x94a5;&#x6587;&#x4ef6;" ID="ID_235730934" CREATED="1370326597673" MODIFIED="1370333664574" LINK="../pub/id_dsa.pub"><richcontent TYPE="NOTE">
 
@@ -894,8 +988,22 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="&#x5bc6;&#x7801;&#x77ed;&#x53e5;" ENCRYPTED_CONTENT="EWUZL5y/7mM= dMWwmUyY3bE=" ID="ID_1949922713" CREATED="1370360191421" MODIFIED="1370360239707"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23494;&#30721;&#30701;&#21477;&#20026;&quot;luckyxiaoshe&quot;
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -2274,7 +2382,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3527,8 +3634,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
@@ -3919,8 +4026,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
