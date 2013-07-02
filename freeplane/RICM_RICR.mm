@@ -6171,7 +6171,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 <node TEXT="RingMux&#x4ecb;&#x7ecd;" ID="ID_759274786" CREATED="1359527185856" MODIFIED="1359527228477" LINK="../MiscDocuments/RingMux.ppt"/>
 <node TEXT="[by Morteza]XP_Target_Test_Intro" ID="ID_1347729510" CREATED="1359686868662" MODIFIED="1359686943807" LINK="../MiscDocuments/Target%20Test%20tutorial.ppt"/>
 <node TEXT="XIO_Frame" ID="ID_1288043681" CREATED="1362359307330" MODIFIED="1362359359072" LINK="../RICR_document_base/XIO_Frame_8_15519-CRH1090445.doc"/>
-<node TEXT="[by Phillip]RICR Regression test process" ID="ID_93213079" CREATED="1363758753546" MODIFIED="1363758820511" LINK="../RICR_document_base/StepsOfRegressionTestForClassicRICR-PA2.doc"/>
+<node TEXT="[by Phillip]RICR Regression test process" ID="ID_93213079" CREATED="1363758753546" MODIFIED="1372732586243" LINK="../RICR_document_base/StepsOfRegressionTestForClassicRICR-PA4.doc"/>
 <node TEXT="NDS:RBS6000 with RRUS31" ID="ID_1972358435" CREATED="1365647745183" MODIFIED="1365647815618" LINK="../RICR_document_base/NDS%20RBS%206000%20with%20RRUS%2031%20B25%20MSMM%20L+C.doc"/>
 <node TEXT="[by Phillip]Erlang&#x5b66;&#x4e60;&#x6587;&#x6863;&#x96c6;&#x5408;" ID="ID_162035296" CREATED="1366167716479" MODIFIED="1366168417841" LINK="../MiscDocuments/Erlang_material.msg"><richcontent TYPE="NOTE">
 
@@ -10307,8 +10307,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1514796674" CREATED="1335180842040" MODIFIED="1335265675712"><richcontent TYPE="NODE">
 
@@ -10338,8 +10338,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x63a5;&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;&#x540e;&#x7684;&#x64cd;&#x4f5c;" ID="ID_707530146" CREATED="1335189178372" MODIFIED="1335191062078"><richcontent TYPE="NOTE">
 
 <html>
@@ -10673,8 +10673,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1020581049" CREATED="1335178561878" MODIFIED="1335265048012" HGAP="37" VSHIFT="63"><richcontent TYPE="NODE">
@@ -13638,7 +13638,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </html>
 </richcontent>
 </node>
-<node TEXT="Reduce RIHI &#x6d88;&#x606f;&#x7684;&#x4ea4;&#x4e92;" ID="ID_1417574947" CREATED="1369752005798" MODIFIED="1369752146594"><richcontent TYPE="NOTE">
+<node TEXT="Reduce RIHI &#x6d88;&#x606f;&#x7684;&#x4ea4;&#x4e92;" ID="ID_1417574947" CREATED="1369752005798" MODIFIED="1371111003048"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -13656,6 +13656,18 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
     <p>
       &#36825;&#20010;node&#19978;,&#23601;&#26159;&#20570;&#36825;&#20040;&#26679;&#30340;&#19968;&#20010;&#23567;&#32467;.&#25214;&#20986;&#26377;&#21738;&#20123;&#22320;&#26041;&#33021;&#22815;&#20570;&#36825;&#26679;&#30340;&#19968;&#20010;&#36807;&#28388;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25972;&#20010;&#30340;&#24605;&#24819;&#23601;&#26159;&#65306;
+    </p>
+    <p>
+      &#22914;&#26524;&#36719;&#20214;&#19978;&#33021;&#22810;&#20570;&#19968;&#28857;&#21028;&#26029;&#21644;&#36923;&#36753;&#20248;&#21270;&#65292;&#37027;&#20040;&#25105;&#20204;&#23601;&#33021;&#22815;&#20943;&#23569;&#19981;&#23569;&#36890;&#36807;RIHI&#28040;&#24687;&#30340;&#30828;&#20214;&#35835;&#20889;&#12290;
     </p>
   </body>
 </html>
@@ -13700,7 +13712,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="[FT]&#x4f18;&#x5316;OSE GateWay Daemon,&#x4f7f;&#x5176;&#x4fdd;&#x6301;&#x6c38;&#x8fdc;&#x8fd0;&#x884c;" ID="ID_130383179" CREATED="1370316721224" MODIFIED="1370316818225"><richcontent TYPE="NOTE">
 
@@ -13720,12 +13731,12 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="&#x5e38;&#x7528;&#x7ed3;&#x70b9;&#x96c6;&#x7ed3;&#x5730;" POSITION="left" ID="ID_862698349" CREATED="1361436071773" MODIFIED="1361436081473">
 <node TEXT="RICR&#x7684;delivery&#x6d41;&#x7a0b;" ID="ID_1013750034" CREATED="1361436086563" MODIFIED="1361436114292" LINK="#ID_1891844003"/>
+<node TEXT="&#x5357;&#x4eac;&#x5b9e;&#x9a8c;&#x5ba4;&#x5173;&#x4e8e;XP/RICR&#x7684;&#x914d;&#x7f6e;" ID="ID_288834930" CREATED="1372310123202" MODIFIED="1372310182489" LINK="#ID_724172212"/>
 </node>
 <node POSITION="right" ID="ID_1708732272" CREATED="1326681733404" MODIFIED="1345604724027"><richcontent TYPE="NODE">
 
@@ -23748,6 +23759,38 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 <node TEXT="RUW" ID="ID_1250155296" CREATED="1338384091042" MODIFIED="1338384094280"/>
 </node>
 </node>
+<node TEXT="&#x5357;&#x4eac;&#x7684;&#x65b0;&#x5b9e;&#x9a8c;&#x5ba4;&#x7684;&#x914d;&#x7f6e;&#x60c5;&#x51b5;" ID="ID_724172212" CREATED="1372309882235" MODIFIED="1372310225653" LINK="../pub/new_lab.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21335;&#20140;&#30340;&#26032;&#23454;&#39564;&#23460;&#30340;&#37197;&#32622;&#24773;&#20917;&#21442;&#32771;Phillip&#21457;&#30340;&#37038;&#20214;&#12290;
+    </p>
+    <p>
+      &#20854;&#20013;XP&#21644;RICR&#20351;&#29992;&#30340;node&#26159;NCI_RBS021&#21644;NCI_RBS022
+    </p>
+    <p>
+      &#20854;&#20013;&#30340;IP&#21644;&#20018;&#21475;&#26381;&#21153;&#22120;&#30340;&#22320;&#22336;&#37117;&#26377;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#21442;&#32771;&#32467;&#28857;&#38468;&#20214;&#20013;&#30340;&#25991;&#20214;&#12290;
+    </p>
+    <p>
+      &#22806;&#32593;&#30340;&#35805;&#65292;&#21487;&#20197;&#21442;&#32771;&#19979;&#38754;&#30340;&#36229;&#38142;&#25509;&#65306;
+    </p>
+    <p>
+      <font color="#003399"><b>http://pub.proudj.com/new_lab.msg</b></font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="FT&#x6d41;&#x7a0b;" ID="ID_18536040" CREATED="1334924464969" MODIFIED="1363758903972"><richcontent TYPE="NOTE">
 
@@ -24513,7 +24556,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_64238629" MIDDLE_LABEL="&#x53c2;&#x8003;&#x6307;&#x5411;&#x94fe;&#x63a5;&#x4e2d;&#x7684;&#x547d;&#x4ee4;" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="HALI2&#x7684;RICR Delivery" ID="ID_1567994028" CREATED="1356000944283" MODIFIED="1365994656037">
+<node TEXT="HALI2&#x7684;RICR Delivery" ID="ID_1567994028" CREATED="1356000944283" MODIFIED="1372427814559">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
@@ -24528,16 +24571,16 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       HALI2&#26550;&#26500;&#20013;,&#23384;&#25918;&#25991;&#20214;&#30340;&#36335;&#24452;&#20027;&#35201;&#26377;&#19977;&#20010;:
     </p>
     <p>
-      &#23384;&#25918;RICR&#36719;&#20214;&#30340;&#36335;&#24452;(<b><font color="#006600">SW</font></b>):&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b><font color="#cc0099">/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu</font></b>
+      &#23384;&#25918;RICR&#36719;&#20214;&#30340;&#36335;&#24452;(<font color="#006600"><b>SW</b></font>):&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc0099"><b>/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu</b></font>
     </p>
     <p>
-      &#23384;&#25918;deliver&#20986;&#21435;&#30340;lib&#24211;&#21644;test application&#30340;&#36335;&#24452;(<b><font color="#006600">DM</font></b>):&#160; <font color="#cc0099">&#160;<b>/vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/</b></font>
+      &#23384;&#25918;deliver&#20986;&#21435;&#30340;lib&#24211;&#21644;test application&#30340;&#36335;&#24452;(<font color="#006600"><b>DM</b></font>):&#160; <font color="#cc0099">&#160;<b>/vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/</b></font>
     </p>
     <p>
-      &#23384;&#25918;RICR&#30456;&#20851;&#30340;interface&#30340;&#36335;&#24452;(<b><font color="#006600">IFU</font></b>):&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#cc0099">&#160; /vobs/rbs/hw/cbd_common/deliv/ifu</font></b>
+      &#23384;&#25918;RICR&#30456;&#20851;&#30340;interface&#30340;&#36335;&#24452;(<font color="#006600"><b>IFU</b></font>):&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#cc0099"><b>&#160; /vobs/rbs/hw/cbd_common/deliv/ifu</b></font>
     </p>
     <p>
-      &#23384;&#25918;baseline&#30340;&#36335;&#24452;(<b><font color="#006600">BL</font></b>):&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b><font color="#cc0099">&#160;&#160;/vobs/rbs/hw/nci_comm/cs</font></b>
+      &#23384;&#25918;baseline&#30340;&#36335;&#24452;(<font color="#006600"><b>BL</b></font>):&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc0099"><b>&#160;&#160;/vobs/rbs/hw/nci_comm/cs</b></font>
     </p>
     <p>
       
@@ -24580,16 +24623,28 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
                           &#28982;&#21518;set&#36825;&#20010;cs&#25991;&#20214;.
                         </p>
                         <p>
-                          <b><font color="#cc0099">.XPP label </font></b>
+                          <font color="#cc0099"><b>.XPP label </b></font>
                         </p>
                         <p>
-                          <b><font color="#cc0099">.RICR label(&#20004;&#22788;) </font></b>
+                          <font color="#cc0099"><b>.RICR label(&#20004;&#22788;) </b></font>
                         </p>
                         <p>
-                          <b><font color="#cc0099">.RICR&#20989;&#25968;&#24211;&#30340;&#19968;&#20123;CYB label </font></b>
+                          <font color="#cc0099"><b>.RICR&#20989;&#25968;&#24211;&#30340;&#19968;&#20123;CYB label </b></font>
                         </p>
                         <p>
-                          <b><font color="#cc0099">.RICR&#28304;&#20195;&#30721;&#30340;&#19968;&#20123;CAH label</font></b>
+                          <font color="#cc0099"><b>.RICR&#28304;&#20195;&#30721;&#30340;&#19968;&#20123;CAH label</b></font>
+                        </p>
+                        <p>
+                          
+                        </p>
+                        <p>
+                          <font size="2">&#27492;&#26102;&#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#38656;&#35201;&#23558;&#19979;&#38754;&#30340;product.rev&#25991;&#20214;&#20013;&#30340;CYB&#26631;&#31614;&#26356;&#26032;&#25104;config spec&#20013;&#30340;&#26631;&#31614;&#65306; </font>
+                        </p>
+                        <p>
+                          <font color="#0000ff" size="2"><b>/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/ricr/make/product.rev </b></font>
+                        </p>
+                        <p>
+                          <font color="#0000ff" size="2"><b>/vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/hricr/make/product.rev</b></font>
                         </p>
                         <p>
                           &#160;
@@ -24653,7 +24708,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       <font size="3">5.a</font>
     </p>
     <p>
-      &#39318;&#20808;&#22312;&#19968;&#20010;<b><font color="#cc0000" size="5">Linux</font></b>&#26426;&#22120;&#19978;&#36827;&#20837;DM&#30446;&#24405;:
+      &#39318;&#20808;&#22312;&#19968;&#20010;<font color="#cc0000" size="5"><b>Linux</b></font>&#26426;&#22120;&#19978;&#36827;&#20837;DM&#30446;&#24405;:
     </p>
     <p>
       cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm
@@ -24662,19 +24717,19 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#28982;&#21518;&#25105;&#20204;&#20998;&#21035;&#35201;&#36827;&#20837;ricr_if&#30446;&#24405;&#21644;hricr_if&#30446;&#24405;,&#23558;libricr.a&#21644;libhricr.a&#36825;&#20004;&#20010;lib&#24211;&#32534;&#35793;&#20986;&#26469;:
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_if</font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_if</b></font>
     </p>
     <p>
-      <b><font color="#cc0099">make clean; make libs</font></b>
+      <font color="#cc0099"><b>make clean; make libs</b></font>
     </p>
     <p>
       &#20351;&#29992;&#19978;&#38754;&#30340;&#21629;&#20196;&#23601;&#23558;libricr.a&#32534;&#35793;&#20986;&#26469;&#20102;.
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/hricr_if </font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/hricr_if </b></font>
     </p>
     <p>
-      <b><font color="#cc0099">make clean; make libs</font></b>
+      <font color="#cc0099"><b>make clean; make libs</b></font>
     </p>
     <p>
       &#20351;&#29992;&#19978;&#38754;&#30340;&#21629;&#20196;&#23601;&#23558;libhricr.a&#32534;&#35793;&#20986;&#26469;&#20102;
@@ -24692,10 +24747,10 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#39318;&#20808;&#32534;&#35793;AUBOOT&#27169;&#24335;&#30340;test application:
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_auboot_lmc </font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_auboot_lmc </b></font>
     </p>
     <p>
-      <b><font color="#cc0099">make clean; make auboot</font></b>
+      <font color="#cc0099"><b>make clean; make auboot</b></font>
     </p>
     <p>
       &#20351;&#29992;&#19978;&#38754;&#30340;&#21629;&#20196;&#23601;&#32534;&#35793;&#20986;&#20102;&#22810;&#20010;&#24179;&#21488;&#30340;test application(AUBOOT).&#20108;&#36827;&#21046;&#25991;&#20214;&#25918;&#22312;&#24403;&#21069;&#30446;&#24405;&#30340;target&#30446;&#24405;&#19979;.
@@ -24704,10 +24759,10 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#28982;&#21518;&#32534;&#35793;AUAPP&#27169;&#24335;&#30340;test application:
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_applic_lmc </font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_applic_lmc </b></font>
     </p>
     <p>
-      <b><font color="#cc0099">make clean; make applic</font></b>
+      <font color="#cc0099"><b>make clean; make applic</b></font>
     </p>
     <p>
       &#20351;&#29992;&#19978;&#38754;&#30340;&#21629;&#20196;&#23601;&#32534;&#35793;&#20986;&#20102;&#22810;&#20010;&#24179;&#21488;&#30340;test application(AUAPPLIC).&#20108;&#36827;&#21046;&#25991;&#20214;&#25918;&#22312;&#24403;&#21069;&#30446;&#24405;&#30340;target&#30446;&#24405;&#19979;.
@@ -24719,13 +24774,13 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       <font size="3">5.c</font>
     </p>
     <p>
-      &#28982;&#21518;,&#27880;&#24847;&#26159;&#19978;&#19978;&#36848;&#30340;&#21629;&#20196;&#25191;&#34892;&#23436;&#20043;&#21518;,&#25105;&#20204;&#37325;&#26032;&#30331;&#24405;&#21040;&#19968;&#20010;<b><font color="#cc0000" size="5">Solaris</font></b>&#26426;&#22120;&#19978;,
+      &#28982;&#21518;,&#27880;&#24847;&#26159;&#19978;&#19978;&#36848;&#30340;&#21629;&#20196;&#25191;&#34892;&#23436;&#20043;&#21518;,&#25105;&#20204;&#37325;&#26032;&#30331;&#24405;&#21040;&#19968;&#20010;<font color="#cc0000" size="5"><b>Solaris</b></font>&#26426;&#22120;&#19978;,
     </p>
     <p>
       &#25105;&#20204;&#38656;&#35201;&#22312;Solaris&#26426;&#22120;&#19978;,&#32534;&#35793;&#22312;Solaris&#19978;&#36816;&#34892;&#30340;Host lib.
     </p>
     <p>
-      <b><font color="#cc0099">ssh edenjun@147.214.15.85</font></b>
+      <font color="#cc0099"><b>ssh edenjun@147.214.15.85</b></font>
     </p>
     <p>
       &#28982;&#21518;&#36873;&#25321;&#36319;Linux&#19978;&#21516;&#26679;&#30340;view,&#25191;&#34892;&#27493;&#39588;1&#20013;&#30340;&#25805;&#20316;,&#37197;&#32622;&#22909;&#29615;&#22659;.
@@ -24737,19 +24792,19 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#39318;&#20808;&#26159;libricr.a:
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_if </font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/ricr_if </b></font>
     </p>
     <p>
-      <b><font color="#cc0099">make clean; make xpsim</font></b>
+      <font color="#cc0099"><b>make clean; make xpsim</b></font>
     </p>
     <p>
       &#28982;&#21518;&#25509;&#30528;&#32534;&#35793;libhricr.a
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/hricr_if </font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/nci_dm/hricr_if </b></font>
     </p>
     <p>
-      <b><font color="#cc0099">make clean; make xpsim</font></b>
+      <font color="#cc0099"><b>make clean; make xpsim</b></font>
     </p>
     <p>
       
@@ -24773,19 +24828,19 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#22312;SW&#30446;&#24405;&#19979;,&#39318;&#20808;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#37197;&#32622;&#29615;&#22659;:
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/tools </font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/tools </b></font>
     </p>
     <p>
-      <b><font color="#cc0099">module use /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/tools </font></b>
+      <font color="#cc0099"><b>module use /vobs/rbs/hw/nci_comm/cbd_ss/ric_bl/ricr_swu/tools </b></font>
     </p>
     <p>
-      <b><font color="#cc0099">module add nci/ruby</font></b>
+      <font color="#cc0099"><b>module add nci/ruby</b></font>
     </p>
     <p>
       &#28982;&#21518;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23601;&#21487;&#20197;&#25191;&#34892;&#25171;&#26631;&#31614;&#30340;&#33050;&#26412;&#20102;.
     </p>
     <p>
-      <b><font color="#cc0099">./label_ricr</font></b>
+      <font color="#cc0099"><b>./label_ricr</b></font>
     </p>
     <p>
       &#36825;&#20010;&#33050;&#26412;&#20250;&#25552;&#31034;&#20320;&#36755;&#20837;&#30456;&#24212;&#30340;&#26631;&#31614;(RICR&#26631;&#31614;,CAH&#26631;&#31614;,CYB&#26631;&#31614;,LXA&#26631;&#31614;).
@@ -24830,25 +24885,25 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#37325;&#26032;&#36873;&#21462;&#19968;&#20010;view(&#30446;&#30340;&#26159;&#33021;&#22815;&#30475;&#21040;BL&#30446;&#24405;/vobs/rbs/hw/nci_comm/cs)
     </p>
     <p>
-      <b><font color="#cc0099">cd /vobs/rbs/hw/nci_comm/cs</font></b>
+      <font color="#cc0099"><b>cd /vobs/rbs/hw/nci_comm/cs</b></font>
     </p>
     <p>
       &#20351;&#29992;ct lsvt -g ru_cs.cs&#26597;&#30475;cs&#30340;&#29256;&#26412;&#26641;,&#25214;&#21040;&#26368;&#26032;&#30340;Baseline&#21495;.&#24182;&#19988;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#35774;&#32622;cs:
     </p>
     <p>
-      <b><font color="#cc0099">./deliv_tool/ru_setcs.sh VER_xx.xx.0</font></b>
+      <font color="#cc0099"><b>./deliv_tool/ru_setcs.sh VER_xx.xx.0</b></font>
     </p>
     <p>
       &#28982;&#21518;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;,&#22522;&#20110;&#26368;&#26032;&#30340;baseline,&#21019;&#24314;&#19968;&#20010;&#26356;&#26032;&#30340;baseline:
     </p>
     <p>
-      <b><font color="#cc0099">./deliv_tool/ru_delivery.sh -o VER_yy.yy.0 -p VER_xx.xx.0</font></b>
+      <font color="#cc0099"><b>./deliv_tool/ru_delivery.sh -o VER_yy.yy.0 -p VER_xx.xx.0</b></font>
     </p>
     <p>
       &#28982;&#21518;deliver RICR&#21040;&#36825;&#20010;&#26032;&#30340;baseline:
     </p>
     <p>
-      <b><font color="#cc0099">./deliv_tool/ru_delivery.sh RICR_xx.xx.xx VER_yy.yy.0</font></b>
+      <font color="#cc0099"><b>./deliv_tool/ru_delivery.sh RICR_xx.xx.xx VER_yy.yy.0</b></font>
     </p>
     <p>
       
@@ -25873,21 +25928,21 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;(&#x4fdd;&#x7559;&#x6e90;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;)" ID="ID_525544350" CREATED="1354902309590" MODIFIED="1368496243141"><richcontent TYPE="NOTE">
+<node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;(&#x4fdd;&#x7559;&#x6e90;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;)" ID="ID_525544350" CREATED="1354902309590" MODIFIED="1370575879687"><richcontent TYPE="NOTE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p style="font-family: Calibri; margin-top: 0in; margin-bottom: 0in; font-size: 11.0pt; margin-right: 0in; margin-left: 0in" lang="zh-CN">
+    <p lang="zh-CN" style="margin-top: 0in; margin-right: 0in; font-size: 11.0pt; font-family: Calibri; margin-left: 0in; margin-bottom: 0in">
       &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#26631;&#31614;RICR_6.0.1&#21644;RICR_6.0.2&#20043;&#38388;&#21464;&#21160;&#30340;&#25991;&#20214;&#37117;&#25214;&#20986;&#26469;,&#28982;&#21518;&#25171;&#25104;&#19968;&#20010;tar&#21387;&#32553;&#21253;,&#21517;&#23383;&#21483;&#20570;ricr_swu.tar.
     </p>
-    <p style="font-family: Calibri; margin-top: 0in; font-size: 11.0pt; margin-bottom: 0in; margin-right: 0in; margin-left: 0in" lang="zh-CN">
+    <p lang="zh-CN" style="margin-top: 0in; margin-right: 0in; font-size: 11.0pt; font-family: Calibri; margin-left: 0in; margin-bottom: 0in">
       
     </p>
-    <p style="font-family: Calibri; margin-top: 0in; font-size: 11.0pt; margin-bottom: 0in; margin-right: 0in; margin-left: 0in" lang="zh-CN">
-      <b><font face="Arial" size="4" color="#660066">tar cvf ricr_swu.tar `cleartool find . -version &quot;lbtype(RICR_6.0.2) &amp;&amp;! lbtype(RICR_6.0.1)&quot; -print | cut -d@ -f1`</font></b>
+    <p lang="zh-CN" style="margin-top: 0in; margin-right: 0in; font-size: 11.0pt; font-family: Calibri; margin-left: 0in; margin-bottom: 0in">
+      <font color="#660066" size="4" face="Arial"><b>tar cvf ricr_swu.tar `cleartool find . -type f -version &quot;lbtype(RICR_6.0.2) &amp;&amp;! lbtype(RICR_6.0.1)&quot; -print | cut -d@ -f1`</b></font>
     </p>
     <p>
       
@@ -25899,7 +25954,28 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       
     </p>
     <p>
-      <b><font face="Arial" size="4" color="#660066">ct find . -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -print | awk -F@ '{print $1}' | xargs tar -cvf ricr_swu.tar </font></b>
+      <font color="#660066" size="4" face="Arial"><b>ct find . -type f -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -print | awk -F@ '{print $1}' | xargs tar -cvf ricr_swu.tar </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21478;&#22806;&#36824;&#26377;&#31532;&#19977;&#31181;&#26041;&#27861;&#65292;&#23601;&#26159;&#20351;&#29992;Clearcase&#24378;&#22823;&#30340;find&#21629;&#20196;&#20013;&#30340;&#33258;&#24102;&#21464;&#37327;&#36827;&#34892;&#25805;&#20316;&#65292;
+    </p>
+    <p>
+      &#19979;&#38754;&#30340;&#21629;&#20196;&#36319;&#19978;&#38754;&#30340;&#20004;&#20010;&#21629;&#20196;&#36215;&#21040;&#30340;&#25928;&#26524;&#26159;&#19968;&#26679;&#30340;,&#20063;&#26159;&#23558;diff&#30340;&#25991;&#20214;&#25171;&#21253;&#25104;&#19968;&#20010;ricr_swu.tar&#30340;&#25991;&#20214;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#660066" size="4" face="Arial"><b>ct find . -type f -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -exec 'tar -cvf ricr_swu.tar $CLEARCASE_PN'</b></font>
+    </p>
+    <p>
+      
     </p>
     <p>
       
@@ -25915,9 +25991,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
     <p>
       &#28982;&#21518;&#23558;&#25171;&#21253;&#25991;&#20214;&#25335;&#36125;&#21040;&#26412;&#22320;&#35299;&#21387;&#32553;(&#30446;&#24405;&#19968;&#23450;&#35201;&#23545;&#40784;),&#25913;&#21160;&#30340;&#25991;&#20214;&#23601;&#20250;&#33258;&#21160;&#30340;&#34987;&#26356;&#26032;&#20102;(&#24403;&#28982;&#20250;&#38656;&#35201;&#19968;&#20010;&#20010;&#30340;&#25353;&#30830;&#23450;)
-    </p>
-    <p>
-      
     </p>
   </body>
 </html>
