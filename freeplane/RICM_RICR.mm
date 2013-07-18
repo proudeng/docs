@@ -1,7 +1,7 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="RICM&amp;RICR" ID="ID_1723258490" CREATED="1320385288461" MODIFIED="1338379287595"><hook NAME="MapStyle" background="#ffffff">
-    <properties show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -10307,8 +10307,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1514796674" CREATED="1335180842040" MODIFIED="1335265675712"><richcontent TYPE="NODE">
 
@@ -10338,8 +10338,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x63a5;&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;&#x540e;&#x7684;&#x64cd;&#x4f5c;" ID="ID_707530146" CREATED="1335189178372" MODIFIED="1335191062078"><richcontent TYPE="NOTE">
 
 <html>
@@ -13737,6 +13737,8 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 <node TEXT="&#x5e38;&#x7528;&#x7ed3;&#x70b9;&#x96c6;&#x7ed3;&#x5730;" POSITION="left" ID="ID_862698349" CREATED="1361436071773" MODIFIED="1361436081473">
 <node TEXT="RICR&#x7684;delivery&#x6d41;&#x7a0b;" ID="ID_1013750034" CREATED="1361436086563" MODIFIED="1361436114292" LINK="#ID_1891844003"/>
 <node TEXT="&#x5357;&#x4eac;&#x5b9e;&#x9a8c;&#x5ba4;&#x5173;&#x4e8e;XP/RICR&#x7684;&#x914d;&#x7f6e;" ID="ID_288834930" CREATED="1372310123202" MODIFIED="1372310182489" LINK="#ID_724172212"/>
+<node TEXT="&#x4fbf;&#x6377;&#x7684;ClearCase &#x547d;&#x4ee4;" ID="ID_955045373" CREATED="1372833444095" MODIFIED="1372833468861" LINK="#ID_1466485032"/>
+<node TEXT="&#x5982;&#x4f55;&#x67e5;&#x627e;&#x65b0;&#x7684;&#x8fd8;&#x6ca1;&#x6709;&#x5206;&#x914d;&#x7684;TR" ID="ID_158794777" CREATED="1372989274388" MODIFIED="1373004124525" LINK="#ID_809047899"/>
 </node>
 <node POSITION="right" ID="ID_1708732272" CREATED="1326681733404" MODIFIED="1345604724027"><richcontent TYPE="NODE">
 
@@ -25453,30 +25455,34 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </richcontent>
 </node>
 </node>
-<node TEXT="Hali2&#x7248;&#x672c;&#x7684;RICR" ID="ID_177405988" CREATED="1368776629698" MODIFIED="1368776912425"><richcontent TYPE="NOTE">
+<node TEXT="Hali2&#x7248;&#x672c;&#x7684;RICR" ID="ID_177405988" CREATED="1368776629698" MODIFIED="1373855464580"><richcontent TYPE="NOTE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p class="MsoNormal" style="margin-top: 0in; margin-right: 0in; margin-left: 0in; margin-bottom: .0001pt">
-      <font color="#0033cc" size="4" face="Segoe UI,sans-serif"><b><span style="font-size: 10.0pt; font-family: Segoe UI,sans-serif; color: black">te e state_change RICR_CPRI_COMMON</span></b></font><b><span style="font-size: 10.0pt; font-family: Segoe UI,sans-serif; color: black"><font color="#0033cc" size="10.0pt" face="Segoe UI,sans-serif"><br color="#0033cc"/></font><font color="#0033cc" size="4" face="Segoe UI,sans-serif">te save RICR_CPRI_COMMON</font></span></b><span style="font-size: 10.0pt; font-family: Segoe UI,sans-serif; color: black"><font color="black" size="10.0pt" face="Segoe UI,sans-serif"><br/><br/>to see interrupts in the interrupt process<br/></font><font color="#0033cc" size="4" face="Segoe UI,sans-serif"><b>te e trace5 HRICR_INTERRUPT<o color="#0033cc" p="#DEFAULT" size="4"></o></b></font></span>
+    <p style="margin-left: 0in; margin-top: 0in; margin-right: 0in; margin-bottom: .0001pt" class="MsoNormal">
+      <font face="Segoe UI,sans-serif" size="10.0pt" color="black">to see link state changes<o p="#DEFAULT"></o>(&#19979;&#38754;&#30340;&#36825;&#20010;trace object&#21482;&#22312;make_transition&#20989;&#25968;&#35843;&#29992;&#30340;&#26102;&#20505;&#34987;&#35843;&#29992;&#65292;&#25152;&#20197;&#22914;&#26524;&#25171;&#24320;&#19979;&#38754;&#30340;trace&#30340;&#35805;&#65292;&#37027;&#20040;&#22312;&#27599;&#27425;&#35843;&#29992;make_transition&#30340;&#26102;&#20505;&#65292;&#30456;&#24212;&#30340;&#20449;&#24687;&#20250;&#34987;&#25171;&#21360;&#20986;&#26469;)&#160;</font>
     </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-right: 0in; margin-left: 0in; margin-bottom: .0001pt">
-      <span style="font-size: 10.0pt; font-family: Segoe UI,sans-serif; color: black"><font color="black" size="10.0pt" face="Segoe UI,sans-serif">the first one is to see link state changes<o p="#DEFAULT"></o> </font></span>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-right: 0in; margin-left: 0in; margin-bottom: .0001pt">
+    <p style="margin-left: 0in; margin-top: 0in; margin-right: 0in; margin-bottom: .0001pt" class="MsoNormal">
       
     </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-right: 0in; margin-left: 0in; margin-bottom: .0001pt">
-      <span style="font-size: 10.0pt; font-family: Segoe UI,sans-serif; color: black"><font color="black" size="10.0pt" face="Segoe UI,sans-serif">to see interrupts received by link supervision process, </font></span><span style="font-size: 10.0pt; font-family: Segoe UI,sans-serif; color: black"><font color="#0033cc" size="4" face="Segoe UI,sans-serif"><b>te e trace5 RICR_CPRI_SLAVE<o color="#0033cc" p="#DEFAULT" size="4"></o></b></font></span>
+    <p style="margin-left: 0in; margin-top: 0in; margin-right: 0in; margin-bottom: .0001pt" class="MsoNormal">
+      <b><font face="Segoe UI,sans-serif" size="10.0pt" color="black">te e state_change RICR_CPRI_COMMON</font><font face="Segoe UI,sans-serif" size="10.0pt" color="#0033cc"><br color="#0033cc"/></font><font face="Segoe UI,sans-serif" size="4" color="#0033cc">te save RICR_CPRI_COMMON</font></b><font face="Segoe UI,sans-serif" size="10.0pt" color="black"><br/><br/>to see interrupts in the interrupt process<br/></font><b><font face="Segoe UI,sans-serif" size="4" color="#0033cc">te e trace5 HRICR_INTERRUPT<o p="#DEFAULT" color="#0033cc" size="4"></o></font></b>
     </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-right: 0in; margin-left: 0in; margin-bottom: .0001pt">
+    <p style="margin-left: 0in; margin-top: 0in; margin-right: 0in; margin-bottom: .0001pt" class="MsoNormal">
       
+    </p>
+    <p style="margin-left: 0in; margin-top: 0in; margin-right: 0in; margin-bottom: .0001pt" class="MsoNormal">
+      
+    </p>
+    <p style="margin-left: 0in; margin-top: 0in; margin-right: 0in; margin-bottom: .0001pt" class="MsoNormal">
+      <font face="Segoe UI,sans-serif" size="10.0pt" color="black">to see interrupts received by link supervision process, </font><font face="Segoe UI,sans-serif" size="4" color="#0033cc"><b>te e trace5 RICR_CPRI_SLAVE<o p="#DEFAULT" color="#0033cc" size="4"></o></b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -25818,6 +25824,26 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </node>
 <node TEXT="edenjun&#x5ea7;&#x673a;&#x4fe1;&#x606f;" ID="ID_1161405186" CREATED="1359960206391" MODIFIED="1359960274573" LINK="../MiscDocuments/Welcome%20to%20use%20Ericsson%20IP%20Phone%20Service..msg"/>
 </node>
+<node TEXT="&#x3010;IMF XFT&#x3011;&#x5982;&#x4f55;&#x67e5;&#x627e;&#x6ce8;&#x518c;&#x4e86;&#x4f46;&#x662f;&#x8fd8;&#x6ca1;&#x6709;&#x5206;&#x914d;&#x7684;TR" ID="ID_809047899" CREATED="1372988814795" MODIFIED="1373338920633"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#19979;&#38754;Jing Qiu&#20998;&#20139;&#30340;&#38142;&#25509;&#65292;&#20174;&#20013;&#25214;&#20986;&#23646;&#20110;IMF XFT&#30340;TR&#21363;&#21487;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <a href="https://mhweb.ericsson.se/SearchWeb/faces/search/query/resultPage.xhtml?queryKey=28712">https://mhweb.ericsson.se/SearchWeb/faces/search/query/resultPage.xhtml?queryKey=28712</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="Git&#x76f8;&#x5173;" POSITION="right" ID="ID_736960711" CREATED="1354801673078" MODIFIED="1355744581269">
 <node TEXT="Git@NCI" ID="ID_1761410665" CREATED="1355744587626" MODIFIED="1355744593422">
@@ -25928,21 +25954,21 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;(&#x4fdd;&#x7559;&#x6e90;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;)" ID="ID_525544350" CREATED="1354902309590" MODIFIED="1370575879687"><richcontent TYPE="NOTE">
+<node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;(&#x4fdd;&#x7559;&#x6e90;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;)" ID="ID_525544350" CREATED="1354902309590" MODIFIED="1372834709798"><richcontent TYPE="NOTE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p lang="zh-CN" style="margin-top: 0in; margin-right: 0in; font-size: 11.0pt; font-family: Calibri; margin-left: 0in; margin-bottom: 0in">
+    <p lang="zh-CN" style="margin-right: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt; margin-top: 0in; margin-bottom: 0in">
       &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#26631;&#31614;RICR_6.0.1&#21644;RICR_6.0.2&#20043;&#38388;&#21464;&#21160;&#30340;&#25991;&#20214;&#37117;&#25214;&#20986;&#26469;,&#28982;&#21518;&#25171;&#25104;&#19968;&#20010;tar&#21387;&#32553;&#21253;,&#21517;&#23383;&#21483;&#20570;ricr_swu.tar.
     </p>
-    <p lang="zh-CN" style="margin-top: 0in; margin-right: 0in; font-size: 11.0pt; font-family: Calibri; margin-left: 0in; margin-bottom: 0in">
+    <p lang="zh-CN" style="margin-right: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt; margin-top: 0in; margin-bottom: 0in">
       
     </p>
-    <p lang="zh-CN" style="margin-top: 0in; margin-right: 0in; font-size: 11.0pt; font-family: Calibri; margin-left: 0in; margin-bottom: 0in">
-      <font color="#660066" size="4" face="Arial"><b>tar cvf ricr_swu.tar `cleartool find . -type f -version &quot;lbtype(RICR_6.0.2) &amp;&amp;! lbtype(RICR_6.0.1)&quot; -print | cut -d@ -f1`</b></font>
+    <p lang="zh-CN" style="margin-right: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt; margin-top: 0in; margin-bottom: 0in">
+      <font face="Arial" size="4" color="#660066"><b>tar cvf ricr_swu.tar `cleartool find . -type f -version &quot;lbtype(RICR_6.0.2) &amp;&amp;! lbtype(RICR_6.0.1)&quot; -print | cut -d@ -f1`</b></font>
     </p>
     <p>
       
@@ -25954,7 +25980,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       
     </p>
     <p>
-      <font color="#660066" size="4" face="Arial"><b>ct find . -type f -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -print | awk -F@ '{print $1}' | xargs tar -cvf ricr_swu.tar </b></font>
+      <font face="Arial" size="4" color="#660066"><b>ct find . -type f -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -print | awk -F@ '{print $1}' | xargs tar -cvf ricr_swu.tar </b></font>
     </p>
     <p>
       
@@ -25966,13 +25992,13 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
       &#21478;&#22806;&#36824;&#26377;&#31532;&#19977;&#31181;&#26041;&#27861;&#65292;&#23601;&#26159;&#20351;&#29992;Clearcase&#24378;&#22823;&#30340;find&#21629;&#20196;&#20013;&#30340;&#33258;&#24102;&#21464;&#37327;&#36827;&#34892;&#25805;&#20316;&#65292;
     </p>
     <p>
-      &#19979;&#38754;&#30340;&#21629;&#20196;&#36319;&#19978;&#38754;&#30340;&#20004;&#20010;&#21629;&#20196;&#36215;&#21040;&#30340;&#25928;&#26524;&#26159;&#19968;&#26679;&#30340;,&#20063;&#26159;&#23558;diff&#30340;&#25991;&#20214;&#25171;&#21253;&#25104;&#19968;&#20010;ricr_swu.tar&#30340;&#25991;&#20214;&#65306;
+      &#19979;&#38754;&#30340;&#21629;&#20196;&#36319;&#19978;&#38754;&#30340;&#20004;&#20010;&#21629;&#20196;&#36215;&#21040;&#30340;&#25928;&#26524;&#26159;&#19968;&#26679;&#30340;,&#20063;&#26159;&#23558;diff&#30340;&#25991;&#20214;&#25171;&#21253;&#25104;&#19968;&#20010;ricr_swu.tar&#30340;&#25991;&#20214;&#65292;&#20294;&#26159;&#35828;&#32769;&#23454;&#35805;&#65292;&#27604;&#36739;&#30340;&#21035;&#25197;&#65306;
     </p>
     <p>
       
     </p>
     <p>
-      <font color="#660066" size="4" face="Arial"><b>ct find . -type f -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -exec 'tar -cvf ricr_swu.tar $CLEARCASE_PN'</b></font>
+      <font face="Arial" size="4" color="#660066"><b>tar -cvf ricr_swu.tar `ct find . -type f -version &quot;lbtype(RICR_5.12.6) &amp;&amp;! lbtype(RICR_5.12.1)&quot; -exec 'echo $CLEARCASE_PN'`</b></font>
     </p>
     <p>
       
@@ -26151,7 +26177,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5fb7;&#x54e5;&#x5c14;&#x6469;&#x65af;&#x516c;&#x5bd3;&#x8054;&#x7cfb;&#x90ae;&#x4ef6;" ID="ID_1703600981" CREATED="1352793032042" MODIFIED="1352793095483"><richcontent TYPE="NOTE">
+<node TEXT="&#x5fb7;&#x54e5;&#x5c14;&#x6469;&#x65af;&#x516c;&#x5bd3;&#x8054;&#x7cfb;&#x90ae;&#x4ef6;" ID="ID_1703600981" CREATED="1352793032042" MODIFIED="1373007971814"><richcontent TYPE="NOTE">
 
 <html>
   <head>

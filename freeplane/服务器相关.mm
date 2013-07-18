@@ -609,7 +609,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5982;&#x4f55;&#x6253;&#x5f00;&#x5e95;&#x90e8;&#x6eda;&#x52a8;&#x6761;" ID="ID_934656120" CREATED="1372064538793" MODIFIED="1372065359019"><richcontent TYPE="NOTE">
 
@@ -650,7 +649,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -671,6 +669,35 @@
     </p>
     <p>
       <font size="6" color="#0000ff">git config core.quotepath false<br color="#0000ff" size="6"/></font><br/>core.quotepath&#35774;&#20026;false&#30340;&#35805;&#65292;&#23601;&#19981;&#20250;&#23545;0x80&#20197;&#19978;&#30340;&#23383;&#31526;&#36827;&#34892;quote&#12290;&#20013;&#25991;&#26174;&#31034;&#27491;&#24120;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5b89;&#x88c5;git &#x7684;&#x56fe;&#x5f62;&#x754c;&#x9762;" ID="ID_1895139748" CREATED="1372899166129" MODIFIED="1372899347545"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#40664;&#35748;&#30340;&#23433;&#35013;&#20013;&#65292;gitk&#26159;&#40664;&#35748;&#23433;&#35013;&#19978;&#30340;&#12290;&#20294;&#26159;&#22312;gitk&#19978;&#38754;&#35843;&#29992;start gui&#21629;&#20196;&#30340;&#26102;&#20505;&#20250;&#20986;&#38169;&#12290;
+    </p>
+    <p>
+      &#36825;&#26159;&#22240;&#20026;git&#30340;gui&#30028;&#38754;&#36824;&#27809;&#26377;&#23433;&#35013;&#12290;&#36825;&#26102;&#25105;&#20204;&#23601;&#38656;&#35201;&#23433;&#35013;git&#30340;gui&#30028;&#38754;&#12290;
+    </p>
+    <p>
+      &#36890;&#36807;&#19979;&#38754;&#30340;&#21629;&#20196;&#21487;&#20197;&#23436;&#25104;git gui&#30340;&#23433;&#35013;&#65292;&#20043;&#21518;&#65292;&#22312;gitk&#20013;&#65292;&#23601;&#21487;&#20197;&#36890;&#36807;start gui&#26469;&#21551;&#21160;gui&#30028;&#38754;&#20102;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#0033ff" size="6">su </font></i>
+    </p>
+    <p>
+      <i><font color="#0033ff" size="6">aptitude install git-gui</font></i>
     </p>
   </body>
 </html>
@@ -2901,6 +2928,75 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x5f97;vim&#x7f16;&#x8f91;&#x5668;&#x80fd;&#x591f;&#x9ad8;&#x4eae;&#x6587;&#x5b57;" ID="ID_1810877692" CREATED="1373426708046" MODIFIED="1373426903625" LINK="#ID_156002278">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_156002278" STARTINCLINATION="328;0;" ENDINCLINATION="328;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#24471;vim&#33021;&#22815;&#39640;&#20142;&#25991;&#23383;&#20043;&#21518;&#65292;&#22312;&#20998;&#26512;&#26381;&#21153;&#22120;&#30340;log&#30340;&#26102;&#20505;&#65292;&#20250;&#38750;&#24120;&#30340;&#26041;&#20415;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20570;&#30340;&#25805;&#20316;&#65292;&#35831;&#21442;&#32771;&#38142;&#25509;&#25351;&#21521;&#30340;&#32467;&#28857;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#21442;&#32771;&#32467;&#28857;&#25152;&#20570;&#30340;&#25805;&#20316;&#65292;&#25105;&#22312;&#29992;&#25143;root&#21644;proudeng&#19978;&#20570;&#20102;&#20004;&#36941;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x5f97;vim&#x7684;&#x63d2;&#x4ef6;&#x80fd;&#x591f;&#x662f;&#x5168;&#x5c40;&#x7684;&#xff0c;&#x80fd;&#x591f;&#x5b89;&#x88c5;&#x4e00;&#x6b21;&#xff0c;&#x6240;&#x6709;&#x7684;&#x7528;&#x6237;&#x90fd;&#x80fd;&#x591f;&#x4f7f;&#x7528;&#xff1f;" ID="ID_1777996049" CREATED="1373426909672" MODIFIED="1373426956546">
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;&#x57fa;&#x4e8e;PPTPD&#x7684;VPN&#x670d;&#x52a1;&#x5668;" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1373953807853" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23433;&#35013;VPN&#30340;&#22909;&#22788;&#24403;&#28982;&#19981;&#29992;&#22810;&#35828;&#20102;&#65292;&#20027;&#35201;&#30340;&#24847;&#22270;&#26159;&#29992;&#20854;&#26469;&#32763;&#22681;&#12290;
+    </p>
+    <p>
+      &#24403;&#28982;&#20351;&#29992;ssh&#30340;tunnel&#20063;&#21487;&#20197;&#32763;&#22681;&#65292;&#20294;&#26159;&#27605;&#31455;VPN&#26159;&#19968;&#20010;&#23545;&#29992;&#25143;&#32780;&#35328;&#38590;&#24230;&#27604;&#36739;&#23567;&#30340;&#36873;&#25321;&#12290;
+    </p>
+    <p>
+      &#20026;&#20160;&#20040;&#36873;&#25321;pptpd&#21602;&#65292;&#22240;&#20026;&#25454;&#35828;&#22312;Windows&#19979;&#19981;&#38656;&#35201;&#23433;&#35013;&#20160;&#20040;&#36719;&#20214;&#23601;&#21487;&#20197;&#36830;&#25509;PPTP&#30340;VPN&#26381;&#21153;&#22120;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23433;&#35013;&#30340;&#36807;&#31243;&#21442;&#32771;&#38468;&#20214;&#37324;&#38754;&#30340;&#25991;&#26723;&#65292;&#22522;&#26412;&#19978;&#36319;&#20854;&#19968;&#33268;&#12290;&#20570;&#20986;&#25913;&#21464;&#30340;&#22320;&#26041;&#20165;&#20165;&#22312;ip&#30340;&#35774;&#32622;&#21644;&#29992;&#25143;&#21517;/&#23494;&#30721;&#30340;&#35774;&#32622;&#26377;&#19968;&#20123;&#19981;&#21516;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#38468;&#20214;&#26080;&#27861;&#35775;&#38382;&#30340;&#35805;&#65292;&#20063;&#21487;&#20197;&#35775;&#38382;&#22914;&#19979;&#30340;&#22806;&#32593;&#30340;&#22266;&#23450;&#38142;&#25509;:
+    </p>
+    <p>
+      <a href="http://www.pub.proudj.com/vpn.htm">http://www.pub.proudj.com/vpn.htm</a>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
 <node TEXT="apache" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
@@ -3953,9 +4049,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
@@ -4345,8 +4441,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
