@@ -50,7 +50,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3"/>
 <node TEXT="perl&#x8bed;&#x8a00;&#x5b66;&#x4e60;" POSITION="right" ID="ID_1132999439" CREATED="1304669378782" MODIFIED="1378975466974">
 <edge COLOR="#ff0000"/>
 <node TEXT="&#x756a;&#x5916;&#x7bc7;--&#x4e3b;&#x9898;&#x5185;&#x5bb9;" ID="ID_1625848670" CREATED="1304849018449" MODIFIED="1318303357070">
@@ -123,7 +123,7 @@
 </richcontent>
 </node>
 </node>
-<node ID="ID_444195328" CREATED="1318302061584" MODIFIED="1318304713805"><richcontent TYPE="NODE">
+<node ID="ID_444195328" CREATED="1318302061584" MODIFIED="1381242846099"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -131,10 +131,11 @@
   </head>
   <body>
     <p>
-      <b><font color="#cc9900">C/C++&#24320;&#21457;&#32773;&#30524;&#20013;&#19981;&#21487;&#24605;&#35758;&#30340;perl!! </font></b><font color="#000000">--</font><i><font color="#000000" size="3">c</font><font size="3">/c++&#19982;perl&#35821;&#35328;&#22522;&#26412;&#29305;&#24615;&#27604;&#36739;</font></i>
+      <b><font color="#cc9900">C/C++&#24320;&#21457;&#32773;&#30524;&#20013;&#19981;&#21487;&#24605;&#35758;&#30340;perl!! </font></b><font color="#000000">--</font><font size="3" color="#000000"><i>c</i></font><i><font size="3">/c++&#19982;perl&#35821;&#35328;&#22522;&#26412;&#29305;&#24615;&#27604;&#36739;</font></i>
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x57fa;&#x672c;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x9664;&#x4e86;C/C++&#x4e2d;&#x7684;&quot;&#x53d8;&#x91cf;&quot;,&quot;&#x6570;&#x7ec4;&quot;,&#x8fd8;&#x591a;&#x4e86;&#x4e00;&#x79cd;HASH!!--scalar/array/hash" ID="ID_1931108918" CREATED="1318302784283" MODIFIED="1318304477665"/>
 <node TEXT="&#x4e24;&#x4e2a;&#x53d8;&#x91cf;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x4e92;&#x6362;,&#x4e0d;&#x9700;&#x8981;&#x901a;&#x8fc7;&#x4e2d;&#x95f4;&#x53d8;&#x91cf;!" ID="ID_1210969804" CREATED="1318830925013" MODIFIED="1318830946451"/>
@@ -3350,6 +3351,9 @@
 <node TEXT="Understanding the Linux Kernel,3rd edition" POSITION="left" ID="ID_504465545" CREATED="1378975555231" MODIFIED="1378975593645">
 <edge COLOR="#0000ff"/>
 <node TEXT="&#x7ae0;&#x8282;&#x5185;&#x5bb9;&#x5206;&#x6790;" ID="ID_439722042" CREATED="1378975627513" MODIFIED="1378975638460"/>
+</node>
+<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1381242915130">
+<edge COLOR="#00ff00"/>
 </node>
 </node>
 </map>
