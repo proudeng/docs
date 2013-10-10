@@ -10806,9 +10806,9 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1020581049" CREATED="1335178561878" MODIFIED="1335265048012" HGAP="37" VSHIFT="63"><richcontent TYPE="NODE">
 
@@ -11103,8 +11103,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="104;57;" ENDINCLINATION="181;111;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="469;0;" ENDINCLINATION="469;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="104;57;" ENDINCLINATION="181;111;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="CPRI&#x94fe;&#x8def;&#x72b6;&#x6001;&#x673a;(Slave)&#x76f8;&#x5173;&#x7684;&#x5b9a;&#x65f6;&#x5668;" ID="ID_749880012" CREATED="1335179225500" MODIFIED="1366341828147"><richcontent TYPE="NOTE">
@@ -27542,7 +27542,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </richcontent>
 </node>
 <node TEXT="ENC HR&#x8054;&#x7cfb;&#x4eba;" ID="ID_1724459091" CREATED="1381210083049" MODIFIED="1381210089205">
-<node TEXT="VISA&#x76f8;&#x5173;" ID="ID_1336334026" CREATED="1381210090311" MODIFIED="1381210475872"><richcontent TYPE="NOTE">
+<node TEXT="VISA&#x76f8;&#x5173;" ID="ID_1336334026" CREATED="1381210090311" MODIFIED="1381369420249"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -27550,13 +27550,23 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </head>
   <body>
     <p>
-      Alice CHEN A &lt;alice.a.chen@ericsson.com&gt;&#160; <font face="&#x5b8b;&#x4f53;">&#38472;&#26093;&#25935;</font>
+      <font face="&#x5b8b;&#x4f53;">Jenny GONG &lt;jenny.gong@ericsson.com&gt; </font>
     </p>
     <p>
-      Jasmine WANG &lt;jasmine.wang@ericsson.com&gt; <font face="&#x5b8b;&#x4f53;">&#29579;&#23389;&#33655;</font>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Alice CHEN A &lt;alice.a.chen@ericsson.com&gt;&#160; <font face="&#x5b8b;&#x4f53;">&#38472;&#26093;&#25935; HR&#30340;&#36127;&#36131;&#20154;(?)</font>
+    </p>
+    <p>
+      Jasmine WANG &lt;jasmine.wang@ericsson.com&gt; <font face="&#x5b8b;&#x4f53;">&#29579;&#23389;&#33655; </font>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="&#x57f9;&#x8bad;&#x76f8;&#x5173;" ID="ID_1867841372" CREATED="1381210486735" MODIFIED="1381210721733"><richcontent TYPE="NOTE">
@@ -27573,6 +27583,9 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x5de5;&#x5361;&#x51fa;&#x95ee;&#x9898;&#x548c;&#x505c;&#x8f66;&#x8bc1;" ID="ID_38527854" CREATED="1381369426439" MODIFIED="1381369465327">
+<node TEXT="&#x845b;&#x7965;" ID="ID_1939419649" CREATED="1381369473275" MODIFIED="1381369484089"/>
 </node>
 </node>
 </node>
