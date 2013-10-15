@@ -1,6 +1,7 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="GSM" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1379058075058"><hook NAME="MapStyle">
+    <properties show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -49,6 +50,45 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="0"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="1"/>
+<node TEXT="GSM_PreStudy_before_Travel_to_Kista" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1381543833785">
+<edge COLOR="#ff0000"/>
+<node TEXT="dTRU&#x5185;&#x90e8;&#x5404;&#x6a21;&#x5757;&#x7684;&#x4e3b;&#x8981;&#x529f;&#x80fd;" ID="ID_568949512" CREATED="1381568075000" MODIFIED="1381568265362" LINK="../pub/dTRU_structure.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dTRU&#20869;&#37096;&#26377;&#19979;&#38754;&#30340;&#20960;&#20010;&#32452;&#25104;&#37096;&#20998;&#65306;
+    </p>
+    <p>
+      CPU system,
+    </p>
+    <p>
+      DSP system,
+    </p>
+    <p>
+      RC system,
+    </p>
+    <p>
+      Radio system
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21508;&#20010;&#32452;&#25104;&#37096;&#20998;&#30340;&#20027;&#35201;&#21151;&#33021;&#26159;&#20160;&#20040;&#21602;&#65311;&#22312;&#19968;&#20010;ppt&#37324;&#38754;&#35762;&#21040;&#20102;&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;&#38468;&#20214;&#20013;&#30340;&#35828;&#26126;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </map>
