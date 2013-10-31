@@ -2633,6 +2633,50 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="wordpress&#x4e2d;&#x5982;&#x4f55;&#x6269;&#x5927;&#x6587;&#x4ef6;&#x4e0a;&#x4f20;&#x5927;&#x5c0f;&#x9650;&#x5236;" ID="ID_295914283" CREATED="1382553223105" MODIFIED="1382553492295"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;wordpress&#20013;&#19978;&#20256;&#38468;&#20214;&#26102;,&#20250;&#21457;&#29616;&#38480;&#21046;&#20102;&#38468;&#20214;&#30340;&#22823;&#23567;&#20026;2M.
+    </p>
+    <p>
+      &#36825;&#26174;&#28982;&#20250;&#24341;&#36215;&#24456;&#22810;&#30340;&#19981;&#26041;&#20415;.
+    </p>
+    <p>
+      &#37027;&#20040;,&#24590;&#20040;&#26469;&#20462;&#25913;&#36825;&#20010;&#19978;&#38480;&#20540;&#21602;?
+    </p>
+    <p>
+      &#26041;&#27861;&#20063;&#24456;&#31616;&#21333;:
+    </p>
+    <ul>
+      <li>
+        <font size="4" color="#0033cc">&#20351;&#29992;root&#29992;&#25143;&#30331;&#24405; </font>
+      </li>
+      <li>
+        <font size="4" color="#0033cc">&#25171;&#24320;/etc/php5/cgi/php.ini&#25991;&#20214; </font>
+      </li>
+      <li>
+        <font size="4" color="#0033cc">&#20462;&#25913;&#25991;&#20214;&#20013;&#30340;&quot;upload_max_filesize = 2M&quot;&#20026;&#20320;&#24819;&#35201;&#30340;&#22823;&#23567;,&#25105;&#30340;&#20462;&#25913;&#21518;&#30340;&#37197;&#32622;&#26159;&quot;upload_max_filesize = 20M&quot; </font>
+      </li>
+      <li>
+        <font size="4" color="#0033cc">&#20351;&#29992;&#21629;&#20196;&quot;/etc/init.d/lighttpd restart&quot;&#37325;&#21551;lighttptd&#26381;&#21153;&#22120;(&#36825;&#19968;&#27493;&#19981;&#30693;&#36947;&#26159;&#19981;&#26159;&#24517;&#39035;&#30340;)</font>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#25353;&#29031;&#19978;&#38754;&#30340;&#21629;&#20196;,&#25105;&#23601;&#25226;&#25105;&#30340;wordpress&#30340;&#19978;&#20256;&#25991;&#20214;&#30340;&#38480;&#21046;&#25193;&#22823;&#21040;&#20102;20M.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" ID="ID_1783884193" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
 
@@ -4166,9 +4210,9 @@
   </body>
 </html>
 </richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
@@ -4493,7 +4537,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Wordpress&#x5b89;&#x88c5;&#x7ef4;&#x62a4;" POSITION="left" ID="ID_257694630" CREATED="1325745860145" MODIFIED="1325745871310">
+<node TEXT="Wordpress&#x5b89;&#x88c5;&#x7ef4;&#x62a4;" LOCALIZED_STYLE_REF="default" POSITION="left" ID="ID_257694630" CREATED="1325745860145" MODIFIED="1382553174645">
 <node TEXT="[zh@burstnet]CentOS&#x4e0a;&#x5b89;&#x88c5;wordpress" ID="ID_475403749" CREATED="1325745876273" MODIFIED="1325830736352"><richcontent TYPE="NOTE">
 
 <html>
@@ -4558,8 +4602,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
@@ -5226,7 +5270,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5982;&#x679c;&#x60f3;&#x4ece;&#x8def;&#x7531;&#x6a21;&#x5f0f;&#x56de;&#x9000;&#x9ed8;&#x8ba4;&#x6a21;&#x5f0f;&#x65f6;&#x7684;&#x7f51;&#x7edc;&#x8bbe;&#x7f6e;" ID="ID_1928674712" CREATED="1381665989859" MODIFIED="1381666152294"><richcontent TYPE="NOTE">
@@ -5247,7 +5290,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5264,7 +5306,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -247,6 +247,35 @@
 <node TEXT="&#x90ae;&#x4ef6;" ID="ID_1479097854" CREATED="1366867680438" MODIFIED="1366867740650" LINK="../MiscDocuments/&#x3010;Administration&#x3011;&#x300a;ENC&#x79fb;&#x52a8;&#x901a;&#x4fe1;&#x7ba1;&#x7406;&#x89c4;&#x5b9a;&#x300b;&#x66f4;&#x65b0;%20ENC%20Mobile%20Communication%20Directive%20Updating.msg"/>
 <node TEXT="FAQ" ID="ID_1059572818" CREATED="1366867683272" MODIFIED="1366867749250" LINK="../MiscDocuments/ENC%20Mobile%20Directive%20-%20FAQ.doc"/>
 </node>
+<node TEXT="&#x7533;&#x8bf7;&#x5de5;&#x4f5c;&#x9910;&#x94fe;&#x63a5;" ID="ID_1210809236" CREATED="1382946928859" MODIFIED="1382946993388"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://internal.ericsson.com/page/hub_china_north_east_asia/unit/supply/enc/organization/oe/Organization/adminsourcing/admin/admin_4.jsp?unit=BNET">http://internal.ericsson.com/page/hub_china_north_east_asia/unit/supply/enc/organization/oe/Organization/adminsourcing/admin/admin_4.jsp?unit=BNET</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x7814;&#x53d1;&#x5927;&#x697c;&#x5de5;&#x5361;&#x5bc6;&#x7801;" ID="ID_10035703" CREATED="1383033502522" MODIFIED="1383033515008"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2780
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
 <node TEXT="&#x7d2b;&#x91d1;&#x5c71;&#x767b;&#x5c71;&#x8def;&#x7ebf;" ID="ID_463031084" CREATED="1322119884287" MODIFIED="1325333872599" HGAP="18" VSHIFT="-10"><richcontent TYPE="NOTE">
