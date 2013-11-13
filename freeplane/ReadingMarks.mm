@@ -230,7 +230,7 @@
 <node TEXT="&#x5c45;&#x7136;&#x6709;&#x5982;&#x6b64;&#x5e9e;&#x5927;&#x7684;&#x4e00;&#x4e2a;&#x6a21;&#x5757;&#x5e93;!!--CPAN" ID="ID_1048538695" CREATED="1318304588946" MODIFIED="1318304626381"/>
 </node>
 </node>
-<node TEXT="&#x53c2;&#x8003;&#x56fe;&#x4e66;&#x8d44;&#x6599;&#x5185;&#x5bb9;&#x4ee5;&#x53ca;&#x9605;&#x8bfb;&#x7b14;&#x8bb0;" ID="ID_1473487434" CREATED="1318299292778" MODIFIED="1378975515151">
+<node TEXT="&#x53c2;&#x8003;&#x56fe;&#x4e66;&#x8d44;&#x6599;&#x5185;&#x5bb9;&#x4ee5;&#x53ca;&#x9605;&#x8bfb;&#x7b14;&#x8bb0;" ID="ID_1473487434" CREATED="1318299292778" MODIFIED="1383207829571">
 <node TEXT="Impatient Perl" ID="ID_1286038151" CREATED="1318298591143" MODIFIED="1318298903863"><richcontent TYPE="NOTE">
 
 <html>
@@ -3891,7 +3891,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5982;&#x4f55;&#x5728;&quot;&#x81ea;&#x65cb;&#x9501;&quot;/&quot;&#x4fe1;&#x53f7;&#x91cf;&quot;/&quot;&#x4e2d;&#x65ad;&#x5c4f;&#x853d;&quot;&#x4e4b;&#x95f4;&#x505a;&#x51fa;&#x9009;&#x62e9;" ID="ID_818798645" CREATED="1383165713529" MODIFIED="1383170078782"><richcontent TYPE="NOTE">
 
@@ -3947,7 +3946,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6709;&#x51e0;&#x79cd;&quot;kernel control path&quot;?" ID="ID_1086699273" CREATED="1383167175872" MODIFIED="1383167201665" LINK="#ID_1582558193"/>
 </node>
@@ -3970,7 +3968,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4000,7 +3997,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="6.1.&#x65f6;&#x949f;&#x548c;&#x8ba1;&#x65f6;&#x5668;&#x7535;&#x8def;" ID="ID_1955482928" CREATED="1383168165338" MODIFIED="1383168174629"/>
 <node TEXT="6.2.Linux&#x7684;&#x8ba1;&#x65f6;&#x673a;&#x5236;" ID="ID_622066814" CREATED="1383168183446" MODIFIED="1383168193450"/>
@@ -4072,7 +4068,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

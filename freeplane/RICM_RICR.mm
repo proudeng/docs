@@ -10440,8 +10440,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1514796674" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="73;0;" ENDINCLINATION="73;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1822694984" MIDDLE_LABEL="&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;" STARTINCLINATION="220;0;" ENDINCLINATION="220;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1514796674" CREATED="1335180842040" MODIFIED="1335265675712"><richcontent TYPE="NODE">
 
@@ -10806,9 +10806,9 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1020581049" MIDDLE_LABEL="CPRI0_STATUS_ENTERING_OPERATION&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="326;0;" ENDINCLINATION="326;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_335798063" MIDDLE_LABEL="CPRI0_STATUS_NO_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="189;0;" ENDINCLINATION="189;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node ID="ID_1020581049" CREATED="1335178561878" MODIFIED="1335265048012" HGAP="37" VSHIFT="63"><richcontent TYPE="NODE">
 
@@ -26874,6 +26874,81 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 <node TEXT="&#x6253;&#x5305;diff&#x7684;&#x6587;&#x4ef6;" ID="ID_711392709" CREATED="1368495751704" MODIFIED="1368495946408">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_525544350" MIDDLE_LABEL="&#x53c2;&#x8003;&#x6307;&#x5411;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="200;0;" ENDINCLINATION="200;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
+<node TEXT="Unix&#x4e2d;&#x7684;egrep&#x7684;&#x4f7f;&#x7528;" ID="ID_438328750" CREATED="1383237802369" MODIFIED="1383238180469"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000cc" size="4"><i>egrep 'pattern' filename </i></font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#37324;&#21807;&#19968;&#35201;&#27880;&#24847;&#30340;&#26159;,pattern&#26159;&#29992;&#24341;&#21495;&#38548;&#24320;&#30340;,&#32780;&#19981;&#26159;&#24819;&#35937;&#20013;&#30340;/pattern/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32780;patten&#30340;&#35821;&#27861;&#35268;&#21017;,&#21017;&#26159;&#26631;&#20934;&#30340;&#27491;&#21017;&#34920;&#36798;&#24335;,&#21487;&#20197;&#38543;&#24847;&#20351;&#29992;.
+    </p>
+    <p>
+      &#27880;&#24847;&#34429;&#28982;&#20063;&#21487;&#20197;&#20351;&#29992;&#21452;&#24341;&#21495;,&#20294;&#26159;&#22312;&#20351;&#29992;&#32467;&#23614;&#26631;&#35782;&#31526;&#30340;&#26102;&#20505;&quot;$&quot;,&#23601;&#20250;&#26377;&#38382;&#39064;&#20102;,unix&#20250;&#25226;&#36825;&#20010;&#26631;&#35782;&#31526;&#35299;&#37322;&#25104;&#19968;&#20010;shell&#21464;&#37327;.
+    </p>
+    <p>
+      &#25152;&#20197;,&#29992;&#21333;&#24341;&#21495;&#27604;&#36739;&#30340;&#20445;&#38505;&#19968;&#20123;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5982;&#x4f55;&#x627e;&#x5230;&#x8f6f;&#x4ef6;&#x9879;&#x76ee;&#x4f9d;&#x8d56;&#x7684;&#x6240;&#x6709;&#x5934;&#x6587;&#x4ef6;" ID="ID_53710662" CREATED="1383239471939" MODIFIED="1383239895243"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1,&#32534;&#35793;&#36719;&#20214;,&#26597;&#30475;&#32534;&#35793;&#36755;&#20986;,&#25214;&#20986;&#19968;&#22823;&#20018;&#30340;&#25628;&#32034;&#36335;&#32463;(&#26631;&#24535;&#26159;&#20197;-I&#24320;&#22836;&#30340;&#37027;&#20123;&#36335;&#32463;):
+    </p>
+    <p>
+      &#23558;&#25152;&#26377;&#30340;&#25628;&#32034;&#36335;&#32463;&#23384;&#25104;&#19968;&#20010;&#25991;&#26412;list.txt
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,&#20351;&#29992;<b><font color="#0000cc" size="4"><i>find `cat list.txt ` -type f&#160;&#160;&gt;files.txt</i></font></b>&#21629;&#20196;&#26597;&#25214;&#25152;&#26377;&#25628;&#32034;&#36335;&#32463;&#19979;&#30340;&#25152;&#26377;&#25991;&#20214;,&#24182;&#23558;&#25152;&#26377;&#25991;&#20214;&#30340;&#25991;&#20214;&#21517;&#23384;&#20837;files.txt
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3,&#20351;&#29992;<b><font color="#0000cc" size="4"><i>cp `egrep '.*\.(h|sig)$'&#160;&#160;files.txt`&#160;&#160;dir_xxx</i></font></b><font color="#000000" size="2">&#21629;&#20196;&#22312;files.txt&#25991;&#20214;&#20013;&#25628;&#32034;&#25152;&#26377;&#20197;.h&#21644;&#20197;.sig&#32467;&#23614;&#30340;&#25991;&#20214;,&#24182;&#23558;&#20854;&#25335;&#36125;&#21040;dir_xxx&#30446;&#24405;&#19979;. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000" size="2">&#23436;&#25104;&#20102;! </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000" size="2">&#32570;&#28857;&#26159;,&#21487;&#33021;&#25335;&#36125;&#20102;&#24456;&#22810;&#19981;&#24517;&#35201;&#30340;&#22836;&#25991;&#20214;&#21644;sig&#25991;&#20214;,&#20294;&#26159;&#33021;&#22815;&#20445;&#35777;,&#39033;&#30446;&#20013;&#25152;&#20351;&#29992;&#30340;&#22836;&#25991;&#20214;&#37117;&#34987;&#21253;&#21547;&#20102;. </font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="edenjun&#x7535;&#x8bdd;&#x4f1a;&#x8bae;&#x53f7;&#x7801;" ID="ID_9166575" CREATED="1357128936050" MODIFIED="1359960319014"><richcontent TYPE="NOTE">
 
@@ -27241,6 +27316,33 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </body>
 </html>
 </richcontent>
+<node TEXT="tar&#x6253;&#x5305;&#x6587;&#x4ef6;&#x65f6;&#x5982;&#x4f55;&#x8ffd;&#x8e2a;&#x7b26;&#x53f7;&#x94fe;&#x63a5;" ID="ID_1230574316" CREATED="1383212250954" MODIFIED="1383212473922"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25171;&#21253;&#25991;&#20214;&#26102;,&#22914;&#26524;&#20351;&#29992; tar cvf destination.tar source&#21629;&#20196;&#26102;,&#22914;&#26524;&#22312;source&#30446;&#24405;&#20013;&#23384;&#22312;&#31526;&#21495;&#38142;&#25509;&#30340;&#35805;,&#40664;&#35748;&#30340;&#24773;&#20917;&#26159;tar&#21629;&#20196;&#19981;&#20250;follow &#36825;&#20123;&#31526;&#21495;&#38142;&#25509;&#25351;&#21521;&#30340;&#20869;&#23481;,&#32780;&#26159;&#30452;&#25509;&#25226;&#36825;&#20010;&#31526;&#21495;&#25991;&#20214;&#25171;&#21253;&#20102;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#38656;&#35201;tar&#21629;&#20196;&#22312;&#25171;&#21253;&#26102;,follow&#25152;&#26377;&#30340;&#31526;&#21495;&#38142;&#25509;,&#23558;&#31526;&#21495;&#38142;&#25509;&#25351;&#21521;&#30340;&#25991;&#20214;&#25110;&#32773;&#25991;&#20214;&#22841;&#25171;&#21253;&#26102;,&#21482;&#35201;&#21152;&#19978;&#19968;&#20010;-h&#21442;&#25968;&#23601;&#34892;&#20102;,&#20351;&#29992;&#30340;&#21629;&#20196;&#31867;&#20284;&#20110;&#19979;&#38754;&#36825;&#26679;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000cc" size="4"><i>tar cvf</i></font><i><font color="#cc0000" size="5">h</font><font color="#0000cc" size="4">&#160;destination.tar source</font></i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="source insight&#x4e0a;&#x4fee;&#x6539;&quot;&#x56de;&#x8f66;&quot;&#x5bf9;&#x5e94;&#x7684;&#x503c;&#x4ee5;&#x53ca;tab&#x7684;&#x8bbe;&#x7f6e;" ID="ID_576296810" CREATED="1354902325823" MODIFIED="1358178591938"><richcontent TYPE="NOTE">
 
@@ -27566,7 +27668,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x57f9;&#x8bad;&#x76f8;&#x5173;" ID="ID_1867841372" CREATED="1381210486735" MODIFIED="1381210721733"><richcontent TYPE="NOTE">
