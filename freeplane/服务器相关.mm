@@ -1363,7 +1363,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x7528;root&#x8d26;&#x6237;&#x5462;?" ID="ID_1649480977" CREATED="1352818826032" MODIFIED="1352818864355"><richcontent TYPE="NOTE">
+<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x7528;root&#x8d26;&#x6237;&#x5462;?" ID="ID_1649480977" CREATED="1352818826032" MODIFIED="1385442989281"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2674,7 +2674,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2870,7 +2869,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4e00;&#x4e2a;&#x4f7f;&#x7528;&#x4f8b;&#x5b50;" ID="ID_1917778704" CREATED="1364909951244" MODIFIED="1364910018545"><richcontent TYPE="NOTE">
+<node TEXT="&#x4e00;&#x4e2a;&#x4f7f;&#x7528;&#x4f8b;&#x5b50;" ID="ID_1917778704" CREATED="1364909951244" MODIFIED="1385443544038"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2878,19 +2877,29 @@
   </head>
   <body>
     <p>
-      &#x4e0b;&#x9762;&#x7684;&#x547d;&#x4ee4;&#x53ea;&#x662f;&#x4e00;&#x4e2a;&#x4f7f;&#x7528;&#x7684;&#x4f8b;&#x5b50;&#xff1a;
+      &#19979;&#38754;&#30340;&#21629;&#20196;&#21482;&#26159;&#19968;&#20010;&#20351;&#29992;&#30340;&#20363;&#23376;&#65306;
     </p>
     <p>
-      &#x4e0b;&#x9762;&#x547d;&#x4ee4;&#x7684;&#x610f;&#x601d;&#x662f;&#xff0c;&#x5728;&#x4e9a;&#x6d32;&#x533a;&#xff0c;&#x641c;&#x7d22;20&#x4e2a;&#x6e90;&#xff0c;&#x4ece;&#x4e2d;&#x9009;&#x51fa;3&#x4e2a;&#x901f;&#x5ea6;&#x6700;&#x5feb;&#x7684;&#x6e90;&#xff0c;&#x5c06;&#x4ed6;&#x4eec;&#x5199;&#x5165;&#x5230;sourcelist.txt&#x6587;&#x4ef6;&#x4e2d;&#x53bb;&#x3002;
+      &#19979;&#38754;&#21629;&#20196;&#30340;&#24847;&#24605;&#26159;&#65292;&#22312;&#20122;&#27954;&#21306;&#65292;&#25628;&#32034;20&#20010;&#28304;&#65292;&#20174;&#20013;&#36873;&#20986;3&#20010;&#36895;&#24230;&#26368;&#24555;&#30340;&#28304;&#65292;&#23558;&#20182;&#20204;&#20889;&#20837;&#21040;sourcelist.txt&#25991;&#20214;&#20013;&#21435;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      <b><font color="#0033cc" size="6"><i>apt-spy -a Asia -e 20 -n 3 -o sourcelist.txt</i></font></b>
+      <i><font color="#0033cc" size="6"><b>apt-spy -d stable -a Asia -e 20 -n 3 -o sourcelist.txt </b></font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23558;&#21629;&#20196;&#32467;&#26463;&#21518;&#29983;&#25104;&#30340;sourcelist.txt&#25991;&#20214;&#25913;&#21517;&#20026;sources.list,&#24182;&#35206;&#30422;&#19979;&#38754;&#30340;&#25991;&#20214;&#21363;&#21487;&#29983;&#25928;&#20102;&#12290;
+    </p>
+    <p>
+      <i><font color="#0000cc" size="6"><b>/etc/apt/sources.list</b></font></i>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -3008,7 +3017,7 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;&#x57fa;&#x4e8e;PPTPD&#x7684;VPN&#x670d;&#x52a1;&#x5668;" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1373953807853" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;&#x57fa;&#x4e8e;PPTPD&#x7684;VPN&#x670d;&#x52a1;&#x5668;" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1385454342449" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3016,30 +3025,31 @@
   </head>
   <body>
     <p>
-      &#x5b89;&#x88c5;VPN&#x7684;&#x597d;&#x5904;&#x5f53;&#x7136;&#x4e0d;&#x7528;&#x591a;&#x8bf4;&#x4e86;&#xff0c;&#x4e3b;&#x8981;&#x7684;&#x610f;&#x56fe;&#x662f;&#x7528;&#x5176;&#x6765;&#x7ffb;&#x5899;&#x3002;
+      &#23433;&#35013;VPN&#30340;&#22909;&#22788;&#24403;&#28982;&#19981;&#29992;&#22810;&#35828;&#20102;&#65292;&#20027;&#35201;&#30340;&#24847;&#22270;&#26159;&#29992;&#20854;&#26469;&#32763;&#22681;&#12290;
     </p>
     <p>
-      &#x5f53;&#x7136;&#x4f7f;&#x7528;ssh&#x7684;tunnel&#x4e5f;&#x53ef;&#x4ee5;&#x7ffb;&#x5899;&#xff0c;&#x4f46;&#x662f;&#x6bd5;&#x7adf;VPN&#x662f;&#x4e00;&#x4e2a;&#x5bf9;&#x7528;&#x6237;&#x800c;&#x8a00;&#x96be;&#x5ea6;&#x6bd4;&#x8f83;&#x5c0f;&#x7684;&#x9009;&#x62e9;&#x3002;
+      &#24403;&#28982;&#20351;&#29992;ssh&#30340;tunnel&#20063;&#21487;&#20197;&#32763;&#22681;&#65292;&#20294;&#26159;&#27605;&#31455;VPN&#26159;&#19968;&#20010;&#23545;&#29992;&#25143;&#32780;&#35328;&#38590;&#24230;&#27604;&#36739;&#23567;&#30340;&#36873;&#25321;&#12290;
     </p>
     <p>
-      &#x4e3a;&#x4ec0;&#x4e48;&#x9009;&#x62e9;pptpd&#x5462;&#xff0c;&#x56e0;&#x4e3a;&#x636e;&#x8bf4;&#x5728;Windows&#x4e0b;&#x4e0d;&#x9700;&#x8981;&#x5b89;&#x88c5;&#x4ec0;&#x4e48;&#x8f6f;&#x4ef6;&#x5c31;&#x53ef;&#x4ee5;&#x8fde;&#x63a5;PPTP&#x7684;VPN&#x670d;&#x52a1;&#x5668;&#x3002;
+      &#20026;&#20160;&#20040;&#36873;&#25321;pptpd&#21602;&#65292;&#22240;&#20026;&#25454;&#35828;&#22312;Windows&#19979;&#19981;&#38656;&#35201;&#23433;&#35013;&#20160;&#20040;&#36719;&#20214;&#23601;&#21487;&#20197;&#36830;&#25509;PPTP&#30340;VPN&#26381;&#21153;&#22120;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      &#x5b89;&#x88c5;&#x7684;&#x8fc7;&#x7a0b;&#x53c2;&#x8003;&#x9644;&#x4ef6;&#x91cc;&#x9762;&#x7684;&#x6587;&#x6863;&#xff0c;&#x57fa;&#x672c;&#x4e0a;&#x8ddf;&#x5176;&#x4e00;&#x81f4;&#x3002;&#x505a;&#x51fa;&#x6539;&#x53d8;&#x7684;&#x5730;&#x65b9;&#x4ec5;&#x4ec5;&#x5728;ip&#x7684;&#x8bbe;&#x7f6e;&#x548c;&#x7528;&#x6237;&#x540d;/&#x5bc6;&#x7801;&#x7684;&#x8bbe;&#x7f6e;&#x6709;&#x4e00;&#x4e9b;&#x4e0d;&#x540c;&#x3002;
+      &#23433;&#35013;&#30340;&#36807;&#31243;&#21442;&#32771;&#38468;&#20214;&#37324;&#38754;&#30340;&#25991;&#26723;&#65292;&#22522;&#26412;&#19978;&#36319;&#20854;&#19968;&#33268;&#12290;&#20570;&#20986;&#25913;&#21464;&#30340;&#22320;&#26041;&#20165;&#20165;&#22312;ip&#30340;&#35774;&#32622;&#21644;&#29992;&#25143;&#21517;/&#23494;&#30721;&#30340;&#35774;&#32622;&#26377;&#19968;&#20123;&#19981;&#21516;&#12290;
     </p>
     <p>
-      &#x5982;&#x679c;&#x9644;&#x4ef6;&#x65e0;&#x6cd5;&#x8bbf;&#x95ee;&#x7684;&#x8bdd;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x8bbf;&#x95ee;&#x5982;&#x4e0b;&#x7684;&#x5916;&#x7f51;&#x7684;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;:
+      &#22914;&#26524;&#38468;&#20214;&#26080;&#27861;&#35775;&#38382;&#30340;&#35805;&#65292;&#20063;&#21487;&#20197;&#35775;&#38382;&#22914;&#19979;&#30340;&#22806;&#32593;&#30340;&#22266;&#23450;&#38142;&#25509;:
     </p>
     <p>
-      <a href="http://www.pub.proudj.com/vpn.htm">http://www.pub.proudj.com/vpn.htm</a>
+      <a href="http://www.pub.proudj.com/vpn.htm">http://www.pub.proudj.comz/vpn.htm</a>
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="Trouble Shooting" ID="ID_1104269016" CREATED="1380548388000" MODIFIED="1380548445765">
+<node TEXT="Trouble Shooting" ID="ID_1104269016" CREATED="1380548388000" MODIFIED="1385454339569">
 <node TEXT="MTU problem." ID="ID_911326503" CREATED="1380548450398" MODIFIED="1380637849625"><richcontent TYPE="NOTE">
 
 <html>
@@ -3155,6 +3165,1636 @@
 </html>
 </richcontent>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" ID="ID_1964664702" CREATED="1385431355713" MODIFIED="1385431363373">
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_1947689177" CREATED="1385431368233" MODIFIED="1385431391082" LINK="#ID_745571441"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#25351;&#21521;&#32467;&#28857;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6027;&#x80fd;&#x6d4b;&#x8bd5;&#x7ed3;&#x679c;" ID="ID_130365328" CREATED="1385431396102" MODIFIED="1385432324530"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ========================================================================
+    </p>
+    <p>
+      &#160;&#160;&#160;BYTE UNIX Benchmarks (Version 5.1.2)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;System: yardvps.proudj.com: GNU/Linux
+    </p>
+    <p>
+      &#160;&#160;&#160;OS: GNU/Linux -- 2.6.32-5-686-bigmem -- #1 SMP Mon Feb 25 01:53:47 UTC 2013
+    </p>
+    <p>
+      &#160;&#160;&#160;Machine: i686 (unknown)
+    </p>
+    <p>
+      &#160;&#160;&#160;Language: en_US.utf8 (charmap=&quot;UTF-8&quot;, collate=&quot;UTF-8&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;CPU 0: Intel(R) Xeon(R) CPU E5620 @ 2.40GHz (4800.2 bogomips)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Hyper-Threading, MMX, Physical Address Ext, SYSENTER/SYSEXIT
+    </p>
+    <p>
+      &#160;&#160;&#160;09:24:33 up 37 days,&#160;&#160;3:18,&#160;&#160;1 user,&#160;&#160;load average: 0.00, 0.02, 0.00; runlevel 2
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ------------------------------------------------------------------------
+    </p>
+    <p>
+      Benchmark Run: Tue Nov 26 2013 09:24:33 - 09:52:51
+    </p>
+    <p>
+      1 CPU in system; running 1 parallel copy of tests
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dhrystone 2 using register variables&#160;&#160;&#160;&#160;&#160;&#160;&#160;14341776.8 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      Double-Precision Whetstone&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2535.6 MWIPS (10.1 s, 7 samples)
+    </p>
+    <p>
+      Execl Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1766.3 lps&#160;&#160;&#160;(29.7 s, 2 samples)
+    </p>
+    <p>
+      File Copy 1024 bufsize 2000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;420372.2 KBps&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      File Copy 256 bufsize 500 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;114382.3 KBps&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      File Copy 4096 bufsize 8000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;1036216.5 KBps&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      Pipe Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;755650.1 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      Pipe-based Context Switching&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;79462.2 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      Process Creation&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3479.8 lps&#160;&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      Shell Scripts (1 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3486.9 lpm&#160;&#160;&#160;(60.0 s, 2 samples)
+    </p>
+    <p>
+      Shell Scripts (8 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;453.7 lpm&#160;&#160;&#160;(60.1 s, 2 samples)
+    </p>
+    <p>
+      System Call Overhead&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;602667.9 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      System Benchmarks Index Values&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BASELINE&#160;&#160;&#160;&#160;&#160;&#160;&#160;RESULT&#160;&#160;&#160; INDEX
+    </p>
+    <p>
+      Dhrystone 2 using register variables&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;116700.0&#160;&#160;&#160;14341776.8&#160;&#160; 1228.9
+    </p>
+    <p>
+      Double-Precision Whetstone&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;55.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;2535.6&#160;&#160;&#160; 461.0
+    </p>
+    <p>
+      Execl Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;43.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;1766.3&#160;&#160;&#160; 410.8
+    </p>
+    <p>
+      File Copy 1024 bufsize 2000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3960.0&#160;&#160;&#160;&#160;&#160;420372.2&#160;&#160; 1061.5
+    </p>
+    <p>
+      File Copy 256 bufsize 500 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1655.0&#160;&#160;&#160;&#160;&#160;114382.3&#160;&#160;&#160; 691.1
+    </p>
+    <p>
+      File Copy 4096 bufsize 8000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5800.0&#160;&#160;&#160;&#160;1036216.5&#160;&#160; 1786.6
+    </p>
+    <p>
+      Pipe Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;12440.0&#160;&#160;&#160;&#160;&#160;755650.1&#160;&#160;&#160; 607.4
+    </p>
+    <p>
+      Pipe-based Context Switching&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4000.0&#160;&#160;&#160;&#160;&#160;&#160;79462.2&#160;&#160;&#160; 198.7
+    </p>
+    <p>
+      Process Creation&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;126.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;3479.8&#160;&#160;&#160; 276.2
+    </p>
+    <p>
+      Shell Scripts (1 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;42.4&#160;&#160;&#160;&#160;&#160;&#160;&#160;3486.9&#160;&#160;&#160; 822.4
+    </p>
+    <p>
+      Shell Scripts (8 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;453.7&#160;&#160;&#160; 756.2
+    </p>
+    <p>
+      System Call Overhead&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;15000.0&#160;&#160;&#160;&#160;&#160;602667.9&#160;&#160;&#160; 401.8
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ========
+    </p>
+    <p>
+      System Benchmarks Index Score&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc0033"><b>607.8</b></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1621598136" SOURCE_LABEL="&#x5bf9;&#x6bd4;" MIDDLE_LABEL="&#x4e00;&#x5206;&#x94b1;&#x4e00;&#x5206;&#x8d27;" STARTINCLINATION="45;0;" ENDINCLINATION="46;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1385427256504"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="trebuchet ms,geneva" size="small"><span style="font-family: trebuchet ms,geneva; font-size: small">Dear jun deng,<br/><br/><strong>PLEASE PRINT THIS MESSAGE FOR YOUR RECORDS - PLEASE READ THIS EMAIL IN FULL.</strong></span></font>
+    </p>
+    <p>
+      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva">We are pleased to tell you that the server or VPS you ordered has now been set up and is operational. </span></font>
+    </p>
+    <p>
+      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>Server Details<br/></strong>============================= </span></font>
+    </p>
+    <p>
+      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva">You ordered the XVM512 </span></font>
+    </p>
+    <p>
+      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva">Main IP: </span></font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>198.167.136.189</b></span></font><span style="font-size: small; font-family: trebuchet ms,geneva"><font size="small" face="trebuchet ms,geneva"><br/></font></span>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Additional IP Address(es):<br/></span></font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>198.167.136.38 </b></span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Server Name: proudeng</span><span style="font-size: small; font-family: trebuchet ms,geneva"><br/></span></font>
+    </p>
+    <p>
+      <font size="x-small" face="trebuchet ms,geneva"><span style="font-size: x-small"><strong>CONTROL PANEL NOTE: </strong>If you ordered a control panel, you will receive another e-mail following this e-mail within 12 hours.&#160;&#160;Although your VPS is setup, we must still manually license your server for your desired control panel.&#160;&#160;We will install the control panel for you, and activate it.&#160;&#160;Until you receive this e-mail, it is strongly advised that you do not configure your VPS until this time. Note that control panel activations and installs are done during business hours only!</span></font><font size="small" face="trebuchet ms,geneva"><span><br/></span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
+      </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>SolusVM VPS Control Panel<br/></strong>=============================<br/></span></font><font face="trebuchet ms,geneva" size="small" color="#000099"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>http://manage.virpus.com</b></span></font><font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/></span><span style="font-size: small; font-family: trebuchet ms,geneva">Username: </span></font><font face="trebuchet ms,geneva" size="small" color="#000099"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>vn20676</b></span></font><font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/></span><span style="font-size: small; font-family: trebuchet ms,geneva">Password: </span></font><font face="trebuchet ms,geneva" size="small" color="#000099"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>flyingproudeng21181013 </b></span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Console Username: </span><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>Console Password: </span></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
+      </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>Support</strong><br/>=============================<br/>For any support needs, please open a ticket at http://myvirpus.com </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Please include any necessary information to provide you with faster service, such as root password, domain names, and a description of the problem / or assistance needed. This will speed up the support time by allowing our administrators to immediately begin diagnosing the problem. </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
+      </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>Network Updates and Status</strong><br/>=============================<br/></span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Virpus strongly recommends that customers register on our forum located at http://virpus.com/forum.&#160;&#160;Network and server node statuses are posted here, as well as scheduled maintenances.<br/></span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
+      </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Once again, thank you for your business to Virpus Networks! </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Regards, </span></font>
+    </p>
+    <p>
+      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Virpus Networks, Inc. </span></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        wget&#160;<a target="_blank" href="http://byte-unixbench.googlecode.com/files/unixbench-5.1.3.tar.gz">http://byte-unixbench.googlecode.com/files/unixbench-5.1.2.tar.gz</a>
+      </li>
+      <li>
+        tar -zxvf unixbench-5.1.3.tar.gz &#35299;&#21387;&#21518;&#20250;&#30340;&#21040; Unixbench &#30446;&#24405;
+      </li>
+      <li>
+        cd Unixbench
+      </li>
+      <li>
+        &#21442;&#32771;README&#25991;&#20214;&#20013;&#30340;&#20869;&#23481;&#65292;&#20462;&#25913;Makefile&#25991;&#20214;&#65292;&#23558;&#20854;&#20013;&#30340;&#19968;&#20010;&#24212;&#35813;&#26159;&#21483;&#20570;GRAPHIC_TEST&#30340;&#36873;&#39033;&#32473;&#27880;&#37322;&#25481;&#12290;
+      </li>
+      <li>
+        &#28982;&#21518;&#20351;&#29992;make&#21629;&#20196;&#32534;&#35793;UnixBench
+      </li>
+      <li>
+        &#32534;&#35793;&#25104;&#21151;&#20043;&#21518;&#65292;&#20351;&#29992;./Run&#21629;&#20196;&#25191;&#34892;UnixBench
+      </li>
+      <li>
+        &#25191;&#34892;&#23436;&#20043;&#21518;&#65292;&#27979;&#35797;&#30340;&#32467;&#26524;&#20250;&#36890;&#36807;console&#26174;&#31034;&#20986;&#26469;&#12290;
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6027;&#x80fd;&#x6d4b;&#x8bd5;&#x7ed3;&#x679c;" ID="ID_1621598136" CREATED="1385431285355" MODIFIED="1385431540038"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ========================================================================
+    </p>
+    <p>
+      &#160;&#160;&#160;BYTE UNIX Benchmarks (Version 5.1.2)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;System: proudeng: GNU/Linux
+    </p>
+    <p>
+      &#160;&#160;&#160;OS: GNU/Linux -- 3.2.0-4-amd64 -- #1 SMP Debian 3.2.41-2
+    </p>
+    <p>
+      &#160;&#160;&#160;Machine: x86_64 (unknown)
+    </p>
+    <p>
+      &#160;&#160;&#160;Language: en_US.utf8 (charmap=&quot;UTF-8&quot;, collate=&quot;UTF-8&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;CPU 0: Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz (4000.0 bogomips)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+    </p>
+    <p>
+      &#160;&#160;&#160;01:21:42 up 24 min,&#160;&#160;1 user,&#160;&#160;load average: 0.06, 0.34, 0.28; runlevel 2
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ------------------------------------------------------------------------
+    </p>
+    <p>
+      Benchmark Run: Tue Nov 26 2013 01:21:42 - 01:49:40
+    </p>
+    <p>
+      1 CPU in system; running 1 parallel copy of tests
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dhrystone 2 using register variables&#160;&#160;&#160;&#160;&#160;&#160;&#160;14483764.4 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      Double-Precision Whetstone&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2179.8 MWIPS (10.0 s, 7 samples)
+    </p>
+    <p>
+      Execl Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;736.4 lps&#160;&#160;&#160;(29.5 s, 2 samples)
+    </p>
+    <p>
+      File Copy 1024 bufsize 2000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;167175.3 KBps&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      File Copy 256 bufsize 500 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46742.4 KBps&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      File Copy 4096 bufsize 8000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;560402.4 KBps&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      Pipe Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;288634.9 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      Pipe-based Context Switching&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46545.8 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      Process Creation&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1641.2 lps&#160;&#160;&#160;(30.0 s, 2 samples)
+    </p>
+    <p>
+      Shell Scripts (1 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1715.3 lpm&#160;&#160;&#160;(60.0 s, 2 samples)
+    </p>
+    <p>
+      Shell Scripts (8 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;222.3 lpm&#160;&#160;&#160;(60.2 s, 2 samples)
+    </p>
+    <p>
+      System Call Overhead&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;294867.5 lps&#160;&#160;&#160;(10.0 s, 7 samples)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      System Benchmarks Index Values&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BASELINE&#160;&#160;&#160;&#160;&#160;&#160;&#160;RESULT&#160;&#160;&#160; INDEX
+    </p>
+    <p>
+      Dhrystone 2 using register variables&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;116700.0&#160;&#160;&#160;14483764.4&#160;&#160; 1241.1
+    </p>
+    <p>
+      Double-Precision Whetstone&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;55.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;2179.8&#160;&#160;&#160; 396.3
+    </p>
+    <p>
+      Execl Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;43.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;736.4&#160;&#160;&#160; 171.3
+    </p>
+    <p>
+      File Copy 1024 bufsize 2000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3960.0&#160;&#160;&#160;&#160;&#160;167175.3&#160;&#160;&#160; 422.2
+    </p>
+    <p>
+      File Copy 256 bufsize 500 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1655.0&#160;&#160;&#160;&#160;&#160;&#160;46742.4&#160;&#160;&#160; 282.4
+    </p>
+    <p>
+      File Copy 4096 bufsize 8000 maxblocks&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5800.0&#160;&#160;&#160;&#160;&#160;560402.4&#160;&#160;&#160; 966.2
+    </p>
+    <p>
+      Pipe Throughput&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;12440.0&#160;&#160;&#160;&#160;&#160;288634.9&#160;&#160;&#160; 232.0
+    </p>
+    <p>
+      Pipe-based Context Switching&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4000.0&#160;&#160;&#160;&#160;&#160;&#160;46545.8&#160;&#160;&#160; 116.4
+    </p>
+    <p>
+      Process Creation&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;126.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;1641.2&#160;&#160;&#160; 130.3
+    </p>
+    <p>
+      Shell Scripts (1 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;42.4&#160;&#160;&#160;&#160;&#160;&#160;&#160;1715.3&#160;&#160;&#160; 404.5
+    </p>
+    <p>
+      Shell Scripts (8 concurrent)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;222.3&#160;&#160;&#160; 370.5
+    </p>
+    <p>
+      System Call Overhead&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;15000.0&#160;&#160;&#160;&#160;&#160;294867.5&#160;&#160;&#160; 196.6
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ========
+    </p>
+    <p>
+      System Benchmarks Index Score&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc0033"><b>316.4</b></font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;linux&#x7cfb;&#x7edf;&#x68c0;&#x6d4b;&#x5de5;&#x5177;" ID="ID_1316283962" CREATED="1385435856805" MODIFIED="1385435892455"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#000099" size="3"><b>aptitude install sysstat</b></font></i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;&#x4e0d;&#x5916;&#x4e4e;&#x4e0b;&#x9762;&#x7684;&#x51e0;&#x4e2a;&#x5143;&#x7d20;:
+    </p>
+    <ul>
+      <li>
+        &#x9759;&#x6001;HTTP&#x670d;&#x52a1;&#x5668;,&#x6211;&#x4eec;&#x9009;&#x4e86;lighttpd,&#x56e0;&#x4e3a;&#x5b83;&#x5360;&#x7528;&#x8d44;&#x6e90;&#x5c0f;
+      </li>
+      <li>
+        &#x52a8;&#x6001;&#x5185;&#x5bb9;&#x89e3;&#x6790;&#x5668;,&#x4e00;&#x822c;&#x662f;php
+      </li>
+      <li>
+        &#x6570;&#x636e;&#x5e93;,&#x4e00;&#x822c;&#x7528;Mysql.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="lighttpd&#x5b89;&#x88c5;" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b><font color="#000099">aptitude install lighttpd</font></b></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x5b89;&#x88c5;&#x5b8c;&#x4e4b;&#x540e;,Lighttpd&#x7684;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x4e3a;/etc/lighttpd/&#x76ee;&#x5f55;&#x4e0b;,&#x4e3b;&#x8981;&#x7684;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x4e3a;lighttpd.conf.&#x8fd8;&#x6709;&#x4e24;&#x4e2a;&#x76ee;&#x5f55;,conf-available&#x548c;conf-enabled.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x652f;&#x6301;php" ID="ID_765390997" CREATED="1355783146892" MODIFIED="1355783182321"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x9996;&#x5148;&#x9700;&#x8981;&#x542f;&#x52a8;php&#x652f;&#x6301;,lighttpd&#x652f;&#x6301;php&#x662f;&#x901a;&#x8fc7;fast-cgi&#x5b9e;&#x73b0;&#x7684;.&#x4f7f;&#x7528;&#x4e0b;&#x9762;&#x7684;&#x547d;&#x4ee4;&#x5373;&#x53ef;:
+    </p>
+    <p>
+      <i><b><font color="#000099">lighttpd-enable-mod&#xa0;&#xa0;fastcgi fastcgi-php </font></b></i>
+    </p>
+    <p>
+      <i><b><font color="#000099">&#x7136;&#x540e;&#x518d;&#x901a;&#x8fc7;&#x4e0b;&#x9762;&#x7684;&#x547d;&#x4ee4;&#x91cd;&#x542f;lighttpd&#x4f7f;&#x5f97;&#x65b0;&#x7684;&#x914d;&#x7f6e;&#x751f;&#x6548;: </font></b></i>
+    </p>
+    <p>
+      <i><b><font color="#000099">/etc/init.d/lighttpd force-reload </font></b></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x6b64;&#x65f6;&#x5982;&#x679c;&#x67e5;&#x770b;conf-enabled&#x76ee;&#x5f55;&#x4e0b;,&#x5c31;&#x53d1;&#x73b0;&#x6709;&#x4e24;&#x4e2a;&#x6587;&#x4ef6;&#x88ab;&#x521b;&#x5efa;&#x4e86;,&#x5c31;&#x662f;&#x5bf9;&#x5e94;&#x4e0a;&#x9762;enable&#x7684;&#x4e24;&#x4e2a;&#x6a21;&#x5757;&#x7684;.&#x8fd9;&#x5c31;&#x5b8c;&#x6210;&#x4e86;&#x5bf9;php&#x7684;&#x652f;&#x6301;&#x4e86;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x652f;&#x6301;virtual host" ID="ID_431989124" CREATED="1355783154576" MODIFIED="1385445184721"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38656;&#27714;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;vps.proudj.com&#36825;&#20010;&#26381;&#21153;&#22120;&#19978;,&#25105;&#30340;&#26399;&#26395;&#26159;&#23454;&#29616;&#20004;&#20010;&#34394;&#25311;&#30340;web&#26381;&#21153;&#22120;.
+    </p>
+    <p>
+      www.proudj.com&#25351;&#21521;/var/www&#19979;&#23384;&#25918;&#30340;&#19968;&#20010;&#38745;&#24577;&#30340;html&#25991;&#20214;index.html,&#20316;&#20026;&#19968;&#20010;one page&#30340;&#20010;&#20154;&#20027;&#39029;.&#36825;&#20010;&#38745;&#24577;html&#25991;&#20214;&#19978;&#23384;&#25918;&#20102;&#25105;&#20010;&#20154;&#30340;&#21508;&#20010;&#38142;&#25509;.
+    </p>
+    <p>
+      &#32780;blog.proudj.com&#36825;&#20010;&#22495;&#21517;&#21017;&#25351;&#21521;&#23433;&#35013;/var/www/wordpress&#19979;&#23433;&#35013;&#30340;&#19968;&#20010;wordpress&#21338;&#23458;,&#20316;&#20026;&#25105;&#20010;&#20154;&#30340;&#21338;&#23458;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23454;&#29616;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;lighttpd&#30340;&#37197;&#32622;&#25991;&#20214;/etc/lighttpd/lighttpd.conf&#25991;&#20214;&#30340;&#26368;&#21518;,&#21152;&#20837;&#19979;&#38754;&#30340;&#37197;&#32622;,&#19979;&#38754;&#30340;&#37197;&#32622;&#23601;&#35774;&#32622;&#20102;&#19968;&#20010;virtual host,&#25351;&#21521;&#23433;&#35013;&#30340;wordpress&#31243;&#24207;:
+    </p>
+    <p>
+      &#36215;&#30340;&#20316;&#29992;&#23601;&#26159;,&#24403;&#29992;&#25143;&#36890;&#36807;blog.proudj.com&#22495;&#21517;&#26469;&#35775;&#38382;&#30340;&#26102;&#20505;,&#23601;&#36339;&#36716;&#21040;wordpress&#30340;&#30028;&#38754;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#660066"><b>$HTTP[&quot;host&quot;] =~ &quot;(^|\.)blog\.proudj\.com$&quot; { </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>&#160;&#160;server.document-root = &quot;/var/www/wordpress&quot; </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>&#160;&#160;server.errorlog = &quot;/var/log/lighttpd/blog/error.log&quot; </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>} </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>$HTTP[&quot;host&quot;] =~ &quot;(^|\.)pub\.proudj\.com$&quot; { </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>&#160;&#160;server.document-root = &quot;/var/www/pub&quot; </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>&#160;&#160;server.errorlog = &quot;/var/log/lighttpd/pub/error.log&quot; </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>#&#160;&#160;accesslog.filename = &quot;/var/log/lighttpd/pub/access.log&quot; </b></font></i>
+    </p>
+    <p>
+      <i><font color="#660066"><b>} </b></font></i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x9488;&#x5bf9;pub&#x5b50;&#x57df;&#x540d;&#x8981;&#x505a;&#x7684;&#x64cd;&#x4f5c;" ID="ID_16058721" CREATED="1385445252601" MODIFIED="1385445320292"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25191;&#34892;&#19979;&#38754;&#30340;&#21629;&#20196;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        <i><font color="#000099" size="5">mkdir /var/log/lighttpd/pub/ </font></i>
+      </li>
+      <li>
+        <i><font color="#000099" size="5">chgrp www-data /var/log/lighttpd/pub/ </font></i>
+      </li>
+      <li>
+        <i><font color="#000099" size="5">chown www-data /var/log/lighttpd/pub/</font></i>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;log" ID="ID_1318877008" CREATED="1355781077883" MODIFIED="1385444418212"/>
+</node>
+<node TEXT="php&#x5b89;&#x88c5;" ID="ID_169479926" CREATED="1355779507481" MODIFIED="1355779928257"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b><font color="#000099">aptitude install php5-cgi</font></b></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b><font color="#000099">aptitude install mysql-server.</font></b></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x53e6;&#x5916;,&#x5982;&#x679c;&#x60f3;&#x5728;php&#x4e2d;&#x80fd;&#x591f;&#x8c03;&#x7528;mysql&#x63a5;&#x53e3;&#x7684;&#x8bdd;(&#x4e5f;&#x5c31;&#x662f;&#x8ba9;php&#x652f;&#x6301;mysql),&#x8fd8;&#x9700;&#x8981;&#x5b89;&#x88c5;&#x4e0b;&#x9762;&#x7684;&#x6a21;&#x5757;:
+    </p>
+    <p>
+      <i><b><font color="#000099">aptitude install php5-mysql</font></b></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="mysql&#x914d;&#x7f6e;" ID="ID_441686396" CREATED="1355780708303" MODIFIED="1355780722158"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      root&#x7528;&#x6237;&#x7684;&#x5bc6;&#x7801;:
+    </p>
+    <p>
+      lovexiaoshe0901
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="mysql-server&#x5b89;&#x88c5;log" ID="ID_1760248379" CREATED="1355781141740" MODIFIED="1385444322921"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      root@proudeng:/etc/lighttpd# aptitude install mysql-server
+    </p>
+    <p>
+      The following NEW packages will be installed:
+    </p>
+    <p>
+      &#160;&#160;libaio1{a} libdbd-mysql-perl{a} libdbi-perl{a} libhtml-template-perl{a} libmysqlclient18{a}
+    </p>
+    <p>
+      &#160;&#160;libnet-daemon-perl{a} libplrpc-perl{a} mysql-client-5.5{a} mysql-common{a} mysql-server
+    </p>
+    <p>
+      &#160;&#160;mysql-server-5.5{a} mysql-server-core-5.5{a}
+    </p>
+    <p>
+      0 packages upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
+    </p>
+    <p>
+      Need to get 9,650 kB of archives. After unpacking 97.3 MB will be used.
+    </p>
+    <p>
+      Do you want to continue? [Y/n/?] y
+    </p>
+    <p>
+      Get: 1 ftp://mirrors.kernel.org/debian/ stable/main libaio1 amd64 0.3.109-3 [9,150 B]
+    </p>
+    <p>
+      Get: 2 ftp://mirrors.kernel.org/debian/ stable/main mysql-common all 5.5.31+dfsg-0+wheezy1 [85.3 kB]
+    </p>
+    <p>
+      Get: 3 ftp://mirrors.kernel.org/debian/ stable/main libmysqlclient18 amd64 5.5.31+dfsg-0+wheezy1 [687&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;kB]
+    </p>
+    <p>
+      Get: 4 ftp://mirrors.kernel.org/debian/ stable/main libnet-daemon-perl all 0.48-1 [46.2 kB]
+    </p>
+    <p>
+      Get: 5 ftp://mirrors.kernel.org/debian/ stable/main libplrpc-perl all 0.2020-2 [36.0 kB]
+    </p>
+    <p>
+      Get: 6 ftp://mirrors.kernel.org/debian/ stable/main libdbi-perl amd64 1.622-1 [898 kB]
+    </p>
+    <p>
+      Get: 7 ftp://mirrors.kernel.org/debian/ stable/main libdbd-mysql-perl amd64 4.021-1+b1 [126 kB]
+    </p>
+    <p>
+      Get: 8 ftp://mirrors.kernel.org/debian/ stable/main mysql-client-5.5 amd64 5.5.31+dfsg-0+wheezy1 [1,9&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;23 kB]
+    </p>
+    <p>
+      Get: 9 ftp://mirrors.kernel.org/debian/ stable/main mysql-server-core-5.5 amd64 5.5.31+dfsg-0+wheezy1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [3,784 kB]
+    </p>
+    <p>
+      Get: 10 ftp://mirrors.kernel.org/debian/ stable/main mysql-server-5.5 amd64 5.5.31+dfsg-0+wheezy1 [1,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;900 kB]
+    </p>
+    <p>
+      Get: 11 ftp://mirrors.kernel.org/debian/ stable/main libhtml-template-perl all 2.91-1 [72.0 kB]
+    </p>
+    <p>
+      Get: 12 ftp://mirrors.kernel.org/debian/ stable/main mysql-server all 5.5.31+dfsg-0+wheezy1 [83.6 kB]
+    </p>
+    <p>
+      Fetched 9,650 kB in 2s (4,580 kB/s)
+    </p>
+    <p>
+      Preconfiguring packages ...
+    </p>
+    <p>
+      Selecting previously unselected package libaio1:amd64.
+    </p>
+    <p>
+      (Reading database ... 31141 files and directories currently installed.)
+    </p>
+    <p>
+      Unpacking libaio1:amd64 (from .../libaio1_0.3.109-3_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package mysql-common.
+    </p>
+    <p>
+      Unpacking mysql-common (from .../mysql-common_5.5.31+dfsg-0+wheezy1_all.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libmysqlclient18:amd64.
+    </p>
+    <p>
+      Unpacking libmysqlclient18:amd64 (from .../libmysqlclient18_5.5.31+dfsg-0+wheezy1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libnet-daemon-perl.
+    </p>
+    <p>
+      Unpacking libnet-daemon-perl (from .../libnet-daemon-perl_0.48-1_all.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libplrpc-perl.
+    </p>
+    <p>
+      Unpacking libplrpc-perl (from .../libplrpc-perl_0.2020-2_all.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libdbi-perl.
+    </p>
+    <p>
+      Unpacking libdbi-perl (from .../libdbi-perl_1.622-1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libdbd-mysql-perl.
+    </p>
+    <p>
+      Unpacking libdbd-mysql-perl (from .../libdbd-mysql-perl_4.021-1+b1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package mysql-client-5.5.
+    </p>
+    <p>
+      Unpacking mysql-client-5.5 (from .../mysql-client-5.5_5.5.31+dfsg-0+wheezy1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package mysql-server-core-5.5.
+    </p>
+    <p>
+      Unpacking mysql-server-core-5.5 (from .../mysql-server-core-5.5_5.5.31+dfsg-0+wheezy1_amd64.deb) ...
+    </p>
+    <p>
+      Processing triggers for man-db ...
+    </p>
+    <p>
+      Setting up mysql-common (5.5.31+dfsg-0+wheezy1) ...
+    </p>
+    <p>
+      Selecting previously unselected package mysql-server-5.5.
+    </p>
+    <p>
+      (Reading database ... 31522 files and directories currently installed.)
+    </p>
+    <p>
+      Unpacking mysql-server-5.5 (from .../mysql-server-5.5_5.5.31+dfsg-0+wheezy1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libhtml-template-perl.
+    </p>
+    <p>
+      Unpacking libhtml-template-perl (from .../libhtml-template-perl_2.91-1_all.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package mysql-server.
+    </p>
+    <p>
+      Unpacking mysql-server (from .../mysql-server_5.5.31+dfsg-0+wheezy1_all.deb) ...
+    </p>
+    <p>
+      Processing triggers for man-db ...
+    </p>
+    <p>
+      Setting up libaio1:amd64 (0.3.109-3) ...
+    </p>
+    <p>
+      Setting up libmysqlclient18:amd64 (5.5.31+dfsg-0+wheezy1) ...
+    </p>
+    <p>
+      Setting up libnet-daemon-perl (0.48-1) ...
+    </p>
+    <p>
+      Setting up libplrpc-perl (0.2020-2) ...
+    </p>
+    <p>
+      Setting up libdbi-perl (1.622-1) ...
+    </p>
+    <p>
+      Setting up libdbd-mysql-perl (4.021-1+b1) ...
+    </p>
+    <p>
+      Setting up mysql-client-5.5 (5.5.31+dfsg-0+wheezy1) ...
+    </p>
+    <p>
+      Setting up mysql-server-core-5.5 (5.5.31+dfsg-0+wheezy1) ...
+    </p>
+    <p>
+      Setting up mysql-server-5.5 (5.5.31+dfsg-0+wheezy1) ...
+    </p>
+    <p>
+      [ ok ] Stopping MySQL database server: mysqld.
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 [Note] Plugin 'FEDERATED' is disabled.
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 InnoDB: The InnoDB memory heap is disabled
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 InnoDB: Compressed tables use zlib 1.2.7
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 InnoDB: Using Linux native AIO
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 InnoDB: Initializing buffer pool, size = 128.0M
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 InnoDB: Completed initialization of buffer pool
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54 InnoDB: highest supported file format is Barracuda.
+    </p>
+    <p>
+      131126&#160;&#160;5:35:54&#160;&#160;InnoDB: Waiting for the background threads to start
+    </p>
+    <p>
+      131126&#160;&#160;5:35:55 InnoDB: 5.5.31 started; log sequence number 1595675
+    </p>
+    <p>
+      131126&#160;&#160;5:35:55&#160;&#160;InnoDB: Starting shutdown...
+    </p>
+    <p>
+      131126&#160;&#160;5:35:55&#160;&#160;InnoDB: Shutdown completed; log sequence number 1595675
+    </p>
+    <p>
+      [ ok ] Starting MySQL database server: mysqld . ..
+    </p>
+    <p>
+      [info] Checking for tables which need an upgrade, are corrupt or were
+    </p>
+    <p>
+      not closed cleanly..
+    </p>
+    <p>
+      Setting up libhtml-template-perl (2.91-1) ...
+    </p>
+    <p>
+      Setting up mysql-server (5.5.31+dfsg-0+wheezy1) ...
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="php5-mysql&#x5b89;&#x88c5;log" ID="ID_196680588" CREATED="1355781176583" MODIFIED="1385444383891"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      root@proudeng:/etc/lighttpd# aptitude install php5-mysql
+    </p>
+    <p>
+      The following NEW packages will be installed:
+    </p>
+    <p>
+      &#160;&#160;php5-mysql
+    </p>
+    <p>
+      0 packages upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+    </p>
+    <p>
+      Need to get 80.9 kB of archives. After unpacking 276 kB will be used.
+    </p>
+    <p>
+      Get: 1 ftp://mirrors.kernel.org/debian/ stable/main php5-mysql amd64 5.4.4-14+deb7u5 [80.9 kB]
+    </p>
+    <p>
+      Fetched 80.9 kB in 0s (337 kB/s)
+    </p>
+    <p>
+      Selecting previously unselected package php5-mysql.
+    </p>
+    <p>
+      (Reading database ... 31623 files and directories currently installed.)
+    </p>
+    <p>
+      Unpacking php5-mysql (from .../php5-mysql_5.4.4-14+deb7u5_amd64.deb) ...
+    </p>
+    <p>
+      Setting up php5-mysql (5.4.4-14+deb7u5) ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/php5/mods-available/mysql.ini with new version
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/php5/mods-available/mysqli.ini with new version
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/php5/mods-available/pdo_mysql.ini with new version
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;phpmyadmin" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x4f7f;&#x7528;&#x4e0b;&#x9762;&#x7684;&#x547d;&#x4ee4;&#x5b89;&#x88c5;:
+    </p>
+    <p>
+      <i><b><font color="#000099">aptitude install phpmyadmin </font></b></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x8fd9;&#x4e2a;&#x5de5;&#x5177;&#x662f;&#x7528;&#x6765;&#x7ba1;&#x7406;mysql&#x6570;&#x636e;&#x5e93;&#x7684;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5b89;&#x88c5;log" ID="ID_338603841" CREATED="1355784548197" MODIFIED="1385445030079"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      root@proudeng:/etc/lighttpd# aptitude install phpmyadmin
+    </p>
+    <p>
+      The following NEW packages will be installed:
+    </p>
+    <p>
+      &#160;&#160;dbconfig-common{a} fontconfig-config{a} libfontconfig1{a} libgd2-xpm{a} libjpeg8{a} libltdl7{a} libmcrypt4{a}
+    </p>
+    <p>
+      &#160;&#160;libpng12-0{a} libxpm4{a} php5-gd{a} php5-mcrypt{a} phpmyadmin ttf-dejavu-core{a}
+    </p>
+    <p>
+      0 packages upgraded, 13 newly installed, 0 to remove and 0 not upgraded.
+    </p>
+    <p>
+      Need to get 8,615 kB of archives. After unpacking 22.0 MB will be used.
+    </p>
+    <p>
+      Do you want to continue? [Y/n/?] y
+    </p>
+    <p>
+      Get: 1 ftp://mirrors.kernel.org/debian/ stable/main ttf-dejavu-core all 2.33-3 [1,021 kB]
+    </p>
+    <p>
+      Get: 2 ftp://mirrors.kernel.org/debian/ stable/main fontconfig-config all 2.9.0-7.1 [233 kB]
+    </p>
+    <p>
+      Get: 3 ftp://mirrors.kernel.org/debian/ stable/main libfontconfig1 amd64 2.9.0-7.1 [300 kB]
+    </p>
+    <p>
+      Get: 4 ftp://mirrors.kernel.org/debian/ stable/main libjpeg8 amd64 8d-1 [134 kB]
+    </p>
+    <p>
+      Get: 5 ftp://mirrors.kernel.org/debian/ stable/main libpng12-0 amd64 1.2.49-1 [190 kB]
+    </p>
+    <p>
+      Get: 6 ftp://mirrors.kernel.org/debian/ stable/main libxpm4 amd64 1:3.5.10-1 [49.4 kB]
+    </p>
+    <p>
+      Get: 7 ftp://mirrors.kernel.org/debian/ stable/main libgd2-xpm amd64 2.0.36~rc1~dfsg-6.1 [232 kB]
+    </p>
+    <p>
+      Get: 8 ftp://mirrors.kernel.org/debian/ stable/main libltdl7 amd64 2.4.2-1.1 [352 kB]
+    </p>
+    <p>
+      Get: 9 ftp://mirrors.kernel.org/debian/ stable/main php5-gd amd64 5.4.4-14+deb7u5 [35.7 kB]
+    </p>
+    <p>
+      Get: 10 ftp://mirrors.kernel.org/debian/ stable/main libmcrypt4 amd64 2.5.8-3.1 [83.2 kB]
+    </p>
+    <p>
+      Get: 11 ftp://mirrors.kernel.org/debian/ stable/main php5-mcrypt amd64 5.4.4-14+deb7u5 [16.1 kB]
+    </p>
+    <p>
+      Get: 12 ftp://mirrors.kernel.org/debian/ stable/main dbconfig-common all 1.8.47+nmu1 [487 kB]
+    </p>
+    <p>
+      Get: 13 ftp://mirrors.kernel.org/debian/ stable/main phpmyadmin all 4:3.4.11.1-2 [5,483 kB]
+    </p>
+    <p>
+      Fetched 8,615 kB in 2s (3,931 kB/s)
+    </p>
+    <p>
+      Preconfiguring packages ...
+    </p>
+    <p>
+      Selecting previously unselected package ttf-dejavu-core.
+    </p>
+    <p>
+      (Reading database ... 31631 files and directories currently installed.)
+    </p>
+    <p>
+      Unpacking ttf-dejavu-core (from .../ttf-dejavu-core_2.33-3_all.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package fontconfig-config.
+    </p>
+    <p>
+      Unpacking fontconfig-config (from .../fontconfig-config_2.9.0-7.1_all.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libfontconfig1:amd64.
+    </p>
+    <p>
+      Unpacking libfontconfig1:amd64 (from .../libfontconfig1_2.9.0-7.1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libjpeg8:amd64.
+    </p>
+    <p>
+      Unpacking libjpeg8:amd64 (from .../libjpeg8_8d-1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libpng12-0:amd64.
+    </p>
+    <p>
+      Unpacking libpng12-0:amd64 (from .../libpng12-0_1.2.49-1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libxpm4:amd64.
+    </p>
+    <p>
+      Unpacking libxpm4:amd64 (from .../libxpm4_1%3a3.5.10-1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libgd2-xpm:amd64.
+    </p>
+    <p>
+      Unpacking libgd2-xpm:amd64 (from .../libgd2-xpm_2.0.36~rc1~dfsg-6.1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libltdl7:amd64.
+    </p>
+    <p>
+      Unpacking libltdl7:amd64 (from .../libltdl7_2.4.2-1.1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package php5-gd.
+    </p>
+    <p>
+      Unpacking php5-gd (from .../php5-gd_5.4.4-14+deb7u5_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package libmcrypt4.
+    </p>
+    <p>
+      Unpacking libmcrypt4 (from .../libmcrypt4_2.5.8-3.1_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package php5-mcrypt.
+    </p>
+    <p>
+      Unpacking php5-mcrypt (from .../php5-mcrypt_5.4.4-14+deb7u5_amd64.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package dbconfig-common.
+    </p>
+    <p>
+      Unpacking dbconfig-common (from .../dbconfig-common_1.8.47+nmu1_all.deb) ...
+    </p>
+    <p>
+      Selecting previously unselected package phpmyadmin.
+    </p>
+    <p>
+      Unpacking phpmyadmin (from .../phpmyadmin_4%3a3.4.11.1-2_all.deb) ...
+    </p>
+    <p>
+      Processing triggers for man-db ...
+    </p>
+    <p>
+      Setting up ttf-dejavu-core (2.33-3) ...
+    </p>
+    <p>
+      Setting up fontconfig-config (2.9.0-7.1) ...
+    </p>
+    <p>
+      Setting up libfontconfig1:amd64 (2.9.0-7.1) ...
+    </p>
+    <p>
+      Setting up libjpeg8:amd64 (8d-1) ...
+    </p>
+    <p>
+      Setting up libpng12-0:amd64 (1.2.49-1) ...
+    </p>
+    <p>
+      Setting up libxpm4:amd64 (1:3.5.10-1) ...
+    </p>
+    <p>
+      Setting up libgd2-xpm:amd64 (2.0.36~rc1~dfsg-6.1) ...
+    </p>
+    <p>
+      Setting up libltdl7:amd64 (2.4.2-1.1) ...
+    </p>
+    <p>
+      Setting up php5-gd (5.4.4-14+deb7u5) ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/php5/mods-available/gd.ini with new version
+    </p>
+    <p>
+      Setting up libmcrypt4 (2.5.8-3.1) ...
+    </p>
+    <p>
+      Setting up php5-mcrypt (5.4.4-14+deb7u5) ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/php5/mods-available/mcrypt.ini with new version
+    </p>
+    <p>
+      Setting up dbconfig-common (1.8.47+nmu1) ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/dbconfig-common/config with new version
+    </p>
+    <p>
+      Setting up phpmyadmin (4:3.4.11.1-2) ...
+    </p>
+    <p>
+      dbconfig-common: writing config to /etc/dbconfig-common/phpmyadmin.conf
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/dbconfig-common/phpmyadmin.conf with new version
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Creating config file /etc/phpmyadmin/config-db.php with new version
+    </p>
+    <p>
+      granting access to database phpmyadmin for phpmyadmin@localhost: success.
+    </p>
+    <p>
+      verifying access for phpmyadmin@localhost: success.
+    </p>
+    <p>
+      creating database phpmyadmin: success.
+    </p>
+    <p>
+      verifying database phpmyadmin exists: success.
+    </p>
+    <p>
+      populating database via sql...&#160;&#160;done.
+    </p>
+    <p>
+      dbconfig-common: flushing administrative password
+    </p>
+    <p>
+      Enabling phpmyadmin: ok
+    </p>
+    <p>
+      Enabling auth: ok
+    </p>
+    <p>
+      already enabled
+    </p>
+    <p>
+      already enabled
+    </p>
+    <p>
+      Run /etc/init.d/lighttpd force-reload to enable changes
+    </p>
+    <p>
+      dpkg: error processing phpmyadmin (--configure):
+    </p>
+    <p>
+      &#160;subprocess installed post-installation script returned error exit status 2
+    </p>
+    <p>
+      Errors were encountered while processing:
+    </p>
+    <p>
+      &#160;phpmyadmin
+    </p>
+    <p>
+      E: Sub-process /usr/bin/dpkg returned an error code (1)
+    </p>
+    <p>
+      A package failed to install.&#160;&#160;Trying to recover:
+    </p>
+    <p>
+      Setting up phpmyadmin (4:3.4.11.1-2) ...
+    </p>
+    <p>
+      dbconfig-common: writing config to /etc/dbconfig-common/phpmyadmin.conf
+    </p>
+    <p>
+      Replacing config file /etc/phpmyadmin/config-db.php with new version
+    </p>
+    <p>
+      granting access to database phpmyadmin for phpmyadmin@localhost: already exists.
+    </p>
+    <p>
+      creating database phpmyadmin: already exists.
+    </p>
+    <p>
+      populating database via sql...&#160;&#160;done.
+    </p>
+    <p>
+      dbconfig-common: flushing administrative password
+    </p>
+    <p>
+      [FAIL] Reloading web server configuration: lighttpd failed!
+    </p>
+    <p>
+      invoke-rc.d: initscript lighttpd, action &quot;reload&quot; failed.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      root@proudeng:/etc/lighttpd# /etc/init.d/lighttpd
+    </p>
+    <p>
+      Usage: /etc/init.d/lighttpd {start|stop|restart|reload|force-reload|status}
+    </p>
+    <p>
+      root@proudeng:/etc/lighttpd# /etc/init.d/lighttpd force-reload
+    </p>
+    <p>
+      [FAIL] Reloading web server configuration: lighttpd failed!
+    </p>
+    <p>
+      root@proudeng:/etc/lighttpd# /etc/init.d/lighttpd stop
+    </p>
+    <p>
+      [ ok ] Stopping web server: lighttpd.
+    </p>
+    <p>
+      root@proudeng:/etc/lighttpd# /etc/init.d/lighttpd start
+    </p>
+    <p>
+      [ ok ] Starting web server: lighttpd.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5b89;&#x88c5;&#x597d;&#x7684;&#x5de5;&#x5177;&#x7684;&#x5730;&#x5740;" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1385451787843"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23433;&#35013;&#22909;&#21518;,&#20351;&#29992;&#19979;&#38754;&#30340;&#22320;&#22336;&#35775;&#38382;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#000099"><b>http://virpus.proudj.com/phpmyadmin/ </b></font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20854;&#20013;&#29992;&#25143;&#21517;&#21644;&#23494;&#30721;&#23601;&#26159;mysql&#30340;root&#21644;root&#30340;&#23494;&#30721;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x548c;&#x5bc6;&#x7801;" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1385444896955"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30331;&#24405;&#29992;&#25143;&#21517;&#20026;root.&#23494;&#30721;&#20026;lovexiaoshe0901
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Application passowrd" ID="ID_1478615245" CREATED="1385444565693" MODIFIED="1385444580753"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lovexiaoshe
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1385449814460">
+<node TEXT="wordpress&#x4e2d;&#x5982;&#x4f55;&#x6269;&#x5927;&#x6587;&#x4ef6;&#x4e0a;&#x4f20;&#x5927;&#x5c0f;&#x9650;&#x5236;" ID="ID_877694790" CREATED="1382553223105" MODIFIED="1385451805313"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;wordpress&#20013;&#19978;&#20256;&#38468;&#20214;&#26102;,&#20250;&#21457;&#29616;&#38480;&#21046;&#20102;&#38468;&#20214;&#30340;&#22823;&#23567;&#20026;2M.
+    </p>
+    <p>
+      &#36825;&#26174;&#28982;&#20250;&#24341;&#36215;&#24456;&#22810;&#30340;&#19981;&#26041;&#20415;.
+    </p>
+    <p>
+      &#37027;&#20040;,&#24590;&#20040;&#26469;&#20462;&#25913;&#36825;&#20010;&#19978;&#38480;&#20540;&#21602;?
+    </p>
+    <p>
+      &#26041;&#27861;&#20063;&#24456;&#31616;&#21333;:
+    </p>
+    <ul>
+      <li>
+        <font color="#0033cc" size="4">&#20351;&#29992;root&#29992;&#25143;&#30331;&#24405; </font>
+      </li>
+      <li>
+        <font color="#0033cc" size="4">&#25171;&#24320;/etc/php5/cgi/php.ini&#25991;&#20214; </font>
+      </li>
+      <li>
+        <font color="#0033cc" size="4">&#20462;&#25913;&#25991;&#20214;&#20013;&#30340;&quot;upload_max_filesize = 2M&quot;&#20026;&#20320;&#24819;&#35201;&#30340;&#22823;&#23567;,&#25105;&#30340;&#20462;&#25913;&#21518;&#30340;&#37197;&#32622;&#26159;&quot;upload_max_filesize = 20M&quot; </font>
+      </li>
+      <li>
+        <font color="#0033cc" size="4">&#20351;&#29992;&#21629;&#20196;&quot;/etc/init.d/lighttpd restart&quot;&#37325;&#21551;lighttptd&#26381;&#21153;&#22120;(&#36825;&#19968;&#27493;&#19981;&#30693;&#36947;&#26159;&#19981;&#26159;&#24517;&#39035;&#30340;)</font>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#25353;&#29031;&#19978;&#38754;&#30340;&#21629;&#20196;,&#25105;&#23601;&#25226;&#25105;&#30340;wordpress&#30340;&#19978;&#20256;&#25991;&#20214;&#30340;&#38480;&#21046;&#25193;&#22823;&#21040;&#20102;20M.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Wordpress&#x53ef;&#x4ee5;&#x8f7b;&#x677e;&#x7684;&#x8fc1;&#x79fb;" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36801;&#31227;wordpress&#30340;&#27493;&#39588;&#26159;(&#25105;&#20204;&#20551;&#35774;&#38656;&#35201;&#30340;&#25805;&#20316;&#26159;&#23558;Wordpress&#20174;&#26381;&#21153;&#22120;A&#36801;&#31227;&#21040;&#26381;&#21153;&#22120;B):
+    </p>
+    <ul>
+      <li>
+        &#39318;&#20808;&#22312;&#26381;&#21153;&#22120;A&#20013;&#65292;&#23558;wordpress&#30340;&#25152;&#26377;&#30340;&#20869;&#23481;&#37117;&#25171;&#21253;&#19979;&#36733;&#21040;&#26381;&#21153;&#22120;B&#19978;(&#23454;&#38469;&#23601;&#26159;&#19968;&#20010;&#25991;&#20214;&#30340;&#25335;&#36125;&#24037;&#20316;&#65292;&#31616;&#21333;&#30340;&#35828;&#23601;&#26159;&#20174;&#26381;&#21153;&#22120;A&#30340;/var/www/wordpress&#30446;&#24405;&#25335;&#36125;&#21040;&#26381;&#21153;&#22120;B&#30340;/var/www/wordpress&#65289;
+      </li>
+      <li>
+        &#28982;&#21518;&#30331;&#24405;&#21040;&#26381;&#21153;&#22120;A&#30340;phpmyadmin&#19978;&#65292;&#23558;wordpress&#30340;&#25968;&#25454;&#24211;&#32473;&#23548;&#20986;&#21040;&#26412;&#22320;&#30005;&#33041;&#19978;(&#27604;&#22914;&#35828;&#33258;&#24049;&#30340;windows&#26426;&#22120;&#19978;)
+      </li>
+      <li>
+        &#22312;&#26381;&#21153;&#22120;B&#30340;phpmyadmin&#24037;&#20855;&#19978;&#65292;&#21019;&#24314;&#19968;&#20010;&#21516;&#26679;&#30340;&#21483;&#20570;wordpress&#30340;&#25968;&#25454;&#24211;&#65292;&#24182;&#19988;&#22312;&#36825;&#20010;&#25968;&#25454;&#24211;&#19978;&#20851;&#32852;&#19968;&#20010;&#21483;&#20570;xiaoshe&#30340;&#29992;&#25143;&#65292;&#23494;&#30721;&#26159;lovexiaoshe.&#28857;&#20987;generate&#29983;&#25104;&#20102;&#19968;&#20010;&#21152;&#23494;&#30340;&#23494;&#30721;
+      </li>
+      <li>
+        &#23558;&#20174;&#26381;&#21153;&#22120;A&#20013;&#23548;&#20986;&#30340;&#25968;&#25454;&#24211;&#23548;&#20837;&#21040;&#26381;&#21153;&#22120;B&#20013;&#30340;&#25968;&#25454;&#24211;wordpress&#20013;&#12290;
+      </li>
+      <li>
+        &#28982;&#21518;&#22312;&#26381;&#21153;&#22120;B&#30340;wp-config.php&#25991;&#20214;&#20013;&#65292;&#23558;&#21018;&#21018;&#29983;&#25104;&#30340;&#21152;&#23494;&#21518;&#30340;&#23494;&#30721;&#22635;&#20837;&#30456;&#24212;&#30340;&#22320;&#26041;(&#24456;&#22909;&#25214;&#30340;)&#12290;
+      </li>
+      <li>
+        OK&#20102;&#12290;
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x539f;&#x5219;&#x4e0a;&#x8fc1;&#x79fb;wordpress&#x9700;&#x8981;&#x505a;&#x7684;&#x4e8b;&#x60c5;" ID="ID_1405227223" CREATED="1385451440490" MODIFIED="1385451643187"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        &#26368;&#20027;&#35201;&#30340;&#26159;wordpress&#30340;&#25968;&#25454;&#24211;&#30340;&#23548;&#20986;&#21644;&#23548;&#20837;(&#20174;&#26381;&#21153;&#22120;A&#23548;&#20837;&#21040;&#26381;&#21153;&#22120;B)
+      </li>
+      <li>
+        &#23545;&#20110;wordpress&#30446;&#24405;&#30340;&#22797;&#21046;&#65292;&#20854;&#23454;&#24182;&#19981;&#26159;&#24517;&#39035;&#30340;&#12290;&#20294;&#26159;&#22914;&#26524;wordpress&#20013;&#26377;&#24456;&#22810;&#30340;&#38468;&#20214;&#21834;&#65292;&#25554;&#20214;&#21834;&#20160;&#20040;&#30340;&#12290;&#22797;&#21046;&#26159;&#26368;&#31616;&#21333;&#30340;&#25805;&#20316;&#26041;&#27861;&#12290;
+      </li>
+      <li>
+        &#22312;&#30446;&#26631;&#26426;(&#26381;&#21153;&#22120;B)&#19978;&#65292;&#38656;&#35201;&#20808;&#21019;&#24314;&#19968;&#20010;&#25968;&#25454;&#24211;&#65292;&#24182;&#20851;&#32852;&#19968;&#20010;&#33021;&#22815;&#35775;&#38382;&#36825;&#20010;&#25968;&#25454;&#24211;&#30340;&#29992;&#25143;&#65292;&#28982;&#21518;&#20877;&#23558;&#26381;&#21153;&#22120;A&#30340;&#25968;&#25454;&#24211;&#34920;&#23548;&#20837;&#21040;&#36825;&#20010;&#26032;&#24314;&#30340;&#25968;&#25454;&#24211;&#20013;&#26469;&#12290;
+      </li>
+      <li>
+        &#22312;wp-config.php&#25991;&#20214;&#20013;&#65292;&#20854;&#23454;&#38656;&#35201;&#22635;&#20837;&#30340;&#26159;&#26381;&#21153;&#22120;B&#19978;&#30340;&#25968;&#25454;&#24211;&#30340;&#21517;&#23383;&#65292;&#20197;&#21450;&#35775;&#38382;&#25968;&#25454;&#24211;&#30340;&#29992;&#25143;&#21517;&#21644;&#23494;&#30721;
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6570;&#x636e;&#x5e93;&#x7684;&#x8bbe;&#x7f6e;" ID="ID_547437990" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x5728;phpmyadmin&#x4e2d;&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;wordpress,&#x7136;&#x540e;,&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x7528;&#x6237;xiaoshe,&#x5bc6;&#x7801;&#x662f;&#x7528;lovexiaoshe&#x751f;&#x6210;&#x7684;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" ID="ID_1080095665" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x6211;&#x4f7f;&#x7528;vsftpd&#x7a0b;&#x5e8f;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x5728;Debian&#x4e0b;&#x5b89;&#x88c5;vsftpd&#x5f88;&#x7b80;&#x5355;,&#x4f7f;&#x7528;&#x4e0b;&#x9762;&#x7684;&#x547d;&#x4ee4;&#x5373;&#x53ef;:
+    </p>
+    <p>
+      <b><i><font color="#000099">aptitude install vsftdp </font></i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x7136;&#x540e;vsftpd&#x7684;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x662f;:
+    </p>
+    <p>
+      <b><i><font color="#000099">/etc/vsftpd.conf </font></i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x5176;&#x5b9e;&#x9700;&#x8981;&#x6539;&#x7684;&#x5730;&#x65b9;&#x4e0d;&#x591a;,&#x6211;&#x53ea;&#x6539;&#x4e86;&#x4e09;&#x5904;&#x5904;:
+    </p>
+    <p>
+      &#x4e00;&#x5904;&#x662f;&#x4e0d;&#x5141;&#x8bb8;&#x533f;&#x540d;&#x8bbf;&#x95ee;,
+    </p>
+    <p>
+      &#x4e00;&#x5904;&#x662f;&#x5141;&#x8bb8;&#x672c;&#x5730;&#x7528;&#x6237;&#x767b;&#x5f55;(&#x56e0;&#x4e3a;&#x8bbe;&#x7f6e;ftp&#x7684;&#x7528;&#x6237;&#x6ee1;&#x9ebb;&#x70e6;&#x7684;,&#x6240;&#x4ee5;&#x76f4;&#x63a5;&#x5c31;&#x5141;&#x8bb8;&#x672c;&#x5730;&#x7528;&#x6237;&#x767b;&#x5f55;,&#x8fd9;&#x6837;&#x5c31;&#x53ef;&#x4ee5;&#x4e86;.)
+    </p>
+    <p>
+      &#x4e00;&#x5904;&#x662f;&#x5141;&#x8bb8;&#x7528;&#x6237;&#x6709;&#x5199;&#x7684;&#x6743;&#x9650;,&#x8fd9;&#x6837;&#x5c31;&#x80fd;&#x591f;&#x4e0a;&#x4f20;&#x6587;&#x4ef6;&#x4e86;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x66f4;&#x6539;&#x7684;&#x5730;&#x65b9;&#x90fd;&#x5f88;&#x5bb9;&#x6613;&#x627e;,&#x81ea;&#x5df1;&#x627e;&#x627e;&#x5c31;&#x884c;&#x4e86;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4fee;&#x6539;FTP&#x7684;unmask&#x8bbe;&#x7f6e;" ID="ID_1418099147" CREATED="1370332853533" MODIFIED="1370333347107"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x5728;ftpd&#x7684;&#x8bbe;&#x7f6e;&#x4e2d;&#x6709;&#x4e00;&#x9879;&#x662f;&#xff1a;
+    </p>
+    <p>
+      <b><font size="4" color="#0033cc">local_umask.</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x8fd9;&#x4e2a;&#x8bbe;&#x7f6e;&#x9879;&#x662f;&#x7528;&#x6765;&#x63a7;&#x5236;&#x4e0a;&#x4f20;&#x5230;FTP&#x670d;&#x52a1;&#x5668;&#x4e0a;&#x7684;&#x6587;&#x4ef6;&#x7684;&#x6743;&#x9650;&#x7684;&#xff0c;&#x9ed8;&#x8ba4;&#x503c;<b><font color="#336600">local_umask</font></b>&#x662f;&#x8bbe;&#x7f6e;&#x4e3a;077&#x7684;&#xff0c;&#x8fd9;&#x4f1a;&#x5bfc;&#x81f4;&#x4e0a;&#x4f20;&#x4e0a;&#x6765;&#x7684;&#x6587;&#x4ef6;&#x7684;&#x5c5e;&#x6027;&#x662f;700 &#xff08;umask&#x8ddf;&#x6587;&#x4ef6;&#x5c5e;&#x6027;&#x7684;&#x5173;&#x7cfb;&#x662f;umask + mod = 777&#xff09;.
+    </p>
+    <p>
+      &#x8fd9;&#x6837;&#x7684;&#x8bdd;&#xff0c;&#x592a;&#x4e25;&#x683c;&#x4e86;&#xff0c;&#x5bf9;&#x4e8e;&#x975e;owner,&#x975e;group&#x7684;&#x7528;&#x6237;&#x6765;&#x8bf4;&#xff0c;&#x8fd9;&#x4e9b;&#x6587;&#x4ef6;&#x5c31;&#x6ca1;&#x6cd5;&#x8bbf;&#x95ee;&#xff0c;&#x751a;&#x81f3;&#x6ca1;&#x6cd5;&#x53ea;&#x8bfb;&#x3002;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x6211;&#x9700;&#x8981;&#x7684;&#x662f;&#x4e0a;&#x4f20;&#x6587;&#x4ef6;&#x7684;&#x5c5e;&#x6027;&#x662f;755.&#x90a3;&#x4e48;&#x6211;&#x5c31;&#x9700;&#x8981;&#x5c06;<b><font color="#336600">local_umask</font></b>&#x4fee;&#x6539;&#x4e3a;022 (755 + 022 = 777)
+    </p>
+    <p>
+      &#x8fd9;&#x6837;&#xff0c;&#x4e0a;&#x4f20;&#x7684;&#x6587;&#x4ef6;&#xff0c;&#x5bf9;&#x4e8e;&#x6240;&#x6709;&#x7684;&#x7528;&#x6237;&#x6765;&#x8bf4;&#xff0c;&#x90fd;&#x6709;read&#x7684;&#x5c5e;&#x6027;&#xff0c;&#x5bf9;&#x4e8e;owner&#x6765;&#x8bf4;&#xff0c;&#x62e5;&#x6709;&#x6240;&#x6709;&#x7684;&#x5c5e;&#x6027;&#x3002;
+    </p>
+    <p>
+      &#x6240;&#x4ee5;&#xff0c;&#x5728;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x4e2d;&#x5c06;<b><font color="#336600">local_umask</font></b>&#x7684;&#x503c;&#x6539;&#x4e3a;&#xff1a;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font size="4" color="#0033cc">local_umask = 022</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -4210,9 +5850,9 @@
   </body>
 </html>
 </richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
