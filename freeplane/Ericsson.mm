@@ -238,7 +238,42 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x516c;&#x53f8;&#x62a5;&#x9500;" ID="ID_153307127" CREATED="1330416211937" MODIFIED="1330416219374"/>
+<node TEXT="&#x516c;&#x53f8;&#x62a5;&#x9500;" ID="ID_153307127" CREATED="1330416211937" MODIFIED="1330416219374">
+<node TEXT="&#x745e;&#x5178;&#x51fa;&#x5dee;&#x56de;&#x6765;&#x80fd;&#x591f;&#x62a5;&#x9500;&#x7684;&#x6b3e;&#x9879;" ID="ID_458159136" CREATED="1386223937686" MODIFIED="1386555999289"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#26469;&#22238;&#30340;&#26426;&#31080;
+      </li>
+      <li>
+        &#26469;&#22238;&#26426;&#22330;&#30340;&#25171;&#30340;&#36153;
+      </li>
+      <li>
+        &#20303;&#23487;&#36153;(&#22914;&#26524;&#26377;&#30340;&#35805;)
+      </li>
+      <li>
+        &#22312;&#29790;&#20856;&#30340;&#20132;&#36890;&#36153;(&#20027;&#35201;&#26159;&#25351;&#22320;&#38081;&#26376;&#31080;&#21644;&#22320;&#38081;&#21345;)
+      </li>
+      <li>
+        &#21152;&#29677;&#30340;&#26202;&#39184;&#36153;(&#22914;&#26524;&#26377;&#30340;&#35805;)
+      </li>
+      <li>
+        &#30003;&#35831;&#25252;&#29031;(&#22914;&#26524;&#26377;&#30340;&#35805;)&#20197;&#21450;VISA&#30003;&#35831;&#30340;&#26102;&#20505;&#21592;&#24037;&#33258;&#24049;&#20195;&#32564;&#30340;&#36153;&#29992;
+      </li>
+      <li>
+        &#30003;&#35831;&#25252;&#29031;&#20197;&#21450;VISA&#30340;&#36807;&#31243;&#20013;&#30340;&#36335;&#36153;(&#22914;&#26524;&#26377;&#30340;&#35805;)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="&#x5982;&#x4f55;&#x7ed9;&#x745e;&#x5178;&#x6253;&#x7535;&#x8bdd;" ID="ID_483895137" CREATED="1338967252492" MODIFIED="1338967464991" LINK="Some%20tips.msg"/>
 <node TEXT="NPI&#x76f8;&#x5173;" ID="ID_865696915" CREATED="1345615664620" MODIFIED="1345615675901">
 <node TEXT="NPI&#x9700;&#x8981;&#x7b26;&#x5408;&#x7684;Criteria" ID="ID_598336924" CREATED="1345615677792" MODIFIED="1385522860088" LINK="../MiscDocuments/NPI%20Criterion.ppt"/>
@@ -329,6 +364,93 @@
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x7231;&#x7acb;&#x4fe1;&#x95e8;&#x6162;&#x95e8;&#x7279;&#x8865;&#x52a9;" ID="ID_860195775" CREATED="1386299503396" MODIFIED="1386299540158" LINK="../MiscDocuments/FW%20&#x662f;&#x5426;&#x6709;&#x540c;&#x4e8b;&#x7b26;&#x5408;&#x95e8;&#x6162;&#x95e8;&#x7279;&#xff1f;.msg"/>
+<node TEXT="&#x9886;&#x53d6;&#x6587;&#x5177;&#x7684;&#x94fe;&#x63a5;" ID="ID_1801145969" CREATED="1386556370704" MODIFIED="1386556421466" LINK="http://web.cn.ao.ericsson.se/enc/fa/netoffice/index3.asp"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: 18.75pt" class="MsoNormal">
+      <font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif" size="10.0pt" color="blue"><span style="color: blue; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif; font-size: 10.0pt" lang="ZH-CN">&#21508;&#20301;&#21592;&#24037;&#65292;&#22823;&#23478;&#22909;&#65281;</span></font><font face="&#x5b8b;&#x4f53;" color="blue"><span style="color: blue; font-family: &#x5b8b;&#x4f53;" lang="ZH-CN"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="Arial,sans-serif" color="blue"><span style="font-family: Arial,sans-serif; color: blue" lang="ZH-CN">&#160;</span></font><font face="&#x5b8b;&#x4f53;" color="blue"><span style="font-family: &#x5b8b;&#x4f53;; color: blue" lang="ZH-CN"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif" size="10.0pt" color="blue"><span style="font-size: 10.0pt; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif; color: blue" lang="ZH-CN">&#20174;7&#26376;25&#36215;&#65292;&#25991;&#20855;&#21457;&#25918;&#26102;&#38388;&#25913;&#20026;&#27599;&#21608;&#19968;&#65292;&#19977;&#65292;&#20116;&#19979;&#21320;2:00-4:00&#65292;&#22312;&#25910;&#21040;&#25209;&#20934;&#37038;&#20214;&#21518;&#65292;&#21363;&#21487;&#22312;&#31532;&#20108;&#26085;&#36215;&#21457;&#25918;&#26102;&#38388;&#20869;&#33267;&#39184;&#21381;&#26049;&#25991;&#20855;&#24211;&#25151;&#31614;&#23383;&#39046;&#21462;&#12290;</span></font><font face="&#x5b8b;&#x4f53;" color="blue"><span style="font-family: &#x5b8b;&#x4f53;; color: blue" lang="ZH-CN"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif" size="10.0pt" color="blue"><span style="font-size: 10.0pt; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif; color: blue" lang="ZH-CN">&#32852;&#31995;&#20154;&#65306;&#34892;&#25919;&#37096;</span></font><font face="&#xce;&#xa2;&#xc8;&#xed;&#xd1;&#xc5;&#xba;&#xda; Western,sans-serif" size="10.0pt" color="blue"><span style="font-size: 10.0pt; font-family: &#xce;&#xa2;&#xc8;&#xed;&#xd1;&#xc5;&#xba;&#xda; Western,sans-serif; color: blue">&#160;</span></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif" size="10.0pt" color="blue"><span style="font-size: 10.0pt; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif; color: blue" lang="ZH-CN">&#21016;&#34183;&#34183;&#65292;&#20998;&#26426;53858&#65292;&#25163;&#26426;13770992757&#65292;&#37038;&#31665;<u>weiwei.liu@ericsson.com</u></span></font><font face="&#x5b8b;&#x4f53;" color="blue"><span style="font-family: &#x5b8b;&#x4f53;; color: blue" lang="ZH-CN"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif" size="10.0pt" color="blue"><span style="font-size: 10.0pt; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif; color: blue" lang="ZH-CN">&#24863;&#35874;&#22823;&#23478;&#30340;&#37197;&#21512;&#65281;</span></font><font face="&#x5b8b;&#x4f53;" color="blue"><span style="font-family: &#x5b8b;&#x4f53;; color: blue" lang="ZH-CN"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="&#x5b8b;&#x4f53;" color="blue"><span style="font-family: &#x5b8b;&#x4f53;; color: blue" lang="ZH-CN"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif" size="10.0pt" color="blue"><span style="font-size: 10.0pt; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif; color: blue" lang="ZH-CN">ENC&#34892;&#25919;&#37096;</span></font><font face="&#x5b8b;&#x4f53;" color="blue"><span style="font-family: &#x5b8b;&#x4f53;; color: blue" lang="ZH-CN"><o p="#DEFAULT"></o></span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x767b;&#x5f55;" ID="ID_1548575789" CREATED="1386558965591" MODIFIED="1386558981963"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#25143;&#21517;:proudeng
+    </p>
+    <p>
+      &#23494;&#30721;:23222365
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;&#x514d;&#x8d39;&#x3011;&#x5982;&#x4f55;&#x5b89;&#x88c5;ECC" ID="ID_222166478" CREATED="1386579655721" MODIFIED="1386579759295" LINK="../MiscDocuments/ECC.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#20013;&#30340;&#37038;&#20214;&#65292;&#19978;&#38754;&#35828;&#26126;&#20102;&#22914;&#20309;&#23433;&#35013;ECC&#36719;&#20214;&#65292;&#32780;&#19988;&#19981;&#38656;&#35201;&#25910;&#36153;&#65281;&#65281;
+    </p>
+    <p>
+      &#25353;&#29031;&#37038;&#20214;&#20013;&#30340;&#25351;&#23548;&#37197;&#32622;&#23601;&#21487;&#20197;&#20102;&#65281;
+    </p>
+    <p>
+      &#38656;&#35201;&#36755;&#20837;&#23494;&#30721;&#30340;&#22320;&#26041;&#65292;&#26597;&#25214;&#33258;&#24049;&#30340;&#37038;&#20214;&#65292;&#22312;&#27599;&#20010;&#20154;&#25442;&#24231;&#26426;&#30340;&#26102;&#20505;&#65292;&#37117;&#32473;&#20102;&#19968;&#20010;&#23494;&#30721;&#65281;&#29992;&#37027;&#20010;&#23494;&#30721;&#23601;&#21487;&#20197;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="pin_code" ID="ID_1613752346" CREATED="1386579760660" MODIFIED="1386579825641" LINK="../MiscDocuments/Welcome%20to%20use%20Ericsson%20IP%20Phone%20Service..msg"/>
+</node>
+<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x7528;Pull Printing" ID="ID_38567827" CREATED="1386726295919" MODIFIED="1386726342604" LINK="../MiscDocuments/&#x3010;IT%20service&#x3011;ACTION%20REQUIRED%20Re-enroll%20yourself%20for%20Pull%20Print.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#25351;&#21521;&#30340;&#37038;&#20214;&#65292;&#37324;&#38754;&#26377;&#35814;&#32454;&#30340;&#20351;&#29992;&#35828;&#26126;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
@@ -650,7 +772,6 @@
     <a href="../MiscDocuments/eye_protect_color.png"><img height="521" width="952" src="../MiscDocuments/eye_protect_color.png"/>
 </a>  </body>
 </html>
-
 </richcontent>
 <node TEXT="Firefox&#x7684;&#x8bbe;&#x7f6e;" ID="ID_264139130" CREATED="1385950752351" MODIFIED="1385951197022"><richcontent TYPE="NOTE">
 
@@ -676,9 +797,22 @@
 </a>    </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="Firefox Sync Recovery Key" ID="ID_1016886604" CREATED="1386214232889" MODIFIED="1386214287471"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e-55kyq-iij68-e9ane-n8w5s-j3s2a
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

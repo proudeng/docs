@@ -110,12 +110,93 @@
 </richcontent>
 </node>
 <node TEXT="RICI-IWD" ID="ID_797987512" CREATED="1383579029178" MODIFIED="1383579262347" LINK="../GSM_document_base/Interwork%20Description%20for%20RICI.docx"/>
-<node TEXT="&#x5173;&#x4e8e;feature&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x6863;" ID="ID_502243171" CREATED="1384734093791" MODIFIED="1384737947829" LINK="../GSM_document_base/DMM_for_AIR.ppt"/>
+<node TEXT="&#x5173;&#x4e8e;feature&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x6863;" ID="ID_502243171" CREATED="1384734093791" MODIFIED="1386209392299" LINK="../GSM_document_base/DMM_for_AIR.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#26159;&#19968;&#20010;Workshop&#30340;PPT
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="NDS_2_way_CPRI" ID="ID_1308856434" CREATED="1384743723577" MODIFIED="1384743760275" LINK="../GSM_document_base/NDS_2-way_CPRI.docx"/>
+<node TEXT="NDS_Radio_Synch_G2" ID="ID_356728019" CREATED="1386207891387" MODIFIED="1386207928938" LINK="../GSM_document_base/NDS_Radio_Synch_G2.doc"/>
+<node TEXT="&#x6700;&#x65b0;&#x7684;RICI IWD" ID="ID_1015342472" CREATED="1386312101766" MODIFIED="1386312137812" LINK="../GSM_document_base/Interwork%20Description%20for%20RICI.pdf"/>
 </node>
 <node TEXT="&#x3010;&#x793a;&#x4f8b;&#x3011;CR&#x6587;&#x6863;" ID="ID_710742119" CREATED="1384911086397" MODIFIED="1384911144337">
-<node TEXT="CR6185" ID="ID_1334896194" CREATED="1384911145841" MODIFIED="1384911174980" LINK="../MiscDocuments/CR6185_PA1.doc"/>
+<node TEXT="CR6185" ID="ID_1334896194" CREATED="1384911145841" MODIFIED="1386209391161" LINK="../MiscDocuments/CR6185_PA1.doc"/>
 <node TEXT="CR6203" ID="ID_121400907" CREATED="1384911149946" MODIFIED="1384911186822" LINK="../MiscDocuments/CR-6203.doc"/>
+</node>
+<node TEXT="&#x6742;&#x9879;" ID="ID_1591544244" CREATED="1386209399030" MODIFIED="1386209402541">
+<node TEXT="ECP_PH&#x7684;&#x5de5;&#x4f5c;&#x65b9;&#x5f0f;" ID="ID_997027991" CREATED="1386209403438" MODIFIED="1386209658377"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoBodyText">
+      For ECP packets there are no problem with the slave to slave connection if the namespace problematic is solved.
+    </p>
+    <p class="MsoBodyText">
+      There is an ECP packet handler (ECP_PH) for each CPRI port and an ECP_PH working as a <font color="#ff0033"><b>slave</b></font>&#160;will forward packets with <font color="#ff0033"><b>unknown address</b></font>&#160;to the <font color="#ff0033"><b>cascade port.</b></font>&#160;
+    </p>
+    <p class="MsoBodyText">
+      This can be seen in<!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028471 \h <span style='mso-element:
+field-separator'></span><![endif]-->
+       &#160;Figure <span>45</span><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003400370031000000</w:data>
+</xml><![endif]-->
+      <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
+       &#160;showing how it looks today.
+    </p>
+    <p class="MsoBodyText">
+      A more detailed picture for an ECP_PH block can be seen in<!--[if supportFields]><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028646 \h <span style='mso-element:
+field-separator'></span><![endif]-->
+       &#160;Figure <span>46</span><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003600340036000000</w:data>
+</xml><![endif]-->
+      <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
+       .
+    </p>
+    <p class="MsoBodyText">
+      As indicated the ECP_PH block or more correct the <font color="#ff0033"><b>receiver part</b></font>&#160;of the block can work in master or slave mode.
+    </p>
+    <p class="MsoBodyText">
+      In <font color="#ff0033"><b>master mode</b></font>&#160;all ECP packets are <font color="#ff0033"><b>forwarded to the cascade port</b></font>&#160;regardless of the address.<o p="#DEFAULT"></o>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Force Slave&#x6a21;&#x5f0f;" ID="ID_400318695" CREATED="1386209658330" MODIFIED="1386209837700"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22240;&#20026;&#23384;&#22312;&#20043;&#21069;&#29238;&#33410;&#28857;&#25152;&#35828;&#30340;ECP_PH&#30340;&#34892;&#20026;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20197;&#65292;&#22312;RUS&#19978;&#38656;&#35201;&#20570;&#30340;&#25913;&#21160;&#26159;&#23558;&#37027;&#20010;Master&#21475;&#30340;&#27169;&#24335;&#25913;&#20026;&quot;force slave&quot;&#27169;&#24335;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="TRS-3" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
@@ -917,7 +998,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="GSM RC SW(6K)" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1383139000347">
+<node TEXT="GSM RC SW(6K)" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1386568680293">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -933,10 +1014,14 @@
       
     </p>
     <p>
-      &#25152;&#20197;&#22914;&#26524;&#19981;&#21152;&#35828;&#26126;&#30340;&#35805;,&#36825;&#20010;&#32467;&#28857;&#30340;&#23376;&#32467;&#28857;&#30340;&#20869;&#23481;&#37117;&#26159;&#38024;&#23545;&quot;RC SW 6K&quot;&#30340;
+      &#25152;&#20197;&#22914;&#26524;&#19981;&#21152;&#35828;&#26126;&#30340;&#35805;,&#36825;&#20010;&#32467;&#28857;&#30340;&#23376;&#32467;&#28857;&#30340;&#20869;&#23481;&#37117;&#26159;&#38024;&#23545;&quot;RC SW 6K&quot;&#30340;.
+    </p>
+    <p>
+      &#22312;TRS-3&#20013;&#65292;&#23545;&#20110;6K&#30340;&#25551;&#36848;&#23601;&#26159;&quot;<font color="#0033ff" size="5"><b>DUG with CPRI</b></font>&quot;
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="WOW" ID="ID_535013950" CREATED="1383036167676" MODIFIED="1383036170733">
 <node TEXT="build SW package and test" ID="ID_1594637605" CREATED="1383036172769" MODIFIED="1383307680783"><richcontent TYPE="NOTE">
@@ -1396,6 +1481,23 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x3010;TRS-3&#x3011;RC SW System&#x77e5;&#x8bc6;" ID="ID_1369731936" CREATED="1386568610685" MODIFIED="1386568642918">
+<node TEXT="RC SW Startup Process" ID="ID_1185174244" CREATED="1386568632715" MODIFIED="1386569052191" LINK="../MiscDocuments/RC%20SW%20startup%20process%20--%20DUG%20with%20CPRI.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#20013;&#30340;onenote&#31508;&#35760;&#65292;&#22823;&#33268;&#26681;&#25454;TRS-3&#27169;&#22411;&#37324;&#38754;&#25551;&#36848;&#30340;sequence&#35760;&#24405;&#20102;&#22312;DUG with CPRI&#36825;&#26679;&#30340;6K&#30340;&#37197;&#32622;&#19979;&#65292;RC SW&#30340;&#21551;&#21160;&#27969;&#31243;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="&#x6742;&#x9879;" ID="ID_1917679532" CREATED="1383564996560" MODIFIED="1383565006688">
 <node TEXT="QuestionList" ID="ID_1518135713" CREATED="1383565008359" MODIFIED="1383566917996"><richcontent TYPE="NOTE">
 
@@ -1431,7 +1533,7 @@
 <node TEXT="To RC SW Design" ID="ID_131060702" CREATED="1383565015277" MODIFIED="1383565198111" LINK="../MiscDocuments/RE%20Question%20list%20for%20RC%20SW%20design%20part.msg"/>
 <node TEXT="To RC SW System" ID="ID_957307287" CREATED="1383565022147" MODIFIED="1383565275847" LINK="../MiscDocuments/question%20list.msg"/>
 </node>
-<node TEXT="Andre&#x5217;&#x51fa;&#x7684;&#x91cd;&#x8981;&#x7684;&#x7cfb;&#x7edf;&#x6587;&#x6863;" ID="ID_1639574288" CREATED="1384327850593" MODIFIED="1384327902854"><richcontent TYPE="NOTE">
+<node TEXT="Andre&#x5217;&#x51fa;&#x7684;&#x91cd;&#x8981;&#x7684;&#x7cfb;&#x7edf;&#x6587;&#x6863;" ID="ID_1639574288" CREATED="1384327850593" MODIFIED="1386313736967"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1456,6 +1558,106 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="RCSW package&#x5728;&#x201c;Core/Pre-Core&#x201d;&#x4ee5;&#x53ca;&#x201c;DUG with CPRI&#x201d;&#x5404;&#x6709;&#x54ea;&#x4e9b;&#x7cfb;&#x7edf;&#x7c7b;" ID="ID_1728936288" CREATED="1386314474257" MODIFIED="1386569415484"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#19979;&#38754;&#21015;&#20986;&#20102;&#22312;&#19981;&#21516;&#30340;Generation&#37324;&#65292;RC SW&#37117;&#26377;&#21738;&#20123;&#31995;&#32479;&#31867;&#12290;
+    </p>
+    <p>
+      &#20854;&#20013;&#65292;&#32418;&#33394;&#30340;&#37096;&#20998;&#34920;&#31034;&#30340;&#26159;&#22312;&#30456;&#24212;&#30340;Generation&#37324;&#38754;&#29420;&#26377;&#30340;&#31867;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;Core/Pre-Core&#37324;&#38754;&#65292;&#26377;&#19979;&#38754;&#30340;&#19968;&#20123;&#31995;&#32479;&#31867;&#65306;
+    </p>
+    <ul>
+      <li>
+        <font color="#000000">HWU_TX </font>
+      </li>
+      <li>
+        <font color="#000000">HWU_RX </font>
+      </li>
+      <li>
+        <font color="#cc0033"><b>HWU_PA </b></font>
+      </li>
+      <li>
+        <font color="#cc0033"><b>TempSensorPA </b></font>
+      </li>
+      <li>
+        <font color="#cc0033"><b>TempSensorRX</b></font>
+      </li>
+      <li>
+        <font color="#cc0033"><b>DSP_Radio_RCSys</b></font>
+      </li>
+      <li>
+        CO_TxPath
+      </li>
+      <li>
+        CO_RxPath
+      </li>
+      <li>
+        RC
+      </li>
+      <li>
+        HWU_Tarot
+      </li>
+      <li>
+        DSP_Radio_DSPSys
+      </li>
+      <li>
+        HWU_RC
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;DUG with CPRI&#37324;&#38754;&#65292;&#26377;&#19979;&#38754;&#30340;&#19968;&#20123;&#31867;&#65306;
+    </p>
+    <ul>
+      <li>
+        HWU_RC
+      </li>
+      <li>
+        CO_TxPath
+      </li>
+      <li>
+        CO_RxPath
+      </li>
+      <li>
+        RC
+      </li>
+      <li>
+        HWU_Tarot
+      </li>
+      <li>
+        HWU_TX
+      </li>
+      <li>
+        HWU_RX
+      </li>
+      <li>
+        DSP_Rasio_DSPSys
+      </li>
+      <li>
+        <font color="#cc0033"><b>DSP_RadioRBA_Sys</b></font>
+      </li>
+      <li>
+        <font color="#990033"><b>RIO_TR_DC</b></font>
+      </li>
+    </ul>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -1518,7 +1720,7 @@
 <node TEXT="thinking and acting" ID="ID_1819894728" CREATED="1383580296895" MODIFIED="1385003713239" LINK="../GSM_document_base/ThinkingAndActing_C.PDF"/>
 </node>
 <node TEXT="Clear Case Branch strategy + CR WoW" ID="ID_1896525525" CREATED="1383579895854" MODIFIED="1384321040432" LINK="../GSM_document_base/Introduction%20of%20ClearCase%20for%20System%20Work_PA2.pdf"/>
-<node TEXT="Timing &amp; Synch Overview Course" ID="ID_1800905516" CREATED="1383579917174" MODIFIED="1384911070238" LINK="../GSM_document_base/GSM%20BTS%20Timing%20and%20Synch%20Overview.ppt"/>
+<node TEXT="Timing &amp; Synch Overview Course" ID="ID_1800905516" CREATED="1383579917174" MODIFIED="1386208942402" LINK="../GSM_document_base/GSM%20BTS%20Timing%20and%20Synch%20Overview.ppt"/>
 <node TEXT="BOOT/BIOS general concepts" ID="ID_889843472" CREATED="1383579939854" MODIFIED="1384324691379"><richcontent TYPE="NOTE">
 
 <html>

@@ -2899,7 +2899,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3047,7 +3046,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Trouble Shooting" ID="ID_1104269016" CREATED="1380548388000" MODIFIED="1385454339569">
 <node TEXT="MTU problem." ID="ID_911326503" CREATED="1380548450398" MODIFIED="1380637849625"><richcontent TYPE="NOTE">
@@ -3181,7 +3179,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6027;&#x80fd;&#x6d4b;&#x8bd5;&#x7ed3;&#x679c;" ID="ID_130365328" CREATED="1385431396102" MODIFIED="1385432324530"><richcontent TYPE="NOTE">
@@ -3322,7 +3319,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1621598136" SOURCE_LABEL="&#x5bf9;&#x6bd4;" MIDDLE_LABEL="&#x4e00;&#x5206;&#x94b1;&#x4e00;&#x5206;&#x8d27;" STARTINCLINATION="45;0;" ENDINCLINATION="46;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -3407,7 +3403,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
 <node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
@@ -3442,7 +3437,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6027;&#x80fd;&#x6d4b;&#x8bd5;&#x7ed3;&#x679c;" ID="ID_1621598136" CREATED="1385431285355" MODIFIED="1385431540038"><richcontent TYPE="NOTE">
@@ -3586,7 +3580,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3602,7 +3595,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
@@ -3756,7 +3748,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x9488;&#x5bf9;pub&#x5b50;&#x57df;&#x540d;&#x8981;&#x505a;&#x7684;&#x64cd;&#x4f5c;" ID="ID_16058721" CREATED="1385445252601" MODIFIED="1385445320292"><richcontent TYPE="NOTE">
 
@@ -3784,7 +3775,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4090,7 +4080,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="php5-mysql&#x5b89;&#x88c5;log" ID="ID_196680588" CREATED="1355781176583" MODIFIED="1385444383891"><richcontent TYPE="NOTE">
@@ -4156,7 +4145,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4518,7 +4506,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5b89;&#x88c5;&#x597d;&#x7684;&#x5de5;&#x5177;&#x7684;&#x5730;&#x5740;" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1385451787843"><richcontent TYPE="NOTE">
@@ -4545,7 +4532,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x548c;&#x5bc6;&#x7801;" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1385444896955"><richcontent TYPE="NOTE">
 
@@ -4559,7 +4545,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4575,7 +4560,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4621,7 +4605,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Wordpress&#x53ef;&#x4ee5;&#x8f7b;&#x677e;&#x7684;&#x8fc1;&#x79fb;" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE">
@@ -4656,7 +4639,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x539f;&#x5219;&#x4e0a;&#x8fc1;&#x79fb;wordpress&#x9700;&#x8981;&#x505a;&#x7684;&#x4e8b;&#x60c5;" ID="ID_1405227223" CREATED="1385451440490" MODIFIED="1385451643187"><richcontent TYPE="NOTE">
 
@@ -4681,7 +4663,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6570;&#x636e;&#x5e93;&#x7684;&#x8bbe;&#x7f6e;" ID="ID_547437990" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE">
@@ -4693,6 +4674,49 @@
   <body>
     <p>
       &#x5728;phpmyadmin&#x4e2d;&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;wordpress,&#x7136;&#x540e;,&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x7528;&#x6237;xiaoshe,&#x5bc6;&#x7801;&#x662f;&#x7528;lovexiaoshe&#x751f;&#x6210;&#x7684;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;Wordpress&#x652f;&#x6301;MultiSite&#x914d;&#x7f6e;" ID="ID_565499545" CREATED="1386298256103" MODIFIED="1386559070974"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Wordpress&#25903;&#25345;multisite&#37197;&#32622;&#65292;&#23601;&#26159;&#19968;&#27425;&#30340;Wordpress&#23433;&#35013;&#65292;&#33021;&#22815;&#21019;&#24314;&#22810;&#20010;&quot;&#29420;&#31435;&quot;&#31449;&#28857;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#30340;Wordpress&#22312;&#37197;&#32622;multisite&#30340;&#26102;&#20505;&#65292;&#20351;&#29992;&#30340;Wordpress&#30340;&#29256;&#26412;&#26159;3.7.1
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="1.&#x4fee;&#x6539;wp-config.php&#x6587;&#x4ef6;" ID="ID_334112981" CREATED="1386299813137" MODIFIED="1386299864599"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#25991;&#20214;&#30340;&#26368;&#21518;&#21152;&#19978;&#19979;&#38754;&#30340;&#36825;&#19968;&#34892;&#37197;&#32622;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#0000ff"><b>/** Support MultiSite **/ </b></font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff"><b>define('WP_ALLOW_MULTISITE',true);</b></font></i>
     </p>
   </body>
 </html>
@@ -5850,8 +5874,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
