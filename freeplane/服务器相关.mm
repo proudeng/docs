@@ -4563,7 +4563,20 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1385449814460">
+<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26377;&#20123;&#37197;&#32622;&#30340;&#20869;&#23481;&#20063;&#21487;&#20197;&#21442;&#32771;&#26412;&#32467;&#28857;&#30340;&#36229;&#38142;&#25509;&#25351;&#21521;&#30340;&#32467;&#28857;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="wordpress&#x4e2d;&#x5982;&#x4f55;&#x6269;&#x5927;&#x6587;&#x4ef6;&#x4e0a;&#x4f20;&#x5927;&#x5c0f;&#x9650;&#x5236;" ID="ID_877694790" CREATED="1382553223105" MODIFIED="1385451805313"><richcontent TYPE="NOTE">
 
 <html>
@@ -4720,6 +4733,70 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x914d;&#x7f6e;&#x670d;&#x52a1;&#x5668;&#x5141;&#x8bb8;Wordpress&#x81ea;&#x52a8;Upgrade" ID="ID_1221511705" CREATED="1387369519678" MODIFIED="1387370233552"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wordpress&#33258;&#21160;upgrade&#38656;&#35201;&#26381;&#21153;&#22120;&#19978;&#26550;&#35774;&#20102;FTP&#26381;&#21153;&#22120;&#65292;&#22909;&#22312;&#22312;Virpus&#19978;&#24050;&#32463;&#26550;&#35774;&#20102;FTP&#26381;&#21153;&#22120;&#65292;&#25152;&#20197;&#36825;&#20010;&#21069;&#25552;&#26465;&#20214;&#19981;&#25104;&#38382;&#39064;&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;&#23376;&#32467;&#28857;&#20013;&#30340;&#8220;wp&#30340;&#35774;&#32622;&#30028;&#38754;&#8221;&#30340;&#25130;&#23631;&#65292;&#38656;&#35201;&#20570;&#30340;&#26159;&#22635;&#20837;FTP&#26381;&#21153;&#22120;&#30340;&#22320;&#22336;&#21644;&#29992;&#25143;&#21517;&#20197;&#21450;&#23494;&#30721;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21478;&#22806;&#19968;&#20010;&#35201;&#35774;&#32622;&#30340;&#26159;&#65292;&#22240;&#20026;wp&#30340;upgrade&#30340;&#35805;&#65292;&#39318;&#20808;&#35201;&#25226;&#26356;&#26032;&#30340;wp&#30340;&#25991;&#20214;&#19979;&#36733;&#21040;wp&#30340;&#23433;&#35013;&#30446;&#24405;&#65292;&#25152;&#20197;&#38656;&#35201;FTP&#30340;&#37027;&#20010;&#36134;&#25143;&#33021;&#22815;&#35775;&#38382;wp&#30340;&#23433;&#35013;&#30446;&#24405;&#12290;
+    </p>
+    <p>
+      &#20851;&#20110;&#36825;&#19968;&#28857;&#30340;&#35774;&#32622;&#65292;&#26377;&#24456;&#22810;&#20013;&#30340;&#35299;&#20915;&#26041;&#26696;&#12290;&#21442;&#32771;&#23376;&#32467;&#28857;&quot;proudeng&#29992;&#25143;&#35775;&#38382;/var/www/&#30446;&#24405;&quot;&#32467;&#28857;&#30340;&#35774;&#32622;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="wp&#x7684;&#x8bbe;&#x7f6e;&#x9875;&#x9762;" ID="ID_1012766132" CREATED="1387369736605" MODIFIED="1387370305697" LINK="../MiscDocuments/wp_auto_upgrade.png"/>
+<node TEXT="&#x7ed9;proudeng&#x7528;&#x6237;&#x6743;&#x9650;&#x8bbf;&#x95ee;/var/www&#x76ee;&#x5f55;" ID="ID_1178545021" CREATED="1387370177922" MODIFIED="1387371752062" LINK="../MiscDocuments/wp_folder_privilige_change.png"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#20013;&#30340;&#22270;&#29255;&#30340;&#35774;&#32622;&#12290;
+    </p>
+    <p>
+      &#36825;&#37324;&#20570;&#30340;&#26159;&#19968;&#20010;&#20599;&#25042;&#30340;&#20107;&#24773;&#65292;&#23601;&#26159;&#23558;/var/www&#30340;&#32452;&#26435;&#38480;&#25913;&#20026;proudeng,&#28982;&#21518;&#23558;www&#30446;&#24405;&#30340;&#26435;&#38480;&#25913;&#20026;775&#65292;&#32473;proudeng&#26377;www&#30446;&#24405;&#30340;&#20889;&#26435;&#38480;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      plus:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23454;&#38469;&#25805;&#20316;&#19979;&#26469;&#21457;&#29616;&#65292;&#21457;&#29616;&#19978;&#38754;&#30340;&#25805;&#20316;&#26159;&#19981;&#22815;&#30340;&#12290;
+    </p>
+    <p>
+      &#38656;&#35201;&#23558;/var&#30446;&#24405;&#30340;&#26435;&#38480;&#21644;&#32452;&#21517;&#25913;&#25104;&#21644;/var/www&#19968;&#26679;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -5874,9 +5951,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>

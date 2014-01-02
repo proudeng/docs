@@ -273,6 +273,20 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x516c;&#x53f8;&#x5173;&#x4e8e;&#x62a5;&#x9500;&#x548c;&#x53d1;&#x7968;&#x7684;&#x7533;&#x660e;" ID="ID_823236923" CREATED="1387416055955" MODIFIED="1387416158496" LINK="../MiscDocuments/&#x3010;FINANCE&#x3011;Update%20Letter%20to%20all%20claimants%20in%20Concur.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20851;&#20110;&#21457;&#31080;&#30340;&#25260;&#22836;&#20197;&#21450;&#25253;&#38144;&#30456;&#20851;&#30340;&#19968;&#20123;&#27880;&#24847;&#20107;&#39033;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x5982;&#x4f55;&#x7ed9;&#x745e;&#x5178;&#x6253;&#x7535;&#x8bdd;" ID="ID_483895137" CREATED="1338967252492" MODIFIED="1338967464991" LINK="Some%20tips.msg"/>
 <node TEXT="NPI&#x76f8;&#x5173;" ID="ID_865696915" CREATED="1345615664620" MODIFIED="1345615675901">
@@ -449,9 +463,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+<node TEXT="&#x516c;&#x53f8;&#x53d1;&#x653e;&#x7684;&#x72ec;&#x751f;&#x5b50;&#x5973;&#x5f85;&#x9047;" ID="ID_530020256" CREATED="1387524999305" MODIFIED="1387525042006" LINK="../MiscDocuments/&#x72ec;&#x751f;&#x5b50;&#x5973;&#x5f85;&#x9047;&#x53d1;&#x653e;Single%20Child%20Benefit%20Payment%20Y2013%20-Local%20Regular%20Staff%20Only.msg"/>
 </node>
 <node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
 <node TEXT="&#x7d2b;&#x91d1;&#x5c71;&#x767b;&#x5c71;&#x8def;&#x7ebf;" ID="ID_463031084" CREATED="1322119884287" MODIFIED="1325333872599" HGAP="18" VSHIFT="-10"><richcontent TYPE="NOTE">
