@@ -28,9 +28,9 @@ dnspod_load_config(){
 }
 
 dnspod_is_record_updated(){
-    resolve_ip=$(curl -s -k https://www.xdty.org/resolve.php -X POST -d "domain=$SUBDOMAIN.$DOMAIN")
+    resolve_ip=$(curl -s -k --interface pppoe-VWAN1 https://www.xdty.org/resolve.php -X POST -d "domain=$SUBDOMAIN.$DOMAIN")
     #current_ip=$(curl -s icanhazip.com)
-    current_ip=$(curl -s ip.xdty.org)
+    current_ip=$(curl -s --interface pppoe-VWAN1 ip.xdty.org)
     echo $resolve_ip
 	echo $current_ip 
     if [ "$resolve_ip" = "$current_ip" ]; then
@@ -41,7 +41,7 @@ dnspod_is_record_updated(){
 
 dnspod_domain_get_id(){
 	options="login_email=${ACCOUNT}&login_password=${PASSWORD}";
-	out=$(curl -s -k https://dnsapi.cn/Domain.List -d ${options});
+	out=$(curl -s -k --interface pppoe-VWAN1 https://dnsapi.cn/Domain.List -d ${options});
     for line in $out;do
         if [ $(echo $line|grep '<id>' |wc -l) != 0 ];then
             DOMAIN_ID=${line%<*};
@@ -57,7 +57,7 @@ dnspod_domain_get_id(){
             fi
         fi
     done
-	out=$(curl -s -k https://dnsapi.cn/Record.List -d "${options}&domain_id=${DOMAIN_ID}")
+	out=$(curl -s -k --interface pppoe-VWAN1 https://dnsapi.cn/Record.List -d "${options}&domain_id=${DOMAIN_ID}")
     for line in $out;do
         if [ $(echo $line|grep '<id>' |wc -l) != 0 ];then
             RECORD_ID=${line%<*};
@@ -77,8 +77,8 @@ dnspod_domain_get_id(){
 }
 
 dnspod_update_record_ip(){
-	curl -k https://dnsapi.cn/Record.Ddns -d "login_email=${ACCOUNT}&login_password=${PASSWORD}&domain_id=${DOMAIN_ID}&record_id=${RECORD_ID}&sub_domain=${RECORD_NAME}&record_line=${RECORD_LINE}"
-	curl -k https://www.xdty.org/mail.php -X POST -d "event=ip($current_ip) changed&name=$SUBDOMAIN&email=$ACCOUNT"
+	curl -k --interface pppoe-VWAN1 https://dnsapi.cn/Record.Ddns -d "login_email=${ACCOUNT}&login_password=${PASSWORD}&domain_id=${DOMAIN_ID}&record_id=${RECORD_ID}&sub_domain=${RECORD_NAME}&record_line=${RECORD_LINE}"
+	curl -k --interface pppoe-VWAN1 https://www.xdty.org/mail.php -X POST -d "event=ip($current_ip) changed&name=$SUBDOMAIN&email=$ACCOUNT"
 }
 
 main(){
