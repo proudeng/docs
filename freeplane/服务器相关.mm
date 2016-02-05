@@ -1,7 +1,7 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1318948918720"><hook NAME="MapStyle">
-    <properties show_note_icons="true"/>
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
+    <properties show_note_icons="true" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -118,7 +118,7 @@
 </node>
 </node>
 </node>
-<node TEXT="VirtualBox&#x4e0a;&#x7684;Debian6.0&#x865a;&#x62df;&#x673a;" POSITION="right" ID="ID_1086992913" CREATED="1331120397118" MODIFIED="1331120502301">
+<node TEXT="VirtualBox&#x4e0a;&#x7684;Debian6.0&#x865a;&#x62df;&#x673a;" POSITION="right" ID="ID_1086992913" CREATED="1331120397118" MODIFIED="1413880889265">
 <node TEXT="&#x865a;&#x62df;&#x673a;&#x4e0a;&#x7f51;&#x8bbe;&#x7f6e;" ID="ID_93588915" CREATED="1331120417500" MODIFIED="1331121590789"><richcontent TYPE="NOTE">
 
 <html>
@@ -329,7 +329,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;&#x7684;&#x914d;&#x7f6e;" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1365323655864"><richcontent TYPE="NOTE">
+<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;&#x7684;&#x914d;&#x7f6e;" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1394538838078"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -337,13 +337,13 @@
   </head>
   <body>
     <p>
-      VIM&#x662f;&#x4e00;&#x4e2a;&#x5f3a;&#x5927;&#x7684;&#x7f16;&#x8f91;&#x5668;.
+      VIM&#26159;&#19968;&#20010;&#24378;&#22823;&#30340;&#32534;&#36753;&#22120;.
     </p>
     <p>
-      &#x5728;&#x516c;&#x53f8;&#x7684;&#x5e94;&#x7528;&#x4e2d;,&#x914d;&#x5408;&#x4f7f;&#x7528;VIM&#x63d0;&#x4f9b;&#x7684;Mark&#x63d2;&#x4ef6;&#x5206;&#x6790;TR log.&#x66f4;&#x662f;&#x5982;&#x9c7c;&#x5f97;&#x6c34;.
+      &#22312;&#20844;&#21496;&#30340;&#24212;&#29992;&#20013;,&#37197;&#21512;&#20351;&#29992;VIM&#25552;&#20379;&#30340;Mark&#25554;&#20214;&#20998;&#26512;TR log.&#26356;&#26159;&#22914;&#40060;&#24471;&#27700;.
     </p>
     <p>
-      &#x6240;&#x4ee5;,&#x5e0c;&#x671b;&#x5728;&#x865a;&#x62df;&#x673a;&#x4e0a;&#x4e5f;&#x914d;&#x7f6e;&#x597d;VIM.&#x8ba9;&#x5176;&#x65e2;&#x80fd;&#x591f;&#x7528;&#x6765;&#x5206;&#x6790;log&#x6587;&#x4ef6;.&#x6709;&#x80fd;&#x591f;&#x4f5c;&#x4e3a;IDE&#x4f7f;&#x7528;,&#x67e5;&#x770b;&#x4ee3;&#x7801;.
+      &#25152;&#20197;,&#24076;&#26395;&#22312;&#34394;&#25311;&#26426;&#19978;&#20063;&#37197;&#32622;&#22909;VIM.&#35753;&#20854;&#26082;&#33021;&#22815;&#29992;&#26469;&#20998;&#26512;log&#25991;&#20214;.&#26377;&#33021;&#22815;&#20316;&#20026;IDE&#20351;&#29992;,&#26597;&#30475;&#20195;&#30721;.
     </p>
   </body>
 </html>
@@ -674,7 +674,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b89;&#x88c5;git &#x7684;&#x56fe;&#x5f62;&#x754c;&#x9762;" ID="ID_1895139748" CREATED="1372899166129" MODIFIED="1372899347545"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;git &#x7684;&#x56fe;&#x5f62;&#x754c;&#x9762;" ID="ID_1895139748" CREATED="1372899166129" MODIFIED="1394254426618"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -704,7 +704,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Debian&#x4e0a;&#x5982;&#x4f55;&#x66f4;&#x65b0;VirtualBox Additions" ID="ID_502772469" CREATED="1365392399681" MODIFIED="1365399956106"><richcontent TYPE="NOTE">
+<node TEXT="Debian&#x4e0a;&#x5982;&#x4f55;&#x66f4;&#x65b0;VirtualBox Additions" ID="ID_502772469" CREATED="1365392399681" MODIFIED="1394597484083"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1153,8 +1153,7 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1352817675019"><richcontent TYPE="NOTE">
+<node TEXT="Gnome&#x684c;&#x9762;&#x7684;&#x62a4;&#x773c;&#x8bbe;&#x7f6e;" ID="ID_200361465" CREATED="1393329327644" MODIFIED="1393329404621" LINK="../MiscDocuments/gnome_eye_protect.jpg"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1162,7 +1161,342 @@
   </head>
   <body>
     <p>
-      &#x540c;&#x65f6;&#x4e0b;&#x9762;&#x7684;&#x57df;&#x540d;&#x4e5f;&#x6307;&#x5411;&#x8fd9;&#x4e2a;&#x670d;&#x52a1;&#x5668;:
+      &#21442;&#32771;&#32467;&#28857;&#38468;&#20214;&#20013;&#30340;&#26041;&#27861;&#36827;&#34892;&#35774;&#32622;&#23601;&#34892;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5b89;&#x88c5;Firefox" ID="ID_179321631" CREATED="1394254437333" MODIFIED="1394254445624">
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_385102729" CREATED="1394259440326" MODIFIED="1394259483665" LINK="../MiscDocuments/Firefox_linux.png"/>
+<node TEXT="&#x5b89;&#x88c5;Flash&#x63d2;&#x4ef6;" ID="ID_447048366" CREATED="1394259445002" MODIFIED="1394259490261" LINK="../MiscDocuments/Firefox_flash.png"/>
+</node>
+<node TEXT="&#x5982;&#x679c;&#x53d1;&#x73b0;&#x865a;&#x62df;&#x673a;&#x5b89;&#x88c5;&#x5b8c;&#x4e4b;&#x540e;&#x5206;&#x8fa8;&#x7387;&#x6709;&#x95ee;&#x9898;&#x4e0d;&#x80fd;&#x8c03;&#x6574;" ID="ID_52328120" CREATED="1394546885353" MODIFIED="1394546931955" LINK="#ID_502772469"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#26159;&#22240;&#20026;VirtualBox&#30340;&#25554;&#20214;&#27809;&#26377;&#23433;&#35013;&#65292;&#21442;&#32771;&#36339;&#36716;&#32467;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Debian&#x865a;&#x62df;&#x673a;&#x652f;&#x6301;&#x767b;&#x5f55;Ericsson&#x7684;Hub" ID="ID_1720046487" CREATED="1395035633143" MODIFIED="1395035701595"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27979;&#35797;&#20102;&#19968;&#19979;&#65292;&#21457;&#29616;&#22312;Debian&#19978;&#23433;&#35013;&#30340;Firefox&#37324;&#38754;&#65292;&#20063;&#33021;&#22815;&#30331;&#24405;Ericsson&#30340;Hub.
+    </p>
+    <p>
+      &#38656;&#35201;&#23433;&#35013;&#19968;&#20123;&#36719;&#20214;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x767b;&#x5f55;Hub&#x4e0a;&#x7684;Windows&#x673a;&#x5668;" ID="ID_1675725920" CREATED="1395035710448" MODIFIED="1395035940721"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;Hub&#19978;&#30331;&#24405;Windows&#26426;&#22120;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#23433;&#35013;&#30340;&#26159;Ctrix&#30340;Ctrix Receiver.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#25805;&#20316;&#27969;&#31243;&#26159;:
+    </p>
+    <ul>
+      <li>
+        &#39318;&#20808;&#22914;&#26524;&#19981;&#23433;&#35013;&#20219;&#20309;&#36719;&#20214;&#30340;&#35805;&#65292;&#26159;&#19981;&#33021;&#30331;&#24405;Windows&#26426;&#22120;&#30340;&#65292;hub&#30340;&#39029;&#38754;&#20250;&#36339;&#20986;&#23433;&#35013;&#36719;&#20214;&#30340;&#25552;&#31034;
+      </li>
+      <li>
+        &#26681;&#25454;&#25552;&#31034;&#36827;&#20837;&#21040;Ctrix&#30340;&#32593;&#39029;&#19978;&#65292;&#36873;&#25321;&#23433;&#35013;&#20135;&#21697;&#20026;Ctrix Receiver.
+      </li>
+      <li>
+        &#36873;&#25321;&#36866;&#21512;debian&#30340;deb&#26684;&#24335;&#30340;&#25991;&#20214;&#65292;&#19979;&#36733;&#21040;&#34394;&#25311;&#26426;
+      </li>
+      <li>
+        &#20351;&#29992;root&#36134;&#21495;&#30331;&#24405;&#65292;&#28982;&#21518;&#20351;&#29992;dpkg -i xxx.deb&#21629;&#20196;&#23433;&#35013;&#36825;&#20010;&#36719;&#20214;
+      </li>
+      <li>
+        &#19968;&#33324;&#20250;&#25253;&#38169;&#65292;&#25552;&#31034;&#26377;&#20123;&#20381;&#36182;&#30340;&#24211;&#25110;&#32773;&#36719;&#20214;&#27809;&#26377;&#23433;&#35013;
+      </li>
+      <li>
+        &#26681;&#25454;&#25552;&#31034;&#65292;&#23433;&#35013;&#25152;&#38656;&#35201;&#30340;&#24211;&#25991;&#20214;
+      </li>
+      <li>
+        &#28982;&#21518;&#20877;&#27425;dpkg -i xxx.deb&#12290;&#19968;&#33324;&#23601;&#33021;&#22815;&#23433;&#35013;&#25104;&#21151;&#20102;&#12290;
+      </li>
+      <li>
+        &#28982;&#21518;&#23601;&#33021;&#22815;&#30331;&#24405;Windows&#26426;&#22120;&#20102;&#12290;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x767b;&#x5f55;Hub&#x4e0a;&#x7684;Linux&#x673a;&#x5668;" ID="ID_392057921" CREATED="1395035992338" MODIFIED="1395040876911" LINK="#ID_1711989259"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#23433;&#35013;&#20102;Ctrix&#30340;Ctrix Receiver&#20043;&#21518;&#65292;Windows&#26159;&#33021;&#22815;&#30331;&#24405;&#20102;&#65292;&#20294;&#26159;Linux&#26426;&#22120;&#36824;&#26159;&#19981;&#33021;&#30331;&#24405;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26681;&#25454;&#23454;&#36341;&#30340;&#32467;&#26524;&#65292;&#27492;&#26102;&#21482;&#35201;&#23433;&#35013;&#19978;Java&#25110;&#32773;Java Runtime Environment&#20043;&#21518;&#65292;&#23601;&#33021;&#22815;&#25104;&#21151;&#30340;&#30331;&#24405;hub&#19978;&#30340;linux&#26426;&#22120;&#20102;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#22312;Debian&#19978;&#23433;&#35013;Java&#30340;&#27969;&#31243;&#21442;&#29031;&#38142;&#25509;&#25351;&#21521;&#30340;&#32467;&#28857;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x767b;&#x5f55;Hub&#x4e0a;&#x7684;Solaris&#x673a;&#x5668;" ID="ID_1860041932" CREATED="1395035999203" MODIFIED="1395040949521">
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22909;&#20687;&#19978;&#38754;Ctrix&#30340;Ctrix Receiver.&#21644;Java Runtime Environment&#23433;&#35013;&#23436;&#20102;&#20043;&#21518;&#65292;&#36824;&#26159;&#19981;&#33021;&#22815;&#30331;&#24405;Solaris&#30340;&#26426;&#22120;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22909;&#22312;&#25105;&#20063;&#24182;&#19981;&#38656;&#35201;&#30331;&#24405;&#22270;&#24418;&#21270;&#30028;&#38754;&#30340;Solaris&#26426;&#22120;&#65292;&#20351;&#29992;ssh&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#65292;&#20063;&#27809;&#26377;&#33457;&#21151;&#22827;&#21435;&#30740;&#31350;&#24590;&#20040;&#35299;&#20915;&#36825;&#20010;&#38382;&#39064;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Debian&#x4e0a;&#x5b89;&#x88c5;Java" ID="ID_1711989259" CREATED="1395039601512" MODIFIED="1395040188639"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23433;&#35013;Java for your Computer&#65292;&#25110;&#32773;&#21483;&#20570;Java Runtime Environment&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#38656;&#35201;&#21040;Oracle&#30340;&#32593;&#31449;&#19978;&#21435;&#19979;&#36733;&#23433;&#35013;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x64cd;&#x4f5c;&#x6d41;&#x7a0b;" ID="ID_1916528194" CREATED="1395039761915" MODIFIED="1395039986801"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23454;&#38469;&#19978;&#21442;&#32771;&#30340;&#26159;Oracle&#19978;&#30340;&#19979;&#38754;&#30340;&#32593;&#22336;&#19968;&#27493;&#27493;&#29031;&#30528;&#20570;&#30340;&#65292;&#22914;&#26524;&#32593;&#22336;&#24050;&#32463;&#22833;&#25928;&#20102;&#65292;&#21442;&#32771;&#23376;&#33410;&#28857;&#30340;&#27969;&#31243;:
+    </p>
+    <p>
+      <a href="http://java.com/en/download/help/linux_install.xml">http://java.com/en/download/help/linux_install.xml </a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="1,&#x4e0b;&#x8f7d;Java" ID="ID_1894478249" CREATED="1395039777892" MODIFIED="1395039790946"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Download
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Go to http://java.com and click on the Download button
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;There are two types of installation packages.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Java on Linux Platforms
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;This is an archive binary file that can be installed by anyone (not only the root users), in any location that you can write to. However, only the root user can install Java into the system location.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="2,&#x5b89;&#x88c5;Java" ID="ID_1233706692" CREATED="1395039790941" MODIFIED="1395039818519"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;The instructions below are for installing version Java 7 Update 7 (7u7). If you are installing another version, make sure you change the version number appropriately when you type the commands at the terminal. Example: For Java 6u35 replace 7u7 with 6u35. Note that, as in the preceding example, the version number is sometimes preceded with the letter u, and sometimes it is preceded with an underbar, for example, jre1.7.0_07.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Change to the directory in which you want to install. Type:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;cd &lt;directory path name&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;For example, to install the software in the /usr/java/ directory, Type:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;cd /usr/java/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Note about root access: To install Java in a system-wide location such as /usr/local, you must login as the root user to gain the necessary permissions. If you do not have root access, install the Java in your home directory or a sub directory for which you have write permissions
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Move the .tar.gz archive binary to the current directory.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Unpack the tarball and install Java
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;tar zxvf jre-7u7-linux-i586.tar.gz
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;The Java files are installed in a directory called jre1.7.0_07 in the current directory.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;In this example, it is installed in the /usr/java/jre1.7.0_07 directory.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Delete the .tar.gz file if you want to save disk space.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5b9e;&#x9645;&#x7684;&#x5b89;&#x88c5;&#x5730;&#x5740;" ID="ID_230033199" CREATED="1395039865217" MODIFIED="1395039907364"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#20844;&#21496;&#30005;&#33041;&#30340;Debian6&#19978;&#23433;&#35013;&#30340;Java&#30340;&#23433;&#35013;&#36335;&#24452;&#26159;:
+    </p>
+    <p>
+      <b><font color="#0000cc" size="5">/usr/java</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="3,&#x914d;&#x7f6e;Java" ID="ID_1489742773" CREATED="1395039840040" MODIFIED="1395039851778"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enable and Configure
+    </p>
+    <p>
+      Firefox or Mozilla
+    </p>
+    <p>
+      To configure the Java Plugin follow these steps:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Exit Firefox browser if it is already running.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Uninstall any previous installations of Java Plugin.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Only one Java Plugin can be used at a time. When you want to use a different plugin, or version of a plugin, remove the symbolic links to any other versions and create a fresh symbolic link to the new one.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Create a symbolic link to the libnpjp2.so file in the browser plugins directory
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Go to the plugins sub-directory under the Firefox installation directory
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cd &lt;Firefox installation directory&gt;/plugins
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Create plugins directory if it does not exist.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Create the symbolic link
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ln -s &lt;Java installation directory&gt;/lib/i386/libnpjp2.so
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1394254430492"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21516;&#26102;&#19979;&#38754;&#30340;&#22495;&#21517;&#20063;&#25351;&#21521;&#36825;&#20010;&#26381;&#21153;&#22120;:
     </p>
     <p>
       yardvps.proudj.com
@@ -3324,7 +3658,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1385427256504"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1421071729703"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3332,74 +3666,74 @@
   </head>
   <body>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><span style="font-family: trebuchet ms,geneva; font-size: small">Dear jun deng,<br/><br/><strong>PLEASE PRINT THIS MESSAGE FOR YOUR RECORDS - PLEASE READ THIS EMAIL IN FULL.</strong></span></font>
+      <font size="small" face="trebuchet ms,geneva">Dear jun deng,<br/><br/><strong>PLEASE PRINT THIS MESSAGE FOR YOUR RECORDS - PLEASE READ THIS EMAIL IN FULL.</strong></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva">We are pleased to tell you that the server or VPS you ordered has now been set up and is operational. </span></font>
+      <font size="small" face="trebuchet ms,geneva">We are pleased to tell you that the server or VPS you ordered has now been set up and is operational. </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>Server Details<br/></strong>============================= </span></font>
+      <font size="small" face="trebuchet ms,geneva"><strong>Server Details<br/></strong>============================= </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva">You ordered the XVM512 </span></font>
+      <font size="small" face="trebuchet ms,geneva">You ordered the XVM512 </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><span style="font-size: small; font-family: trebuchet ms,geneva">Main IP: </span></font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>198.167.136.189</b></span></font><span style="font-size: small; font-family: trebuchet ms,geneva"><font size="small" face="trebuchet ms,geneva"><br/></font></span>
+      <font size="small" face="trebuchet ms,geneva">Main IP: </font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><b>198.167.136.189</b></font><font face="trebuchet ms,geneva" size="small"><br/></font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Additional IP Address(es):<br/></span></font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>198.167.136.38 </b></span></font>
+      <font face="trebuchet ms,geneva" size="small">Additional IP Address(es):<br/></font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><b>198.167.136.38 </b></font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Server Name: proudeng</span><span style="font-size: small; font-family: trebuchet ms,geneva"><br/></span></font>
+      <font face="trebuchet ms,geneva" size="small">Server Name: proudeng<br/></font>
     </p>
     <p>
-      <font size="x-small" face="trebuchet ms,geneva"><span style="font-size: x-small"><strong>CONTROL PANEL NOTE: </strong>If you ordered a control panel, you will receive another e-mail following this e-mail within 12 hours.&#160;&#160;Although your VPS is setup, we must still manually license your server for your desired control panel.&#160;&#160;We will install the control panel for you, and activate it.&#160;&#160;Until you receive this e-mail, it is strongly advised that you do not configure your VPS until this time. Note that control panel activations and installs are done during business hours only!</span></font><font size="small" face="trebuchet ms,geneva"><span><br/></span></font>
+      <font face="trebuchet ms,geneva" size="x-small"><strong>CONTROL PANEL NOTE: </strong>If you ordered a control panel, you will receive another e-mail following this e-mail within 12 hours.&#160;&#160;Although your VPS is setup, we must still manually license your server for your desired control panel.&#160;&#160;We will install the control panel for you, and activate it.&#160;&#160;Until you receive this e-mail, it is strongly advised that you do not configure your VPS until this time. Note that control panel activations and installs are done during business hours only!</font><font face="trebuchet ms,geneva"><br/></font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
-      </span></font>
+      <font face="trebuchet ms,geneva" size="small"><br/>
+      </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>SolusVM VPS Control Panel<br/></strong>=============================<br/></span></font><font face="trebuchet ms,geneva" size="small" color="#000099"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>http://manage.virpus.com</b></span></font><font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/></span><span style="font-size: small; font-family: trebuchet ms,geneva">Username: </span></font><font face="trebuchet ms,geneva" size="small" color="#000099"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>vn20676</b></span></font><font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/></span><span style="font-size: small; font-family: trebuchet ms,geneva">Password: </span></font><font face="trebuchet ms,geneva" size="small" color="#000099"><span style="font-size: small; font-family: trebuchet ms,geneva"><b>flyingproudeng21181013 </b></span></font>
+      <font face="trebuchet ms,geneva" size="small"><strong>SolusVM VPS Control Panel<br/></strong>=============================<br/></font><font face="trebuchet ms,geneva" size="small" color="#000099"><b>http://manage.virpus.com</b></font><font face="trebuchet ms,geneva" size="small"><br/>Username: </font><font face="trebuchet ms,geneva" size="small" color="#000099"><b>vn20676</b></font><font face="trebuchet ms,geneva" size="small"><br/>Password: </font><font face="trebuchet ms,geneva" size="small" color="#000099"><b>flyingproudeng21181013 </b></font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Console Username: </span><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>Console Password: </span></font>
+      <font face="trebuchet ms,geneva" size="small">Console Username:<br/>Console Password: </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
-      </span></font>
+      <font face="trebuchet ms,geneva" size="small"><br/>
+      </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>Support</strong><br/>=============================<br/>For any support needs, please open a ticket at http://myvirpus.com </span></font>
+      <font face="trebuchet ms,geneva" size="small"><strong>Support</strong><br/>=============================<br/>For any support needs, please open a ticket at http://myvirpus.com </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Please include any necessary information to provide you with faster service, such as root password, domain names, and a description of the problem / or assistance needed. This will speed up the support time by allowing our administrators to immediately begin diagnosing the problem. </span></font>
+      <font face="trebuchet ms,geneva" size="small">Please include any necessary information to provide you with faster service, such as root password, domain names, and a description of the problem / or assistance needed. This will speed up the support time by allowing our administrators to immediately begin diagnosing the problem. </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
-      </span></font>
+      <font face="trebuchet ms,geneva" size="small"><br/>
+      </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><strong>Network Updates and Status</strong><br/>=============================<br/></span></font>
+      <font face="trebuchet ms,geneva" size="small"><strong>Network Updates and Status</strong><br/>=============================<br/></font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Virpus strongly recommends that customers register on our forum located at http://virpus.com/forum.&#160;&#160;Network and server node statuses are posted here, as well as scheduled maintenances.<br/></span></font>
+      <font face="trebuchet ms,geneva" size="small">Virpus strongly recommends that customers register on our forum located at http://virpus.com/forum.&#160;&#160;Network and server node statuses are posted here, as well as scheduled maintenances.<br/></font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva"><br/>
-      </span></font>
+      <font face="trebuchet ms,geneva" size="small"><br/>
+      </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Once again, thank you for your business to Virpus Networks! </span></font>
+      <font face="trebuchet ms,geneva" size="small">Once again, thank you for your business to Virpus Networks! </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Regards, </span></font>
+      <font face="trebuchet ms,geneva" size="small">Regards, </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><span style="font-size: small; font-family: trebuchet ms,geneva">Virpus Networks, Inc. </span></font>
+      <font face="trebuchet ms,geneva" size="small">Virpus Networks, Inc. </font>
     </p>
   </body>
 </html>
@@ -3778,6 +4112,38 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="lighttpd&#x4e3a;&#x5728;Openwrt&#x4e0a;&#x642d;&#x7684;&#x670d;&#x52a1;&#x5668;&#x505a;&#x7f51;&#x5740;redirect" ID="ID_536180752" CREATED="1427641663623" MODIFIED="1427642143503">
+<attribute NAME="status" VALUE="unfinished"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#23478;&#37324;&#38754;&#30340;openwrt&#36335;&#30001;&#22120;&#19978;&#25645;&#24314;&#20102;&#19968;&#20010;&#38745;&#24577;&#30340;http&#26381;&#21153;&#22120;&#65292;&#29992;&#20110;&#23384;&#25918;&#22270;&#29255;&#20160;&#20040;&#30340;&#38745;&#24577;&#36164;&#28304;&#12290;openwrt&#30340;IP&#20351;&#29992;DDNS&#35299;&#26512;&#12290;
+    </p>
+    <p>
+      &#38382;&#39064;&#26159;80&#31471;&#21475;&#26159;&#34987;&#23553;&#25481;&#20102;&#65292;&#36716;&#32780;&#20351;&#29992;&#30340;&#31471;&#21475;&#26159;8800&#65292;&#25152;&#20197;&#27599;&#27425;&#35775;&#38382;&#23478;&#37324;&#30340;&#26381;&#21153;&#22120;&#37117;&#24471;&#20351;&#29992;&quot;http://home.proudj.com:8800/xxx&quot;&#36825;&#26679;&#30340;&#26041;&#24335;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#21457;&#29616;&#21487;&#20197;&#20351;&#29992;lighttpd&#30340;&#32593;&#22336;redirect&#21151;&#33021;&#65292;&#20351;&#29992;&#21478;&#22806;&#30340;&#19968;&#20010;sub domain&#26469;&#36991;&#24320;&#32593;&#22336;&#20013;8800&#36825;&#26679;&#21035;&#25197;&#30340;&#19996;&#35199;.
+    </p>
+    <p>
+      &#27604;&#22914;&#25105;&#20204;&#20351;&#29992;openwrt.proudj.com&#36825;&#20010;&#23376;&#22495;&#21517;&#26469;&#23454;&#29616;&#36825;&#20010;&#21151;&#33021;&#30340;&#35805;&#65292;
+    </p>
+    <p>
+      &#26399;&#26395;&#20351;&#24471;&#25105;&#20204;&#35775;&#38382;&quot;http://openwrt.proudj.com/a.txt&quot;&#65292;&#28982;&#21518;lighttpt&#23558;&#20854;redirect&#21040;&quot;http://home.proudj.com:8800/a.txt&quot;
+    </p>
+    <p>
+      &#36825;&#26679;&#30340;&#35805;&#65292;&#22806;&#38142;&#20160;&#20040;&#30340;&#65292;&#21482;&#35201;&#37197;&#32622;openwrt&#30340;&#36825;&#20010;&#23376;&#22495;&#21517;&#23601;&#34892;&#20102;&#65281;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x5b89;&#x88c5;log" ID="ID_1318877008" CREATED="1355781077883" MODIFIED="1385444418212"/>
 </node>
@@ -4081,6 +4447,20 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x66f4;&#x65b0;&#x8fc7;&#x7684;&#x5bc6;&#x7801;" ID="ID_1770063458" CREATED="1418206804017" MODIFIED="1418206816807"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      luckyxiaoshe
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="php5-mysql&#x5b89;&#x88c5;log" ID="ID_196680588" CREATED="1355781176583" MODIFIED="1385444383891"><richcontent TYPE="NOTE">
 
@@ -4533,7 +4913,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x548c;&#x5bc6;&#x7801;" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1385444896955"><richcontent TYPE="NOTE">
+<node TEXT="&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x548c;&#x5bc6;&#x7801;" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1392007906000"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4562,6 +4942,58 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="Error&#x73b0;&#x8c61;&#x4ee5;&#x53ca;&#x5904;&#x7406;" ID="ID_219121978" CREATED="1392005772161" MODIFIED="1392006555370"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#35775;&#38382;&#36825;&#20010;&#32593;&#22336;&#30340;&#26102;&#20505;&#21457;&#29616;&#27983;&#35272;&#22120;&#29190;&#20986;&#20102;&#19979;&#38754;&#30340;&#38169;&#35823;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#ff0033" size="3"><b>Cannot start session without errors, please check errors given in your PHP and/or webserver log file and configure your PHP installation properly.</b></font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25353;&#29031;&#32593;&#19978;&#30340;&#35828;&#27861;&#65292;&#22312;<font color="#0033ff" size="3"><b>/etc/php5/cgi/php.ini</b></font>&#25991;&#20214;&#20013;&#65292;&#23558;<font color="#0033ff" size="3"><b>session.save_path &#65309; &quot;/var/lib/php5&quot;</b></font>&#36825;&#19968;&#34892;&#21069;&#30340;&#27880;&#37322;&#21435;&#25481;&#12290;
+    </p>
+    <p>
+      &#24182;&#20570;&#20986;&#20102;&#22914;&#19979;&#30340;&#25913;&#21464;&#65306;
+    </p>
+    <ol>
+      <li>
+        <font color="#0033ff" size="3"><b>php.ini&#25991;&#20214;&#20013;&#65292;&#25913;&#20026;session.save_path = &quot;/var/lib/php5/session&quot; </b></font>
+      </li>
+      <li>
+        <font color="#0033ff" size="3"><b>&#22312;/var/lib/php5&#30446;&#24405;&#19979;&#21019;&#24314;&#30446;&#24405;session </b></font>
+      </li>
+      <li>
+        <font color="#0033ff" size="3"><b>&#20351;&#29992;chown -R www-data session&#23558;session&#30446;&#24405;&#30340;owner&#25913;&#20026;www-data </b></font>
+      </li>
+      <li>
+        <font color="#0033ff" size="3"><b>&#20351;&#29992;chgrp -R proudeng session&#23558;session&#30446;&#24405;&#30340;group&#25913;&#20026;proudeng</b></font>
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      &#20462;&#25913;&#23436;&#25104;&#20043;&#21518;&#65292;&#37325;&#21551;&#26381;&#21153;&#22120;&#65292;&#20877;&#27425;&#35775;&#38382;phpmyadmin&#39029;&#38754;&#65292;&#25104;&#21151;&#65281;&#65281;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
 
@@ -4575,7 +5007,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="wordpress&#x4e2d;&#x5982;&#x4f55;&#x6269;&#x5927;&#x6587;&#x4ef6;&#x4e0a;&#x4f20;&#x5927;&#x5c0f;&#x9650;&#x5236;" ID="ID_877694790" CREATED="1382553223105" MODIFIED="1385451805313"><richcontent TYPE="NOTE">
 
@@ -4763,7 +5194,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="wp&#x7684;&#x8bbe;&#x7f6e;&#x9875;&#x9762;" ID="ID_1012766132" CREATED="1387369736605" MODIFIED="1387370305697" LINK="../MiscDocuments/wp_auto_upgrade.png"/>
 <node TEXT="&#x7ed9;proudeng&#x7528;&#x6237;&#x6743;&#x9650;&#x8bbf;&#x95ee;/var/www&#x76ee;&#x5f55;" ID="ID_1178545021" CREATED="1387370177922" MODIFIED="1387371752062" LINK="../MiscDocuments/wp_folder_privilige_change.png"><richcontent TYPE="NOTE">
@@ -4796,7 +5226,326 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x7ed9;&#x6653;&#x820c;&#x5b89;&#x88c5;&#x4e00;&#x4e2a;guoguo&#x7684;&#x535a;&#x5ba2;" ID="ID_1612611537" CREATED="1392006616409" MODIFIED="1392014244036"><richcontent TYPE="NOTE">
 
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#34429;&#28982;WP&#26377;multi-site&#30340;&#29305;&#24615;&#65292;&#20294;&#26159;&#30001;&#20110;&#36825;&#20010;&#21338;&#23458;&#20351;&#29992;&#20102;&#36319;blog.proudj.com&#21516;&#32423;&#21035;&#30340;guoguo.proudj.com&#22495;&#21517;&#65292;&#25152;&#20197;&#19981;&#36866;&#29992;multi-site&#26041;&#26696;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#37319;&#29992;&#30340;&#31574;&#30053;&#26159;:
+    </p>
+    <ul>
+      <li>
+        <font color="#0000cc" size="5">&#20351;&#29992;&#19968;&#20010;&#26032;&#30340;&#25968;&#25454;&#24211;guoguo </font>
+      </li>
+      <li>
+        <font color="#0000cc" size="5">&#22312;&#21478;&#22806;&#30340;&#19968;&#20010;&#25991;&#20214;&#22841;&#19979;&#38754;&#23433;&#35013;&#19968;&#20010;&#26032;&#30340;wordpress. </font>
+      </li>
+      <li>
+        <font color="#0000cc" size="5">&#37319;&#29992;&#20108;&#32423;&#22495;&#21517;guoguo.proudj.com</font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x5355;&#x72ec;&#x7684;&#x6570;&#x636e;&#x5e93;" ID="ID_1735498120" CREATED="1392007125532" MODIFIED="1392008797038" LINK="#ID_1041863536">
+<icon BUILTIN="full-1"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;myphpadmin&#21019;&#24314;&#19968;&#20010;&#21517;&#21483;<font color="#0033ff" size="5"><b>guoguo</b></font>&#30340;mysql&#25968;&#25454;&#24211;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30001;&#20110;&#20043;&#21069;&#23433;&#35013;blog&#30340;&#26102;&#20505;&#65292;&#24050;&#32463;&#21019;&#24314;&#20102;&#19968;&#20010;&#21483;&#20570;<font color="#0033ff" size="5"><b>xiaoshe</b></font>&#30340;&#29992;&#25143;&#65292;&#25152;&#20197;&#20173;&#28982;&#20351;&#29992;&#36825;&#20010;&#29992;&#25143;&#26469;&#30331;&#24405;&#36825;&#20010;&#25968;&#25454;&#24211;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20851;&#20110;myphpadmin&#30340;&#25805;&#20316;&#21442;&#32771;&#36339;&#36716;&#21040;&#30340;&#32467;&#28857;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4f7f;&#x7528;&#x539f;&#x6709;User&#x7684;&#x7f3a;&#x70b9;" ID="ID_483179302" CREATED="1392013799021" MODIFIED="1392013876392"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21407;&#20808;&#29992;&#25143;&#30340;&#23494;&#30721;&#21487;&#33021;&#26159;&#19968;&#38271;&#20018;&#20081;&#30721;&#19968;&#26679;&#30340;&#23383;&#31526;&#12290;&#38656;&#35201;&#22312;&#37197;&#32622;&#25991;&#20214;&#20013;&#23558;&#36825;&#27573;&#23383;&#31526;&#22635;&#20837;&#21040;&#23494;&#30721;&#21306;&#22495;&#21435;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x914d;&#x7f6e;&#x4e00;&#x4e2a;&#x5355;&#x72ec;&#x7684;&#x57df;&#x540d;" ID="ID_552040007" CREATED="1392007138935" MODIFIED="1392008609175">
+<icon BUILTIN="full-2"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20934;&#22791;&#32473;&#36825;&#20010;wordpress&#19968;&#20010;&#21333;&#29420;&#30340;&#20108;&#32423;&#22495;&#21517;&#65306;<font color="#0033ff" size="3"><b>guoguo.proudj.com</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25805;&#20316;&#22914;&#19979;:
+    </p>
+    <ol>
+      <li>
+        <font color="#0000cc" size="5">&#30331;&#24405;dnspod&#32593;&#31449;&#65292;&#28155;&#21152;&#20108;&#32423;&#22495;&#21517;guoguo.proudj.com,&#21516;&#26679;&#25351;&#21521;proudj.com&#30340;ip&#22320;&#22336; </font>
+      </li>
+      <li>
+        <font color="#0000cc" size="5">&#26356;&#25913;lighttp&#30340;&#37197;&#32622;&#25991;&#20214;&#65292;&#25903;&#25345;guoguo.proudj.com&#65292;&#35814;&#32454;&#21442;&#32771;&#23376;&#33410;&#28857;</font>
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node TEXT="lighttpd&#x7684;&#x4fee;&#x6539;" ID="ID_197047114" CREATED="1392007799891" MODIFIED="1392008512049"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20462;&#25913;lighttpd&#30340;&#37197;&#32622;&#25991;&#20214;:
+    </p>
+    <p>
+      <font color="#0000cc" size="5"><b>/etc/lighttpd/lighttpd.conf</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;&#25991;&#20214;&#26411;&#23614;&#28155;&#21152;&#19978;&#19968;&#27573;&#37197;&#32622;&#20195;&#30721;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#0000cc" size="5">$HTTP[&quot;host&quot;] =~ &quot;(^|\.)guoguo\.proudj\.com$&quot; { </font></i>
+    </p>
+    <p>
+      <i><font color="#0000cc" size="5">&#160;&#160;server.document-root = &quot;/var/www/guoguo&quot; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000cc" size="5">&#160;&#160;server.errorlog = &quot;/var/log/lighttpd/guoguo/error.log&quot; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000cc" size="5">#&#160;&#160;accesslog.filename = &quot;/var/log/lighttpd/guoguo/access.log&quot; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000cc" size="5">}</font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;server.document-root&#20013;&#25351;&#23450;&#30340;&#30446;&#24405;&#26159;<font color="#ff0033" size="6">step3</font>&#20013;&#21019;&#24314;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#65292;&#38656;&#35201;&#22312;/var/log/lighttpd&#30446;&#24405;&#19979;&#21019;&#24314;&#20026;guoguo&#35774;&#32622;log&#30446;&#24405;:
+    </p>
+    <ul>
+      <li>
+        <i><font color="#000099" size="5">mkdir /var/log/lighttpd/guoguo/ </font></i>
+      </li>
+      <li>
+        <i><font color="#000099" size="5">chgrp www-data /var/log/lighttpd/guoguo/ </font></i>
+      </li>
+      <li>
+        <i><font color="#000099" size="5">chown www-data /var/log/lighttpd/guoguo/</font></i>
+      </li>
+    </ul>
+    <p>
+      &#26368;&#21518;&#65292;&#22312;lighttpd&#30340;&#37197;&#32622;&#32467;&#26463;&#20043;&#21518;&#65292;&#37325;&#21551;lighttpd&#26381;&#21153;&#22120;:
+    </p>
+    <ul>
+      <li>
+        <i><font color="#0000cc" size="5">/etc/init.d/lighttpd restart</font></i>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x521b;&#x5efa;&#x65b0;&#x76ee;&#x5f55;&#x5b89;&#x88c5;&#x65b0;&#x7684;wordpress" ID="ID_1994946234" CREATED="1392007153358" MODIFIED="1392008858480">
+<icon BUILTIN="full-3"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23558;guoguo&#36825;&#20010;wordpress&#23433;&#35013;&#22312;&#19979;&#38754;&#30340;&#30446;&#24405;:
+    </p>
+    <p>
+      <font color="#0000cc" size="5"><b>/var/www/guoguo </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#37319;&#29992;&#19979;&#38754;&#30340;&#25805;&#20316;:
+    </p>
+    <ol>
+      <li>
+        <font color="#0000cc" size="5">&#23558;wordpress&#30340;&#25991;&#20214;&#35299;&#21387;&#21040;/var/www/guoguo&#30446;&#24405;&#19979;&#12290; </font>
+      </li>
+      <li>
+        <font color="#0000cc" size="5">&#20351;&#29992;chown -R www-data /var/www/guoguo&#20462;&#25913;owner&#23646;&#24615;&#12290; </font>
+      </li>
+      <li>
+        <font color="#0000cc" size="5">&#20351;&#29992;chgrp -R proudeng /var/www/guoguo&#20462;&#25913;group&#23646;&#24615;&#12290;</font>
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4fee;&#x6539;wordpress&#x7684;&#x914d;&#x7f6e;&#x6587;&#x4ef6;" ID="ID_508927777" CREATED="1392008872866" MODIFIED="1392014115471">
+<icon BUILTIN="full-4"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21069;&#38754;&#30340;&#20960;&#27493;&#23436;&#25104;&#20043;&#21518;&#65292;&#23601;&#21487;&#20197;&#39034;&#21033;&#30340;&#32473;<font color="#0000cc" size="5"><b>guoguo.proudj.com</b></font>&#23433;&#35013;wordpress&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#25805;&#20316;&#21019;&#24314;&#19968;&#20010;wordpress&#30340;&#37197;&#32622;&#25991;&#20214;:
+    </p>
+    <ol>
+      <li>
+        <font color="#0000cc" size="5">cp&#160;/var/www/guoguo/wp-config.sample.php&#160;&#160;/var/www/guoguo/wp-config.php </font>
+      </li>
+      <li>
+        <font color="#0000cc" size="5">chown www-data wp-config.php </font>
+      </li>
+      <li>
+        <font color="#0000cc" size="5">chgrp proudeng wp-config.php</font>
+      </li>
+    </ol>
+    <p>
+      &#28982;&#21518;&#20462;&#25913;&#36825;&#20010;&#37197;&#32622;&#25991;&#20214;&#65292;&#23558;&#19979;&#38754;&#30340;&#20869;&#23481;&#26356;&#26032;:
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">// ** MySQL settings - You can get this info from your web host ** // </font></i>
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">/** The name of the database for WordPress */ </font></i>
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">define('DB_NAME', '</font><font color="#ff0033" size="3">guoguo</font><font color="#0033ff" size="3">'); </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">/** MySQL database username */ </font></i>
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">define('DB_USER', '</font><font color="#ff0033" size="3">xiaoshe</font><font color="#0033ff" size="3">'); </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">/** MySQL database password */ </font></i>
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">define('DB_PASSWORD', '</font><font color="#ff0033" size="3">password_here</font><font color="#0033ff" size="3">');&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font><font color="#ff0033" size="3"><b>&lt;-&#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#22240;&#20026;&#25105;&#20204;&#26159;&#37325;&#29992;&#20102;blog&#20013;&#30340;&#29992;&#25143;xiaoshe,&#25152;&#20197;&#38656;&#35201;&#20174;blog&#30340;&#37197;&#32622;&#25991;&#20214;&#20013;&#23558;&#23494;&#30721;&#25335;&#36125;&#36807;&#26469;&#65281;</b></font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">/** MySQL hostname */ </font></i>
+    </p>
+    <p>
+      <i><font color="#0033ff" size="3">define('DB_HOST', 'localhost');</font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#35775;&#38382;&#19979;&#38754;&#30340;&#39029;&#38754;&#24320;&#22987;&#33879;&#21517;&#30340;5&#20998;&#38047;&#23433;&#35013;&#27861;&#65292;&#35774;&#32622;&#26631;&#39064;&#65292;&#21338;&#23458;&#30340;&#29992;&#25143;&#20043;&#21518;&#23601;&#21487;&#20197;&#20351;&#29992;&#20102;&#65306;
+    </p>
+    <p>
+      <font color="#0000cc" size="5"><b>http://guoguo.proudj.com</b></font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x540e;&#x7eed;&#x64cd;&#x4f5c;" ID="ID_1522817251" CREATED="1396447612756" MODIFIED="1396447616923">
+<node TEXT="WP&#x7684;&#x6587;&#x7ae0;&#x4e2d;&#x663e;&#x793a;&#x4f5c;&#x8005;&#x540d;&#x5b57;" ID="ID_626841602" CREATED="1396447618725" MODIFIED="1396447752059" LINK="../OneNote/WordPress%20Twenty%20Thirteen&#x4e3b;&#x9898;&#x6587;&#x7ae0;&#x663e;&#x793a;&#x4f5c;&#x8005;&#x4fe1;&#x606f;.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;guoguo.proudj.com&#36825;&#20010;&#21338;&#23458;&#20013;&#20351;&#29992;&#30340;&#26159;Wordpress&#30340;Twenty Thirteen&#20027;&#39064;&#12290;
+    </p>
+    <p>
+      &#19981;&#30693;&#36947;&#20026;&#20160;&#20040;&#65292;&#36825;&#20010;&#20027;&#39064;&#37324;&#38754;&#65292;&#40664;&#35748;&#30340;&#65292;&#25991;&#31456;&#39029;&#38754;&#19978;&#19981;&#26174;&#31034;&#20316;&#32773;&#30340;&#21517;&#23383;&#12290;
+    </p>
+    <p>
+      &#25105;&#24076;&#26395;&#33021;&#22815;&#26174;&#31034;&#20316;&#32773;&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#20013;&#30340;onenote&#31508;&#35760;&#12290;
+    </p>
+  </body>
+</html>
 </richcontent>
 </node>
 </node>
@@ -4899,7 +5648,25 @@
 </node>
 </node>
 </node>
+<node TEXT="&#x66f4;&#x65b0;&#x540e;&#x7684;&#x5bc6;&#x7801;" ID="ID_582680798" CREATED="1418205926859" MODIFIED="1418205944169"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      proudeng/luckyxiaoshe
+    </p>
+    <p>
+      root/proudeng0306
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
+</node>
+<node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
 <node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
 <node TEXT="apache" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
 
@@ -5951,9 +6718,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
@@ -6343,8 +7110,8 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
@@ -6980,7 +7747,19 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5bb6;&#x91cc;&#x9762;&#x4e2d;&#x5174;&#x7684;&#x65e0;&#x7ebf;&#x732b;&#x7834;&#x89e3;" POSITION="left" ID="ID_359272330" CREATED="1361551851690" MODIFIED="1361551864357">
+<node TEXT="&#x5bb6;&#x91cc;&#x9762;&#x4e2d;&#x5174;&#x7684;&#x65e0;&#x7ebf;&#x732b;&#x7834;&#x89e3;" POSITION="left" ID="ID_359272330" CREATED="1361551851690" MODIFIED="1414835743706"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22411;&#21495;&#26159;F460
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="&#x53c2;&#x8003;&#x5185;&#x5bb9;1" ID="ID_315082890" CREATED="1361551873084" MODIFIED="1361551889216"><richcontent TYPE="NOTE">
 
 <html>
@@ -6994,6 +7773,20 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x4fee;&#x6539;&#x6570;&#x636e;&#x5e93;" ID="ID_1197775814" CREATED="1419475389938" MODIFIED="1419475531087" LINK="../OneNote/&#x547d;&#x4ee4;&#x884c;&#x4fee;&#x6539;F460.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21629;&#20196;&#34892;&#19979;&#36890;&#36807;telent&#30331;&#24405;&#20462;&#25913;&#25968;&#25454;&#24211;&#26469;&#26356;&#25913;F460&#37197;&#32622;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x53c2;&#x8003;&#x5185;&#x5bb9;2" ID="ID_745861624" CREATED="1361551890643" MODIFIED="1361552431925" LINK="../MiscDocuments/&#x7834;&#x89e3;&#x4e2d;&#x5174;%20ZXA10%20F460%20V3.0&#x7248;&#x672c;&#x732b;.pdf">
 <node TEXT="&#x914d;&#x7f6e;&#x6210;&#x8def;&#x7531;&#x5668;&#x65f6;&#x7684;&#x7f51;&#x7edc;&#x914d;&#x7f6e;" ID="ID_608642283" CREATED="1381665867927" MODIFIED="1381666116368"><richcontent TYPE="NOTE">
@@ -7034,7 +7827,93 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x8d85;&#x7ea7;&#x7528;&#x6237;&#x5bc6;&#x7801;" ID="ID_1475903343" CREATED="1361552386264" MODIFIED="1361552440069" LINK="../MiscDocuments/&#x4e2d;&#x5174;&#x732b;&#x5bc6;&#x7801;.bmp"/>
+<node TEXT="&#x8d85;&#x7ea7;&#x7528;&#x6237;&#x5bc6;&#x7801;" ID="ID_1475903343" CREATED="1361552386264" MODIFIED="1419417588412" LINK="../MiscDocuments/&#x4e2d;&#x5174;&#x732b;&#x5bc6;&#x7801;.bmp"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24050;&#32463;&#26356;&#25913;&#20026;&#19979;&#21015;:
+    </p>
+    <p>
+      username :proudeng
+    </p>
+    <p>
+      password: luckyxiaoshe
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Telnet&#30340;&#29992;&#25143;&#21517;&#21644;&#23494;&#30721;&#26356;&#25913;&#20026;:
+    </p>
+    <p>
+      username: proudeng
+    </p>
+    <p>
+      password: luckyxiaoshe
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8bbe;&#x7f6e;&#x6865;&#x63a5;&#x548c;&#x8def;&#x7531;&#x53cc;&#x6a21;&#x5f0f;" ID="ID_1944931410" CREATED="1414835706287" MODIFIED="1414836097215"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32463;&#36807;&#23454;&#39564;&#65292;&#25105;&#20204;&#23478;&#30340;&#36825;&#20010;F460&#25110;&#32773;&#25105;&#20204;&#23478;&#30340;&#23485;&#24102;&#26159;&#25903;&#25345;&#36825;&#26679;&#30340;&#37197;&#32622;&#30340;&#65281;
+    </p>
+    <p>
+      &#20160;&#20040;&#21483;&#20570;&#26725;&#25509;&#21644;&#36335;&#30001;&#30340;&#21452;&#27169;&#24335;?:
+    </p>
+    <p>
+      &#19968;&#33324;&#30772;&#35299;&#26080;&#32447;&#29483;&#65292;&#23601;&#26159;&#24076;&#26395;&#20351;&#29992;&#26080;&#32447;&#29483;&#30340;&#36335;&#30001;&#21151;&#33021;&#12290;&#36825;&#26679;&#30340;&#35805;&#65292;&#23558;F460&#37197;&#32622;&#25104;&#36335;&#30001;&#27169;&#24335;&#23601;&#34892;&#20102;&#65292;&#36825;&#26679;&#30340;&#35805;&#65292;F460&#20250;&#33258;&#24049;&#25320;&#21495;&#19978;&#32593;&#65292;
+    </p>
+    <p>
+      &#28982;&#21518;&#25152;&#26377;&#30340;&#25509;&#21040;F460&#30340;&#32593;&#21475;&#19978;&#30340;&#30005;&#33041;&#65292;&#25110;&#32773;&#36830;&#25509;&#21040;F460&#30340;&#26080;&#32447;&#19978;&#30340;&#35774;&#22791;&#23601;&#33021;&#30452;&#25509;&#19978;&#32593;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#22914;&#26524;&#25105;&#20204;&#22312;F460&#30340;&#26576;&#20010;&#32593;&#21475;&#19978;&#36824;&#25509;&#20102;&#19968;&#20010;&#36335;&#30001;&#22120;&#65292;&#36825;&#20010;&#36335;&#30001;&#22120;&#23454;&#38469;&#19978;&#26159;&#21487;&#20197;&#30452;&#25509;&#19978;&#32593;&#30340;&#65292;&#22240;&#20026;F460&#24050;&#32463;&#25320;&#21495;&#20102;&#65292;&#23545;&#20110;&#36335;&#30001;&#22120;&#26469;&#35828;&#65292;F460&#23601;&#24050;&#32463;&#26159;&#36335;&#30001;&#22120;&#20102;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#22914;&#26524;&#36825;&#26102;&#20505;&#25105;&#20204;&#26377;&#21478;&#22806;&#30340;&#38656;&#27714;&#65292;&#24076;&#26395;&#36825;&#20010;&#22806;&#32622;&#30340;&#36335;&#30001;&#22120;&#33258;&#24049;&#26469;&#25320;&#21495;&#30340;&#35805;&#12290;&#23601;&#38656;&#35201;&#35774;&#32622;&#36825;&#37324;&#35828;&#30340;&#26725;&#25509;&#21644;&#36335;&#30001;&#30340;&#21452;&#27169;&#24335;&#20102;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#20570;&#27861;&#23601;&#26159;&#65292;&#22312;F460&#37324;&#38754;&#26032;&#24314;&#19968;&#20010;&#36830;&#25509;&#65292;&#35774;&#32622;&#20026;&#26725;&#25509;&#27169;&#24335;&#65292;&#28982;&#21518;&#32465;&#23450;&#36335;&#30001;&#22120;&#25509;&#20837;&#30340;&#37027;&#20010;&#31471;&#21475;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#28982;&#21518;&#65292;&#36335;&#30001;&#22120;&#23601;&#21487;&#20197;&#33258;&#24049;&#36890;&#36807;PPPOE&#25320;&#21495;&#19978;&#32593;&#20102;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#23454;&#29616;&#21442;&#32771;&#23376;&#32467;&#28857;&#30340;&#22270;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x65b0;&#x5efa;&#x6865;&#x63a5;&#x8fde;&#x63a5;&#x7ed1;&#x5b9a;&#x7aef;&#x53e3;" ID="ID_1684926862" CREATED="1414836100419" MODIFIED="1414836349627" LINK="../OneNote/F460&#x914d;&#x7f6e;&#x8def;&#x7531;&#x6865;&#x63a5;&#x53cc;&#x6a21;&#x5f0f;.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#26032;&#24314;&#30340;&#36830;&#25509;&#37324;&#38754;&#30340;VLAN&#30340;ID&#36319;&#20043;&#21069;&#30340;&#20063;&#26159;&#19968;&#26679;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="&#x5bb6;&#x4e2d;&#x7684;DDWRT&#x7684;IP&#x5730;&#x5740;" ID="ID_205207512" CREATED="1381666160122" MODIFIED="1381666178001"><richcontent TYPE="NOTE">
 
 <html>
@@ -7048,6 +7927,2675 @@
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="&#x89e3;&#x51b3;ITV&#x4e0d;&#x80fd;&#x770b;&#x7684;&#x95ee;&#x9898;" ID="ID_1203533693" CREATED="1418215754343" MODIFIED="1418215813564"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24456;&#26377;&#21487;&#33021;&#26159;&#22312;&#37197;&#32622;&#20854;&#20182;&#27169;&#24335;&#30340;&#26102;&#20505;,&#21344;&#29992;&#20102;LAN2&#21475;.
+    </p>
+    <p>
+      &#25152;&#20197;&#35201;&#20570;&#30340;&#26159;,&#23558;LAN2&#21475;&#36824;&#26159;&#37197;&#25104;&#32473;ITV&#29992;&#30340;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25105;&#30340;&#36825;&#20010;&#36335;&#30001;&#22120;&#30340;&#22823;&#33268;&#20449;&#24687;&#26159;:
+    </p>
+    <p>
+      TP-Link TL-WRN720N V3,
+    </p>
+    <h2>
+      <a id="features" name="features">Features</a>
+    </h2>
+    <div class="level2">
+      <table class="inline">
+        <tr class="row0">
+          <th colspan="1" class="col0" rowspan="1">
+            CPU
+          </th>
+          <th colspan="1" class="col1" rowspan="1">
+            Ram
+          </th>
+          <th colspan="1" class="col2" rowspan="1">
+            Flash
+          </th>
+          <th colspan="1" class="col3" rowspan="1">
+            Network
+          </th>
+          <th colspan="1" class="col4" rowspan="1">
+            USB
+          </th>
+          <th colspan="1" class="col5" rowspan="1">
+            Serial
+          </th>
+          <th colspan="1" class="col6" rowspan="1">
+            JTag
+          </th>
+        </tr>
+        <tr class="row1">
+          <td colspan="1" class="col0" rowspan="1">
+            Atheros AR9331@400MHz
+          </td>
+          <td colspan="1" class="col1" rowspan="1">
+            32MiB
+          </td>
+          <td colspan="1" class="col2" rowspan="1">
+            4MiB
+          </td>
+          <td colspan="1" class="col3" rowspan="1">
+            2 x 100MBit
+          </td>
+          <td colspan="1" class="col4" rowspan="1">
+            1 x 2.0
+          </td>
+          <td colspan="1" class="col5" rowspan="1">
+            Yes
+          </td>
+          <td colspan="1" class="col6" rowspan="1">
+            Unlikely
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_1347864875" CREATED="1413722410406" MODIFIED="1418313731909" LINK="../OneNote/openwrt_startup.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30001;&#20110;&#22312;openwrt&#30340;&#23448;&#32593;&#19978;&#24050;&#32463;&#27491;&#24335;&#30340;&#25903;&#25345;&#20102;&#25105;&#30340;&#36825;&#27454;WR720N.&#25152;&#20197;&#23433;&#35013;&#30340;&#36807;&#31243;&#23601;&#24456;&#31616;&#21333;&#20102;&#12290;
+    </p>
+    <p>
+      &#30452;&#25509;&#23558;&#26368;&#26032;&#30340;&#22266;&#20214;&#19979;&#36733;&#19979;&#26469;&#65292;&#28982;&#21518;&#30452;&#25509;&#22312;TP-LINK&#30340;&#31649;&#29702;&#30028;&#38754;&#36873;&#25321;&#21319;&#32423;&#22266;&#20214;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#28982;&#21518;&#20351;&#29992;&#30340;&#36807;&#31243;&#23601;&#36319;&#32593;&#19978;&#20171;&#32461;&#30340;&#19968;&#26679;&#20102;&#65292;&#20808;&#29992;ftp&#30331;&#24405;&#65292;&#35774;&#32622;&#23494;&#30721;&#65292;&#28982;&#21518;&#29992;ssh&#30331;&#24405;&#65292;&#25171;&#24320;wifi&#20043;&#31867;&#30340;&#12290;
+    </p>
+    <p>
+      &#19978;&#32593;&#25628;&#19968;&#19979;&#23601;&#26377;&#20102;&#12290;&#27969;&#31243;&#37117;&#26159;&#19968;&#26679;&#30340;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#23601;&#26159;&#21442;&#29031;&#38468;&#20214;&#30340;onenote&#37324;&#38754;&#30340;&#20869;&#23481;&#36827;&#34892;&#30340;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x8bbe;&#x7f6e;&#x62e8;&#x53f7;&#x4e0a;&#x7f51;" ID="ID_1490509491" CREATED="1418136242085" MODIFIED="1418136336801"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32534;&#36753;/etc/config/network,&#20462;&#25913;&#20026;&#19979;&#38754;&#30340;&#27169;&#26679;(&#32418;&#33394;&#37096;&#20998;,&#27880;&#24847;&#25105;&#26159;&#29992;WAN&#21475;&#25320;&#21495;&#19978;&#32593;&#30340;):
+    </p>
+    <p>
+      config interface 'loopback'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ifname 'lo'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'static'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ipaddr '127.0.0.1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option netmask '255.0.0.0'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      config globals 'globals'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ula_prefix 'fd6c:78c0:1404::/48'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      config interface 'lan'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ifname 'eth1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option force_link '1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option type 'bridge'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'static'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ipaddr '192.168.1.1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option netmask '255.255.255.0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ip6assign '60'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">config interface 'wan' </font>
+    </p>
+    <p>
+      <font color="#ff0000">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ifname 'eth0' </font>
+    </p>
+    <p>
+      <font color="#ff0000">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'pppoe' </font>
+    </p>
+    <p>
+      <font color="#ff0000">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option username '02552335844' </font>
+    </p>
+    <p>
+      <font color="#ff0000">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option password '52335844'</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #config interface 'wan6'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;option ifname 'eth0'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'dhcpv6'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8bbe;&#x7f6e;wifi&#x5bc6;&#x7801;" ID="ID_158560081" CREATED="1418136340738" MODIFIED="1418308646701"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre class="code">oot@OpenWrt:~# opkg update
+root@OpenWrt:~# opkg install wpad-mini
+root@OpenWrt:~# uci set wireless.@wifi-iface[0].encryption=psk
+root@OpenWrt:~# uci set wireless.@wifi-iface[0].key=&quot;your_password&quot;
+root@OpenWrt:~# uci commit wireless
+root@OpenWrt:~# wifi</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x914d;&#x7f6e;&#x652f;&#x6301;USB&#x8bbe;&#x5907;" ID="ID_1359548302" CREATED="1413722414010" MODIFIED="1413814220025"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;package&#23433;&#35013;&#22909;&#20102;&#65292;&#23601;&#33021;&#25903;&#25345;&#35782;&#21035;USB&#35774;&#22791;&#20102;&#65292;&#37325;&#21551;&#20043;&#21518;&#65292;&#22312;/dev&#30446;&#24405;&#19979;&#23601;&#33021;&#22815;&#21457;&#29616;sda1&#35774;&#22791;&#20102;.
+    </p>
+    <p>
+      &gt;opkg update
+    </p>
+    <p>
+      &gt;opkg install kmod-usb-storage
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Note:
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#22312;OpenWrt&#30340;&#23448;&#32593;&#19978;&#38754;&#26377;&#20171;&#32461;&#65292;&#35828;&#22914;&#26524;&#24819;&#20351;&#29992;USB&#21475;&#25509;&#30828;&#30424;&#25110;&#32773;U&#30424;&#30340;&#35805;&#65292;&#36825;&#20010;WR720N&#24517;&#39035;&#25320;&#21040;3G&#27169;&#24335;&#19979;&#12290;&#19981;&#28982;&#19981;&#33021;&#35782;&#21035;USB&#35774;&#22791;&#12290;
+    </p>
+    <p>
+      &#19981;&#30693;&#30495;&#20551;&#65292;&#23384;&#30041;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Openwrt&#x7684;Overlay&#x914d;&#x7f6e;" ID="ID_644001396" CREATED="1413812139761" MODIFIED="1425219756329"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#25105;&#22312;WR720N&#19978;&#20570;&#30340;overlay&#25805;&#20316;&#21482;&#26159;&#23558;/overlay&#37096;&#20998;&#36716;&#31227;&#21040;&#20102;&#22806;&#37096;&#30340;U&#30424;&#37324;&#38754;&#12290;&#32780;&#19981;&#26159;&#23558;&#25972;&#20010;&#30340;&#26681;&#30446;&#24405;&#37117;&#25335;&#36125;&#21040;&#20102;U&#30424;&#37324;&#38754;&#12290;&#21518;&#32773;&#20063;&#26159;&#21478;&#19968;&#31181;&#21487;&#34892;&#30340;overlay&#26041;&#26696;&#12290;&#20294;&#26159;&#22312;&#36825;&#37324;&#27809;&#26377;&#29992;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      /////////////////
+    </p>
+    <p>
+      &#25152;&#35859;Overlay,&#20854;&#23454;&#23601;&#26159;&#25226;openwrt&#30340;&#26681;&#30446;&#24405;&#36716;&#31227;&#21040;&#22806;&#25509;&#30340;USB&#30828;&#30424;&#19978;&#21435;&#12290;&#36825;&#26679;&#30340;&#25105;&#30340;WR720N&#36825;&#20010;flash&#21482;&#26377;&#65300;&#65325;&#30340;&#26426;&#22120;&#65292;&#23601;&#21487;&#20197;&#38543;&#24847;&#30340;&#23433;&#35013;&#20219;&#20309;&#30340;&#36719;&#20214;&#21253;&#20102;&#12290;
+    </p>
+    <p>
+      &#23433;&#35013;&#36807;&#31243;&#22914;&#19979;:
+    </p>
+    <p>
+      &gt;opkg update
+    </p>
+    <p>
+      &gt;opkg install block-mount kmod-fs-ext4
+    </p>
+    <p>
+      (block-mount&#30340;&#20027;&#35201;&#30446;&#30340;&#26159;&#25903;&#25345;exroot,&#23601;&#26159;&#23558;root&#30446;&#24405;&#36716;&#31227;&#21040;&#22806;&#37096;&#23384;&#20648;&#19978;&#21435;)
+    </p>
+    <p>
+      (kmod-fs-ext4&#30340;&#20027;&#35201;&#30446;&#30340;&#26159;&#25903;&#25345;ext4&#25991;&#20214;&#31995;&#32479;&#65292;&#21516;&#26102;&#21521;&#19979;&#20860;&#23481;ext3&#21644;ext2&#25991;&#20214;&#31995;&#32479;)
+    </p>
+    <p>
+      &gt;&#23545;USB&#30340;&#36827;&#34892;&#20998;&#21306;(/dev/sda1&#20998;&#20026;ext4&#20998;&#21306;,&#36825;&#19968;&#27493;&#20043;&#21069;&#24212;&#35813;&#23601;&#20570;&#22909;&#20102;)
+    </p>
+    <p>
+      &gt;reboot
+    </p>
+    <p>
+      &gt;mount -t ext4 /dev/sda1 /mnt/sda1
+    </p>
+    <p>
+      &gt;tar -C /overlay -cvf - . | tar -C /mnt/sda1 -xf -
+    </p>
+    <p>
+      (&#36825;&#19968;&#27493;&#26159;&#23558;/overlay&#30446;&#24405;&#19979;&#30340;&#25152;&#26377;&#30340;&#20869;&#23481;&#37117;&#25335;&#36125;&#21040;/dev/sda1&#19979;&#38754;&#21435;)
+    </p>
+    <p>
+      &gt;/etc/init.d/fstab enable
+    </p>
+    <p>
+      &gt;&#26356;&#26032;/etc/config/fstab&#25991;&#20214;&#65292;&#37197;&#32622;/dev/sda1&#20998;&#21306;
+    </p>
+    <p>
+      &gt;reboot
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5bf9;USB&#x8fdb;&#x884c;&#x5206;&#x533a;" ID="ID_1370593195" CREATED="1413812958113" MODIFIED="1414834367743"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20998;&#25104;&#20004;&#20010;&#21306;&#65292;&#19968;&#20010;EXT3&#30340;&#21306;&#65292;&#36824;&#26377;&#19968;&#20010;SWAP&#21306;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x66f4;&#x65b0;/etc/config/fstab&#x6587;&#x4ef6;" ID="ID_943832133" CREATED="1413812978247" MODIFIED="1425219673307"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /etc/config/fstab&#25991;&#20214;&#25353;&#29031;&#19979;&#38754;&#30340;&#26469;&#26356;&#25913;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ///////////////////////////////////////////////////////////////
+    </p>
+    <p>
+      config 'global'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;anon_swap&#160;&#160;&#160;&#160;&#160;&#160;&#160;'0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;anon_mount&#160;&#160;&#160;&#160;&#160;&#160;'0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;auto_swap&#160;&#160;&#160;&#160;&#160;&#160;&#160;'0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;auto_mount&#160;&#160;&#160;&#160;&#160;&#160;'0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;delay_root&#160;&#160;&#160;&#160;&#160;&#160;'5'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;check_fs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'0'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      config 'mount'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;target&#160;&#160;'/overlay'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;device&#160;&#160;'/dev/sda1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;uuid&#160;&#160;&#160;&#160;'f4b31198-2681-42e9-b58c-aa1494aeb759'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;fstype&#160;&#160;'ext4'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;options 'rw,sync'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;enabled '1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;enabled_fsck 0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //////////////////////////////////////////////////////////////////////////////////////////
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6ce8;&#x610f;&#x70b9;" ID="ID_1765945812" CREATED="1413813607570" MODIFIED="1418311625817"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;fstab&#25991;&#20214;&#20013;&#30340;global&#27573;&#26377;&#20004;&#20010;&#36873;&#39033;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;auto_swap&#160;&#160;&#160;&#160;&#160;&#160;&#160;'0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;auto_mount&#160;&#160;&#160;&#160;&#160;&#160;'0'
+    </p>
+    <p>
+      &#36825;&#20004;&#20010;&#36873;&#39033;&#40664;&#35748;&#26159;&#65297;,&#20063;&#21363;&#26159;enable&#30340;&#29366;&#24577;&#65292;&#20294;&#26159;&#25105;&#37117;&#23558;&#20854;&#32622;&#38646;&#20102;&#65292;&#21407;&#22240;&#26159;&#22914;&#26524;&#36825;&#37324;&#30340;&#20004;&#20010;&#39033;&#37117;&#26159;&#65297;&#30340;&#35805;&#65292;&#31995;&#32479;&#20250;&#33258;&#21160;&#30340;&#21435;&#23547;&#25214;&#21644;mount &#21512;&#36866;&#30340;&#35774;&#22791;&#12290;
+    </p>
+    <p>
+      &#36825;&#26679;&#65292;&#21487;&#33021;&#25105;&#20204;&#22312;&#19979;&#38754;&#30340;'mount'&#21644;'swap'&#27573;&#30340;&#37197;&#32622;&#23601;&#19981;&#36215;&#20316;&#29992;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x53c2;&#x8003;&#x94fe;&#x63a5;" ID="ID_1276931304" CREATED="1413813934267" MODIFIED="1413814015209"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      openwrt&#30340;WIKI&#24863;&#35273;&#20570;&#30340;&#24456;&#22909;&#65292;&#26377;&#20960;&#20010;&#38142;&#25509;&#24456;&#26377;&#29992;&#65292;&#25918;&#22312;&#36825;&#37324;:
+    </p>
+    <p>
+      <a href="http://wiki.openwrt.org/doc/howto/extroot">http://wiki.openwrt.org/doc/howto/extroot </a>
+    </p>
+    <p>
+      <a href="http://wiki.openwrt.org/doc/howto/extroot/extroot.theory">http://wiki.openwrt.org/doc/howto/extroot/extroot.theory</a>
+    </p>
+    <p>
+      <a href="http://wiki.openwrt.org/doc/uci/fstab">http://wiki.openwrt.org/doc/uci/fstab</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Overlay&#x4e4b;&#x540e;&#x7ee7;&#x7eed;&#x6302;&#x8f7d;&#x591a;&#x4e2a;U&#x76d8;&#x8bbe;&#x5907;" ID="ID_1507896899" CREATED="1425219765428" MODIFIED="1426318615166"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#32467;&#28857;&#35828;&#26126;&#30340;&#24773;&#20917;&#26159;&#65292;&#22914;&#26524;&#25105;&#20204;&#25346;&#36733;&#20102;&#19968;&#20010;U&#30424;&#65292;&#24182;&#23558;/overlay&#37324;&#38754;&#30340;&#20869;&#23481;&#25335;&#36125;&#21040;&#20102;&#20010;&#36825;&#20010;U&#30424;&#37324;&#38754;&#21435;&#20316;&#20026;&#31995;&#32479;&#30424;&#25110;&#32773;&#31995;&#32479;&#30424;&#30340;&#21487;&#20889;&#37096;&#20998;&#20043;&#21518;&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#25105;&#20204;&#24819;&#20877;&#25346;&#36733;&#31532;&#20108;&#20010;U&#30424;&#30340;&#35805;&#65292;&#24212;&#35813;&#24590;&#20040;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      &#20854;&#23454;&#20063;&#24456;&#31616;&#21333;&#12290;&#21482;&#35201;&#22312;&#31995;&#32479;&#21551;&#21160;&#20043;&#21518;(&#20063;&#23601;&#26159;overlay&#25104;&#21151;&#36339;&#36716;&#20043;&#21518;),&#32534;&#36753;/etc/config/fstab&#25991;&#20214;(&#20063;&#23601;&#26159;&#26368;&#32456;&#31995;&#32479;&#36215;&#26469;&#20043;&#21518;&#25105;&#20204;&#30331;&#24405;&#36827;&#21435;&#20043;&#21518;&#30475;&#21040;&#30340;fstab&#25991;&#20214;&#65292;&#19981;&#38656;&#35201;&#32771;&#34385;&#30495;&#27491;&#22312;flash&#37324;&#38754;&#30340;&#37027;&#20010;&#25991;&#20214;&#24212;&#35813;&#24590;&#20040;&#32534;&#36753;&#65292;&#19981;&#29992;&#31649;&#23427;)&#65292;&#23558;&#38656;&#35201;&#25346;&#36733;&#30340;U&#30424;&#30340;&#20449;&#24687;&#22312;&#37324;&#38754;&#22635;&#22909;&#20043;&#21518;&#65292;&#20197;&#21518;&#31995;&#32479;&#21551;&#21160;&#30340;&#26102;&#20505;&#23601;&#27599;&#27425;&#37117;&#20250;&#33258;&#21160;&#25346;&#36733;&#36825;&#20010;&#26032;&#30340;U&#30424;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;&#25105;&#30340;&#31995;&#32479;&#20013;&#65292;&#38500;&#20102;&#20316;&#20026;&#31995;&#32479;&#30424;&#30340;&#19968;&#20010;U&#30424;&#65292;&#21518;&#32493;&#21448;&#36890;&#36807;USB&#30340;HUB&#65292;&#22686;&#21152;&#20102;&#20004;&#20010;USB&#35774;&#22791;&#12290;
+    </p>
+    <p>
+      &#19968;&#20010;&#26159;&#21019;&#35265;&#30340;32G&#30340;U&#30424;(CF&#21345;&#65292;&#25554;&#20837;&#20102;&#36716;&#25509;&#22836;)
+    </p>
+    <p>
+      &#19968;&#20010;&#26159;&#19996;&#33437;&#30340;320G&#30340;3.5&#23544;&#31227;&#21160;&#30828;&#30424;(&#36890;&#36807;USB2.0&#30340;&#30828;&#30424;&#30418;&#25509;&#20837;)
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6709;&#x7528;&#x7684;block&#x547d;&#x4ee4;" ID="ID_95522622" CREATED="1425219927537" MODIFIED="1425220019106"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      openwrt&#37324;&#38754;&#30340;block&#21629;&#20196;&#36824;&#26159;&#28385;&#26377;&#26377;&#29992;&#30340;:
+    </p>
+    <p>
+      &#30452;&#25509;&#38190;&#20837;block&#65292;&#23601;&#33021;&#30475;&#21040;&#25903;&#25345;4-5&#20010;&#23376;&#21629;&#20196;&#65292;&#19968;&#20010;&#19968;&#20010;&#36755;&#36807;&#21435;&#30475;&#30475;&#21508;&#33258;&#30340;&#36755;&#20986;&#26159;&#20160;&#20040;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      block info&#21487;&#20197;&#26597;&#30475;&#35774;&#22791;&#30340;&#20449;&#24687;&#65292;&#23588;&#20854;&#37325;&#35201;&#30340;&#21487;&#20197;&#26597;&#30475;&#21040;&#27599;&#20010;&#25346;&#36733;&#19978;&#30340;USB&#35774;&#22791;&#30340;UUID&#21495;&#12290;
+    </p>
+    <p>
+      block detec
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#12304;&#26368;&#26032;&#27880;&#24847;&#12305;:
+    </p>
+    <p>
+      &#22312;&#20351;&#29992;USB Hub&#25346;&#36733;&#22810;&#20010;USB&#35774;&#22791;&#30340;&#26102;&#20505;&#65292;&#22914;&#26524;&#38656;&#35201;&#33258;&#21160;&#25346;&#36733;&#65292;&#26368;&#22909;&#26681;&#25454;UUID&#26469;&#21028;&#26029;&#65292;
+    </p>
+    <p>
+      &#22240;&#20026;/dev/sdax&#36825;&#26679;&#30340;&#35774;&#22791;&#21495;&#24182;&#19981;&#26159;&#22266;&#23450;&#20998;&#37197;&#32473;&#26576;&#20010;&#35774;&#22791;&#30340;&#65292;&#27599;&#27425;&#21551;&#21160;&#30340;&#26102;&#20505;&#37117;&#21487;&#33021;&#20250;&#20998;&#37197;&#32473;&#19981;&#21516;&#30340;&#35774;&#22791;&#12290;
+    </p>
+    <p>
+      &#29978;&#33267;&#22312;&#31995;&#32479;&#21551;&#21160;&#20043;&#21518;&#65292;&#22914;&#26524;&#26377;&#35774;&#22791;&#30340;&#25300;&#25554;&#30340;&#35805;&#65292;&#20063;&#20250;&#21457;&#29983;&#25913;&#21464;(&#25105;&#23601;&#30896;&#21040;&#36807;&#36825;&#20010;&#38382;&#39064;)&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#22914;&#26524;&#26159;&#24819;&#19979;&#38754;&#37027;&#26679;&#65292;&#24819;&#22312;&#31995;&#32479;&#21551;&#21160;&#30340;&#26102;&#20505;&#23601;&#33258;&#21160;&#25346;&#36733;&#30340;&#35805;&#65292;&#26368;&#22909;&#20351;&#29992;UUID&#12290;
+    </p>
+    <p>
+      &#22914;&#20309;&#33719;&#24471;UUID&#65292;&#21442;&#32771;&#19978;&#38754;&#30340;&#32467;&#28857;&#20851;&#20110;block&#21629;&#20196;&#30340;&#25551;&#36848;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //////////////////////////////////////////////////////////////////////////////////////////////
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32534;&#36753;&#20043;&#21518;&#30340;/etc/config/fstab&#30340;&#20869;&#23481;&#22914;&#19979;:
+    </p>
+    <p>
+      &#39640;&#20142;&#30340;&#37096;&#20998;&#23601;&#26159;&#20026;&#26032;&#30340;U&#30424;&#21644;&#31227;&#21160;&#30828;&#30424;&#28155;&#21152;&#30340;&#65292;&#20854;&#20013;&#30340;UUID&#21495;&#26159;&#29992;block info&#21629;&#20196;&#24471;&#21040;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      config global
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option anon_swap '0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option anon_mount '0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option auto_swap '1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option auto_mount '1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option delay_root '5'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option check_fs '0'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">config 'mount' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;target&#160;&#160;'/mnt/CF_32G_Transcend/' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;uuid&#160;&#160;&#160;&#160;'a1eb4237-cace-4be4-948b-a35419fe198f' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;fstype&#160;&#160;'ext4' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;options 'rw,sync' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;enabled '1' </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">config 'mount' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;target&#160;&#160;'/mnt/IDE_320G_Hitachi/' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;uuid&#160;&#160;&#160;&#160;'edf432c5-cbdf-4d50-a76f-1f7246e264f8' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;fstype&#160;&#160;'ext4' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;options 'rw,sync' </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;enabled '1' </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x6253;&#x5f00;&#x65e0;&#x7ebf;&#x5f00;&#x5173;&#x548c;&#x8bbe;&#x7f6e;&#x65e0;&#x7ebf;&#x5bc6;&#x7801;" ID="ID_1468435486" CREATED="1413814118863" MODIFIED="1413815440019"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#40664;&#35748;&#24773;&#20917;&#19979;&#26080;&#32447;&#24320;&#20851;&#26159;&#20851;&#38381;&#30340;&#65292;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#25171;&#24320;wifi&#65306;
+    </p>
+    <p>
+      &gt;vi /etc/config/wireless
+    </p>
+    <p>
+      &#28982;&#21518;&#23558;&quot;option disabled 1&quot;&#36825;&#19968;&#34892;&#21024;&#25481;&#21363;&#21487;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20294;&#26159;&#38543;&#20043;&#32780;&#26469;&#30340;&#38382;&#39064;&#26159;&#65292;&#40664;&#35748;&#30340;wifi&#25171;&#24320;&#21518;&#26159;&#27809;&#26377;&#23494;&#30721;&#30340;&#65292;&#36825;&#24590;&#20040;&#34892;?&#25105;&#20204;&#38656;&#35201;&#35774;&#32622;&#19968;&#20010;&#23494;&#30721;!
+    </p>
+    <p>
+      &#37319;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#26469;&#36890;&#36807;PSK2&#21152;&#23494;&#35774;&#32622;wifi&#23494;&#30721;:
+    </p>
+    <p>
+      &gt;opkg update
+    </p>
+    <p>
+      &gt;opkg install wpad-mini
+    </p>
+    <p>
+      &gt;uci set wireless.@wifi-iface[0].encryption=psk
+    </p>
+    <p>
+      &gt;uci set wireless.@wifi-iface[0].key='YOUR PASSWORD HERE!!!!!!!'
+    </p>
+    <p>
+      &gt;uci commit wireless
+    </p>
+    <p>
+      &gt;wifi
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_279194370" CREATED="1413815401514" MODIFIED="1413815498521"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22909;&#20687;&#35774;&#32622;&#25104;PSK2&#30340;&#21152;&#23494;&#26041;&#24335;&#30340;&#35805;&#65292;&#25105;&#30340;&#31508;&#35760;&#26412;&#30005;&#33041;&#19981;&#25903;&#25345;&#65292;&#25152;&#26377;&#21448;&#20999;&#25442;&#22238;&#20102;PSK&#26041;&#24335;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#19979;&#38754;&#30340;&#38142;&#25509;&#23436;&#25104;&#30340;&#37197;&#32622;:
+    </p>
+    <p>
+      <a href="http://wiki.openwrt.org/doc/uci/wireless/encryption">http://wiki.openwrt.org/doc/uci/wireless/encryption</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x652f;&#x6301;USB&#x786c;&#x76d8;&#x4f11;&#x7720;" ID="ID_1102349936" CREATED="1413816709332" MODIFIED="1426317282171"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30828;&#30424;&#19968;&#30452;&#36716;&#20063;&#19981;&#34892;&#65292;&#27809;&#26377;&#35835;&#20889;&#30340;&#26102;&#20505;&#65292;&#23601;&#24212;&#35813;&#25226;&#23427;&#20241;&#30496;&#65292;&#24517;&#32463;&#19968;&#22825;24&#23567;&#26102;&#30340;&#24320;&#30528;&#65292;&#19968;&#30452;&#22788;&#20110;&#36716;&#21160;&#29366;&#24577;&#65292;&#23545;&#30828;&#30424;&#26412;&#36523;&#20063;&#19981;&#22909;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#26377;&#20004;&#20010;&#26399;&#26395;&#30340;&#34892;&#20026;:
+    </p>
+    <ul>
+      <li>
+        &#22312;&#30828;&#30424;&#38271;&#26102;&#38388;&#19981;&#35835;&#20889;&#30340;&#26102;&#20505;&#65292;&#30828;&#30424;&#20572;&#36716;(&#25152;&#35859;&#30340;spin down)
+      </li>
+      <li>
+        &#33021;&#22815;&#25163;&#21160;&#30340;&#20351;&#29992;&#21629;&#20196;&#21435;&#20851;&#38381;&#30828;&#30424;(&#36824;&#26159;spin down)
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#31245;&#24494;&#20102;&#35299;&#20102;&#19968;&#19979;&#36319;&#36825;&#20010;&#38382;&#39064;&#30456;&#20851;&#30340;&#32972;&#26223;&#30693;&#35782;&#65292;&#23454;&#38469;&#19978;CPU&#26159;&#33021;&#22815;&#36890;&#36807;USB&#21521;&#30828;&#30424;&#21457;&#36865;SCSI&#30340;&#21629;&#20196;&#30340;&#12290;
+    </p>
+    <p>
+      &#32780;&#22312;&#36825;&#20123;SCSI&#21629;&#20196;&#20013;&#65292;&#23601;&#26377;&#19968;&#20010;&#21629;&#20196;&#21483;&#20570;'START STOP UNIT'&#30340;&#21629;&#20196;.
+    </p>
+    <p>
+      &#20351;&#29992;&#36825;&#20010;&#21629;&#20196;&#30340;&#35805;&#23601;&#33021;&#22815;&#35753;&#30828;&#30424;&#36827;&#20837;standby&#25110;&#32773;sleep&#27169;&#24335;&#12290;
+    </p>
+    <p>
+      &#36825;&#20004;&#31181;&#27169;&#24335;&#19979;&#65292;&#30828;&#30424;&#37117;&#19981;&#20250;&#20877;&#36716;&#12290;&#20294;&#26159;&#20174;&#20351;&#29992;&#30340;&#32467;&#26524;&#26469;&#30475;&#65292;&#20284;&#20046;sleep&#30340;&#35805;&#65292;&#24212;&#35813;&#26159;&#36827;&#20837;&#20102;&#26356;&#21152;&#30340;&#30465;&#30005;&#29366;&#24577;&#65292;
+    </p>
+    <p>
+      &#24403;&#26377;&#35835;&#20889;&#35831;&#27714;&#20877;&#27425;&#26469;&#30340;&#26102;&#20505;&#65292;&#30828;&#30424;&#24674;&#22797;&#30340;&#26102;&#38388;&#27604;&#36739;&#38271;&#65292;&#21487;&#33021;&#26377;&#20960;&#21313;&#31186;&#12290;
+    </p>
+    <p>
+      &#32780;standby&#27169;&#24335;&#19979;&#65292;&#34429;&#28982;&#30828;&#30424;&#20063;&#19981;&#36716;&#65292;&#20294;&#26159;&#19979;&#27425;&#20877;&#26377;&#23545;&#36825;&#20010;&#30828;&#30424;&#30340;&#35835;&#20889;&#35831;&#27714;&#26102;&#65292;&#30828;&#30424;&#36827;&#20837;&#24037;&#20316;&#29366;&#24577;&#30340;&#26102;&#38388;&#20063;&#27604;&#36739;&#24555;&#65292;&#24863;&#35273;&#19978;&#22312;10&#31186;&#20043;&#20869;&#12290;
+    </p>
+    <p>
+      &#32780;&#19988;&#65292;&#26377;&#20123;&#30828;&#30424;&#36824;&#25903;&#25345;&#35774;&#23450;&#19968;&#20010;&#26102;&#38388;&#38376;&#38480;&#65292;&#27604;&#22914;10&#20998;&#38047;&#65292;&#22914;&#26524;&#36229;&#36807;10&#20998;&#38047;&#27809;&#26377;&#20219;&#20309;&#23545;&#36825;&#20010;&#30828;&#30424;&#30340;&#35775;&#38382;&#30340;&#35805;&#65292;&#23601;&#23558;&#30828;&#30424;&#36827;&#20837;standby&#27169;&#24335;&#12290;
+    </p>
+    <p>
+      &#27880;&#24847;&#26159;&#26377;&#19968;&#20123;&#65292;&#19981;&#26159;&#25152;&#26377;&#65292;&#22909;&#20687;&#29616;&#22312;&#22522;&#26412;&#19978;&#30828;&#30424;&#37117;&#26377;&#36825;&#31181;&#21151;&#33021;&#65292;&#20294;&#26159;&#22240;&#20026;&#26159;&#36890;&#36807;USB&#30340;&#31227;&#21160;&#30828;&#30424;&#30418;&#36716;&#25509;&#30340;&#65292;&#21487;&#33021;&#36319;USB&#36716;ATA&#30340;&#20027;&#25511;&#33455;&#29255;&#19981;&#25903;&#25345;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26597;&#25214;&#20102;&#19968;&#19979;&#65292;&#26377;&#19979;&#38754;&#30340;&#20960;&#20010;&#24037;&#20855;&#33021;&#22815;&#23454;&#29616;&#19978;&#38754;&#30340;&#30446;&#30340;:
+    </p>
+    <ul>
+      <li>
+        hdparm
+      </li>
+      <li>
+        sdparm
+      </li>
+      <li>
+        sg_start(&#23646;&#20110;sg-utils)
+      </li>
+    </ul>
+    <p>
+      &#36825;&#19977;&#20010;&#36719;&#20214;&#37117;&#23433;&#35013;&#20102;&#65292;&#21457;&#29616;&#23545;&#20110;&#25105;&#30340;&#36825;&#20010;&#29305;&#27530;&#30340;&#31227;&#21160;&#30828;&#30424;&#65292;sdparm&#21644;sg_start&#37117;&#19981;&#24037;&#20316;.
+    </p>
+    <p>
+      &#26597;&#30475;&#20102;&#19968;&#19979;&#65292;&#21069;&#20004;&#20010;&#24037;&#20855;&#30340;&#65292;&#20182;&#20204;&#30340;&#21407;&#29702;&#20284;&#20046;&#37117;&#26159;&#31867;&#20284;&#30340;&#65292;&#23601;&#36319;&#19978;&#38754;&#25551;&#36848;&#30340;&#37027;&#26679;&#65292;&#21521;&#30828;&#30424;&#21457;&#20986;&#19968;&#20010;SCSI&#30340;&#21629;&#20196;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#24456;&#19981;&#24184;&#65292;&#27809;&#26377;&#20219;&#20309;&#30340;&#21453;&#26144;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#22855;&#24618;&#30340;&#26159;&#65292;hdparm&#23621;&#28982;&#26159;&#21487;&#20197;&#24037;&#20316;&#30340;&#65292;&#20294;&#26159;&#20063;&#26377;&#38382;&#39064;&#12290;
+    </p>
+    <p>
+      &#35831;&#26597;&#30475;&#23376;&#20960;&#28857;&#20851;&#20110;hdparm&#30340;&#25551;&#36848;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#20102;&#22909;&#22810;&#30340;&#25991;&#31456;,&#21482;&#21015;&#20102;&#19968;&#20010;&#20986;&#26469;&#65292;&#22823;&#33268;&#19978;&#65292;&#19979;&#38754;&#30340;&#36825;&#20010;&#25991;&#31456;&#21015;&#20986;&#20102;&#25152;&#26377;&#21487;&#20197;&#29992;&#21040;&#30340;&#24037;&#20855;&#20102;:
+    </p>
+    <p>
+      http://www.nslu2-linux.org/wiki/FAQ/SpinDownUSBHarddisks
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Hitachi&#x79fb;&#x52a8;&#x786c;&#x76d8;&#x548c;&#x786c;&#x76d8;&#x76d2;&#x7684;&#x7279;&#x6027;" ID="ID_1624589551" CREATED="1426312319055" MODIFIED="1426312722403"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25105;&#20204;&#23478;&#29992;&#26469;&#25346;&#36733;&#21040;Openwrt&#19978;&#30340;&#19968;&#22359;&#31227;&#21160;&#30828;&#30424;&#30340;&#29305;&#24615;&#22914;&#19979;:
+    </p>
+    <ul>
+      <li>
+        Hitachi&#30340;IDE&#30828;&#30424;&#65292;&#30828;&#30424;&#22823;&#23567;&#26159;320G&#65292;&#22411;&#21495;&#26159;HDP725032GLAT80
+      </li>
+      <li>
+        &#30828;&#30424;&#30418;&#26159;USB2.0&#25509;&#21475;&#30340;&#65292;JMicron&#20027;&#25511;&#65292;'USB to ATA/ATAPI bridge'
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Hdparm&#x7684;&#x5b89;&#x88c5;&#x548c;&#x4f7f;&#x7528;" ID="ID_744010952" CREATED="1426314405901" MODIFIED="1426323068447"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23433;&#35013;hdparm:
+    </p>
+    <p>
+      opkg update;
+    </p>
+    <p>
+      opkg install hdparm;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23433;&#35013;&#22909;&#20102;&#20043;&#21518;&#30340;&#25805;&#20316;&#23601;&#21442;&#32771;&#23376;&#32467;&#28857;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#25191;&#34892;&#21629;&#20196;&#30340;&#26102;&#20505;&#20250;&#20986;&#38169;&#65292;&#20294;&#26159;&#21629;&#20196;&#36824;&#26159;&#34987;&#27491;&#30830;&#30340;&#25191;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#36825;&#20063;&#26159;&#19968;&#20010;&#24456;&#22855;&#24618;&#30340;&#20107;&#24773;&#65292;&#26242;&#26102;&#20063;&#27809;&#27861;&#35299;&#37322;
+    </p>
+    <p>
+      &#27604;&#22914;&#19979;&#38754;&#30340;&#21629;&#20196;&#35753;&#30828;&#30424;&#36827;&#20837;&#30561;&#30496;&#29366;&#24577;&#65292;&#25191;&#34892;&#30340;&#32467;&#26524;&#20063;&#25104;&#21151;&#20102;(&#30828;&#30424;&#30830;&#23454;&#20572;&#36716;&#20102;),
+    </p>
+    <p>
+      &#20294;&#26159;&#36755;&#20986;&#30340;&#32467;&#26524;&#26159;&#19979;&#38754;&#36825;&#26679;&#30340;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      /////////////////////////////////////////////////////////////////////////////////////////////
+    </p>
+    <p>
+      <i>root@OpenWrt:/# hdparm -Y /dev/sda1 </i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i>/dev/sda1: </i>
+    </p>
+    <p>
+      <i>&#160;issuing sleep command </i>
+    </p>
+    <p>
+      <i>&#160;<font color="#ff0033"><b>HDIO_DRIVE_CMD(sleep) failed: Invalid argument</b></font>&#160;</i>
+    </p>
+    <p>
+      ////////////////////////////////////////////////////////////////////////////////////////////
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ///////////////////////////////////////////////////////////////////////////////////////////
+    </p>
+    <p>
+      <i>root@OpenWrt:/# hdparm -S 240 /dev/sda1 </i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i>/dev/sdc1: </i>
+    </p>
+    <p>
+      <i>&#160;setting standby to 240 (20 minutes) </i>
+    </p>
+    <p>
+      <font color="#ff0033"><i><b>&#160;HDIO_DRIVE_CMD(setidle) failed: Invalid argument</b></i></font>
+    </p>
+    <p>
+      //////////////////////////////////////////////////////////////////////////////////////////
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="hdparm&#x7684;&#x7528;&#x6cd5;" ID="ID_933273363" CREATED="1426316885566" MODIFIED="1426320223219"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30452;&#25509;&#24039;hdparm&#21629;&#20196;&#65292;&#23601;&#33021;&#24471;&#21040;&#19979;&#38754;&#30340;&#25552;&#31034;&#65292;&#22522;&#26412;&#19978;&#25353;&#29031;&#25552;&#31034;&#26469;&#23601;&#34892;&#20102;,&#21015;&#20986;&#25105;&#20204;&#35201;&#29992;&#30340;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1,&#35774;&#32622;sda1&#30340;&#33258;&#21160;&#20241;&#30496;&#26102;&#38388;&#20026;10&#20998;&#38047;(240/12 = 20&#20998;&#38047;):
+    </p>
+    <p>
+      hdparm -S 240 /dev/sda1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,&#24378;&#21046;sda1&#31435;&#21363;&#36827;&#20837;standby &#27169;&#24335;:
+    </p>
+    <p>
+      hdparm -y /dev/sda1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3,&#24378;&#21046;sda1&#31435;&#21363;&#36827;&#20837;sleep&#27169;&#24335;:
+    </p>
+    <p>
+      hdparm -Y /dev/sda1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ////////////////////////////////////////////////////////////////////////
+    </p>
+    <p>
+      $&gt;hdparm
+    </p>
+    <p>
+      hdparm - get/set hard disk parameters - version v9.39, by Mark Lord.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Usage:&#160;&#160;hdparm&#160;&#160;[options] [device ...]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Options:
+    </p>
+    <p>
+      &#160;-a&#160;&#160;&#160;Get/set fs readahead
+    </p>
+    <p>
+      &#160;-A&#160;&#160;&#160;Get/set the drive look-ahead flag (0/1)
+    </p>
+    <p>
+      &#160;-b&#160;&#160;&#160;Get/set bus state (0 == off, 1 == on, 2 == tristate)
+    </p>
+    <p>
+      &#160;-B&#160;&#160;&#160;Set Advanced Power Management setting (1-255)
+    </p>
+    <p>
+      &#160;-c&#160;&#160;&#160;Get/set IDE 32-bit IO setting
+    </p>
+    <p>
+      &#160;-C&#160;&#160;&#160;Check drive power mode status
+    </p>
+    <p>
+      &#160;-d&#160;&#160;&#160;Get/set using_dma flag
+    </p>
+    <p>
+      &#160;-D&#160;&#160;&#160;Enable/disable drive defect management
+    </p>
+    <p>
+      &#160;-E&#160;&#160;&#160;Set cd/dvd drive speed
+    </p>
+    <p>
+      &#160;-f&#160;&#160;&#160;Flush buffer cache for device on exit
+    </p>
+    <p>
+      &#160;-F&#160;&#160;&#160;Flush drive write cache
+    </p>
+    <p>
+      &#160;-g&#160;&#160;&#160;Display drive geometry
+    </p>
+    <p>
+      &#160;-h&#160;&#160;&#160;Display terse usage information
+    </p>
+    <p>
+      &#160;-H&#160;&#160;&#160;Read temperature from drive (Hitachi only)
+    </p>
+    <p>
+      &#160;-i&#160;&#160;&#160;Display drive identification
+    </p>
+    <p>
+      &#160;-I&#160;&#160;&#160;Detailed/current information directly from drive
+    </p>
+    <p>
+      &#160;-J&#160;&#160;&#160;Get/set Western DIgital &quot;Idle3&quot; timeout for a WDC &quot;Green&quot; drive (DANGEROUS)
+    </p>
+    <p>
+      &#160;-k&#160;&#160;&#160;Get/set keep_settings_over_reset flag (0/1)
+    </p>
+    <p>
+      &#160;-K&#160;&#160;&#160;Set drive keep_features_over_reset flag (0/1)
+    </p>
+    <p>
+      &#160;-L&#160;&#160;&#160;Set drive doorlock (0/1) (removable harddisks only)
+    </p>
+    <p>
+      &#160;-m&#160;&#160;&#160;Get/set multiple sector count
+    </p>
+    <p>
+      &#160;-M&#160;&#160;&#160;Get/set acoustic management (0-254, 128: quiet, 254: fast)
+    </p>
+    <p>
+      &#160;-n&#160;&#160;&#160;Get/set ignore-write-errors flag (0/1)
+    </p>
+    <p>
+      &#160;-N&#160;&#160;&#160;Get/set max visible number of sectors (HPA) (VERY DANGEROUS)
+    </p>
+    <p>
+      &#160;-p&#160;&#160;&#160;Set PIO mode on IDE interface chipset (0,1,2,3,4,...)
+    </p>
+    <p>
+      &#160;-P&#160;&#160;&#160;Set drive prefetch count
+    </p>
+    <p>
+      &#160;-q&#160;&#160;&#160;Change next setting quietly
+    </p>
+    <p>
+      &#160;-Q&#160;&#160;&#160;Get/set DMA queue_depth (if supported)
+    </p>
+    <p>
+      &#160;-r&#160;&#160;&#160;Get/set device readonly flag (DANGEROUS to set)
+    </p>
+    <p>
+      &#160;-R&#160;&#160;&#160;Get/set device write-read-verify flag
+    </p>
+    <p>
+      &#160;-s&#160;&#160;&#160;Set power-up in standby flag (0/1) (DANGEROUS)
+    </p>
+    <p>
+      &#160;-S&#160;&#160;&#160;Set standby (spindown) timeout
+    </p>
+    <p>
+      &#160;-t&#160;&#160;&#160;Perform device read timings
+    </p>
+    <p>
+      &#160;-T&#160;&#160;&#160;Perform cache read timings
+    </p>
+    <p>
+      &#160;-u&#160;&#160;&#160;Get/set unmaskirq flag (0/1)
+    </p>
+    <p>
+      &#160;-U&#160;&#160;&#160;Obsolete
+    </p>
+    <p>
+      &#160;-v&#160;&#160;&#160;Use defaults; same as -acdgkmur for IDE drives
+    </p>
+    <p>
+      &#160;-V&#160;&#160;&#160;Display program version and exit immediately
+    </p>
+    <p>
+      &#160;-w&#160;&#160;&#160;Perform device reset (DANGEROUS)
+    </p>
+    <p>
+      &#160;-W&#160;&#160;&#160;Get/set drive write-caching flag (0/1)
+    </p>
+    <p>
+      &#160;-x&#160;&#160;&#160;Obsolete
+    </p>
+    <p>
+      &#160;-X&#160;&#160;&#160;Set IDE xfer mode (DANGEROUS)
+    </p>
+    <p>
+      &#160;-y&#160;&#160;&#160;Put drive in standby mode
+    </p>
+    <p>
+      &#160;-Y&#160;&#160;&#160;Put drive to sleep
+    </p>
+    <p>
+      &#160;-z&#160;&#160;&#160;Re-read partition table
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6bcf;&#x6b21;&#x8def;&#x7531;&#x5668;&#x91cd;&#x542f;&#x4e4b;&#x540e;&#x90fd;&#x914d;&#x7f6e;&#x81ea;&#x52a8;spin-down" ID="ID_1423390217" CREATED="1426320229982" MODIFIED="1427642353196"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25454;&#35828;(&#27809;&#26377;&#25805;&#20316;&#65292;&#20063;&#27809;&#26377;&#35777;&#23454;)&#65292;&#22312;&#27599;&#27425;&#37325;&#21551;&#30340;&#26102;&#20505;&#38656;&#35201;&#37325;&#26032;&#37197;&#32622;&#19968;&#19979;&#33258;&#21160;spin-down,&#36825;&#26679;&#23601;&#33021;&#20445;&#35777;&#37197;&#32622;&#19968;&#30452;&#37117;&#26159;&#26377;&#25928;&#30340;&#12290;
+    </p>
+    <p>
+      &#20889;&#20102;&#19968;&#20010;&#33050;&#26412;&#65292;&#27599;&#27425;&#31995;&#32479;&#37325;&#21551;&#30340;&#26102;&#20505;&#37117;&#21435;&#35843;&#29992;&#36825;&#20010;&#33050;&#26412;&#23601;&#34892;&#20102;(<font color="#ff0033">&#36825;&#20010;&#33050;&#26412;&#21482;&#23545;&#25105;&#30340;&#36825;&#20010;&#19996;&#33437;&#30340;HDD&#26377;&#25928;!&#20027;&#35201;&#26159;&#36890;&#36807;UUID&#26469;&#33719;&#21462;device name&#30340;</font>):
+    </p>
+    <p>
+      &#23454;&#38469;&#19978;&#20063;&#23601;&#26159;&#25226;&#36825;&#20010;&#21629;&#20196;&quot;sh /root/spin-down-hdd.sh&quot;&#25918;&#21040;/etc/rc.local&#36825;&#20010;&#25991;&#20214;&#37324;&#38754;&#21435;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      /root/spin-down-hdd.sh
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>#!/bin/sh </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>#use this script to set the auto spin-down timeout for my Hitachi HDD only on Openwrt </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>#do not use this script for anyother devices on anyother platform. </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>#jun_deng@outlook.com </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>#usage: ./spin-down-hdd.sh </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>#parameter check </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>if [ &quot;$#&quot; != 0 ];then </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;param error.&quot; </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;exit 0 </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>fi </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>#UUID for my Hitachi HDD is 'edf432c5-cbdf-4d50-a76f-1f7246e264f8' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>#use openwrt specific command 'block' to get the device name </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>DEVICE=`block info |grep 'edf432c5-cbdf-4d50-a76f-1f7246e264f8' |awk -F: '{print $1}'` </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>if [ -z &quot;$DEVICE&quot; ];then </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>echo &quot;no Hitachi HDD found.exit!&quot; </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>exit 0 </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>fi </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>#set auto spin-down timeout timer to 20minuts </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>echo &quot;Hitachi HDD found and mounted!&quot; </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>echo &quot;auto spin-down timer setted to 20 minutes!&quot; </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>hdparm -S 240 $DEVICE </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><i>exit 0</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6bcf;&#x6b21;&#x786c;&#x76d8;&#x91cd;&#x65b0;mount&#x4e0a;&#x4e4b;&#x540e;&#x90fd;&#x81ea;&#x52a8;spin-down" ID="ID_809686510" CREATED="1427642354966" MODIFIED="1427642628511">
+<attribute NAME="status" VALUE="unfinished"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#38656;&#27714;&#26159;&#22240;&#20026;&#65292;&#19981;&#30693;&#36947;&#20026;&#20160;&#20040;&#12290;
+    </p>
+    <p>
+      &#36825;&#20010;&#31227;&#21160;&#30828;&#30424;&#22312;hdparm&#20013;&#37197;&#32622;&#20102;&#33258;&#21160;spin down&#20043;&#21518;&#65292;&#22914;&#26524;&#20851;&#38381;&#30828;&#30424;&#30418;&#19978;&#30340;&#30005;&#28304;&#65292;&#28982;&#21518;&#37325;&#26032;&#20877;&#25171;&#24320;&#30828;&#30424;&#30418;&#19978;&#30340;&#30005;&#28304;&#21518;(&#20063;&#23601;&#26159;&#37325;&#21551;&#20043;&#21518;)&#65292;&#20043;&#21069;&#30340;hdparm&#30340;&#37197;&#32622;&#24050;&#32463;&#19981;&#23384;&#22312;&#20102;&#12290;
+    </p>
+    <p>
+      &#36825;&#31181;&#24773;&#20917;&#36319;&#19978;&#38754;&#30340;&#32467;&#28857;&#20013;&#30340;&#36335;&#30001;&#37325;&#21551;&#30340;&#24773;&#20917;&#26159;&#19981;&#19968;&#26679;&#30340;&#65292;&#25152;&#20197;&#19978;&#38754;&#32467;&#28857;&#20013;&#30340;&#26041;&#27861;&#26159;&#19981;&#20250;&#35299;&#20915;&#36825;&#20010;&#38382;&#39064;&#30340;&#12290;
+    </p>
+    <p>
+      &#36825;&#26102;&#20505;&#25105;&#20204;&#23601;&#21482;&#33021;&#25163;&#21160;&#30340;&#20877;&#25191;&#34892;hdparm&#30340;&#21629;&#20196;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#29616;&#22312;&#30340;&#19968;&#20010;&#24819;&#27861;&#26159;&#65292;&#33021;&#19981;&#33021;&#22815;&#20511;&#21161;openwrt&#37324;&#38754;&#30340;hotplug&#26426;&#21046;&#26469;&#22312;&#27599;&#27425;/dev/&#37324;&#38754;&#21457;&#29616;&#36825;&#20010;&#30828;&#30424;&#35774;&#22791;&#30340;&#26102;&#20505;&#65292;&#23601;&#33258;&#21160;&#30340;&#25191;&#34892;hdparm&#30340;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      &#26041;&#27861;&#26159;&#21542;&#21487;&#34892;&#65292;&#27491;&#22312;&#30740;&#31350;&#20013;&#12290;&#12290;&#12290;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x914d;&#x7f6e;/etc/config/hd-idle&#x6587;&#x4ef6;" ID="ID_1847038980" CREATED="1413816850986" MODIFIED="1426308943592"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#12304;&#26368;&#26032;&#12305;:
+    </p>
+    <p>
+      &#36825;&#20010;&#26041;&#27861;&#34987;&#20002;&#24323;&#20102;&#65292;&#22240;&#20026;&#27979;&#35797;&#19979;&#26469;&#21457;&#29616;&#36825;&#20010;&#26041;&#27861;&#24182;&#19981;&#24037;&#20316;&#12290;&#26080;&#35770;&#22312;&#20160;&#20040;&#24773;&#20917;&#19979;&#65292;&#30828;&#30424;&#37117;&#19968;&#30452;&#22312;&#36716;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26597;&#20102;&#19968;&#19979;&#65292;&#20351;&#29992;hd-idle&#36719;&#20214;&#21487;&#20197;&#23454;&#29616;&#36825;&#20010;&#30446;&#30340;:
+    </p>
+    <p>
+      &gt;opkg update
+    </p>
+    <p>
+      &gt;opkg install hd-idle
+    </p>
+    <p>
+      &gt;&#37197;&#32622;/etc/config/hd-idle&#25991;&#20214;
+    </p>
+    <p>
+      &gt;/etc/init.d/hd-idle restart
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#37197;&#32622;&#30340;&#25991;&#20214;&#22914;&#19979;&#65292;&#21482;&#26159;&#22312;&#40664;&#35748;&#30340;&#35774;&#32622;&#19978;&#25913;&#20102;&#20010;&#26102;&#38388;&#65292;&#23558;&#40664;&#35748;&#30340;10&#20998;&#38047;&#20241;&#30496;&#25913;&#25104;&#20102;6&#20998;&#38047;&#20241;&#30496;:
+    </p>
+    <p>
+      config 'hd-idle'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option 'disk' 'sda'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option 'enabled' '1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option 'idle_time_unit' 'minutes'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option 'idle_time_interval' '6'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;web&#x7ba1;&#x7406;&#x754c;&#x9762;" ID="ID_435067597" CREATED="1413892610751" MODIFIED="1413892719636"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;opkg update
+    </p>
+    <p>
+      &gt;opkg install luci
+    </p>
+    <p>
+      &gt;<em><span lang="EN-US">opkg install luci-i18n-chinese </span></em>
+    </p>
+    <p>
+      <em><span lang="EN-US">&gt;/etc/init.d/uhttpd enable </span></em>
+    </p>
+    <p>
+      <em><span lang="EN-US">&gt;/etc/init.d/uhttpd start</span></em>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4f7f;&#x7528;DDNS&#x52a8;&#x6001;&#x57df;&#x540d;" ID="ID_747226402" CREATED="1413894788194" MODIFIED="1426755052038"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      openwrt&#30340;ddns&#23458;&#25143;&#31471;&#23433;&#35013;&#19978;&#21435;&#20102;&#65292;&#20294;&#26159;&#27809;&#26377;&#20351;&#29992;&#23458;&#25143;&#31471;(update:&#23458;&#25143;&#31471;&#34987;&#21368;&#36733;&#20102;)&#12290;
+    </p>
+    <p>
+      &#30452;&#25509;&#20351;&#29992;&#20102;freedns.afraid.org&#30340;&#26381;&#21153;&#21644;&#20351;&#29992;shell&#21629;&#20196;&#26356;&#26032;ip.
+    </p>
+    <p>
+      &#20063;&#20351;&#29992;&#20102;dnspod&#30340;&#19968;&#20010;&#33050;&#26412;&#26469;&#26356;&#26032;proudj.com&#22495;&#21517;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#0000cc"><b>[&#26356;&#26032;]&#65306;</b></font>
+    </p>
+    <p>
+      &#27880;&#24847;&#65292;&#19968;&#20010;&#20248;&#21270;&#26159;&#65292;&#26368;&#22909;&#22312;&#36335;&#30001;&#22120;&#30340;&#21551;&#21160;&#33050;&#26412;&#37324;&#38754;&#65292;&#25226;&#26356;&#26032;DDNS&#30340;&#21629;&#20196;&#20063;&#25918;&#21040;&#37324;&#38754;&#21435;&#12290;
+    </p>
+    <p>
+      &#36825;&#26679;&#65292;&#31995;&#32479;&#19968;&#37325;&#21551;&#65292;&#20174;&#22806;&#32593;&#23601;&#33021;&#24471;&#21040;&#27491;&#30830;&#30340;IP&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="freedns&#x670d;&#x52a1;" ID="ID_815622095" CREATED="1414074917165" MODIFIED="1425797457716"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37319;&#29992;&#30340;&#26159;freedns.afraid.org&#25552;&#20379;&#30340;freedns&#30340;&#26381;&#21153;&#12290;&#29983;&#25104;&#20102;&#19968;&#20010;wr720n.mooo.com&#30340;&#21160;&#24577;&#22495;&#21517;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#20351;&#29992;crontab&#26469;&#36827;&#34892;ip&#30340;&#26356;&#26032;:
+    </p>
+    <p>
+      &gt;crontab -e
+    </p>
+    <p>
+      &#28155;&#21152;&#30340;&#20869;&#23481;&#26159;freedns.afraid.org&#32593;&#31449;&#19978;&#33258;&#24049;&#29983;&#25104;&#30340;(&#27599;10&#23567;&#26102;&#26356;&#26032;&#19968;&#27425;&#33258;&#24049;&#30340;ip):
+    </p>
+    <pre>* */10 * * * sleep 16 ; wget -O - http://freedns.afraid.org/dynamic/update.php?SjlPVWhXMzBpak5LWjhJZ2Z0QkdoRVMyOjEyNzgwMDM1 &gt;&gt; /tmp/freedns_wr720n_mooo_com.log
+
+&#26356;&#26032;&#65306;
+&#19978;&#36848;&#30340;cron&#21629;&#20196;&#26159;&#26377;&#38382;&#39064;&#30340;&#65281;&#36825;&#20250;&#36896;&#25104;&#27599;&#38548;10&#20010;&#23567;&#26102;&#65292;&#28982;&#21518;&#26377;&#19968;&#20010;&#23567;&#26102;&#20043;&#20869;&#26159;&#27599;&#20998;&#38047;&#37117;&#20250;&#25191;&#34892;&#19968;&#27425;&#36825;&#20010;&#21629;&#20196;&#65281;&#25152;&#20197;&#27491;&#30830;&#30340;&#26684;&#24335;&#24212;&#35813;&#26159;&#19979;&#38754;&#36825;&#26679;&#30340;&#65292;&#36825;&#20250;&#20445;&#35777;&#21482;&#22312;&#27599;&#20010;10&#20010;&#23567;&#26102;&#30340;0&#20998;&#38047;&#26102;&#20250;&#25191;&#34892;&#19968;&#27425;:
+<font color="#ff0033">0</font> */10 * * * sleep 16 ; wget -O - http://freedns.afraid.org/dynamic/update.php?SjlPVWhXMzBpak5LWjhJZ2Z0QkdoRVMyOjEyNzgwMDM1 &gt;&gt; /tmp/freedns_wr720n_mooo_com.log</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;dnspod&#x670d;&#x52a1;" ID="ID_115176308" CREATED="1421070938140" MODIFIED="1425125245503" LINK="../OneNote/&#x5728;Openwrt&#x4e0a;&#x4f7f;&#x7528;DNSPod.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#26032;&#26356;&#26032;:
+    </p>
+    <p>
+      &#36825;&#20010;&#26041;&#27861;&#20351;&#29992;&#36215;&#26469;&#19968;&#24320;&#22987;&#26159;&#33021;&#22815;&#26356;&#26032;ip&#30340;&#65292;&#20294;&#26159;&#26102;&#38388;&#38271;&#20102;&#20043;&#21518;&#65292;&#21457;&#29616;ip&#27809;&#27861;&#26356;&#26032;&#20102;&#65292;&#21453;&#32780;&#26159;&#20351;&#29992;shell&#33050;&#26412;&#30340;freedns&#30340;&#26381;&#21153;&#27599;&#27425;&#37117;&#33021;&#27491;&#30830;&#30340;&#26356;&#26032;ip&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#21448;&#19978;&#32593;&#25214;&#20102;&#21478;&#22806;&#19968;&#20010;&#20351;&#29992;shell&#33050;&#26412;&#26356;&#26032;ip&#30340;&#26041;&#27861;&#65292;&#29992;&#36215;&#26469;&#36824;&#19981;&#38169;&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;&#26412;&#32467;&#28857;&#19979;&#26041;&#30340;&#32467;&#28857;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ///////////////////////////
+    </p>
+    <p>
+      &#33021;&#22815;&#20351;&#29992;DNSPOD&#30495;&#26159;&#22826;&#22909;&#20102;&#65292;&#36825;&#24847;&#21619;&#30528;&#21487;&#20197;&#20351;&#29992;&#25105;&#33258;&#24049;&#30340;&#22495;&#21517;proudj.com&#20102;&#12290;
+    </p>
+    <p>
+      &#32593;&#19978;&#25628;&#20102;&#19968;&#22280;&#65292;&#25214;&#21040;&#30340;&#26041;&#27861;&#26159;&#38656;&#35201;&#22312;&#19977;&#26041;&#30340;&#32593;&#22336;&#19978;&#23384;&#25918;&#19968;&#20010;php&#30340;&#33050;&#26412;&#12290;
+    </p>
+    <p>
+      &#22522;&#26412;&#19978;&#21442;&#32771;&#38468;&#20214;&#30340;&#35828;&#26126;&#36827;&#34892;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4e00;&#x4e9b;&#x914d;&#x7f6e;&#x53c2;&#x6570;" ID="ID_541626087" CREATED="1421071736249" MODIFIED="1421071794747"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dnsupgrade.php&#23384;&#25918;&#30340;&#36335;&#24452;&#26159;&#65306;
+    </p>
+    <p>
+      http://pub.proudj.com/dnsupgrade.php
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30003;&#35831;&#30340;&#23376;&#22495;&#21517;&#26159;:
+    </p>
+    <p>
+      home.proudj.com
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="dnspod&#x670d;&#x52a1;" ID="ID_821677896" CREATED="1425125147103" MODIFIED="1425797685604"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37319;&#29992;&#20102;&#19979;&#38754;&#38142;&#25509;&#20351;&#29992;&#30340;shell&#33050;&#26412;&#26356;&#26032;ip&#30340;&#26041;&#27861;&#12290;&#29992;&#36215;&#26469;&#24863;&#35273;&#36824;&#19981;&#38169;&#12290;&#38142;&#25509;&#22914;&#19979;:
+    </p>
+    <p>
+      http://www.xdty.org/1841
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27493;&#39588;:
+    </p>
+    <p>
+      <i><font size="3" color="#0000cc"><b>&gt;cd /root </b></font></i>
+    </p>
+    <p>
+      <i><font size="3" color="#0000cc"><b>&gt;curl -k&#160;-s&#160;https://raw.githubusercontent.com/xdtianyu/scripts/master/ddns/dnspod.sh &gt;dnspod.sh </b></font></i>
+    </p>
+    <p>
+      <i><font size="3" color="#0000cc"><b>&gt;chmod&#160;+x dnspod.sh </b></font></i>
+    </p>
+    <p>
+      <i><font size="3" color="#0000cc"><b>&gt;curl -k&#160;-s&#160;https://raw.githubusercontent.com/xdtianyu/scripts/master/ddns/dnspod.conf &gt;dnspod.conf</b></font>&#160;</i>
+    </p>
+    <p>
+      &#28982;&#21518;&#32534;&#36753;dnspod.conf&#25991;&#20214;&#65292;&#26681;&#25454;&#33258;&#24049;&#30340;dnspod&#30340;&#36134;&#25143;&#20449;&#24687;&#27491;&#30830;&#22635;&#20889;&#23601;&#34892;&#20102;&#65292;&#28982;&#21518;&#36816;&#34892;&#19979;&#38754;&#30340;&#21629;&#20196;&#23601;&#21487;&#20197;&#26356;&#26032;ip&#20102;&#65306;
+    </p>
+    <p>
+      <i><font size="3" color="#0000cc"><b>&gt;sh /root/dnspod.sh /root/dnspod.conf </b></font></i>
+    </p>
+    <p>
+      &#22914;&#26524;&#19978;&#36848;&#30340;&#21629;&#20196;&#25104;&#21151;ip&#23601;&#26356;&#26032;&#22909;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26368;&#21518;&#65292;
+    </p>
+    <p>
+      &#21516;&#26679;&#30340;&#36319;freedns&#26381;&#21153;&#19968;&#26679;&#65292;&#22312;crontab&#37324;&#38754;&#28155;&#21152;&#19968;&#20010;&#23450;&#26102;&#26356;&#26032;&#30340;&#20219;&#21153;&#22914;&#19979;:
+    </p>
+    <p>
+      <i><font size="3" color="#0000cc"><b>* */10 * * * sleep 16 ; sh /root/dnspod.sh /root/dndpod.conf &amp;&gt; /dev/null </b></font></i>
+    </p>
+    <p>
+      
+    </p>
+    <pre>&#26356;&#26032;&#65306;
+&#19978;&#36848;&#30340;cron&#21629;&#20196;&#26159;&#26377;&#38382;&#39064;&#30340;&#65281;&#36825;&#20250;&#36896;&#25104;&#27599;&#38548;10&#20010;&#23567;&#26102;&#65292;&#28982;&#21518;&#26377;&#19968;&#20010;&#23567;&#26102;&#20043;&#20869;&#26159;&#27599;&#20998;&#38047;&#37117;&#20250;&#25191;&#34892;&#19968;&#27425;&#36825;&#20010;&#21629;&#20196;&#65281;&#25152;&#20197;&#27491;&#30830;&#30340;&#26684;&#24335;&#24212;&#35813;&#26159;&#19979;&#38754;&#36825;&#26679;&#30340;&#65292;&#36825;&#20250;&#20445;&#35777;&#21482;&#22312;&#27599;&#20010;10&#20010;&#23567;&#26102;&#30340;0&#20998;&#38047;&#26102;&#20250;&#25191;&#34892;&#19968;&#27425;:</pre>
+    <p>
+      <i><font size="3" color="#ff0033"><b>0</b></font><b><font size="3" color="#0000cc">&#160;*/10 * * * sleep 16 ; sh /root/dnspod.sh /root/dndpod.conf &amp;&gt; /dev/null</font></b></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font SIZE="10" BOLD="false"/>
+</node>
+</node>
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x652f;&#x6301;&#x5916;&#x7f51;&#x8bbf;&#x95ee;SSH&#x548c;WEB" ID="ID_1354312414" CREATED="1414834508053" MODIFIED="1425123960870"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#26032;&#26356;&#26032;:
+    </p>
+    <p>
+      &#36825;&#20010;&#32467;&#28857;&#24223;&#24323;&#20102;&#65292;&#22240;&#20026;&#36825;&#20010;&#32467;&#28857;&#19978;&#25551;&#36848;&#30340;&#20869;&#23481;&#24182;&#19981;&#27491;&#30830;&#12290;
+    </p>
+    <p>
+      &#20851;&#20110;&#22914;&#20309;&#22312;&#22806;&#32593;&#35775;&#38382;&#36335;&#30001;&#22120;&#30340;web/ssh/ftp&#26381;&#21153;&#65292;&#21487;&#20197;&#21442;&#32771;&#26412;&#32467;&#28857;&#19979;&#26041;&#30340;&#32467;&#28857;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //////////////////////////////////////////////
+    </p>
+    <p>
+      &#36825;&#20010;&#38382;&#39064;&#22256;&#24785;&#20102;&#25105;&#22909;&#20037;&#12290;
+    </p>
+    <p>
+      &#19968;&#24320;&#22987;&#20197;&#20026;&#26159;&#32593;&#32476;&#32467;&#26500;&#30340;&#21407;&#22240;&#65292;&#25105;&#30340;Openwrt&#26159;&#25346;&#22312;&#20013;&#20852;&#30340;&#26080;&#32447;&#29483;&#30340;&#20869;&#32593;&#32593;&#21475;&#19978;&#30340;&#12290;&#28982;&#21518;&#26080;&#32447;&#29483;&#19978;&#38754;&#24320;&#21551;&#20102;PPPOE&#65292;&#25152;&#20197;Openwrt&#19981;&#38656;&#35201;&#25320;&#21495;&#65292;&#30452;&#25509;&#23601;&#33021;&#22815;&#19978;&#32593;&#20102;&#12290;
+    </p>
+    <p>
+      &#19968;&#24320;&#22987;&#20174;&#22806;&#32593;&#24590;&#20040;&#20063;&#36830;&#19981;&#21040;openwrt&#30340;ssh&#19978;&#21435;&#12290;&#23581;&#35797;&#20102;&#22312;&#20013;&#20852;&#30340;&#26080;&#32447;&#29483;&#19978;&#37197;&#32622;DMZ&#65292;&#31471;&#21475;&#36716;&#21457;&#65292;&#37117;&#19981;&#34892;&#12290;
+    </p>
+    <p>
+      &#21518;&#26469;&#24819;&#26159;&#19981;&#26159;&#22240;&#20026;PPPOE&#25918;&#22312;&#20102;&#20013;&#20852;&#30340;&#26080;&#32447;&#29483;&#19978;&#65292;&#32780;&#20013;&#20852;&#30340;&#26080;&#32447;&#29483;&#34987;&#30005;&#20449;&#32473;&#38480;&#21046;&#20102;&#65292;&#19981;&#20801;&#35768;&#20570;&#36825;&#26679;&#30340;&#31471;&#21475;&#36716;&#21457;(&#29616;&#22312;&#24819;&#24819;&#65292;&#20854;&#23454;&#21487;&#33021;&#19981;&#26159;&#30340;&#65292;&#22312;&#36825;&#31181;&#27169;&#24335;&#19979;&#20063;&#33021;&#23454;&#29616;&#22806;&#32593;&#35775;&#38382;ssh).
+    </p>
+    <p>
+      &#25152;&#20197;&#21448;&#20570;&#20102;&#19968;&#20214;&#20107;&#65292;&#22312;&#20013;&#20852;&#30340;&#26080;&#32447;&#29483;&#19978;&#65292;&#37325;&#26032;&#26032;&#22686;&#21152;&#20102;&#19968;&#20010;&#36830;&#25509;&#65292;&#36825;&#20010;&#36830;&#25509;&#29992;&#26469;&#32473;Openwrt&#26469;&#25320;&#21495;&#12290;
+    </p>
+    <p>
+      &#20063;&#23601;&#26159;&#35828;&#65292;Openwrt&#19981;&#20351;&#29992;&#20013;&#20852;&#30340;&#26080;&#32447;&#29483;&#30340;&#36335;&#30001;&#21151;&#33021;&#20102;&#65292;&#30452;&#25509;&#33258;&#24049;&#26469;&#25320;&#21495;&#19978;&#32593;&#65292;&#36825;&#26679;&#23376;&#65292;&#24863;&#35273;&#19978;&#24212;&#35813;&#23601;&#19981;&#21463;&#36825;&#20010;&#20013;&#20852;&#30340;&#26080;&#32447;&#29483;&#30340;&#25511;&#21046;&#20102;&#12290;
+    </p>
+    <p>
+      (&#20855;&#20307;&#30340;&#25805;&#20316;&#21442;&#32771;&#23376;&#32467;&#28857;&#30340;&#36716;&#21521;&#38142;&#25509;)
+    </p>
+    <p>
+      &#20570;&#23436;&#20102;&#19978;&#38754;&#30340;&#27493;&#39588;&#20043;&#21518;&#65292;&#22114;penwrt&#37197;&#32622;&#25104;PPPOE&#25320;&#21495;&#27169;&#24335;&#65292;
+    </p>
+    <p>
+      &#20877;&#20174;&#22806;&#32593;&#23454;&#39564;&#25509;&#20837;openwrt&#30340;ssh&#65292;&#21457;&#29616;&#36824;&#26159;&#19981;&#34892;&#12290;&#35831;&#27714;&#36824;&#26159;&#34987;&#25298;&#12290;
+    </p>
+    <p>
+      &#20877;&#19978;&#32593;&#26597;&#20102;&#20043;&#21518;&#21457;&#29616;&#65292;&#21407;&#26469;&#36824;&#35201;&#20570;&#31471;&#21475;&#26144;&#23556;&#65281;&#23621;&#28982;&#25226;&#36825;&#20010;&#32473;&#24536;&#20102;&#65281;&#65281;
+    </p>
+    <p>
+      (&#21407;&#20808;&#30340;&#32463;&#39564;&#19968;&#30452;&#26159;&#36335;&#30001;&#23601;&#26159;&#36335;&#30001;&#65292;&#26381;&#21153;&#22120;&#26159;&#25346;&#22312;&#36335;&#30001;&#21518;&#38754;&#65292;&#25152;&#20197;&#26377;&#36825;&#20010;&#24847;&#35782;&#20570;&#31471;&#21475;&#26144;&#23556;&#65292;&#20294;&#26159;&#36825;&#20010;openwrt&#23454;&#38469;&#19978;&#26159;&#36335;&#30001;&#21644;&#26381;&#21153;&#22120;&#37117;&#21512;&#20307;&#20102;&#65292;&#25152;&#20197;&#23621;&#28982;&#25226;&#36825;&#20010;&#32473;&#24536;&#20102;)
+    </p>
+    <p>
+      &#22312;openwrt&#37324;&#38754;&#20570;&#20102;&#31471;&#21475;&#26144;&#23556;&#20043;&#21518;&#65292;&#21457;&#29616;&#26524;&#28982;&#23601;&#22909;&#20102;&#65292;ssh&#20063;&#36830;&#19978;&#21435;&#20102;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#25805;&#20316;&#21442;&#32771;&#23376;&#32467;&#28857;&#30340;&#25130;&#22270;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#19968;&#28857;&#26159;&#65292;&#32593;&#19978;&#30340;&#20256;&#35328;&#30005;&#32447;&#23558;22&#31471;&#21475;&#32473;&#23553;&#25481;&#20102;&#65292;&#25152;&#20197;&#22914;&#26524;&#20570;&#31471;&#21475;&#26144;&#23556;&#26159;22-&gt;22&#30340;&#31471;&#21475;&#26144;&#23556;&#30340;&#35805;&#65292;&#26159;&#36830;&#19981;&#19978;&#21435;&#30340;&#65281;
+    </p>
+    <p>
+      &#25105;&#20570;&#30340;&#26159;&#22806;&#32593;&#31471;&#21475;2200&#21040;&#20869;&#32593;&#31471;&#21475;22&#30340;&#26144;&#23556;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x65e0;&#x7ebf;&#x732b;&#x914d;&#x7f6e;&#x6865;&#x63a5;&#x548c;&#x8def;&#x7531;&#x53cc;&#x6a21;&#x5f0f;" ID="ID_1422194968" CREATED="1414836357485" MODIFIED="1414836385609" LINK="#ID_1944931410"/>
+<node TEXT="Openwrt&#x505a;&#x7aef;&#x53e3;&#x6620;&#x5c04;" ID="ID_396956879" CREATED="1414836830325" MODIFIED="1414836844325" LINK="../OneNote/Openwrt&#x7aef;&#x53e3;&#x6620;&#x5c04;.one"/>
+</node>
+<node TEXT="&#x3010;&#x6700;&#x65b0;&#x3011;&#x5f00;&#x653e;&#x8def;&#x7531;&#x5668;&#x7684;WEB/SSH/FTP&#x7aef;&#x53e3;" ID="ID_248063579" CREATED="1425123861983" MODIFIED="1425124989977" LINK="../OneNote/openwrt&#x5f00;&#x653e;FTP&#x7aef;&#x53e3;.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33258;&#20174;&#31245;&#24494;&#20102;&#35299;&#20102;Linux&#36335;&#30001;&#22120;&#30340;&#38450;&#28779;&#22681;&#26159;&#22522;&#20110;Iptables&#30340;&#65292;&#32780;&#19988;&#20102;&#35299;&#20102;iptables&#30340;&#22522;&#26412;&#30340;&#30693;&#35782;&#20043;&#21518;&#65292;&#23601;&#30693;&#36947;&#22806;&#32593;&#35775;&#38382;&#36335;&#30001;&#22120;&#30340;web/ssh/ftp&#31561;&#31561;&#31471;&#21475;&#30340;&#25511;&#21046;&#65292;&#23454;&#38469;&#19978;&#26159;&#36890;&#36807;&#37197;&#32622;iptable&#30340;&#35268;&#21017;&#26469;&#30340;&#12290;
+    </p>
+    <p>
+      &#32780;&#19988;&#19981;&#38656;&#35201;&#20570;&#31471;&#21475;&#36716;&#21457;&#65292;&#22240;&#20026;&#31471;&#21475;&#36716;&#21457;&#30340;&#23454;&#36136;&#26159;&#29992;&#26469;&#22312;FORWARD&#38142;&#23558;&#25968;&#25454;&#20174;&#19968;&#20010;&#20027;&#26426;forward&#21040;&#21478;&#19968;&#20010;&#20027;&#26426;&#30340;&#12290; &#23601;&#36319;&#37197;&#32622;&#19978;&#25551;&#36848;&#30340;&#37027;&#26679;&#65292;&#26159;&#19968;&#20010;DNAT&#30340;&#20363;&#23376;&#12290;
+    </p>
+    <p>
+      &#32780;&#24320;&#25918;wev/ssh/ftp&#21017;&#21482;&#38656;&#35201;&#22312;iptables&#19978;&#30340;filter&#36825;&#20010;&#34920;&#19978;ACCEPT&#22806;&#30028;&#35775;&#38382;&#36825;&#20123;&#31471;&#21475;&#30340;&#35831;&#27714;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#26368;&#32456;&#30340;&#23454;&#29616;&#20854;&#23454;&#21644;&#24456;&#31616;&#21333;&#12290;&#21487;&#20197;&#21442;&#32771;&#38468;&#20214;&#30340;&#22270;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x66f4;&#x65b0;" ID="ID_1520097052" CREATED="1426308756276" MODIFIED="1426308841121"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24320;&#25918;&#20102;SSH&#30340;22&#31471;&#21475;&#20043;&#21518;&#65292;&#36807;&#20102;&#19968;&#27573;&#26102;&#38388;&#26597;&#30475;log&#26102;&#21457;&#29616;&#65292;&#19981;&#26029;&#30340;&#26377;&#20154;&#35797;&#22270;&#21435;&#30772;&#35299;&#30331;&#24405;ssh&#12290;
+    </p>
+    <p>
+      &#35273;&#24471;&#28385;&#28902;&#30340;&#65292;&#25152;&#20197;&#36824;&#26159;&#25226;22&#21495;&#31471;&#21475;&#32473;&#20851;&#25481;&#20102;&#65292;&#36716;&#32780;&#20570;&#20102;&#31471;&#21475;&#36716;&#21457;&#65292;&#24320;&#25918;&#20102;2200&#31471;&#21475;&#65292;&#36716;&#21457;&#21040;&#36335;&#30001;&#22120;&#30340;22&#21495;&#31471;&#21475;&#19978;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="systemupgrade" ID="ID_201702831" CREATED="1418209182998" MODIFIED="1418210934906" LINK="../OneNote/Openwrt_upgrade_log.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;systemupgrade&#21629;&#20196;&#36827;&#34892;&#22266;&#20214;&#21319;&#32423;&#30340;&#21629;&#20196;&#21644;log&#22914;&#19979;.&#40664;&#35748;&#30340;&#21319;&#32423;&#26159;&#20250;&#20445;&#30041;&#21407;&#20808;&#30340;&#37197;&#32622;&#25991;&#20214;&#30340;.&#22266;&#20214;&#26159;&#36890;&#36807;scp&#25335;&#36125;&#21040;wr720n&#37324;&#38754;&#21435;&#30340;.
+    </p>
+    <p>
+      &#20351;&#29992;&#21629;&#20196;&#20043;&#21069;&#35831;<font color="#cc0000" size="4"><b>&#20808;&#38405;&#35835;&#23376;&#33410;&#28857;</b></font>!!!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    </p>
+    <p>
+      root@OpenWrt:/# <font color="#cc0000">sysupgrade</font>&#160;-v <font color="#0000cc">openwrt-ar71xx-generic-tl-wr720n-v3-squashfs-sysupgrade_stable.bin</font>
+    </p>
+    <p>
+      Collected errors:
+    </p>
+    <p>
+      &#160;* opkg_conf_load: Could not lock /var/lock/opkg.lock: Resource temporarily unavailable.
+    </p>
+    <p>
+      Saving config files...
+    </p>
+    <p>
+      etc/config/dhcp
+    </p>
+    <p>
+      etc/config/dropbear
+    </p>
+    <p>
+      etc/config/firewall
+    </p>
+    <p>
+      etc/config/fstab
+    </p>
+    <p>
+      etc/config/network
+    </p>
+    <p>
+      etc/config/system
+    </p>
+    <p>
+      etc/config/ubootenv
+    </p>
+    <p>
+      etc/config/wireless
+    </p>
+    <p>
+      etc/dropbear/dropbear_dss_host_key
+    </p>
+    <p>
+      etc/dropbear/dropbear_rsa_host_key
+    </p>
+    <p>
+      etc/group
+    </p>
+    <p>
+      etc/hosts
+    </p>
+    <p>
+      etc/inittab
+    </p>
+    <p>
+      etc/passwd
+    </p>
+    <p>
+      etc/profile
+    </p>
+    <p>
+      etc/rc.local
+    </p>
+    <p>
+      etc/shells
+    </p>
+    <p>
+      etc/sysctl.conf
+    </p>
+    <p>
+      killall: watchdog: no process killed
+    </p>
+    <p>
+      Sending TERM to remaining processes ... pppd dnsmasq opkg wget ubusd askfirst logd netifd odhcpd ntpd
+    </p>
+    <p>
+      Sending KILL to remaining processes ... askfirst
+    </p>
+    <p>
+      Switching to ramdisk...
+    </p>
+    <p>
+      Performing system upgrade...
+    </p>
+    <p>
+      Unlocking firmware ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Writing from &lt;stdin&gt; to firmware ...
+    </p>
+    <p>
+      Upgrade completed
+    </p>
+    <p>
+      Rebooting system...
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x7f3a;&#x70b9;" ID="ID_1617479891" CREATED="1418210787142" MODIFIED="1418210829097"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#20570;&#20102;exroot,&#26681;&#25991;&#20214;&#31995;&#32479;&#26159;&#25918;&#22312;&#22806;&#25509;&#30340;USB&#19978;&#30340;&#35805;,&#26356;&#26032;&#20102;&#22266;&#20214;&#20043;&#21518;,&#20043;&#21069;&#20570;exroot&#30340;&#25805;&#20316;&#36824;&#35201;&#37325;&#26032;&#22312;&#20570;&#19968;&#36941;!
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="scp&#x62f7;&#x8d1d;&#x65b0;&#x7684;&#x56fa;&#x4ef6;" ID="ID_836828445" CREATED="1418209272801" MODIFIED="1418210732704"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#21319;&#32423;&#20043;&#21069;,&#22914;&#26524;&#20570;&#20102;exroot&#30340;&#35805;,&#38656;&#35201;&#23558;U&#30424;&#32473;&#25300;&#19979;&#26469;!&#28982;&#21518;&#37325;&#21551;!&#19981;&#28982;&#30340;&#35805;,&#22909;&#20687;&#28903;&#20889;&#19981;&#21040;falsh&#37324;&#38754;&#21435;!!
+    </p>
+    <p>
+      &#25335;&#36125;&#30340;&#26102;&#20505;,&#22240;&#20026;ROM&#21482;&#26377;4M,&#25918;&#19981;&#19979;&#26032;&#30340;bin&#25991;&#20214;!
+    </p>
+    <p>
+      &#25152;&#20197;&#38656;&#35201;&#25335;&#36125;&#21040;/tmp&#30446;&#24405;&#19979;,&#36825;&#26159;&#19968;&#20010;RAM&#27169;&#25311;&#30340;&#25991;&#20214;&#31995;&#32479;!
+    </p>
+    <p>
+      &#20351;&#29992;&#30340;&#26159;&#19979;&#38754;&#30340;&#21629;&#20196;:
+    </p>
+    <p>
+      &#25105;&#26159;&#22312;&#34394;&#25311;&#26426;&#37324;&#38754;&#23558;&#34394;&#25311;&#26426;&#37324;&#38754;&#23384;&#25918;&#30340;image&#25335;&#36125;&#21040;wr720n&#25152;&#22312;&#30340;192.168.1.1&#19978;&#30340;&#26681;&#30446;&#24405;&#19979;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      scp <font color="#0000cc">/mnt/share2/openwrt-ar71xx-generic-tl-wr720n-v3-squashfs-sysupgrade_stable.bin</font>&#160;<font color="#cc0000">root@192.168.1.1:/tmp</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="[&#x672a;&#x5b9e;&#x8df5;]&#x5237;UBOOT&#x6559;&#x7a0b;" ID="ID_1647881117" CREATED="1418214841260" MODIFIED="1425820293885"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://www.right.com.cn/forum/thread-136444-1-1.html
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#19978;&#38754;&#30340;&#38142;&#25509;,&#19981;&#36807;&#25105;&#36824;&#27809;&#26377;&#23454;&#36341;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8def;&#x7531;&#x5668;&#x590d;&#x4f4d;" ID="ID_694911950" CREATED="1418308121909" MODIFIED="1426308721004"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#37197;&#32622;Wr720N&#30340;&#26102;&#20505;,&#30001;&#20110;&#25805;&#20316;&#22833;&#35823;,&#23558;/etc&#30446;&#24405;&#32473;&#21024;&#25481;&#20102;(&#23601;&#26159;&#25630;exroot&#25630;&#20986;&#26469;&#30340;&#33707;&#21517;&#22855;&#22937;&#30340;&#38382;&#39064;).
+    </p>
+    <p>
+      &#28982;&#21518;&#36335;&#30001;&#22120;&#37325;&#21551;&#30340;&#26102;&#20505;,&#23601;&#20250;&#22788;&#20110;LED&#19968;&#30452;&#38378;&#28865;,&#20294;&#26159;&#31995;&#32479;&#24590;&#20040;&#20063;&#36215;&#19981;&#36215;&#26469;&#30340;&#24773;&#20917;(&#30446;&#27979;&#22823;&#27010;&#19968;&#31186;&#20004;&#27425;&#30340;&#38378;&#28865;&#39057;&#29575;).
+    </p>
+    <p>
+      &#27809;&#21150;&#27861;,&#21482;&#33021;&#24819;&#21150;&#27861;&#37325;&#32622;&#26426;&#22120;&#20102;.
+    </p>
+    <p>
+      &#37319;&#29992;&#20102;&#32593;&#19978;&#30340;&#22788;&#29702;&#26041;&#27861;:
+    </p>
+    <p>
+      &#36335;&#30001;&#22120;&#25300;&#30005;,&#20877;&#25554;&#30005;,&#28982;&#21518;&#29992;&#19968;&#26681;&#29273;&#31614;&#19981;&#26029;&#30340;&#28857;&#20987;reset&#38190;(&#27880;&#24847;&#19981;&#26159;&#38271;&#25353;,&#26159;&#19981;&#26029;&#30340;&#28857;&#20987;).
+    </p>
+    <p>
+      &#36825;&#20010;&#36807;&#31243;&#21487;&#33021;&#20250;&#25345;&#32493;&#21313;&#20960;&#12289;&#20108;&#21313;&#31186;&#24038;&#21491;&#21543;,&#28982;&#21518;&#23601;&#33021;&#20174;LED&#30475;&#21040;&#26126;&#26174;&#30340;&#21464;&#21270;.
+    </p>
+    <p>
+      &#22914;&#26524;&#36335;&#30001;&#22120;&#30340;LED&#28783;&#31361;&#28982;&#24555;&#36895;&#30340;&#38378;&#28865;&#36215;&#26469;&#30340;&#35805;(&#36825;&#20010;&#39057;&#29575;&#26126;&#26174;&#36319;&#20043;&#21069;&#36827;&#19981;&#20102;&#31995;&#32479;&#30340;&#39057;&#29575;&#19981;&#19968;&#26679;,&#38750;&#24120;&#30340;&#24555;,&#27599;&#31186;&#21487;&#33021;&#33021;&#38378;10&#27425;&#24038;&#21491;&#30340;&#39057;&#29575;)
+    </p>
+    <p>
+      &#37027;&#20040;,&#35828;&#26126;&#36335;&#30001;&#22120;&#24050;&#32463;&#36827;&#20837;&#20102;&#23433;&#20840;&#27169;&#24335;&#20102;,&#36825;&#26102;&#20505;&#23601;&#21487;&#20197;&#20351;&#29992;telnet 192.168.1.1&#30331;&#24405;&#36335;&#30001;&#22120;,&#24212;&#35813;&#26159;&#21487;&#20197;&#30452;&#25509;&#30331;&#24405;&#30340;,&#27809;&#26377;&#23494;&#30721;.
+    </p>
+    <p>
+      &#30331;&#24405;&#20043;&#21518;,&#25105;&#20351;&#29992;&#20102;&#19979;&#38754;&#30340;&#20004;&#20010;&#21629;&#20196;&#23558;&#36335;&#30001;&#22120;&#32473;&#37325;&#32622;&#20102;:
+    </p>
+    <p>
+      mount_root
+    </p>
+    <p>
+      mtd -r erase rootfs_data
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#37325;&#21551;,&#23601;&#21487;&#20197;&#20102;,&#23601;&#21448;&#21487;&#20197;&#30331;&#24405;openwrt&#31995;&#32479;,&#20294;&#26159;&#38656;&#35201;&#37325;&#22836;&#24320;&#22987;&#37197;&#32622;&#20102;,&#35201;&#23433;&#35013;&#30340;&#36719;&#20214;&#20063;&#35201;&#37325;&#26032;&#20877;&#23433;&#35013;&#19968;&#36941;&#20102;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x81ea;&#x5df1;&#x642d;&#x5efa;opkg&#x7684;package&#x5e93;" ID="ID_1679847752" CREATED="1418313555032" MODIFIED="1426598185281"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      openwrt&#30340;&#36719;&#20214;&#24211;&#30340;&#35775;&#38382;&#36895;&#24230;&#23454;&#22312;&#26159;&#22826;&#24930;&#20102;&#65292;&#27599;&#27425;&#23433;&#35013;&#19968;&#20010;&#36719;&#20214;&#37117;&#35201;&#25235;&#29378;&#21322;&#22825;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#32034;&#24615;&#23558;Openwrt&#19978;&#30340;&#25152;&#26377;&#36719;&#20214;&#37117;&#19979;&#36733;&#21040;&#20102;pub.proudj.com&#19978;&#65292;&#28982;&#21518;&#22312;&#37197;&#32622;opkg.conf&#37324;&#38754;&#23558;pub.proudj.com&#20316;&#20026;&#36719;&#20214;&#28304;&#12290;
+    </p>
+    <p>
+      &#20351;&#29992;&#36215;&#26469;&#24863;&#35273;&#36824;&#19981;&#38169;&#65292;&#27604;&#20351;&#29992;&#23448;&#26041;&#30340;&#28304;&#24555;&#22810;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8bbe;&#x7f6e;&#x5b9a;&#x65f6;&#x5f00;&#x5173;WIFI" ID="ID_1588587150" CREATED="1418569027147" MODIFIED="1425820293969"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;crontab&#26469;&#23454;&#29616;&#36825;&#20010;&#30446;&#30340;:
+    </p>
+    <p>
+      #crontab -e,&#28982;&#21518;&#22312;&#32467;&#23614;&#28155;&#21152;&#19979;&#38754;&#19977;&#34892;:
+    </p>
+    <p>
+      (&#34920;&#31034;&#30340;&#21547;&#20041;&#26159;&#21608;&#19968;&#21040;&#21608;&#20116;,&#27599;&#22825;&#19979;&#21320;6&#28857;&#25171;&#24320;wifi,&#28982;&#21518;&#21608;&#19968;&#21040;&#21608;&#22235;,&#27599;&#22825;&#22812;&#37324;11:30&#20851;&#38381;wifi.&#21608;&#20116;&#22812;&#37324;&#20063;&#19981;&#20851;wifi,&#21608;&#20845;&#21644;&#21608;&#26085;&#20840;&#22825;wifi&#25171;&#24320;,&#21608;&#26085;&#26202;&#19978;11:30&#20851;&#38381;wifi)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      30 23 * * 1,2,3,4,0 wifi down
+    </p>
+    <p>
+      0 18 * * 1-5 wifi up
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x914d;&#x7f6e;DNS" ID="ID_997972677" CREATED="1418873027204" MODIFIED="1421069328285"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26159;&#19981;&#26159;&#20351;&#29992;Google&#30340;DNS&#23601;&#20250;&#27604;&#36739;&#30340;&#22909;&#21602;?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#12288;a.&#21019;&#24314;&#160;/etc/config/sec_resolv.conf
+    </p>
+    <div class="cnblogs_code">
+      <pre>vim /etc/config/sec_resolv.conf</pre>
+    </div>
+    <p>
+      &#12288;&#12288;&#22635;&#20837;&#20197;&#19979; DNS Servers:
+    </p>
+    <div class="cnblogs_code">
+      <pre>nameserver <font color="#800080">8.8</font>.<font color="#800080">8.8</font><font color="#000000">nameserver </font><font color="#800080">8.8</font>.<font color="#800080">4.4</font><font color="#000000">nameserver </font><font color="#800080">208.67</font>.<font color="#800080">222.222</font></pre>
+    </div>
+    <p>
+      <br class="Apple-interchange-newline"/>
+      &#12288;&#12288;b.&#32534;&#36753;&#160;/etc/config/dhcp
+    </p>
+    <div class="cnblogs_code">
+      <pre>vim /etc/config/dhcp</pre>
+    </div>
+    <p>
+      &#12288;&#12288;&#25214;&#21040;&#160;option resolvfile &#36873;&#39033;&#65292;&#26367;&#25442;&#20026;&#65306;
+    </p>
+    <div class="cnblogs_code">
+      <pre>option resolvfile <font color="#800000">'/etc/config/sec_resolv.conf'</font></pre>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8bbe;&#x7f6e;&#x5355;&#x7ebf;&#x591a;&#x62e8;" ID="ID_538969939" CREATED="1418880050880" MODIFIED="1426598185407"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20808;&#23433;&#35013;&#19968;&#20010;&#21483;&#20570;ip&#30340;package
+    </p>
+    <p>
+      &#28982;&#21518;&#20381;&#27425;&#23433;&#35013;kmod-macvlan,mwan3,luci-app-mwan3.
+    </p>
+    <p>
+      &#36825;&#20960;&#20010;&#21253;&#23433;&#35013;&#22909;&#20043;&#21518;,&#36719;&#20214;&#30340;&#20648;&#22791;&#23601;&#22815;&#20102;,&#25509;&#19979;&#26469;&#21487;&#20197;&#36827;&#34892;&#37197;&#32622;&#20102;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x8bbe;&#x7f6e;&#x7684;&#x65b9;&#x6cd5;&#x5c31;&#x662f;&#x5b8c;&#x5168;&#x6309;&#x7167;&#x9644;&#x4ef6;&#x64cd;&#x4f5c;" ID="ID_1230726848" CREATED="1418914650086" MODIFIED="1418915212706" LINK="../MiscDocuments/MWAN3&#x914d;&#x7f6e;&#x624b;&#x518c;.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38024;&#23545;pdf&#25991;&#26723;&#30340;&#26356;&#26032;:
+    </p>
+    <p>
+      
+    </p>
+    &#30495;&#26159;&#19981;&#22909;&#24847;&#24605;&#65292;&#26152;&#22825;&#20889;&#25163;&#20876;&#30340;&#26102;&#20505;&#20026;&#20102;&#26041;&#20415;&#22823;&#23478;&#65292;&#26368;&#22823;&#31616;&#21270;&#37197;&#32622;&#20869;&#23481;&#65292;&#20294;&#26159;&#20063;&#31616;&#21270;&#20102;&#19981;&#35813;&#31616;&#21270;&#30340;&#20869;&#23481;&#65292;&#21018;&#21018;&#33258;&#24049;&#21448;&#30475;&#20102;&#19968;&#36793;&#65292;&#31361;&#28982;&#21457;&#29616;&#26377;&#38382;&#39064;&#65292;&#20250;&#23548;&#33268;https&#35775;&#38382;&#20986;&#29616;&#38169;&#35823;&#65292;&#29305;&#21035;&#26159;&#30331;&#38470;&#32593;&#38134;&#12290;bug&#25152;&#22312;&#22320;&#65306;
+
+    <p>
+      <strong>3.5 &#37197;&#32622;MWAN3&#30340;Rule</strong>&#65292;&#26152;&#22825;&#22270;&#30465;&#20107;&#65292;&#35753;&#22823;&#23478;&#20165;&#30041;&#19979;default_rule&#20854;&#20182;&#37117;&#21024;&#38500;&#26159;&#19981;&#23545;&#30340;&#65292;&#33267;&#23569;&#35201;&#22312;&#23427;&#20043;&#21069;&#26377;&#19968;&#26465;&#38024;&#23545;htts&#30340;&#35268;&#21017;&#65292;&#26368;&#31616;&#21333;&#30340;&#20462;&#25913;&#26041;&#27861;&#23601;&#26159;&#20462;&#25913;/etc/config/mwan3&#25991;&#20214;&#25353;&#19979;&#38754;&#30340;&#39034;&#24207;&#20462;&#25913;rule&#65292;&#20063;&#23601;&#26159;&#22312;default_rule&#21069;&#21152;&#20004;&#20010;rule:
+    </p>
+    <p>
+      config rule 'sticky_even'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'tcp'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option use_policy 'vwan0_only'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option dest_port '443'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option src_ip '0.0.0.0/0.0.0.1'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      config rule 'sticky_odd'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option src_ip '0.0.0.1/0.0.0.1'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'tcp'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option use_policy 'vwan1_only'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option dest_port '443'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      config rule 'default_rule'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option dest_ip '0.0.0.0/0'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option use_policy 'balanced'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'all'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x914d;&#x7f6e;" ID="ID_403399799" CREATED="1424875691944" MODIFIED="1426598185420"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      WR720N&#20570;&#26381;&#21153;&#22120;&#65292;&#20854;&#24615;&#33021;&#21487;&#24819;&#32780;&#30693;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#65292;&#21363;&#20351;&#33021;&#22815;&#20570;http&#26381;&#21153;&#22120;&#65292;&#26368;&#22810;&#20063;&#21482;&#33021;&#20570;&#38745;&#24577;&#26381;&#21153;&#22120;&#65292;&#32780;&#36825;&#20854;&#23454;&#24050;&#32463;&#33021;&#22815;&#28385;&#36275;&#25105;&#30340;&#24456;&#22823;&#30340;&#38656;&#27714;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="uhttpd&#x505a;&#x9759;&#x6001;&#x670d;&#x52a1;&#x5668;" ID="ID_453469763" CREATED="1424875697079" MODIFIED="1424875944256" LINK="#ID_435067597"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#33021;&#22815;&#20570;&#19968;&#20010;&#38745;&#24577;&#26381;&#21153;&#22120;&#30340;&#35805;&#65292;&#22909;&#22788;&#26159;&#24456;&#22810;&#30340;&#65292;&#27604;&#22914;&#33021;&#22815;&#20316;&#20026;&#22270;&#24202;&#65292;&#23384;&#25918;&#25991;&#20214;&#31561;&#31561;&#24456;&#26041;&#20415;&#12290;
+    </p>
+    <p>
+      &#20854;&#23454;&#22312;&#38142;&#25509;&#36339;&#36716;&#30340;&#32467;&#28857;&#19978;&#23433;&#35013;web&#30028;&#38754;&#30340;&#26102;&#20505;&#24050;&#32463;&#23433;&#35013;&#20102;uhttpd&#20102;&#12290;uhttpd&#33021;&#22815;&#25903;&#25345;&#30417;&#21548;&#19981;&#21516;&#30340;&#31471;&#21475;&#65292;80&#31471;&#21475;&#22312;&#40664;&#35748;&#30340;&#37197;&#32622;&#19979;&#24050;&#32463;&#34987;&#29992;&#20110;LUCI&#30028;&#38754;&#12290;
+    </p>
+    <p>
+      &#25105;&#20204;&#21487;&#20197;&#35774;&#32622;uhttpd&#35753;&#20854;&#30417;&#25511;&#21478;&#19968;&#20010;&#27604;&#22914;88&#30340;&#31471;&#21475;&#65292;&#32780;&#36825;&#20010;&#31471;&#21475;&#25105;&#20204;&#23601;&#29992;&#26469;&#21521;&#22806;&#30028;&#25552;&#20379;&#25991;&#20214;&#26381;&#21153;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="uhttpd&#x914d;&#x7f6e;&#x6b65;&#x9aa4;" ID="ID_300139978" CREATED="1424875946078" MODIFIED="1426319319957" LINK="#ID_354426765"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      vi /etc/config/uhttpd
+    </p>
+    <p>
+      &#28982;&#21518;&#22312;&#36825;&#20010;&#37197;&#32622;&#25991;&#20214;&#30340;&#26368;&#21518;&#21152;&#19978;&#19968;&#27573;&#37197;&#32622;&#35774;&#32622;:
+    </p>
+    <p>
+      &quot;
+    </p>
+    <p>
+      config uhttpd 'file_container'&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;list listen_http '0.0.0.0:88'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option home '/www/data'&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option cgi_prefix 'cgi-bin'&#160;
+    </p>
+    <p>
+      &quot;
+    </p>
+    <p>
+      &#19978;&#36848;&#30340;&#37197;&#32622;&#30417;&#21548;&#20102;88&#31471;&#21475;&#65292;&#32780;&#35774;&#32622;&#25991;&#20214;&#30340;&#26681;&#30446;&#24405;&#20026;/www/data
+    </p>
+    <p>
+      &#36825;&#20010;&#30446;&#24405;&#19979;&#25918;&#30340;&#26159;&#19968;&#20123;&#36719;&#38142;&#25509;&#12290;&#38142;&#25509;&#21040;&#30495;&#23454;&#25346;&#36733;&#30340;&#22806;&#37096;&#23384;&#20648;&#35774;&#22791;&#19978;&#12290;
+    </p>
+    <p>
+      &#20851;&#20110;&#22806;&#37096;&#23384;&#20648;&#35774;&#22791;&#30340;&#25346;&#36733;&#28857;&#20449;&#24687;&#65292;&#21442;&#32771;&#36339;&#36716;&#30340;&#38142;&#25509;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,&#35843;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#20351;&#24471;&#26032;&#30340;&#37197;&#32622;&#29983;&#25928;:
+    </p>
+    <p>
+      /etc/init.d/uhttpd restart
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x7684;&#x76ee;&#x5f55;&#x89c4;&#x5212;&#x7b56;&#x7565;" ID="ID_620904148" CREATED="1426318721397" MODIFIED="1427642243611" LINK="#ID_536180752">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#12304;&#26368;&#26032;&#26356;&#26032;2015/3/29&#12305;:
+    </p>
+    <p>
+      &#20351;&#29992;&#20102;VPS&#20013;&#30340;url redirect&#21151;&#33021;&#20043;&#21518;&#65292;&#36825;&#20010;&#38382;&#39064;&#21487;&#20197;&#26377;&#21478;&#22806;&#30340;&#19968;&#31181;&#26041;&#24335;&#35299;&#20915;&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#25351;&#21521;&#30340;&#32467;&#28857;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //////////////////////////////////////////////////////
+    </p>
+    <p>
+      &#30001;&#20110;&#36825;&#20010;openwrt&#19978;&#25645;&#24314;&#30340;&#26381;&#21153;&#22120;&#24615;&#33021;&#25152;&#38480;&#65292;http&#26381;&#21153;&#22120;&#30340;&#30446;&#30340;&#23601;&#26159;&#25552;&#20379;&#22806;&#38142;&#65292;&#25152;&#20197;http&#30340;&#30446;&#24405;&#30340;&#35268;&#21010;&#23601;&#24456;&#37325;&#35201;&#20102;&#12290;
+    </p>
+    <p>
+      &#36825;&#37324;&#28041;&#21450;&#21040;&#20004;&#31181;&#19981;&#21516;&#30340;&#30446;&#24405;:http&#26381;&#21153;&#22120;&#23545;&#22806;&#25552;&#20379;&#22806;&#38142;&#26102;&#30340;&#25991;&#20214;&#23384;&#25918;&#30340;&#30446;&#24405;&#65292;&#20197;&#21450;&#25991;&#20214;&#30495;&#27491;&#22312;&#35774;&#22791;&#19978;&#23384;&#25918;&#30340;&#30446;&#24405;&#12290;
+    </p>
+    <p>
+      &#25991;&#20214;&#26159;&#23384;&#25918;&#22312;&#22806;&#25509;&#30340;USB&#20013;&#65292;&#32780;&#22806;&#25509;&#30340;USB&#35774;&#22791;&#30340;&#30446;&#24405;&#26377;&#21487;&#33021;&#22312;&#21518;&#26399;&#30340;&#36807;&#31243;&#20013;&#21457;&#29983;&#25913;&#21464;(&#27604;&#22914;USB&#37324;&#38754;&#30340;&#20869;&#23481;&#28385;&#20102;&#65292;&#38656;&#35201;&#22686;&#21152;&#26032;&#30340;&#35774;&#22791;&#25193;&#23481;&#20043;&#31867;&#30340;),
+    </p>
+    <p>
+      &#32780;&#26381;&#21153;&#22120;&#19968;&#26086;&#22806;&#38142;&#24418;&#25104;&#65292;&#36825;&#20010;&#22806;&#38142;&#22312;&#21518;&#26399;&#23601;&#19981;&#22826;&#36866;&#21512;&#20877;&#26356;&#25913;&#20102;&#12290;&#25152;&#20197;&#26377;&#24517;&#35201;&#32771;&#34385;&#37319;&#21462;&#20309;&#31181;&#31574;&#30053;&#65292;&#33021;&#22815;&#20445;&#35777;&#21518;&#26399;&#21363;&#20351;&#30495;&#23454;&#25991;&#20214;&#30340;&#23384;&#25918;&#36335;&#24452;&#21457;&#29983;&#20102;&#25913;&#21464;&#65292;&#22806;&#38142;&#20063;&#19981;&#38656;&#35201;&#25913;&#21464;&#12290;
+    </p>
+    <p>
+      &#19968;&#20010;&#25105;&#29616;&#22312;&#35748;&#20026;&#27604;&#36739;&#22909;&#30340;&#26041;&#27861;&#23601;&#26159;&#20351;&#29992;&#36719;&#38142;&#25509;&#65292;&#20351;&#29992;&#36719;&#38142;&#25509;&#30340;&#35805;&#65292;&#33267;&#23569;&#33021;&#22815;&#20351;&#24471;&#22806;&#38142;&#20013;&#30446;&#24405;&#30340;&#21069;&#20960;&#32423;&#33021;&#22815;&#24212;&#23545;&#36825;&#31181;&#30495;&#23454;&#23384;&#25918;&#36335;&#24452;&#30340;&#25913;&#21464;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20197;&#25105;&#30340;&#20570;&#27861;&#22914;&#19979;:
+    </p>
+    <p>
+      &#23558;32G&#30340;TF&#21345;&#25346;&#36733;&#21040;/mnt/CF_32G_Trancent&#30446;&#24405;&#19979;&#65292;&#21019;&#24314;&#20004;&#20010;&#30446;&#24405;,&#19968;&#20010;&#21483;file,&#19968;&#20010;&#21483;pic
+    </p>
+    <p>
+      &#23558;320G&#30340;&#30828;&#30424;&#25346;&#36733;&#21040;/mnt/IDE_320G_Hitachi&#30446;&#24405;&#19979;&#12290;&#21019;&#24314;&#20004;&#20010;&#30446;&#24405;&#65292;&#19968;&#20010;&#21483;video_no_compressed,&#19968;&#20010;&#21483;video_compressed
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;uhttp&#30340;&#26681;&#30446;&#24405;&#36824;&#26159;&#35774;&#32622;&#20026;/www/data/.
+    </p>
+    <p>
+      &#28982;&#21518;&#36825;&#20010;&#30446;&#24405;&#19979;&#38754;&#21019;&#24314;3&#20010;&#36719;&#38142;&#25509;f,p,v&#65292;&#20998;&#21035;&#38142;&#25509;&#21040;/mnt&#19979;&#30456;&#24212;&#30340;&#30446;&#24405;file,pic&#21644;video_compressed,&#26368;&#32456;&#30340;&#32467;&#26524;&#22914;&#19979;:
+    </p>
+    <p>
+      &#26174;&#32780;&#26131;&#35265;&#30340;&#26159;&#65292;&#20197;&#21518;&#22914;&#26524;&#23384;&#20648;&#35774;&#22791;&#26377;&#20102;&#25913;&#21464;&#65292;&#26576;&#20123;&#24773;&#20917;&#19979;,&#25105;&#20204;&#21482;&#35201;&#25913;&#21464;&#36825;&#20010;&#36719;&#38142;&#25509;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#32780;&#19988;&#36825;&#37324;&#30340;&#36719;&#38142;&#25509;&#30340;&#21517;&#23383;&#20063;&#21487;&#20197;&#36215;&#30340;&#27604;&#36739;&#30701;&#65292;&#32553;&#30701;&#22806;&#38142;&#30340;&#38271;&#24230;&#65292;&#32780;&#30495;&#23454;&#23384;&#20648;&#20013;&#30340;&#30446;&#24405;&#21517;&#23383;&#21487;&#20197;&#38271;&#28857;&#65292;&#26041;&#20415;&#38405;&#35835;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><b>root@OpenWrt:/# ls -l /www/data/ </b></i>
+    </p>
+    <p>
+      <i><b>lrwxrwxrwx&#160;&#160;&#160;&#160;1 root&#160;&#160;&#160;&#160;&#160;root&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;27 Mar 14 15:52 f -&gt; /mnt/CF_32G_Transcend/file/ </b></i>
+    </p>
+    <p>
+      <i><b>lrwxrwxrwx&#160;&#160;&#160;&#160;1 root&#160;&#160;&#160;&#160;&#160;root&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;26 Mar 14 15:52 p -&gt; /mnt/CF_32G_Transcend/pic/ </b></i>
+    </p>
+    <p>
+      <i><b>lrwxrwxrwx&#160;&#160;&#160;&#160;1 root&#160;&#160;&#160;&#160;&#160;root&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;39 Mar 14 15:53 v -&gt; /mnt/IDE_320G_Hitachi/video_compressed/ </b></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="openwrt&#x505a;&#x7aef;&#x53e3;&#x6620;&#x5c04;" ID="ID_1694516318" CREATED="1424876108654" MODIFIED="1424876243121" LINK="#ID_396956879"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#19978;&#38754;&#30340;&#32467;&#28857;&#37324;&#38754;&#25105;&#20204;&#37197;&#32622;&#20102;88&#31471;&#21475;&#20316;&#20026;&#25991;&#20214;&#26381;&#21153;&#22120;&#30340;&#30417;&#21548;&#31471;&#21475;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#22914;&#26524;&#25105;&#20204;&#24819;&#35753;&#22806;&#37096;&#19990;&#30028;&#33021;&#22815;&#35775;&#38382;&#36825;&#20010;88&#31471;&#21475;&#30340;&#35805;&#23601;&#38656;&#35201;&#22312;&#36335;&#30001;&#22120;&#19978;&#20570;&#31471;&#21475;&#26144;&#23556;&#12290;
+    </p>
+    <p>
+      &#25105;&#20204;&#30340;&#20570;&#27861;&#26159;&#23558;&#23545;&#22806;&#30340;8800&#31471;&#21475;&#26144;&#23556;&#20026;88&#31471;&#21475;&#12290;
+    </p>
+    <p>
+      &#35774;&#32622;&#27493;&#39588;&#21442;&#32771;&#36339;&#36716;&#32467;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;vsftp&#x670d;&#x52a1;&#x5668;" ID="ID_1507365629" CREATED="1425033076399" MODIFIED="1425033148628"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23601;&#21487;&#20197;&#23433;&#35013;vsftpd&#30340;FTP&#26381;&#21153;&#22120;&#20102;&#12290;
+    </p>
+    <p>
+      opkg update
+    </p>
+    <p>
+      opkg install vsftpd
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19981;&#29992;&#20462;&#25913;&#37197;&#32622;&#65292;&#40664;&#35748;&#30340;&#37197;&#32622;&#19979;&#65292;&#31105;&#27490;&#21311;&#21517;&#30331;&#24405;&#65292;&#40664;&#35748;&#24320;&#25918;&#29992;&#25143;&#30331;&#24405;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4f7f;&#x7528;ushare&#x6784;&#x5efa;uPnP&#x670d;&#x52a1;&#x5668;&#x5171;&#x4eab;&#x89c6;&#x9891;&#x548c;&#x97f3;&#x4e50;" ID="ID_1036638506" CREATED="1425814215604" MODIFIED="1425818902166"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;openwrt&#19978;&#21487;&#20197;&#20351;&#29992;uShare&#36719;&#20214;&#26469;&#26500;&#24314;&#19968;&#20010;&#27969;&#23186;&#20307;&#26381;&#21153;&#22120;(uPnP Server)&#65292;&#36825;&#26679;&#30340;&#35805;&#65292;&#22788;&#20110;&#21516;&#19968;&#20010;&#23616;&#22495;&#32593;&#19978;&#30340;&#30005;&#33041;&#65292;&#26234;&#33021;&#30418;&#23376;&#65292;&#26234;&#33021;&#30005;&#35270;&#23601;&#33021;&#22815;&#27983;&#35272;&#24182;&#19988;&#25773;&#25918;&#36335;&#30001;&#22120;&#30340;&#23384;&#20648;&#19978;&#30340;&#35270;&#39057;&#25991;&#20214;&#20102;&#12290;
+    </p>
+    <p>
+      &#24819;&#19968;&#24819;&#65292;&#36825;&#20010;&#21151;&#33021;&#36824;&#26159;&#34542;&#19981;&#38169;&#30340;&#65292;&#32780;&#19988;&#25454;&#35828;&#23545;&#20110;&#31995;&#32479;&#30340;&#36127;&#36733;&#20063;&#27809;&#26377;&#20160;&#20040;&#24433;&#21709;(&#23454;&#38469;&#19978;,samba&#26381;&#21153;&#22120;&#20063;&#33021;&#22815;&#25903;&#25345;&#36825;&#26679;&#30340;&#21151;&#33021;)&#12290;
+    </p>
+    <p>
+      &#23433;&#35013;&#27493;&#39588;&#20063;&#24456;&#31616;&#21333;:
+    </p>
+    <p>
+      opkg udpate
+    </p>
+    <p>
+      opkg install ushare
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19978;&#38754;&#20004;&#20010;&#21629;&#20196;&#20043;&#21518;&#65292;&#23601;&#23433;&#35013;&#22909;&#20102;&#12290;&#22914;&#26524;&#38656;&#35201;&#24320;&#26426;&#23601;&#33258;&#21160;&#21551;&#21160;&#30340;&#35805;&#65292;&#25191;&#34892;&#19979;&#38754;&#30340;&#21629;&#20196;&#23601;&#34892;&#20102;:
+    </p>
+    <p>
+      /etc/init.d/ushare enable
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ushare&#30340;&#37197;&#32622;&#25991;&#20214;&#26159;:
+    </p>
+    <p>
+      /etc/config/ushare
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="ushare&#x7684;&#x914d;&#x7f6e;" ID="ID_354534630" CREATED="1425818520457" MODIFIED="1426319893169" LINK="#ID_1507896899"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37197;&#32622;&#25991;&#20214;/etc/config/ushare&#30340;&#20869;&#23481;&#30452;&#25509;&#25335;&#36125;&#22312;&#19979;&#38754;:
+    </p>
+    <p>
+      <font color="#0000ff"><i>config ushare </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option user 'nobody' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option servername 'OpenWrt' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option disable_telnet '1' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option disable_webif '1' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option enabled '1' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option username 'nobody' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option interface 'br-lan' </i></font>
+    </p>
+    <p>
+      <font color="#0000ff"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;list content_directories '/mnt/IDE_320G_Hitachi/video_no_compressed'</i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20854;&#20013;/mnt/data/v&#25351;&#21521;&#30340;&#30446;&#24405;&#26159;&#25346;&#36733;&#30340;U&#30424;&#37324;&#38754;&#30340;&#19968;&#20010;&#30446;&#24405;&#12290;
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;/mnt/data/v&#36825;&#20010;&#30446;&#24405;&#30340;&#26435;&#38480;&#38656;&#35201;&#35774;&#32622;&#25104;777&#12290;(&#32780;&#19988;/mnt/data&#30340;&#30446;&#24405;&#20063;&#35201;&#35774;&#32622;&#25104;777,&#27809;&#26377;&#39564;&#35777;&#36825;&#19968;&#27493;&#26159;&#19981;&#26159;&#24517;&#39035;&#30340;&#65292;&#25105;&#26159;&#36825;&#20040;&#25805;&#20316;&#30340;).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#65292;&#22312;&#23616;&#22495;&#32593;&#20013;&#65292;&#23601;&#21487;&#20197;&#20174;&#20854;&#20182;&#30340;&#35774;&#22791;&#19978;&#35775;&#38382;&#23384;&#25918;&#22312;/mnt/data/v&#37324;&#38754;&#30340;&#35270;&#39057;&#21644;&#38899;&#20048;&#20102;&#12290;
+    </p>
+    <p>
+      &#25805;&#20316;&#20063;&#24456;&#31616;&#21333;&#65292;&#22312;windows&#19978;&#65292;&#25171;&#24320;windows media player&#65292;&#24212;&#35813;&#23601;&#33021;&#21457;&#29616;&#22810;&#20986;&#26469;&#19968;&#20010;&#21483;&#20570;OpenWrt&#30340;&#23186;&#20307;&#24211;&#65292;&#22312;&#37324;&#38754;&#25628;&#32034;&#23601;&#33021;&#25214;&#21040;&#36335;&#30001;&#22120;&#37324;&#38754;&#30340;&#20869;&#23481;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;SYNCY&#x540c;&#x6b65;&#x767e;&#x5ea6;&#x7f51;&#x76d8;&#x6570;&#x636e;" ID="ID_808027836" CREATED="1424957314716" MODIFIED="1426598185430"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#29031;&#23448;&#32593;&#19978;&#30340;&#20171;&#32461;&#65292;&#23433;&#35013;&#20102;python&#29256;&#30340;SYNC&#36719;&#20214;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#23433;&#35013;&#26041;&#27861;&#21442;&#32771;&#19979;&#38754;&#30340;&#38142;&#25509;&#65292;&#23433;&#35013;&#30340;&#26159;python&#29256;&#30340;V2.1.2&#29256;&#26412;
+    </p>
+    <p>
+      http://syncyhome.duapp.com/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x589e;&#x52a0;&#x7528;&#x6237;&#x548c;&#x7ec4;&#x7528;&#x6237;" ID="ID_643323807" CREATED="1425120574040" MODIFIED="1426598185444"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#40664;&#35748;&#30340;&#22266;&#20214;&#20013;&#65292;openwrt&#26159;&#27809;&#27861;&#20351;&#29992;useradd&#21644;groupadd&#21629;&#20196;&#30340;&#65292;&#20063;&#23601;&#26159;&#35828;&#25972;&#20010;&#31995;&#32479;&#20013;&#21482;&#26377;&#19968;&#20010;root&#29992;&#25143;&#12290;&#21644;&#19968;&#20010;&#29992;&#25143;&#32452;root.
+    </p>
+    <p>
+      &#25152;&#20197;&#19981;&#33021;&#22815;&#33258;&#30001;&#30340;&#28155;&#21152;&#29992;&#25143;&#12290;&#36825;&#22312;&#26377;&#20123;&#24773;&#20917;&#19979;&#36824;&#26159;&#20250;&#26377;&#19968;&#20123;&#19981;&#26041;&#20415;&#65292;&#27604;&#22914;&#26550;&#35774;FTP&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#65292;&#19968;&#33324;&#23601;&#19981;&#24819;&#20351;&#29992;root&#29992;&#25143;&#26469;&#30331;&#24405;&#65292;&#22914;&#26524;&#26377;&#19968;&#20010;&#21478;&#22806;&#30340;&#20302;&#26435;&#38480;&#30340;&#29992;&#25143;&#30340;&#35805;&#65292;&#36824;&#26159;&#24456;&#22909;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;&#23376;&#32467;&#28857;&#20013;&#30340;&#21629;&#20196;&#21487;&#20197;&#23433;&#35013;&#22686;&#21152;&#29992;&#25143;&#21517;&#21644;&#32452;&#21517;&#30340;&#21629;&#20196;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#26368;&#32456;&#27809;&#26377;&#23433;&#35013;&#12290;&#24819;&#24819;&#36335;&#30001;&#22120;&#36824;&#26159;&#19981;&#35201;&#24324;&#36825;&#20040;&#22797;&#26434;&#21543;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x547d;&#x4ee4;" ID="ID_1512531917" CREATED="1425123611742" MODIFIED="1425814262604"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      opkg update
+    </p>
+    <p>
+      opkg install shadow-useradd
+    </p>
+    <p>
+      opkg install shadow-userdel
+    </p>
+    <p>
+      opkg install shadow-groupadd
+    </p>
+    <p>
+      opkg install shadow-groupdel
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x901a;&#x8fc7;PPTP&#x7ffb;&#x5899;" ID="ID_521559635" CREATED="1427373784972" MODIFIED="1427373802828"/>
+</node>
+<node TEXT="CubieBoard2&#x53cc;&#x5361;&#x7248;&#x914d;&#x7f6e;" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
+<node TEXT="&#x4f3c;&#x4e4e;&#x662f;&#x53cc;&#x5361;&#x7684;&#x4e00;&#x4e2a;&#x95ee;&#x9898;" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#21551;&#21160;&#30424;&#25554;&#20837;&#21551;&#21160;&#21345;,&#31995;&#32479;&#21487;&#20197;&#21551;&#21160;.
+    </p>
+    <p>
+      &#20294;&#26159;&#22914;&#26524;&#22312;DATA&#21345;&#26361;&#20063;&#25554;&#20837;&#19968;&#20010;&#25968;&#25454;&#21345;&#30340;&#35805;,&#31995;&#32479;&#23601;&#27809;&#27861;&#27491;&#24120;&#21551;&#21160;&#20102;.
+    </p>
+    <p>
+      &#36825;&#20010;&#38656;&#35201;&#35843;&#26597;&#19968;&#19979;,&#29616;&#22312;&#26242;&#26102;,&#21551;&#21160;&#21345;&#26377;30G,&#25152;&#20197;DATA&#23601;&#26242;&#26102;&#27809;&#26377;&#20160;&#20040;&#38656;&#27714;,&#23601;&#27809;&#26377;&#35843;&#26597;.
+    </p>
+    <p>
+      &#22914;&#26524;&#29992;&#21040;&#25968;&#25454;&#21345;&#30340;&#35805;,&#23601;&#38656;&#35201;&#35843;&#26597;&#19968;&#19979;,&#24590;&#20040;&#35299;&#20915;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x57fa;&#x672c;&#x914d;&#x7f6e;" ID="ID_1568576141" CREATED="1419751845757" MODIFIED="1419751849474">
+<node TEXT="&#x7ed9;CB2&#x914d;&#x7f6e;Debian&#x7684;&#x6e90;" ID="ID_1035546729" CREATED="1419689811369" MODIFIED="1419690227885" LINK="#ID_868438502"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#36339;&#36716;&#32467;&#28857;&#30340;&#20869;&#23481;.
+    </p>
+    <p>
+      &#21478;&#22806;&#34429;&#28982;&#20351;&#29992;apt-spy&#20043;&#21518;,&#33021;&#22815;&#25214;&#21040;&#26368;&#24555;&#30340;&#28304;.&#20294;&#26159;&#36824;&#26377;&#19968;&#31867;&#30340;&#36319;security&#30456;&#20851;&#30340;&#28304;,&#36824;&#26159;&#20174;&#40664;&#35748;&#30340;&#26381;&#21153;&#22120;&#19978;&#21435;&#19979;&#36733;&#26356;&#26032;.
+    </p>
+    <p>
+      &#25152;&#20197;&#36825;&#19968;&#37096;&#20998;&#36824;&#26159;&#24456;&#24930;.&#25152;&#20197;&#38656;&#35201;&#20063;&#22312;sources.list&#25991;&#20214;&#37324;&#38754;&#28155;&#21152;&#26368;&#24555;&#30340;security&#30340;&#28304;.
+    </p>
+    <p>
+      &#31034;&#20363;:
+    </p>
+    <p>
+      &#20351;&#29992;apt-spy&#26816;&#27979;&#20986;&#26469;&#30340;&#38024;&#23545;&#25105;&#30340;&#29615;&#22659;&#26368;&#24555;&#30340;&#28304;&#26159;&#20013;&#31185;&#22823;&#30340;&#28304;,&#23558;&#20013;&#31185;&#22823;&#30340;security&#30340;&#28304;&#20063;&#28155;&#21152;&#36827;&#26469;.
+    </p>
+    <p>
+      &#22312;sources.list&#25991;&#20214;&#37324;&#38754;&#28155;&#21152;&#22914;&#19979;&#38754;&#30340;&#19968;&#34892;(&#27880;&#24847;&#28155;&#21152;&#30340;&#36335;&#24452;&#26159;&#26597;&#30475;&#20102;&#20013;&#31185;&#22823;&#28304;&#30340;&#23384;&#25918;&#36335;&#24452;&#20043;&#21518;&#20316;&#20986;&#20102;&#30456;&#24212;&#30340;&#26356;&#25913;):
+    </p>
+    <p>
+      <font size="4" color="#0000cc"><b><i>deb ftp://debian.ustc.edu.cn/debian-security/ stable/updates main</i></b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4fee;&#x6539;&#x65f6;&#x533a;" ID="ID_732122674" CREATED="1419690544453" MODIFIED="1419751852340"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;,&#28982;&#21518;&#25361;&#36873;&#23601;&#34892;&#20102;:
+
+    <p>
+      <font color="#0000cc" size="4"><b><i>sudo dpkg-reconfigure tzdata </i></b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="root&#x5bc6;&#x7801;" ID="ID_813745470" CREATED="1419750685232" MODIFIED="1421069322058"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      flyingproudeng21181013
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x53d6;&#x6d88;DHCP&#x914d;&#x7f6e;&#x9759;&#x6001;IP" ID="ID_1706507313" CREATED="1419751859635" MODIFIED="1419752010452"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CB2&#40664;&#35748;&#26159;DHCP&#33719;&#21462;IP&#30340;,&#25105;&#24819;&#35201;&#32473;&#23427;&#35774;&#32622;&#38745;&#24577;IP.
+    </p>
+    <p>
+      &#32534;&#36753;/etc/network/interfaces&#25991;&#20214;,&#23545;eth0&#20462;&#25913;&#22914;&#19979;:
+    </p>
+    <p>
+      <font size="4" color="#cc0000"><b>#iface eth0 inet dhcp</b></font>
+    </p>
+    <p>
+      <font size="4" color="#000099"><b>iface eth0 inet static </b></font>
+    </p>
+    <p>
+      <font size="4" color="#000099"><b>address 192.168.1.100 </b></font>
+    </p>
+    <p>
+      <font size="4" color="#000099"><b>netmask 255.255.255.0 </b></font>
+    </p>
+    <p>
+      <font size="4" color="#000099"><b>gateway 192.168.1.1</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20462;&#25913;CB2&#30340;IP&#20026;192.168.1.100
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;&#x670d;&#x52a1;&#x5668;" ID="ID_1926288953" CREATED="1424870214910" MODIFIED="1424870220236">
+<node TEXT="Lighttpd&#x5b89;&#x88c5;" ID="ID_16511115" CREATED="1424870235531" MODIFIED="1424873957519"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000099"><i><b>aptitude install lighttpd</b></i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Mysql&#x5b89;&#x88c5;" ID="ID_952792482" CREATED="1424873959202" MODIFIED="1424873981510"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000099"><i><b>aptitude install mysql-server</b></i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="root&#x7528;&#x6237;&#x5bc6;&#x7801;" ID="ID_1074089484" CREATED="1424873983334" MODIFIED="1424873997544"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      flyingproudeng21181013
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

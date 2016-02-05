@@ -1,6 +1,6 @@
-<map version="freeplane 1.2.0">
+<map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="RICM&amp;RICR" ID="ID_1723258490" CREATED="1320385288461" MODIFIED="1381242810719"><hook NAME="MapStyle">
+<node TEXT="RICM&amp;RICR" ID="ID_1723258490" CREATED="1320385288461" MODIFIED="1427422893520"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -65,6 +65,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <font SIZE="14"/>
 <node TEXT="&#x56fe;&#x6807;&#x8bf4;&#x660e;" POSITION="right" ID="ID_122589737" CREATED="1328236503537" MODIFIED="1328236506992">
@@ -1850,8 +1851,12 @@
 <node TEXT="OSE Arch" ID="ID_618585354" CREATED="1356997504514" MODIFIED="1356997581304" LINK="../RICR_document_base/book-arch.pdf"/>
 <node TEXT="OSE Core Component" ID="ID_263243808" CREATED="1356997523585" MODIFIED="1356997589514" LINK="../RICR_document_base/book-core-comp.pdf"/>
 <node TEXT="OSE Core Component extent" ID="ID_1399330344" CREATED="1356997533369" MODIFIED="1356997597854" LINK="../RICR_document_base/book-core-ext-comp.pdf"/>
+<node TEXT="&#x67e5;&#x627e;OSE&#x7684;ErrorCode" ID="ID_1587824634" CREATED="1393556771800" MODIFIED="1393556779878">
+<node TEXT="ErrorCode&#x7684;&#x683c;&#x5f0f;&#x5728;&#x8fd9;&#x4e2a;&#x6587;&#x6863;&#x4e2d;&#x627e;&#x5230;" ID="ID_1680845926" CREATED="1393556783234" MODIFIED="1393556792752"/>
+<node TEXT="ErrorCode&#x7684;&#x5b9a;&#x4e49;&#x5728;&#x8fd9;&#x4e2a;&#x6587;&#x6863;&#x4e2d;" ID="ID_716349197" CREATED="1393556793237" MODIFIED="1393556801666"/>
 </node>
-<node TEXT="NCI&#x4ecb;&#x7ecd;&#x6027;&#x6587;&#x6863;" POSITION="left" ID="ID_813555710" CREATED="1333020527121" MODIFIED="1333020911556"><richcontent TYPE="NOTE">
+</node>
+<node TEXT="NCI&#x4ecb;&#x7ecd;&#x6027;&#x6587;&#x6863;" POSITION="left" ID="ID_813555710" CREATED="1333020527121" MODIFIED="1422517519065"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3218,7 +3223,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 </richcontent>
 </node>
 <node TEXT="CPRI Specification" ID="ID_1756178950" CREATED="1322445327326" MODIFIED="1322445333340">
-<node TEXT="IWD L2 Radio Interface(CPRI)" ID="ID_46792926" CREATED="1326857190101" MODIFIED="1340786786934" LINK="../RICM_document_base/CPRI&#x534f;&#x8bae;/CPRI&#x534f;&#x8bae;_1_15519-HRB105600.doc"><richcontent TYPE="NOTE">
+<node TEXT="IWD L2 Radio Interface(CPRI)" ID="ID_46792926" CREATED="1326857190101" MODIFIED="1397120470513" LINK="../RICM_document_base/CPRI&#x534f;&#x8bae;/CPRI&#x534f;&#x8bae;_1_15519-HRB105600.doc"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5479,7 +5484,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_596439522" STARTINCLINATION="0;0;" ENDINCLINATION="0;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="LINE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_596439522" STARTINCLINATION="0;0;" ENDINCLINATION="0;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="LTU&#x7684;&#x6982;&#x5ff5;?" ID="ID_754949573" CREATED="1331029004124" MODIFIED="1331029010641"/>
 </node>
 <node TEXT="4.Software Structure" ID="ID_1699028820" CREATED="1330938062786" MODIFIED="1331040546344"><richcontent TYPE="NOTE">
@@ -6235,7 +6240,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 <node TEXT="HDLC&#x4ecb;&#x7ecd;&#x6027;&#x6587;&#x6863;" ID="ID_1879007367" CREATED="1356906603454" MODIFIED="1356906620887" LINK="#ID_785034644"/>
 <node TEXT="IWD RICR Application Dependencies" ID="ID_1688955859" CREATED="1331297304002" MODIFIED="1339399767956" LINK="../RICR_document_base/IWD_RICR_Application_dependencies.pdf"/>
 <node TEXT="WARP3 User Guide" ID="ID_1214797618" CREATED="1331649480576" MODIFIED="1339399780175" LINK="../RICR_document_base/WARP3_User_Guide.pdf"/>
-<node TEXT="Radio Architecture and functions" ID="ID_1356703367" CREATED="1332846206001" MODIFIED="1356905884655" LINK="../RICR_document_base/Radio%20Architecture%20and%20functions.pdf"><richcontent TYPE="NOTE">
+<node TEXT="Radio Architecture and functions" ID="ID_1356703367" CREATED="1332846206001" MODIFIED="1422517513713" LINK="../RICR_document_base/Radio%20Architecture%20and%20functions.pdf"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6263,7 +6268,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 <node TEXT="WARP 3.5 User Guide" ID="ID_1693365330" CREATED="1353425861126" MODIFIED="1353425950782" LINK="../RICR_document_base/WARP3_5_User_Guide.doc"/>
 <node TEXT="IWD RICI" ID="ID_1365848971" CREATED="1334846613051" MODIFIED="1339399851527" LINK="../RICR_document_base/IWD_RICI.doc"/>
 <node TEXT="IWD RICRAI" ID="ID_1388100659" CREATED="1334846624525" MODIFIED="1339399862615" LINK="../RICR_document_base/IWD_RICRAI.doc"/>
-<node TEXT="EL1CI&#x63a5;&#x53e3;" ID="ID_1389031119" CREATED="1341991190716" MODIFIED="1341991613741" LINK="#ID_1987177127"><richcontent TYPE="NOTE">
+<node TEXT="EL1CI&#x63a5;&#x53e3;" ID="ID_1389031119" CREATED="1341991190716" MODIFIED="1422517514919" LINK="#ID_1987177127"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6279,7 +6284,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 </node>
 <node TEXT="SFP Spec" ID="ID_571493066" CREATED="1353486824394" MODIFIED="1353486883853" LINK="../RICR_document_base/SFP&#x89c4;&#x683c;.pdf"/>
 <node TEXT="SFP IWD" ID="ID_372839947" CREATED="1353486832373" MODIFIED="1353486893931" LINK="../RICR_document_base/SFP_IWD.pdf"/>
-<node TEXT="(old) 2-Way CPRI Introduction" ID="ID_1904547641" CREATED="1354099561140" MODIFIED="1354099714075" LINK="../RICR_document_base/2-way_CPRI1.ppt"><richcontent TYPE="NOTE">
+<node TEXT="(old) 2-Way CPRI Introduction" ID="ID_1904547641" CREATED="1354099561140" MODIFIED="1422517515423" LINK="../RICR_document_base/2-way_CPRI1.ppt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6298,7 +6303,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 <node TEXT="XIO_Frame" ID="ID_1288043681" CREATED="1362359307330" MODIFIED="1362359359072" LINK="../RICR_document_base/XIO_Frame_8_15519-CRH1090445.doc"/>
 <node TEXT="[by Phillip]RICR Regression test process" ID="ID_93213079" CREATED="1363758753546" MODIFIED="1372732586243" LINK="../RICR_document_base/StepsOfRegressionTestForClassicRICR-PA4.doc"/>
 <node TEXT="NDS:RBS6000 with RRUS31" ID="ID_1972358435" CREATED="1365647745183" MODIFIED="1365647815618" LINK="../RICR_document_base/NDS%20RBS%206000%20with%20RRUS%2031%20B25%20MSMM%20L+C.doc"/>
-<node TEXT="[by Phillip]Erlang&#x5b66;&#x4e60;&#x6587;&#x6863;&#x96c6;&#x5408;" ID="ID_162035296" CREATED="1366167716479" MODIFIED="1366168417841" LINK="../MiscDocuments/Erlang_material.msg"><richcontent TYPE="NOTE">
+<node TEXT="[by Phillip]Erlang&#x5b66;&#x4e60;&#x6587;&#x6863;&#x96c6;&#x5408;" ID="ID_162035296" CREATED="1366167716479" MODIFIED="1422517516169" LINK="../MiscDocuments/Erlang_material.msg"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6328,7 +6333,7 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
 </node>
 </node>
 </node>
-<node TEXT="RICR&#x529f;&#x80fd;" POSITION="left" ID="ID_1448966896" CREATED="1332407833788" MODIFIED="1341294012562"><richcontent TYPE="NOTE">
+<node TEXT="RICR&#x529f;&#x80fd;" POSITION="left" ID="ID_1448966896" CREATED="1332407833788" MODIFIED="1422517516575"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10471,8 +10476,8 @@ style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></spa
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1850508515" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_863927945" MIDDLE_LABEL="CPRI0_STATUS_HFN_SYNC&#x4e2d;&#x65ad;&#x53d1;&#x751f;" STARTINCLINATION="70;0;" ENDINCLINATION="70;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x63a5;&#x6536;&#x5230;RICR_INTERNAL_CONT_LINK_SETUP&#x6d88;&#x606f;&#x540e;&#x7684;&#x64cd;&#x4f5c;" ID="ID_707530146" CREATED="1335189178372" MODIFIED="1335191062078"><richcontent TYPE="NOTE">
 
 <html>
@@ -19860,7 +19865,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </node>
 </node>
 </node>
-<node TEXT="[RICR]TR-HQ71745&#x5b9e;&#x73b0;" POSITION="right" ID="ID_761937761" CREATED="1358172528516" MODIFIED="1362108677286"><richcontent TYPE="NOTE">
+<node TEXT="[RICR]TR-HQ71745&#x5b9e;&#x73b0;" POSITION="right" ID="ID_761937761" CREATED="1358172528516" MODIFIED="1420349165422"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -20111,7 +20116,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </node>
 <node TEXT="&#x95ee;&#x9898;&#x7684;&#x8868;&#x73b0;&#x4ee5;&#x53ca;&#x5206;&#x6790;" ID="ID_822513006" CREATED="1374657124928" MODIFIED="1374657170286"/>
 </node>
-<node TEXT="&#x3010;RICR&#x3011;TR-HR44218&#x5b9e;&#x73b0;" POSITION="right" ID="ID_1604171095" CREATED="1377568497447" MODIFIED="1377571507445"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;RICR&#x3011;TR-HR44218&#x5b9e;&#x73b0;" POSITION="right" ID="ID_1604171095" CREATED="1377568497447" MODIFIED="1420349166112"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -26773,7 +26778,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5728;&#x5f53;&#x524d;&#x76ee;&#x5f55;&#x4e0b;&#x627e;&#x51fa;&#x6240;&#x6709;&#x6587;&#x4ef6;(&#x5143;&#x7d20;),&#x89c4;&#x5219;&#x662f;&#x9009;&#x53d6;&#x6307;&#x5b9a;branch&#x4e0a;&#x7684;LATEST&#x5143;&#x7d20;" ID="ID_431991991" CREATED="1356622519000" MODIFIED="1356622668684"><richcontent TYPE="NOTE">
+<node TEXT="&#x5728;&#x5f53;&#x524d;&#x76ee;&#x5f55;&#x4e0b;&#x627e;&#x51fa;&#x6240;&#x6709;&#x6587;&#x4ef6;(&#x5143;&#x7d20;),&#x89c4;&#x5219;&#x662f;&#x9009;&#x53d6;&#x6307;&#x5b9a;branch&#x4e0a;&#x7684;LATEST&#x5143;&#x7d20;" ID="ID_431991991" CREATED="1356622519000" MODIFIED="1399531897423"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -26781,7 +26786,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
   </head>
   <body>
     <p>
-      <font color="#003399" size="4"><b>cleartoll find . -version 'version(.../put_branch_name_here/LATEST)' -print</b></font>
+      <b><font color="#003399" size="4">cleartool find . -version 'version(.../put_branch_name_here/LATEST)' -print</font></b>
     </p>
   </body>
 </html>
@@ -26904,7 +26909,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5982;&#x4f55;&#x627e;&#x5230;&#x8f6f;&#x4ef6;&#x9879;&#x76ee;&#x4f9d;&#x8d56;&#x7684;&#x6240;&#x6709;&#x5934;&#x6587;&#x4ef6;" ID="ID_53710662" CREATED="1383239471939" MODIFIED="1383239895243"><richcontent TYPE="NOTE">
@@ -26946,7 +26950,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -27226,7 +27229,7 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
 </node>
 </node>
 </node>
-<node TEXT="Git+Source Insight&#x5728;&#x672c;&#x5730;&#x7f16;&#x8f91;&#x4ee3;&#x7801;" ID="ID_1055296363" CREATED="1354902121857" MODIFIED="1354902306494">
+<node TEXT="Git+Source Insight&#x5728;&#x672c;&#x5730;&#x7f16;&#x8f91;&#x4ee3;&#x7801;" ID="ID_1055296363" CREATED="1354902121857" MODIFIED="1398761985608">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
@@ -27340,7 +27343,6 @@ style='mso-bookmark:_Ref292462443'></span><span style='mso-element:field-end'></
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

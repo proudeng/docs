@@ -1,4 +1,4 @@
-<map version="freeplane 1.2.0">
+<map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="GSM BTS Radio" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387434465394"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false"/>
@@ -50,7 +50,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="1"/>
 <node TEXT="GSM_PreStudy_before_Travel_to_Kista" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1381543833785">
 <edge COLOR="#ff0000"/>
 <node TEXT="dTRU&#x5185;&#x90e8;&#x5404;&#x6a21;&#x5757;&#x7684;&#x4e3b;&#x8981;&#x529f;&#x80fd;" ID="ID_568949512" CREATED="1381568075000" MODIFIED="1381568265362" LINK="../pub/dTRU_structure.pdf"><richcontent TYPE="NOTE">
@@ -89,8 +89,38 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" POSITION="right" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1383579429958">
-<edge COLOR="#00ffff"/>
+<node TEXT="&#x5b9e;&#x9645;&#x5de5;&#x4f5c;" POSITION="right" ID="ID_1633212834" CREATED="1393846778593" MODIFIED="1393846785077">
+<edge COLOR="#7c007c"/>
+<node TEXT="Tips&amp;Tricks" ID="ID_979848708" CREATED="1399442837554" MODIFIED="1399442844664">
+<node TEXT="Log&#x4e2d;&#x67e5;&#x770b;TRX-MCTR&#x6620;&#x5c04;&#x5173;&#x7cfb;&#x4ee5;&#x53ca;&#x5efa;&#x7acb;Carrier&#x7684;&#x6570;&#x91cf;" ID="ID_1175613359" CREATED="1399442870522" MODIFIED="1399448397653" LINK="../OneNote/TRX-MCTR-Carrier_mapping.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#20309;&#26597;&#30475;DUG&#19978;&#38754;&#30340;12&#20010;TRX&#26159;&#22914;&#20309;&#26144;&#23556;&#21040;&#22810;&#20010;RUS&#19978;&#30340;&#21602;&#65311;
+    </p>
+    <p>
+      &#20063;&#23601;&#26159;&#22914;&#20309;&#26597;&#30475;TRX-MCTR&#20043;&#38388;&#30340;&#26144;&#23556;&#20851;&#31995;&#21602;&#65311;
+    </p>
+    <p>
+      &#21442;&#32771;&#38468;&#20214;&#20013;&#30340;onenote&#31508;&#35760;&#12290;
+    </p>
+    <p>
+      &#26041;&#27861;&#26469;&#33258;Daniel&#21644;Grick.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Feature/CR/TR" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
+<node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
 <node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
 <node TEXT="PSR of DMM for AIR" ID="ID_365489858" CREATED="1383579025498" MODIFIED="1384743721368" LINK="../GSM_document_base/38_0363-110_FCP1307999_Uen_PA11.doc"><richcontent TYPE="NOTE">
 
@@ -194,6 +224,854 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="CR for US3" ID="ID_1105717939" CREATED="1391999613558" MODIFIED="1391999666737"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;feature&#30340;US3&#26159;&#36319;RC SW&#30456;&#20851;&#30340;&#65292;&#38656;&#35201;RC SW&#20570;&#20986;&#19968;&#20123;&#25913;&#21160;&#12290;
+    </p>
+    <p>
+      &#21019;&#24314;&#30340;CR&#21495;&#26159;7271,CR&#30340;id&#21495;&#26159;6223.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CR&#x5904;&#x7406;&#x7684;Tips&#x548c;&#x611f;&#x60f3;" ID="ID_1250568093" CREATED="1391999676404" MODIFIED="1391999688179"/>
+<node TEXT="&#x751f;&#x6210;CR&#x7684;Activity&#x6587;&#x6863;" ID="ID_851082327" CREATED="1393240847057" MODIFIED="1393241093149" LINK="#ID_1544703732"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;Model&#20462;&#25913;&#23436;&#25104;&#20043;&#21518;&#65292;&#35201;&#29983;&#25104;&#25913;&#21160;&#25991;&#26723;&#65292;&#21483;&#20570;Activity&#25991;&#26723;&#35753;&#21035;&#20154;review.
+    </p>
+    <p>
+      &#25991;&#26723;&#30340;&#29983;&#25104;&#26041;&#27861;&#21442;&#32771;&#36339;&#36716;&#32467;&#28857;&#30340;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x3010;Feature&#x3011;Soft Sync Over IDL2" ID="ID_687694711" CREATED="1399965301964" MODIFIED="1399965319681">
+<node TEXT="PSR" ID="ID_1926351520" CREATED="1399965321917" MODIFIED="1399965358943" LINK="../GSM_document_base/2_PB1_PSR%20BTS%20Soft%20Synchronization%20over%20IDL2.doc"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#37324;&#30340;&#25991;&#26723;&#26159;PB2&#30340;Pre Study Report
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;CR&#x3011;CR12220" ID="ID_1590583286" CREATED="1393834497085" MODIFIED="1399442855910"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#26159;Lisa Xu&#30340;&#19968;&#20010;&#38656;&#35201;SwA&#21442;&#19982;&#30340;&#19968;&#20010;CR&#20998;&#26512;&#24037;&#20316;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x90ae;&#x4ef6;&#x4fe1;&#x606f;" ID="ID_1366087311" CREATED="1393834521612" MODIFIED="1393834757862" LINK="../MiscDocuments/question_on_CR12245Enable_LOAD_on_RxAOut_on_plf5.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20851;&#20110;CR&#30340;&#20449;&#24687;&#22312;&#36825;&#20010;&#37038;&#20214;&#20013;&#33021;&#22815;&#25214;&#21040;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8ddf;Jimmi&#x7684;&#x8ba8;&#x8bba;&#x7ed3;&#x679c;" ID="ID_1996930346" CREATED="1393834626562" MODIFIED="1393834695761"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-right: 0in; margin-left: 0in; margin-top: 0in; margin-bottom: .0001pt" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[11:16 AM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RX_PORT_CABLE_SUPERVISION_LOAD<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA2<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[1:51 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20320;&#35828;&#30340;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">capability</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25105;&#27809;&#25214;&#21040;&#20040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26159;&#22312;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TR</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25509;&#21475;&#37324;&#38754;&#30340;&#20040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[1:51 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20320;&#31245;&#31561;&#19968;&#19979;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[1:51 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[1:56 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span>capabilityIdentity =&gt; 4 capabilityLength =&gt; 200 DcTrsCapabilities =&gt; { crossConnectRfPortChar =&gt; { numberOfCrossConnectRfPorts =&gt; 3 capabilityCrossConnectPortArray =&gt; [ { describedRfPort =&gt; 0 signalDirectionCapability =&gt; 2 rxPortCableSupervisionDetect =&gt; 1 rxPortCableSupervisionLoad =&gt; 1 rxMinGainAntennaPortToCrossConnectPort =&gt; -110 rxMaxGainAntennaportToCrossConnectPort =&gt; 170 rxTargetAnpGainPlusAntennaPortToCrossConnectOutputPortGain =&gt; 170 rxMaximumGainArpToCrossConnectInputPort =&gt; 170 }, {&#160;</span><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">capabilityIdentity =&gt; 4<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;capabilityLength =&gt; 200<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DcTrsCapabilities =&gt; {<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;crossConnectRfPortChar =&gt; {<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;numberOfCrossConnectRfPorts =&gt; 3<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;capabilityCrossConnectPortArray =&gt; [ {<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;describedRfPort =&gt; 0<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;signalDirectionCapability =&gt; 2<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rxPortCableSupervisionDetect =&gt; 1<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rxPortCableSupervisionLoad =&gt; 1<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rxMinGainAntennaPortToCrossConnectPort =&gt; -110<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rxMaxGainAntennaportToCrossConnectPort =&gt; 170<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rxTargetAnpGainPlusAntennaPortToCrossConnectOutputPortGain =&gt; 170<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rxMaximumGainArpToCrossConnectInputPort =&gt; 170<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22312;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_GET_CAPABILITIES_CFM<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#28040;&#24687;&#37324;&#22238;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[1:59 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;&#65292;&#22909;&#30340;&#65292;&#25105;&#26469;&#30475;&#30475;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36824;&#26377;&#65292;&#22914;&#26524;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cable</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26377;&#38169;&#30340;&#35805;&#65292;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20250;&#19978;&#25253;&#19968;&#20010;&#20160;&#20040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">fault</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20040;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[1:59 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23601;&#26159;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">describedRfPort =&gt; 1rxPortCableSupervisionLoad&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#31245;&#31561;&#19979;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB_DC_FAULT_IND,&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">faultDescription = &quot;Cable fault [ CB1 ]&quot;&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:02 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_GET_CAPABILITIES_REQ</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#28040;&#24687;&#26159;&#23545;&#27809;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21457;&#19968;&#27425;&#65292;&#36824;&#26159;&#23545;&#27599;&#20010;&#21475;&#37117;&#21457;&#19968;&#27425;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;&#65292;&#24212;&#35813;&#26159;&#27599;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21457;&#19968;&#20010;&#36825;&#20010;&#28040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#24687;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black" lang="ZH-CN">&#160;</span><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:03 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26159;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">.<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;&#26159;&#36825;&#26679;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36890;&#24120;&#19968;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">radio</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26377;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA1,CA2, CB1, </span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20998;&#21035;&#23545;&#24212;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">describedRfPort&#160;0, 1,2<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:03 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:03 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22312;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_GET_CAPABILITIES_CFM&#160;</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20381;&#27425;&#25253;&#21508;&#20010;&#21475;&#30340;&#33021;&#21147;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:05 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">describedRfPort =&gt; 0&#160;</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21644;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">describedRfPort =&gt; 1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20043;&#38388;&#30340;&#23601;&#26159;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">0</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;&#33021;&#21147;&#65292;&#26159;&#21543;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:05 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23545;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA2</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21475;&#21602;&#21644;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA1,CB1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#19981;&#19968;&#26679;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:05 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21999;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:06 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20027;&#35201;&#26159;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">signalDirectionCapability&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21644;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CB1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#19968;&#33324;&#26082;&#21487;&#20197;&#37197;&#25104;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">in,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20063;&#21487;&#20197;&#37197;&#25104;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">out<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA2<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21482;&#33021;&#37197;&#25104;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">out<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20320;&#20204;&#27979;&#35797;&#30340;&#26102;&#20505;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25226;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA2<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21644;&#21478;&#19968;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA1,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25110;&#32773;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CB1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36830;&#36215;&#26469;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">(</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23454;&#38469;&#19978;&#20026;&#20102;&#22270;&#30465;&#20107;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20063;&#21487;&#20197;&#21644;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25110;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CB1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#32852;&#36215;&#26469;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">)<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:08 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:08 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#28982;&#21518;&#21457;&#20010;&#28040;&#24687;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25226;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA2</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37197;&#25104;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">out,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37027;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25110;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CB1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37197;&#25104;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">in<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:09 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#27979;&#20160;&#20040;&#21602;&#65292;&#27979;&#35797;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cable</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25300;&#25481;&#20160;&#20040;&#30340;&#20250;&#19981;&#20250;&#26377;&#25253;&#35686;&#20040;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:09 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cable</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26816;&#27979;&#34542;&#22855;&#24618;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23601;&#26159;&#23427;&#21482;&#22312;&#37197;&#25104;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">in</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;&#21475;&#26816;&#27979;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21999;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25300;&#20102;&#20043;&#21518;&#23601;&#26377;&#21018;&#25165;&#36825;&#20010;&#21578;&#35686;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB_DC_FAULT_IND,&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">faultDescription = &quot;Cable fault [ CB1 ]&quot;&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20320;&#30475;&#36825;&#26159;&#22312;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CB1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#19978;&#26816;&#27979;&#21040;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:10 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21482;&#35201;&#27979;&#36825;&#20010;&#23601;&#21487;&#20197;&#20102;&#26159;&#21543;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:10 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26159;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:11 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">OK</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#65292;&#22810;&#35874;&#65281;&#25105;&#20877;&#30631;&#30631;&#65292;&#26377;&#38382;&#39064;&#20877;&#38382;&#20320;&#38463;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:11 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22909;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#19981;&#23458;&#27668;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:13 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;&#65292;&#23545;&#20102;&#65292;&#36824;&#26377;&#19968;&#20010;&#38382;&#39064;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22312;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25910;&#21040;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CFM</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#28040;&#24687;&#65292;&#30693;&#36947;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA2</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26377;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">capability</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20043;&#21518;&#65292;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">W</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37027;&#36793;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20250;&#20570;&#20160;&#20040;&#25805;&#20316;&#21602;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20250;&#37197;&#32622;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CA2</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20026;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">out</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20040;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36824;&#26159;&#35828;&#65292;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20160;&#20040;&#37117;&#19981;&#29992;&#20570;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">?<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:14 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#31245;&#31561;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:16 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36824;&#26377;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cbleELIB_DC_FAULT_IND<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:16 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20854;&#23454;&#36825;&#20010;&#23601;&#26159;&#25105;&#20204;&#24819;&#38382;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:16 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cable</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22312;&#20986;&#38169;&#30340;&#26102;&#20505;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black" lang="ZH-CN">&#160; </span><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB_DC_FAULT_IND<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;&#28040;&#24687;&#24102;&#30340;&#21442;&#25968;&#26159;&#21861;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:17 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;&#23601;&#26159;&#25105;&#20204;&#30340;&#38382;&#39064;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25105;&#20204;&#23601;&#26159;&#24576;&#30097;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#24403;&#21021;&#25105;&#20204;&#27809;&#26377;&#25253;&#37027;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cap,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25152;&#20197;&#20320;&#20204;&#27809;&#26377;&#24320;&#30417;&#25511;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">[3] Received: ELIB_DC_FAULT_IND -&#160;Options: client=&gt;client2, timeout=&gt;60000<br/>&#160;Elapsed receive time: 3497ms<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sigNo = 23432198&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addressInfo =&gt;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clientRef = 1&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;serverRef = 302&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;faultId = 263&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;additionalDataLength = 1&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;additionalData = [2, 29242, 8246, 13622, 13113, 8259, 17992, 17759, 17985, 21836, 21599, 18766, 17458, 8306, 25955, 25961]&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;faultDescription = &quot;Cable fault [ CB1 ]&quot;&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;padding0 = 8297&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;faultCase = 331&#160;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;padding1 = 25441&#160;&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;&#28040;&#24687;&#21442;&#25968;&#23601;&#26159;&#19968;&#20123;&#38169;&#35823;&#25551;&#36848;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:18 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22914;&#26524;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#36793;&#27809;&#26377;&#24320;&#30417;&#25511;&#30340;&#35805;&#65292;&#20250;&#26377;&#20160;&#20040;&#32467;&#26524;&#21602;&#65311;&#21363;&#20351;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;&#28040;&#24687;&#20256;&#21040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#65292;&#20063;&#19981;&#20250;&#26377;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">fault</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25253;&#19978;&#26469;&#20040;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:19 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22914;&#26524;&#29992;&#20102;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">crossconnect ,DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#24212;&#35813;&#20250;&#21457;&#36825;&#20010;&#28040;&#24687;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_CROSS_CONNECT_CABLE_SUPERVISION_REQ<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:19 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#28982;&#21518;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23601;&#20250;&#30417;&#25511;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">CB1</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21475;&#26159;&#21543;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22312;&#25910;&#21040;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">REQ</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20043;&#21518;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:20 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22914;&#26524;&#27809;&#24320;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37027;&#20040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">radio</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23601;&#19981;&#20250;&#30417;&#25511;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37027;&#20040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cable</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#34987;&#25300;&#20102;&#20043;&#21518;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,raido</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20063;&#19981;&#30693;&#36947;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25152;&#20197;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20063;&#19981;&#30693;&#36947;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#26679;&#21487;&#33021;&#36896;&#25104;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">sleeping cel<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cell<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23545;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:21 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;&#65292;&#22823;&#27010;&#28165;&#26970;&#20102;&#65292;&#27491;&#24120;&#30340;&#35805;&#65292;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20808;&#36890;&#36807;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">capblity</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25226;&#36825;&#20010;&#21151;&#33021;&#21578;&#35785;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#65292;&#28982;&#21518;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36890;&#36807;&#21457;&#19978;&#38754;&#30340;&#37027;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">supervision_req</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#28040;&#24687;&#36890;&#36807;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25171;&#24320;&#30417;&#25511;&#65292;&#28982;&#21518;&#65292;&#22914;&#26524;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26816;&#27979;&#21040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cable</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26377;&#38382;&#39064;&#30340;&#35805;&#65292;&#23601;&#20250;&#19978;&#25253;&#37027;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;&#38169;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:22 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21999;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25105;&#20204;&#26159;&#36825;&#26679;&#29468;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20294;&#26159;&#25105;&#20204;&#30475;&#19981;&#21040;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;&#20195;&#30721;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#19981;&#30693;&#36947;&#26159;&#19981;&#26159;&#36825;&#26679;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:22 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22914;&#26524;&#19968;&#24320;&#22987;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#27809;&#26377;&#19978;&#25253;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">capbility</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#65292;&#25110;&#32773;&#21363;&#20351;&#19978;&#25253;&#20102;&#65292;&#20294;&#26159;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#27809;&#26377;&#36890;&#30693;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21435;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">supervise</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">cable</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#65292;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">RU</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23601;&#19981;&#20250;&#21435;&#30417;&#25511;&#26159;&#21527;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:23 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23545;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:23 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25152;&#20197;&#20063;&#19981;&#20250;&#26377;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#30340;&#38169;&#19978;&#25253;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:23 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23545;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:23 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25105;&#36825;&#36793;&#26377;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">GSM</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#36793;&#30340;&#20195;&#30721;&#65292;&#25105;&#21487;&#20197;&#30475;&#30475;&#65292;&#36825;&#36793;&#25910;&#21040;&#20102;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">capbility</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#20043;&#21518;&#20250;&#20570;&#20160;&#20040;&#25805;&#20316;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:23 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21999;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37027;&#23601;&#22909;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:24 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p>
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_CROSS_CONNECT_CABLE_SUPERVISION_REQ&#160;</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#26159;&#21738;&#20010;&#37096;&#20998;&#30340;&#36719;&#20214;&#21457;&#30340;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black" lang="ZH-CN">&#160; </span><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:24 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">du<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:24 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21999;&#65292;&#25105;&#20808;&#26597;&#26597;&#30475;&#65292;&#36825;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36319;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TR</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#19981;&#26159;&#19968;&#20010;&#25509;&#21475;&#21543;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black" lang="ZH-CN">&#160; </span><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:25 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#24212;&#35813;&#31867;&#20284;&#21543;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25105;&#19981;&#25026;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">,</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21621;&#21621;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:25 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21734;&#65292;&#22909;&#21543;&#65292;&#22810;&#35874;&#20102;&#65292;&#25105;&#20877;&#26469;&#30475;&#30475;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jimmy QING</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[2:25 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#22909;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4e0e;Weiqing&#x5173;&#x4e8e;&#x6d4b;&#x8bd5;&#x7528;&#x4f8b;&#x7684;&#x8ba8;&#x8bba;&#x7ed3;&#x679c;" ID="ID_1485111612" CREATED="1393834634700" MODIFIED="1393834717583"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:17 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_CROSS_CONNECT_CABLE_SUPERVISION_REQ<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_GET_CAPABILITIES_CFM&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p>
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">rxPortCableSupervisionLoad&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">rxPortCableSupervisionDetect&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36824;&#33021;&#24110;&#24537;&#30475;&#30475;&#27979;&#35797;&#29992;&#20363;&#37324;&#38754;&#26377;&#27809;&#26377;&#28041;&#21450;&#21040;&#19978;&#38754;&#30340;&#20004;&#20010;&#28040;&#24687;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p>
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#23601;&#26159;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_CROSS_CONNECT_CABLE_SUPERVISION_REQ</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21644;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">DC_TRS_GET_CAPABILITIES_CFM<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Weiqing XI</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:23 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#27809;&#29992;&#21040;&#36825;&#20004;&#20010;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25105;&#38656;&#35201;&#25214;&#19968;&#19979;&#21035;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">case</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#37324;&#26159;&#21542;&#26377;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:24 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p>
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25110;&#32773;&#26377;&#27809;&#26377;&#27979;&#35797;&#29992;&#20363;&#27979;&#35797;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB_DC_FAULT_IND&#160;</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;&#28040;&#24687;&#20013;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">ELIB_CONST_FH_FAULT_ID_CROSS_CONNECT_CABLE_FAULT</span></font><font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;&#38169;&#30340;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Weiqing XI</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:29 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">element * RVP3_G14A.P1A<br/><br/># RC<br/>element * RC_PS3_G14A.P1J<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:31 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36335;&#24452;&#26159;&#21861;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#19981;&#29992;&#20102;&#65292;&#25214;&#21040;&#20102;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Weiqing XI</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:34 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#21704;&#21704;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Jun DENG A</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:35 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">/vobs/bts_sw/rt_ver/rt_ver/jave/RC_PS3/</span></font><font color="black" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: black">Scripts/supp_signals.scr</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black">&#160;<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#36825;&#20010;&#29992;&#20363;&#26159;&#27979;&#21861;&#30340;&#65311;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font size="8.5pt"><span style="font-size: 8.5pt">Weiqing XI</span></font>&#160;<font size="8.5pt"><span style="font-size: 8.5pt">[3:35 PM]: </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-right: 0in; margin-bottom: .0001pt; margin-top: 0in; margin-left: 0in" class="MsoNormal">
+      <font color="black" size="10.0pt"><span style="font-size: 10.0pt; color: black" lang="ZH-CN">&#25105;&#20063;&#30475;&#21040;&#36825;&#20010;&#20102;</span></font><font color="black" face="Segoe UI,sans-serif" size="10.0pt"><span style="font-family: Segoe UI,sans-serif; font-size: 10.0pt; color: black"><o p="#DEFAULT"></o></span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;TR&#x3011;HR83604" ID="ID_861419681" CREATED="1393846809147" MODIFIED="1393846817149">
+<node TEXT="Jarl&#x5bf9;&#x4e8e;&#x8fd9;&#x4e2a;TR&#x7684;&#x56de;&#x590d;" ID="ID_1854689254" CREATED="1393846837225" MODIFIED="1393846998031"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="color: #1F497D; font-size: 11.0pt; font-family: Calibri,sans-serif">Hi Jarl<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">OK,I see. Thank you &#160;very much!<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">Regards,<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">Jun<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <b><font face="Tahoma,sans-serif" size="10.0pt"><span style="font-family: Tahoma,sans-serif; font-size: 10.0pt">From:</span></font></b><font face="Tahoma,sans-serif" size="10.0pt"><span style="font-family: Tahoma,sans-serif; font-size: 10.0pt">&#160;Jarl Sandberg [<a href="mailto:jarl.sandberg@tieto.com">mailto:jarl.sandberg@tieto.com</a>]<br/><b>Sent:</b>&#160; Monday, March 03, 2014 7:27 PM<br/><b>To:</b>&#160;Jun DENG A<br/><b>Cc:</b>&#160;Ramin Golrokh; Joakim Pettersson X; Haitao WU; Aaron SUN A; Grick YANG; Weiqing XI<br/><b>Subject:</b>&#160;Re: About TR HR83604<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      Hi!<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <br/>
+      Joakim must must answer that one, I've only relayed the information.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      BR<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      --jarl<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <br clear="all"/>
+      <o p="#DEFAULT">
+      </o>
+      
+    </p>
+    <p>
+      <b><font color="black" face="Arial,sans-serif"><span style="font-family: Arial,sans-serif; color: black" lang="EN-GB">Jarl Sandberg,&#160;Tieto Sweden AB<br/></span></font></b><a title="mailto:Maria.Lockman@tieto.com" href="mailto:jarl.sandberg@tieto.com" target="_blank"><font face="Arial,sans-serif" size="7.5pt"><span style="font-family: Arial,sans-serif">Jarl.Sandberg@tieto.com</span></font></a><font size="7.5pt"><span style="font-size: 7.5pt">,&#160;</span></font><font color="black" face="Arial,sans-serif" size="7.5pt"><span style="font-family: Arial,sans-serif; font-size: 7.5pt; color: black">direct phone +46 10 48 19 411,&#160;mobile phone &#160;+46 70 524 65 82, <a href="http://www.tieto.com" target="_blank">www.tieto.com</a></span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-bottom: 12.0pt" class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      On 3 March 2014 12:13, Jun DENG A &lt;<a href="mailto:jun.a.deng@ericsson.com" target="_blank">jun.a.deng@ericsson.com</a>&gt; wrote:<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">Hi Jarl,</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">Thanks for your explanation .</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">But I do not quite understand it.do you mean that:</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">&#8220;currently RX_Data-missing will trigger the SE_TRX_G_COM SE which will in turn turn on the Fault LED on DUG.</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">And what we will change is to separate the handling of RX_Data-missing from SE_TRX_G_COM and create a new SE for it.</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">The new SE will point out that it is not the DUG but the CPRI/DUS might be the fault source? &#160;&#8221;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">Then what shall we do with &#8220;SE_TRX_FS_INFO_RXA/B&#8221;,does this problem have anything to do with this SE?</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">And if we create a new SE, is it true that RCSW is only responsible for triggering the fault, </span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">and the parse of the fault is done by another SW packet?</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">And how should we decide the properties of the new SE?</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">Regards,</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">Jun</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D" face="Calibri,sans-serif" size="11.0pt"><span style="font-family: Calibri,sans-serif; font-size: 11.0pt; color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <b><font face="Tahoma,sans-serif" size="10.0pt"><span style="font-family: Tahoma,sans-serif; font-size: 10.0pt">From:</span></font></b><font face="Tahoma,sans-serif" size="10.0pt"><span style="font-family: Tahoma,sans-serif; font-size: 10.0pt">&#160;Jarl Sandberg [mailto:<a href="mailto:jarl.sandberg@tieto.com" target="_blank">jarl.sandberg@tieto.com</a>]<br/><b>Sent:</b>&#160; Monday, March 03, 2014 5:50 PM<br/><b>To:</b>&#160;Jun DENG A<br/><b>Cc:</b>&#160;Ramin Golrokh; Joakim Pettersson X; Haitao WU; Aaron SUN A; Grick YANG; Weiqing XI<br/><b>Subject:</b>&#160;Re: About TR HR83604</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Hi!<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <br/>
+      I added information from a mail sent by Joakim in the TR<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Memory notes from mail (Joakim Pettersson):&#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      en nya funktionen som g&#246;r att vi anpassar oss till f&#246;r&#228;ndringar i FS_INFO kommer g&#246;ra DUG mer stabil f&#246;r CPRI/RUS-fel. Den har dock ingen direkt p&#229;verkan p&#229; SE_TRX_G_COM utan p&#229; SE_TRX_FS_INFO_RXA/B.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      G_COM s&#228;tts p&#229; ett antal olika felbitar relatede till G, och av dessa s&#229; &#228;r det RX_Data missing som s&#228;tts av TFS som &#228;r den som kan p&#229;verkas av CPRI/RUS-fel. Vi borde kanske bryta ut RX_Data-missing och hantera i en egen SE, som n&#228;r den raisas i RBS6000 pekar ut CPRI/RUS som eventuella felk&#228;llor och inte ensamt t&#228;nder LED:en p&#229; DUG<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      But I didn't translate it so here is those memory notes in English:&#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      The new function that make us adapt to changes in FS_INFO placement will make the DUG more tolerant towards CPRI/RUS faults. It has however no direct impact on SE_TRX_G_COM but on SE_TRX_FS_INFO_RXA/B.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      SE_TRX_G_COM faults is set due to a number of different fault bits related to G and of these, RX_Data missing is set by TFS and might be impacted by CPRI/RUS faults. We should perhaps separate RX_Data-Missing from that SE and handle that with a new separate SW. When that new SE is raised, it will point out CPRI/RUS as possible fault and not turn on the Fault led on the DUG<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      I &#160;hope that this is possible to understand:)<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Best regards<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      --jarl<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <br clear="all"/>
+      <o p="#DEFAULT">
+      </o>
+      
+    </p>
+    <p>
+      <b><font face="Arial,sans-serif"><span style="font-family: Arial,sans-serif" lang="EN-GB">Jarl Sandberg,&#160;Tieto Sweden AB<br/></span></font></b><a title="mailto:Maria.Lockman@tieto.com" href="mailto:jarl.sandberg@tieto.com" target="_blank"><font face="Arial,sans-serif" size="7.5pt"><span style="font-family: Arial,sans-serif">Jarl.Sandberg@tieto.com</span></font></a><font size="7.5pt"><span style="font-size: 7.5pt">,&#160;</span></font><font face="Arial,sans-serif" size="7.5pt"><span style="font-family: Arial,sans-serif; font-size: 7.5pt">direct phone <a href="tel:%2B46%2010%2048%2019%20411" target="_blank">+46 10 48 19 411</a>,&#160;mobile phone &#160;<a href="tel:%2B46%2070%20524%2065%2082" target="_blank">+46 70 524 65 82</a>, <a href="http://www.tieto.com" target="_blank">www.tieto.com</a></span></font><o p="#DEFAULT"></o>
+    </p>
+    <p style="margin-bottom: 12.0pt" class="MsoNormal">
+      &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      On 3 March 2014 10:42, Jun DENG A &lt;<a href="mailto:jun.a.deng@ericsson.com" target="_blank">jun.a.deng@ericsson.com</a>&gt; wrote:<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Hi Ramin/Jarl/Joakim,</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">I am looking into this the TR HR83604,I saw you already had a discussion about it.</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Would you please give us some background knowledge of this TR?</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">There are some description on the Mhweb,but not enough to understand the problem.</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Would you please share us what you have known now and any suggestion of the solution?</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Also you mentioned that this TR affects LOMP ILIB and RBS.</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Ramin said he can find out who to contact.</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Would you please also help with this?</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">&#160;</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Regards,</span></font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Jun</span></font><o p="#DEFAULT"></o>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5173;&#x4e8e;SE_TRX_G_COM&#x7684;&#x5b9a;&#x4e49;" ID="ID_930916829" CREATED="1393846999964" MODIFIED="1393847228574" LINK="../MiscDocuments/SE_TRX_G_COM.msg"/>
+</node>
+</node>
+<node TEXT="BCI&#x63a5;&#x53e3;&#x7684;&#x5934;&#x6587;&#x4ef6;&#x548c;sig&#x6587;&#x4ef6;&#x4f4d;&#x7f6e;" ID="ID_166963389" CREATED="1418876600307" MODIFIED="1418880456280" LINK="../OneNote/BCI&#x63a5;&#x53e3;&#x7684;&#x8def;&#x5f84;&#x5df2;&#x7ecf;fault%20id&#x7684;&#x610f;&#x4e49;.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38468;&#20214;&#30340;Onenote&#25991;&#20214;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="TRS-3" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
@@ -916,8 +1794,77 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
+<node TEXT="TRS-3&#x4e2d;&#x7684;&#x4e00;&#x4e9b;&#x673a;&#x5236;" ID="ID_846498619" CREATED="1399187431293" MODIFIED="1399188637548" LINK="#ID_1767843448"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#33410;&#28857;&#20027;&#35201;&#35752;&#35770;&#22312;TRS3&#20013;&#30340;&#19968;&#20123;&#36890;&#29992;&#30340;&#26426;&#21046;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20851;&#20110;&#36825;&#20123;&#26426;&#21046;&#30340;&#22823;&#27010;&#30340;&#25551;&#36848;&#65292;&#22312;&quot;General Specification of SW Architecture&quot;&#25991;&#26723;&#20013;&#33021;&#22815;&#25214;&#21040;&#12290;
+    </p>
+    <p>
+      &#26412;&#33410;&#28857;&#30340;&#36339;&#36716;&#38142;&#25509;&#21363;&#25351;&#21521;&#36825;&#20010;&#25991;&#26723;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="IDB&#x673a;&#x5236;" ID="ID_1343557115" CREATED="1399188651674" MODIFIED="1399193669103"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#37324;&#21462;&#21517;&#21483;&#8220;IDB&#26426;&#21046;&#8221;&#21512;&#29702;&#20040;&#65311;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22909;&#20687;IDB&#25152;&#34920;&#31034;&#30340;&#20869;&#23481;&#21482;&#26159;&#36890;&#36807;OMT&#24037;&#20855;&#20889;&#20837;&#21040;BTS&#37324;&#38754;&#30340;&#37027;&#37096;&#20998;&#37197;&#32622;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      BTS&#20013;&#36824;&#26377;&#19968;&#20123;DB&#65292;&#26377;&#20123;&#26159;&#22266;&#21270;&#22312;&#26495;&#23376;&#37324;&#38754;&#30340;&#19968;&#20123;&#20195;&#34920;&#30828;&#20214;&#29305;&#24615;&#30340;&#20449;&#24687;&#65292;&#36824;&#26377;&#19968;&#20123;&#26159;&#22312;&#30828;&#20214;&#29983;&#20135;&#30340;&#26102;&#20505;&#28903;&#20889;&#20837;&#26495;&#23376;&#30340;&#12290;&#36825;&#20123;&#20449;&#24687;&#22909;&#20687;&#37117;&#19981;&#21483;IDB&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#25105;&#20204;&#22312;&#36825;&#20010;&#33410;&#28857;&#37324;&#38754;&#65292;&#37117;&#38656;&#35201;&#35752;&#35770;&#36825;&#20123;&#25968;&#25454;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Daniel&#x5173;&#x4e8e;IDB&#x7684;&#x4e00;&#x6b21;&#x8bb2;&#x89e3;" ID="ID_946077327" CREATED="1399188674322" MODIFIED="1399193348978" LINK="../OneNote/Daniel_talks_about_IDB.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Daniel&#20851;&#20110;GSM BTS&#20013;&#30340;IDB&#26426;&#21046;&#65292;&#26377;&#36807;&#19968;&#27425;&#35762;&#35299;&#12290;
+    </p>
+    <p>
+      &#23545;&#20110;&#20102;&#35299;&#19968;&#20123;&#22522;&#26412;&#27010;&#24565;&#21644;&#19968;&#20123;&#20132;&#20114;&#27969;&#31243;&#65292;&#36824;&#26159;&#24456;&#26377;&#24110;&#21161;&#30340;&#12290;
+    </p>
+    <p>
+      &#21487;&#20197;&#21442;&#32771;&#38468;&#20214;&#20013;&#30340;onenote&#25991;&#26723;&#65292;&#26377;Daniel&#35762;&#35299;&#30340;&#25163;&#31295;&#21644;&#19968;&#20123;&#25105;&#30340;&#27880;&#37322;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="GSM&#x8054;&#x7cfb;&#x4eba;" POSITION="left" ID="ID_1248330498" CREATED="1381926287116" MODIFIED="1383224592656">
+</node>
+</node>
+</node>
+<node TEXT="GSM&#x8054;&#x7cfb;&#x4eba;" POSITION="left" ID="ID_1248330498" CREATED="1381926287116" MODIFIED="1397114220709">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -927,7 +1874,7 @@ field-separator'></span><![endif]-->
   </head>
   <body>
     <p>
-      <font size="4">Radio SW System(TM team) : </font>
+      <font size="4"><b>Radio SW System(TM team) : </b></font>
     </p>
     <p>
       Cecilia Bengtsson &lt;cecilia.bengtsson@ericsson.com&gt;
@@ -936,7 +1883,7 @@ field-separator'></span><![endif]-->
       
     </p>
     <p>
-      <font size="4">GSM BTS O&amp;M and Platform(Tieto)&#160;: </font>
+      <font size="4"><b>GSM BTS O&amp;M and Platform(Tieto)&#160;: </b></font>
     </p>
     <p>
       Johan Kivijarvi &lt;johan.kivijarvi@tieto.com&gt;
@@ -945,7 +1892,7 @@ field-separator'></span><![endif]-->
       
     </p>
     <p>
-      <font size="4">GSM BTS RC/RBA FW System&#160;: </font>
+      <font size="4"><b>GSM BTS RC/RBA FW System&#160;:</b>&#160;</font>
     </p>
     <p>
       Johan Fridh &lt;johan.fridh@ericsson.com&gt;
@@ -957,7 +1904,7 @@ field-separator'></span><![endif]-->
       
     </p>
     <p>
-      <font size="4">GSM BTS RC SW Design&#160;: </font>
+      <font size="4"><b>GSM BTS RC SW Design&#160;: </b></font>
     </p>
     <p>
       Mattias Haile &lt;mattias.haile@ericsson.com&gt;
@@ -969,7 +1916,7 @@ field-separator'></span><![endif]-->
       
     </p>
     <p>
-      <font size="4">GSM BTS RC SW System&#160;: </font>
+      <font size="4"><b>GSM BTS RC SW System&#160;: </b></font>
     </p>
     <p>
       Andr&#233; Nyqvist &lt;andre.nyqvist@ericsson.com&gt;
@@ -1002,23 +1949,137 @@ field-separator'></span><![endif]-->
       
     </p>
     <p>
-      <font size="4">GSM Jankins Admin&#160;: </font>
+      <font size="4"><b>GSM Jankins Admin&#160;: </b></font>
     </p>
     <p>
-      Laura Rivera &lt;laura.rivera@ericsson.com&gt;
+      <font face="Calibri,sans-serif" color="#1F497D" size="11.0pt">Emil B&#228;ckmark and Vasile Baluta (CI TEAM Citrus)</font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4">GSM Radio PV expert&#160;: </font>
+      <font size="4"><b>GSM Radio PV expert&#160;: </b></font>
     </p>
     <p>
       Per Johansson &lt;per.johansson@ericsson.com&gt;&#160;&#160; --&#20182;&#22909;&#20687;&#20027;&#35201;&#20851;&#27880;&#22312;TSC&#37096;&#20998;,&#19981;&#30693;&#36947;RC_SW&#30340;&#37096;&#20998;&#26159;&#35841;&#36127;&#36131;.
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>GSM TRS-3 System Model Experts: </b></font>
+    </p>
+    <p>
+      Pia Mrozek &lt;pia.mrozek@tieto.com&gt; --&#22905;&#26159;Tieto&#30340;&#20154;&#65292;&#23545;&#20110;&#25972;&#20010;&#30340;TRS-3&#30340;System Model&#27604;&#36739;&#30340;&#29087;&#24713;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>System CM Experts: </b></font>
+    </p>
+    <p>
+      Stig Karlsson XS &lt;stig.xs.karlsson@ericsson.com&gt;&#65293;&#65293;&#22312;Kista&#26377;system CM&#21644;design CM&#12290;&#36825;&#20010;&#20154;&#26159;&#19968;&#20010;System CM&#12290;&#26377;&#20851;System CM&#30456;&#20851;&#30340;&#20107;&#24773;&#21487;&#20197;&#21435;&#38382;&#20182;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>Release Coordinator: </b></font>
+    </p>
+    <p>
+      Ann-Christine Ring and <font face="Calibri,sans-serif" color="#1F497D" size="11.0pt">Jonas Ekstr&#246;m</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>FFB &amp; Nightly test execution: </b></font>
+    </p>
+    <p>
+      <font face="Calibri,sans-serif" color="#1F497D" size="11.0pt">Marcus Heinonen</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>BTS Security Guys(copy them when review CR Activity Document): </b></font>
+    </p>
+    <p>
+      <font face="Arial,sans-serif" size="10.0pt"><span style="font-size: 10.0pt; font-family: Arial,sans-serif">Damian Biniarz and Marek Gorczyca</span></font>
+    </p>
   </body>
 </html>
 </richcontent>
+<node TEXT="System_CM_update" ID="ID_789177140" CREATED="1393934194559" MODIFIED="1399343756355"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <font color="#C00000">As a part of the reorganization<o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#C00000">Liselotte, </font><font color="black"><a href="mailto:liselotte.magnusson@ericsson.com">liselotte.magnusson@ericsson.com</a></font><font color="#C00000"><o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#C00000">and<o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#C00000">Monika, </font><font color="black"><a href="mailto:monika.muszkowska.lillskogen@ericsson.com">monika.muszkowska.lillskogen@ericsson.com</a></font><font color="#C00000"><o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#C00000">will take over the responsibility as System-CMs, please include them in Your correspondance.<o p="#DEFAULT"></o>&#160;</font>
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      <font face="Calibri,sans-serif" size="11.0pt" color="#1F497D">CMs in Link&#246;ping</font>&#160;
+    </p>
+    <p class="MsoNormal">
+      <font color="#C00000">&#65309;&#65309;&#65309;&#65309;&#65309; </font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#C00000">&#65309;&#65309;&#65309;&#65309;&#65309; </font>
+    </p>
+    <p class="MsoNormal">
+      &#23545;&#20110;&#25105;&#20204;&#26469;&#35828;&#65292;&#33021;&#22815;&#20102;&#35299;&#21040;&#30340;&#20851;&#20110;&#31995;&#32479;CM&#30340;&#21151;&#33021;&#26159;&#65292;&#36319;CR&#30456;&#20851;&#30340;&#19968;&#20123;&#20107;&#24773;&#38656;&#35201;&#21483;&#31995;&#32479;CM&#24110;&#24537;&#35299;&#20915;:
+    </p>
+    <ul>
+      <li>
+        &#38656;&#35201;&#26356;&#25913;TRS3&#27169;&#22411;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#31995;&#32479;CM&#32473;&#25105;&#20204;&#21019;&#24314;&#19968;&#20010;CR&#20998;&#25903;&#65292;&#32780;&#19988;&#32473;&#20986;&#19968;&#20010;config spec.&#36825;&#20010;&#20107;&#24773;&#23601;&#26159;&#35831;&#31995;&#32479;CM&#20570;&#30340;
+      </li>
+      <li>
+        &#22312;&#36807;CR&#27969;&#31243;&#30340;&#26102;&#20505;&#65292;&#26368;&#32456;&#30340;CR&#30340;Approve&#20063;&#38656;&#35201;&#31995;&#32479;CM&#26469;Approve
+      </li>
+      <li>
+        &#22909;&#20687;SDC2000&#30340;&#20250;&#35758;&#65292;&#31995;&#32479;CM&#20063;&#20250;&#20986;&#24109;&#20250;&#35758;&#12290;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Key Stakeholders in GSM" ID="ID_1481491278" CREATED="1399352755186" MODIFIED="1399360583787"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20854;&#23454;&#36825;&#26159;&#19968;&#20010;&#38142;&#25509;&#65292;&#21016;&#33673;&#20998;&#20139;&#30340;:
+    </p>
+    <p>
+      <a href="https://gsm-confluence.lmera.ericsson.se:8443/display/BTS/Key+stakeholders+in+GSM">https://gsm-confluence.lmera.ericsson.se:8443/display/BTS/Key+stakeholders+in+GSM</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="GSM RC SW(6K)" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1386568680293">
 <edge COLOR="#ff00ff"/>
@@ -1377,6 +2438,445 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
+<node TEXT="Hansoft&#x5de5;&#x5177;&#x7684;&#x4f7f;&#x7528;" ID="ID_796887772" CREATED="1389319017385" MODIFIED="1389319026932">
+<node TEXT="Hansoft&#x7684;&#x5b89;&#x88c5;" ID="ID_1778795778" CREATED="1389319029970" MODIFIED="1389319584804" LINK="../MiscDocuments/gsm_hansoft_configuration.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hansoft&#36719;&#20214;&#30340;&#23433;&#35013;&#39318;&#20808;&#20351;&#29992;&#19979;&#38754;&#30340;&#38142;&#25509;&#19979;&#36733;&#23433;&#35013;&#36719;&#20214;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p class="MsoNormal">
+      <a href="http://cache.hansoft.se/Hansoft%207.5013.exe"><font color="#1F497D"><span style="color: #1F497D">http://cache.hansoft.se/Hansoft%207.5013.exe</span></font></a><font color="#1F497D"><span style="color: #1F497D"><o p="#DEFAULT"></o></span></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23433;&#35013;&#30340;&#26102;&#20505;&#19968;&#36335;next&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#28982;&#21518;&#30331;&#24405;&#30340;&#26102;&#20505;&#20351;&#29992;&#32467;&#28857;&#38468;&#20214;&#20013;&#30340;&#37197;&#32622;&#23601;&#21487;&#20197;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="CR&#x6d41;&#x7a0b;" ID="ID_130365369" CREATED="1389604325606" MODIFIED="1397202163986">
+<node TEXT="CR&#x7684;&#x5206;&#x652f;&#x7b56;&#x7565;" ID="ID_16240714" CREATED="1389604346854" MODIFIED="1389604658381" LINK="../MiscDocuments/GSM_CR_Branch_Strategy%20.msg"/>
+<node TEXT="CR&#x6570;&#x91cf;&#x4ee5;&#x53ca;&#x5982;&#x4f55;&#x5224;&#x65ad;&#x6587;&#x6863;&#x662f;&#x5426;&#x5728;TRS3&#x6a21;&#x578b;&#x4e2d;" ID="ID_1067428911" CREATED="1389604358185" MODIFIED="1389604667403" LINK="../MiscDocuments/GSM_CR_Branch_Strategy%20.msg"/>
+<node TEXT="&#x3010;System Part&#x3011;CR&#x5904;&#x7406;&#x6d41;&#x7a0b;-End-to-End" ID="ID_1865556554" CREATED="1396425053928" MODIFIED="1396596351503" LINK="#ID_1130166230"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CR&#30340;&#30446;&#30340;&#23601;&#26159;&#29992;&#26469;&#25913;&#21160;&#25991;&#26723;&#12290;
+    </p>
+    <p>
+      &#19968;&#33324;&#19981;&#31649;&#26159;feature&#30340;&#24320;&#21457;&#65292;&#25110;&#32773;&#26159;TR&#30340;&#25913;&#21160;&#65292;&#22914;&#26524;&#28041;&#21450;&#21040;&#25991;&#26723;&#30340;&#25913;&#21160;&#30340;&#35805;&#65292;&#37027;&#20040;&#23601;&#37117;&#38656;&#35201;&#21019;&#24314;&#19968;&#20010;CR&#26469;&#20570;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20851;&#20110;GSM BTS&#30340;CR&#27969;&#31243;&#25551;&#36848;&#65292;&#21442;&#32771;&#36339;&#36716;&#38142;&#25509;&#25351;&#21521;&#30340;&#25991;&#26723;&#12290;&#36825;&#20010;&#25991;&#26723;&#23545;&#20110;CR&#27969;&#31243;&#30340;&#25551;&#36848;&#30456;&#24403;&#30340;&#35814;&#32454;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CQCR&#x4e0a;&#x521b;&#x5efa;CR" ID="ID_1626809893" CREATED="1396425157599" MODIFIED="1396594052040" LINK="../OneNote/GSM_BTS_&#x521b;&#x5efa;CR--CQCR&#x64cd;&#x4f5c;.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#30830;&#23450;&#25991;&#26723;&#38656;&#35201;&#25913;&#21160;&#20043;&#21518;&#65292;&#23601;&#38656;&#35201;&#22312;CQCR&#19978;&#38754;&#21019;&#24314;&#19968;&#20010;CR&#21495;&#12290;&#20855;&#20307;&#30340;&#25805;&#20316;&#30340;&#35805;&#65292;&#21442;&#32771;&#38142;&#25509;&#25351;&#21521;&#30340;onenote&#25991;&#20214;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#25805;&#20316;&#65292;&#21442;&#32771;&#36825;&#20010;onenote&#25991;&#20214;&#23601;&#24046;&#19981;&#22810;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5e94;&#x8be5;&#x521b;&#x5efa;&#x51e0;&#x4e2a;CR?" ID="ID_1813832383" CREATED="1396594589362" MODIFIED="1396594602662" LINK="#ID_1067428911"/>
+<node TEXT="GSM&#x7684;CQCR&#x7684;&#x767b;&#x5f55;&#x754c;&#x9762;" ID="ID_254914201" CREATED="1396595914998" MODIFIED="1396595948027" LINK="#ID_1001898150"/>
+</node>
+<node TEXT="&#x4fee;&#x6539;TRS3&#x6a21;&#x578b;&#x4ee5;&#x53ca;&#x66f4;&#x65b0;&#x6587;&#x672c;&#x683c;&#x5f0f;&#x7684;&#x6587;&#x6863;" ID="ID_1934361176" CREATED="1396594172097" MODIFIED="1396595752686"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#37096;&#20998;&#30340;&#25805;&#20316;&#23601;&#26159;&#20855;&#20307;&#30340;&#23454;&#38469;&#30340;CR&#25913;&#21160;&#30340;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      &#19968;&#33324;&#21253;&#21547;&#20004;&#20010;&#37096;&#20998;&#65292;&#22914;&#26524;&#26159;&#23545;TRS3&#30340;&#25805;&#20316;&#30340;&#35805;&#65292;&#23601;&#22312;RoseRT&#37324;&#38754;&#36827;&#34892;&#20462;&#25913;&#65292;&#22914;&#26524;&#28041;&#21450;&#21040;&#32431;&#25991;&#26723;&#30340;&#25805;&#20316;&#30340;&#35805;&#65292;&#23601;&#30452;&#25509;&#22312;ClearCase&#37324;&#38754;&#26356;&#25913;&#25991;&#26723;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4fee;&#x6539;&#x5b8c;&#x6210;&#x540e;&#x751f;&#x6210;Activity_Document&#x5e76;&#x9080;&#x8bf7;&#x76f8;&#x5173;&#x4eba;&#x5458;&#x8fdb;&#x884c;review" ID="ID_1715670699" CREATED="1396596568293" MODIFIED="1397114629617" LINK="../OneNote/&#x751f;&#x6210;Activity_Document.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#20462;&#25913;&#23436;&#25104;&#20043;&#21518;&#65292;&#38656;&#35201;&#36992;&#35831;&#20854;&#20182;&#30456;&#20851;&#30340;&#20154;&#21592;&#23545;&#20462;&#25913;&#30340;&#20869;&#23481;&#36827;&#34892;review&#12290;
+    </p>
+    <p>
+      &#25805;&#20316;&#26041;&#27861;&#26159;&#29983;&#25104;&#19968;&#20010;&#21483;&#20570;activity document&#30340;&#25991;&#26723;&#65292;&#36825;&#20010;&#25991;&#26723;&#21253;&#21547;&#20102;&#25152;&#26377;&#30340;&#20462;&#25913;&#20869;&#23481;&#12290;
+    </p>
+    <p>
+      &#28982;&#21518;&#22823;&#23478;&#23545;&#36825;&#20010;&#25991;&#26723;&#36827;&#34892;review.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20855;&#20307;&#30340;&#25805;&#20316;&#36807;&#31243;&#21487;&#20197;&#21442;&#32771;&#38468;&#20214;&#30340;onenote&#25991;&#20214;:
+    </p>
+    <ul>
+      <li>
+        &#39318;&#20808;&#20570;Lint&#26816;&#26597;&#65292;&#30475;&#30475;&#26377;&#27809;&#26377;lint&#21578;&#35686;
+      </li>
+      <li>
+        &#22914;&#26524;&#26377;lint&#21578;&#35686;&#30340;&#35805;&#65292;&#28040;&#38500;&#23427;&#20204;
+      </li>
+      <li>
+        &#29983;&#25104;Activity Document.
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#36992;&#35831;&#21442;&#21152;review&#30340;&#20154;&#21592;&#19968;&#33324;&#21253;&#25324;:
+    </p>
+    <ul>
+      <li>
+        SE(&#19968;&#33324;&#26159;Joakim,Seved,Jarl)
+      </li>
+      <li>
+        &#30456;&#20851;&#30340;&#24037;&#31243;&#24072;
+      </li>
+      <li>
+        Security&#30456;&#20851;&#20154;&#21592;(&#21442;&#32771;GSM&#32852;&#31995;&#20154;&#30340;&#33410;&#28857;)
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#20851;&#20110;&#25805;&#20316;&#30340;&#19968;&#20123;&#27493;&#39588;&#65292;&#21442;&#29031;&#38468;&#20214;&#20013;&#30340;onenote&#31508;&#35760;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4e00;&#x4e2a;ActivityDocument&#x793a;&#x4f8b;" ID="ID_252825146" CREATED="1397113865142" MODIFIED="1397114734970" LINK="../MiscDocuments/cr6242_pa2.doc"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38468;&#20214;&#20013;&#30340;Activity Document&#26159;&#19968;&#20010;&#20363;&#23376;,&#29983;&#25104;&#30340;&#36825;&#20010;&#25991;&#26723;&#23601;&#21487;&#20197;&#21457;&#32473;&#30456;&#20851;&#30340;&#20154;&#21592;&#36827;&#34892;review&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#36825;&#20010;&#25991;&#26723;&#21457;&#20986;&#21435;&#20043;&#21069;&#65292;&#38656;&#35201;&#23558;&#25991;&#26723;&#30340;&#31532;&#20843;&#31456;&#20043;&#21069;&#30340;&#20869;&#23481;&#37117;&#35813;&#22635;&#30340;&#22635;&#19968;&#19979;&#12290;
+    </p>
+    <p>
+      &#28982;&#21518;&#65292;&#20877;&#31532;&#20843;&#31456;&#24448;&#21518;&#65292;&#25913;&#21160;&#30340;&#22320;&#26041;&#20351;&#29992;<font color="#ff0033" size="6"><b>&#32418;&#22280;</b></font>&#22280;&#36215;&#26469;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x901a;&#x8fc7;Review&#x4e4b;&#x540e;&#x53d1;&#x9001;&#x7ed9;SDC2000&#x5ba1;&#x6279;" ID="ID_1976246994" CREATED="1397202174064" MODIFIED="1397205900492" LINK="../OneNote/GSM%20BTS%20--CR&#x53d1;&#x9001;&#x7ed9;SDC2000.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#32463;&#36807;&#20102;&#22810;&#36718;&#30340;Review&#20043;&#21518;&#65292;&#21442;&#21152;Review&#30340;&#21508;&#26041;&#23545;&#20462;&#25913;&#37117;&#28385;&#24847;&#30340;&#24773;&#20917;&#19979;&#23601;&#21487;&#20197;&#25226;&#36825;&#20010;CR&#20132;&#32473;SDC2000&#65292;&#35753;&#20854;&#21435;&#23457;&#25209;&#12290;
+    </p>
+    <p>
+      &#38656;&#35201;&#20570;&#19979;&#38754;&#30340;&#20960;&#20214;&#20107;&#24773;:
+    </p>
+    <ul>
+      <li>
+        &#26356;&#26032;CQCR&#37324;&#38754;&#30340;Analysis Tab&#30340;&#8220;Analysis Result&#8221;&#37096;&#20998;&#20869;&#23481;&#12290;
+      </li>
+      <li>
+        &#25226;&#26356;&#26032;&#21518;&#30340;Activity Document&#31896;&#36148;&#21040;CQCR&#30340;Atachments Tab&#37324;&#38754;&#21435;&#12290;
+      </li>
+      <li>
+        &#22312;CQCR&#37324;&#38754;&#65292;&#25226;CR&#30340;&#29366;&#24577;&#25913;&#20026;Analyzed&#29366;&#24577;
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#23601;&#21487;&#20197;&#20102;&#65292;&#25509;&#19979;&#26469;&#30340;&#20107;&#24773;&#23601;&#26159;&#31561;SDC2000&#36890;&#30693;&#25105;&#20204;&#21435;&#21442;&#21152;CR&#30340;&#23457;&#25209;&#20250;&#35758;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25805;&#20316;&#30340;&#19968;&#20123;&#25130;&#22270;&#21442;&#32771;&#38468;&#20214;&#30340;onenote&#31508;&#35760;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SDC2000&#x7ec4;&#x7ec7;&#x4f1a;&#x8bae;&#x5ba1;&#x6279;&#x5e76;&#x6279;&#x51c6;CR&#x901a;&#x8fc7;" ID="ID_827435290" CREATED="1398316830978" MODIFIED="1401783367405"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23558;CR&#30340;&#29366;&#24577;&#25913;&#20026;Analyzed&#29366;&#24577;&#20043;&#21518;&#65292;&#31561;&#24453;SDC2000&#21484;&#24320;&#20250;&#35758;&#23457;&#25209;CR&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      SDC2000&#20250;&#21457;&#20449;&#32473;CR&#30340;Author&#65292;&#36992;&#35831;CR&#30340;Author&#21442;&#21152;&#36825;&#20010;&#20250;&#35758;&#12290;
+    </p>
+    <p>
+      &#22312;&#20250;&#35758;&#19978;&#20027;&#35201;&#30340;&#20107;&#24773;&#23601;&#26159;&#22823;&#23478;&#21830;&#37327;&#35201;&#19981;&#35201;&#25209;&#20934;&#36825;&#20010;CR&#12290;
+    </p>
+    <p>
+      &#19968;&#33324;&#19981;&#20986;&#20219;&#20309;&#24847;&#22806;&#30340;&#35805;&#65292;&#22312;&#20250;&#35758;&#19978;SDC2000&#30340;&#21442;&#19982;&#32773;(&#20027;&#35201;&#26159;System CR)&#20250;&#25209;&#20934;CR&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#33324;&#25209;&#20934;&#23436;&#20102;&#20043;&#21518;&#65292;CQCR&#37324;&#38754;&#30340;&#29366;&#24577;&#20250;&#21464;&#20026;Approved&#29366;&#24577;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="CR&#x7684;Delivery" ID="ID_649181023" CREATED="1401790902356" MODIFIED="1401790913091">
+<node TEXT="System CM &#x53d1;&#x51fa;&#x65b0;&#x7684;Baseline&#x5e76;&#x8981;&#x6c42;&#x6211;&#x4eec;Rebase/Merge&#x76f8;&#x5e94;&#x7684;CR" ID="ID_1626110128" CREATED="1401783370843" MODIFIED="1401790785876"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;SDC2000&#25209;&#20934;&#20102;CR&#20043;&#21518;&#65292;&#25105;&#20204;&#25152;&#38656;&#35201;&#20570;&#30340;&#20107;&#24773;&#23601;&#26159;&#31561;&#24453;System CM&#21457;&#20986;&#26032;&#30340;Baseline&#65292;&#28982;&#21518;&#25105;&#20204;&#26681;&#25454;&#26032;&#30340;baseline&#23558;&#25105;&#20204;&#30340;CR&#32473;Merge&#21040;&#20027;&#20998;&#25903;&#19978;&#24182;&#19988;deliver&#20986;&#21435;&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;&#23376;&#33410;&#28857;&#30340;&#31034;&#20363;&#37038;&#20214;&#65292;&#20102;&#35299;System CM&#21457;&#20986;&#30340;&#37038;&#20214;&#26159;&#21861;&#26679;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CM&#x53d1;&#x51fa;baseline&#x7684;&#x90ae;&#x4ef6;&#x793a;&#x4f8b;" ID="ID_1487501037" CREATED="1401783413012" MODIFIED="1401783610999" LINK="../MiscDocuments/Merging_and_system_delivery_10_in_BTS_GSM%20MAIN.msg"/>
+</node>
+<node TEXT="&#x4ece;&#x6700;&#x65b0;&#x7684;Baseline&#x4e0a;Rebase&#x5230;CR&#x5206;&#x652f;" ID="ID_1100746949" CREATED="1401790790518" MODIFIED="1401790891322"/>
+<node TEXT="CR&#x5206;&#x652f;&#x6253;&#x6807;&#x7b7e;" ID="ID_793504181" CREATED="1401790891644" MODIFIED="1401790985967">
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#19968;&#27493;&#21040;&#24213;&#26159;&#22312;rebase&#20043;&#21069;&#20570;&#36824;&#26159;&#22312;rebase&#20043;&#21518;&#20570;&#21602;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4ece;CR&#x5206;&#x652f;Merge&#x5230;&#x4e3b;&#x5206;&#x652f;" ID="ID_743363211" CREATED="1401790927012" MODIFIED="1401790942123"/>
+<node TEXT="&#x4e3b;&#x5206;&#x652f;&#x6253;&#x6807;&#x7b7e;" ID="ID_1502396005" CREATED="1401790944006" MODIFIED="1401790951606"/>
+<node TEXT="CheckIn&#x6240;&#x6709;&#x6587;&#x4ef6;" ID="ID_429834581" CREATED="1401792320849" MODIFIED="1401792333233"/>
+<node TEXT="Lock&#x4e3b;&#x5206;&#x652f;&#x4e0a;&#x7684;&#x6807;&#x7b7e;" ID="ID_1091686638" CREATED="1401792076729" MODIFIED="1401792087103"/>
+<node TEXT="&#x7ed9;System CM&#x53d1;&#x51fa;delivery&#x90ae;&#x4ef6;" ID="ID_1292032569" CREATED="1401792931656" MODIFIED="1401792943338">
+<node TEXT="&#x793a;&#x4f8b;" ID="ID_97920250" CREATED="1401792944457" MODIFIED="1401793012812" LINK="../MiscDocuments/Label%20102_1551_HRB10521_PEK4_is_applied_and_locked.msg"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Mhweb&#x76f8;&#x5173;&#x6d41;&#x7a0b;" ID="ID_930243360" CREATED="1400639374498" MODIFIED="1400639384513">
+<node TEXT="&#x5982;&#x4f55;&#x521b;&#x5efa;Mapping&#x7684;TR" ID="ID_1331791686" CREATED="1400639387874" MODIFIED="1400640954690"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#19979;&#38754;&#30340;&#25551;&#36848;:
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Hi!<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">I checked, you have to position yourself into the old TR and under utilities you have the create mapping TR action. This is I have done now. For the new TR HS60105 you have to reject it back to private and put in &#8220;Copy TR:&#8221; into the heading, and them register again.<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">B R<br/>/Lars Gunnar<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font size="10.0pt" face="Tahoma,sans-serif"><b><span style="font-size: 10.0pt; font-family: Tahoma,sans-serif">From:</span></b><span style="font-size: 10.0pt; font-family: Tahoma,sans-serif">&#160;Jun DENG A<br/><b>Sent:</b>&#160;den 14 maj 2014 09:53<br/><b>To:</b>&#160;Lars Gunnar Bergfalk<br/><b>Subject:</b>&#160;RE: Copy TR handling<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Hi Lars,<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">I have created a copy tr HS60105 for TR HS16898.<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">But I can not map HS60105 in HS16898.<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Regards,<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D">Jun<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font color="#1F497D"><span style="color: #1F497D"><o p="#DEFAULT">
+      &#160;</o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <font size="10.0pt" face="Tahoma,sans-serif"><b><span style="font-size: 10.0pt; font-family: Tahoma,sans-serif">From:</span></b><span style="font-size: 10.0pt; font-family: Tahoma,sans-serif">&#160;Lars Gunnar Bergfalk<br/><b>Sent:</b>&#160;Tuesday, May 13, 2014 4:41 PM<br/><b>To:</b>&#160;Stefan Boqvist; Jun DENG A; Xiaoteng Yan; Zhipeng LIN<br/><b>Subject:</b>&#160;Copy TR handling<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <span lang="SV">Hi!<o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="SV"><o p="#DEFAULT">
+      &#160;</o></span>
+    </p>
+    <p class="MsoNormal">
+      On todays AllOpen list I found following errors for the Proposed TRs regarding Copy TR handling.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <a href="https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HR96608">https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HR96608</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <a href="https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS54938">https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS54938</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      The copy tr is in state private.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <a href="https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS16898">https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS16898</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Is missing copy tr.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <a href="https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS31207">https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS31207</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <a href="https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS59601">https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS59601</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Missing key word Copy TR: in heading of the copy tr.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <a href="https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS44456">https://mhweb.ericsson.se/TREditWeb/faces/tredit/tredit.xhtml?eriref=HS44456</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Is missing copy tr.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      B R<br/>/Lars Gunnar<o p="#DEFAULT"></o>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="VOB" ID="ID_355606526" CREATED="1383136547845" MODIFIED="1383137343120"><richcontent TYPE="NOTE">
 
@@ -1525,16 +3025,54 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;TRS-3&#x3011;RC SW System&#x77e5;&#x8bc6;" ID="ID_1369731936" CREATED="1386568610685" MODIFIED="1386568642918">
+<node TEXT="&#x3010;TRS-3&#x3011;RC SW System&#x77e5;&#x8bc6;" ID="ID_1369731936" CREATED="1386568610685" MODIFIED="1399186433284">
 <node TEXT="RCSWPS&#x4e2d;&#x7684;&#x51e0;&#x4e2a;&#x91cd;&#x8981;&#x7684;system class" ID="ID_1279059612" CREATED="1387418871643" MODIFIED="1387418909191" LINK="#ID_1048364772"/>
 <node TEXT="RCSW package&#x7684;&#x542f;&#x52a8;&#x6d41;&#x7a0b;" ID="ID_246969115" CREATED="1387418946491" MODIFIED="1387418963491" LINK="#ID_1185174244"/>
-<node TEXT="RC--&gt;DSP&#x901a;&#x4fe1;&#x7684;&#x4e00;&#x822c;&#x6d41;&#x7a0b;" ID="ID_1644142192" CREATED="1387418916421" MODIFIED="1387418974480" LINK="#ID_428741178"/>
+<node TEXT="RC--&gt;DSP&#x901a;&#x4fe1;&#x7684;&#x4e00;&#x822c;&#x6d41;&#x7a0b;" ID="ID_1644142192" CREATED="1387418916421" MODIFIED="1393397281163" LINK="#ID_428741178"/>
 <node TEXT="RC--&gt;RBA/RC&#x901a;&#x4fe1;&#x7684;&#x4e00;&#x822c;&#x6d41;&#x7a0b;" ID="ID_1832211845" CREATED="1387418931921" MODIFIED="1387418984970" LINK="#ID_1879810205"/>
 </node>
 <node TEXT="&#x9605;&#x8bfb;&#x7684;&#x6587;&#x6863;" ID="ID_1116153365" CREATED="1388134853078" MODIFIED="1388134858475">
 <node TEXT="General Specification of SW Architecture" ID="ID_633458123" CREATED="1388134864708" MODIFIED="1388468444460" LINK="#ID_1767843448"/>
 <node TEXT="SWPS RC" ID="ID_1859437787" CREATED="1388134883030" MODIFIED="1388135021872" LINK="#ID_154533239"/>
 <node TEXT="KISTA&#x57f9;&#x8bad;&#x76f8;&#x5173;&#x7684;Slides" ID="ID_1465219679" CREATED="1388135173693" MODIFIED="1388135189636" LINK="#ID_1520608685"/>
+<node TEXT="CR Process in TRS-3" ID="ID_1544703732" CREATED="1392877737498" MODIFIED="1392878507946" LINK="#ID_1130166230"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#25991;&#26723;&#25551;&#36848;&#20102;&#22312;TRS3&#31995;&#32479;&#20013;&#30340;CR&#22788;&#29702;&#27969;&#31243;&#12290;
+    </p>
+    <p>
+      &#29992;&#26469;&#25351;&#23548;&#31995;&#32479;&#24037;&#31243;&#24072;&#22914;&#20309;&#21019;&#24314;CR&#65292;&#22312;TRS3&#20013;&#20462;&#25913;&#27169;&#22411;&#65292;&#22914;&#20309;&#29983;&#25104;&#25991;&#26723;&#65292;&#25552;&#20132;review&#31561;&#31561;&#30340;&#27969;&#31243;&#12290;
+    </p>
+    <p>
+      &#36825;&#20010;&#25991;&#26723;&#20027;&#35201;&#20851;&#27880;&#20110;&#22312;TRS3&#31995;&#32479;&#20013;&#22788;&#29702;CR&#30340;&#27969;&#31243;&#12290;
+    </p>
+    <p>
+      &#20851;&#20110;&#22914;&#20309;&#22312;TRS3&#31995;&#32479;&#20013;&#36827;&#34892;&#19968;&#20123;&#24517;&#39035;&#30340;&#25805;&#20316;&#65292;&#21442;&#32771;&#23376;&#33410;&#28857;&quot;TRS3&#25805;&#20316;&#29992;&#25143;&#25163;&#20876;&quot;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="TRS3&#x64cd;&#x4f5c;&#x7528;&#x6237;&#x624b;&#x518c;" ID="ID_657974253" CREATED="1392878426557" MODIFIED="1392878566860" LINK="#ID_1265054871"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#25991;&#26723;&#35762;&#35299;&#20102;&#22914;&#20309;&#22312;TRS3&#31995;&#32479;&#20013;&#36827;&#34892;&#23454;&#38469;&#30340;&#24037;&#20316;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="TRS3&#x7cfb;&#x7edf;CR&#x7684;Merge&#x64cd;&#x4f5c;" ID="ID_1241287188" CREATED="1393305409396" MODIFIED="1393305675769" LINK="#ID_157308363"/>
+</node>
 </node>
 <node TEXT="&#x6742;&#x9879;" ID="ID_1917679532" CREATED="1383564996560" MODIFIED="1383565006688">
 <node TEXT="QuestionList" ID="ID_1518135713" CREATED="1383565008359" MODIFIED="1383566917996"><richcontent TYPE="NOTE">
@@ -1598,7 +3136,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="RCSW package&#x5728;&#x201c;Core/Pre-Core&#x201d;&#x4ee5;&#x53ca;&#x201c;DUG with CPRI&#x201d;&#x5404;&#x6709;&#x54ea;&#x4e9b;&#x7cfb;&#x7edf;&#x7c7b;" ID="ID_1728936288" CREATED="1386314474257" MODIFIED="1386569415484"><richcontent TYPE="NOTE">
+<node TEXT="RCSW package&#x5728;&#x201c;Core/Pre-Core&#x201d;&#x4ee5;&#x53ca;&#x201c;DUG with CPRI&#x201d;&#x5404;&#x6709;&#x54ea;&#x4e9b;&#x7cfb;&#x7edf;&#x7c7b;" ID="ID_1728936288" CREATED="1386314474257" MODIFIED="1407978213208"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1727,6 +3265,9 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
+<node TEXT="GSM Radio SwA" POSITION="left" ID="ID_983556455" CREATED="1399187373956" MODIFIED="1399187379060">
+<edge COLOR="#7c7c00"/>
+</node>
 <node TEXT="GSM&#x6587;&#x6863;" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
 <edge COLOR="#ffff00"/>
 <node TEXT="&#x6587;&#x6863;&#x5c42;&#x6b21;&#x7ed3;&#x6784;" ID="ID_853031523" CREATED="1384328000217" MODIFIED="1384328231179" LINK="../MiscDocuments/doc_hierarchy.png"><richcontent TYPE="NOTE">
@@ -1743,7 +3284,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Kista&#x57f9;&#x8bad;&#x671f;&#x95f4;&#x7684;&#x6587;&#x6863;" ID="ID_1520608685" CREATED="1383579460098" MODIFIED="1387419858373"><richcontent TYPE="NOTE">
+<node TEXT="Kista&#x57f9;&#x8bad;&#x671f;&#x95f4;&#x7684;&#x6587;&#x6863;" ID="ID_1520608685" CREATED="1383579460098" MODIFIED="1399346491009"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1756,7 +3297,7 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="Deployment of Radio Overview" ID="ID_194000498" CREATED="1383579746073" MODIFIED="1385003925970" LINK="../GSM_document_base/Introduction%20to%20radio%20SW.ppt">
+<node TEXT="Deployment of Radio Overview" ID="ID_194000498" CREATED="1383579746073" MODIFIED="1422581096109" LINK="../GSM_document_base/Introduction%20to%20radio%20SW.ppt">
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
 
@@ -1766,10 +3307,11 @@ field-separator'></span><![endif]-->
   </head>
   <body>
     <p>
-      <span style="font-size: 11.0pt; font-family: Calibri,sans-serif"><font face="Calibri,sans-serif" size="11.0pt">Cecilia Bengtsson </font></span>
+      <font size="11.0pt" face="Calibri,sans-serif">Cecilia Bengtsson </font>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="Product development WOW" ID="ID_1988761079" CREATED="1383579764564" MODIFIED="1385003930228" LINK="../GSM_document_base/System%20Design%20WoW_CR_PA3.pdf">
@@ -1785,8 +3327,8 @@ field-separator'></span><![endif]-->
 <node TEXT="thinking and acting" ID="ID_1819894728" CREATED="1383580296895" MODIFIED="1385003713239" LINK="../GSM_document_base/ThinkingAndActing_C.PDF"/>
 </node>
 <node TEXT="Clear Case Branch strategy + CR WoW" ID="ID_1896525525" CREATED="1383579895854" MODIFIED="1384321040432" LINK="../GSM_document_base/Introduction%20of%20ClearCase%20for%20System%20Work_PA2.pdf"/>
-<node TEXT="Timing &amp; Synch Overview Course" ID="ID_1800905516" CREATED="1383579917174" MODIFIED="1386208942402" LINK="../GSM_document_base/GSM%20BTS%20Timing%20and%20Synch%20Overview.ppt"/>
-<node TEXT="BOOT/BIOS general concepts" ID="ID_889843472" CREATED="1383579939854" MODIFIED="1384324691379"><richcontent TYPE="NOTE">
+<node TEXT="Timing &amp; Synch Overview Course" ID="ID_1800905516" CREATED="1383579917174" MODIFIED="1391999174527" LINK="../GSM_document_base/GSM%20BTS%20Timing%20and%20Synch%20Overview.ppt"/>
+<node TEXT="BOOT/BIOS general concepts" ID="ID_889843472" CREATED="1383579939854" MODIFIED="1422581095108"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1794,13 +3336,14 @@ field-separator'></span><![endif]-->
   </head>
   <body>
     <p>
-      <span style="font-size: 10.0pt; font-family: Tahoma,sans-serif"><font face="Tahoma,sans-serif" size="10.0pt">&quot;Manouchehr Rahimifar&quot; and </font></span>
+      <font size="10.0pt" face="Tahoma,sans-serif">&quot;Manouchehr Rahimifar&quot; and </font>
     </p>
     <p>
-      <span style="font-size: 10.0pt; font-family: Tahoma,sans-serif"><font face="Tahoma,sans-serif" size="10.0pt">&quot;Yan Bao&quot;</font></span>
+      <font size="10.0pt" face="Tahoma,sans-serif">&quot;Yan Bao&quot;</font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_1094288080" CREATED="1384324600375" MODIFIED="1384324614466" LINK="../GSM_document_base/2013boot.ppt"/>
 <node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_786279946" CREATED="1384324603695" MODIFIED="1384324621786" LINK="../GSM_document_base/2013transfer.ppt"/>
@@ -1815,7 +3358,7 @@ field-separator'></span><![endif]-->
 <node TEXT="2.Flow of CPI in GSM BTS" ID="ID_147428094" CREATED="1384479110393" MODIFIED="1384479181329" LINK="../GSM_document_base/Flow_CPI_in_GSM_BTS_XFT.doc"/>
 </node>
 <node TEXT="&#x5982;&#x4f55;&#x64cd;&#x4f5c;TRS-3&#x6a21;&#x578b;" ID="ID_230718592" CREATED="1384759699248" MODIFIED="1384759735820" LINK="../GSM_document_base/&#x4f7f;&#x7528;TRS-3&#x6a21;&#x578b;.doc"/>
-<node ID="ID_278498866" CREATED="1384831941649" MODIFIED="1385350136369"><richcontent TYPE="NODE">
+<node ID="ID_278498866" CREATED="1384831941649" MODIFIED="1422581092660"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1855,10 +3398,33 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Design rules for TRS-3 SW Modelling" ID="ID_1245981976" CREATED="1384916044276" MODIFIED="1384916186852" LINK="../GSM_document_base/SDE/1_10260_FEA2028517%5B1%5D.doc"/>
 <node TEXT="CR Process (TRS-3 System Model)" ID="ID_1130166230" CREATED="1384916078287" MODIFIED="1384916125606" LINK="../GSM_document_base/SDE/1_00021-FEA2028517_A%5B1%5D.doc"/>
-<node TEXT="TRS-3 System Model User Guide" ID="ID_1265054871" CREATED="1384916212710" MODIFIED="1384916228179" LINK="../GSM_document_base/SDE/2_1553-FEA2028517_PC1%5B1%5D.doc"/>
+<node TEXT="TRS-3 System Model User Guide" ID="ID_1265054871" CREATED="1384916212710" MODIFIED="1405319917993" LINK="../GSM_document_base/SDE/2_1553-FEA2028517_PC1%5B1%5D.doc"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#25991;&#26723;&#26159;&#23558;&#22914;&#20309;&#20351;&#29992;TRS3&#27169;&#22411;&#30340;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#65292;&#23427;&#20851;&#27880;&#30340;&#26159;&#65292;&#22914;&#20309;&#22312;TRS3&#27169;&#22411;&#20013;&#65292;&#36827;&#34892;&#19968;&#20123;&#36319;Clear Case&#30456;&#32467;&#21512;&#30340;&#25805;&#20316;&#65292;&#27604;&#22914;&#25171;&#26631;&#31614;&#65292;&#25289;&#20998;&#25903;&#20043;&#31867;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20197;&#65292;&#36825;&#20010;&#25991;&#26723;&#27809;&#26377;&#35762;&#35299;&#22914;&#20309;&#22312;TRS3&#30340;&#27969;&#31243;&#22270;&#19978;&#36827;&#34892;&#20462;&#25913;&#65292;&#22914;&#20309;&#36827;&#34892;UML&#25805;&#20316;&#20043;&#31867;&#30340;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="TRS-3 System Model CR Merging" ID="ID_157308363" CREATED="1384916247807" MODIFIED="1384916259426" LINK="../GSM_document_base/SDE/4_00021-FEA2028517_D%5B1%5D.doc"/>
 <node TEXT="Workflows of TRS-3 System Model" ID="ID_1403334435" CREATED="1384916282725" MODIFIED="1384916317882" LINK="../GSM_document_base/SDE/7_00021-FEA%25202028517_A%5B1%5D.doc"/>
 <node TEXT="General Specification of SW Architecture" ID="ID_276055745" CREATED="1384916336751" MODIFIED="1388135008206" LINK="../GSM_document_base/33_15502-HRB10510_EN_E_PDFV1R5.pdf">
@@ -1886,7 +3452,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="BTS_CI_Delivery_Process_and_Test_Results" ID="ID_1407305291" CREATED="1384909634340" MODIFIED="1384909833221" LINK="../GSM_document_base/BTS%20%20CI_presentation_jenkins.ppt"/>
 </node>
-<node TEXT="System Baseline" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1387419937538" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
+<node TEXT="System Baseline" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1398391977291" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1896,10 +3462,19 @@ field-separator'></span><![endif]-->
     <p>
       System Baseline&#20013;&#21547;&#26377;&#20102;&#32477;&#22823;&#22810;&#25968;&#25105;&#20204;&#38656;&#35201;&#30340;&#25991;&#26723;&#12290;
     </p>
+    <p>
+      &#26368;&#26032;&#30340;Baseline&#25991;&#26723;&#21487;&#20197;&#22312;&#19979;&#38754;&#30340;&#38142;&#25509;&#19978;&#25214;&#21040;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <a href="http://gask2web.ericsson.se/pub/get?DocNo=3/1090-HRB10521&#x2329;=EN&amp;Latest=true">http://gask2web.ericsson.se/pub/get?DocNo=3/1090-HRB10521&amp;Lang=EN&amp;Latest=true</a>
+    </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x3010;RC SWPS&#x3011;" ID="ID_154533239" CREATED="1387175630689" MODIFIED="1388135113601">
+<node TEXT="&#x3010;RC SWPS&#x3011;" ID="ID_154533239" CREATED="1387175630689" MODIFIED="1403675242523" LINK="../GSM_document_base/Baseline/PS_RCSW.pdf">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
 <node TEXT="SWPC&#x4e2d;&#x53c2;&#x8003;&#x7684;&#x4e00;&#x4e9b;&#x91cd;&#x8981;&#x6587;&#x6863;" ID="ID_1604794897" CREATED="1387175643069" MODIFIED="1387175680910">
@@ -2228,7 +3803,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="RC--&gt;DSP&#x901a;&#x4fe1;&#x4e00;&#x822c;&#x6d41;&#x7a0b;" ID="ID_428741178" CREATED="1387417303021" MODIFIED="1387782725472" LINK="../MiscDocuments/common_communication_dsp_procedure.png"/>
+<node TEXT="RC--&gt;DSP&#x901a;&#x4fe1;&#x4e00;&#x822c;&#x6d41;&#x7a0b;" ID="ID_428741178" CREATED="1387417303021" MODIFIED="1392699444041" LINK="../MiscDocuments/common_communication_dsp_procedure.png"/>
 <node TEXT="RC--&gt;RC/RBA&#x901a;&#x4fe1;&#x4e00;&#x822c;&#x6d41;&#x7a0b;" ID="ID_1879810205" CREATED="1387353448232" MODIFIED="1387418858203" LINK="../MiscDocuments/common_communication_rcrba_procedure.png">
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
@@ -2289,7 +3864,9 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1388382798125">
+<node TEXT="&#x3010;RCSW IWD&#x3011;" ID="ID_167000299" CREATED="1403675201982" MODIFIED="1403675271175" LINK="../GSM_document_base/Baseline/IWD_RC_102_15519-CNH201343_01_EN_AH_PDFV1R4.pdf"/>
+<node TEXT="&#x3010;CREC SWPS&#x3011;" ID="ID_547937170" CREATED="1407805357019" MODIFIED="1407805404881" LINK="../GSM_document_base/Baseline/SWPS_CREC_14_10261-HRB10521_EN_BS_PDFV1R4.pdf"/>
+<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1399194158085" LINK="../GSM_document_base/Baseline/GD_General_Specification_of_SW_Architecture.pdf">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
@@ -2378,7 +3955,11 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388468473939"><richcontent TYPE="NOTE">
+<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388639052963">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2394,7 +3975,7 @@ field-separator'></span><![endif]-->
 <node TEXT="Introduction" ID="ID_555475657" CREATED="1388382436473" MODIFIED="1388382444419"/>
 <node TEXT="System Background" ID="ID_1726562593" CREATED="1388382444713" MODIFIED="1388382449679">
 <node TEXT="GSM Functional Model" ID="ID_1338661875" CREATED="1388390090770" MODIFIED="1388390097392"/>
-<node TEXT="TRS-3 Functional Model" ID="ID_1490919577" CREATED="1388390100125" MODIFIED="1388390106802"/>
+<node TEXT="TRS-3 Functional Model" ID="ID_1490919577" CREATED="1388390100125" MODIFIED="1391998990606"/>
 <node TEXT="Managed Object Model" ID="ID_1405598396" CREATED="1388390107367" MODIFIED="1388390122325"/>
 </node>
 <node TEXT="Architectural Approaches" ID="ID_294880272" CREATED="1388382452979" MODIFIED="1388389463370"><richcontent TYPE="NOTE">
@@ -2437,7 +4018,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="FuncType" ID="ID_273076175" CREATED="1388382882265" MODIFIED="1388391273001"><richcontent TYPE="NOTE">
@@ -2716,7 +4296,6 @@ field-separator'></span><![endif]-->
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="RBS Class" ID="ID_1214188086" CREATED="1388388011931" MODIFIED="1388388014847"/>
@@ -2739,7 +4318,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="RE interface Objects(RIO)" ID="ID_211149942" CREATED="1388388060505" MODIFIED="1388388069659"/>
@@ -2759,19 +4337,512 @@ field-separator'></span><![endif]-->
 </richcontent>
 <node TEXT="Layers" ID="ID_234656013" CREATED="1388388704817" MODIFIED="1388388707234"/>
 <node TEXT="Pipes &amp; Filters" ID="ID_144432548" CREATED="1388388711336" MODIFIED="1388388717223"/>
-<node TEXT="SW Package Start" ID="ID_814940265" CREATED="1388388729190" MODIFIED="1388469426444">
+<node TEXT="SW Package Start" ID="ID_814940265" CREATED="1388388729190" MODIFIED="1388639608301">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#31456;&#33410;&#24456;&#20540;&#24471;&#19968;&#35835;&#12290;
+    </p>
+    <p>
+      &#22312;SW Package start&#30340;&#36807;&#31243;&#24403;&#20013;&#65292;&#28041;&#21450;&#21040;&#20102;&#22810;&#20010;&#30340;&#36719;&#20214;&#27169;&#22359;&#12290;LocalSW_Manager,EntryProgram,subProgram,LocalODB,LocalFileSystem&#31561;&#31561;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="Inter-process communication" ID="ID_1406902538" CREATED="1388388738876" MODIFIED="1388469428814">
+<node TEXT="Inter-process communication" ID="ID_1406902538" CREATED="1388388738876" MODIFIED="1388646227608">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37325;&#35201;&#30340;&#26159;&#36825;&#20010;&#31456;&#33410;&#20171;&#32461;&#30340;&#19968;&#20123;&#27010;&#24565;&#20197;&#21450;&#36825;&#20123;&#27010;&#24565;&#20043;&#38388;&#30340;&#20851;&#31995;&#20197;&#21450;&#21508;&#33258;&#30340;&#20316;&#29992;&#12290;
+    </p>
+    <p>
+      &#20854;&#23454;&#36825;&#20010;&#31456;&#33410;&#37324;&#38754;&#25152;&#32473;&#30340;&#37027;&#24352;&#22270;&#23601;&#24050;&#32463;&#22823;&#33268;&#19978;&#25226;&#20182;&#20204;&#20043;&#38388;&#30340;&#20851;&#31995;&#32473;&#25551;&#36848;&#28165;&#26970;&#20102;(&#22914;&#26524;&#29087;&#24713;OSE&#30340;&#20851;&#20110;IPC&#36890;&#20449;&#26426;&#21046;&#21644;Link Handler&#30340;&#27010;&#24565;&#30340;&#35805;&#23601;&#26356;&#23481;&#26131;&#29702;&#35299;&#36825;&#19968;&#22359;&#20102;)
+    </p>
+    <ul>
+      <li>
+        ODB
+      </li>
+      <li>
+        LocalODB
+      </li>
+      <li>
+        LocalSAP
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#22312;OSE&#30340;&#36890;&#20449;&#26426;&#21046;&#20013;&#65292;&#19968;&#33324;&#26469;&#35828;IPC&#37117;&#26159;&#36890;&#36807;signal&#36827;&#34892;&#20132;&#20114;&#65292;
+    </p>
+    <p>
+      &#23545;&#20110;signal&#20132;&#20114;&#30340;&#35805;&#65292;&#19968;&#33324;&#23384;&#22312;server&#31471;&#21644;client&#31471;&#12290;
+    </p>
+    <p>
+      <b><font size="4">&#20132;&#20114;&#30340;&#36807;&#31243;&#19968;&#33324;&#20026;&#22914;&#19979;&#30340;&#27969;&#31243;: </font></b>
+    </p>
+    <ol>
+      <li>
+        <b>server&#31471;&#22312;&#21512;&#36866;&#30340;&#26102;&#38388;&#21521;LocalODB&#27880;&#20876;&#33258;&#24049;&#65292;&#19968;&#26086;Server&#31471;&#22312;LocalODB&#19978;&#27880;&#20876;&#20102;&#20043;&#21518;&#65292;LocalODB&#20250;&#21521;&#20854;&#36820;&#22238;&#19968;&#20010;PID&#20316;&#20026;server&#30340;&#35782;&#21035;&#21495;&#65292;&#36825;&#26679;&#65292;&#22312;&#27880;&#20876;&#20102;&#20043;&#21518;&#65292;server&#23601;&#33021;&#22815;&#34987;client&#21457;&#29616;&#20102; </b>
+      </li>
+      <li>
+        <b>client&#22312;&#38656;&#35201;&#24314;&#31435;&#36215;&#19982;server&#30340;&#32852;&#31995;&#30340;&#26102;&#20505;&#65292;&#21521;LocalODB&#26597;&#23547;server&#30340;PID&#65292;&#22914;&#26524;&#20043;&#21069;server&#27880;&#20876;&#36807;&#65292;&#37027;&#20040;server&#23601;&#20250;&#21521;client&#36820;&#22238;server&#30340;PID&#12290; </b>
+      </li>
+      <li>
+        <b>client&#22312;&#24471;&#21040;server&#30340;PID&#20043;&#21518;&#65292;&#23601;&#33021;&#22815;&#30452;&#25509;&#36890;&#36807;signal&#25509;&#21475;&#19982;server&#36890;&#20449;&#20102;&#12290;</b>
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5173;&#x4e8e;ODB" ID="ID_1214543881" CREATED="1388640051103" MODIFIED="1388642375894"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      ODB&#22312;&#25972;&#20010;&#31995;&#32479;&#20013;&#21482;&#26377;&#19968;&#20010;&#65292;&#24182;&#19988;&#36305;&#22312;&#20027;CPU&#19978;&#38754;&#12290;
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      ODB&#30340;&#20027;&#35201;&#20316;&#29992;&#26159;&#65292;&#22312;&#20998;&#24067;&#24335;&#31995;&#32479;&#20013;&#65292;&#23545;&#20110;&#26576;&#20010;node&#19978;&#30340;&#36827;&#31243;&#32780;&#35328;&#65292;&#22914;&#26524;&#38656;&#35201;&#36827;&#34892;&#36328;node&#30340;&#20132;&#20114;&#30340;&#35805;&#65292;remote&#30340;&#36827;&#31243;&#30340;&#20449;&#24687;(PID&#31561;&#31561;)&#38656;&#35201;&#26368;&#32456;&#20174;ODB&#19978;quary&#24471;&#21040;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="ODB Search and Subscribe" ID="ID_1755745625" CREATED="1388388767087" MODIFIED="1388388776550"/>
-<node TEXT="Fault Management" ID="ID_1000470005" CREATED="1388388788555" MODIFIED="1388388792977"/>
-<node TEXT="Database" ID="ID_1855370067" CREATED="1388388809115" MODIFIED="1388388812912"/>
+<node TEXT="&#x5173;&#x4e8e;LocalODB" ID="ID_392916994" CREATED="1388640054373" MODIFIED="1388642528894"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#30456;&#23545;&#20110;ODB&#26469;&#35828;&#65292;&#23545;&#20110;&#19968;&#20010;&#20998;&#24067;&#24335;&#30340;&#31995;&#32479;&#65292;&#27599;&#19968;&#20010;node&#19978;&#38754;&#37117;&#21508;&#26377;&#19968;&#20010;LocalODB.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      LocalOBD&#25152;&#36215;&#30340;&#20316;&#29992;&#26159;&#65292;&#24403;node&#19978;&#30340;&#26576;&#20010;&#36827;&#31243;&#24076;&#26395;&#25214;&#21040;&#21478;&#22806;&#19968;&#20010;&#36827;&#31243;&#36827;&#34892;&#36890;&#20449;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#20511;&#21161;LocalOBD&#30340;&#24110;&#21161;&#23450;&#20301;&#37027;&#20010;&#30446;&#26631;&#36827;&#31243;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3&#65292;
+    </p>
+    <p>
+      LocalODB&#36824;&#36127;&#36131;&#21019;&#24314;Phantom&#36827;&#31243;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#19982;remote&#36827;&#31243;&#30340;&#36830;&#25509;&#26029;&#25481;&#20102;&#20043;&#21518;&#65292;LocalODB&#36824;&#36127;&#36131;&#23558;&#36825;&#19968;&#28040;&#24687;&#36890;&#30693;&#32473;&#26412;node&#30340;&#36827;&#31243;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5173;&#x4e8e;LocalSAP" ID="ID_967307097" CREATED="1388640060593" MODIFIED="1388643399354">
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;LocalSAP&#21040;&#24213;&#26159;&#20010;&#20160;&#20040;&#19996;&#35199;&#65292;&#29616;&#22312;&#36824;&#27809;&#26377;&#24456;&#20855;&#20307;&#30340;&#27010;&#24565;&#12290;&#24212;&#35813;&#26159;&#36319;&#20043;&#21069;&#20351;&#29992;&#30340;LinkHandler&#26159;&#24046;&#19981;&#22810;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#29616;&#22312;&#33021;&#22815;&#30475;&#21040;&#30340;&#20004;&#28857;&#26159;&#65292;
+    </p>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#34429;&#28982;LocalODB&#26159;&#36127;&#36131;&#21019;&#24314;Phantom&#36827;&#31243;&#30340;&#65292;&#20294;&#26159;&#23454;&#38469;&#19978;LocalODB&#26159;&#21521;LocalSAP&#35831;&#27714;&#65292;&#35753;LocalSAP&#24110;&#20854;&#23436;&#25104;&#36825;&#20010;&#25805;&#20316;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      &#22312;Phantom&#36827;&#31243;&#34987;&#21019;&#24314;&#20043;&#21518;&#65292;&#22914;&#26524;&#38656;&#35201;&#19982;Phantom&#36827;&#31243;&#25152;&#20195;&#34920;&#30340;remote&#36827;&#31243;&#21457;&#28040;&#24687;&#30340;&#35805;&#65292;&#36825;&#20010;&#28040;&#24687;&#26159;&#36890;&#36807;LocalSAP&#36716;&#21457;&#32473;remote&#31471;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="ODB Search and Subscribe" ID="ID_1755745625" CREATED="1388388767087" MODIFIED="1388646477180">
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#31456;&#33410;&#37324;&#38754;&#20063;&#26377;&#19968;&#20123;&#27604;&#36739;&#37325;&#35201;&#30340;&#27010;&#24565;.
+    </p>
+    <ul>
+      <li>
+        Domain
+      </li>
+      <li>
+        Base Class
+      </li>
+      <li>
+        Class Name
+      </li>
+      <li>
+        Class Attribute
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;Domain&#21644;Base Class&#30340;&#21306;&#21035;:
+    </p>
+    <p>
+      &#20851;&#20110;&#20004;&#32773;&#20043;&#38388;&#30340;&#21306;&#21035;&#65292;&#25105;&#20063;&#19981;&#26159;&#24456;&#28165;&#26970;&#65292;&#20294;&#26159;&#20284;&#20046;&#24863;&#35273;&#19978;Domain&#30340;&#24847;&#24605;&#26159;&#65292;&#21482;&#35201;&#31526;&#21512;&#26576;&#20010;&#36890;&#29992;&#30340;&#25509;&#21475;&#65292;&#37027;&#20040;&#23601;&#21487;&#20197;&#35828;&#26159;&#23646;&#20110;&#36825;&#20010;Domain&#30340;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;Base Class&#30340;&#35805;&#65292;&#26159;&#19968;&#20010;&#32487;&#25215;&#30340;&#27010;&#24565;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Subscription&#20063;&#26377;&#20004;&#31181;&#26041;&#24335;&#65292;&#19968;&#31181;&#26159;&#21521;LocalODB&#26469;subscribe,&#19968;&#31181;&#26159;&#30452;&#25509;&#21521;&#26576;&#20010;object&#26469;subscribe.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21478;&#22806;&#19968;&#28857;&#26159;&#65292;
+    </p>
+    <p>
+      &#19981;&#20165;&#20165;&#26159;server&#31471;&#33021;&#22815;&#22312;LocalODB&#20013;&#27880;&#20876;&#65292;client&#31471;&#20063;&#33021;&#22815;&#22312;LocalODB&#20013;&#27880;&#20876;&#12290;
+    </p>
+    <p>
+      &#27604;&#22914;&#26576;&#20010;&#36827;&#31243;&#21487;&#20197;&#22312;LocalODB&#20013;&#27880;&#20876;&#20026;&#23646;&#20110;&#26576;&#20010;Domain.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Fault Management" ID="ID_1000470005" CREATED="1388388788555" MODIFIED="1388647374042">
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#19968;&#37096;&#20998;&#20851;&#20110;fault management&#30340;&#25551;&#36848;&#20854;&#23454;&#23601;&#26159;&#23545;SE&#26426;&#21046;&#30340;&#25551;&#36848;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#34429;&#28982;&#27809;&#26377;&#35814;&#32454;&#30340;&#20171;&#32461;&#65292;&#20294;&#26159;&#19968;&#20010;SE&#24212;&#35813;&#21253;&#21547;&#19979;&#38754;&#30340;&#23646;&#24615;:
+    </p>
+    <ul>
+      <li>
+        funcIdList
+      </li>
+      <li>
+        SEId
+      </li>
+      <li>
+        filterParameters
+      </li>
+      <li>
+        localAction
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      funcIdList&#20195;&#34920;&#30340;&#24212;&#35813;&#23601;&#26159;&#36825;&#20010;SE&#26159;&#23646;&#20110;&#21738;&#20010;FuncId&#20040;?
+    </p>
+    <p>
+      SEId&#26159;&#29992;&#26469;&#26631;&#35782;&#36825;&#20010;&#29305;&#23450;&#30340;SE&#30340;
+    </p>
+    <p>
+      filterParameters&#36825;&#20010;&#39033;&#19981;&#26159;&#24456;&#28165;&#26970;&#26159;&#20160;&#20040;&#24847;&#24605;&#12290;
+    </p>
+    <p>
+      localAction&#26159;&#34920;&#31034;&#22312;SE&#30340;&#29366;&#24577;&#25913;&#21464;&#65292;client&#19978;&#25253;&#36825;&#20010;fault&#30340;&#26102;&#20505;&#65292;client&#21516;&#26102;&#24212;&#35813;&#25191;&#34892;&#30340;&#19968;&#20123;&#25805;&#20316;(&#23454;&#38469;&#19978;&#65292;&#20174;senquence&#22270;&#26469;&#30475;&#65292;&#36825;&#20010;localAction&#20063;&#26159;SE_Manager&#35201;&#27714;client&#25191;&#34892;&#30340;&#12290;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Database" ID="ID_1855370067" CREATED="1388388809115" MODIFIED="1388649582782">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20063;&#26159;&#24456;&#37325;&#35201;&#30340;&#19968;&#22359;&#20869;&#23481;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;GSM&#30340;RBS&#31995;&#32479;&#20013;&#65292;&#20851;&#20110;DataBase&#26377;&#22909;&#22810;&#31181;&#30340;&#20998;&#31867;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#39318;&#20808;&#20174;&#21151;&#33021;&#19978;&#26469;&#35828;&#65292;RBS DB&#22823;&#33268;&#26377;&#19979;&#38754;&#30340;&#20960;&#31181;:
+    </p>
+    <ul>
+      <li>
+        Main Function DB
+      </li>
+      <li>
+        Sub Function DB
+      </li>
+      <li>
+        Passive Function DB
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#23545;&#20110;&#19978;&#38754;&#30340;MFDB&#21644;SFDB&#37324;&#38754;&#65292;&#21448;&#37117;&#21253;&#21547;&#19977;&#20010;&#23567;&#32452;&#25104;&#37096;&#20998;:
+    </p>
+    <ul>
+      <li>
+        Configuration Data
+      </li>
+      <li>
+        Specific Data
+      </li>
+      <li>
+        Production Data
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#20174;IDB&#30340;&#35282;&#24230;&#26469;&#35828;&#65292;RBS DB&#21253;&#21547;&#20004;&#31867;:
+    </p>
+    <ul>
+      <li>
+        IDB
+      </li>
+      <li>
+        RUDB
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      IDB&#21253;&#21547;&#30340;&#26159;&#31995;&#32479;&#30340;&#37197;&#32622;&#20449;&#24687;&#65292;&#20027;&#35201;&#21253;&#21547;MFDB&#21644;SFDB&#20197;&#21450;PFDB&#36825;&#19977;&#31181;function DB&#30340;configuration data&#37096;&#20998;&#20197;&#21450;&#19968;&#20010;Central_configuration_data.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32780;RUDB&#20391;&#37325;&#30340;&#26159;&#30828;&#20214;&#26412;&#36523;&#30340;&#19968;&#20123;&#23646;&#24615;&#30340;DB&#65292;&#21253;&#21547;:
+    </p>
+    <ul>
+      <li>
+        Production Data
+      </li>
+      <li>
+        Specific Data
+      </li>
+      <li>
+        HW DB
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Function DB&#30340;&#27010;&#24565;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Function DB&#21253;&#21547;&#26377;IDB&#20197;&#21450;RUDB&#12290;
+    </p>
+    <p>
+      &#23545;&#20110;&#27599;&#19968;&#20010;FuncId&#65292;&#37117;&#26377;&#19968;&#20010;&#23545;&#24212;&#30340;FunctionDB&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;:
+    </p>
+    <p>
+      1,
+    </p>
+    <p>
+      &#19978;&#38754;&#25152;&#35828;&#30340;RUDB&#37117;&#26159;&#22312;&#30828;&#20214;&#20135;&#21697;&#20986;&#21378;&#30340;&#26102;&#20505;&#23601;&#20889;&#22312;HW&#37324;&#38754;&#30340;&#12290;&#26159;&#23646;&#24615;&#19968;&#31867;&#30340;&#20449;&#24687;&#65292;&#22914;&#20135;&#21697;&#22411;&#21495;&#65292;Serial Number&#31561;&#31561;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      MF Configuration DB,SF configuration DB,PF configuration DB&#37117;&#26159;&#36890;&#36807;OMT&#24037;&#20855;&#22312;&#37197;&#31449;&#30340;&#26102;&#20505;&#20889;&#20837;&#21040;&#31995;&#32479;&#20013;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="RBS&#x4e0a;&#x540c;&#x6b65;DB&#x7684;&#x6d41;&#x7a0b;" ID="ID_1064586542" CREATED="1388648152229" MODIFIED="1388648160860"/>
+<node TEXT="IDB&#x7684;&#x5206;&#x5e03;" ID="ID_194561139" CREATED="1388648974109" MODIFIED="1388649465255"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#22312;&#19968;&#20010;&#31995;&#32479;&#20013;&#65292;&#26377;&#19968;&#20010;IDB&#30340;&#31867;&#12290;
+    </p>
+    <p>
+      &#22312;GSM RBS&#36825;&#26679;&#30340;&#20998;&#24067;&#24335;&#31995;&#32479;&#20013;&#65292;&#26377;&#19968;&#20010;&#20013;&#22830;node,&#20351;&#29992;OMT&#37197;&#31449;&#30340;&#26102;&#65292;&#23558;&#37197;&#32622;&#20449;&#24687;&#20889;&#20837;&#36825;&#20010;&#20013;&#22830;node&#30340;flash&#37324;&#38754;&#21435;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      &#22312;GSM RBS&#36825;&#26679;&#30340;&#20998;&#24067;&#24335;&#31995;&#32479;&#20013;&#65292;&#27599;&#19968;&#20010;node&#19978;&#37117;&#19968;&#20010;&#19968;&#20010;LocalIDB&#31867;&#12290;&#36825;&#20123;&#20010;LocalIDB&#36127;&#36131;&#19982;&#20013;&#22830;node&#30340;IDB&#31867;&#21516;&#27493;&#20449;&#24687;(&#20027;&#35201;&#26159;&#20174;&#20013;&#22830;node&#33719;&#21462;OMT&#37197;&#32622;&#30340;configuration data&#20197;&#21450;&#21521;&#20013;&#22830;node&#19978;&#25253;&#33258;&#24049;node&#30340;production data&#21644;configuration data)&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3&#65292;
+    </p>
+    <p>
+      &#22312;RBS&#31995;&#32479;&#20013;&#65292;&#21482;&#26377;HWU&#33021;&#22815;&#26159;DB_Server.(&#36825;&#20063;&#26159;&#21487;&#20197;&#29702;&#35299;&#30340;&#65292;&#33267;&#23569;&#30446;&#21069;&#20174;&#36923;&#36753;&#19978;&#24819;&#65292;&#26159;&#21512;&#29702;&#30340;)&#65292;HWU&#20013;&#20250;&#20445;&#23384;&#26377;&#30456;&#24212;&#30828;&#20214;&#30340;production data&#21644;specific data.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Architectural Views" ID="ID_194680019" CREATED="1388382471471" MODIFIED="1388389935090"><richcontent TYPE="NOTE">
@@ -2793,8 +4864,275 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
+<node TEXT="Fault_Handling&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_1149985121" CREATED="1392699456978" MODIFIED="1403675557048"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27599;&#27425;&#25171;&#24320;baseline&#36873;&#25321;&#25991;&#20214;&#20063;&#40635;&#28902;&#12290;&#36825;&#20010;node&#20445;&#23384;&#20102;&#36319;Fault handling&#30456;&#20851;&#30340;&#20960;&#20010;&#25991;&#26723;&#36830;&#25509;&#65292;&#19968;&#33324;&#20351;&#29992;&#30340;&#35805;&#21487;&#20197;&#30452;&#25509;&#25171;&#24320;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x3010;GD&#x3011;Fault_Coordination" ID="ID_1708717393" CREATED="1392699490797" MODIFIED="1392699768994" LINK="../GSM_document_base/Baseline/GD_Fault_Coordination_106_1551-HRB10521_EN_AN_PDFV1R4.pdf"/>
+<node TEXT="&#x3010;FS&#x3011;Diagnostics_and_Fault_Handling" ID="ID_540936025" CREATED="1392699502721" MODIFIED="1392699775611" LINK="../GSM_document_base/Baseline/FS_Diagnostics_and_Fault_Handling_211_15517-HRB10521_EN_V_PDFV1R4.pdf"/>
+<node TEXT="Supervised_Entities_in_Radio" ID="ID_663153612" CREATED="1392699544927" MODIFIED="1392699790408" LINK="../GSM_document_base/Baseline/Supervised_Entities_in_Radio_103_1551-HRB10521_EN_AU_PDFV1R4.pdf"/>
+<node TEXT="Supervised_Entities_in_Platform" ID="ID_1359593418" CREATED="1415342311519" MODIFIED="1415342364157" LINK="../GSM_document_base/Baseline/Supervised_Entities_in_Platform_41_1551-HRB10521_EN_U_PDFV1R4.pdf"/>
+<node TEXT="&#x3010;FD&#x3011;Diagnostics_and_Fault_Handling" ID="ID_1850961260" CREATED="1392699567561" MODIFIED="1392699796293" LINK="../GSM_document_base/Baseline/FD_Diagnostics_and_Fault_Handling_112_15516-HRB10521_EN_AF_PDFV1R5.pdf"/>
+<node TEXT="General Specification of SW Architecture" ID="ID_1455442744" CREATED="1392699609238" MODIFIED="1392699628726" LINK="#ID_1767843448"/>
+<node TEXT="RUS_Fault_Handling" ID="ID_1112451505" CREATED="1404722348726" MODIFIED="1404722410053" LINK="../GSM_document_base/DS_LTE_Fault_Handling.doc"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#25991;&#26723;&#35762;&#35299;RUS&#30340;fault handling&#30340;&#26426;&#21046;&#12290;
+    </p>
+    <p>
+      &#28041;&#21450;&#21040;&#20102;ELIB&#30340;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="Dual-Mixed-Mode-for_AIR&#x76f8;&#x5173;&#x7684;&#x6587;&#x6863;" ID="ID_454431602" CREATED="1383579290886" MODIFIED="1383579606908" LINK="#ID_515093863"/>
+</node>
+<node TEXT="&#x3010;FD&#x3011;REH" ID="ID_227202717" CREATED="1402550836131" MODIFIED="1402550979169" LINK="../GSM_document_base/Baseline/FD_REH.pdf"/>
+<node TEXT="&#x3010;FS&#x3011;REH" ID="ID_656340407" CREATED="1394182927775" MODIFIED="1408029662708" LINK="../GSM_document_base/Baseline/FS_REH_271_15517-HRB10521_EN_AB_PDFV1R5.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#12304;FS&#12305; Radio Equipment Handling.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x3010;GD&#x3011;Configuration of Radio in TRS-3 for CPRI based RBS" ID="ID_1772811891" CREATED="1394607628401" MODIFIED="1394607684391" LINK="../GSM_document_base/Baseline/GD_Radio_Config_111_1551-HRB10521_EN_H_PDFV1R5.pdf"/>
+<node TEXT="&#x3010;FD&#x3011;Radio Supervision" ID="ID_430598340" CREATED="1395301221526" MODIFIED="1395301359161" LINK="../GSM_document_base/Baseline/FD_Radio_Supervision_125_15516-HRB10521_EN_AZ_PDFV1R4.pdf"/>
+<node TEXT="&#x3010;FS&#x3011;Radio Supervision" ID="ID_1374122733" CREATED="1402549952444" MODIFIED="1402549983718" LINK="../GSM_document_base/Baseline/FS_Radio_Supervision.pdf"/>
+<node TEXT="&#x3010;TSC SWPS&#x3011;" ID="ID_797516615" CREATED="1400658789873" MODIFIED="1400658822806" LINK="../GSM_document_base/Baseline/PS_TSC.pdf"/>
+<node TEXT="&#x3010;LOMP SWPS&#x3011;" ID="ID_919889611" CREATED="1403611488603" MODIFIED="1403611507495" LINK="../GSM_document_base/Baseline/PS_LOMP_5_10261-HRB10521_EN_AU_PDFV1R5.pdf"/>
+<node TEXT="&#x3010;FD&#x3011;Synchronization" ID="ID_740518771" CREATED="1401929650338" MODIFIED="1401929715744" LINK="../GSM_document_base/Baseline/FD_Synchronisation.pdf"/>
+<node TEXT="&#x3010;FS&#x3011;Synchronization" ID="ID_137807292" CREATED="1401930326914" MODIFIED="1401930343459" LINK="../GSM_document_base/Baseline/FS_Synchronization.pdf"/>
+<node TEXT="DataBase&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_1407104163" CREATED="1403610918752" MODIFIED="1403657965098">
+<node TEXT="Database_Description_for_GSM_RBS" ID="ID_684589007" CREATED="1403610928901" MODIFIED="1403611111152" LINK="../GSM_document_base/Baseline/Database_Description_for_GSM_RBS_1_19818-HRB10521_EN_CU_PDFV1R4.pdf"/>
+<node TEXT="Format Description Radio parameters RU DB in RBS6000" ID="ID_18813979" CREATED="1403611181474" MODIFIED="1403611195026" LINK="../GSM_document_base/Baseline/Format_Description_Radio_parameters_RU_DB_in_RBS6000%201_19001-CNH201570_01_EN_E_PDFV1R2.pdf"/>
+<node TEXT="Format Description of RU DB in Core based products" ID="ID_1885761244" CREATED="1403611264002" MODIFIED="1403611351019" LINK="../GSM_document_base/Baseline/Format_Description_of_RU_DB_in_Core_based_products_1_19001-HRB10513_EN_Y_PDFV1R2.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#25991;&#26723;&#30340;&#26368;&#21518;&#37096;&#20998;&#25351;&#31034;&#20102;&#30456;&#24212;&#30340;&#26495;&#23376;&#19978;&#30340;RU_DB&#30340;&#35814;&#32454;&#20449;&#24687;&#23384;&#25918;&#30340;&#25991;&#26723;&#30340;&#21517;&#31216;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Radio Specific Part of the Core based DXU Main RU Data&#xa;Base" ID="ID_1986611590" CREATED="1403611409793" MODIFIED="1403611434845" LINK="../GSM_document_base/Baseline/Radio_Specific_Part_of_the_Core_based_DXU_Main_RU_Data_1_19001-CNH201506_2_EN_F_PDFV1R4.pdf"/>
+<node TEXT="&#x3010;FD&#x3011;Database Handling in Radio Unit" ID="ID_1021749436" CREATED="1403613251793" MODIFIED="1403659504314" LINK="../GSM_document_base/Baseline/FD_Database_Handling_in_Radio_Unit_34_15516-HRB10521__AM_PDFV1R4.pdf"/>
+</node>
+<node TEXT="Description RC Local Config Reference for Core products" ID="ID_1793323693" CREATED="1403675568767" MODIFIED="1403675616707" LINK="../GSM_document_base/Baseline/Description_RC_Local_Config_Reference_for_Core_products_43_1551-HRB10521_EN_X_PDFV1R2.pdf"/>
+<node TEXT="&#x3010;IWD&#x3011; G Interface" ID="ID_1164967610" CREATED="1408590262717" MODIFIED="1408590376836" LINK="../GSM_document_base/Baseline/IWD_G_1_15519-CNH201360_01_EN_AV_PDFV1R4.pdf"/>
+</node>
+<node TEXT="IWD BCI" ID="ID_1452242409" CREATED="1418888472297" MODIFIED="1418888507397" LINK="../GSM_document_base/IWD_BCI.doc"/>
+<node TEXT="Dual-Mixed-Mode-for_AIR&#x76f8;&#x5173;&#x7684;&#x6587;&#x6863;" ID="ID_454431602" CREATED="1383579290886" MODIFIED="1396316947977" LINK="#ID_515093863"/>
+<node TEXT="JAVE USER GUIDE" ID="ID_1842349317" CREATED="1395047584408" MODIFIED="1399346521085" LINK="../GSM_document_base/JAVE%20user%20guide%20ppt.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;&#20851;&#20110;JAVE&#24037;&#20855;&#30340;&#35828;&#26126;&#25991;&#26723;PPT
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Danial&#x5171;&#x4eab;&#x7684;&#x4e00;&#x4e9b;GSM&#x57f9;&#x8bad;&#x7684;&#x8d44;&#x6599;&#x94fe;&#x63a5;" ID="ID_1730520521" CREATED="1398821443298" MODIFIED="1398822405074"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#26159;Ericoll&#19978;&#38754;&#30340;&#19968;&#20010;&#38142;&#25509;&#65292;Kista&#30340;STA&#22312;&#36825;&#20010;&#38142;&#25509;&#19978;&#23384;&#25918;&#20102;&#19981;&#23569;&#30456;&#20851;&#30340;&#22521;&#35757;&#25991;&#26723;:
+    </p>
+    <p>
+      <a href="https://ericoll.internal.ericsson.com/sites/BTS_Transfer/ENC_Transfer/Documents/Forms/AllItems.aspx">https://ericoll.internal.ericsson.com/sites/BTS_Transfer/ENC_Transfer/Documents/Forms/AllItems.aspx</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6d41;&#x7a0b;&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_871788646" CREATED="1399343768007" MODIFIED="1421211575084">
+<node TEXT="GSM&#x6d41;&#x7a0b;&#x76f8;&#x5173;&#x7684;&#x94fe;&#x63a5;&#x6587;&#x6863;" ID="ID_922410106" CREATED="1399343788251" MODIFIED="1421211575081" LINK="../GSM_document_base/GSM_Web_Introduction.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21016;&#33673;&#20998;&#20139;&#30340;&#19968;&#20010;&#26377;&#20851;GSM&#30456;&#20851;&#27969;&#31243;&#30340;&#38142;&#25509;&#38598;&#21512;&#12290;
+    </p>
+    <p>
+      &#20851;&#20110;G Model,TR&#65292;Development &#27969;&#31243;&#20160;&#20040;&#30340;&#36824;&#34542;&#22909;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="WorkShop&#x6750;&#x6599;" ID="ID_349741874" CREATED="1399346507677" MODIFIED="1399511846093">
+<node TEXT="Daninal&#x5173;&#x4e8e;BTS_Overview&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x6863;" ID="ID_1185749508" CREATED="1395047300671" MODIFIED="1395047375861" LINK="../GSM_document_base/RBS_Presentaion_PA10.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#34542;&#22909;&#30340;&#19968;&#20010;&#20171;&#32461;BTS Overview&#30340;&#25991;&#26723;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Krister&#x7684;&#x7cfb;&#x5217;&#x8bb2;&#x5ea7;" ID="ID_1294398898" CREATED="1402640681716" MODIFIED="1402640700833">
+<node TEXT="RBS6000_Radio_Configurations" ID="ID_521481657" CREATED="1399346538207" MODIFIED="1399441671710" LINK="../GSM_document_base/RBS_6000_Radio_Configurations.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Krister Andersson L&#20570;&#30340;&#20851;&#20110;Radio Configuration&#30340;&#22521;&#35757;&#25991;&#26723;&#12290;
+    </p>
+    <p>
+      &#35762;&#35299;&#24471;&#24456;&#28165;&#26224;&#65292;&#21482;&#26159;&#26368;&#21518;&#30340;&#26102;&#20505;&#30001;&#20110;&#26102;&#38388;&#20851;&#31995;&#65292;&#37096;&#20998;&#30340;slides&#36807;&#30340;&#24456;&#24555;&#12290;
+    </p>
+    <p>
+      &#35762;&#24231;&#30340;&#31508;&#35760;&#21442;&#32771;&#23376;&#33410;&#28857;&#30340;onenote&#30340;&#25551;&#36848;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x8bb2;&#x5ea7;&#x7b14;&#x8bb0;" ID="ID_1138709830" CREATED="1399441671614" MODIFIED="1399441701276" LINK="../OneNote/RBS6000_Radio_Configuration.one"/>
+</node>
+<node TEXT="Modulation&#x4ecb;&#x7ecd;" ID="ID_631949020" CREATED="1399441836911" MODIFIED="1402640705579" LINK="../GSM_document_base/Modulation.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Krister Andersson L&#20570;&#30340;&#20851;&#20110;Modulation&#30340;&#20171;&#32461;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="BTS Architecture" ID="ID_581975174" CREATED="1399865109451" MODIFIED="1402640707546" LINK="../GSM_document_base/BTS%20Architecture.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Krister Andersson L&#30340;&#35762;&#24231;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="BTS Models" ID="ID_1064323359" CREATED="1399865117193" MODIFIED="1402640709301" LINK="../GSM_document_base/BTS_Models.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Krister Andersson L&#30340;&#35762;&#24231;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="BTS Traffic" ID="ID_1791571790" CREATED="1400660908729" MODIFIED="1402640710857" LINK="../GSM_document_base/BTS_Traffic.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Krister Andersson L&#30340;&#35762;&#24231;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="BCCH_System_Information" ID="ID_288601753" CREATED="1400661066686" MODIFIED="1402640712401" LINK="../GSM_document_base/BCCH_System_Information.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Krister Andersson L&#30340;&#35762;&#24231;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Joakim&#x7684;&#x7cfb;&#x5217;&#x8bb2;&#x5ea7;" ID="ID_698177323" CREATED="1402640719251" MODIFIED="1402640723907">
+<node TEXT="Support_for_RBS6000&amp;Combined_Cell" ID="ID_1732281451" CREATED="1402640804397" MODIFIED="1402640853817" LINK="../GSM_document_base/RBS6000_TRX2MCTR_CombindeCell.pptx"/>
+<node TEXT="VAMOS" ID="ID_705733594" CREATED="1402640871511" MODIFIED="1402640882853" LINK="../GSM_document_base/VAMOS.pptx"/>
+<node TEXT="TempHandling_BCCH_Power_Saving" ID="ID_530875431" CREATED="1402640923915" MODIFIED="1402641154736" LINK="../GSM_document_base/TempHandling_BCCH_PowerSaving.pptx"/>
+<node TEXT="RFPM" ID="ID_634788773" CREATED="1402644577585" MODIFIED="1402644613560" LINK="../GSM_document_base/RF_Power_Management_PLM_20130610.ppt"/>
+</node>
+</node>
+</node>
+<node TEXT="GSM Common" POSITION="left" ID="ID_1415846475" CREATED="1393297703596" MODIFIED="1393297710340">
+<edge COLOR="#00007c"/>
+<node TEXT="GSM BTS&#x7684;&#x4ea7;&#x54c1;&#x7ed3;&#x6784;" ID="ID_238775065" CREATED="1393297717935" MODIFIED="1395124881284" LINK="../MiscDocuments/GSM_product_structure_introduction.msg"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Torleif Sommar &lt;torleif.sommar@ericsson.com&gt;&#32473;&#20102;&#19968;&#20010;Workshop&#65292;&#20027;&#35201;&#35762;&#30340;&#26159;GSM BTS&#30340;&#20135;&#21697;&#32467;&#26500;&#12290;
+    </p>
+    <p>
+      &#32467;&#28857;&#38468;&#20214;&#30340;&#37038;&#20214;&#20013;&#26377;&#20182;&#20570;workshop&#30340;&#26102;&#20505;&#29992;&#21040;&#30340;PDF&#25991;&#26723;&#21644;confluence&#38142;&#25509;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>

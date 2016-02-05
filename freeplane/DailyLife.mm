@@ -100,7 +100,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x770b;&#x85b0;&#x8863;&#x8349;" ID="ID_1643234614" CREATED="1368686390432" MODIFIED="1368686466276"><richcontent TYPE="NOTE">
 
@@ -117,7 +116,6 @@
     </h1>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -171,6 +169,66 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6c5f;&#x5b81;&#x653f;&#x5e9c;&#x673a;&#x6784;" POSITION="left" ID="ID_1703822779" CREATED="1392454478349" MODIFIED="1392454546957"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19979;&#38754;&#30340;&#32593;&#31449;&#33021;&#22815;&#25214;&#21040;&#27743;&#23425;&#21306;&#30340;&#19968;&#20123;&#26426;&#26500;&#30340;&#22320;&#22336;&#21644;&#30005;&#35805;:
+    </p>
+    <p>
+      <a href="http://www.jiangning.gov.cn/wsbs/index.htm">http://www.jiangning.gov.cn/wsbs/index.htm </a>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x6258;&#x4e50;&#x5609;&#x6240;&#x5c5e;&#x7684;&#x793e;&#x533a;&#x533b;&#x9662;" ID="ID_474400343" CREATED="1392454577065" MODIFIED="1392454659425"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="10pt"><span style="font-size: 10pt">&#31203;&#38517;&#34903;&#36947;&#30334;&#23478;&#28246;&#31038;&#21306;&#21355;&#29983;&#26381;&#21153;&#20013;&#24515; </span></font>
+    </p>
+    <p>
+      <font size="10pt"><span style="font-size: 10pt">&#27743;&#23425;&#24320;&#21457;&#21306;&#21069;&#24196;&#36335;266&#21495;(</span><span style="font-size: 10pt">&#30334;&#23478;&#28246;&#25964;&#32769;&#38498;&#26049;</span><span style="font-size: 10pt">) </span></font>
+    </p>
+    <p>
+      <font size="10pt"><span style="font-size: 10pt">025-52721644-8021 </span></font>
+    </p>
+    <p>
+      <font size="10pt"><span style="font-size: 10pt">&#27599;&#21608;&#19968;&#12289;&#19977;&#12289;&#22235;&#12289;&#20116;&#65292;&#21608;&#20845;&#19978;&#21320; </span></font>
+    </p>
+    <p>
+      <font size="10pt"><span style="font-size: 10pt">&#21306;&#38388;1&#12289;21&#12289;23&#36335;</span></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6258;&#x4e50;&#x5609;&#x6240;&#x5c5e;&#x7684;&#x8857;&#x9053;" ID="ID_1620565063" CREATED="1392454665063" MODIFIED="1392454786145"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27743;&#23425;&#21306;&#31203;&#38517;&#34903;&#36947;&#31206;&#28142;&#31038;&#21306;
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
