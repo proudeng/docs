@@ -3392,7 +3392,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Pro Git" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455432571612">
+<node TEXT="Pro Git" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
 <edge COLOR="#7c0000"/>
 <node TEXT="Ch2--Git Basics" ID="ID_1647110050" CREATED="1455436238940" MODIFIED="1455436400977" LINK="../OneNote/Git_Basic_operation.one"><richcontent TYPE="NOTE">
 
@@ -3406,7 +3406,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
