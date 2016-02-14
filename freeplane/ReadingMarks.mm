@@ -1,4 +1,4 @@
-<map version="freeplane 1.2.0">
+<map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1382559133304"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -50,7 +50,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -3392,6 +3392,24 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="Pro Git" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455432571612">
+<edge COLOR="#7c0000"/>
+<node TEXT="Ch2--Git Basics" ID="ID_1647110050" CREATED="1455436238940" MODIFIED="1455436400977" LINK="../OneNote/Git_Basic_operation.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Git&#30340;&#22522;&#26412;&#25805;&#20316;&#65292;&#20294;&#26159;&#19981;&#21253;&#25324;&#20219;&#20309;branch&#30456;&#20851;&#30340;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="Understanding the Linux Kernel,3rd edition" POSITION="left" ID="ID_504465545" CREATED="1378975555231" MODIFIED="1395929729166" LINK="../pub/OReilly.Understanding.the.Linux.Kernel.3rd.Edition.Nov.2005.HAPPY.NEW.YEAR.chm">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
@@ -4329,7 +4347,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7b2c;&#x4e00;&#x8282;.&#x7528;&#x6237;&#x8fdb;&#x7a0b;&#x5730;&#x5740;&#x7a7a;&#x95f4;" ID="ID_1762617188" CREATED="1400927275663" MODIFIED="1400934587018"><richcontent TYPE="NOTE">
 
@@ -4349,7 +4366,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
