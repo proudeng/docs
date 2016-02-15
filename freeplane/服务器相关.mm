@@ -1,7 +1,7 @@
-<map version="freeplane 1.2.0">
+<map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
-    <properties show_note_icons="true" show_icon_for_attributes="true"/>
+    <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -4141,7 +4141,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5665,6 +5664,111 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x66f4;&#x65b0;&#x65f6;&#x533a;" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1455516725446"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#34394;&#25311;&#26426;&#37197;&#32622;&#36215;&#26469;&#30340;&#26102;&#20505;&#65292;&#26102;&#21306;&#24456;&#26377;&#21487;&#33021;&#19981;&#26159;&#21271;&#20140;&#26102;&#38388;&#12290;
+    </p>
+    <p>
+      &#25913;&#19981;&#25913;&#26102;&#21306;&#37117;&#26080;&#25152;&#35859;&#65292;&#21482;&#26159;&#25105;&#26377;&#26102;&#20505;&#38656;&#35201;&#30475;log&#25991;&#20214;&#65292;&#25152;&#20197;&#36824;&#26159;&#24076;&#26395;log&#30340;&#26102;&#38388;&#25139;&#33021;&#22815;&#26174;&#31034;&#21271;&#20140;&#26102;&#38388;&#30340;&#22909;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25805;&#20316;&#27969;&#31243;:
+    </p>
+    <p>
+      &#25163;&#21160;&#25805;&#20316;&#30340;&#35805;&#65292;&#38656;&#35201;&#20462;&#25913;&#20004;&#20010;&#25991;&#20214;&#12290;
+    </p>
+    <p>
+      &#19968;&#20010;&#26159;/etc/timezone.&#19968;&#20010;&#26159;/etc/localtime
+    </p>
+    <p>
+      &#20462;&#25913;&#36215;&#26469;&#20063;&#24456;&#31616;&#21333;.
+    </p>
+    <p>
+      1,
+    </p>
+    <p>
+      /etc/timezone&#37324;&#38754;&#30340;&#20869;&#23481;&#25913;&#20026;Asia/Shanghai
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <div class="line number6 index5 alt1">
+      <code class="bash functions">cp</code>&#160;<code class="bash plain">/usr/share/zoneinfo/Asia/Shanghai</code>&#160;<code class="bash plain">/etc/localtime</code>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      3,
+    </p>
+    <p>
+      &#20351;&#29992;ntpdate&#21629;&#20196;&#23558;&#31995;&#32479;&#26102;&#38388;&#36319;NTP&#26102;&#38388;&#21516;&#27493;
+    </p>
+    <p>
+      ntpdate 133.100.11.8
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4,
+    </p>
+    <p>
+      &#23558;&#30828;&#20214;&#26102;&#38388;&#21516;&#27493;&#21040;&#31995;&#32479;&#26102;&#38388;
+    </p>
+    <p>
+      hwclock --hctosys
+    </p>
+    <p>
+      hwclock -w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25630;&#23450;&#65281;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x7269;&#x7406;&#x65f6;&#x95f4;&#x548c;&#x7cfb;&#x7edf;&#x65f6;&#x95f4;" ID="ID_1264937144" CREATED="1455514877735" MODIFIED="1455515690260"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Linux&#31995;&#32479;&#20013;&#23384;&#22312;&#29289;&#29702;&#26102;&#38388;&#21644;&#31995;&#32479;&#26102;&#38388;&#36825;&#20004;&#20010;&#27010;&#24565;&#12290;
+    </p>
+    <p>
+      &#29289;&#29702;&#26102;&#38388;&#65292;&#25351;&#30340;&#26159;&#20027;&#26495;&#19978;&#30340;BIOS&#20013;&#23384;&#20648;&#30340;&#26102;&#38388;&#65292;&#22240;&#20026;&#20027;&#26495;&#19978;&#30340;BIOS&#26377;&#30005;&#27744;&#20379;&#30005;&#65292;&#25152;&#20197;&#36825;&#20010;&#26102;&#38388;&#22312;&#31995;&#32479;&#19979;&#30005;&#26102;&#65292;&#20173;&#28982;&#33021;&#22815;&#33258;&#21160;&#30340;&#26356;&#26032;&#12290;
+    </p>
+    <p>
+      &#31995;&#32479;&#26102;&#38388;&#65292;&#25351;&#30340;&#26159;Linux&#20869;&#26680;&#22312;&#36816;&#34892;&#26102;&#30340;&#26102;&#38388;&#65292;Linux&#20869;&#26680;&#22312;&#21551;&#21160;&#30340;&#26102;&#20505;&#20250;&#20174;BIOS&#37324;&#38754;&#25226;&#29289;&#29702;&#26102;&#38388;&#32473;&#35835;&#20986;&#26469;&#20351;&#29992;&#65292;&#28982;&#21518;Linux&#31995;&#32479;&#22312;&#21551;&#21160;&#21644;&#36816;&#34892;&#20043;&#21518;&#65292;&#26102;&#38388;&#23601;&#19981;&#20381;&#36182;&#20110;BIOS&#30340;&#26102;&#38047;&#20102;&#65292;&#20004;&#32773;&#26159;&#20998;&#24320;&#30340;&#12290;
+    </p>
+    <p>
+      &#26377;&#21487;&#33021;&#22312;&#31995;&#32479;&#21551;&#21160;&#20043;&#21518;&#65292;linux&#20250;&#20351;&#29992;NTP&#30340;&#26102;&#38388;&#65292;&#37027;&#20040;&#20869;&#26680;&#26102;&#38388;&#23601;&#26377;&#21487;&#33021;&#36319;&#29289;&#29702;&#26102;&#38388;&#19981;&#19968;&#33268;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
 <node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
@@ -6718,9 +6822,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
@@ -9194,7 +9298,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10192,7 +10295,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
