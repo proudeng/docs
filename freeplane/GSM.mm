@@ -1,6 +1,6 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="GSM BTS Radio" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387434465394"><hook NAME="MapStyle">
+<node TEXT="GSM BTS" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false"/>
 
 <map_styles>
@@ -50,7 +50,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3"/>
 <node TEXT="GSM_PreStudy_before_Travel_to_Kista" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1381543833785">
 <edge COLOR="#ff0000"/>
 <node TEXT="dTRU&#x5185;&#x90e8;&#x5404;&#x6a21;&#x5757;&#x7684;&#x4e3b;&#x8981;&#x529f;&#x80fd;" ID="ID_568949512" CREATED="1381568075000" MODIFIED="1381568265362" LINK="../pub/dTRU_structure.pdf"><richcontent TYPE="NOTE">
@@ -1864,6 +1864,41 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
+<node TEXT="O&amp;M_OMT_EC" POSITION="right" ID="ID_257452441" CREATED="1458625360622" MODIFIED="1458625380717">
+<edge COLOR="#0000ff"/>
+<node TEXT="Confluence&#x4e0a;&#x7684;&#x57f9;&#x8bad;&#x8d44;&#x6599;" ID="ID_811414914" CREATED="1458625391666" MODIFIED="1458625509711"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38142;&#25509;&#22312;&#19979;&#38754;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <a href="https://wcdma-confluence.rnd.ki.sw.ericsson.se/display/BTS/Presentations">https://wcdma-confluence.rnd.ki.sw.ericsson.se/display/BTS/Presentations</a>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="ABIS&#x63a5;&#x53e3;" ID="ID_253656614" CREATED="1458627505511" MODIFIED="1458627521654" LINK="#ID_103650854"/>
+<node TEXT="C1" ID="ID_1877299778" CREATED="1458628007043" MODIFIED="1458628009526"/>
+<node TEXT="C3A" ID="ID_222639444" CREATED="1458628011103" MODIFIED="1458628015027"/>
+<node TEXT="C3B" ID="ID_10360721" CREATED="1458628015800" MODIFIED="1458628086587" LINK="../GSM_document_base/C3B%20Abis_OnM_handling.pdf"/>
+<node TEXT="C4" ID="ID_997257054" CREATED="1458628272482" MODIFIED="1458628402639" LINK="../GSM_document_base/C4_Conceptual_Capability_Reporting.pdf"/>
+<node TEXT="C5" ID="ID_166367180" CREATED="1458628275586" MODIFIED="1458628277602"/>
+<node TEXT="C6" ID="ID_630047951" CREATED="1458628278033" MODIFIED="1458628453980" LINK="../GSM_document_base/C6_Conceptual_AO_Configuration.pdf"/>
+<node TEXT="C7" ID="ID_1835854673" CREATED="1458628280419" MODIFIED="1458628502687" LINK="../GSM_document_base/C7_RUS_Start_up.pdf"/>
+<node TEXT="C8&amp;C9" ID="ID_1321427245" CREATED="1458628283017" MODIFIED="1458628602190" LINK="../GSM_document_base/C8%20_C9_Function_Change_External_Internal.pdf"/>
+<node TEXT="C10" ID="ID_1508367366" CREATED="1458628289813" MODIFIED="1458628657944" LINK="../GSM_document_base/C10_RUS_SW_Function_Change.pdf"/>
+<node TEXT="C12" ID="ID_1180122101" CREATED="1458628293123" MODIFIED="1458628695588" LINK="../GSM_document_base/C12_Conceptual_Supervision.pdf"/>
+</node>
+</node>
 <node TEXT="GSM&#x8054;&#x7cfb;&#x4eba;" POSITION="left" ID="ID_1248330498" CREATED="1381926287116" MODIFIED="1397114220709">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
@@ -3311,7 +3346,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Product development WOW" ID="ID_1988761079" CREATED="1383579764564" MODIFIED="1385003930228" LINK="../GSM_document_base/System%20Design%20WoW_CR_PA3.pdf">
@@ -3343,7 +3377,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_1094288080" CREATED="1384324600375" MODIFIED="1384324614466" LINK="../GSM_document_base/2013boot.ppt"/>
 <node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_786279946" CREATED="1384324603695" MODIFIED="1384324621786" LINK="../GSM_document_base/2013transfer.ppt"/>
@@ -3398,7 +3431,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Design rules for TRS-3 SW Modelling" ID="ID_1245981976" CREATED="1384916044276" MODIFIED="1384916186852" LINK="../GSM_document_base/SDE/1_10260_FEA2028517%5B1%5D.doc"/>
 <node TEXT="CR Process (TRS-3 System Model)" ID="ID_1130166230" CREATED="1384916078287" MODIFIED="1384916125606" LINK="../GSM_document_base/SDE/1_00021-FEA2028517_A%5B1%5D.doc"/>
@@ -5111,6 +5143,38 @@ field-separator'></span><![endif]-->
 <node TEXT="VAMOS" ID="ID_705733594" CREATED="1402640871511" MODIFIED="1402640882853" LINK="../GSM_document_base/VAMOS.pptx"/>
 <node TEXT="TempHandling_BCCH_Power_Saving" ID="ID_530875431" CREATED="1402640923915" MODIFIED="1402641154736" LINK="../GSM_document_base/TempHandling_BCCH_PowerSaving.pptx"/>
 <node TEXT="RFPM" ID="ID_634788773" CREATED="1402644577585" MODIFIED="1402644613560" LINK="../GSM_document_base/RF_Power_Management_PLM_20130610.ppt"/>
+</node>
+</node>
+<node TEXT="ABIS&#x63a5;&#x53e3;" ID="ID_103650854" CREATED="1458627069900" MODIFIED="1458627077310">
+<node TEXT="Part1--Model" ID="ID_255985264" CREATED="1458627170645" MODIFIED="1458627488852" LINK="../GSM_document_base/g12r13p1_G14B.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Helvetica-Bold" size="14pt" color="rgb(0,0,0)"><b>Abis O&amp;M interface, Part I, Model</b><br align="-webkit-auto" style="font-variant: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Part2--Procedures" ID="ID_1387922148" CREATED="1458627174150" MODIFIED="1458627494819" LINK="../GSM_document_base/g12r13p2_G14B.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Helvetica-Bold" size="14pt" color="rgb(0,0,0)"><b>Abis O&amp;M interface, Part II, Procedures</b><br align="-webkit-auto" style="font-variant: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
