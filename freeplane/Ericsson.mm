@@ -288,7 +288,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x7ed9;&#x745e;&#x5178;&#x6253;&#x7535;&#x8bdd;" ID="ID_483895137" CREATED="1338967252492" MODIFIED="1338967464991" LINK="Some%20tips.msg">
+<node TEXT="&#x5982;&#x4f55;&#x7ed9;&#x745e;&#x5178;&#x6253;&#x7535;&#x8bdd;" ID="ID_483895137" CREATED="1338967252492" MODIFIED="1459932540586" LINK="../MiscDocuments/&#x5982;&#x4f55;&#x7ed9;EAB&#x6253;&#x7535;&#x8bdd;.jpg">
 <node TEXT="&#x6253;&#x56fd;&#x9645;&#x7535;&#x8bdd;&#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x4e8b;&#x9879;" ID="ID_437785044" CREATED="1400141312376" MODIFIED="1400141327336">
 <node TEXT="&#x4ef7;&#x76ee;" ID="ID_1103963098" CREATED="1400141329783" MODIFIED="1400141466947" LINK="../MiscDocuments/VOICE%20SERVICES%20PRICE%20LIST%202008-11%20FOR%20SWEDEN.doc"/>
 <node TEXT="&#x6280;&#x5de7;" ID="ID_1813509507" CREATED="1400141333959" MODIFIED="1400141453731" LINK="../MiscDocuments/Oversea_mobile_usage_guide.ppt"/>
@@ -1612,7 +1612,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -1884,9 +1884,9 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ABIS&#x63a5;&#x53e3;" ID="ID_253656614" CREATED="1458627505511" MODIFIED="1458627521654" LINK="#ID_103650854"/>
+<node TEXT="Conceptual" ID="ID_1570874225" CREATED="1458700388516" MODIFIED="1458700394167">
 <node TEXT="C1" ID="ID_1877299778" CREATED="1458628007043" MODIFIED="1458628009526"/>
 <node TEXT="C3A" ID="ID_222639444" CREATED="1458628011103" MODIFIED="1458628015027"/>
 <node TEXT="C3B" ID="ID_10360721" CREATED="1458628015800" MODIFIED="1458628086587" LINK="../GSM_document_base/C3B%20Abis_OnM_handling.pdf"/>
@@ -1897,6 +1897,10 @@ field-separator'></span><![endif]-->
 <node TEXT="C8&amp;C9" ID="ID_1321427245" CREATED="1458628283017" MODIFIED="1458628602190" LINK="../GSM_document_base/C8%20_C9_Function_Change_External_Internal.pdf"/>
 <node TEXT="C10" ID="ID_1508367366" CREATED="1458628289813" MODIFIED="1458628657944" LINK="../GSM_document_base/C10_RUS_SW_Function_Change.pdf"/>
 <node TEXT="C12" ID="ID_1180122101" CREATED="1458628293123" MODIFIED="1458628695588" LINK="../GSM_document_base/C12_Conceptual_Supervision.pdf"/>
+</node>
+<node TEXT="Scenarios" ID="ID_1725649346" CREATED="1458700422483" MODIFIED="1458700424913">
+<node TEXT="Channal Distribution Functions" ID="ID_519422000" CREATED="1458700442656" MODIFIED="1458700495132" LINK="../GSM_document_base/S1_Scenario_Presentation_Channel_Distribution_Functions.pdf"/>
+</node>
 </node>
 </node>
 <node TEXT="GSM&#x8054;&#x7cfb;&#x4eba;" POSITION="left" ID="ID_1248330498" CREATED="1381926287116" MODIFIED="1397114220709">
@@ -5158,7 +5162,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Part2--Procedures" ID="ID_1387922148" CREATED="1458627174150" MODIFIED="1458627494819" LINK="../GSM_document_base/g12r13p2_G14B.pdf"><richcontent TYPE="NOTE">
@@ -5173,7 +5176,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
