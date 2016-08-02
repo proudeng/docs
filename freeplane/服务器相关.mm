@@ -4160,7 +4160,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE">
+<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4174,13 +4174,14 @@
       
     </p>
     <p>
-      &#x53e6;&#x5916;,&#x5982;&#x679c;&#x60f3;&#x5728;php&#x4e2d;&#x80fd;&#x591f;&#x8c03;&#x7528;mysql&#x63a5;&#x53e3;&#x7684;&#x8bdd;(&#x4e5f;&#x5c31;&#x662f;&#x8ba9;php&#x652f;&#x6301;mysql),&#x8fd8;&#x9700;&#x8981;&#x5b89;&#x88c5;&#x4e0b;&#x9762;&#x7684;&#x6a21;&#x5757;:
+      &#21478;&#22806;,&#22914;&#26524;&#24819;&#22312;php&#20013;&#33021;&#22815;&#35843;&#29992;mysql&#25509;&#21475;&#30340;&#35805;(&#20063;&#23601;&#26159;&#35753;php&#25903;&#25345;mysql),&#36824;&#38656;&#35201;&#23433;&#35013;&#19979;&#38754;&#30340;&#27169;&#22359;:
     </p>
     <p>
-      <i><b><font color="#000099">aptitude install php5-mysql</font></b></i>
+      <i><b><font color="#000099">aptitude install php5-mysql </font></b></i>
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="mysql&#x914d;&#x7f6e;" ID="ID_441686396" CREATED="1355780708303" MODIFIED="1355780722158"><richcontent TYPE="NOTE">
 
@@ -5742,7 +5743,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7269;&#x7406;&#x65f6;&#x95f4;&#x548c;&#x7cfb;&#x7edf;&#x65f6;&#x95f4;" ID="ID_1264937144" CREATED="1455514877735" MODIFIED="1455515690260"><richcontent TYPE="NOTE">
 
@@ -5765,7 +5765,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6822,9 +6821,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
