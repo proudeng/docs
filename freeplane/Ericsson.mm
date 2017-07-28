@@ -1077,7 +1077,6 @@
     &#160;&#160;&#160;&#160;let g:mwDefaultHighlightingPalette = 'maximum'
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1634,6 +1633,27 @@
     </table>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="&#x5982;&#x4f55;&#x6fc0;&#x6d3b;soft token" ID="ID_1730242860" CREATED="1487585446346" MODIFIED="1487597322196"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;soft token&#26469;&#22312;&#22806;&#32593;&#30331;&#24405;&#29233;&#31435;&#20449;&#20869;&#32593;&#26159;&#24456;&#26041;&#20415;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
