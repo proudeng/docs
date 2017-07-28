@@ -1,22 +1,26 @@
-<map version="freeplane 1.3.0">
+<map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" show_note_icons="true"/>
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
+    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false;"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -50,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
+<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" FOLDED="true" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -83,7 +87,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql install" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
+<node TEXT="mysql install" FOLDED="true" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -119,7 +123,7 @@
 </node>
 </node>
 <node TEXT="VirtualBox&#x4e0a;&#x7684;Debian6.0&#x865a;&#x62df;&#x673a;" POSITION="right" ID="ID_1086992913" CREATED="1331120397118" MODIFIED="1413880889265">
-<node TEXT="&#x865a;&#x62df;&#x673a;&#x4e0a;&#x7f51;&#x8bbe;&#x7f6e;" ID="ID_93588915" CREATED="1331120417500" MODIFIED="1331121590789"><richcontent TYPE="NOTE">
+<node TEXT="&#x865a;&#x62df;&#x673a;&#x4e0a;&#x7f51;&#x8bbe;&#x7f6e;" FOLDED="true" ID="ID_93588915" CREATED="1331120417500" MODIFIED="1331121590789"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -329,7 +333,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;&#x7684;&#x914d;&#x7f6e;" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1394538838078"><richcontent TYPE="NOTE">
+<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;&#x7684;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1394538838078"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -348,7 +352,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5b89;&#x88c5;Mark&#x63d2;&#x4ef6;" ID="ID_156002278" CREATED="1365325677576" MODIFIED="1365325952701"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;Mark&#x63d2;&#x4ef6;" FOLDED="true" ID="ID_156002278" CREATED="1365325677576" MODIFIED="1365325952701"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -457,7 +461,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="VIM&#x4e2d;&#x4f7f;&#x7528;cscope" ID="ID_1706934409" CREATED="1365410570289" MODIFIED="1365411037409"><richcontent TYPE="NOTE">
+<node TEXT="VIM&#x4e2d;&#x4f7f;&#x7528;cscope" FOLDED="true" ID="ID_1706934409" CREATED="1365410570289" MODIFIED="1365411037409"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -531,7 +535,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5728;VIM&#x4e2d;&#x5982;&#x4f55;&#x914d;&#x7f6e;&#x81ea;&#x52a8;&#x6362;&#x884c;" ID="ID_949691974" CREATED="1372064380216" MODIFIED="1372066233501"><richcontent TYPE="NOTE">
+<node TEXT="&#x5728;VIM&#x4e2d;&#x5982;&#x4f55;&#x914d;&#x7f6e;&#x81ea;&#x52a8;&#x6362;&#x884c;" FOLDED="true" ID="ID_949691974" CREATED="1372064380216" MODIFIED="1372066233501"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -653,7 +657,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Git&#x5ba2;&#x6237;&#x7aef;&#x7684;&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;" ID="ID_1134784686" CREATED="1365400095521" MODIFIED="1365400112272">
+<node TEXT="Git&#x5ba2;&#x6237;&#x7aef;&#x7684;&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_1134784686" CREATED="1365400095521" MODIFIED="1365400112272">
 <node TEXT="git&#x547d;&#x4ee4;&#x7684;&#x8f93;&#x51fa;&#x4e2d;,&#x652f;&#x6301;&#x4e2d;&#x6587;&#x663e;&#x793a;" ID="ID_198766797" CREATED="1365400521253" MODIFIED="1365400780692"><richcontent TYPE="NOTE">
 
 <html>
@@ -760,7 +764,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="VirtualBox&#x4e0a;&#x8bbe;&#x7f6e;&#x5171;&#x4eab;&#x76d8;&#x7528;&#x4e8e;&#x865a;&#x62df;&#x673a;&#x548c;&#x5bbf;&#x4e3b;&#x673a;&#x4e4b;&#x95f4;&#x6587;&#x4ef6;&#x5171;&#x4eab;" ID="ID_1022434570" CREATED="1365400163177" MODIFIED="1365400295931"><richcontent TYPE="NOTE">
+<node TEXT="VirtualBox&#x4e0a;&#x8bbe;&#x7f6e;&#x5171;&#x4eab;&#x76d8;&#x7528;&#x4e8e;&#x865a;&#x62df;&#x673a;&#x548c;&#x5bbf;&#x4e3b;&#x673a;&#x4e4b;&#x95f4;&#x6587;&#x4ef6;&#x5171;&#x4eab;" FOLDED="true" ID="ID_1022434570" CREATED="1365400163177" MODIFIED="1365400295931"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -794,7 +798,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4f7f;&#x7528;ssh&#x5bc6;&#x94a5;&#x516c;&#x94a5;&#x65e0;&#x5bc6;&#x7801;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;" ID="ID_1706008408" CREATED="1370313058627" MODIFIED="1370333673369" LINK="../pub/ssh-key.htm"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;ssh&#x5bc6;&#x94a5;&#x516c;&#x94a5;&#x65e0;&#x5bc6;&#x7801;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1706008408" CREATED="1370313058627" MODIFIED="1370333673369" LINK="../pub/ssh-key.htm"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1002,7 +1006,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="keychain&#x7ba1;&#x7406;&#x5bc6;&#x94a5;&#xff0c;&#x5b9e;&#x73b0;&#x5b8c;&#x5168;&#x81ea;&#x52a8;&#x767b;&#x5f55;" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1370360188217"><richcontent TYPE="NOTE">
+<node TEXT="keychain&#x7ba1;&#x7406;&#x5bc6;&#x94a5;&#xff0c;&#x5b9e;&#x73b0;&#x5b8c;&#x5168;&#x81ea;&#x52a8;&#x767b;&#x5f55;" FOLDED="true" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1370360188217"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1118,7 +1122,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="[&#x9644;&#x4ef6;]&#x751f;&#x6210;&#x7684;&#x516c;&#x94a5;&#x6587;&#x4ef6;" ID="ID_235730934" CREATED="1370326597673" MODIFIED="1370333664574" LINK="../pub/id_dsa.pub"><richcontent TYPE="NOTE">
+<node TEXT="[&#x9644;&#x4ef6;]&#x751f;&#x6210;&#x7684;&#x516c;&#x94a5;&#x6587;&#x4ef6;" FOLDED="true" ID="ID_235730934" CREATED="1370326597673" MODIFIED="1370333664574" LINK="../pub/id_dsa.pub"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1167,7 +1171,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b89;&#x88c5;Firefox" ID="ID_179321631" CREATED="1394254437333" MODIFIED="1394254445624">
+<node TEXT="&#x5b89;&#x88c5;Firefox" FOLDED="true" ID="ID_179321631" CREATED="1394254437333" MODIFIED="1394254445624">
 <node TEXT="&#x5b89;&#x88c5;" ID="ID_385102729" CREATED="1394259440326" MODIFIED="1394259483665" LINK="../MiscDocuments/Firefox_linux.png"/>
 <node TEXT="&#x5b89;&#x88c5;Flash&#x63d2;&#x4ef6;" ID="ID_447048366" CREATED="1394259445002" MODIFIED="1394259490261" LINK="../MiscDocuments/Firefox_flash.png"/>
 </node>
@@ -1185,7 +1189,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Debian&#x865a;&#x62df;&#x673a;&#x652f;&#x6301;&#x767b;&#x5f55;Ericsson&#x7684;Hub" ID="ID_1720046487" CREATED="1395035633143" MODIFIED="1395035701595"><richcontent TYPE="NOTE">
+<node TEXT="Debian&#x865a;&#x62df;&#x673a;&#x652f;&#x6301;&#x767b;&#x5f55;Ericsson&#x7684;Hub" FOLDED="true" ID="ID_1720046487" CREATED="1395035633143" MODIFIED="1395035701595"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1314,7 +1318,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x64cd;&#x4f5c;&#x6d41;&#x7a0b;" ID="ID_1916528194" CREATED="1395039761915" MODIFIED="1395039986801"><richcontent TYPE="NOTE">
+<node TEXT="&#x64cd;&#x4f5c;&#x6d41;&#x7a0b;" FOLDED="true" ID="ID_1916528194" CREATED="1395039761915" MODIFIED="1395039986801"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1359,7 +1363,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="2,&#x5b89;&#x88c5;Java" ID="ID_1233706692" CREATED="1395039790941" MODIFIED="1395039818519"><richcontent TYPE="NOTE">
+<node TEXT="2,&#x5b89;&#x88c5;Java" FOLDED="true" ID="ID_1233706692" CREATED="1395039790941" MODIFIED="1395039818519"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1515,11 +1519,76 @@
     <font size="4" color="#0033ff"><b><i>systemctl set-default graphical.target</i></b></font>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="&#x914d;&#x7f6e;&#x5171;&#x4eab;&#x6587;&#x4ef6;&#x5939;&#x8ba9;&#x5176;&#x652f;&#x6301;&#x521b;&#x5efa;&#x8f6f;&#x94fe;&#x63a5;" ID="ID_1916669212" CREATED="1501205059530" MODIFIED="1501205851756"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#20849;&#20139;&#25991;&#20214;&#22841;&#21487;&#20197;&#25193;&#23637;&#34394;&#25311;&#26426;&#30340;&#23384;&#20648;&#31354;&#38388;&#65292;&#20805;&#20998;&#21033;&#29992;&#20027;&#26426;&#30340;&#31354;&#38388;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#40664;&#35748;&#30340;&#24773;&#20917;&#19979;(&#21482;&#30693;&#36947;&#22312;Windows&#20027;&#26426;&#26159;host&#20027;&#26426;&#30340;&#24773;&#20917;&#19979;&#26159;&#36825;&#26679;&#30340;)&#65292;&#20849;&#20139;&#25991;&#20214;&#22841;&#26159;&#19981;&#25903;&#25345;linux&#31995;&#32479;&#19979;&#30340;&#36719;&#38142;&#25509;&#30340;&#65292;
+    </p>
+    <p>
+      &#22312;&#19968;&#33324;&#30340;&#20351;&#29992;&#22330;&#26223;&#19979;&#65292;&#20849;&#20139;&#25991;&#20214;&#22841;&#22823;&#22810;&#25968;&#26159;&#29992;&#26469;&#22312;host&#20027;&#26426;&#21644;guest&#20027;&#26426;&#38388;&#36716;&#20648;&#25991;&#20214;&#65292;&#36825;&#26679;&#30340;&#40664;&#35748;&#23646;&#24615;&#24182;&#27809;&#26377;&#20160;&#20040;&#38382;&#39064;&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;&#22914;&#26524;&#24819;&#20351;&#29992;&#20849;&#20139;&#25991;&#20214;&#22841;&#26469;&#25193;&#23637;guest&#20027;&#26426;&#30340;&#31995;&#32479;&#31354;&#38388;&#30340;&#35805;&#65292;&#23601;&#26377;&#28857;&#38382;&#39064;&#65292;&#22240;&#20026;linux&#25991;&#20214;&#31995;&#32479;&#37324;&#38754;&#20805;&#26021;&#30528;&#36719;&#38142;&#25509;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#65292;&#22914;&#26524;&#35201;&#20351;&#29992;&#20849;&#20139;&#25991;&#20214;&#22841;&#26469;&#25193;&#23637;guest&#30340;&#20027;&#26426;&#30340;&#31995;&#32479;&#31354;&#38388;&#30340;&#35805;&#65292;&#23601;&#24517;&#39035;&#35201;&#35299;&#20915;&#36825;&#20010;&#38382;&#39064;&#65292;&#35753;&#20849;&#20139;&#25991;&#20214;&#22841;&#33021;&#22815;&#25903;&#25345;&#36719;&#38142;&#25509;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x64cd;&#x4f5c;" ID="ID_1704721738" CREATED="1501205853713" MODIFIED="1501206424043"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20197;&#25105;&#23433;&#35013;&#30340;Debian KDE&#26700;&#38754;&#20026;&#20363;&#65306;
+    </p>
+    <p>
+      &#20849;&#20139;&#25991;&#20214;&#22841;&#21517;&#31216;(Virtualbox&#30028;&#38754;&#19978;&#30475;&#21040;&#30340;&#25991;&#20214;&#22841;&#21517;&#31216;&#65292;&#38750;guest&#20027;&#26426;&#19978;&#26174;&#31034;&#30340;/media&#19979;&#38754;&#30340;&#30446;&#24405;):<font color="#ff0000">JunDeng</font>
+    </p>
+    <p>
+      guest host&#30340;&#21517;&#23383;(Virtualbox&#30028;&#38754;&#19978;&#30475;&#21040;&#30340;&#21517;&#23383;&#65292;&#38750;guest&#20027;&#26426;&#30340;hostname)&#65306;<font color="#ff0000">Debian</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Step by Step:
+    </p>
+    <p>
+      &#25171;&#24320;Windows&#31995;&#32479;&#20013;&#30340;&#21629;&#20196;&#34892;&#65292;&#36827;&#20837;&#21040;Virtualbox&#30340;&#23433;&#35013;&#30446;&#24405;,&#28982;&#21518;&#36755;&#20837;&#19979;&#38754;&#30340;&#21629;&#20196;:
+    </p>
+    <p>
+      <code><b><i><font color="#0000c0">VBoxManage setextradata </font><font color="#ff0000">Debian</font><font color="#0000c0">&#160;VBoxInternal2/SharedFoldersEnableSymlinksCreate/</font><font color="#ff0000">JunDeng</font><font color="#0000c0">&#160;1</font></i></b></code>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#25171;&#24320;&#34394;&#25311;&#26426;&#24212;&#35813;&#23601;&#21487;&#20197;&#20102;&#65292;&#22914;&#26524;&#19981;&#34892;&#30340;&#35805;&#35797;&#30528;&#20197;&#31649;&#29702;&#21592;&#26435;&#38480;&#25191;&#34892;&#35797;&#35797;&#30475;&#12290;
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
-<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1394254430492"><richcontent TYPE="NOTE">
+</node>
+<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1394254430492"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1600,7 +1669,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x9632;&#x6b62;ssh&#x66b4;&#x529b;&#x7834;&#x89e3;&#x767b;&#x5f55;" ID="ID_827860402" CREATED="1352817686321" MODIFIED="1352817893322"><richcontent TYPE="NOTE">
+<node TEXT="&#x9632;&#x6b62;ssh&#x66b4;&#x529b;&#x7834;&#x89e3;&#x767b;&#x5f55;" FOLDED="true" ID="ID_827860402" CREATED="1352817686321" MODIFIED="1352817893322"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1679,7 +1748,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7981;&#x6b62;root&#x7528;&#x6237;&#x767b;&#x5f55;,&#x53ea;&#x5141;&#x8bb8;&#x67d0;&#x4e9b;&#x7528;&#x6237;&#x767b;&#x5f55;" ID="ID_1130918398" CREATED="1352817899148" MODIFIED="1352818822188"><richcontent TYPE="NOTE">
+<node TEXT="&#x7981;&#x6b62;root&#x7528;&#x6237;&#x767b;&#x5f55;,&#x53ea;&#x5141;&#x8bb8;&#x67d0;&#x4e9b;&#x7528;&#x6237;&#x767b;&#x5f55;" FOLDED="true" ID="ID_1130918398" CREATED="1352817899148" MODIFIED="1352818822188"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1749,7 +1818,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x66f4;&#x6539;sshd&#x7684;&#x7aef;&#x53e3;&#x53f7;" ID="ID_1077416951" CREATED="1352817908874" MODIFIED="1359030685073"><richcontent TYPE="NOTE">
+<node TEXT="&#x66f4;&#x6539;sshd&#x7684;&#x7aef;&#x53e3;&#x53f7;" FOLDED="true" ID="ID_1077416951" CREATED="1352817908874" MODIFIED="1359030685073"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1813,7 +1882,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x9650;&#x5236;&#x7528;&#x6237;&#x5c1d;&#x8bd5;&#x8fde;&#x63a5;&#x7684;&#x6b21;&#x6570;" ID="ID_870600743" CREATED="1352819206325" MODIFIED="1371090730444"><richcontent TYPE="NOTE">
+<node TEXT="&#x9650;&#x5236;&#x7528;&#x6237;&#x5c1d;&#x8bd5;&#x8fde;&#x63a5;&#x7684;&#x6b21;&#x6570;" FOLDED="true" ID="ID_870600743" CREATED="1352819206325" MODIFIED="1371090730444"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1859,7 +1928,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;Denyhosts" ID="ID_1941153989" CREATED="1371090867215" MODIFIED="1371098217878" LINK="../pub/denyhosts.htm"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;Denyhosts" FOLDED="true" ID="ID_1941153989" CREATED="1371090867215" MODIFIED="1371098217878" LINK="../pub/denyhosts.htm"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2051,7 +2120,7 @@
 </node>
 </node>
 </node>
-<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_1931031054" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1931031054" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2075,7 +2144,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lighttpd&#x5b89;&#x88c5;" ID="ID_1250917492" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
+<node TEXT="lighttpd&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1250917492" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2088,7 +2157,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" ID="ID_348106430" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
+<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_348106430" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2303,7 +2372,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1546280381" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE">
+<node TEXT="mysql&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1546280381" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2593,7 +2662,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;phpmyadmin" ID="ID_773894478" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;phpmyadmin" FOLDED="true" ID="ID_773894478" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2983,7 +3052,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x57fa;&#x4e8e;&#x4e0a;&#x8ff0;&#x914d;&#x7f6e;&#x7684;wordpress&#x5b89;&#x88c5;" ID="ID_1624834437" CREATED="1355780891979" MODIFIED="1355780903613">
+<node TEXT="&#x57fa;&#x4e8e;&#x4e0a;&#x8ff0;&#x914d;&#x7f6e;&#x7684;wordpress&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1624834437" CREATED="1355780891979" MODIFIED="1355780903613">
 <node TEXT="&#x6570;&#x636e;&#x5e93;&#x7684;&#x8bbe;&#x7f6e;" ID="ID_1380772518" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE">
 
 <html>
@@ -3042,7 +3111,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" ID="ID_1783884193" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1783884193" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3140,7 +3209,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x9009;&#x62e9;&#x901f;&#x5ea6;&#x5feb;&#x7684;aptitude&#x6e90;" ID="ID_868438502" CREATED="1364909698254" MODIFIED="1364909871452"><richcontent TYPE="NOTE">
+<node TEXT="&#x9009;&#x62e9;&#x901f;&#x5ea6;&#x5feb;&#x7684;aptitude&#x6e90;" FOLDED="true" ID="ID_868438502" CREATED="1364909698254" MODIFIED="1364909871452"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3267,7 +3336,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;&#x53d6;&#x6d88;&#x5b89;&#x88c5;&#x3011;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_621452073" CREATED="1364909361456" MODIFIED="1364914319370"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x53d6;&#x6d88;&#x5b89;&#x88c5;&#x3011;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_621452073" CREATED="1364909361456" MODIFIED="1364914319370"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3345,7 +3414,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x5f97;vim&#x7f16;&#x8f91;&#x5668;&#x80fd;&#x591f;&#x9ad8;&#x4eae;&#x6587;&#x5b57;" ID="ID_1810877692" CREATED="1373426708046" MODIFIED="1373426903625" LINK="#ID_156002278">
+<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x5f97;vim&#x7f16;&#x8f91;&#x5668;&#x80fd;&#x591f;&#x9ad8;&#x4eae;&#x6587;&#x5b57;" FOLDED="true" ID="ID_1810877692" CREATED="1373426708046" MODIFIED="1373426903625" LINK="#ID_156002278">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_156002278" STARTINCLINATION="328;0;" ENDINCLINATION="328;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -3381,7 +3450,7 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;&#x57fa;&#x4e8e;PPTPD&#x7684;VPN&#x670d;&#x52a1;&#x5668;" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1385454342449" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;&#x57fa;&#x4e8e;PPTPD&#x7684;VPN&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1385454342449" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3412,8 +3481,8 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Trouble Shooting" ID="ID_1104269016" CREATED="1380548388000" MODIFIED="1385454339569">
-<node TEXT="MTU problem." ID="ID_911326503" CREATED="1380548450398" MODIFIED="1380637849625"><richcontent TYPE="NOTE">
+<node TEXT="Trouble Shooting" FOLDED="true" ID="ID_1104269016" CREATED="1380548388000" MODIFIED="1385454339569">
+<node TEXT="MTU problem." FOLDED="true" ID="ID_911326503" CREATED="1380548450398" MODIFIED="1380637849625"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3531,7 +3600,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" ID="ID_1964664702" CREATED="1385431355713" MODIFIED="1385431363373">
+<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" FOLDED="true" ID="ID_1964664702" CREATED="1385431355713" MODIFIED="1385431363373">
 <node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_1947689177" CREATED="1385431368233" MODIFIED="1385431391082" LINK="#ID_745571441"><richcontent TYPE="NOTE">
 
 <html>
@@ -3546,7 +3615,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6027;&#x80fd;&#x6d4b;&#x8bd5;&#x7ed3;&#x679c;" ID="ID_130365328" CREATED="1385431396102" MODIFIED="1385432324530"><richcontent TYPE="NOTE">
+<node TEXT="&#x6027;&#x80fd;&#x6d4b;&#x8bd5;&#x7ed3;&#x679c;" ID="ID_130365328" CREATED="1385431396102" MODIFIED="1385432324530">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1621598136" SOURCE_LABEL="&#x5bf9;&#x6bd4;" MIDDLE_LABEL="&#x4e00;&#x5206;&#x94b1;&#x4e00;&#x5206;&#x8d27;" STARTINCLINATION="45;0;" ENDINCLINATION="46;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3685,11 +3756,10 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1621598136" SOURCE_LABEL="&#x5bf9;&#x6bd4;" MIDDLE_LABEL="&#x4e00;&#x5206;&#x94b1;&#x4e00;&#x5206;&#x8d27;" STARTINCLINATION="45;0;" ENDINCLINATION="46;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1421071729703"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1421071729703"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3769,7 +3839,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
+<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" FOLDED="true" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
 <node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
 
 <html>
@@ -3962,7 +4032,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3986,7 +4056,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lighttpd&#x5b89;&#x88c5;" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
+<node TEXT="lighttpd&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3999,7 +4069,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
+<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4044,7 +4114,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x652f;&#x6301;virtual host" ID="ID_431989124" CREATED="1355783154576" MODIFIED="1385445184721"><richcontent TYPE="NOTE">
+<node TEXT="&#x652f;&#x6301;virtual host" FOLDED="true" ID="ID_431989124" CREATED="1355783154576" MODIFIED="1385445184721"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4191,7 +4261,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
+<node TEXT="mysql&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4230,7 +4300,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql-server&#x5b89;&#x88c5;log" ID="ID_1760248379" CREATED="1355781141740" MODIFIED="1385444322921"><richcontent TYPE="NOTE">
+<node TEXT="mysql-server&#x5b89;&#x88c5;log" FOLDED="true" ID="ID_1760248379" CREATED="1355781141740" MODIFIED="1385444322921"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4558,7 +4628,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;phpmyadmin" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;phpmyadmin" FOLDED="true" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4918,7 +4988,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x597d;&#x7684;&#x5de5;&#x5177;&#x7684;&#x5730;&#x5740;" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1385451787843"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x597d;&#x7684;&#x5de5;&#x5177;&#x7684;&#x5730;&#x5740;" FOLDED="true" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1385451787843"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5025,7 +5095,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
+<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" FOLDED="true" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5081,7 +5151,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Wordpress&#x53ef;&#x4ee5;&#x8f7b;&#x677e;&#x7684;&#x8fc1;&#x79fb;" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE">
+<node TEXT="Wordpress&#x53ef;&#x4ee5;&#x8f7b;&#x677e;&#x7684;&#x8fc1;&#x79fb;" FOLDED="true" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5154,7 +5224,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;Wordpress&#x652f;&#x6301;MultiSite&#x914d;&#x7f6e;" ID="ID_565499545" CREATED="1386298256103" MODIFIED="1386559070974"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;Wordpress&#x652f;&#x6301;MultiSite&#x914d;&#x7f6e;" FOLDED="true" ID="ID_565499545" CREATED="1386298256103" MODIFIED="1386559070974"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5197,7 +5267,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x914d;&#x7f6e;&#x670d;&#x52a1;&#x5668;&#x5141;&#x8bb8;Wordpress&#x81ea;&#x52a8;Upgrade" ID="ID_1221511705" CREATED="1387369519678" MODIFIED="1387370233552"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;&#x670d;&#x52a1;&#x5668;&#x5141;&#x8bb8;Wordpress&#x81ea;&#x52a8;Upgrade" FOLDED="true" ID="ID_1221511705" CREATED="1387369519678" MODIFIED="1387370233552"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5260,7 +5330,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x7ed9;&#x6653;&#x820c;&#x5b89;&#x88c5;&#x4e00;&#x4e2a;guoguo&#x7684;&#x535a;&#x5ba2;" ID="ID_1612611537" CREATED="1392006616409" MODIFIED="1392014244036"><richcontent TYPE="NOTE">
+<node TEXT="&#x7ed9;&#x6653;&#x820c;&#x5b89;&#x88c5;&#x4e00;&#x4e2a;guoguo&#x7684;&#x535a;&#x5ba2;" FOLDED="true" ID="ID_1612611537" CREATED="1392006616409" MODIFIED="1392014244036"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5290,7 +5360,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x5355;&#x72ec;&#x7684;&#x6570;&#x636e;&#x5e93;" ID="ID_1735498120" CREATED="1392007125532" MODIFIED="1392008797038" LINK="#ID_1041863536">
+<node TEXT="&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x5355;&#x72ec;&#x7684;&#x6570;&#x636e;&#x5e93;" FOLDED="true" ID="ID_1735498120" CREATED="1392007125532" MODIFIED="1392008797038" LINK="#ID_1041863536">
 <icon BUILTIN="full-1"/>
 <richcontent TYPE="NOTE">
 
@@ -5332,7 +5402,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x914d;&#x7f6e;&#x4e00;&#x4e2a;&#x5355;&#x72ec;&#x7684;&#x57df;&#x540d;" ID="ID_552040007" CREATED="1392007138935" MODIFIED="1392008609175">
+<node TEXT="&#x914d;&#x7f6e;&#x4e00;&#x4e2a;&#x5355;&#x72ec;&#x7684;&#x57df;&#x540d;" FOLDED="true" ID="ID_552040007" CREATED="1392007138935" MODIFIED="1392008609175">
 <icon BUILTIN="full-2"/>
 <richcontent TYPE="NOTE">
 
@@ -5554,7 +5624,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x540e;&#x7eed;&#x64cd;&#x4f5c;" ID="ID_1522817251" CREATED="1396447612756" MODIFIED="1396447616923">
+<node TEXT="&#x540e;&#x7eed;&#x64cd;&#x4f5c;" FOLDED="true" ID="ID_1522817251" CREATED="1396447612756" MODIFIED="1396447616923">
 <node TEXT="WP&#x7684;&#x6587;&#x7ae0;&#x4e2d;&#x663e;&#x793a;&#x4f5c;&#x8005;&#x540d;&#x5b57;" ID="ID_626841602" CREATED="1396447618725" MODIFIED="1396447752059" LINK="../OneNote/WordPress%20Twenty%20Thirteen&#x4e3b;&#x9898;&#x6587;&#x7ae0;&#x663e;&#x793a;&#x4f5c;&#x8005;&#x4fe1;&#x606f;.one"><richcontent TYPE="NOTE">
 
 <html>
@@ -5580,7 +5650,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" ID="ID_1080095665" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1080095665" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5695,7 +5765,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x66f4;&#x65b0;&#x65f6;&#x533a;" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1455516725446"><richcontent TYPE="NOTE">
+<node TEXT="&#x66f4;&#x65b0;&#x65f6;&#x533a;" FOLDED="true" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1455516725446"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5800,8 +5870,8 @@
 </node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
-<node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
-<node TEXT="apache" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
+<node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
+<node TEXT="apache" FOLDED="true" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5826,7 +5896,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="apache&#x64cd;&#x4f5c;&#x57fa;&#x672c;&#x547d;&#x4ee4;" ID="ID_1956373118" CREATED="1325745184605" MODIFIED="1325745266362" LINK="http://www.phpchina.com/manual/apache/stopping.html"><richcontent TYPE="NOTE">
+<node TEXT="apache&#x64cd;&#x4f5c;&#x57fa;&#x672c;&#x547d;&#x4ee4;" FOLDED="true" ID="ID_1956373118" CREATED="1325745184605" MODIFIED="1325745266362" LINK="http://www.phpchina.com/manual/apache/stopping.html"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5912,7 +5982,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="httpd.conf&#x4e2d;&#x914d;&#x7f6e;mod_rewrite" ID="ID_1667570257" CREATED="1325997185517" MODIFIED="1325997751058"><richcontent TYPE="NOTE">
+<node TEXT="httpd.conf&#x4e2d;&#x914d;&#x7f6e;mod_rewrite" FOLDED="true" ID="ID_1667570257" CREATED="1325997185517" MODIFIED="1325997751058"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6072,7 +6142,9 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x7684;&#x8c03;&#x4f18;" ID="ID_677599364" CREATED="1325997995268" MODIFIED="1325998392541"><richcontent TYPE="NOTE">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x7684;&#x8c03;&#x4f18;" FOLDED="true" ID="ID_677599364" CREATED="1325997995268" MODIFIED="1325998392541">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" STARTINCLINATION="107;0;" ENDINCLINATION="107;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6123,7 +6195,6 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" STARTINCLINATION="107;0;" ENDINCLINATION="107;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="Apache&#x7684;&#x5185;&#x5b58;&#x8c03;&#x4f18;" ID="ID_918773756" CREATED="1326119549165" MODIFIED="1326119757522"><richcontent TYPE="NOTE">
 
 <html>
@@ -6299,7 +6370,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b89;&#x88c5;lighttpd[&#x7248;&#x672c;1.4.30]" ID="ID_1277235146" CREATED="1326382037284" MODIFIED="1326528034283"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;lighttpd[&#x7248;&#x672c;1.4.30]" FOLDED="true" ID="ID_1277235146" CREATED="1326382037284" MODIFIED="1326528034283"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6382,7 +6453,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5728;lighttpd&#x4e0a;&#x652f;&#x6301;wordpress&#x7684;url rewrite" ID="ID_1553838250" CREATED="1326716956690" MODIFIED="1337111308184"><richcontent TYPE="NOTE">
+<node TEXT="&#x5728;lighttpd&#x4e0a;&#x652f;&#x6301;wordpress&#x7684;url rewrite" ID="ID_1553838250" CREATED="1326716956690" MODIFIED="1337111308184">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_103123836" STARTINCLINATION="322;0;" ENDINCLINATION="322;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6407,7 +6480,6 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_103123836" STARTINCLINATION="322;0;" ENDINCLINATION="322;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="lighttpd&#x652f;&#x6301;&#x6587;&#x4ef6;cache&#x548c;expire" ID="ID_582942353" CREATED="1326866694106" MODIFIED="1326870580435"><richcontent TYPE="NOTE">
 
@@ -6477,7 +6549,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x7f16;&#x8bd1;php-5.3.8[&#x5e26;fpm&#x652f;&#x6301;]" ID="ID_940956504" CREATED="1326431286584" MODIFIED="1326434156766"><richcontent TYPE="NOTE">
+<node TEXT="&#x7f16;&#x8bd1;php-5.3.8[&#x5e26;fpm&#x652f;&#x6301;]" FOLDED="true" ID="ID_940956504" CREATED="1326431286584" MODIFIED="1326434156766"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6681,7 +6753,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Mysql&#x670d;&#x52a1;&#x5668;" ID="ID_1169936241" CREATED="1329209401017" MODIFIED="1329209506979"><richcontent TYPE="NOTE">
+<node TEXT="Mysql&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1169936241" CREATED="1329209401017" MODIFIED="1329209506979"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6724,7 +6796,11 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990"><richcontent TYPE="NOTE">
+<node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6851,10 +6927,7 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
+<node TEXT="&#x8ba9;Apache&#x670d;&#x52a1;&#x7a0b;&#x5e8f;&#x5728;&#x7cfb;&#x7edf;&#x91cd;&#x542f;&#x65f6;&#x4e0d;&#x81ea;&#x52a8;&#x542f;&#x52a8;" FOLDED="true" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6999,7 +7072,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;ftp&#x670d;&#x52a1;&#x5668;" ID="ID_916370041" CREATED="1329287069211" MODIFIED="1329287290575"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;ftp&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_916370041" CREATED="1329287069211" MODIFIED="1329287290575"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7081,7 +7154,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x8d85;&#x7ea7;&#x670d;&#x52a1;&#x5668;xinetd" ID="ID_455549898" CREATED="1329291401433" MODIFIED="1329293462042"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x8d85;&#x7ea7;&#x670d;&#x52a1;&#x5668;xinetd" FOLDED="true" ID="ID_455549898" CREATED="1329291401433" MODIFIED="1329293462042"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7178,8 +7251,10 @@
 </node>
 </node>
 </node>
-<node TEXT="Wordpress&#x5b89;&#x88c5;&#x7ef4;&#x62a4;" LOCALIZED_STYLE_REF="default" POSITION="left" ID="ID_257694630" CREATED="1325745860145" MODIFIED="1382553174645">
-<node TEXT="[zh@burstnet]CentOS&#x4e0a;&#x5b89;&#x88c5;wordpress" ID="ID_475403749" CREATED="1325745876273" MODIFIED="1325830736352"><richcontent TYPE="NOTE">
+<node TEXT="Wordpress&#x5b89;&#x88c5;&#x7ef4;&#x62a4;" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="left" ID="ID_257694630" CREATED="1325745860145" MODIFIED="1382553174645">
+<node TEXT="[zh@burstnet]CentOS&#x4e0a;&#x5b89;&#x88c5;wordpress" FOLDED="true" ID="ID_475403749" CREATED="1325745876273" MODIFIED="1325830736352">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1462281078" STARTINCLINATION="24;0;" ENDINCLINATION="24;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7209,8 +7284,10 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1462281078" STARTINCLINATION="24;0;" ENDINCLINATION="24;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802"><richcontent TYPE="NOTE">
+<node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7243,11 +7320,9 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
+<node TEXT="[&#x6539;&#x7528;lighttpd,&#x6b64;&#x7ed3;&#x70b9;&#x5e9f;&#x5f03;]&#x66f4;&#x6539;&#x56fa;&#x5b9a;&#x94fe;&#x63a5;&#x7c7b;&#x578b;&#x65f6;&#x5019;&#x9047;&#x5230;&#x7684;404&#x95ee;&#x9898;" FOLDED="true" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1337153401266"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7318,7 +7393,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4fee;&#x6539;httpd.conf&#x6587;&#x4ef6;&#xff0c;&#x542f;&#x7528;htaccess&#x6587;&#x4ef6;" ID="ID_1128222770" CREATED="1325923464975" MODIFIED="1325997124229"><richcontent TYPE="NOTE">
+<node TEXT="&#x4fee;&#x6539;httpd.conf&#x6587;&#x4ef6;&#xff0c;&#x542f;&#x7528;htaccess&#x6587;&#x4ef6;" FOLDED="true" ID="ID_1128222770" CREATED="1325923464975" MODIFIED="1325997124229"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7373,7 +7448,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4f18;&#x5316;" ID="ID_1093340391" CREATED="1325997089286" MODIFIED="1325998228442"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f18;&#x5316;" ID="ID_1093340391" CREATED="1325997089286" MODIFIED="1325998228442">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" MIDDLE_LABEL="&#x53c2;&#x8003;" STARTINCLINATION="177;0;" ENDINCLINATION="177;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7427,7 +7504,6 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" MIDDLE_LABEL="&#x53c2;&#x8003;" STARTINCLINATION="177;0;" ENDINCLINATION="177;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -7518,7 +7594,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5c06;wordpress&#x7ad9;&#x70b9;&#x6dfb;&#x52a0;&#x5230;&#x767e;&#x5ea6;&#x7ad9;&#x957f;&#x5de5;&#x5177;&#x4e2d;" ID="ID_429181804" CREATED="1337110911404" MODIFIED="1337111152748"><richcontent TYPE="NOTE">
+<node TEXT="&#x5c06;wordpress&#x7ad9;&#x70b9;&#x6dfb;&#x52a0;&#x5230;&#x767e;&#x5ea6;&#x7ad9;&#x957f;&#x5de5;&#x5177;&#x4e2d;" FOLDED="true" ID="ID_429181804" CREATED="1337110911404" MODIFIED="1337111152748"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7722,8 +7798,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x57df;&#x540d;&#x7533;&#x8bf7;&#x548c;&#x7ef4;&#x62a4;" POSITION="left" ID="ID_1214726821" CREATED="1325830749944" MODIFIED="1325830756086">
-<node TEXT="&#x670d;&#x52a1;&#x7684;&#x63d0;&#x4f9b;&#x5546;" ID="ID_283109790" CREATED="1325830796799" MODIFIED="1325847199399"><richcontent TYPE="NOTE">
+<node TEXT="&#x57df;&#x540d;&#x7533;&#x8bf7;&#x548c;&#x7ef4;&#x62a4;" FOLDED="true" POSITION="left" ID="ID_1214726821" CREATED="1325830749944" MODIFIED="1325830756086">
+<node TEXT="&#x670d;&#x52a1;&#x7684;&#x63d0;&#x4f9b;&#x5546;" FOLDED="true" ID="ID_283109790" CREATED="1325830796799" MODIFIED="1325847199399"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7739,7 +7815,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x57df;&#x540d;&#x6ce8;&#x518c;" ID="ID_258059785" CREATED="1325831525713" MODIFIED="1325831545645"><richcontent TYPE="NOTE">
+<node TEXT="&#x57df;&#x540d;&#x6ce8;&#x518c;" FOLDED="true" ID="ID_258059785" CREATED="1325831525713" MODIFIED="1325831545645"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7880,7 +7956,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5bb6;&#x91cc;&#x9762;&#x4e2d;&#x5174;&#x7684;&#x65e0;&#x7ebf;&#x732b;&#x7834;&#x89e3;" POSITION="left" ID="ID_359272330" CREATED="1361551851690" MODIFIED="1414835743706"><richcontent TYPE="NOTE">
+<node TEXT="&#x5bb6;&#x91cc;&#x9762;&#x4e2d;&#x5174;&#x7684;&#x65e0;&#x7ebf;&#x732b;&#x7834;&#x89e3;" FOLDED="true" POSITION="left" ID="ID_359272330" CREATED="1361551851690" MODIFIED="1414835743706"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7893,7 +7969,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x53c2;&#x8003;&#x5185;&#x5bb9;1" ID="ID_315082890" CREATED="1361551873084" MODIFIED="1361551889216"><richcontent TYPE="NOTE">
+<node TEXT="&#x53c2;&#x8003;&#x5185;&#x5bb9;1" FOLDED="true" ID="ID_315082890" CREATED="1361551873084" MODIFIED="1361551889216"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7921,7 +7997,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x53c2;&#x8003;&#x5185;&#x5bb9;2" ID="ID_745861624" CREATED="1361551890643" MODIFIED="1361552431925" LINK="../MiscDocuments/&#x7834;&#x89e3;&#x4e2d;&#x5174;%20ZXA10%20F460%20V3.0&#x7248;&#x672c;&#x732b;.pdf">
+<node TEXT="&#x53c2;&#x8003;&#x5185;&#x5bb9;2" FOLDED="true" ID="ID_745861624" CREATED="1361551890643" MODIFIED="1361552431925" LINK="../MiscDocuments/&#x7834;&#x89e3;&#x4e2d;&#x5174;%20ZXA10%20F460%20V3.0&#x7248;&#x672c;&#x732b;.pdf">
 <node TEXT="&#x914d;&#x7f6e;&#x6210;&#x8def;&#x7531;&#x5668;&#x65f6;&#x7684;&#x7f51;&#x7edc;&#x914d;&#x7f6e;" ID="ID_608642283" CREATED="1381665867927" MODIFIED="1381666116368"><richcontent TYPE="NOTE">
 
 <html>
@@ -7992,7 +8068,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x8bbe;&#x7f6e;&#x6865;&#x63a5;&#x548c;&#x8def;&#x7531;&#x53cc;&#x6a21;&#x5f0f;" ID="ID_1944931410" CREATED="1414835706287" MODIFIED="1414836097215"><richcontent TYPE="NOTE">
+<node TEXT="&#x8bbe;&#x7f6e;&#x6865;&#x63a5;&#x548c;&#x8def;&#x7531;&#x53cc;&#x6a21;&#x5f0f;" FOLDED="true" ID="ID_1944931410" CREATED="1414835706287" MODIFIED="1414836097215"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8079,7 +8155,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
+<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8148,7 +8224,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5b89;&#x88c5;" ID="ID_1347864875" CREATED="1413722410406" MODIFIED="1418313731909" LINK="../OneNote/openwrt_startup.one"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1347864875" CREATED="1413722410406" MODIFIED="1418313731909" LINK="../OneNote/openwrt_startup.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8289,7 +8365,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x914d;&#x7f6e;&#x652f;&#x6301;USB&#x8bbe;&#x5907;" ID="ID_1359548302" CREATED="1413722414010" MODIFIED="1413814220025"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;&#x652f;&#x6301;USB&#x8bbe;&#x5907;" FOLDED="true" ID="ID_1359548302" CREATED="1413722414010" MODIFIED="1413814220025"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8323,7 +8399,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="Openwrt&#x7684;Overlay&#x914d;&#x7f6e;" ID="ID_644001396" CREATED="1413812139761" MODIFIED="1425219756329"><richcontent TYPE="NOTE">
+<node TEXT="Openwrt&#x7684;Overlay&#x914d;&#x7f6e;" FOLDED="true" ID="ID_644001396" CREATED="1413812139761" MODIFIED="1425219756329"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8398,7 +8474,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x66f4;&#x65b0;/etc/config/fstab&#x6587;&#x4ef6;" ID="ID_943832133" CREATED="1413812978247" MODIFIED="1425219673307"><richcontent TYPE="NOTE">
+<node TEXT="&#x66f4;&#x65b0;/etc/config/fstab&#x6587;&#x4ef6;" FOLDED="true" ID="ID_943832133" CREATED="1413812978247" MODIFIED="1425219673307"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8522,7 +8598,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="Overlay&#x4e4b;&#x540e;&#x7ee7;&#x7eed;&#x6302;&#x8f7d;&#x591a;&#x4e2a;U&#x76d8;&#x8bbe;&#x5907;" ID="ID_1507896899" CREATED="1425219765428" MODIFIED="1426318615166"><richcontent TYPE="NOTE">
+<node TEXT="Overlay&#x4e4b;&#x540e;&#x7ee7;&#x7eed;&#x6302;&#x8f7d;&#x591a;&#x4e2a;U&#x76d8;&#x8bbe;&#x5907;" FOLDED="true" ID="ID_1507896899" CREATED="1425219765428" MODIFIED="1426318615166"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8582,7 +8658,10 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835"><richcontent TYPE="NOTE">
+<node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8691,12 +8770,10 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x6253;&#x5f00;&#x65e0;&#x7ebf;&#x5f00;&#x5173;&#x548c;&#x8bbe;&#x7f6e;&#x65e0;&#x7ebf;&#x5bc6;&#x7801;" ID="ID_1468435486" CREATED="1413814118863" MODIFIED="1413815440019"><richcontent TYPE="NOTE">
+<node TEXT="&#x6253;&#x5f00;&#x65e0;&#x7ebf;&#x5f00;&#x5173;&#x548c;&#x8bbe;&#x7f6e;&#x65e0;&#x7ebf;&#x5bc6;&#x7801;" FOLDED="true" ID="ID_1468435486" CREATED="1413814118863" MODIFIED="1413815440019"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8766,7 +8843,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x652f;&#x6301;USB&#x786c;&#x76d8;&#x4f11;&#x7720;" ID="ID_1102349936" CREATED="1413816709332" MODIFIED="1426317282171"><richcontent TYPE="NOTE">
+<node TEXT="&#x652f;&#x6301;USB&#x786c;&#x76d8;&#x4f11;&#x7720;" FOLDED="true" ID="ID_1102349936" CREATED="1413816709332" MODIFIED="1426317282171"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8889,7 +8966,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Hdparm&#x7684;&#x5b89;&#x88c5;&#x548c;&#x4f7f;&#x7528;" ID="ID_744010952" CREATED="1426314405901" MODIFIED="1426323068447"><richcontent TYPE="NOTE">
+<node TEXT="Hdparm&#x7684;&#x5b89;&#x88c5;&#x548c;&#x4f7f;&#x7528;" FOLDED="true" ID="ID_744010952" CREATED="1426314405901" MODIFIED="1426323068447"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8974,7 +9051,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="hdparm&#x7684;&#x7528;&#x6cd5;" ID="ID_933273363" CREATED="1426316885566" MODIFIED="1426320223219"><richcontent TYPE="NOTE">
+<node TEXT="hdparm&#x7684;&#x7528;&#x6cd5;" FOLDED="true" ID="ID_933273363" CREATED="1426316885566" MODIFIED="1426320223219"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9414,7 +9491,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4f7f;&#x7528;DDNS&#x52a8;&#x6001;&#x57df;&#x540d;" ID="ID_747226402" CREATED="1413894788194" MODIFIED="1426755052038"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;DDNS&#x52a8;&#x6001;&#x57df;&#x540d;" FOLDED="true" ID="ID_747226402" CREATED="1413894788194" MODIFIED="1426755052038"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9476,7 +9553,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;dnspod&#x670d;&#x52a1;" ID="ID_115176308" CREATED="1421070938140" MODIFIED="1425125245503" LINK="../OneNote/&#x5728;Openwrt&#x4e0a;&#x4f7f;&#x7528;DNSPod.one"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;dnspod&#x670d;&#x52a1;" FOLDED="true" ID="ID_115176308" CREATED="1421070938140" MODIFIED="1425125245503" LINK="../OneNote/&#x5728;Openwrt&#x4e0a;&#x4f7f;&#x7528;DNSPod.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9606,7 +9683,7 @@ root@OpenWrt:~# wifi</pre>
 <font SIZE="10" BOLD="false"/>
 </node>
 </node>
-<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x652f;&#x6301;&#x5916;&#x7f51;&#x8bbf;&#x95ee;SSH&#x548c;WEB" ID="ID_1354312414" CREATED="1414834508053" MODIFIED="1425123960870"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x652f;&#x6301;&#x5916;&#x7f51;&#x8bbf;&#x95ee;SSH&#x548c;WEB" FOLDED="true" ID="ID_1354312414" CREATED="1414834508053" MODIFIED="1425123960870"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9682,7 +9759,7 @@ root@OpenWrt:~# wifi</pre>
 <node TEXT="&#x65e0;&#x7ebf;&#x732b;&#x914d;&#x7f6e;&#x6865;&#x63a5;&#x548c;&#x8def;&#x7531;&#x53cc;&#x6a21;&#x5f0f;" ID="ID_1422194968" CREATED="1414836357485" MODIFIED="1414836385609" LINK="#ID_1944931410"/>
 <node TEXT="Openwrt&#x505a;&#x7aef;&#x53e3;&#x6620;&#x5c04;" ID="ID_396956879" CREATED="1414836830325" MODIFIED="1414836844325" LINK="../OneNote/Openwrt&#x7aef;&#x53e3;&#x6620;&#x5c04;.one"/>
 </node>
-<node TEXT="&#x3010;&#x6700;&#x65b0;&#x3011;&#x5f00;&#x653e;&#x8def;&#x7531;&#x5668;&#x7684;WEB/SSH/FTP&#x7aef;&#x53e3;" ID="ID_248063579" CREATED="1425123861983" MODIFIED="1425124989977" LINK="../OneNote/openwrt&#x5f00;&#x653e;FTP&#x7aef;&#x53e3;.one"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x6700;&#x65b0;&#x3011;&#x5f00;&#x653e;&#x8def;&#x7531;&#x5668;&#x7684;WEB/SSH/FTP&#x7aef;&#x53e3;" FOLDED="true" ID="ID_248063579" CREATED="1425123861983" MODIFIED="1425124989977" LINK="../OneNote/openwrt&#x5f00;&#x653e;FTP&#x7aef;&#x53e3;.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9722,7 +9799,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="systemupgrade" ID="ID_201702831" CREATED="1418209182998" MODIFIED="1418210934906" LINK="../OneNote/Openwrt_upgrade_log.one"><richcontent TYPE="NOTE">
+<node TEXT="systemupgrade" FOLDED="true" ID="ID_201702831" CREATED="1418209182998" MODIFIED="1418210934906" LINK="../OneNote/Openwrt_upgrade_log.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10048,7 +10125,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x8bbe;&#x7f6e;&#x5355;&#x7ebf;&#x591a;&#x62e8;" ID="ID_538969939" CREATED="1418880050880" MODIFIED="1426598185407"><richcontent TYPE="NOTE">
+<node TEXT="&#x8bbe;&#x7f6e;&#x5355;&#x7ebf;&#x591a;&#x62e8;" FOLDED="true" ID="ID_538969939" CREATED="1418880050880" MODIFIED="1426598185407"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10138,7 +10215,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x914d;&#x7f6e;" ID="ID_403399799" CREATED="1424875691944" MODIFIED="1426598185420"><richcontent TYPE="NOTE">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_403399799" CREATED="1424875691944" MODIFIED="1426598185420"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10154,7 +10231,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="uhttpd&#x505a;&#x9759;&#x6001;&#x670d;&#x52a1;&#x5668;" ID="ID_453469763" CREATED="1424875697079" MODIFIED="1424875944256" LINK="#ID_435067597"><richcontent TYPE="NOTE">
+<node TEXT="uhttpd&#x505a;&#x9759;&#x6001;&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_453469763" CREATED="1424875697079" MODIFIED="1424875944256" LINK="#ID_435067597"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10173,7 +10250,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="uhttpd&#x914d;&#x7f6e;&#x6b65;&#x9aa4;" ID="ID_300139978" CREATED="1424875946078" MODIFIED="1426319319957" LINK="#ID_354426765"><richcontent TYPE="NOTE">
+<node TEXT="uhttpd&#x914d;&#x7f6e;&#x6b65;&#x9aa4;" FOLDED="true" ID="ID_300139978" CREATED="1424875946078" MODIFIED="1426319319957" LINK="#ID_354426765"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10377,7 +10454,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4f7f;&#x7528;ushare&#x6784;&#x5efa;uPnP&#x670d;&#x52a1;&#x5668;&#x5171;&#x4eab;&#x89c6;&#x9891;&#x548c;&#x97f3;&#x4e50;" ID="ID_1036638506" CREATED="1425814215604" MODIFIED="1425818902166"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;ushare&#x6784;&#x5efa;uPnP&#x670d;&#x52a1;&#x5668;&#x5171;&#x4eab;&#x89c6;&#x9891;&#x548c;&#x97f3;&#x4e50;" FOLDED="true" ID="ID_1036638506" CREATED="1425814215604" MODIFIED="1425818902166"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10501,7 +10578,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x589e;&#x52a0;&#x7528;&#x6237;&#x548c;&#x7ec4;&#x7528;&#x6237;" ID="ID_643323807" CREATED="1425120574040" MODIFIED="1426598185444"><richcontent TYPE="NOTE">
+<node TEXT="&#x589e;&#x52a0;&#x7528;&#x6237;&#x548c;&#x7ec4;&#x7528;&#x6237;" FOLDED="true" ID="ID_643323807" CREATED="1425120574040" MODIFIED="1426598185444"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10555,7 +10632,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 <node TEXT="&#x901a;&#x8fc7;PPTP&#x7ffb;&#x5899;" ID="ID_521559635" CREATED="1427373784972" MODIFIED="1427373802828"/>
 </node>
-<node TEXT="CubieBoard2&#x53cc;&#x5361;&#x7248;&#x914d;&#x7f6e;" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
+<node TEXT="CubieBoard2&#x53cc;&#x5361;&#x7248;&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
 <node TEXT="&#x4f3c;&#x4e4e;&#x662f;&#x53cc;&#x5361;&#x7684;&#x4e00;&#x4e2a;&#x95ee;&#x9898;" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE">
 
 <html>
@@ -10579,7 +10656,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x57fa;&#x672c;&#x914d;&#x7f6e;" ID="ID_1568576141" CREATED="1419751845757" MODIFIED="1419751849474">
+<node TEXT="&#x57fa;&#x672c;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_1568576141" CREATED="1419751845757" MODIFIED="1419751849474">
 <node TEXT="&#x7ed9;CB2&#x914d;&#x7f6e;Debian&#x7684;&#x6e90;" ID="ID_1035546729" CREATED="1419689811369" MODIFIED="1419690227885" LINK="#ID_868438502"><richcontent TYPE="NOTE">
 
 <html>
@@ -10684,7 +10761,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x670d;&#x52a1;&#x5668;" ID="ID_1926288953" CREATED="1424870214910" MODIFIED="1424870220236">
+<node TEXT="&#x5b89;&#x88c5;&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1926288953" CREATED="1424870214910" MODIFIED="1424870220236">
 <node TEXT="Lighttpd&#x5b89;&#x88c5;" ID="ID_16511115" CREATED="1424870235531" MODIFIED="1424873957519"><richcontent TYPE="NOTE">
 
 <html>
@@ -10699,7 +10776,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Mysql&#x5b89;&#x88c5;" ID="ID_952792482" CREATED="1424873959202" MODIFIED="1424873981510"><richcontent TYPE="NOTE">
+<node TEXT="Mysql&#x5b89;&#x88c5;" FOLDED="true" ID="ID_952792482" CREATED="1424873959202" MODIFIED="1424873981510"><richcontent TYPE="NOTE">
 
 <html>
   <head>
