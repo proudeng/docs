@@ -1,7 +1,7 @@
-<map version="freeplane 1.5.9">
+<map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false;"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" FOLDED="true" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
+<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1189,7 +1189,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Debian&#x865a;&#x62df;&#x673a;&#x652f;&#x6301;&#x767b;&#x5f55;Ericsson&#x7684;Hub" FOLDED="true" ID="ID_1720046487" CREATED="1395035633143" MODIFIED="1395035701595"><richcontent TYPE="NOTE">
+<node TEXT="Debian&#x865a;&#x62df;&#x673a;&#x652f;&#x6301;&#x767b;&#x5f55;Ericsson&#x7684;Hub" ID="ID_1720046487" CREATED="1395035633143" MODIFIED="1395035701595"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1302,7 +1302,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Debian&#x4e0a;&#x5b89;&#x88c5;Java" ID="ID_1711989259" CREATED="1395039601512" MODIFIED="1395040188639"><richcontent TYPE="NOTE">
+<node TEXT="Debian&#x4e0a;&#x5b89;&#x88c5;Java" FOLDED="true" ID="ID_1711989259" CREATED="1395039601512" MODIFIED="1395040188639"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1491,7 +1491,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Debian8&#x8bbe;&#x7f6e;&#x5f00;&#x542f;&#x4e0d;&#x8fdb;&#x5165;&#x56fe;&#x5f62;&#x754c;&#x9762;" ID="ID_989176451" CREATED="1470272874441" MODIFIED="1470273522234"><richcontent TYPE="NOTE">
+<node TEXT="Debian8&#x8bbe;&#x7f6e;&#x5f00;&#x542f;&#x4e0d;&#x8fdb;&#x5165;&#x56fe;&#x5f62;&#x754c;&#x9762;" ID="ID_989176451" CREATED="1470272874441" MODIFIED="1511493343122"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1508,7 +1508,7 @@
       &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#65292;&#20351;&#24471;&#31995;&#32479;&#21551;&#21160;&#21518;&#40664;&#35748;&#19981;&#36827;&#20837;&#22270;&#24418;&#30028;&#38754;:
     </p>
     <p>
-      <font size="4" color="#0033ff"><b><i>sudo systemctl set-default -f multiuser.target</i></b></font>
+      <font color="#0033ff" size="4"><b><i>sudo systemctl set-default -f multi-user.target</i></b></font>
     </p>
     <p>
       
@@ -1516,12 +1516,13 @@
     <p>
       &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#65292;&#26159;&#30340;&#31995;&#32479;&#21551;&#21160;&#21518;&#40664;&#35748;&#36827;&#20837;&#22270;&#24418;&#30028;&#38754;:
     </p>
-    <font size="4" color="#0033ff"><b><i>systemctl set-default graphical.target</i></b></font>
+    <font color="#0033ff" size="4"><b><i>systemctl set-default graphical.target</i></b></font>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="&#x914d;&#x7f6e;&#x5171;&#x4eab;&#x6587;&#x4ef6;&#x5939;&#x8ba9;&#x5176;&#x652f;&#x6301;&#x521b;&#x5efa;&#x8f6f;&#x94fe;&#x63a5;" ID="ID_1916669212" CREATED="1501205059530" MODIFIED="1501205851756"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;&#x5171;&#x4eab;&#x6587;&#x4ef6;&#x5939;&#x8ba9;&#x5176;&#x652f;&#x6301;&#x521b;&#x5efa;&#x8f6f;&#x94fe;&#x63a5;" FOLDED="true" ID="ID_1916669212" CREATED="1501205059530" MODIFIED="1509932168811"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1545,7 +1546,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x64cd;&#x4f5c;" ID="ID_1704721738" CREATED="1501205853713" MODIFIED="1501206424043"><richcontent TYPE="NOTE">
 
@@ -1583,12 +1583,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1394254430492"><richcontent TYPE="NOTE">
+<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1511493578566"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1603,6 +1602,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x89e3;&#x51b3;&#x4e2d;&#x6587;&#x4e71;&#x7801;&#x95ee;&#x9898;" ID="ID_1287103330" CREATED="1346422399153" MODIFIED="1346422822729"><richcontent TYPE="NOTE">
 
@@ -2120,7 +2120,7 @@
 </node>
 </node>
 </node>
-<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1931031054" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1931031054" CREATED="1355779483996" MODIFIED="1511493578505"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2128,21 +2128,22 @@
   </head>
   <body>
     <p>
-      web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;&#x4e0d;&#x5916;&#x4e4e;&#x4e0b;&#x9762;&#x7684;&#x51e0;&#x4e2a;&#x5143;&#x7d20;:
+      web&#26381;&#21153;&#22120;&#30340;&#23433;&#35013;&#19981;&#22806;&#20046;&#19979;&#38754;&#30340;&#20960;&#20010;&#20803;&#32032;:
     </p>
     <ul>
       <li>
-        &#x9759;&#x6001;HTTP&#x670d;&#x52a1;&#x5668;,&#x6211;&#x4eec;&#x9009;&#x4e86;lighttpd,&#x56e0;&#x4e3a;&#x5b83;&#x5360;&#x7528;&#x8d44;&#x6e90;&#x5c0f;
+        &#38745;&#24577;HTTP&#26381;&#21153;&#22120;,&#25105;&#20204;&#36873;&#20102;lighttpd,&#22240;&#20026;&#23427;&#21344;&#29992;&#36164;&#28304;&#23567;
       </li>
       <li>
-        &#x52a8;&#x6001;&#x5185;&#x5bb9;&#x89e3;&#x6790;&#x5668;,&#x4e00;&#x822c;&#x662f;php
+        &#21160;&#24577;&#20869;&#23481;&#35299;&#26512;&#22120;,&#19968;&#33324;&#26159;php
       </li>
       <li>
-        &#x6570;&#x636e;&#x5e93;,&#x4e00;&#x822c;&#x7528;Mysql.
+        &#25968;&#25454;&#24211;,&#19968;&#33324;&#29992;Mysql.
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="lighttpd&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1250917492" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
 
@@ -3759,7 +3760,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1421071729703"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1511493582083"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3767,77 +3768,78 @@
   </head>
   <body>
     <p>
-      <font size="small" face="trebuchet ms,geneva">Dear jun deng,<br/><br/><strong>PLEASE PRINT THIS MESSAGE FOR YOUR RECORDS - PLEASE READ THIS EMAIL IN FULL.</strong></font>
+      <font face="trebuchet ms,geneva">Dear jun deng,<br/><br/><strong>PLEASE PRINT THIS MESSAGE FOR YOUR RECORDS - PLEASE READ THIS EMAIL IN FULL.</strong></font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva">We are pleased to tell you that the server or VPS you ordered has now been set up and is operational. </font>
+      <font face="trebuchet ms,geneva">We are pleased to tell you that the server or VPS you ordered has now been set up and is operational. </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva"><strong>Server Details<br/></strong>============================= </font>
+      <font face="trebuchet ms,geneva"><strong>Server Details<br/></strong>============================= </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva">You ordered the XVM512 </font>
+      <font face="trebuchet ms,geneva">You ordered the XVM512 </font>
     </p>
     <p>
-      <font size="small" face="trebuchet ms,geneva">Main IP: </font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><b>198.167.136.189</b></font><font face="trebuchet ms,geneva" size="small"><br/></font>
+      <font face="trebuchet ms,geneva">Main IP: </font><font color="#cc0033" face="trebuchet ms,geneva"><b>198.167.136.189</b></font><font face="trebuchet ms,geneva"><br/></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Additional IP Address(es):<br/></font><font face="trebuchet ms,geneva" size="small" color="#cc0033"><b>198.167.136.38 </b></font>
+      <font face="trebuchet ms,geneva">Additional IP Address(es):<br/></font><font color="#cc0033" face="trebuchet ms,geneva"><b>198.167.136.38 </b></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Server Name: proudeng<br/></font>
+      <font face="trebuchet ms,geneva">Server Name: proudeng<br/></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="x-small"><strong>CONTROL PANEL NOTE: </strong>If you ordered a control panel, you will receive another e-mail following this e-mail within 12 hours.&#160;&#160;Although your VPS is setup, we must still manually license your server for your desired control panel.&#160;&#160;We will install the control panel for you, and activate it.&#160;&#160;Until you receive this e-mail, it is strongly advised that you do not configure your VPS until this time. Note that control panel activations and installs are done during business hours only!</font><font face="trebuchet ms,geneva"><br/></font>
+      <font face="trebuchet ms,geneva"><strong>CONTROL PANEL NOTE: </strong>If you ordered a control panel, you will receive another e-mail following this e-mail within 12 hours.&#160;&#160;Although your VPS is setup, we must still manually license your server for your desired control panel.&#160;&#160;We will install the control panel for you, and activate it.&#160;&#160;Until you receive this e-mail, it is strongly advised that you do not configure your VPS until this time. Note that control panel activations and installs are done during business hours only!<br/></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><br/>
+      <font face="trebuchet ms,geneva"><br/>
       </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><strong>SolusVM VPS Control Panel<br/></strong>=============================<br/></font><font face="trebuchet ms,geneva" size="small" color="#000099"><b>http://manage.virpus.com</b></font><font face="trebuchet ms,geneva" size="small"><br/>Username: </font><font face="trebuchet ms,geneva" size="small" color="#000099"><b>vn20676</b></font><font face="trebuchet ms,geneva" size="small"><br/>Password: </font><font face="trebuchet ms,geneva" size="small" color="#000099"><b>flyingproudeng21181013 </b></font>
+      <font face="trebuchet ms,geneva"><strong>SolusVM VPS Control Panel<br/></strong>=============================<br/></font><font color="#000099" face="trebuchet ms,geneva"><b>http://manage.virpus.com</b></font><font face="trebuchet ms,geneva"><br/>Username: </font><font color="#000099" face="trebuchet ms,geneva"><b>vn20676</b></font><font face="trebuchet ms,geneva"><br/>Password: </font><font color="#000099" face="trebuchet ms,geneva"><b>flyingproudeng21181013 </b></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Console Username:<br/>Console Password: </font>
+      <font face="trebuchet ms,geneva">Console Username:<br/>Console Password: </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><br/>
+      <font face="trebuchet ms,geneva"><br/>
       </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><strong>Support</strong><br/>=============================<br/>For any support needs, please open a ticket at http://myvirpus.com </font>
+      <font face="trebuchet ms,geneva"><strong>Support</strong><br/>=============================<br/>For any support needs, please open a ticket at http://myvirpus.com </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Please include any necessary information to provide you with faster service, such as root password, domain names, and a description of the problem / or assistance needed. This will speed up the support time by allowing our administrators to immediately begin diagnosing the problem. </font>
+      <font face="trebuchet ms,geneva">Please include any necessary information to provide you with faster service, such as root password, domain names, and a description of the problem / or assistance needed. This will speed up the support time by allowing our administrators to immediately begin diagnosing the problem. </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><br/>
+      <font face="trebuchet ms,geneva"><br/>
       </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><strong>Network Updates and Status</strong><br/>=============================<br/></font>
+      <font face="trebuchet ms,geneva"><strong>Network Updates and Status</strong><br/>=============================<br/></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Virpus strongly recommends that customers register on our forum located at http://virpus.com/forum.&#160;&#160;Network and server node statuses are posted here, as well as scheduled maintenances.<br/></font>
+      <font face="trebuchet ms,geneva">Virpus strongly recommends that customers register on our forum located at http://virpus.com/forum.&#160;&#160;Network and server node statuses are posted here, as well as scheduled maintenances.<br/></font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small"><br/>
+      <font face="trebuchet ms,geneva"><br/>
       </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Once again, thank you for your business to Virpus Networks! </font>
+      <font face="trebuchet ms,geneva">Once again, thank you for your business to Virpus Networks! </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Regards, </font>
+      <font face="trebuchet ms,geneva">Regards, </font>
     </p>
     <p>
-      <font face="trebuchet ms,geneva" size="small">Virpus Networks, Inc. </font>
+      <font face="trebuchet ms,geneva">Virpus Networks, Inc. </font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" FOLDED="true" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
 <node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
@@ -5765,7 +5767,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x66f4;&#x65b0;&#x65f6;&#x533a;" FOLDED="true" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1455516725446"><richcontent TYPE="NOTE">
+<node TEXT="&#x66f4;&#x65b0;&#x65f6;&#x533a;" FOLDED="true" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1511493582015"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5843,6 +5845,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x7269;&#x7406;&#x65f6;&#x95f4;&#x548c;&#x7cfb;&#x7edf;&#x65f6;&#x95f4;" ID="ID_1264937144" CREATED="1455514877735" MODIFIED="1455515690260"><richcontent TYPE="NOTE">
 
@@ -5870,7 +5873,7 @@
 </node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
-<node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
+<node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
 <node TEXT="apache" FOLDED="true" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
 
 <html>
@@ -6370,7 +6373,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b89;&#x88c5;lighttpd[&#x7248;&#x672c;1.4.30]" FOLDED="true" ID="ID_1277235146" CREATED="1326382037284" MODIFIED="1326528034283"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;lighttpd[&#x7248;&#x672c;1.4.30]" FOLDED="true" ID="ID_1277235146" CREATED="1326382037284" MODIFIED="1511493585052"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6378,7 +6381,7 @@
   </head>
   <body>
     <p>
-      &#x4f7f;&#x7528;&#x547d;&#x4ee4;&#xff1a;(&#x4e0b;&#x9762;&#x7684;&#x914d;&#x7f6e;&#x8868;&#x793a;Lighttpd&#x4f7f;&#x7528;fam&#x6765;&#x7ba1;&#x7406;php)
+      &#20351;&#29992;&#21629;&#20196;&#65306;(&#19979;&#38754;&#30340;&#37197;&#32622;&#34920;&#31034;Lighttpd&#20351;&#29992;fam&#26469;&#31649;&#29702;php)
     </p>
     <ol>
       <li>
@@ -6395,19 +6398,17 @@
       
     </p>
     <p>
-      &#x4e0a;&#x9762;&#x7684;&#x547d;&#x4ee4;&#x5c06;lighttpd&#x5b89;&#x88c5;&#x5230;&#x4e86;/usr/local/sbin/lighttpd&#x4e0b;&#x9762;&#x3002;
+      &#19978;&#38754;&#30340;&#21629;&#20196;&#23558;lighttpd&#23433;&#35013;&#21040;&#20102;/usr/local/sbin/lighttpd&#19979;&#38754;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      &#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x5728;/etc/lighttpd/&#x76ee;&#x5f55;&#x4e0b;&#x9762;&#x3002;/etc/lighttpd&#x76ee;&#x5f55;&#x662f;&#x624b;&#x52a8;&#x521b;&#x5efa;&#x7684;&#x3002;
-    </p>
-    <p>
-      
+      &#37197;&#32622;&#25991;&#20214;&#22312;/etc/lighttpd/&#30446;&#24405;&#19979;&#38754;&#12290;/etc/lighttpd&#30446;&#24405;&#26159;&#25163;&#21160;&#21019;&#24314;&#30340;&#12290;
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x7f16;&#x8bd1;&#x540e;lighttpd&#x4e0d;&#x80fd;&#x542f;&#x52a8;&#x7684;&#x95ee;&#x9898;" ID="ID_606655900" CREATED="1326509303364" MODIFIED="1326509555161"><richcontent TYPE="NOTE">
 
@@ -6549,7 +6550,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x7f16;&#x8bd1;php-5.3.8[&#x5e26;fpm&#x652f;&#x6301;]" FOLDED="true" ID="ID_940956504" CREATED="1326431286584" MODIFIED="1326434156766"><richcontent TYPE="NOTE">
+<node TEXT="&#x7f16;&#x8bd1;php-5.3.8[&#x5e26;fpm&#x652f;&#x6301;]" FOLDED="true" ID="ID_940956504" CREATED="1326431286584" MODIFIED="1511493586398"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6557,23 +6558,23 @@
   </head>
   <body>
     <p>
-      &#x56e0;&#x4e3a;php 5.3&#x4ee5;&#x4e0a;&#x7684;&#x7248;&#x672c;,&#x90fd;&#x81ea;&#x5e26;fpm&#x7684;&#x652f;&#x6301;&#x4e86;.&#x800c;&#x4e14;&#x6839;&#x636e;&#x7f51;&#x4e0a;&#x67e5;&#x627e;&#x7684;&#x6570;&#x636e;,lighttpd&#x80fd;&#x591f;&#x652f;&#x6301;fpm.&#x800c;&#x4e14;&#x4f20;&#x8bf4;fpm&#x6bd4;spawn-fcgi&#x8981;&#x597d;.
+      &#22240;&#20026;php 5.3&#20197;&#19978;&#30340;&#29256;&#26412;,&#37117;&#33258;&#24102;fpm&#30340;&#25903;&#25345;&#20102;.&#32780;&#19988;&#26681;&#25454;&#32593;&#19978;&#26597;&#25214;&#30340;&#25968;&#25454;,lighttpd&#33021;&#22815;&#25903;&#25345;fpm.&#32780;&#19988;&#20256;&#35828;fpm&#27604;spawn-fcgi&#35201;&#22909;.
     </p>
     <p>
-      &#x90a3;&#x4e3a;&#x4ec0;&#x4e48;&#x4e0d;&#x7f16;&#x8bd1;&#x4e00;&#x4e2a;&#x5e26;fpm&#x7684;php&#x5462;?
-    </p>
-    <p>
-      ==
+      &#37027;&#20026;&#20160;&#20040;&#19981;&#32534;&#35793;&#19968;&#20010;&#24102;fpm&#30340;php&#21602;?
     </p>
     <p>
       ==
     </p>
     <p>
-      &#x5728;php5.3.8&#x4e2d;,&#x4f7f;&#x7528;&#x4e86;&#x4e0b;&#x9762;&#x7684;&#x914d;&#x7f6e;&#x547d;&#x4ee4;&#x5728;&#x914d;&#x7f6e;php.
+      ==
+    </p>
+    <p>
+      &#22312;php5.3.8&#20013;,&#20351;&#29992;&#20102;&#19979;&#38754;&#30340;&#37197;&#32622;&#21629;&#20196;&#22312;&#37197;&#32622;php.
     </p>
     <ol>
       <li>
-        ./configure&#xa0;&#xa0;--enable-force-cgi-redirect --enable-fpm --enable-cli --with-zlib --enable-mbstring&#xa0;&#xa0;--with-mysql --with-mysqli --with-mysql-sock --with-gd --enable-gd-native-ttf --without-sqlite --enable-pdo --with-pdo-mysql --with-gettext --with-curl --with-pdo-mysql --enable-sockets --enable-bcmath --enable-xml --with-bz2 --with-gettext --enable-zip
+        ./configure&#160;&#160;--enable-force-cgi-redirect --enable-fpm --enable-cli --with-zlib --enable-mbstring&#160;&#160;--with-mysql --with-mysqli --with-mysql-sock --with-gd --enable-gd-native-ttf --without-sqlite --enable-pdo --with-pdo-mysql --with-gettext --with-curl --with-pdo-mysql --enable-sockets --enable-bcmath --enable-xml --with-bz2 --with-gettext --enable-zip
       </li>
       <li>
         make
@@ -6583,58 +6584,58 @@
       </li>
     </ol>
     <p>
-      make install&#x4e4b;&#x540e;&#x7684;&#x7ed3;&#x679c;&#x663e;&#x793a;:
+      make install&#20043;&#21518;&#30340;&#32467;&#26524;&#26174;&#31034;:
     </p>
     <p>
       [root@246682 php-5.3.8]# make install
     </p>
     <p>
-      Installing PHP SAPI module:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fpm
+      Installing PHP SAPI module:&#160;&#160;&#160;&#160;&#160;&#160;&#160;fpm
     </p>
     <p>
-      Installing PHP CLI binary:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/bin/
+      Installing PHP CLI binary:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/bin/
     </p>
     <p>
-      Installing PHP CLI man page:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/man/man1/
+      Installing PHP CLI man page:&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/man/man1/
     </p>
     <p>
-      Installing PHP FPM binary:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/sbin/
+      Installing PHP FPM binary:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/sbin/
     </p>
     <p>
-      Installing PHP FPM config:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/etc/
+      Installing PHP FPM config:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/etc/
     </p>
     <p>
-      Installing PHP FPM man page:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/man/man8/
+      Installing PHP FPM man page:&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/man/man8/
     </p>
     <p>
-      Installing build environment:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/lib/php/build/
+      Installing build environment:&#160;&#160;&#160;&#160;&#160;/usr/local/lib/php/build/
     </p>
     <p>
-      Installing header files:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/include/php/
+      Installing header files:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/include/php/
     </p>
     <p>
-      Installing helper programs:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/bin/
+      Installing helper programs:&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/bin/
     </p>
     <p>
-      &#xa0;&#xa0;program: phpize
+      &#160;&#160;program: phpize
     </p>
     <p>
-      &#xa0;&#xa0;program: php-config
+      &#160;&#160;program: php-config
     </p>
     <p>
-      Installing man pages:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/man/man1/
+      Installing man pages:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/man/man1/
     </p>
     <p>
-      &#xa0;&#xa0;page: phpize.1
+      &#160;&#160;page: phpize.1
     </p>
     <p>
-      &#xa0;&#xa0;page: php-config.1
+      &#160;&#160;page: php-config.1
     </p>
     <p>
-      Installing PEAR environment:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/lib/php/
+      Installing PEAR environment:&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/lib/php/
     </p>
     <p>
-      [PEAR] Archive_Tar&#xa0;&#xa0;&#xa0;&#xa0;- already installed: 1.3.7
+      [PEAR] Archive_Tar&#160;&#160;&#160;&#160;- already installed: 1.3.7
     </p>
     <p>
       [PEAR] Console_Getopt - already installed: 1.3.0
@@ -6643,10 +6644,10 @@
       [PEAR] Structures_Graph- already installed: 1.0.4
     </p>
     <p>
-      [PEAR] XML_Util&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;- already installed: 1.2.1
+      [PEAR] XML_Util&#160;&#160;&#160;&#160;&#160;&#160;&#160;- already installed: 1.2.1
     </p>
     <p>
-      [PEAR] PEAR&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;- already installed: 1.9.4
+      [PEAR] PEAR&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- already installed: 1.9.4
     </p>
     <p>
       Wrote PEAR system config file at: /usr/local/etc/pear.conf
@@ -6661,7 +6662,7 @@
       ln -s -f /usr/local/bin/phar.phar /usr/local/bin/phar
     </p>
     <p>
-      Installing PDO headers:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/usr/local/include/php/ext/pdo/
+      Installing PDO headers:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/usr/local/include/php/ext/pdo/
     </p>
     <p>
       ==
@@ -6702,11 +6703,9 @@
     <p>
       <font color="#ff0033">/usr/local/sbin/php-fpm</font>
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="php-fpm&#x89e3;&#x6790;&#x4ee5;&#x53ca;&#x914d;&#x7f6e;" ID="ID_882086367" CREATED="1326514167638" MODIFIED="1326514184471"/>
 <node TEXT="&#x542f;&#x52a8;php-fmp" ID="ID_306451867" CREATED="1329209741148" MODIFIED="1329209779632"><richcontent TYPE="NOTE">
@@ -6753,7 +6752,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Mysql&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1169936241" CREATED="1329209401017" MODIFIED="1329209506979"><richcontent TYPE="NOTE">
+<node TEXT="Mysql&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1169936241" CREATED="1329209401017" MODIFIED="1511493589559"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6761,13 +6760,13 @@
   </head>
   <body>
     <p>
-      &#x672c;&#x7cfb;&#x7edf;&#x4e2d;&#x7684;mysql&#x670d;&#x52a1;&#x5668;&#x662f;&#x5b89;&#x88c5;&#x597d;&#x4e86;&#x7684;,&#x662f;zh&#x5b89;&#x88c5;&#x7684;?
+      &#26412;&#31995;&#32479;&#20013;&#30340;mysql&#26381;&#21153;&#22120;&#26159;&#23433;&#35013;&#22909;&#20102;&#30340;,&#26159;zh&#23433;&#35013;&#30340;?
     </p>
     <p>
       
     </p>
     <p>
-      &#x542f;&#x52a8;mysql&#x670d;&#x52a1;&#x5668;&#x7684;&#x547d;&#x4ee4;&#x662f;:
+      &#21551;&#21160;mysql&#26381;&#21153;&#22120;&#30340;&#21629;&#20196;&#26159;:
     </p>
     <p>
       
@@ -6775,11 +6774,9 @@
     <p>
       <b><i><font color="#ff0000" size="6">/etc/init.d/mysqld start </font></i></b>
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x542f;&#x52a8;Mysql&#x670d;&#x52a1;&#x5668;" ID="ID_520374022" CREATED="1329209701453" MODIFIED="1329209716513"><richcontent TYPE="NOTE">
 
@@ -6797,9 +6794,9 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7285,8 +7282,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -8659,8 +8656,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10632,7 +10629,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 <node TEXT="&#x901a;&#x8fc7;PPTP&#x7ffb;&#x5899;" ID="ID_521559635" CREATED="1427373784972" MODIFIED="1427373802828"/>
 </node>
-<node TEXT="CubieBoard2&#x53cc;&#x5361;&#x7248;&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
+<node TEXT="CubieBoard2&#x53cc;&#x5361;&#x7248;&#x914d;&#x7f6e;" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
 <node TEXT="&#x4f3c;&#x4e4e;&#x662f;&#x53cc;&#x5361;&#x7684;&#x4e00;&#x4e2a;&#x95ee;&#x9898;" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE">
 
 <html>
