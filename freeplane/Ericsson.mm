@@ -1,22 +1,26 @@
-<map version="freeplane 1.3.0">
+<map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Ericsson" ID="ID_651602807" CREATED="1322027751883" MODIFIED="1322027830251"><hook NAME="MapStyle">
-    <properties show_note_icons="true"/>
+<node TEXT="Ericsson" FOLDED="false" ID="ID_651602807" CREATED="1322027751883" MODIFIED="1322027830251"><hook NAME="MapStyle">
+    <properties fit_to_viewport="false" show_note_icons="true"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -51,7 +55,7 @@
 </map_styles>
 </hook>
 <node TEXT="&#x5de5;&#x4f5c;&#x6d41;&#x7a0b;&#x76f8;&#x5173;" POSITION="right" ID="ID_456936503" CREATED="1322027837050" MODIFIED="1322027845339">
-<node TEXT="Concur" ID="ID_1541516026" CREATED="1322027846494" MODIFIED="1322027849916">
+<node TEXT="Concur" FOLDED="true" ID="ID_1541516026" CREATED="1322027846494" MODIFIED="1322027849916">
 <node TEXT="concur training" ID="ID_524156718" CREATED="1322027914515" MODIFIED="1322028078570" LINK="../../04%20Concur%20Training%20Presentation(ENC).ppt"><richcontent TYPE="NOTE">
 
 <html>
@@ -82,10 +86,10 @@
 </node>
 <node TEXT="&#x51fa;&#x5dee;&#x62a5;&#x9500;&#x7684;&#x65f6;&#x5019;,&#x9700;&#x8981;&#x628a;&#x51fa;&#x5dee;&#x4efb;&#x52a1;&#x7533;&#x8bf7;&#x8868;&#x4e5f;&#x622a;&#x5c4f;&#x8fdb;&#x5165;concur" ID="ID_88736393" CREATED="1361774524408" MODIFIED="1361774544048"/>
 </node>
-<node TEXT="scrum" ID="ID_1363143812" CREATED="1322028571207" MODIFIED="1322028582656">
+<node TEXT="scrum" FOLDED="true" ID="ID_1363143812" CREATED="1322028571207" MODIFIED="1322028582656">
 <node TEXT="[Andres]2011/11/29.Scrum&#x57f9;&#x8bad;&#x6750;&#x6599;Agenda" ID="ID_1656063076" CREATED="1322028583989" MODIFIED="1322028704220" LINK="../../Scrum_WS_agenda.ppt"/>
 </node>
-<node TEXT="&#x8ba2;&#x673a;&#x7968;&#x548c;&#x5bbe;&#x9986;" ID="ID_1100423591" CREATED="1325309612983" MODIFIED="1403859882697" LINK="http://internal.ericsson.com/page/hub_china_north_east_asia/support/travel_management/index.jsp"><richcontent TYPE="NOTE">
+<node TEXT="&#x8ba2;&#x673a;&#x7968;&#x548c;&#x5bbe;&#x9986;" FOLDED="true" ID="ID_1100423591" CREATED="1325309612983" MODIFIED="1403859882697" LINK="http://internal.ericsson.com/page/hub_china_north_east_asia/support/travel_management/index.jsp"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -101,17 +105,17 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x56fd;&#x9645;&#x673a;&#x7968;&#x548c;&#x5bbe;&#x9986;&#x9884;&#x8ba2;" ID="ID_1045173566" CREATED="1325309794064" MODIFIED="1325309813725">
+<node TEXT="&#x56fd;&#x9645;&#x673a;&#x7968;&#x548c;&#x5bbe;&#x9986;&#x9884;&#x8ba2;" FOLDED="true" ID="ID_1045173566" CREATED="1325309794064" MODIFIED="1325309813725">
 <node TEXT="HRG&#x8054;&#x7cfb;&#x65b9;&#x5f0f;" ID="ID_1480255151" CREATED="1325309816479" MODIFIED="1325310106041" LINK="Travel%20card%20in%20China.jpg"/>
 <node TEXT="&#x56fd;&#x9645;&#x5bbe;&#x9986;&#x5217;&#x8868;2012" ID="ID_1263754908" CREATED="1325309823392" MODIFIED="1325310123657" LINK="Ericsson%20Global%20Hotel%20Directory%202011.xls"/>
 </node>
-<node TEXT="&#x56fd;&#x5185;&#x673a;&#x7968;&#x548c;&#x5bbe;&#x9986;&#x9884;&#x8ba2;" ID="ID_1340162061" CREATED="1325309831999" MODIFIED="1325309838603">
+<node TEXT="&#x56fd;&#x5185;&#x673a;&#x7968;&#x548c;&#x5bbe;&#x9986;&#x9884;&#x8ba2;" FOLDED="true" ID="ID_1340162061" CREATED="1325309831999" MODIFIED="1325309838603">
 <node TEXT="&#x4f7f;&#x7528;OBT&#x5de5;&#x5177;" ID="ID_1325052952" CREATED="1325309962539" MODIFIED="1325309978828" LINK="http://online.travelsky.hrgworldwide.com/"/>
 <node TEXT="&#x56fd;&#x5185;&#x5bbe;&#x9986;&#x5217;&#x8868;2012" ID="ID_848275804" CREATED="1325309980908" MODIFIED="1325310140217" LINK="Hotel%20list%20for%20Mainland%20China%202012.xls"/>
 </node>
 </node>
 <node TEXT="&#x7535;&#x8bdd;&#x79fb;&#x673a;" ID="ID_1157952549" CREATED="1325653859040" MODIFIED="1325653923001" LINK="Telephone%20Application(ENC_RD_AR).xml"/>
-<node TEXT="&#x745e;&#x5178;&#x7533;&#x8bf7;&#x7b7e;&#x8bc1;&#x6d41;&#x7a0b;" ID="ID_428764550" CREATED="1329099971838" MODIFIED="1329115262464" LINK="Checklist%20of%20ENC%20Chinese%20employees%20visa%20application-2.xls">
+<node TEXT="&#x745e;&#x5178;&#x7533;&#x8bf7;&#x7b7e;&#x8bc1;&#x6d41;&#x7a0b;" FOLDED="true" ID="ID_428764550" CREATED="1329099971838" MODIFIED="1329115262464" LINK="Checklist%20of%20ENC%20Chinese%20employees%20visa%20application-2.xls">
 <node TEXT="1.&#x745e;&#x5178;&#x5f00;&#x51fa;&#x9080;&#x8bf7;&#x51fd;" ID="ID_994683794" CREATED="1329099989816" MODIFIED="1329100127739"><richcontent TYPE="NOTE">
 
 <html>
@@ -238,7 +242,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x516c;&#x53f8;&#x62a5;&#x9500;" ID="ID_153307127" CREATED="1330416211937" MODIFIED="1330416219374">
+<node TEXT="&#x516c;&#x53f8;&#x62a5;&#x9500;" FOLDED="true" ID="ID_153307127" CREATED="1330416211937" MODIFIED="1330416219374">
 <node TEXT="&#x745e;&#x5178;&#x51fa;&#x5dee;&#x56de;&#x6765;&#x80fd;&#x591f;&#x62a5;&#x9500;&#x7684;&#x6b3e;&#x9879;" ID="ID_458159136" CREATED="1386223937686" MODIFIED="1386555999289"><richcontent TYPE="NOTE">
 
 <html>
@@ -294,14 +298,14 @@
 <node TEXT="&#x6280;&#x5de7;" ID="ID_1813509507" CREATED="1400141333959" MODIFIED="1400141453731" LINK="../MiscDocuments/Oversea_mobile_usage_guide.ppt"/>
 </node>
 </node>
-<node TEXT="NPI&#x76f8;&#x5173;" ID="ID_865696915" CREATED="1345615664620" MODIFIED="1345615675901">
+<node TEXT="NPI&#x76f8;&#x5173;" FOLDED="true" ID="ID_865696915" CREATED="1345615664620" MODIFIED="1345615675901">
 <node TEXT="NPI&#x9700;&#x8981;&#x7b26;&#x5408;&#x7684;Criteria" ID="ID_598336924" CREATED="1345615677792" MODIFIED="1385522860088" LINK="../MiscDocuments/NPI%20Criterion.ppt"/>
 </node>
-<node TEXT="&#x7533;&#x8bf7;&#x624b;&#x673a;&#x76f8;&#x5173;&#x7684;&#x6d41;&#x7a0b;" ID="ID_255297681" CREATED="1366867670896" MODIFIED="1366867677930">
+<node TEXT="&#x7533;&#x8bf7;&#x624b;&#x673a;&#x76f8;&#x5173;&#x7684;&#x6d41;&#x7a0b;" FOLDED="true" ID="ID_255297681" CREATED="1366867670896" MODIFIED="1366867677930">
 <node TEXT="&#x90ae;&#x4ef6;" ID="ID_1479097854" CREATED="1366867680438" MODIFIED="1366867740650" LINK="../MiscDocuments/&#x3010;Administration&#x3011;&#x300a;ENC&#x79fb;&#x52a8;&#x901a;&#x4fe1;&#x7ba1;&#x7406;&#x89c4;&#x5b9a;&#x300b;&#x66f4;&#x65b0;%20ENC%20Mobile%20Communication%20Directive%20Updating.msg"/>
 <node TEXT="FAQ" ID="ID_1059572818" CREATED="1366867683272" MODIFIED="1366867749250" LINK="../MiscDocuments/ENC%20Mobile%20Directive%20-%20FAQ.doc"/>
 </node>
-<node TEXT="&#x7533;&#x8bf7;&#x5de5;&#x4f5c;&#x9910;&#x94fe;&#x63a5;" ID="ID_1210809236" CREATED="1382946928859" MODIFIED="1403859882245"><richcontent TYPE="NOTE">
+<node TEXT="&#x7533;&#x8bf7;&#x5de5;&#x4f5c;&#x9910;&#x94fe;&#x63a5;" FOLDED="true" ID="ID_1210809236" CREATED="1382946928859" MODIFIED="1403859882245"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -344,7 +348,7 @@
 </richcontent>
 </node>
 <node TEXT="&#x7814;&#x53d1;&#x56fe;&#x4e66;&#x5ba4;&#x4f4d;&#x7f6e;&#x548c;&#x8054;&#x7cfb;&#x4eba;" ID="ID_153277087" CREATED="1384841939772" MODIFIED="1398757617242" LINK="../MiscDocuments/The%20RD%20library%20administrator%20change%20and%20new%20books%20come.msg"/>
-<node TEXT="&#x822a;&#x7a7a;&#x516c;&#x53f8;&#x4f1a;&#x5458;" ID="ID_619893975" CREATED="1384913720304" MODIFIED="1384913729437">
+<node TEXT="&#x822a;&#x7a7a;&#x516c;&#x53f8;&#x4f1a;&#x5458;" FOLDED="true" ID="ID_619893975" CREATED="1384913720304" MODIFIED="1384913729437">
 <node TEXT="Star Alliance" ID="ID_831670628" CREATED="1384913730329" MODIFIED="1384914309086"><richcontent TYPE="NOTE">
 
 <html>
@@ -399,7 +403,7 @@
 </node>
 </node>
 <node TEXT="&#x7231;&#x7acb;&#x4fe1;&#x95e8;&#x6162;&#x95e8;&#x7279;&#x8865;&#x52a9;" ID="ID_860195775" CREATED="1386299503396" MODIFIED="1386299540158" LINK="../MiscDocuments/FW%20&#x662f;&#x5426;&#x6709;&#x540c;&#x4e8b;&#x7b26;&#x5408;&#x95e8;&#x6162;&#x95e8;&#x7279;&#xff1f;.msg"/>
-<node TEXT="&#x9886;&#x53d6;&#x6587;&#x5177;&#x7684;&#x65b9;&#x6cd5;" ID="ID_98211372" CREATED="1391996696986" MODIFIED="1403859885022" LINK="../MiscDocuments/ENCRD_Internal_Stationery_Booking_Tool.msg"><richcontent TYPE="NOTE">
+<node TEXT="&#x9886;&#x53d6;&#x6587;&#x5177;&#x7684;&#x65b9;&#x6cd5;" FOLDED="true" ID="ID_98211372" CREATED="1391996696986" MODIFIED="1403859885022" LINK="../MiscDocuments/ENCRD_Internal_Stationery_Booking_Tool.msg"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -439,7 +443,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x9886;&#x53d6;&#x6587;&#x5177;&#x7684;&#x94fe;&#x63a5;" ID="ID_1801145969" CREATED="1386556370704" MODIFIED="1391996718108" LINK="http://web.cn.ao.ericsson.se/enc/fa/netoffice/index3.asp"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x9886;&#x53d6;&#x6587;&#x5177;&#x7684;&#x94fe;&#x63a5;" FOLDED="true" ID="ID_1801145969" CREATED="1386556370704" MODIFIED="1391996718108" LINK="http://web.cn.ao.ericsson.se/enc/fa/netoffice/index3.asp"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -490,7 +494,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x3010;&#x514d;&#x8d39;&#x3011;&#x5982;&#x4f55;&#x5b89;&#x88c5;ECC" ID="ID_222166478" CREATED="1386579655721" MODIFIED="1403859885068" LINK="../MiscDocuments/ECC.msg"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x514d;&#x8d39;&#x3011;&#x5982;&#x4f55;&#x5b89;&#x88c5;ECC" FOLDED="true" ID="ID_222166478" CREATED="1386579655721" MODIFIED="1403859885068" LINK="../MiscDocuments/ECC.msg"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -526,7 +530,7 @@
 </richcontent>
 </node>
 <node TEXT="&#x516c;&#x53f8;&#x53d1;&#x653e;&#x7684;&#x72ec;&#x751f;&#x5b50;&#x5973;&#x5f85;&#x9047;" ID="ID_530020256" CREATED="1387524999305" MODIFIED="1387525042006" LINK="../MiscDocuments/&#x72ec;&#x751f;&#x5b50;&#x5973;&#x5f85;&#x9047;&#x53d1;&#x653e;Single%20Child%20Benefit%20Payment%20Y2013%20-Local%20Regular%20Staff%20Only.msg"/>
-<node TEXT="&#x6211;&#x7684;&#x7535;&#x8bdd;&#x4f1a;&#x8bae;&#x53f7;&#x7801;" ID="ID_691583702" CREATED="1388715267280" MODIFIED="1420333502053" LINK="../MiscDocuments/New%20passcodes%20for%20Ericsson%20Teleconference%20Service.msg"><richcontent TYPE="NOTE">
+<node TEXT="&#x6211;&#x7684;&#x7535;&#x8bdd;&#x4f1a;&#x8bae;&#x53f7;&#x7801;" FOLDED="true" ID="ID_691583702" CREATED="1388715267280" MODIFIED="1420333502053" LINK="../MiscDocuments/New%20passcodes%20for%20Ericsson%20Teleconference%20Service.msg"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -820,7 +824,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e3a;&#x90e8;&#x95e8;&#x6280;&#x672f;&#x9762;&#x8bd5;&#x5de5;&#x7a0b;&#x5e08;" ID="ID_1454887209" CREATED="1398085504152" MODIFIED="1398391495337">
+<node TEXT="&#x4e3a;&#x90e8;&#x95e8;&#x6280;&#x672f;&#x9762;&#x8bd5;&#x5de5;&#x7a0b;&#x5e08;" FOLDED="true" ID="ID_1454887209" CREATED="1398085504152" MODIFIED="1398391495337">
 <node TEXT="&#x9700;&#x8981;&#x8003;&#x5bdf;&#x7684;&#x65b9;&#x9762;" ID="ID_1706571195" CREATED="1398391454552" MODIFIED="1398395821987"><richcontent TYPE="NOTE">
 
 <html>
@@ -858,7 +862,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x9762;&#x8bd5;&#x6d41;&#x7a0b;&#x5c0f;&#x7ed3;" ID="ID_1025121244" CREATED="1398395837369" MODIFIED="1398403297549"><richcontent TYPE="NOTE">
+<node TEXT="&#x9762;&#x8bd5;&#x6d41;&#x7a0b;&#x5c0f;&#x7ed3;" FOLDED="true" ID="ID_1025121244" CREATED="1398395837369" MODIFIED="1398403297549"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -931,8 +935,8 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
-<node TEXT="&#x7d2b;&#x91d1;&#x5c71;&#x767b;&#x5c71;&#x8def;&#x7ebf;" ID="ID_463031084" CREATED="1322119884287" MODIFIED="1325333872599" HGAP="18" VSHIFT="-10"><richcontent TYPE="NOTE">
+<node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" FOLDED="true" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
+<node TEXT="&#x7d2b;&#x91d1;&#x5c71;&#x767b;&#x5c71;&#x8def;&#x7ebf;" FOLDED="true" ID="ID_463031084" CREATED="1322119884287" MODIFIED="1325333872599" HGAP_QUANTITY="18.0 px" VSHIFT_QUANTITY="-10.0 px"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -973,7 +977,7 @@
 <hook URI="&#x7d2b;&#x91d1;&#x5c71;.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="RD/AR&#x7fbd;&#x6bdb;&#x7403;&#x6d3b;&#x52a8;" ID="ID_195693738" CREATED="1323831899624" MODIFIED="1323831910260">
+<node TEXT="RD/AR&#x7fbd;&#x6bdb;&#x7403;&#x6d3b;&#x52a8;" FOLDED="true" ID="ID_195693738" CREATED="1323831899624" MODIFIED="1323831910260">
 <node TEXT="&#x540c;&#x66e6;&#x4f53;&#x80b2;&#x9986;&#x7535;&#x8bdd;" ID="ID_559339176" CREATED="1323831915661" MODIFIED="1384911450080"><richcontent TYPE="NOTE">
 
 <html>
@@ -991,8 +995,8 @@
 <node TEXT="&#x7fbd;&#x6bdb;&#x7403;&#x6d88;&#x8d39;&#x8bb0;&#x5f55;" ID="ID_1279062235" CREATED="1323831940078" MODIFIED="1397458117774" LINK="file:/G:/Group_RD/09_WRBS3000_MPSW/5%20RD_AR/02_W%20BP/04_Teambuilding"/>
 </node>
 </node>
-<node TEXT="&#x5de5;&#x5177;" POSITION="left" ID="ID_1174870052" CREATED="1323738234553" MODIFIED="1323738236581">
-<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
+<node TEXT="&#x5de5;&#x5177;" FOLDED="true" POSITION="left" ID="ID_1174870052" CREATED="1323738234553" MODIFIED="1323738236581">
+<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" FOLDED="true" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1005,7 +1009,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Mark&#x63d2;&#x4ef6;" ID="ID_111719412" CREATED="1323738271319" MODIFIED="1323738347194" LINK="http://www.vim.org/scripts/script.php?script_id=1238"><richcontent TYPE="NOTE">
+<node TEXT="Mark&#x63d2;&#x4ef6;" FOLDED="true" ID="ID_111719412" CREATED="1323738271319" MODIFIED="1323738347194" LINK="http://www.vim.org/scripts/script.php?script_id=1238"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1018,7 +1022,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x6cd5;" ID="ID_490275511" CREATED="1323738353748" MODIFIED="1400251542457"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x6cd5;" FOLDED="true" ID="ID_490275511" CREATED="1323738353748" MODIFIED="1400251542457"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1279,7 +1283,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="FreePlane" ID="ID_1345857265" CREATED="1323929519014" MODIFIED="1384824371054"><richcontent TYPE="NOTE">
+<node TEXT="FreePlane" FOLDED="true" ID="ID_1345857265" CREATED="1323929519014" MODIFIED="1384824371054"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1292,7 +1296,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8bbe;&#x7f6e;" ID="ID_1206999092" CREATED="1323929567925" MODIFIED="1323929569682">
+<node TEXT="&#x8bbe;&#x7f6e;" FOLDED="true" ID="ID_1206999092" CREATED="1323929567925" MODIFIED="1323929569682">
 <node TEXT="&#x8bbe;&#x7f6e;&#x5916;&#x90e8;&#x94fe;&#x63a5;&#x662f;&#x76f8;&#x5bf9;&#x8def;&#x7ecf;&#x8fd8;&#x662f;&#x7edd;&#x5bf9;&#x8def;&#x7ecf;" ID="ID_579572910" CREATED="1323929570886" MODIFIED="1323929751687"><richcontent TYPE="NOTE">
 
 <html>
@@ -1350,7 +1354,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x4fdd;&#x62a4;&#x773c;&#x775b;&#x7684;&#x7535;&#x8111;&#x8bbe;&#x7f6e;" ID="ID_1031005735" CREATED="1385950543098" MODIFIED="1385950617220"><richcontent TYPE="NOTE">
+<node TEXT="&#x4fdd;&#x62a4;&#x773c;&#x775b;&#x7684;&#x7535;&#x8111;&#x8bbe;&#x7f6e;" FOLDED="true" ID="ID_1031005735" CREATED="1385950543098" MODIFIED="1385950617220"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1388,7 +1392,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Firefox&#x76f8;&#x5173;" ID="ID_68803354" CREATED="1397369596577" MODIFIED="1397369603989">
+<node TEXT="Firefox&#x76f8;&#x5173;" FOLDED="true" ID="ID_68803354" CREATED="1397369596577" MODIFIED="1397369603989">
 <node TEXT="Firefox Sync Recovery Key" ID="ID_1016886604" CREATED="1386214232889" MODIFIED="1395904066605"><richcontent TYPE="NOTE">
 
 <html>
@@ -1425,7 +1429,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Outlook2000&#x914d;&#x7f6e;RSS" ID="ID_556044931" CREATED="1397458123097" MODIFIED="1397459339787" LINK="../OneNote/Outlook2010&#x8ba2;&#x9605;RSS&#x6e90;.one"><richcontent TYPE="NOTE">
+<node TEXT="Outlook2000&#x914d;&#x7f6e;RSS" FOLDED="true" ID="ID_556044931" CREATED="1397458123097" MODIFIED="1397459339787" LINK="../OneNote/Outlook2010&#x8ba2;&#x9605;RSS&#x6e90;.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1468,7 +1472,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x8d2d;&#x4e70;&#x516c;&#x53f8;&#x80a1;&#x7968;&#x76f8;&#x5173;&#x77e5;&#x8bc6;" ID="ID_1682478107" CREATED="1398757638971" MODIFIED="1398759487213"><richcontent TYPE="NOTE">
+<node TEXT="&#x8d2d;&#x4e70;&#x516c;&#x53f8;&#x80a1;&#x7968;&#x76f8;&#x5173;&#x77e5;&#x8bc6;" FOLDED="true" ID="ID_1682478107" CREATED="1398757638971" MODIFIED="1398759487213"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1653,7 +1657,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -1,7 +1,7 @@
-<map version="freeplane 1.5.9">
+<map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1501205018278"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false;"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -82,12 +82,558 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<node TEXT="Intel&#xae; 64 and IA-32 Architectures Software Developer&apos;s Manual" POSITION="left" ID="ID_1634058927" CREATED="1382555128815" MODIFIED="1382559152095">
+<edge COLOR="#00ffff"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Intel&#23448;&#32593;&#19978;&#19979;&#36733;&#19979;&#26469;&#30340;X86&#32467;&#26500;&#31995;&#32479;&#30340;&#24320;&#21457;&#25991;&#26723;.
+    </p>
+    <p>
+      &#20027;&#35201;&#26159;&#24819;&#19979;&#36733;&#20854;&#25351;&#20196;&#38598;&#30340;,&#20294;&#26159;&#21516;&#26102;&#21448;&#26377;Volume1&#21644;Volume3,&#25152;&#20197;&#23601;&#19968;&#36215;&#19979;&#36733;&#19979;&#26469;&#20102;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Volume 1: Basic Architecture" ID="ID_1970506510" CREATED="1382555141750" MODIFIED="1382555347067" LINK="../MiscDocuments/64-ia-32-architectures-software-developer-vol-1-manual.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://blog.proudj.com/?attachment_id=1167
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Volume 2: Instruction Set Reference" ID="ID_1478363229" CREATED="1382555195080" MODIFIED="1393244014393" LINK="../MiscDocuments/64-ia-32-architectures-software-developer-vol-2-manual.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://blog.proudj.com/?attachment_id=1168
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Volume 3: System Programming Guide" ID="ID_401935852" CREATED="1382555224720" MODIFIED="1382555390794" LINK="../MiscDocuments/64-ia-32-architectures-software-developer-vol-3-manual.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://blog.proudj.com/?attachment_id=1169
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1382222171903">
+<edge COLOR="#00ff00"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#38405;&#35835;Understanding the Linux Kernel,3rd edition&#30340;&#26102;&#20505;&#65292;&#21457;&#29616;&#20070;&#20013;&#26159;&#29992;&#30340;X86&#30340;&#26550;&#26500;&#20316;&#20026;&#20363;&#23376;&#35762;&#35299;Linux Kernel&#30340;&#12290;
+    </p>
+    <p>
+      &#23545;&#20110;CISC&#26550;&#26500;&#30340;X86&#65292;&#20854;&#23454;&#25105;&#19981;&#26159;&#24456;&#29087;&#65292;&#25152;&#20197;&#26377;&#24517;&#35201;&#24694;&#34917;&#19968;&#19979;&#36825;&#26041;&#38754;&#30340;&#30693;&#35782;&#65292;&#36825;&#20010;node&#26242;&#26102;&#23601;&#26159;&#20316;&#20026;&#19968;&#20010;X86&#27719;&#32534;&#30693;&#35782;&#30340;&#19968;&#20010;&#24635;&#32467;&#12290;&#20027;&#35201;&#30340;&#30693;&#35782;&#26469;&#28304;&#36824;&#26159;&#32593;&#19978;&#30340;&#36164;&#26009;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#30340;&#32593;&#19978;&#20869;&#23481;&#38142;&#25509;:
+    </p>
+    <p>
+      <font color="#0000ff">http://www.cs.virginia.edu/~evans/cs216/guides/x86.html </font>
+    </p>
+    <p>
+      <font color="#0000ff">http://blog.proudj.com/?attachment_id=1163 </font>
+    </p>
+    <p>
+      <font color="#0000ff">http://blog.proudj.com/?attachment_id=1164</font>
+    </p>
+    <p>
+      <font color="#0000ff">http://heather.cs.ucdavis.edu/~matloff/50/LinuxAssembly.html </font>
+    </p>
+    <p>
+      <font color="#0000ff">http://staff.ustc.edu.cn/~xlanchen/cailiao/x86%20Assembly%20Programming.htm</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26377;&#20960;&#20010;&#38142;&#25509;&#36824;&#27809;&#26377;&#26469;&#24471;&#21450;&#30475;,&#20294;&#26159;&#24863;&#35273;&#24212;&#35813;&#20063;&#26159;&#24456;&#22909;&#30340;&#25991;&#26723;:
+    </p>
+    <p>
+      http://asm.sourceforge.net/articles/linasm.html
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="X86&#x67b6;&#x6784;&#x7684;&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;" ID="ID_1755621105" CREATED="1381899014323" MODIFIED="1382732944031">
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      X86&#26550;&#26500;&#30340;&#36890;&#29992;&#23492;&#23384;&#22120;&#21482;&#26377;8&#20010;&#65292;&#22914;&#19979;&#22270;&#25152;&#31034;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <a href="../MiscDocuments/X86_1381899145574.png"><img width="378" height="285" src="../MiscDocuments/X86_1381899145574.png"/>
+    </a>
+
+    <p>
+      &#39318;&#20808;X86&#30340;&#26550;&#26500;&#20013;&#23492;&#23384;&#22120;&#30340;&#19968;&#20010;&#29305;&#24615;&#26159;&#65292;X86&#30340;&#23492;&#23384;&#22120;&#26159;32&#20301;&#30340;&#65292;&#19968;&#33324;&#25105;&#20204;&#23601;&#26159;&#36827;&#34892;32bit&#23384;&#21462;&#65292; &#20294;&#26159;&#65292;&#23545;&#20110;EAX/EBX/ECX/EDX&#36825;&#20960;&#20010;&#23492;&#23384;&#22120;&#26469;&#35828;&#65292;&#25105;&#20204;&#21487;&#20197;&#25353;&#29031;&#38656;&#27714;&#36827;&#34892;8bit&#23384;&#21462;&#65292;16bit&#23384;&#21462;&#12290; &#20174;&#32780;&#20063;&#23601;&#34893;&#29983;&#20986;&#26469;&#19968;&#20123;&#8220;&#34394;&#25311;&#8221;&#30340;&#23492;&#23384;&#22120;&#65292;&#27604;&#22914;&#19978;&#22270;&#25152;&#31034;&#30340;AX,AH,AL.AX&#23601;&#26159;EAX&#23492;&#23384;&#22120;&#30340;&#39640;16bit&#65292;&#22312;&#27719;&#32534;&#20195;&#30721;&#20013;&#21487;&#20197;&#30452;&#25509;&#23558;AX&#20316;&#20026;&#19968;&#20010;16bit&#30340;&#23492;&#23384;&#22120;&#26469;&#36827;&#34892;&#35835;&#20889;&#65292;&#21516;&#26679;&#30340;AH&#20195;&#34920;&#20102;&#19968;&#20010;8bit&#30340;&#23492;&#23384;&#22120;&#65292;&#21516;&#26679;&#22312;&#27719;&#32534;&#20195;&#30721;&#20013;&#21487;&#20197;&#20351;&#29992;&#36825;&#20010;&#8221;&#34394;&#25311;&#30340;&#8220;&#23492;&#23384;&#22120;&#26469;&#36827;&#34892;8bit&#30340;&#35835;&#20889;&#25805;&#20316;&#12290; &#19978;&#38754;&#30340;&#23492;&#23384;&#22120;&#22270;&#20013;&#65292;EAX,EBX,ECX&#21644;EDX&#36825;&#22235;&#20010;&#23492;&#23384;&#22120;&#30340;&#29992;&#36884;&#26159;&#36890;&#29992;&#30340;&#65292;&#21487;&#20197;&#29992;&#20182;&#20204;&#26469;&#23384;&#25918;&#20219;&#20309;&#20449;&#24687;&#12290; ESI,EDI,ESP&#21644;EBP&#36825;&#22235;&#20010;&#23492;&#23384;&#22120;&#26377;&#20854;&#21508;&#33258;&#30340;&#29992;&#36884;: 1,ESI:&#36825;&#20010;&#23492;&#23384;&#22120;&#30340;&#20316;&#29992;&#36824;&#19981;&#26159;&#24456;&#28165;&#26970;&#65288;&#65311;&#65289; 2,EDI:&#21516;&#19978;&#65288;&#65311;&#65289; 3,ESP:&#36825;&#20010;&#23492;&#23384;&#22120;&#29992;&#26469;&#23384;&#25918;&#24403;&#21069;&#26632;&#39030;&#25351;&#38024; 4,EBP:&#36825;&#20010;&#23492;&#23384;&#22120;&#29992;&#26469;&#23384;&#25918;&#20294;&#21069;&#26632;&#24213;&#25351;&#38024;&#65292;&#20043;&#25152;&#20197;&#38656;&#35201;&#36825;&#20040;&#19968;&#20010;&quot;&#26632;&#24213;&quot;&#26159;&#22240;&#20026;&#22312;&#20989;&#25968;&#35843;&#29992;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#20004;&#20010;&#25351;&#38024;&#26469;&#30830;&#23450;&#34987;&#35843;&#29992;&#20989;&#25968;&#30340;&#26632;&#30340;&#33539;&#22260;(&#36215;&#22987;&#22320;&#22336;&#21644;&#26368;&#26032;&#22320;&#22336;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="AT&amp;T&#x8bed;&#x6cd5;&#x57fa;&#x672c;&#x683c;&#x5f0f;(Linux&#x7f16;&#x8bd1;&#x5668;&#x4f7f;&#x7528;&#x7684;&#x683c;&#x5f0f;)" ID="ID_299941890" CREATED="1381948961954" MODIFIED="1381953154264"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff">&#25805;&#20316;&#25968;&#26041;&#21521;&#65306;</font>
+    </p>
+    <p>
+      AT&amp;T&#26684;&#24335;&#30340;&#27719;&#32534;&#35821;&#21477;&#30340;&#25805;&#20316;&#26041;&#21521;&#26159;&#20174;&#24038;&#21521;&#21491;&#30340;&#65292;&#20063;&#23601;&#26159;&#35828;&#27604;&#22914;&#35828;&#25351;&#20196; movl $1000 %eax&#65292;
+    </p>
+    <p>
+      &#36825;&#26159;&#35828;&#30340;&#23558;&#30452;&#25509;&#25968;1000&#65292;&#20648;&#23384;&#21040;&#23492;&#23384;&#22120;eax&#20013;.
+    </p>
+    <p>
+      &#21516;&#26679;&#30340;&#65292;&#21629;&#20196;subl $100 %eax&#34920;&#31034;&#30340;&#24847;&#24605;&#20063;&#26159;&#23558;eax&#23492;&#23384;&#22120;&#20013;&#30340;&#20540;&#20943;&#21435;100&#65292;&#24471;&#21040;&#30340;&#26032;&#20540;&#20173;&#28982;&#23384;&#20648;&#21040;&#23492;&#23384;&#22120;eax&#20013;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#0000ff">&#20027;&#35201;&#23547;&#22336;&#26041;&#24335;:</font>
+    </p>
+    <p>
+      $1000&#34920;&#31034;&#30452;&#25509;&#25968;1000&#65292;
+    </p>
+    <p>
+      %eab&#34920;&#31034;&#23492;&#23384;&#22120;eab&#20013;&#30340;&#20540;
+    </p>
+    <p>
+      (%eab)&#34920;&#31034;&#22320;&#22336;&#20026;%eab&#30340;&#20869;&#23384;&#20013;&#30340;&#20540;&#12290;
+    </p>
+    <p>
+      &#26356;&#22810;&#30340;&#23547;&#22336;&#26041;&#24335;&#21442;&#32771;&#38468;&#21152;node&quot;&#32593;&#32476;&#23569;&#30340;&#20171;&#32461;&#25688;&#36873;&quot;&#20013;&#30340;&#20869;&#23481;&#65292;&#37027;&#20010;&#37324;&#38754;&#31639;&#26159;&#27604;&#36739;&#20840;&#30340;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x4ecb;&#x7ecd;&#x6458;&#x9009;" ID="ID_724654088" CREATED="1381952729903" MODIFIED="1381953097534"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Instruction: <b>opcode[b+w+l] src, dest</b>
+      </li>
+      <li>
+        Register: <b>%reg</b>
+      </li>
+      <li>
+        Memory operand size: <b>[b+w+l]</b>&#160;for byte, word, longword - 8, 16, 32 bits
+      </li>
+      <li>
+        Memory references:<b>&#160;<font color="#ff0000"><tt>section</tt>:<tt>disp</tt>(<tt>base</tt>, <tt>index</tt>, <tt>scale</tt>) </font></b>where <i>base</i>&#160;and <i>index</i>&#160;are optional 32-bit base and index registers, <i>disp</i>&#160;is the optional displacement, and <i>scale</i>, taking the values 1, 2, 4, and 8, multiplies <i>index</i>&#160;to calculate the address of the operand.&#160;&#160;-- address is relative to section and is calculated by the expression:<font color="#ff0000"><b>&#160;base + index*scale + disp</b></font>
+      </li>
+      <li>
+        Constants (immediate operands)
+
+        <ul>
+          <li>
+            74 - decimal
+          </li>
+          <li>
+            0112 - binary
+          </li>
+          <li>
+            0x4A - hexadecimal
+          </li>
+          <li>
+            0f-395.667e-36 - floating point
+          </li>
+          <li>
+            'J - character
+          </li>
+          <li>
+            &quot;string&quot; - string
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h3>
+      Operand Addressing
+    </h3>
+    <ul>
+      <li>
+        Code: CS + IP (Code segment + Offset)
+      </li>
+      <li>
+        Stack: SS + SP (Stack segment + Offset (stack top))
+      </li>
+      <li>
+        Immediate Operand: <font size="4" color="#ff0000"><b>$<i>constant_expression</i></b></font>
+      </li>
+      <li>
+        Register Operand: <font size="4" color="#ff0000"><b>%<i>register_name</i></b></font>
+      </li>
+      <li>
+        Memory Operand: <font size="4" color="#ff0000"><b><tt>section</tt>:<tt>displacement</tt>(<tt>base</tt>, <tt>index</tt>,&#160; <tt>scale</tt>)</b></font><b>&#160;</b>&#160;The section register is often selected by default. cs for code, ss for stack instructions, ds for data references, es for strings.<br/>&#160;
+
+        <center>
+          <table border="1" nosave="">
+            <tr>
+              <td>
+                Base
+              </td>
+              <td>
+                +(
+              </td>
+              <td>
+                Index
+              </td>
+              <td>
+                *
+              </td>
+              <td>
+                Scale
+              </td>
+              <td>
+                )+
+              </td>
+              <td>
+                Displacement
+              </td>
+            </tr>
+            <tr>
+              <td>
+                eax&#160;<br/>ebx&#160;<br/>ecx&#160;<br/>edx&#160;<br/>esp&#160;<br/>ebp&#160;<br/>esi&#160;<br/>edi
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                eax&#160;<br/>ebx&#160;<br/>ecx&#160;<br/>edx&#160;<br/>ebp&#160;<br/>esi&#160;<br/>edi
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                1&#160;<br/>2&#160;<br/>3&#160;<br/>4
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                Name&#160;<br/>Number
+              </td>
+            </tr>
+          </table>
+        </center>
+        &#160;
+
+        <ul>
+          <li>
+            <b>Direct </b>Operand: displacement (often just the symbolic name for a memory location)
+          </li>
+          <li>
+            <b>Indirect</b>&#160;Operand: <font color="#ff0000" size="4"><b>(base)</b></font>
+          </li>
+          <li>
+            <b>Base+displacement</b>: <font color="#ff0000" size="4"><b>displacement(base)</b></font>
+
+            <ul>
+              <li>
+                index into an array
+              </li>
+              <li>
+                access a field of a record
+              </li>
+            </ul>
+          </li>
+          <li>
+            <b>(index*scale)+displacement</b>: <font color="#ff0000" size="4"><b>displacement(,index,scale)</b></font>
+
+            <ul>
+              <li>
+                index into an array
+              </li>
+            </ul>
+          </li>
+          <li>
+            B<b>ase + index&#160;&#160;+ displacement</b>: <font color="#ff0000" size="4"><b>displacement(base,index)</b></font>
+
+            <ul>
+              <li>
+                two dimensional array
+              </li>
+              <li>
+                one dimensional array of records
+              </li>
+            </ul>
+          </li>
+          <li>
+            <b>Base+(index*scale)+ displacement</b>: <font color="#ff0000" size="4"><b>displacement(base, index,scale)</b></font>
+
+            <ul>
+              <li>
+                two dimensional array
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="X86&#x7684;&#x4f53;&#x7cfb;&#x67b6;&#x6784;(&#x81ea;&#x8eab;&#x7279;&#x70b9;&#x4ee5;&#x53ca;&#x4e0e;RISC&#x7684;&#x4e0d;&#x540c;)" ID="ID_1268523209" CREATED="1381903246008" MODIFIED="1381903274589"/>
+<node TEXT="C&#x8bed;&#x8a00;&#x4e2d;&#x51fd;&#x6570;&#x8c03;&#x7528;&#x65f6;&#x7684;&#x5806;&#x6808;&#x7684;&#x53d8;&#x5316;" ID="ID_1927046336" CREATED="1381903865090" MODIFIED="1381904737433"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2" color="#0000ff">&#19968;&#30452;&#20197;&#26469;&#65292;&#23545;&#20989;&#25968;&#35843;&#29992;&#21644;&#36820;&#22238;&#26102;&#30340;&#21387;&#26632;&#36864;&#26632;&#30340;&#35268;&#21017;&#19981;&#26159;&#24456;&#20102;&#35299;&#65292;&#34429;&#28982;&#30693;&#36947;&#26377;&#19968;&#37096;&#20998;&#23492;&#23384;&#22120;&#26159;call&#35201;&#20445;&#23384;&#30340;&#65292;&#19968;&#37096;&#20998;&#23492;&#23384;&#22120;&#26159;callee&#35201;&#20445;&#23384;&#30340;&#65292;&#20294;&#26159;&#20855;&#20307;&#30340;&#35268;&#21017;&#19981;&#26159;&#24456;&#20102;&#35299;&#12290; &#19979;&#38754;&#30340;&#36825;&#20010;&#20171;&#32461;&#24456;&#28165;&#26224;&#30340;&#20171;&#32461;&#20102;&#22312;X86&#26550;&#26500;&#19978;&#65292;&#20989;&#25968;&#35843;&#29992;&#21457;&#29983;&#21644;&#36820;&#22238;&#26102;&#65292;&#22534;&#26632;&#26159;&#22914;&#20309;&#21464;&#21270;&#30340;&#65292;&#25105;&#35273;&#24471;&#20889;&#30340;&#24456;&#22909;&#65306; </font>
+    </p>
+    <p>
+      <font size="2">(&#28304;&#38142;&#25509;&#22914;&#19979;&#65306;http://www.cs.virginia.edu/~evans/cs216/guides/x86.html) </font>
+    </p>
+    <p>
+      <font size="2">&#160;</font>
+    </p>
+    <h2>
+      Calling Convention
+    </h2>
+    To allow separate programmers to share code and develop libraries for use by many programs, and to simplify the use of subroutines in general, programmers typically adopt a common <em>calling convention</em>. The calling convention is a protocol about how to call and return from routines. For example, given a set of calling convention rules, a programmer need not examine the definition of a subroutine to determine how parameters should be passed to that subroutine. Furthermore, given a set of calling convention rules, high-level language compilers can be made to follow the rules, thus allowing hand-coded assembly language routines and high-level language routines to call one another.
+
+    <p>
+      
+    </p>
+    In practice, many calling conventions are possible. We will use the widely used C language calling convention. Following this convention will allow you to write assembly language subroutines that are safely callable from C (and C++) code, and will also enable you to call C library functions from your assembly language code.
+
+    <p>
+      
+    </p>
+    The C calling convention is based heavily on the use of the hardware-supported stack. It is based on the push, pop, call, and ret&#160;instructions. Subroutine parameters are passed on the stack. Registers are saved on the stack, and local variables used by subroutines are placed in memory on the stack. The vast majority of high-level procedural languages implemented on most processors have used similar calling conventions.
+
+    <p>
+      
+    </p>
+    The calling convention is broken into two sets of rules. The first set of rules is employed by the caller of the subroutine, and the second set of rules is observed by the writer of the subroutine (the callee). It should be emphasized that mistakes in the observance of these rules quickly result in fatal program errors since the stack will be left in an inconsistent state; thus meticulous care should be used when implementing the call convention in your own subroutines.
+
+    <p class="page">
+      
+    </p>
+    <center>
+      <a href="http://www.cs.virginia.edu/%7Eevans/cs216/guides/stack-convention.png"><img src="http://www.cs.virginia.edu/%7Eevans/cs216/guides/stack-convention.png"/>
+      &gt;</a><br/><b>Stack during Subroutine Call</b><br/><font size="-1" color="blue">[Thanks to James Peterson for finding and fixing the bug in the original version of this figure!]</font>
+    </center>
+    <p>
+      A good way to visualize the operation of the calling convention is to draw the contents of the nearby region of the stack during subroutine execution. The image above depicts the contents of the stack during the execution of a subroutine with three parameters and three local variables. The cells depicted in the stack are 32-bit wide memory locations, thus the memory addresses of the cells are 4 bytes apart. The first parameter resides at an offset of 8 bytes from the base pointer. Above the parameters on the stack (and below the base pointer), the call&#160;&#160;instruction placed the return address, thus leading to an extra 4 bytes of offset from the base pointer to the first parameter. When the ret&#160;&#160;instruction is used to return from the subroutine, it will jump to the return address stored on the stack.
+    </p>
+    <h4>
+      Caller Rules
+    </h4>
+    To make a subrouting call, the caller should:
+
+    <ol>
+      <li>
+        <font color="#0000ff">Before calling a subroutine, the caller should save the contents of certain registers that are designated <em>caller-saved</em>. The caller-saved registers are EAX, ECX, EDX. Since the called subroutine is allowed to modify these registers, if the caller relies on their values after the subroutine returns, the caller must push the values in these registers onto the stack (so they can be restore after the subroutine returns. </font>
+      </li>
+      <li>
+        <font color="#0000ff">To pass parameters to the subroutine, push them onto the stack before the call. The parameters should be pushed in inverted order (i.e. last parameter first). Since the stack grows down, the first parameter will be stored at the lowest address (this inversion of parameters was historically used to allow functions to be passed a variable number of parameters). </font>
+      </li>
+      <li>
+        <font color="#0000ff">To call the subroutine, use the call&#160;instruction. This instruction places the return address on top of the parameters on the stack, and branches to the subroutine code. This invokes the subroutine, which should follow the callee rules below. </font>
+      </li>
+    </ol>
+    <font color="#0000ff">After the subroutine returns (immediately following the call&#160; instruction), the caller can expect to find the return value of the subroutine in the register EAX. To restore the machine state, the caller should: </font>
+
+    <ol>
+      <li>
+        <font color="#0000ff">Remove the parameters from stack. This restores the stack to its state before the call was performed. </font>
+      </li>
+      <li>
+        <font color="#0000ff">Restore the contents of caller-saved registers (EAX, ECX, EDX) by popping them off of the stack. The caller can assume that no other registers were modified by the subroutine.</font>
+      </li>
+    </ol>
+    <b>Example</b><br/>The code below shows a function call that follows the caller rules. The caller is calling a function <em>_myFunc</em>&#160;that takes three integer parameters. First parameter is in EAX, the second parameter is the constant 216; the third parameter is in memory location <em>var</em>.
+
+    <blockquote>
+      <pre>push [var] ; Push last parameter first
+push 216   ; Push the second parameter
+push eax   ; Push first parameter last
+
+call _myFunc ; Call the function (assume C naming)
+
+add esp, 12</pre>
+    </blockquote>
+    Note that after the call returns, the caller cleans up the stack using the add&#160;&#160;instruction. We have 12 bytes (3 parameters * 4 bytes each) on the stack, and the stack grows down. Thus, to get rid of the parameters, we can simply add 12 to the stack pointer.
+
+    <p>
+      The result produced by <em>_myFunc</em>&#160;is now available for use in the register EAX. The values of the caller-saved registers (ECX and EDX), may have been changed. If the caller uses them after the call, it would have needed to save them on the stack before the call and restore them after it.
+    </p>
+    <h4>
+      Callee Rules
+    </h4>
+    The definition of the subroutine should adhere to the following rules at the beginning of the subroutine:
+
+    <ol>
+      <li>
+        <font color="#0000ff">Push the value of EBP onto the stack, and then copy the value of ESP into EBP using the following instructions: </font>
+
+        <pre><font color="#0000ff">    push ebp
+    mov  ebp, esp</font></pre>
+        <font color="#0000ff">This initial action maintains the <em>base pointer</em>, EBP. The base pointer is used by convention as a point of reference for finding parameters and local variables on the stack. When a subroutine is executing, the base pointer holds a copy of the stack pointer value from when the subroutine started executing. Parameters and local variables will always be located at known, constant offsets away from the base pointer value. We push the old base pointer value at the beginning of the subroutine so that we can later restore the appropriate base pointer value for the caller when the subroutine returns. Remember, the caller is not expecting the subroutine to change the value of the base pointer. We then move the stack pointer into EBP to obtain our point of reference for accessing parameters and local variables. </font>
+      </li>
+      <li>
+        <font color="#0000ff">Next, allocate local variables by making space on the stack. Recall, the stack grows down, so to make space on the top of the stack, the stack pointer should be decremented. The amount by which the stack pointer is decremented depends on the number and size of local variables needed. For example, if 3 local integers (4 bytes each) were required, the stack pointer would need to be decremented by 12 to make space for these local variables (i.e., sub&#160;esp,&#160;12). As with parameters, local variables will be located at known offsets from the base pointer. </font>
+
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <font color="#0000ff">Next, save the values of the <em>callee-saved</em>&#160;registers that will be used by the function must be saved. To save registers, push them onto the stack. The callee-saved registers are EBX, EDI, and ESI (ESP and EBP will also be preserved by the calling convention, but need not be pushed on the stack during this step).</font>
+      </li>
+    </ol>
+    After these three actions are performed, the body of the subroutine may proceed. When the subroutine is returns, it must follow these steps:
+
+    <ol>
+      <li>
+        Leave the return value in EAX.
+
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        Restore the old values of any callee-saved registers (EDI and ESI) that were modified. The register contents are restored by popping them from the stack. The registers should be popped in the inverse order that they were pushed.
+      </li>
+      <li>
+        Deallocate local variables. The obvious way to do this might be to add the appropriate value to the stack pointer (since the space was allocated by subtracting the needed amount from the stack pointer). In practice, a less error-prone way to deallocate the variables is to move the value in the base pointer into the stack pointer: mov&#160;esp,&#160;ebp. This works because the base pointer always contains the value that the stack pointer contained immediately prior to the allocation of the local variables.
+      </li>
+      <li>
+        Immediately before returning, restore the caller's base pointer value by popping EBP off the stack. Recall that the first thing we did on entry to the subroutine was to push the base pointer to save its old value.
+      </li>
+      <li>
+        Finally, return to the caller by executing a ret&#160;instruction. This instruction will find and remove the appropriate return address from the stack.
+      </li>
+    </ol>
+    Note that the callee's rules fall cleanly into two halves that are basically mirror images of one another. The first half of the rules apply to the beginning of the function, and are commonly said to define the <em>prologue</em>&#160;&#160;to the function. The latter half of the rules apply to the end of the function, and are thus commonly said to define the <em>epilogue</em>&#160;of the function.
+
+    <p>
+      
+    </p>
+    <b>Example</b><br/>Here is an example function definition that follows the callee rules:
+
+    <blockquote>
+      <pre>.486
+.MODEL FLAT
+.CODE
+PUBLIC _myFunc
+_myFunc PROC
+  ; Subroutine Prologue
+  push ebp     ; Save the old base pointer value.
+  mov ebp, esp ; Set the new base pointer value.
+  sub esp, 4   ; Make room for one 4-byte local variable.
+  push edi     ; Save the values of registers that the function
+  push esi     ; will modify. This function uses EDI and ESI.
+  ; (no need to save EBX, EBP, or ESP)
+
+  ; Subroutine Body
+  mov eax, [ebp+8]   ; Move value of parameter 1 into EAX
+  mov esi, [ebp+12]  ; Move value of parameter 2 into ESI
+  mov edi, [ebp+16]  ; Move value of parameter 3 into EDI
+
+  mov [ebp-4], edi   ; Move EDI into the local variable
+  add [ebp-4], esi   ; Add ESI into the local variable
+  add eax, [ebp-4]   ; Add the contents of the local variable
+                     ; into EAX (final result)
+
+  ; Subroutine Epilogue 
+  pop esi      ; Recover register values
+  pop  edi
+  mov esp, ebp ; Deallocate local variables
+  pop ebp ; Restore the caller's base pointer value
+  ret
+_myFunc ENDP
+END</pre>
+    </blockquote>
+    The subroutine prologue performs the standard actions of saving a snapshot of the stack pointer in EBP (the base pointer), allocating local variables by decrementing the stack pointer, and saving register values on the stack.
+
+    <p>
+      In the body of the subroutine we can see the use of the base pointer. Both parameters and local variables are located at constant offsets from the base pointer for the duration of the subroutines execution. In particular, we notice that since parameters were placed onto the stack before the subroutine was called, they are always located below the base pointer (i.e. at higher addresses) on the stack. The first parameter to the subroutine can always be found at memory location [EBP+8], the second at [EBP+12], the third at [EBP+16]. Similarly, since local variables are allocated after the base pointer is set, they always reside above the base pointer (i.e. at lower addresses) on the stack. In particular, the first local variable is always located at [EBP-4], the second at [EBP-8], and so on. This conventional use of the base pointer allows us to quickly identify the use of local variables and parameters within a function body.
+    </p>
+    <p>
+      
+    </p>
+    The function epilogue is basically a mirror image of the function prologue. The caller's register values are recovered from the stack, the local variables are deallocated by resetting the stack pointer, the caller's base pointer value is recovered, and the ret instruction is used to return to the appropriate code location in the caller.
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="AT&amp;T&#x683c;&#x5f0f;&#x7684;&#x6c47;&#x7f16;&#x548c;Intel&#x683c;&#x5f0f;&#x6c47;&#x7f16;&#x683c;&#x5f0f;&#x7684;&#x533a;&#x522b;" ID="ID_1752025884" CREATED="1381948381710" MODIFIED="1381948419296"/>
+</node>
+<node TEXT="Linux Programming Unleashed" POSITION="right" ID="ID_673116851" CREATED="1470386060730" MODIFIED="1470386322848" LINK="../MiscDocuments/linux_programming_unleashed.pdf">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x7b2c;&#x56db;&#x7ae0;&#xff0c;&#x4f7f;&#x7528;Make" ID="ID_85635013" CREATED="1470387176587" MODIFIED="1470387192476"/>
+</node>
+<node TEXT="Machine_Learning(Andrew NG)" POSITION="right" ID="ID_1918982945" CREATED="1513143323182" MODIFIED="1513143355252">
+<edge COLOR="#808080"/>
+</node>
 <node TEXT="perl&#x8bed;&#x8a00;&#x5b66;&#x4e60;" FOLDED="true" POSITION="right" ID="ID_1132999439" CREATED="1304669378782" MODIFIED="1382733398119">
 <edge COLOR="#ff0000"/>
-<node TEXT="&#x756a;&#x5916;&#x7bc7;--&#x4e3b;&#x9898;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_1625848670" CREATED="1304849018449" MODIFIED="1318303357070">
-<node TEXT="&#x5404;&#x79cd;&#x73af;&#x5883;&#x4e0b;&#x7684;&quot;&#x5185;&#x63d2;&quot;--interpolate" FOLDED="true" ID="ID_1388200136" CREATED="1304849038710" MODIFIED="1318302437398"><richcontent TYPE="NOTE">
+<node TEXT="&#x756a;&#x5916;&#x7bc7;--&#x4e3b;&#x9898;&#x5185;&#x5bb9;" ID="ID_1625848670" CREATED="1304849018449" MODIFIED="1318303357070">
+<node TEXT="&#x5404;&#x79cd;&#x73af;&#x5883;&#x4e0b;&#x7684;&quot;&#x5185;&#x63d2;&quot;--interpolate" ID="ID_1388200136" CREATED="1304849038710" MODIFIED="1318302437398"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -122,7 +668,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x4e2d;" FOLDED="true" ID="ID_999501535" CREATED="1304849134135" MODIFIED="1304849138774">
+<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x4e2d;" ID="ID_999501535" CREATED="1304849134135" MODIFIED="1304849138774">
 <node TEXT="%hash&#x8fd9;&#x6837;&#x7684;&#x8868;&#x8fbe;&#x5f0f;&#x662f;&#x4e0d;&#x4f1a;&#x88ab;&#x5185;&#x63d2;&#x7684;." ID="ID_658559388" CREATED="1304849159726" MODIFIED="1382906456885" VSHIFT_QUANTITY="-4.0 px"><richcontent TYPE="NOTE">
 
 <html>
@@ -156,7 +702,7 @@
 </richcontent>
 </node>
 </node>
-<node FOLDED="true" ID="ID_444195328" CREATED="1318302061584" MODIFIED="1381242846099"><richcontent TYPE="NODE">
+<node ID="ID_444195328" CREATED="1318302061584" MODIFIED="1381242846099"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -216,7 +762,7 @@
 <node TEXT="&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x5143;&#x7d20;&#x53ef;&#x4ee5;&#x662f;&#x5404;&#x79cd;&#x7c7b;&#x578b;" ID="ID_592554589" CREATED="1318404712543" MODIFIED="1318404726045"/>
 </node>
 <node TEXT="perl&#x9ed8;&#x8ba4;&#x652f;&#x6301;&#x65b9;&#x4fbf;&#x5f3a;&#x5927;&#x7684;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;!!" ID="ID_361124103" CREATED="1318304648912" MODIFIED="1318473991812"/>
-<node TEXT="&#x600e;&#x4e48;&#x6709;&#x8fd9;&#x4e48;&#x591a;&#x602a;&#x5f02;&#x540d;&#x5b57;&#x83ab;&#x540d;&#x5176;&#x5999;&#x7684;perl&#x9ed8;&#x8ba4;&#x53d8;&#x91cf;?" FOLDED="true" ID="ID_262306392" CREATED="1318303977569" MODIFIED="1318304364901">
+<node TEXT="&#x600e;&#x4e48;&#x6709;&#x8fd9;&#x4e48;&#x591a;&#x602a;&#x5f02;&#x540d;&#x5b57;&#x83ab;&#x540d;&#x5176;&#x5999;&#x7684;perl&#x9ed8;&#x8ba4;&#x53d8;&#x91cf;?" ID="ID_262306392" CREATED="1318303977569" MODIFIED="1318304364901">
 <node TEXT="$_" ID="ID_1640510702" CREATED="1318304007440" MODIFIED="1318304015084"/>
 </node>
 <node TEXT="&#x8d4b;&#x503c;&#x8bed;&#x53e5;&#x5c45;&#x7136;&#x6709;&#x81ea;&#x7136;&#x8bed;&#x8a00;&#x4e2d;&#x624d;&#x6709;&#x7684;&quot;&#x8bed;&#x5883;/&#x4e0a;&#x4e0b;&#x6587;&quot;&#x6982;&#x5ff5;!!--context" ID="ID_1984685345" CREATED="1318302888204" MODIFIED="1318304456290"/>
@@ -3382,23 +3928,6 @@
 <node TEXT="perl&#x8bed;&#x8a00;&#x7f16;&#x7a0b;(&#x7b2c;&#x4e09;&#x7248;)" ID="ID_1948694476" CREATED="1318298709204" MODIFIED="1318298721969"/>
 </node>
 </node>
-<node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
-<edge COLOR="#ffff00"/>
-<node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1382732857520"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#28155;&#21152;inline picture
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
 <node TEXT="Pro Git" FOLDED="true" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
 <edge COLOR="#7c0000"/>
 <node TEXT="Ch2--Git Basics" ID="ID_1647110050" CREATED="1455436238940" MODIFIED="1455436400977" LINK="../OneNote/Git_Basic_operation.one"><richcontent TYPE="NOTE">
@@ -3415,10 +3944,6 @@
 </html>
 </richcontent>
 </node>
-</node>
-<node TEXT="Linux Programming Unleashed" FOLDED="true" POSITION="right" ID="ID_673116851" CREATED="1470386060730" MODIFIED="1470386322848" LINK="../MiscDocuments/linux_programming_unleashed.pdf">
-<edge COLOR="#00007c"/>
-<node TEXT="&#x7b2c;&#x56db;&#x7ae0;&#xff0c;&#x4f7f;&#x7528;Make" ID="ID_85635013" CREATED="1470387176587" MODIFIED="1470387192476"/>
 </node>
 <node TEXT="Understanding the Linux Kernel,3rd edition" FOLDED="true" POSITION="left" ID="ID_504465545" CREATED="1378975555231" MODIFIED="1395929729166" LINK="../pub/OReilly.Understanding.the.Linux.Kernel.3rd.Edition.Nov.2005.HAPPY.NEW.YEAR.chm">
 <edge COLOR="#0000ff"/>
@@ -4083,7 +4608,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="6.1.&#x65f6;&#x949f;&#x548c;&#x8ba1;&#x65f6;&#x5668;&#x7535;&#x8def;" FOLDED="true" ID="ID_1955482928" CREATED="1383168165338" MODIFIED="1388570416857"><richcontent TYPE="NOTE">
+<node TEXT="6.1.&#x65f6;&#x949f;&#x548c;&#x8ba1;&#x65f6;&#x5668;&#x7535;&#x8def;" ID="ID_1955482928" CREATED="1383168165338" MODIFIED="1388570416857"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4446,548 +4971,25 @@
 </node>
 </node>
 </node>
-<node TEXT="Intel&#xae; 64 and IA-32 Architectures Software Developer&apos;s Manual" FOLDED="true" POSITION="left" ID="ID_1634058927" CREATED="1382555128815" MODIFIED="1382559152095">
-<edge COLOR="#00ffff"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Intel&#23448;&#32593;&#19978;&#19979;&#36733;&#19979;&#26469;&#30340;X86&#32467;&#26500;&#31995;&#32479;&#30340;&#24320;&#21457;&#25991;&#26723;.
-    </p>
-    <p>
-      &#20027;&#35201;&#26159;&#24819;&#19979;&#36733;&#20854;&#25351;&#20196;&#38598;&#30340;,&#20294;&#26159;&#21516;&#26102;&#21448;&#26377;Volume1&#21644;Volume3,&#25152;&#20197;&#23601;&#19968;&#36215;&#19979;&#36733;&#19979;&#26469;&#20102;.
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Volume 1: Basic Architecture" ID="ID_1970506510" CREATED="1382555141750" MODIFIED="1382555347067" LINK="../MiscDocuments/64-ia-32-architectures-software-developer-vol-1-manual.pdf"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      http://blog.proudj.com/?attachment_id=1167
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Volume 2: Instruction Set Reference" ID="ID_1478363229" CREATED="1382555195080" MODIFIED="1393244014393" LINK="../MiscDocuments/64-ia-32-architectures-software-developer-vol-2-manual.pdf"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      http://blog.proudj.com/?attachment_id=1168
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Volume 3: System Programming Guide" ID="ID_401935852" CREATED="1382555224720" MODIFIED="1382555390794" LINK="../MiscDocuments/64-ia-32-architectures-software-developer-vol-3-manual.pdf"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      http://blog.proudj.com/?attachment_id=1169
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" FOLDED="true" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1382222171903">
-<edge COLOR="#00ff00"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#22312;&#38405;&#35835;Understanding the Linux Kernel,3rd edition&#30340;&#26102;&#20505;&#65292;&#21457;&#29616;&#20070;&#20013;&#26159;&#29992;&#30340;X86&#30340;&#26550;&#26500;&#20316;&#20026;&#20363;&#23376;&#35762;&#35299;Linux Kernel&#30340;&#12290;
-    </p>
-    <p>
-      &#23545;&#20110;CISC&#26550;&#26500;&#30340;X86&#65292;&#20854;&#23454;&#25105;&#19981;&#26159;&#24456;&#29087;&#65292;&#25152;&#20197;&#26377;&#24517;&#35201;&#24694;&#34917;&#19968;&#19979;&#36825;&#26041;&#38754;&#30340;&#30693;&#35782;&#65292;&#36825;&#20010;node&#26242;&#26102;&#23601;&#26159;&#20316;&#20026;&#19968;&#20010;X86&#27719;&#32534;&#30693;&#35782;&#30340;&#19968;&#20010;&#24635;&#32467;&#12290;&#20027;&#35201;&#30340;&#30693;&#35782;&#26469;&#28304;&#36824;&#26159;&#32593;&#19978;&#30340;&#36164;&#26009;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#21442;&#32771;&#30340;&#32593;&#19978;&#20869;&#23481;&#38142;&#25509;:
-    </p>
-    <p>
-      <font color="#0000ff">http://www.cs.virginia.edu/~evans/cs216/guides/x86.html </font>
-    </p>
-    <p>
-      <font color="#0000ff">http://blog.proudj.com/?attachment_id=1163 </font>
-    </p>
-    <p>
-      <font color="#0000ff">http://blog.proudj.com/?attachment_id=1164</font>
-    </p>
-    <p>
-      <font color="#0000ff">http://heather.cs.ucdavis.edu/~matloff/50/LinuxAssembly.html </font>
-    </p>
-    <p>
-      <font color="#0000ff">http://staff.ustc.edu.cn/~xlanchen/cailiao/x86%20Assembly%20Programming.htm</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#26377;&#20960;&#20010;&#38142;&#25509;&#36824;&#27809;&#26377;&#26469;&#24471;&#21450;&#30475;,&#20294;&#26159;&#24863;&#35273;&#24212;&#35813;&#20063;&#26159;&#24456;&#22909;&#30340;&#25991;&#26723;:
-    </p>
-    <p>
-      http://asm.sourceforge.net/articles/linasm.html
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="X86&#x67b6;&#x6784;&#x7684;&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;" ID="ID_1755621105" CREATED="1381899014323" MODIFIED="1382732944031">
-<icon BUILTIN="help"/>
-<icon BUILTIN="help"/>
-<icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      X86&#26550;&#26500;&#30340;&#36890;&#29992;&#23492;&#23384;&#22120;&#21482;&#26377;8&#20010;&#65292;&#22914;&#19979;&#22270;&#25152;&#31034;&#65306;
-    </p>
-    <p>
-      
-    </p>
-    <a href="../MiscDocuments/X86_1381899145574.png"><img width="378" height="285" src="../MiscDocuments/X86_1381899145574.png"/>
-    </a>
-
-    <p>
-      &#39318;&#20808;X86&#30340;&#26550;&#26500;&#20013;&#23492;&#23384;&#22120;&#30340;&#19968;&#20010;&#29305;&#24615;&#26159;&#65292;X86&#30340;&#23492;&#23384;&#22120;&#26159;32&#20301;&#30340;&#65292;&#19968;&#33324;&#25105;&#20204;&#23601;&#26159;&#36827;&#34892;32bit&#23384;&#21462;&#65292; &#20294;&#26159;&#65292;&#23545;&#20110;EAX/EBX/ECX/EDX&#36825;&#20960;&#20010;&#23492;&#23384;&#22120;&#26469;&#35828;&#65292;&#25105;&#20204;&#21487;&#20197;&#25353;&#29031;&#38656;&#27714;&#36827;&#34892;8bit&#23384;&#21462;&#65292;16bit&#23384;&#21462;&#12290; &#20174;&#32780;&#20063;&#23601;&#34893;&#29983;&#20986;&#26469;&#19968;&#20123;&#8220;&#34394;&#25311;&#8221;&#30340;&#23492;&#23384;&#22120;&#65292;&#27604;&#22914;&#19978;&#22270;&#25152;&#31034;&#30340;AX,AH,AL.AX&#23601;&#26159;EAX&#23492;&#23384;&#22120;&#30340;&#39640;16bit&#65292;&#22312;&#27719;&#32534;&#20195;&#30721;&#20013;&#21487;&#20197;&#30452;&#25509;&#23558;AX&#20316;&#20026;&#19968;&#20010;16bit&#30340;&#23492;&#23384;&#22120;&#26469;&#36827;&#34892;&#35835;&#20889;&#65292;&#21516;&#26679;&#30340;AH&#20195;&#34920;&#20102;&#19968;&#20010;8bit&#30340;&#23492;&#23384;&#22120;&#65292;&#21516;&#26679;&#22312;&#27719;&#32534;&#20195;&#30721;&#20013;&#21487;&#20197;&#20351;&#29992;&#36825;&#20010;&#8221;&#34394;&#25311;&#30340;&#8220;&#23492;&#23384;&#22120;&#26469;&#36827;&#34892;8bit&#30340;&#35835;&#20889;&#25805;&#20316;&#12290; &#19978;&#38754;&#30340;&#23492;&#23384;&#22120;&#22270;&#20013;&#65292;EAX,EBX,ECX&#21644;EDX&#36825;&#22235;&#20010;&#23492;&#23384;&#22120;&#30340;&#29992;&#36884;&#26159;&#36890;&#29992;&#30340;&#65292;&#21487;&#20197;&#29992;&#20182;&#20204;&#26469;&#23384;&#25918;&#20219;&#20309;&#20449;&#24687;&#12290; ESI,EDI,ESP&#21644;EBP&#36825;&#22235;&#20010;&#23492;&#23384;&#22120;&#26377;&#20854;&#21508;&#33258;&#30340;&#29992;&#36884;: 1,ESI:&#36825;&#20010;&#23492;&#23384;&#22120;&#30340;&#20316;&#29992;&#36824;&#19981;&#26159;&#24456;&#28165;&#26970;&#65288;&#65311;&#65289; 2,EDI:&#21516;&#19978;&#65288;&#65311;&#65289; 3,ESP:&#36825;&#20010;&#23492;&#23384;&#22120;&#29992;&#26469;&#23384;&#25918;&#24403;&#21069;&#26632;&#39030;&#25351;&#38024; 4,EBP:&#36825;&#20010;&#23492;&#23384;&#22120;&#29992;&#26469;&#23384;&#25918;&#20294;&#21069;&#26632;&#24213;&#25351;&#38024;&#65292;&#20043;&#25152;&#20197;&#38656;&#35201;&#36825;&#20040;&#19968;&#20010;&quot;&#26632;&#24213;&quot;&#26159;&#22240;&#20026;&#22312;&#20989;&#25968;&#35843;&#29992;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#20004;&#20010;&#25351;&#38024;&#26469;&#30830;&#23450;&#34987;&#35843;&#29992;&#20989;&#25968;&#30340;&#26632;&#30340;&#33539;&#22260;(&#36215;&#22987;&#22320;&#22336;&#21644;&#26368;&#26032;&#22320;&#22336;)
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="AT&amp;T&#x8bed;&#x6cd5;&#x57fa;&#x672c;&#x683c;&#x5f0f;(Linux&#x7f16;&#x8bd1;&#x5668;&#x4f7f;&#x7528;&#x7684;&#x683c;&#x5f0f;)" FOLDED="true" ID="ID_299941890" CREATED="1381948961954" MODIFIED="1381953154264"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" color="#0000ff">&#25805;&#20316;&#25968;&#26041;&#21521;&#65306;</font>
-    </p>
-    <p>
-      AT&amp;T&#26684;&#24335;&#30340;&#27719;&#32534;&#35821;&#21477;&#30340;&#25805;&#20316;&#26041;&#21521;&#26159;&#20174;&#24038;&#21521;&#21491;&#30340;&#65292;&#20063;&#23601;&#26159;&#35828;&#27604;&#22914;&#35828;&#25351;&#20196; movl $1000 %eax&#65292;
-    </p>
-    <p>
-      &#36825;&#26159;&#35828;&#30340;&#23558;&#30452;&#25509;&#25968;1000&#65292;&#20648;&#23384;&#21040;&#23492;&#23384;&#22120;eax&#20013;.
-    </p>
-    <p>
-      &#21516;&#26679;&#30340;&#65292;&#21629;&#20196;subl $100 %eax&#34920;&#31034;&#30340;&#24847;&#24605;&#20063;&#26159;&#23558;eax&#23492;&#23384;&#22120;&#20013;&#30340;&#20540;&#20943;&#21435;100&#65292;&#24471;&#21040;&#30340;&#26032;&#20540;&#20173;&#28982;&#23384;&#20648;&#21040;&#23492;&#23384;&#22120;eax&#20013;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" color="#0000ff">&#20027;&#35201;&#23547;&#22336;&#26041;&#24335;:</font>
-    </p>
-    <p>
-      $1000&#34920;&#31034;&#30452;&#25509;&#25968;1000&#65292;
-    </p>
-    <p>
-      %eab&#34920;&#31034;&#23492;&#23384;&#22120;eab&#20013;&#30340;&#20540;
-    </p>
-    <p>
-      (%eab)&#34920;&#31034;&#22320;&#22336;&#20026;%eab&#30340;&#20869;&#23384;&#20013;&#30340;&#20540;&#12290;
-    </p>
-    <p>
-      &#26356;&#22810;&#30340;&#23547;&#22336;&#26041;&#24335;&#21442;&#32771;&#38468;&#21152;node&quot;&#32593;&#32476;&#23569;&#30340;&#20171;&#32461;&#25688;&#36873;&quot;&#20013;&#30340;&#20869;&#23481;&#65292;&#37027;&#20010;&#37324;&#38754;&#31639;&#26159;&#27604;&#36739;&#20840;&#30340;&#20102;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x4ecb;&#x7ecd;&#x6458;&#x9009;" ID="ID_724654088" CREATED="1381952729903" MODIFIED="1381953097534"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        Instruction: <b>opcode[b+w+l] src, dest</b>
-      </li>
-      <li>
-        Register: <b>%reg</b>
-      </li>
-      <li>
-        Memory operand size: <b>[b+w+l]</b>&#160;for byte, word, longword - 8, 16, 32 bits
-      </li>
-      <li>
-        Memory references:<b>&#160;<font color="#ff0000"><tt>section</tt>:<tt>disp</tt>(<tt>base</tt>, <tt>index</tt>, <tt>scale</tt>) </font></b>where <i>base</i>&#160;and <i>index</i>&#160;are optional 32-bit base and index registers, <i>disp</i>&#160;is the optional displacement, and <i>scale</i>, taking the values 1, 2, 4, and 8, multiplies <i>index</i>&#160;to calculate the address of the operand.&#160;&#160;-- address is relative to section and is calculated by the expression:<font color="#ff0000"><b>&#160;base + index*scale + disp</b></font>
-      </li>
-      <li>
-        Constants (immediate operands)
-
-        <ul>
-          <li>
-            74 - decimal
-          </li>
-          <li>
-            0112 - binary
-          </li>
-          <li>
-            0x4A - hexadecimal
-          </li>
-          <li>
-            0f-395.667e-36 - floating point
-          </li>
-          <li>
-            'J - character
-          </li>
-          <li>
-            &quot;string&quot; - string
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <h3>
-      Operand Addressing
-    </h3>
-    <ul>
-      <li>
-        Code: CS + IP (Code segment + Offset)
-      </li>
-      <li>
-        Stack: SS + SP (Stack segment + Offset (stack top))
-      </li>
-      <li>
-        Immediate Operand: <font size="4" color="#ff0000"><b>$<i>constant_expression</i></b></font>
-      </li>
-      <li>
-        Register Operand: <font size="4" color="#ff0000"><b>%<i>register_name</i></b></font>
-      </li>
-      <li>
-        Memory Operand: <font size="4" color="#ff0000"><b><tt>section</tt>:<tt>displacement</tt>(<tt>base</tt>, <tt>index</tt>,&#160; <tt>scale</tt>)</b></font><b>&#160;</b>&#160;The section register is often selected by default. cs for code, ss for stack instructions, ds for data references, es for strings.<br/>&#160;
-
-        <center>
-          <table border="1" nosave="">
-            <tr>
-              <td>
-                Base
-              </td>
-              <td>
-                +(
-              </td>
-              <td>
-                Index
-              </td>
-              <td>
-                *
-              </td>
-              <td>
-                Scale
-              </td>
-              <td>
-                )+
-              </td>
-              <td>
-                Displacement
-              </td>
-            </tr>
-            <tr>
-              <td>
-                eax&#160;<br/>ebx&#160;<br/>ecx&#160;<br/>edx&#160;<br/>esp&#160;<br/>ebp&#160;<br/>esi&#160;<br/>edi
-              </td>
-              <td>
-                
-              </td>
-              <td>
-                eax&#160;<br/>ebx&#160;<br/>ecx&#160;<br/>edx&#160;<br/>ebp&#160;<br/>esi&#160;<br/>edi
-              </td>
-              <td>
-                
-              </td>
-              <td>
-                1&#160;<br/>2&#160;<br/>3&#160;<br/>4
-              </td>
-              <td>
-                
-              </td>
-              <td>
-                Name&#160;<br/>Number
-              </td>
-            </tr>
-          </table>
-        </center>
-        &#160;
-
-        <ul>
-          <li>
-            <b>Direct </b>Operand: displacement (often just the symbolic name for a memory location)
-          </li>
-          <li>
-            <b>Indirect</b>&#160;Operand: <font color="#ff0000" size="4"><b>(base)</b></font>
-          </li>
-          <li>
-            <b>Base+displacement</b>: <font color="#ff0000" size="4"><b>displacement(base)</b></font>
-
-            <ul>
-              <li>
-                index into an array
-              </li>
-              <li>
-                access a field of a record
-              </li>
-            </ul>
-          </li>
-          <li>
-            <b>(index*scale)+displacement</b>: <font color="#ff0000" size="4"><b>displacement(,index,scale)</b></font>
-
-            <ul>
-              <li>
-                index into an array
-              </li>
-            </ul>
-          </li>
-          <li>
-            B<b>ase + index&#160;&#160;+ displacement</b>: <font color="#ff0000" size="4"><b>displacement(base,index)</b></font>
-
-            <ul>
-              <li>
-                two dimensional array
-              </li>
-              <li>
-                one dimensional array of records
-              </li>
-            </ul>
-          </li>
-          <li>
-            <b>Base+(index*scale)+ displacement</b>: <font color="#ff0000" size="4"><b>displacement(base, index,scale)</b></font>
-
-            <ul>
-              <li>
-                two dimensional array
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="X86&#x7684;&#x4f53;&#x7cfb;&#x67b6;&#x6784;(&#x81ea;&#x8eab;&#x7279;&#x70b9;&#x4ee5;&#x53ca;&#x4e0e;RISC&#x7684;&#x4e0d;&#x540c;)" ID="ID_1268523209" CREATED="1381903246008" MODIFIED="1381903274589"/>
-<node TEXT="C&#x8bed;&#x8a00;&#x4e2d;&#x51fd;&#x6570;&#x8c03;&#x7528;&#x65f6;&#x7684;&#x5806;&#x6808;&#x7684;&#x53d8;&#x5316;" ID="ID_1927046336" CREATED="1381903865090" MODIFIED="1381904737433"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="2" color="#0000ff">&#19968;&#30452;&#20197;&#26469;&#65292;&#23545;&#20989;&#25968;&#35843;&#29992;&#21644;&#36820;&#22238;&#26102;&#30340;&#21387;&#26632;&#36864;&#26632;&#30340;&#35268;&#21017;&#19981;&#26159;&#24456;&#20102;&#35299;&#65292;&#34429;&#28982;&#30693;&#36947;&#26377;&#19968;&#37096;&#20998;&#23492;&#23384;&#22120;&#26159;call&#35201;&#20445;&#23384;&#30340;&#65292;&#19968;&#37096;&#20998;&#23492;&#23384;&#22120;&#26159;callee&#35201;&#20445;&#23384;&#30340;&#65292;&#20294;&#26159;&#20855;&#20307;&#30340;&#35268;&#21017;&#19981;&#26159;&#24456;&#20102;&#35299;&#12290; &#19979;&#38754;&#30340;&#36825;&#20010;&#20171;&#32461;&#24456;&#28165;&#26224;&#30340;&#20171;&#32461;&#20102;&#22312;X86&#26550;&#26500;&#19978;&#65292;&#20989;&#25968;&#35843;&#29992;&#21457;&#29983;&#21644;&#36820;&#22238;&#26102;&#65292;&#22534;&#26632;&#26159;&#22914;&#20309;&#21464;&#21270;&#30340;&#65292;&#25105;&#35273;&#24471;&#20889;&#30340;&#24456;&#22909;&#65306; </font>
-    </p>
-    <p>
-      <font size="2">(&#28304;&#38142;&#25509;&#22914;&#19979;&#65306;http://www.cs.virginia.edu/~evans/cs216/guides/x86.html) </font>
-    </p>
-    <p>
-      <font size="2">&#160;</font>
-    </p>
-    <h2>
-      Calling Convention
-    </h2>
-    To allow separate programmers to share code and develop libraries for use by many programs, and to simplify the use of subroutines in general, programmers typically adopt a common <em>calling convention</em>. The calling convention is a protocol about how to call and return from routines. For example, given a set of calling convention rules, a programmer need not examine the definition of a subroutine to determine how parameters should be passed to that subroutine. Furthermore, given a set of calling convention rules, high-level language compilers can be made to follow the rules, thus allowing hand-coded assembly language routines and high-level language routines to call one another.
-
-    <p>
-      
-    </p>
-    In practice, many calling conventions are possible. We will use the widely used C language calling convention. Following this convention will allow you to write assembly language subroutines that are safely callable from C (and C++) code, and will also enable you to call C library functions from your assembly language code.
-
-    <p>
-      
-    </p>
-    The C calling convention is based heavily on the use of the hardware-supported stack. It is based on the push, pop, call, and ret&#160;instructions. Subroutine parameters are passed on the stack. Registers are saved on the stack, and local variables used by subroutines are placed in memory on the stack. The vast majority of high-level procedural languages implemented on most processors have used similar calling conventions.
-
-    <p>
-      
-    </p>
-    The calling convention is broken into two sets of rules. The first set of rules is employed by the caller of the subroutine, and the second set of rules is observed by the writer of the subroutine (the callee). It should be emphasized that mistakes in the observance of these rules quickly result in fatal program errors since the stack will be left in an inconsistent state; thus meticulous care should be used when implementing the call convention in your own subroutines.
-
-    <p class="page">
-      
-    </p>
-    <center>
-      <a href="http://www.cs.virginia.edu/%7Eevans/cs216/guides/stack-convention.png"><img src="http://www.cs.virginia.edu/%7Eevans/cs216/guides/stack-convention.png"/>
-      &gt;</a><br/><b>Stack during Subroutine Call</b><br/><font size="-1" color="blue">[Thanks to James Peterson for finding and fixing the bug in the original version of this figure!]</font>
-    </center>
-    <p>
-      A good way to visualize the operation of the calling convention is to draw the contents of the nearby region of the stack during subroutine execution. The image above depicts the contents of the stack during the execution of a subroutine with three parameters and three local variables. The cells depicted in the stack are 32-bit wide memory locations, thus the memory addresses of the cells are 4 bytes apart. The first parameter resides at an offset of 8 bytes from the base pointer. Above the parameters on the stack (and below the base pointer), the call&#160;&#160;instruction placed the return address, thus leading to an extra 4 bytes of offset from the base pointer to the first parameter. When the ret&#160;&#160;instruction is used to return from the subroutine, it will jump to the return address stored on the stack.
-    </p>
-    <h4>
-      Caller Rules
-    </h4>
-    To make a subrouting call, the caller should:
-
-    <ol>
-      <li>
-        <font color="#0000ff">Before calling a subroutine, the caller should save the contents of certain registers that are designated <em>caller-saved</em>. The caller-saved registers are EAX, ECX, EDX. Since the called subroutine is allowed to modify these registers, if the caller relies on their values after the subroutine returns, the caller must push the values in these registers onto the stack (so they can be restore after the subroutine returns. </font>
-      </li>
-      <li>
-        <font color="#0000ff">To pass parameters to the subroutine, push them onto the stack before the call. The parameters should be pushed in inverted order (i.e. last parameter first). Since the stack grows down, the first parameter will be stored at the lowest address (this inversion of parameters was historically used to allow functions to be passed a variable number of parameters). </font>
-      </li>
-      <li>
-        <font color="#0000ff">To call the subroutine, use the call&#160;instruction. This instruction places the return address on top of the parameters on the stack, and branches to the subroutine code. This invokes the subroutine, which should follow the callee rules below. </font>
-      </li>
-    </ol>
-    <font color="#0000ff">After the subroutine returns (immediately following the call&#160; instruction), the caller can expect to find the return value of the subroutine in the register EAX. To restore the machine state, the caller should: </font>
-
-    <ol>
-      <li>
-        <font color="#0000ff">Remove the parameters from stack. This restores the stack to its state before the call was performed. </font>
-      </li>
-      <li>
-        <font color="#0000ff">Restore the contents of caller-saved registers (EAX, ECX, EDX) by popping them off of the stack. The caller can assume that no other registers were modified by the subroutine.</font>
-      </li>
-    </ol>
-    <b>Example</b><br/>The code below shows a function call that follows the caller rules. The caller is calling a function <em>_myFunc</em>&#160;that takes three integer parameters. First parameter is in EAX, the second parameter is the constant 216; the third parameter is in memory location <em>var</em>.
-
-    <blockquote>
-      <pre>push [var] ; Push last parameter first
-push 216   ; Push the second parameter
-push eax   ; Push first parameter last
-
-call _myFunc ; Call the function (assume C naming)
-
-add esp, 12</pre>
-    </blockquote>
-    Note that after the call returns, the caller cleans up the stack using the add&#160;&#160;instruction. We have 12 bytes (3 parameters * 4 bytes each) on the stack, and the stack grows down. Thus, to get rid of the parameters, we can simply add 12 to the stack pointer.
-
-    <p>
-      The result produced by <em>_myFunc</em>&#160;is now available for use in the register EAX. The values of the caller-saved registers (ECX and EDX), may have been changed. If the caller uses them after the call, it would have needed to save them on the stack before the call and restore them after it.
-    </p>
-    <h4>
-      Callee Rules
-    </h4>
-    The definition of the subroutine should adhere to the following rules at the beginning of the subroutine:
-
-    <ol>
-      <li>
-        <font color="#0000ff">Push the value of EBP onto the stack, and then copy the value of ESP into EBP using the following instructions: </font>
-
-        <pre><font color="#0000ff">    push ebp
-    mov  ebp, esp</font></pre>
-        <font color="#0000ff">This initial action maintains the <em>base pointer</em>, EBP. The base pointer is used by convention as a point of reference for finding parameters and local variables on the stack. When a subroutine is executing, the base pointer holds a copy of the stack pointer value from when the subroutine started executing. Parameters and local variables will always be located at known, constant offsets away from the base pointer value. We push the old base pointer value at the beginning of the subroutine so that we can later restore the appropriate base pointer value for the caller when the subroutine returns. Remember, the caller is not expecting the subroutine to change the value of the base pointer. We then move the stack pointer into EBP to obtain our point of reference for accessing parameters and local variables. </font>
-      </li>
-      <li>
-        <font color="#0000ff">Next, allocate local variables by making space on the stack. Recall, the stack grows down, so to make space on the top of the stack, the stack pointer should be decremented. The amount by which the stack pointer is decremented depends on the number and size of local variables needed. For example, if 3 local integers (4 bytes each) were required, the stack pointer would need to be decremented by 12 to make space for these local variables (i.e., sub&#160;esp,&#160;12). As with parameters, local variables will be located at known offsets from the base pointer. </font>
-
-        <p>
-          
-        </p>
-      </li>
-      <li>
-        <font color="#0000ff">Next, save the values of the <em>callee-saved</em>&#160;registers that will be used by the function must be saved. To save registers, push them onto the stack. The callee-saved registers are EBX, EDI, and ESI (ESP and EBP will also be preserved by the calling convention, but need not be pushed on the stack during this step).</font>
-      </li>
-    </ol>
-    After these three actions are performed, the body of the subroutine may proceed. When the subroutine is returns, it must follow these steps:
-
-    <ol>
-      <li>
-        Leave the return value in EAX.
-
-        <p>
-          
-        </p>
-      </li>
-      <li>
-        Restore the old values of any callee-saved registers (EDI and ESI) that were modified. The register contents are restored by popping them from the stack. The registers should be popped in the inverse order that they were pushed.
-      </li>
-      <li>
-        Deallocate local variables. The obvious way to do this might be to add the appropriate value to the stack pointer (since the space was allocated by subtracting the needed amount from the stack pointer). In practice, a less error-prone way to deallocate the variables is to move the value in the base pointer into the stack pointer: mov&#160;esp,&#160;ebp. This works because the base pointer always contains the value that the stack pointer contained immediately prior to the allocation of the local variables.
-      </li>
-      <li>
-        Immediately before returning, restore the caller's base pointer value by popping EBP off the stack. Recall that the first thing we did on entry to the subroutine was to push the base pointer to save its old value.
-      </li>
-      <li>
-        Finally, return to the caller by executing a ret&#160;instruction. This instruction will find and remove the appropriate return address from the stack.
-      </li>
-    </ol>
-    Note that the callee's rules fall cleanly into two halves that are basically mirror images of one another. The first half of the rules apply to the beginning of the function, and are commonly said to define the <em>prologue</em>&#160;&#160;to the function. The latter half of the rules apply to the end of the function, and are thus commonly said to define the <em>epilogue</em>&#160;of the function.
-
-    <p>
-      
-    </p>
-    <b>Example</b><br/>Here is an example function definition that follows the callee rules:
-
-    <blockquote>
-      <pre>.486
-.MODEL FLAT
-.CODE
-PUBLIC _myFunc
-_myFunc PROC
-  ; Subroutine Prologue
-  push ebp     ; Save the old base pointer value.
-  mov ebp, esp ; Set the new base pointer value.
-  sub esp, 4   ; Make room for one 4-byte local variable.
-  push edi     ; Save the values of registers that the function
-  push esi     ; will modify. This function uses EDI and ESI.
-  ; (no need to save EBX, EBP, or ESP)
-
-  ; Subroutine Body
-  mov eax, [ebp+8]   ; Move value of parameter 1 into EAX
-  mov esi, [ebp+12]  ; Move value of parameter 2 into ESI
-  mov edi, [ebp+16]  ; Move value of parameter 3 into EDI
-
-  mov [ebp-4], edi   ; Move EDI into the local variable
-  add [ebp-4], esi   ; Add ESI into the local variable
-  add eax, [ebp-4]   ; Add the contents of the local variable
-                     ; into EAX (final result)
-
-  ; Subroutine Epilogue 
-  pop esi      ; Recover register values
-  pop  edi
-  mov esp, ebp ; Deallocate local variables
-  pop ebp ; Restore the caller's base pointer value
-  ret
-_myFunc ENDP
-END</pre>
-    </blockquote>
-    The subroutine prologue performs the standard actions of saving a snapshot of the stack pointer in EBP (the base pointer), allocating local variables by decrementing the stack pointer, and saving register values on the stack.
-
-    <p>
-      In the body of the subroutine we can see the use of the base pointer. Both parameters and local variables are located at constant offsets from the base pointer for the duration of the subroutines execution. In particular, we notice that since parameters were placed onto the stack before the subroutine was called, they are always located below the base pointer (i.e. at higher addresses) on the stack. The first parameter to the subroutine can always be found at memory location [EBP+8], the second at [EBP+12], the third at [EBP+16]. Similarly, since local variables are allocated after the base pointer is set, they always reside above the base pointer (i.e. at lower addresses) on the stack. In particular, the first local variable is always located at [EBP-4], the second at [EBP-8], and so on. This conventional use of the base pointer allows us to quickly identify the use of local variables and parameters within a function body.
-    </p>
-    <p>
-      
-    </p>
-    The function epilogue is basically a mirror image of the function prologue. The caller's register values are recovered from the stack, the local variables are deallocated by resetting the stack pointer, the caller's base pointer value is recovered, and the ret instruction is used to return to the appropriate code location in the caller.
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="AT&amp;T&#x683c;&#x5f0f;&#x7684;&#x6c47;&#x7f16;&#x548c;Intel&#x683c;&#x5f0f;&#x6c47;&#x7f16;&#x683c;&#x5f0f;&#x7684;&#x533a;&#x522b;" ID="ID_1752025884" CREATED="1381948381710" MODIFIED="1381948419296"/>
-</node>
 <node TEXT="&#x5173;&#x4e8e;&#x5bf9;&#x79f0;&#x591a;&#x5904;&#x7406;SMP&#x67b6;&#x6784;" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
 <edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
+<edge COLOR="#ffff00"/>
+<node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1382732857520"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28155;&#21152;inline picture
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
