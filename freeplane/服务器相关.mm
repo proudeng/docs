@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -1586,7 +1586,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1511493578566"><richcontent TYPE="NOTE">
+<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1511493578566"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5648,7 +5648,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1080095665" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" ID="ID_1080095665" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5763,7 +5763,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x66f4;&#x65b0;&#x65f6;&#x533a;" FOLDED="true" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1511493582015"><richcontent TYPE="NOTE">
+<node TEXT="&#x66f4;&#x65b0;&#x65f6;&#x533a;" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1511493582015"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6786,9 +6786,9 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>

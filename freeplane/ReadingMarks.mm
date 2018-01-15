@@ -1,6 +1,6 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1501205018278"><hook NAME="MapStyle">
+<node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
     <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
@@ -82,6 +82,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Intel&#xae; 64 and IA-32 Architectures Software Developer&apos;s Manual" POSITION="left" ID="ID_1634058927" CREATED="1382555128815" MODIFIED="1382559152095">
 <edge COLOR="#00ffff"/>
@@ -3928,7 +3929,7 @@ END</pre>
 <node TEXT="perl&#x8bed;&#x8a00;&#x7f16;&#x7a0b;(&#x7b2c;&#x4e09;&#x7248;)" ID="ID_1948694476" CREATED="1318298709204" MODIFIED="1318298721969"/>
 </node>
 </node>
-<node TEXT="Pro Git" FOLDED="true" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
+<node TEXT="Pro Git" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
 <edge COLOR="#7c0000"/>
 <node TEXT="Ch2--Git Basics" ID="ID_1647110050" CREATED="1455436238940" MODIFIED="1455436400977" LINK="../OneNote/Git_Basic_operation.one"><richcontent TYPE="NOTE">
 
@@ -4974,7 +4975,7 @@ END</pre>
 <node TEXT="&#x5173;&#x4e8e;&#x5bf9;&#x79f0;&#x591a;&#x5904;&#x7406;SMP&#x67b6;&#x6784;" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
+<node TEXT="&#x5feb;&#x6377;&#x952e;" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
 <edge COLOR="#ffff00"/>
 <node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1382732857520"><richcontent TYPE="NOTE">
 
