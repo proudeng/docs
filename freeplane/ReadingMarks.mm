@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -642,7 +642,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="Optimization Objective(video1)" ID="ID_364952082" CREATED="1516024069196" MODIFIED="1516026462849"><richcontent TYPE="NOTE">
+<node TEXT="Optimization Objective(video1)" ID="ID_364952082" CREATED="1516024069196" MODIFIED="1516093815101"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -699,7 +699,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -716,7 +715,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
