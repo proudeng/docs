@@ -1,22 +1,26 @@
-<map version="freeplane 1.3.0">
+<map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="GSM BTS" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false"/>
+<node TEXT="GSM BTS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -50,8 +54,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3"/>
-<node TEXT="GSM_PreStudy_before_Travel_to_Kista" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1381543833785">
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="GSM_PreStudy_before_Travel_to_Kista" FOLDED="true" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1381543833785">
 <edge COLOR="#ff0000"/>
 <node TEXT="dTRU&#x5185;&#x90e8;&#x5404;&#x6a21;&#x5757;&#x7684;&#x4e3b;&#x8981;&#x529f;&#x80fd;" ID="ID_568949512" CREATED="1381568075000" MODIFIED="1381568265362" LINK="../pub/dTRU_structure.pdf"><richcontent TYPE="NOTE">
 
@@ -91,7 +95,7 @@
 </node>
 <node TEXT="&#x5b9e;&#x9645;&#x5de5;&#x4f5c;" POSITION="right" ID="ID_1633212834" CREATED="1393846778593" MODIFIED="1393846785077">
 <edge COLOR="#7c007c"/>
-<node TEXT="Tips&amp;Tricks" ID="ID_979848708" CREATED="1399442837554" MODIFIED="1399442844664">
+<node TEXT="Tips&amp;Tricks" FOLDED="true" ID="ID_979848708" CREATED="1399442837554" MODIFIED="1399442844664">
 <node TEXT="Log&#x4e2d;&#x67e5;&#x770b;TRX-MCTR&#x6620;&#x5c04;&#x5173;&#x7cfb;&#x4ee5;&#x53ca;&#x5efa;&#x7acb;Carrier&#x7684;&#x6570;&#x91cf;" ID="ID_1175613359" CREATED="1399442870522" MODIFIED="1399448397653" LINK="../OneNote/TRX-MCTR-Carrier_mapping.one"><richcontent TYPE="NOTE">
 
 <html>
@@ -121,7 +125,7 @@
 </node>
 <node TEXT="Feature/CR/TR" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
 <node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
-<node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
+<node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
 <node TEXT="PSR of DMM for AIR" ID="ID_365489858" CREATED="1383579025498" MODIFIED="1384743721368" LINK="../GSM_document_base/38_0363-110_FCP1307999_Uen_PA11.doc"><richcontent TYPE="NOTE">
 
 <html>
@@ -155,12 +159,12 @@
 <node TEXT="NDS_Radio_Synch_G2" ID="ID_356728019" CREATED="1386207891387" MODIFIED="1386207928938" LINK="../GSM_document_base/NDS_Radio_Synch_G2.doc"/>
 <node TEXT="&#x6700;&#x65b0;&#x7684;RICI IWD" ID="ID_1015342472" CREATED="1386312101766" MODIFIED="1386312137812" LINK="../GSM_document_base/Interwork%20Description%20for%20RICI.pdf"/>
 </node>
-<node TEXT="&#x3010;&#x793a;&#x4f8b;&#x3011;CR&#x6587;&#x6863;" ID="ID_710742119" CREATED="1384911086397" MODIFIED="1384911144337">
+<node TEXT="&#x3010;&#x793a;&#x4f8b;&#x3011;CR&#x6587;&#x6863;" FOLDED="true" ID="ID_710742119" CREATED="1384911086397" MODIFIED="1384911144337">
 <node TEXT="CR6185" ID="ID_1334896194" CREATED="1384911145841" MODIFIED="1386209391161" LINK="../MiscDocuments/CR6185_PA1.doc"/>
 <node TEXT="CR6203" ID="ID_121400907" CREATED="1384911149946" MODIFIED="1384911186822" LINK="../MiscDocuments/CR-6203.doc"/>
 </node>
-<node TEXT="&#x6742;&#x9879;" ID="ID_1591544244" CREATED="1386209399030" MODIFIED="1386209402541">
-<node TEXT="ECP_PH&#x7684;&#x5de5;&#x4f5c;&#x65b9;&#x5f0f;" ID="ID_997027991" CREATED="1386209403438" MODIFIED="1386209658377"><richcontent TYPE="NOTE">
+<node TEXT="&#x6742;&#x9879;" FOLDED="true" ID="ID_1591544244" CREATED="1386209399030" MODIFIED="1386209402541">
+<node TEXT="ECP_PH&#x7684;&#x5de5;&#x4f5c;&#x65b9;&#x5f0f;" FOLDED="true" ID="ID_997027991" CREATED="1386209403438" MODIFIED="1517360201791"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -178,21 +182,21 @@
 style='mso-element:field-begin'></span><span
 style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028471 \h <span style='mso-element:
 field-separator'></span><![endif]-->
-       &#160;Figure <span>45</span><!--[if gte mso 9]><xml>
+       &#160;&#160;Figure 45<!--[if gte mso 9]><xml>
  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003400370031000000</w:data>
 </xml><![endif]-->
       <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
-       &#160;showing how it looks today.
+       &#160;&#160;showing how it looks today.
     </p>
     <p class="MsoBodyText">
       A more detailed picture for an ECP_PH block can be seen in<!--[if supportFields]><span style='mso-element:field-begin'></span><span
 style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028646 \h <span style='mso-element:
 field-separator'></span><![endif]-->
-       &#160;Figure <span>46</span><!--[if gte mso 9]><xml>
+       &#160;&#160;Figure 46<!--[if gte mso 9]><xml>
  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003600340036000000</w:data>
 </xml><![endif]-->
       <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
-       .
+       &#160;.
     </p>
     <p class="MsoBodyText">
       As indicated the ECP_PH block or more correct the <font color="#ff0033"><b>receiver part</b></font>&#160;of the block can work in master or slave mode.
@@ -225,7 +229,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="CR for US3" ID="ID_1105717939" CREATED="1391999613558" MODIFIED="1391999666737"><richcontent TYPE="NOTE">
+<node TEXT="CR for US3" FOLDED="true" ID="ID_1105717939" CREATED="1391999613558" MODIFIED="1391999666737"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -261,7 +265,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="&#x3010;Feature&#x3011;Soft Sync Over IDL2" ID="ID_687694711" CREATED="1399965301964" MODIFIED="1399965319681">
+<node TEXT="&#x3010;Feature&#x3011;Soft Sync Over IDL2" FOLDED="true" ID="ID_687694711" CREATED="1399965301964" MODIFIED="1399965319681">
 <node TEXT="PSR" ID="ID_1926351520" CREATED="1399965321917" MODIFIED="1399965358943" LINK="../GSM_document_base/2_PB1_PSR%20BTS%20Soft%20Synchronization%20over%20IDL2.doc"><richcontent TYPE="NOTE">
 
 <html>
@@ -277,7 +281,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;CR&#x3011;CR12220" ID="ID_1590583286" CREATED="1393834497085" MODIFIED="1399442855910"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;CR&#x3011;CR12220" FOLDED="true" ID="ID_1590583286" CREATED="1393834497085" MODIFIED="1399442855910"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -795,7 +799,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;TR&#x3011;HR83604" ID="ID_861419681" CREATED="1393846809147" MODIFIED="1393846817149">
+<node TEXT="&#x3010;TR&#x3011;HR83604" FOLDED="true" ID="ID_861419681" CREATED="1393846809147" MODIFIED="1393846817149">
 <node TEXT="Jarl&#x5bf9;&#x4e8e;&#x8fd9;&#x4e2a;TR&#x7684;&#x56de;&#x590d;" ID="ID_1854689254" CREATED="1393846837225" MODIFIED="1393846998031"><richcontent TYPE="NOTE">
 
 <html>
@@ -1058,6 +1062,107 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="&#x5173;&#x4e8e;SE_TRX_G_COM&#x7684;&#x5b9a;&#x4e49;" ID="ID_930916829" CREATED="1393846999964" MODIFIED="1393847228574" LINK="../MiscDocuments/SE_TRX_G_COM.msg"/>
 </node>
+<node TEXT="&#x3010;MR3681&#x3011;Easier BTS SW upgrade" ID="ID_1616724387" CREATED="1517204533538" MODIFIED="1517212350325"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Feature</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: Easier BTS SW Upgrade</span></font><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Link to Feature in Hansoft</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: </span></font><span lang="EN-US"><a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/438249">FE: Easier BTS SW Upgrade</a>, <a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/437264">Easier BTS SW Upgrade</a><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Impacted Products</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: BSC, BTS, OSS (</span></font><span lang="EN-US">GUI support for OSS-RC</span><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">)</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Artifacts</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">&#160;(OA, PPS or equivalent documents):</span></font><span lang="EN-US">&#160;<a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bd99250?docno=124/0360-110/FCP1307999Uen&amp;action=current&amp;format=ppt12">OA</a><o p="#DEFAULT"></o></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x3010;MR5172-6&#x3011;NGS GSM SRS Enhancement" ID="ID_156671729" CREATED="1517204549217" MODIFIED="1517206982940"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><font size="10.0pt" face="Arial,sans-serif">Feature</font></b><font size="10.0pt" face="Arial,sans-serif">:</font>&#160;<font size="10.0pt" face="Arial,sans-serif">MR5172-SP6: NGS GSM SRS enhancement</font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><font size="10.0pt" face="Arial,sans-serif">Link to Feature in Hansoft</font></b><font size="10.0pt" face="Arial,sans-serif">:</font>&#160;<a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/593290">SP6: NGS GSM SRS enhancement</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><font size="10.0pt" face="Arial,sans-serif">Impacted Products</font></b><font size="10.0pt" face="Arial,sans-serif">: BTS, OMT</font><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><font size="10.0pt" face="Arial,sans-serif">Artifacts</font></b><font size="10.0pt" face="Arial,sans-serif">&#160;(OA, PPS or equivalent documents):<o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font size="10.0pt" face="Arial,sans-serif">OA: </font><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cbb9075?docno=158/0363-200/FCP1314743Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cbb9075?docno=158/0363-200/FCP1314743Uen&amp;action=current&amp;format=ppt12</a><o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Feature presentation: <font color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd70929?docno=BNEP-18:000149Uen&amp;action=approved&amp;format=ppt8">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd70929?docno=BNEP-18:000149Uen&amp;action=approved&amp;format=ppt8</a><o p="#DEFAULT"></o></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="NDS_Link_To_Other_SP" ID="ID_1910231844" CREATED="1517364005026" MODIFIED="1517364033298"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><span style="font-weight: normal"><font size="11.0pt" face="Calibri,sans-serif"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8ce5af97?docno=319/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8ce5af97?docno=319/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12</a></font></span></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR4596-1&#x3011;Radio 4443 in Ericsson Radio System(4T4R dual band)" ID="ID_1088468827" CREATED="1517206483415" MODIFIED="1517206946376"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Feature: Radio 4443 in Ericsson Radio System (4T4R dual band)
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Link to Feature in Hansoft: hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/588821
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Impacted Products: BTS, OMT, BSC(verification), OSS
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Artifacts NDS: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12</a>&#160;
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="BCI&#x63a5;&#x53e3;&#x7684;&#x5934;&#x6587;&#x4ef6;&#x548c;sig&#x6587;&#x4ef6;&#x4f4d;&#x7f6e;" ID="ID_166963389" CREATED="1418876600307" MODIFIED="1418880456280" LINK="../OneNote/BCI&#x63a5;&#x53e3;&#x7684;&#x8def;&#x5f84;&#x5df2;&#x7ecf;fault%20id&#x7684;&#x610f;&#x4e49;.one"><richcontent TYPE="NOTE">
 
@@ -1074,10 +1179,10 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="TRS-3" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
+<node TEXT="TRS-3" FOLDED="true" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
 <edge COLOR="#7c0000"/>
 <node TEXT="&#x5982;&#x4f55;&#x5728;&#x670d;&#x52a1;&#x5668;&#x4e0a;&#x6253;&#x5f00;&#x5e76;&#x7f16;&#x8f91;TRS-3&#x6a21;&#x578b;" ID="ID_1997616957" CREATED="1384759711220" MODIFIED="1384759777550" LINK="#ID_230718592"/>
-<node TEXT="TRS-3&#x4e2d;&#x4f7f;&#x7528;&#x7684;&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" ID="ID_1235404221" CREATED="1384840248291" MODIFIED="1384840256211">
+<node TEXT="TRS-3&#x4e2d;&#x4f7f;&#x7528;&#x7684;&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" FOLDED="true" ID="ID_1235404221" CREATED="1384840248291" MODIFIED="1384840256211">
 <node TEXT="RU" ID="ID_486508029" CREATED="1384840262541" MODIFIED="1384841152878" LINK="../MiscDocuments/Replaceable_Unit.png"><richcontent TYPE="NOTE">
 
 <html>
@@ -1587,7 +1692,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="TRS-3&#x7684;&#x5c42;&#x6b21;&#x7ed3;&#x6784;" ID="ID_421414732" CREATED="1384844328914" MODIFIED="1387421003686">
+<node TEXT="TRS-3&#x7684;&#x5c42;&#x6b21;&#x7ed3;&#x6784;" FOLDED="true" ID="ID_421414732" CREATED="1384844328914" MODIFIED="1387421003686">
 <node TEXT="Development Anatomy" ID="ID_1757069106" CREATED="1384844335614" MODIFIED="1384848270384"><richcontent TYPE="NOTE">
 
 <html>
@@ -1794,7 +1899,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="TRS-3&#x4e2d;&#x7684;&#x4e00;&#x4e9b;&#x673a;&#x5236;" ID="ID_846498619" CREATED="1399187431293" MODIFIED="1399188637548" LINK="#ID_1767843448"><richcontent TYPE="NOTE">
+<node TEXT="TRS-3&#x4e2d;&#x7684;&#x4e00;&#x4e9b;&#x673a;&#x5236;" FOLDED="true" ID="ID_846498619" CREATED="1399187431293" MODIFIED="1399188637548" LINK="#ID_1767843448"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1864,9 +1969,9 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="O&amp;M_OMT_EC" POSITION="right" ID="ID_257452441" CREATED="1458625360622" MODIFIED="1458625380717">
+<node TEXT="O&amp;M_OMT_EC" FOLDED="true" POSITION="right" ID="ID_257452441" CREATED="1458625360622" MODIFIED="1458625380717">
 <edge COLOR="#0000ff"/>
-<node TEXT="Confluence&#x4e0a;&#x7684;&#x57f9;&#x8bad;&#x8d44;&#x6599;" ID="ID_811414914" CREATED="1458625391666" MODIFIED="1458625509711"><richcontent TYPE="NOTE">
+<node TEXT="Confluence&#x4e0a;&#x7684;&#x57f9;&#x8bad;&#x8d44;&#x6599;" FOLDED="true" ID="ID_811414914" CREATED="1458625391666" MODIFIED="1517813929983"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1903,7 +2008,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="GSM&#x8054;&#x7cfb;&#x4eba;" POSITION="left" ID="ID_1248330498" CREATED="1381926287116" MODIFIED="1397114220709">
+<node TEXT="GSM&#x8054;&#x7cfb;&#x4eba;" FOLDED="true" POSITION="left" ID="ID_1248330498" CREATED="1381926287116" MODIFIED="1397114220709">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -2120,7 +2225,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="GSM RC SW(6K)" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1386568680293">
+<node TEXT="GSM RC SW(6K)" FOLDED="true" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1386568680293">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -2144,7 +2249,7 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="WOW" ID="ID_535013950" CREATED="1383036167676" MODIFIED="1383036170733">
+<node TEXT="WOW" FOLDED="true" ID="ID_535013950" CREATED="1383036167676" MODIFIED="1383036170733">
 <node TEXT="build SW package and test" ID="ID_1594637605" CREATED="1383036172769" MODIFIED="1383307680783"><richcontent TYPE="NOTE">
 
 <html>
@@ -2477,7 +2582,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Hansoft&#x5de5;&#x5177;&#x7684;&#x4f7f;&#x7528;" ID="ID_796887772" CREATED="1389319017385" MODIFIED="1389319026932">
+<node TEXT="Hansoft&#x5de5;&#x5177;&#x7684;&#x4f7f;&#x7528;" FOLDED="true" ID="ID_796887772" CREATED="1389319017385" MODIFIED="1389319026932">
 <node TEXT="Hansoft&#x7684;&#x5b89;&#x88c5;" ID="ID_1778795778" CREATED="1389319029970" MODIFIED="1389319584804" LINK="../MiscDocuments/gsm_hansoft_configuration.msg"><richcontent TYPE="NOTE">
 
 <html>
@@ -2508,10 +2613,10 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="CR&#x6d41;&#x7a0b;" ID="ID_130365369" CREATED="1389604325606" MODIFIED="1397202163986">
+<node TEXT="CR&#x6d41;&#x7a0b;" FOLDED="true" ID="ID_130365369" CREATED="1389604325606" MODIFIED="1397202163986">
 <node TEXT="CR&#x7684;&#x5206;&#x652f;&#x7b56;&#x7565;" ID="ID_16240714" CREATED="1389604346854" MODIFIED="1389604658381" LINK="../MiscDocuments/GSM_CR_Branch_Strategy%20.msg"/>
 <node TEXT="CR&#x6570;&#x91cf;&#x4ee5;&#x53ca;&#x5982;&#x4f55;&#x5224;&#x65ad;&#x6587;&#x6863;&#x662f;&#x5426;&#x5728;TRS3&#x6a21;&#x578b;&#x4e2d;" ID="ID_1067428911" CREATED="1389604358185" MODIFIED="1389604667403" LINK="../MiscDocuments/GSM_CR_Branch_Strategy%20.msg"/>
-<node TEXT="&#x3010;System Part&#x3011;CR&#x5904;&#x7406;&#x6d41;&#x7a0b;-End-to-End" ID="ID_1865556554" CREATED="1396425053928" MODIFIED="1396596351503" LINK="#ID_1130166230"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;System Part&#x3011;CR&#x5904;&#x7406;&#x6d41;&#x7a0b;-End-to-End" FOLDED="true" ID="ID_1865556554" CREATED="1396425053928" MODIFIED="1396596351503" LINK="#ID_1130166230"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2533,7 +2638,7 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="CQCR&#x4e0a;&#x521b;&#x5efa;CR" ID="ID_1626809893" CREATED="1396425157599" MODIFIED="1396594052040" LINK="../OneNote/GSM_BTS_&#x521b;&#x5efa;CR--CQCR&#x64cd;&#x4f5c;.one"><richcontent TYPE="NOTE">
+<node TEXT="CQCR&#x4e0a;&#x521b;&#x5efa;CR" FOLDED="true" ID="ID_1626809893" CREATED="1396425157599" MODIFIED="1396594052040" LINK="../OneNote/GSM_BTS_&#x521b;&#x5efa;CR--CQCR&#x64cd;&#x4f5c;.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2572,7 +2677,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4fee;&#x6539;&#x5b8c;&#x6210;&#x540e;&#x751f;&#x6210;Activity_Document&#x5e76;&#x9080;&#x8bf7;&#x76f8;&#x5173;&#x4eba;&#x5458;&#x8fdb;&#x884c;review" ID="ID_1715670699" CREATED="1396596568293" MODIFIED="1397114629617" LINK="../OneNote/&#x751f;&#x6210;Activity_Document.one"><richcontent TYPE="NOTE">
+<node TEXT="&#x4fee;&#x6539;&#x5b8c;&#x6210;&#x540e;&#x751f;&#x6210;Activity_Document&#x5e76;&#x9080;&#x8bf7;&#x76f8;&#x5173;&#x4eba;&#x5458;&#x8fdb;&#x884c;review" FOLDED="true" ID="ID_1715670699" CREATED="1396596568293" MODIFIED="1397114629617" LINK="../OneNote/&#x751f;&#x6210;Activity_Document.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2727,8 +2832,8 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="CR&#x7684;Delivery" ID="ID_649181023" CREATED="1401790902356" MODIFIED="1401790913091">
-<node TEXT="System CM &#x53d1;&#x51fa;&#x65b0;&#x7684;Baseline&#x5e76;&#x8981;&#x6c42;&#x6211;&#x4eec;Rebase/Merge&#x76f8;&#x5e94;&#x7684;CR" ID="ID_1626110128" CREATED="1401783370843" MODIFIED="1401790785876"><richcontent TYPE="NOTE">
+<node TEXT="CR&#x7684;Delivery" FOLDED="true" ID="ID_649181023" CREATED="1401790902356" MODIFIED="1401790913091">
+<node TEXT="System CM &#x53d1;&#x51fa;&#x65b0;&#x7684;Baseline&#x5e76;&#x8981;&#x6c42;&#x6211;&#x4eec;Rebase/Merge&#x76f8;&#x5e94;&#x7684;CR" FOLDED="true" ID="ID_1626110128" CREATED="1401783370843" MODIFIED="1401790785876"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2769,13 +2874,13 @@ field-separator'></span><![endif]-->
 <node TEXT="&#x4e3b;&#x5206;&#x652f;&#x6253;&#x6807;&#x7b7e;" ID="ID_1502396005" CREATED="1401790944006" MODIFIED="1401790951606"/>
 <node TEXT="CheckIn&#x6240;&#x6709;&#x6587;&#x4ef6;" ID="ID_429834581" CREATED="1401792320849" MODIFIED="1401792333233"/>
 <node TEXT="Lock&#x4e3b;&#x5206;&#x652f;&#x4e0a;&#x7684;&#x6807;&#x7b7e;" ID="ID_1091686638" CREATED="1401792076729" MODIFIED="1401792087103"/>
-<node TEXT="&#x7ed9;System CM&#x53d1;&#x51fa;delivery&#x90ae;&#x4ef6;" ID="ID_1292032569" CREATED="1401792931656" MODIFIED="1401792943338">
+<node TEXT="&#x7ed9;System CM&#x53d1;&#x51fa;delivery&#x90ae;&#x4ef6;" FOLDED="true" ID="ID_1292032569" CREATED="1401792931656" MODIFIED="1401792943338">
 <node TEXT="&#x793a;&#x4f8b;" ID="ID_97920250" CREATED="1401792944457" MODIFIED="1401793012812" LINK="../MiscDocuments/Label%20102_1551_HRB10521_PEK4_is_applied_and_locked.msg"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Mhweb&#x76f8;&#x5173;&#x6d41;&#x7a0b;" ID="ID_930243360" CREATED="1400639374498" MODIFIED="1400639384513">
+<node TEXT="Mhweb&#x76f8;&#x5173;&#x6d41;&#x7a0b;" FOLDED="true" ID="ID_930243360" CREATED="1400639374498" MODIFIED="1400639384513">
 <node TEXT="&#x5982;&#x4f55;&#x521b;&#x5efa;Mapping&#x7684;TR" ID="ID_1331791686" CREATED="1400639387874" MODIFIED="1400640954690"><richcontent TYPE="NOTE">
 
 <html>
@@ -2917,7 +3022,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="VOB" ID="ID_355606526" CREATED="1383136547845" MODIFIED="1383137343120"><richcontent TYPE="NOTE">
+<node TEXT="VOB" FOLDED="true" ID="ID_355606526" CREATED="1383136547845" MODIFIED="1383137343120"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3064,7 +3169,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;TRS-3&#x3011;RC SW System&#x77e5;&#x8bc6;" ID="ID_1369731936" CREATED="1386568610685" MODIFIED="1399186433284">
+<node TEXT="&#x3010;TRS-3&#x3011;RC SW System&#x77e5;&#x8bc6;" FOLDED="true" ID="ID_1369731936" CREATED="1386568610685" MODIFIED="1399186433284">
 <node TEXT="RCSWPS&#x4e2d;&#x7684;&#x51e0;&#x4e2a;&#x91cd;&#x8981;&#x7684;system class" ID="ID_1279059612" CREATED="1387418871643" MODIFIED="1387418909191" LINK="#ID_1048364772"/>
 <node TEXT="RCSW package&#x7684;&#x542f;&#x52a8;&#x6d41;&#x7a0b;" ID="ID_246969115" CREATED="1387418946491" MODIFIED="1387418963491" LINK="#ID_1185174244"/>
 <node TEXT="RC--&gt;DSP&#x901a;&#x4fe1;&#x7684;&#x4e00;&#x822c;&#x6d41;&#x7a0b;" ID="ID_1644142192" CREATED="1387418916421" MODIFIED="1393397281163" LINK="#ID_428741178"/>
@@ -3113,8 +3218,8 @@ field-separator'></span><![endif]-->
 <node TEXT="TRS3&#x7cfb;&#x7edf;CR&#x7684;Merge&#x64cd;&#x4f5c;" ID="ID_1241287188" CREATED="1393305409396" MODIFIED="1393305675769" LINK="#ID_157308363"/>
 </node>
 </node>
-<node TEXT="&#x6742;&#x9879;" ID="ID_1917679532" CREATED="1383564996560" MODIFIED="1383565006688">
-<node TEXT="QuestionList" ID="ID_1518135713" CREATED="1383565008359" MODIFIED="1383566917996"><richcontent TYPE="NOTE">
+<node TEXT="&#x6742;&#x9879;" FOLDED="true" ID="ID_1917679532" CREATED="1383564996560" MODIFIED="1383565006688">
+<node TEXT="QuestionList" FOLDED="true" ID="ID_1518135713" CREATED="1383565008359" MODIFIED="1383566917996"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3274,7 +3379,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x540d;&#x8bcd;&#x89e3;&#x91ca;" ID="ID_682222449" CREATED="1387768537799" MODIFIED="1387768558731"><richcontent TYPE="NOTE">
+<node TEXT="&#x540d;&#x8bcd;&#x89e3;&#x91ca;" FOLDED="true" ID="ID_682222449" CREATED="1387768537799" MODIFIED="1387768558731"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3307,7 +3412,7 @@ field-separator'></span><![endif]-->
 <node TEXT="GSM Radio SwA" POSITION="left" ID="ID_983556455" CREATED="1399187373956" MODIFIED="1399187379060">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="GSM&#x6587;&#x6863;" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
+<node TEXT="GSM&#x6587;&#x6863;" FOLDED="true" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
 <edge COLOR="#ffff00"/>
 <node TEXT="&#x6587;&#x6863;&#x5c42;&#x6b21;&#x7ed3;&#x6784;" ID="ID_853031523" CREATED="1384328000217" MODIFIED="1384328231179" LINK="../MiscDocuments/doc_hierarchy.png"><richcontent TYPE="NOTE">
 
@@ -3323,7 +3428,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Kista&#x57f9;&#x8bad;&#x671f;&#x95f4;&#x7684;&#x6587;&#x6863;" ID="ID_1520608685" CREATED="1383579460098" MODIFIED="1399346491009"><richcontent TYPE="NOTE">
+<node TEXT="Kista&#x57f9;&#x8bad;&#x671f;&#x95f4;&#x7684;&#x6587;&#x6863;" FOLDED="true" ID="ID_1520608685" CREATED="1383579460098" MODIFIED="1399346491009"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3366,7 +3471,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="Clear Case Branch strategy + CR WoW" ID="ID_1896525525" CREATED="1383579895854" MODIFIED="1384321040432" LINK="../GSM_document_base/Introduction%20of%20ClearCase%20for%20System%20Work_PA2.pdf"/>
 <node TEXT="Timing &amp; Synch Overview Course" ID="ID_1800905516" CREATED="1383579917174" MODIFIED="1391999174527" LINK="../GSM_document_base/GSM%20BTS%20Timing%20and%20Synch%20Overview.ppt"/>
-<node TEXT="BOOT/BIOS general concepts" ID="ID_889843472" CREATED="1383579939854" MODIFIED="1422581095108"><richcontent TYPE="NOTE">
+<node TEXT="BOOT/BIOS general concepts" FOLDED="true" ID="ID_889843472" CREATED="1383579939854" MODIFIED="1422581095108"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3386,16 +3491,16 @@ field-separator'></span><![endif]-->
 <node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_786279946" CREATED="1384324603695" MODIFIED="1384324621786" LINK="../GSM_document_base/2013transfer.ppt"/>
 </node>
 <node TEXT="System Baseline Document deployment" ID="ID_7597354" CREATED="1383579966664" MODIFIED="1383579981015"/>
-<node TEXT="Vass Web Introduction" ID="ID_113867881" CREATED="1384478895244" MODIFIED="1384478910081">
+<node TEXT="Vass Web Introduction" FOLDED="true" ID="ID_113867881" CREATED="1384478895244" MODIFIED="1384478910081">
 <node TEXT="1.VASS VB Basic" ID="ID_245942675" CREATED="1384478911227" MODIFIED="1384478984290" LINK="../GSM_document_base/VASS-VB%20Basic.ppt"/>
 <node TEXT="2.VASS VB User&apos;s Manual" ID="ID_1936085051" CREATED="1384478912857" MODIFIED="1384479004036" LINK="../GSM_document_base/Vass-Vb%20user&apos;s%20manual.doc"/>
 </node>
-<node TEXT="CPI deployment" ID="ID_14815191" CREATED="1384479069114" MODIFIED="1384479104527">
+<node TEXT="CPI deployment" FOLDED="true" ID="ID_14815191" CREATED="1384479069114" MODIFIED="1384479104527">
 <node TEXT="1.CPI at GSM BTS" ID="ID_961294139" CREATED="1384479108326" MODIFIED="1384479174574" LINK="../GSM_document_base/CPI_at_GSM_BTS_Jun2013_RevPA11.ppt"/>
 <node TEXT="2.Flow of CPI in GSM BTS" ID="ID_147428094" CREATED="1384479110393" MODIFIED="1384479181329" LINK="../GSM_document_base/Flow_CPI_in_GSM_BTS_XFT.doc"/>
 </node>
 <node TEXT="&#x5982;&#x4f55;&#x64cd;&#x4f5c;TRS-3&#x6a21;&#x578b;" ID="ID_230718592" CREATED="1384759699248" MODIFIED="1384759735820" LINK="../GSM_document_base/&#x4f7f;&#x7528;TRS-3&#x6a21;&#x578b;.doc"/>
-<node ID="ID_278498866" CREATED="1384831941649" MODIFIED="1422581092660"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_278498866" CREATED="1384831941649" MODIFIED="1422581092660"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3463,7 +3568,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="TRS-3 System Model CR Merging" ID="ID_157308363" CREATED="1384916247807" MODIFIED="1384916259426" LINK="../GSM_document_base/SDE/4_00021-FEA2028517_D%5B1%5D.doc"/>
 <node TEXT="Workflows of TRS-3 System Model" ID="ID_1403334435" CREATED="1384916282725" MODIFIED="1384916317882" LINK="../GSM_document_base/SDE/7_00021-FEA%25202028517_A%5B1%5D.doc"/>
-<node TEXT="General Specification of SW Architecture" ID="ID_276055745" CREATED="1384916336751" MODIFIED="1388135008206" LINK="../GSM_document_base/33_15502-HRB10510_EN_E_PDFV1R5.pdf">
+<node TEXT="General Specification of SW Architecture" FOLDED="true" ID="ID_276055745" CREATED="1384916336751" MODIFIED="1388135008206" LINK="../GSM_document_base/33_15502-HRB10510_EN_E_PDFV1R5.pdf">
 <icon BUILTIN="100%"/>
 <node TEXT="&#x9605;&#x8bfb;&#x6587;&#x6863;&#x65f6;&#x7684;&#x95ee;&#x9898;" ID="ID_1970421327" CREATED="1385350151997" MODIFIED="1388468425471">
 <icon BUILTIN="help"/>
@@ -3488,7 +3593,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="BTS_CI_Delivery_Process_and_Test_Results" ID="ID_1407305291" CREATED="1384909634340" MODIFIED="1384909833221" LINK="../GSM_document_base/BTS%20%20CI_presentation_jenkins.ppt"/>
 </node>
-<node TEXT="System Baseline" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1398391977291" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
+<node TEXT="System Baseline" FOLDED="true" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1398391977291" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3510,10 +3615,10 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x3010;RC SWPS&#x3011;" ID="ID_154533239" CREATED="1387175630689" MODIFIED="1403675242523" LINK="../GSM_document_base/Baseline/PS_RCSW.pdf">
+<node TEXT="&#x3010;RC SWPS&#x3011;" FOLDED="true" ID="ID_154533239" CREATED="1387175630689" MODIFIED="1403675242523" LINK="../GSM_document_base/Baseline/PS_RCSW.pdf">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
-<node TEXT="SWPC&#x4e2d;&#x53c2;&#x8003;&#x7684;&#x4e00;&#x4e9b;&#x91cd;&#x8981;&#x6587;&#x6863;" ID="ID_1604794897" CREATED="1387175643069" MODIFIED="1387175680910">
+<node TEXT="SWPC&#x4e2d;&#x53c2;&#x8003;&#x7684;&#x4e00;&#x4e9b;&#x91cd;&#x8981;&#x6587;&#x6863;" FOLDED="true" ID="ID_1604794897" CREATED="1387175643069" MODIFIED="1387175680910">
 <node TEXT="IWD RC" ID="ID_1471316308" CREATED="1387175693130" MODIFIED="1387175696110"/>
 <node TEXT="GD ConfRadio" ID="ID_945427114" CREATED="1387175696540" MODIFIED="1387344505839" LINK="../GSM_document_base/111_1551-HRB10521_EN_H_PDFV1R5.pdf"><richcontent TYPE="NOTE">
 
@@ -3540,7 +3645,7 @@ field-separator'></span><![endif]-->
 <node TEXT="FD RFD" ID="ID_1296544815" CREATED="1387375038322" MODIFIED="1387375044001"/>
 <node TEXT="FD RC Common" ID="ID_5100759" CREATED="1387434578824" MODIFIED="1387434583095"/>
 </node>
-<node TEXT="RC SW Package&#x4e2d;&#x7684;&#x51e0;&#x4e2a;System Class" ID="ID_1048364772" CREATED="1387354211941" MODIFIED="1387355472292"><richcontent TYPE="NOTE">
+<node TEXT="RC SW Package&#x4e2d;&#x7684;&#x51e0;&#x4e2a;System Class" FOLDED="true" ID="ID_1048364772" CREATED="1387354211941" MODIFIED="1387355472292"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3553,8 +3658,8 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x3010;SW Package&#x3011;RC" ID="ID_1906325287" CREATED="1387354232272" MODIFIED="1387519302914">
-<node TEXT="SWP RC&#x7684;&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x548c;&#x521d;&#x59cb;&#x5316;" ID="ID_1155637546" CREATED="1387519087609" MODIFIED="1388133535374"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;SW Package&#x3011;RC" FOLDED="true" ID="ID_1906325287" CREATED="1387354232272" MODIFIED="1387519302914">
+<node TEXT="SWP RC&#x7684;&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x548c;&#x521d;&#x59cb;&#x5316;" FOLDED="true" ID="ID_1155637546" CREATED="1387519087609" MODIFIED="1388133535374"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3668,7 +3773,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="CO_TxPath" ID="ID_1649036841" CREATED="1387354234262" MODIFIED="1387354241282"/>
 <node TEXT="CO_RxPath" ID="ID_1819218090" CREATED="1387354241542" MODIFIED="1387354245472"/>
-<node TEXT="HWU_RX" ID="ID_249141255" CREATED="1387354245822" MODIFIED="1387519330359"><richcontent TYPE="NOTE">
+<node TEXT="HWU_RX" FOLDED="true" ID="ID_249141255" CREATED="1387354245822" MODIFIED="1387519330359"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3726,7 +3831,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="HWU_RC" ID="ID_457005700" CREATED="1387354252142" MODIFIED="1387435886207"><richcontent TYPE="NOTE">
+<node TEXT="HWU_RC" FOLDED="true" ID="ID_457005700" CREATED="1387354252142" MODIFIED="1387435886207"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3902,7 +4007,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="&#x3010;RCSW IWD&#x3011;" ID="ID_167000299" CREATED="1403675201982" MODIFIED="1403675271175" LINK="../GSM_document_base/Baseline/IWD_RC_102_15519-CNH201343_01_EN_AH_PDFV1R4.pdf"/>
 <node TEXT="&#x3010;CREC SWPS&#x3011;" ID="ID_547937170" CREATED="1407805357019" MODIFIED="1407805404881" LINK="../GSM_document_base/Baseline/SWPS_CREC_14_10261-HRB10521_EN_BS_PDFV1R4.pdf"/>
-<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1399194158085" LINK="../GSM_document_base/Baseline/GD_General_Specification_of_SW_Architecture.pdf">
+<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" FOLDED="true" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1399194158085" LINK="../GSM_document_base/Baseline/GD_General_Specification_of_SW_Architecture.pdf">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
@@ -3953,13 +4058,13 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="TRS-3&#x67b6;&#x6784;&#x4e2d;&#x7684;&#x4e00;&#x4e9b;&#x8f6f;&#x4ef6;&#x673a;&#x5236;" ID="ID_353377754" CREATED="1387420004191" MODIFIED="1387420096136">
+<node TEXT="TRS-3&#x67b6;&#x6784;&#x4e2d;&#x7684;&#x4e00;&#x4e9b;&#x8f6f;&#x4ef6;&#x673a;&#x5236;" FOLDED="true" ID="ID_353377754" CREATED="1387420004191" MODIFIED="1387420096136">
 <node TEXT="IDB&#x673a;&#x5236;" ID="ID_20131602" CREATED="1387420042743" MODIFIED="1387420053623"/>
 <node TEXT="ODB&#x673a;&#x5236;" ID="ID_877334884" CREATED="1387420044923" MODIFIED="1387420047413"/>
 <node TEXT="Monitor&#x673a;&#x5236;" ID="ID_1257137299" CREATED="1387420060683" MODIFIED="1387420064954"/>
 <node TEXT="SE&#x673a;&#x5236;" ID="ID_650542790" CREATED="1387420070385" MODIFIED="1387420073795"/>
 <node TEXT="DataBase&#x673a;&#x5236;" ID="ID_516800674" CREATED="1387421189631" MODIFIED="1387421207341"/>
-<node TEXT="SW_Manager&#x673a;&#x5236;" ID="ID_59229087" CREATED="1387783212088" MODIFIED="1387783231709">
+<node TEXT="SW_Manager&#x673a;&#x5236;" FOLDED="true" ID="ID_59229087" CREATED="1387783212088" MODIFIED="1387783231709">
 <node TEXT="LocalSW_Manager" ID="ID_1562408744" CREATED="1387783254839" MODIFIED="1387783498592"><richcontent TYPE="NOTE">
 
 <html>
@@ -3991,7 +4096,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388639052963">
+<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388639052963">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
@@ -4009,12 +4114,12 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 <node TEXT="Introduction" ID="ID_555475657" CREATED="1388382436473" MODIFIED="1388382444419"/>
-<node TEXT="System Background" ID="ID_1726562593" CREATED="1388382444713" MODIFIED="1388382449679">
+<node TEXT="System Background" FOLDED="true" ID="ID_1726562593" CREATED="1388382444713" MODIFIED="1388382449679">
 <node TEXT="GSM Functional Model" ID="ID_1338661875" CREATED="1388390090770" MODIFIED="1388390097392"/>
 <node TEXT="TRS-3 Functional Model" ID="ID_1490919577" CREATED="1388390100125" MODIFIED="1391998990606"/>
 <node TEXT="Managed Object Model" ID="ID_1405598396" CREATED="1388390107367" MODIFIED="1388390122325"/>
 </node>
-<node TEXT="Architectural Approaches" ID="ID_294880272" CREATED="1388382452979" MODIFIED="1388389463370"><richcontent TYPE="NOTE">
+<node TEXT="Architectural Approaches" FOLDED="true" ID="ID_294880272" CREATED="1388382452979" MODIFIED="1388389463370"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4027,7 +4132,7 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="Fundamental concepts" ID="ID_1042843762" CREATED="1388388477779" MODIFIED="1388389539959"><richcontent TYPE="NOTE">
+<node TEXT="Fundamental concepts" FOLDED="true" ID="ID_1042843762" CREATED="1388388477779" MODIFIED="1388389539959"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4056,7 +4161,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="FuncType" ID="ID_273076175" CREATED="1388382882265" MODIFIED="1388391273001"><richcontent TYPE="NOTE">
+<node TEXT="FuncType" FOLDED="true" ID="ID_273076175" CREATED="1388382882265" MODIFIED="1388391273001"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4188,7 +4293,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="Replaceable Unit" ID="ID_822794183" CREATED="1388387893755" MODIFIED="1388393222040"><richcontent TYPE="NOTE">
+<node TEXT="Replaceable Unit" FOLDED="true" ID="ID_822794183" CREATED="1388387893755" MODIFIED="1388393222040"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4238,7 +4343,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Active RU" ID="ID_882765322" CREATED="1388393404813" MODIFIED="1388393409381">
+<node TEXT="Active RU" FOLDED="true" ID="ID_882765322" CREATED="1388393404813" MODIFIED="1388393409381">
 <node TEXT="Main RU" ID="ID_966926760" CREATED="1388392168717" MODIFIED="1388393120543"><richcontent TYPE="NOTE">
 
 <html>
@@ -4358,7 +4463,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="RE interface Objects(RIO)" ID="ID_211149942" CREATED="1388388060505" MODIFIED="1388388069659"/>
 </node>
-<node TEXT="Architectural Patterns" ID="ID_478317494" CREATED="1388388690935" MODIFIED="1388389831573"><richcontent TYPE="NOTE">
+<node TEXT="Architectural Patterns" FOLDED="true" ID="ID_478317494" CREATED="1388388690935" MODIFIED="1388389831573"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4394,7 +4499,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Inter-process communication" ID="ID_1406902538" CREATED="1388388738876" MODIFIED="1388646227608">
+<node TEXT="Inter-process communication" FOLDED="true" ID="ID_1406902538" CREATED="1388388738876" MODIFIED="1388646227608">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
@@ -4703,7 +4808,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Database" ID="ID_1855370067" CREATED="1388388809115" MODIFIED="1388649582782">
+<node TEXT="Database" FOLDED="true" ID="ID_1855370067" CREATED="1388388809115" MODIFIED="1388649582782">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
@@ -4900,7 +5005,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="Fault_Handling&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_1149985121" CREATED="1392699456978" MODIFIED="1403675557048"><richcontent TYPE="NOTE">
+<node TEXT="Fault_Handling&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_1149985121" CREATED="1392699456978" MODIFIED="1403675557048"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4959,7 +5064,7 @@ field-separator'></span><![endif]-->
 <node TEXT="&#x3010;LOMP SWPS&#x3011;" ID="ID_919889611" CREATED="1403611488603" MODIFIED="1403611507495" LINK="../GSM_document_base/Baseline/PS_LOMP_5_10261-HRB10521_EN_AU_PDFV1R5.pdf"/>
 <node TEXT="&#x3010;FD&#x3011;Synchronization" ID="ID_740518771" CREATED="1401929650338" MODIFIED="1401929715744" LINK="../GSM_document_base/Baseline/FD_Synchronisation.pdf"/>
 <node TEXT="&#x3010;FS&#x3011;Synchronization" ID="ID_137807292" CREATED="1401930326914" MODIFIED="1401930343459" LINK="../GSM_document_base/Baseline/FS_Synchronization.pdf"/>
-<node TEXT="DataBase&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_1407104163" CREATED="1403610918752" MODIFIED="1403657965098">
+<node TEXT="DataBase&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_1407104163" CREATED="1403610918752" MODIFIED="1403657965098">
 <node TEXT="Database_Description_for_GSM_RBS" ID="ID_684589007" CREATED="1403610928901" MODIFIED="1403611111152" LINK="../GSM_document_base/Baseline/Database_Description_for_GSM_RBS_1_19818-HRB10521_EN_CU_PDFV1R4.pdf"/>
 <node TEXT="Format Description Radio parameters RU DB in RBS6000" ID="ID_18813979" CREATED="1403611181474" MODIFIED="1403611195026" LINK="../GSM_document_base/Baseline/Format_Description_Radio_parameters_RU_DB_in_RBS6000%201_19001-CNH201570_01_EN_E_PDFV1R2.pdf"/>
 <node TEXT="Format Description of RU DB in Core based products" ID="ID_1885761244" CREATED="1403611264002" MODIFIED="1403611351019" LINK="../GSM_document_base/Baseline/Format_Description_of_RU_DB_in_Core_based_products_1_19001-HRB10513_EN_Y_PDFV1R2.pdf"><richcontent TYPE="NOTE">
@@ -5015,7 +5120,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6d41;&#x7a0b;&#x76f8;&#x5173;&#x6587;&#x6863;" ID="ID_871788646" CREATED="1399343768007" MODIFIED="1421211575084">
+<node TEXT="&#x6d41;&#x7a0b;&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_871788646" CREATED="1399343768007" MODIFIED="1421211575084">
 <node TEXT="GSM&#x6d41;&#x7a0b;&#x76f8;&#x5173;&#x7684;&#x94fe;&#x63a5;&#x6587;&#x6863;" ID="ID_922410106" CREATED="1399343788251" MODIFIED="1421211575081" LINK="../GSM_document_base/GSM_Web_Introduction.ppt"><richcontent TYPE="NOTE">
 
 <html>
@@ -5034,7 +5139,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="WorkShop&#x6750;&#x6599;" ID="ID_349741874" CREATED="1399346507677" MODIFIED="1399511846093">
+<node TEXT="WorkShop&#x6750;&#x6599;" FOLDED="true" ID="ID_349741874" CREATED="1399346507677" MODIFIED="1399511846093">
 <node TEXT="Daninal&#x5173;&#x4e8e;BTS_Overview&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x6863;" ID="ID_1185749508" CREATED="1395047300671" MODIFIED="1395047375861" LINK="../GSM_document_base/RBS_Presentaion_PA10.ppt"><richcontent TYPE="NOTE">
 
 <html>
@@ -5049,8 +5154,8 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Krister&#x7684;&#x7cfb;&#x5217;&#x8bb2;&#x5ea7;" ID="ID_1294398898" CREATED="1402640681716" MODIFIED="1402640700833">
-<node TEXT="RBS6000_Radio_Configurations" ID="ID_521481657" CREATED="1399346538207" MODIFIED="1399441671710" LINK="../GSM_document_base/RBS_6000_Radio_Configurations.ppt"><richcontent TYPE="NOTE">
+<node TEXT="Krister&#x7684;&#x7cfb;&#x5217;&#x8bb2;&#x5ea7;" FOLDED="true" ID="ID_1294398898" CREATED="1402640681716" MODIFIED="1402640700833">
+<node TEXT="RBS6000_Radio_Configurations" FOLDED="true" ID="ID_521481657" CREATED="1399346538207" MODIFIED="1399441671710" LINK="../GSM_document_base/RBS_6000_Radio_Configurations.ppt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5142,14 +5247,14 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="Joakim&#x7684;&#x7cfb;&#x5217;&#x8bb2;&#x5ea7;" ID="ID_698177323" CREATED="1402640719251" MODIFIED="1402640723907">
+<node TEXT="Joakim&#x7684;&#x7cfb;&#x5217;&#x8bb2;&#x5ea7;" FOLDED="true" ID="ID_698177323" CREATED="1402640719251" MODIFIED="1402640723907">
 <node TEXT="Support_for_RBS6000&amp;Combined_Cell" ID="ID_1732281451" CREATED="1402640804397" MODIFIED="1402640853817" LINK="../GSM_document_base/RBS6000_TRX2MCTR_CombindeCell.pptx"/>
 <node TEXT="VAMOS" ID="ID_705733594" CREATED="1402640871511" MODIFIED="1402640882853" LINK="../GSM_document_base/VAMOS.pptx"/>
 <node TEXT="TempHandling_BCCH_Power_Saving" ID="ID_530875431" CREATED="1402640923915" MODIFIED="1402641154736" LINK="../GSM_document_base/TempHandling_BCCH_PowerSaving.pptx"/>
 <node TEXT="RFPM" ID="ID_634788773" CREATED="1402644577585" MODIFIED="1402644613560" LINK="../GSM_document_base/RF_Power_Management_PLM_20130610.ppt"/>
 </node>
 </node>
-<node TEXT="ABIS&#x63a5;&#x53e3;" ID="ID_103650854" CREATED="1458627069900" MODIFIED="1458627077310">
+<node TEXT="ABIS&#x63a5;&#x53e3;" FOLDED="true" ID="ID_103650854" CREATED="1458627069900" MODIFIED="1458627077310">
 <node TEXT="Part1--Model" ID="ID_255985264" CREATED="1458627170645" MODIFIED="1458627488852" LINK="../GSM_document_base/g12r13p1_G14B.pdf"><richcontent TYPE="NOTE">
 
 <html>
@@ -5180,7 +5285,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="GSM Common" POSITION="left" ID="ID_1415846475" CREATED="1393297703596" MODIFIED="1393297710340">
+<node TEXT="GSM Common" FOLDED="true" POSITION="left" ID="ID_1415846475" CREATED="1393297703596" MODIFIED="1393297710340">
 <edge COLOR="#00007c"/>
 <node TEXT="GSM BTS&#x7684;&#x4ea7;&#x54c1;&#x7ed3;&#x6784;" ID="ID_238775065" CREATED="1393297717935" MODIFIED="1395124881284" LINK="../MiscDocuments/GSM_product_structure_introduction.msg"><richcontent TYPE="NOTE">
 

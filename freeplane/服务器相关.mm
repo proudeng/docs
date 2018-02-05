@@ -87,7 +87,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql install" FOLDED="true" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
+<node TEXT="mysql install" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -798,7 +798,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4f7f;&#x7528;ssh&#x5bc6;&#x94a5;&#x516c;&#x94a5;&#x65e0;&#x5bc6;&#x7801;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1706008408" CREATED="1370313058627" MODIFIED="1370333673369" LINK="../pub/ssh-key.htm"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;ssh&#x5bc6;&#x94a5;&#x516c;&#x94a5;&#x65e0;&#x5bc6;&#x7801;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;" ID="ID_1706008408" CREATED="1370313058627" MODIFIED="1517532810705" LINK="../pub/ssh-key.htm"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -806,28 +806,16 @@
   </head>
   <body>
     <p>
-      &#x76ee;&#x524d;&#x6bcf;&#x6b21;&#x767b;&#x5f55;vps.proudj.com&#x6216;&#x8005;&#x516c;&#x53f8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x7684;&#x8bdd;&#xff0c;&#x90fd;&#x9700;&#x8981;&#x8f93;&#x5165;&#x5bc6;&#x7801;&#x3002;&#x5176;&#x5b9e;ssh&#x662f;&#x652f;&#x6301;&#x4e0d;&#x540c;&#x7684;&#x767b;&#x5f55;&#x65b9;&#x5f0f;&#x7684;&#x3002;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x5bc6;&#x94a5;&#x516c;&#x94a5;&#x7684;&#x65b9;&#x5f0f;&#xff0c;&#x4e0d;&#x7528;&#x8f93;&#x5165;&#x5bc6;&#x7801;&#x76f4;&#x63a5;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x3002;
+      &#30446;&#21069;&#27599;&#27425;&#30331;&#24405;vps.proudj.com&#25110;&#32773;&#20844;&#21496;&#30340;&#26381;&#21153;&#22120;&#30340;&#35805;&#65292;&#37117;&#38656;&#35201;&#36755;&#20837;&#23494;&#30721;&#12290;&#20854;&#23454;ssh&#26159;&#25903;&#25345;&#19981;&#21516;&#30340;&#30331;&#24405;&#26041;&#24335;&#30340;&#12290;&#21487;&#20197;&#20351;&#29992;&#23494;&#38053;&#20844;&#38053;&#30340;&#26041;&#24335;&#65292;&#19981;&#29992;&#36755;&#20837;&#23494;&#30721;&#30452;&#25509;&#30331;&#24405;&#26381;&#21153;&#22120;&#12290;
     </p>
     <p>
-      &#x8fd9;&#x6837;&#x4f1a;&#x6bd4;&#x8f83;&#x7684;&#x65b9;&#x4fbf;&#x4e00;&#x70b9;&#xff0c;&#x867d;&#x7136;&#x53ea;&#x662f;&#x4e00;&#x70b9;&#x70b9;&#x3002;
+      &#36825;&#26679;&#20250;&#27604;&#36739;&#30340;&#26041;&#20415;&#19968;&#28857;&#65292;&#34429;&#28982;&#21482;&#26159;&#19968;&#28857;&#28857;&#12290;
     </p>
     <p>
-      &#x6211;&#x7684;&#x8bbe;&#x7f6e;&#x53c2;&#x8003;&#x4e86;&#x9644;&#x4ef6;&#x91cc;&#x9762;&#x4ecb;&#x7ecd;&#x7684;&#x5185;&#x5bb9;&#x3002;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x70b9;&#x51fb;&#x9644;&#x4ef6;&#x67e5;&#x770b;&#xff0c;&#x6216;&#x8005;&#x4e5f;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x8bbf;&#x95ee;&#x7f51;&#x7edc;&#x516c;&#x5171;&#x7684;&#x8def;&#x5f84;&#xff1a;
+      &#25105;&#30340;&#35774;&#32622;&#21442;&#32771;&#20102;&#38468;&#20214;&#37324;&#38754;&#20171;&#32461;&#30340;&#20869;&#23481;&#12290;&#21487;&#20197;&#30452;&#25509;&#28857;&#20987;&#38468;&#20214;&#26597;&#30475;&#65292;&#25110;&#32773;&#20063;&#21487;&#20197;&#30452;&#25509;&#35775;&#38382;&#32593;&#32476;&#20844;&#20849;&#30340;&#36335;&#24452;&#65306;
     </p>
     <p>
-      <b><font size="3" color="#3300cc">http://pub.proudj.com/ssh-key.htm</font></b>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#x5173;&#x4e8e;ssh&#x7684;&#x5bc6;&#x94a5;&#x516c;&#x94a5;&#x7684;&#x539f;&#x7406;&#xff0c;&#x8bf7;&#x53c2;&#x9605;&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x4ecb;&#x7ecd;&#x3002;
-    </p>
-    <p>
-      &#x5173;&#x4e8e;&#x64cd;&#x4f5c;&#x6d41;&#x7a0b;&#xff0c;&#x8bf7;&#x53c2;&#x9605;&#x5b50;&#x7ed3;&#x70b9;&#x5185;&#x5bb9;&#xff0c;&#x6309;&#x7167;1&#x548c;2&#x7684;&#x4ecb;&#x7ecd;&#xff0c;&#x5b8c;&#x6210;&#x5bc6;&#x94a5;&#x7684;&#x751f;&#x6210;&#x548c;&#x914d;&#x7f6e;&#xff0c;&#x5c31;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x5bc6;&#x94a5;&#x767b;&#x5f55;&#x4e86;&#x3002;
+      <b><font color="#3300cc" size="3">http://pub.proudj.com/ssh-key.htm</font></b>
     </p>
     <p>
       
@@ -836,22 +824,34 @@
       
     </p>
     <p>
-      &#x767b;&#x5f55;&#x64cd;&#x4f5c;&#x7684;&#x6d41;&#x7a0b;&#x8ddf;&#x539f;&#x5148;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x7684;&#x4e00;&#x6837;&#x3002;
+      &#20851;&#20110;ssh&#30340;&#23494;&#38053;&#20844;&#38053;&#30340;&#21407;&#29702;&#65292;&#35831;&#21442;&#38405;&#32593;&#32476;&#19978;&#30340;&#20171;&#32461;&#12290;
     </p>
     <p>
-      &#x6bd4;&#x5982;&#xff0c;&#x914d;&#x7f6e;&#x5b8c;&#x4e4b;&#x540e;&#xff0c;
+      &#20851;&#20110;&#25805;&#20316;&#27969;&#31243;&#65292;&#35831;&#21442;&#38405;&#23376;&#32467;&#28857;&#20869;&#23481;&#65292;&#25353;&#29031;1&#21644;2&#30340;&#20171;&#32461;&#65292;&#23436;&#25104;&#23494;&#38053;&#30340;&#29983;&#25104;&#21644;&#37197;&#32622;&#65292;&#23601;&#21487;&#20197;&#20351;&#29992;&#23494;&#38053;&#30331;&#24405;&#20102;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      &#x4f7f;&#x7528; ssh test@server_ip_address&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#xff0c;&#x7b2c;&#x4e00;&#x6b21;&#x767b;&#x5f55;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x7cfb;&#x7edf;&#x4f1a;&#x8981;&#x6c42;&#x4f60;&#x8f93;&#x5165;&#x5b50;&#x8282;&#x70b9;1&#x4e2d;&#x6240;&#x8bbe;&#x7f6e;&#x7684;&#x201c;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x201d;&#xff0c;&#x7136;&#x540e;&#x624d;&#x80fd;&#x767b;&#x5f55;&#x3002;
+      
     </p>
     <p>
-      &#x4e00;&#x65e6;&#x4f7f;&#x7528;&#x201d;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x201c;&#x767b;&#x5f55;&#x6210;&#x529f;&#x4e4b;&#x540e;&#xff0c;
+      &#30331;&#24405;&#25805;&#20316;&#30340;&#27969;&#31243;&#36319;&#21407;&#20808;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#19968;&#26679;&#12290;
     </p>
     <p>
-      &#x4e0b;&#x4e00;&#x6b21;&#x4f7f;&#x7528;ssh test@server_ip_address&#x547d;&#x4ee4;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5c31;&#x80fd;&#x591f;&#x76f4;&#x63a5;&#x767b;&#x5f55;&#x4e86;&#xff0c;&#x4e0d;&#x9700;&#x8981;&#x6211;&#x4eec;&#x8f93;&#x4ec0;&#x5bc6;&#x7801;&#x6216;&#x8005;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x4e86;&#x3002;
+      &#27604;&#22914;&#65292;&#37197;&#32622;&#23436;&#20043;&#21518;&#65292;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992; ssh test@server_ip_address&#30331;&#24405;&#26381;&#21153;&#22120;&#65292;&#31532;&#19968;&#27425;&#30331;&#24405;&#30340;&#26102;&#20505;&#65292;&#31995;&#32479;&#20250;&#35201;&#27714;&#20320;&#36755;&#20837;&#23376;&#33410;&#28857;1&#20013;&#25152;&#35774;&#32622;&#30340;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#65292;&#28982;&#21518;&#25165;&#33021;&#30331;&#24405;&#12290;
+    </p>
+    <p>
+      &#19968;&#26086;&#20351;&#29992;&#8221;&#23494;&#30721;&#30701;&#21477;&#8220;&#30331;&#24405;&#25104;&#21151;&#20043;&#21518;&#65292;
+    </p>
+    <p>
+      &#19979;&#19968;&#27425;&#20351;&#29992;ssh test@server_ip_address&#21629;&#20196;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#65292;&#23601;&#33021;&#22815;&#30452;&#25509;&#30331;&#24405;&#20102;&#65292;&#19981;&#38656;&#35201;&#25105;&#20204;&#36755;&#20160;&#23494;&#30721;&#25110;&#32773;&#23494;&#30721;&#30701;&#21477;&#20102;&#12290;
     </p>
   </body>
 </html>
@@ -942,7 +942,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5728;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x5b89;&#x653e;&#x516c;&#x94a5;&#x6587;&#x4ef6;" ID="ID_1102343727" CREATED="1370313960970" MODIFIED="1370326370076">
+<node TEXT="&#x5728;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x5b89;&#x653e;&#x516c;&#x94a5;&#x6587;&#x4ef6;" ID="ID_1102343727" CREATED="1370313960970" MODIFIED="1517533310015">
 <icon BUILTIN="full-2"/>
 <richcontent TYPE="NOTE">
 
@@ -952,31 +952,31 @@
   </head>
   <body>
     <p>
-      &#x4e0a;&#x9762;&#x7684;&#x7ed3;&#x70b9;&#x8ba8;&#x8bba;&#x4e86;&#x5982;&#x4f55;&#x751f;&#x6210;&#x516c;&#x94a5;&#x548c;&#x79c1;&#x94a5;&#x3002;
+      &#19978;&#38754;&#30340;&#32467;&#28857;&#35752;&#35770;&#20102;&#22914;&#20309;&#29983;&#25104;&#20844;&#38053;&#21644;&#31169;&#38053;&#12290;
     </p>
     <p>
-      &#x5728;&#x516c;&#x94a5;&#x548c;&#x79c1;&#x94a5;&#x751f;&#x6210;&#x4e4b;&#x540e;&#xff0c;&#x6211;&#x4eec;&#x8981;&#x5b9e;&#x73b0;&#x4f7f;&#x7528;&#x516c;&#x94a5;&#x79c1;&#x94a5;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x8fd9;&#x4e2a;&#x529f;&#x80fd;&#xff0c;&#x6240;&#x9700;&#x8981;&#x505a;&#x7684;&#x552f;&#x4e00;&#x7684;&#x4e8b;&#x60c5;&#x5c31;&#x662f;&#x5c06;&#x516c;&#x94a5;&#x62f7;&#x8d1d;&#x5e76;&#x4e14;&#x653e;&#x7f6e;&#x5230;&#x6211;&#x4eec;<b><font size="4" color="#cc0066">&#x60f3;&#x8981;&#x767b;&#x5f55;&#x5230;&#x7684;&#x76ee;&#x6807;&#x670d;&#x52a1;&#x5668;</font></b>&#x7684;&#x5408;&#x9002;&#x7684;&#x76ee;&#x5f55;&#x4e0b;&#x3002;
+      &#22312;&#20844;&#38053;&#21644;&#31169;&#38053;&#29983;&#25104;&#20043;&#21518;&#65292;&#25105;&#20204;&#35201;&#23454;&#29616;&#20351;&#29992;&#20844;&#38053;&#31169;&#38053;&#30331;&#24405;&#26381;&#21153;&#22120;&#36825;&#20010;&#21151;&#33021;&#65292;&#25152;&#38656;&#35201;&#20570;&#30340;&#21807;&#19968;&#30340;&#20107;&#24773;&#23601;&#26159;&#23558;&#20844;&#38053;&#25335;&#36125;&#24182;&#19988;&#25918;&#32622;&#21040;&#25105;&#20204;<b><font color="#cc0066" size="4">&#24819;&#35201;&#30331;&#24405;&#21040;&#30340;&#30446;&#26631;&#26381;&#21153;&#22120;</font></b>&#30340;&#21512;&#36866;&#30340;&#30446;&#24405;&#19979;&#12290;
     </p>
     <p>
-      &#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x662f;&#xff0c;&#x6211;&#x4eec;&#x8fd9;&#x91cc;&#x8981;&#x505a;&#x7684;&#x64cd;&#x4f5c;&#xff0c;&#x662f;&#x5c06;&#x5728;<b><font size="4" color="#cc0066">&#x5ba2;&#x6237;&#x7aef;</font></b>&#x4e0a;&#x751f;&#x6210;&#x7684;&#x516c;&#x94a5;&#x6587;&#x4ef6;&#x62f7;&#x8d1d;&#x5230;<b><font size="4" color="#cc0066">&#x670d;&#x52a1;&#x5668;</font></b>&#x7aef;&#x7684;&#x673a;&#x5668;&#x4e0a;&#x3002;
-    </p>
-    <p>
-      
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#25105;&#20204;&#36825;&#37324;&#35201;&#20570;&#30340;&#25805;&#20316;&#65292;&#26159;&#23558;&#22312;<b><font color="#cc0066" size="4">&#23458;&#25143;&#31471;</font></b>&#19978;&#29983;&#25104;&#30340;&#20844;&#38053;&#25991;&#20214;&#25335;&#36125;&#21040;<b><font color="#cc0066" size="4">&#26381;&#21153;&#22120;</font></b>&#31471;&#30340;&#26426;&#22120;&#19978;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      &#x5177;&#x4f53;&#x6765;&#x8bf4;&#xff0c;&#x662f;&#x653e;&#x5728;&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x81ea;&#x5df1;&#x7684;home&#x76ee;&#x5f55;&#x4e0b;&#x3002;
+      
     </p>
     <p>
-      &#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x662f;&#xff0c;&#x8fd9;&#x91cc;&#x8bf4;&#x7684;&#x201c;&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x201d;&#x662f;&#x6307;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x7684;&#x7528;&#x6237;&#x540d;&#xff0c;&#x6bd4;&#x5982;&#x8bf4;&#xff0c;&#x5982;&#x679c;&#x6211;&#x4eec;&#x5728;&#x5ba2;&#x6237;&#x673a;&#x4e0a;&#x662f;&#x901a;&#x8fc7;&#x5982;&#x901a;&#x8fc7; <font size="4" color="#ff0066">ssh test@server_ip_address</font>&#x8fd9;&#x4e2a;&#x547d;&#x4ee4;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x7684;&#xff0c;&#x90a3;&#x4e48;&#x8fd9;&#x4e2a;&#x516c;&#x94a5;&#x5c31;&#x8981;&#x914d;&#x7f6e;&#x5230;&#x670d;&#x52a1;&#x5668;&#x7684;test&#x7528;&#x6237;&#x7684;home&#x76ee;&#x5f55;&#x4e0b;&#x9762;&#x53bb;&#x3002;
+      &#20855;&#20307;&#26469;&#35828;&#65292;&#26159;&#25918;&#22312;&#30331;&#24405;&#29992;&#25143;&#21517;&#33258;&#24049;&#30340;home&#30446;&#24405;&#19979;&#12290;
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#36825;&#37324;&#35828;&#30340;&#8220;&#30331;&#24405;&#29992;&#25143;&#21517;&#8221;&#26159;&#25351;&#30331;&#24405;&#26381;&#21153;&#22120;&#31471;&#30340;&#29992;&#25143;&#21517;&#65292;&#27604;&#22914;&#35828;&#65292;&#22914;&#26524;&#25105;&#20204;&#22312;&#23458;&#25143;&#26426;&#19978;&#26159;&#36890;&#36807;&#22914;&#36890;&#36807; <font color="#ff0066" size="4">ssh test@server_ip_address</font>&#36825;&#20010;&#21629;&#20196;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#65292;&#37027;&#20040;&#36825;&#20010;&#20844;&#38053;&#23601;&#35201;&#37197;&#32622;&#21040;&#26381;&#21153;&#22120;&#30340;test&#29992;&#25143;&#30340;home&#30446;&#24405;&#19979;&#38754;&#21435;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      &#x5b9e;&#x73b0;&#x8d77;&#x6765;&#x7684;&#x64cd;&#x4f5c;&#x662f;&#xff1a;
+      &#23454;&#29616;&#36215;&#26469;&#30340;&#25805;&#20316;&#26159;&#65306;
     </p>
     <p>
       
@@ -985,7 +985,7 @@
       1.
     </p>
     <p>
-      &#x4ece;&#x5ba2;&#x6237;&#x7aef;&#x673a;&#x5668;&#x4e0a;(&#x4e5f;&#x5c31;&#x662f;&#x751f;&#x6210;&#x5bc6;&#x94a5;&#x7684;&#x673a;&#x5668;&#x4e0a;)&#x5c06;&#x516c;&#x94a5;&#x6587;&#x4ef6;<b><font size="4" color="#336600">id_dsa.pub</font></b>&#x6587;&#x4ef6;&#x62f7;&#x8d1d;&#x5230;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x7684;&#x673a;&#x5668;&#x4e0a;&#x3002;&#x4e00;&#x822c;&#x4f7f;&#x7528;ftp&#x4e0a;&#x4f20;&#x5373;&#x53ef;&#x3002;
+      &#20174;&#23458;&#25143;&#31471;&#26426;&#22120;&#19978;(&#20063;&#23601;&#26159;&#29983;&#25104;&#23494;&#38053;&#30340;&#26426;&#22120;&#19978;)&#23558;&#20844;&#38053;&#25991;&#20214;<b><font color="#336600" size="4">id_dsa.pub</font></b>&#25991;&#20214;&#25335;&#36125;&#21040;&#26381;&#21153;&#22120;&#31471;&#30340;&#26426;&#22120;&#19978;&#12290;&#19968;&#33324;&#20351;&#29992;ftp&#19978;&#20256;&#21363;&#21487;&#12290;
     </p>
     <p>
       
@@ -997,16 +997,13 @@
       2.
     </p>
     <p>
-      &#x5728;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x7684;&#x64cd;&#x4f5c;&#xff1a;&#x516c;&#x94a5;&#x88ab;&#x4e0a;&#x4f20;&#x5230;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x4e4b;&#x540e;&#xff0c;&#x5728;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x7684;&#x7528;&#x6237;home&#x76ee;&#x5f55;&#x4e0b;&#xff0c;&#x521b;&#x5efa;<b><font size="4" color="#336600">~/.ssh</font></b>&#x76ee;&#x5f55;&#xff0c;&#x5982;&#x679c;&#x5b83;&#x672c;&#x6765;&#x4e0d;&#x5b58;&#x5728;&#x7684;&#x8bdd;&#x3002;&#x7136;&#x540e;&#x628a;&#x4e0a;&#x4f20;&#x4e0a;&#x6765;&#x7684;&#x516c;&#x94a5;&#x6587;&#x4ef6;(<b><font size="4" color="#336600">id_dsa.pub</font></b>)&#x653e;&#x5230;&#x8fd9;&#x4e2a;&#x76ee;&#x5f55;&#x4e0b;&#xff0c;&#x6539;&#x540d;&#x4e3a;<b><font size="4" color="#336600">authorized_keys</font></b>&#xff0c;&#x5e76;&#x4e14;&#x628a;&#x5b83;&#x7684;&#x7528;&#x6237;&#x6743;&#x9650;&#x8bbe;&#x6210;<b><font size="4" color="#336600">600</font></b>&#x3002;
-    </p>
-    <p>
-      
+      &#22312;&#26381;&#21153;&#22120;&#31471;&#30340;&#25805;&#20316;&#65306;&#20844;&#38053;&#34987;&#19978;&#20256;&#21040;&#26381;&#21153;&#22120;&#31471;&#20043;&#21518;&#65292;&#22312;&#26381;&#21153;&#22120;&#31471;&#30340;&#29992;&#25143;home&#30446;&#24405;&#19979;&#65292;&#21019;&#24314;<b><font color="#336600" size="4">~/.ssh</font></b>&#30446;&#24405;&#65292;&#22914;&#26524;&#23427;&#26412;&#26469;&#19981;&#23384;&#22312;&#30340;&#35805;&#12290;&#28982;&#21518;&#25226;&#19978;&#20256;&#19978;&#26469;&#30340;&#20844;&#38053;&#25991;&#20214;(<b><font color="#336600" size="4">id_dsa.pub</font></b>)&#25918;&#21040;&#36825;&#20010;&#30446;&#24405;&#19979;&#65292;&#25913;&#21517;&#20026;<b><font color="#336600" size="4">authorized_keys</font></b>&#65292;&#24182;&#19988;&#25226;&#23427;&#30340;&#29992;&#25143;&#26435;&#38480;&#35774;&#25104;<b><font color="#336600" size="4">600</font></b>&#12290;
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node TEXT="keychain&#x7ba1;&#x7406;&#x5bc6;&#x94a5;&#xff0c;&#x5b9e;&#x73b0;&#x5b8c;&#x5168;&#x81ea;&#x52a8;&#x767b;&#x5f55;" FOLDED="true" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1370360188217"><richcontent TYPE="NOTE">
+<node TEXT="keychain&#x7ba1;&#x7406;&#x5bc6;&#x94a5;&#xff0c;&#x5b9e;&#x73b0;&#x5b8c;&#x5168;&#x81ea;&#x52a8;&#x767b;&#x5f55;" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1517533619128"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1014,37 +1011,37 @@
   </head>
   <body>
     <p>
-      &#x8fd9;&#x4e2a;&#x5de5;&#x5177;&#x5b58;&#x5728;&#x7684;&#x7406;&#x7531;&#x662f;&#x5fc5;&#x7136;&#x662f;&#x4e0d;&#x4f7f;&#x7528;&#x8fd9;&#x4e2a;&#x5de5;&#x5177;&#x65f6;&#x6240;&#x56fa;&#x6709;&#x7684;&#x7f3a;&#x9677;&#x548c;&#x4e0d;&#x65b9;&#x4fbf;&#x3002;
+      &#36825;&#20010;&#24037;&#20855;&#23384;&#22312;&#30340;&#29702;&#30001;&#26159;&#24517;&#28982;&#26159;&#19981;&#20351;&#29992;&#36825;&#20010;&#24037;&#20855;&#26102;&#25152;&#22266;&#26377;&#30340;&#32570;&#38519;&#21644;&#19981;&#26041;&#20415;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      &#x5728;&#x4f7f;&#x7528;&#x5bc6;&#x94a5;&#x767b;&#x5f55;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x53ea;&#x8981;&#x8f93;&#x5165;&#x4e00;&#x6b21;&#x201d;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x201d;&#x4e4b;&#x540e;&#xff0c;&#x4ee5;&#x540e;&#x518d;&#x6b21;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x7684;&#x8bdd;&#xff0c;&#x90fd;&#x4e0d;&#x9700;&#x8981;&#x8f93;&#x5165;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#xff0c;&#x80fd;&#x591f;&#x76f4;&#x63a5;&#x767b;&#x5f55;&#x4e86;&#x3002;
+      &#22312;&#20351;&#29992;&#23494;&#38053;&#30331;&#24405;&#30340;&#26102;&#20505;&#65292;&#21482;&#35201;&#36755;&#20837;&#19968;&#27425;&#8221;&#23494;&#30721;&#30701;&#21477;&#8221;&#20043;&#21518;&#65292;&#20197;&#21518;&#20877;&#27425;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#35805;&#65292;&#37117;&#19981;&#38656;&#35201;&#36755;&#20837;&#23494;&#30721;&#30701;&#21477;&#65292;&#33021;&#22815;&#30452;&#25509;&#30331;&#24405;&#20102;&#12290;
     </p>
     <p>
-      &#x4f46;&#x662f;&#xff0c;&#x95ee;&#x9898;&#x662f;&#xff0c;&#x5f53;&#x5ba2;&#x6237;&#x7aef;&#x7684;&#x673a;&#x5668;&#x91cd;&#x542f;&#x4e4b;&#x540e;&#xff0c;&#x6211;&#x4eec;&#x518d;&#x6b21;&#x60f3;&#x8fde;&#x63a5;&#x670d;&#x52a1;&#x5668;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5c31;&#x53c8;&#x9700;&#x8981;&#x518d;&#x6b21;&#x8f93;&#x5165;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x4e86;&#x3002;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      keychain&#x7684;&#x76ee;&#x7684;&#x5c31;&#x662f;&#x8ba9;&#x8fd9;&#x4e2a;&#x64cd;&#x4f5c;&#x7701;&#x6389;&#xff0c;&#x6211;&#x4eec;&#x53ea;&#x8981;&#x8f93;&#x5165;&#x4e00;&#x6b21;&#x201c;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x201d;&#xff0c;&#x7136;&#x540e;&#x6211;&#x4eec;&#x5c31;&#x53ef;&#x4ee5;&#x628a;&#x201c;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x201d;&#x7ed9;&#x5fd8;&#x6389;&#xff0c;&#x65e0;&#x8bba;&#x5ba2;&#x6237;&#x7aef;&#x600e;&#x4e48;&#x91cd;&#x542f;&#xff0c;&#x6211;&#x4eec;&#x4e5f;&#x4e0d;&#x9700;&#x8981;&#x518d;&#x6b21;&#x8f93;&#x5165;&#x5bc6;&#x7801;&#x53bb;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x4e86;&#x3002;
+      &#20294;&#26159;&#65292;&#38382;&#39064;&#26159;&#65292;&#24403;&#23458;&#25143;&#31471;&#30340;&#26426;&#22120;&#37325;&#21551;&#20043;&#21518;&#65292;&#25105;&#20204;&#20877;&#27425;&#24819;&#36830;&#25509;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#65292;&#23601;&#21448;&#38656;&#35201;&#20877;&#27425;&#36755;&#20837;&#23494;&#30721;&#30701;&#21477;&#20102;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      &#x64cd;&#x4f5c;&#x5982;&#x4e0b;&#xff1a;
+      keychain&#30340;&#30446;&#30340;&#23601;&#26159;&#35753;&#36825;&#20010;&#25805;&#20316;&#30465;&#25481;&#65292;&#25105;&#20204;&#21482;&#35201;&#36755;&#20837;&#19968;&#27425;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#65292;&#28982;&#21518;&#25105;&#20204;&#23601;&#21487;&#20197;&#25226;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#32473;&#24536;&#25481;&#65292;&#26080;&#35770;&#23458;&#25143;&#31471;&#24590;&#20040;&#37325;&#21551;&#65292;&#25105;&#20204;&#20063;&#19981;&#38656;&#35201;&#20877;&#27425;&#36755;&#20837;&#23494;&#30721;&#21435;&#30331;&#24405;&#26381;&#21153;&#22120;&#20102;&#12290;
     </p>
     <p>
       
     </p>
     <p>
-      1&#xff0c;
+      &#25805;&#20316;&#22914;&#19979;&#65306;
     </p>
     <p>
-      &#x9996;&#x5148;&#x5207;&#x6362;&#x5230;root&#x7528;&#x6237;&#xff0c;&#x7136;&#x540e;&#x4f7f;&#x7528;<font color="#0000cc" size="3"><b>aptitude install keychain</b></font>&#x547d;&#x4ee4;&#x5b89;&#x88c5;keychain&#x5de5;&#x5177;&#x3002;
+      
+    </p>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#39318;&#20808;&#20999;&#25442;&#21040;root&#29992;&#25143;&#65292;&#28982;&#21518;&#20351;&#29992;<font color="#0000cc" size="3"><b>aptitude install keychain</b></font>&#21629;&#20196;&#23433;&#35013;keychain&#24037;&#20855;&#12290;
     </p>
     <p>
       
@@ -1053,10 +1050,10 @@
       2.
     </p>
     <p>
-      &#x5728;&#x5b89;&#x88c5;&#x5b8c;&#x6210;&#x4e4b;&#x540e;&#xff0c;&#x63a8;&#x51fa;root&#x7528;&#x6237;&#xff0c;&#x8fd8;&#x662f;&#x7528;&#x6211;&#x4eec;&#x5de5;&#x4f5c;&#x65f6;&#x4f7f;&#x7528;&#x7684;&#x7528;&#x6237;&#x767b;&#x5f55;&#xff0c;&#x7136;&#x540e;&#x7f16;&#x8f91;~/.bashrc&#x6587;&#x4ef6;&#xff0c;
+      &#22312;&#23433;&#35013;&#23436;&#25104;&#20043;&#21518;&#65292;&#25512;&#20986;root&#29992;&#25143;&#65292;&#36824;&#26159;&#29992;&#25105;&#20204;&#24037;&#20316;&#26102;&#20351;&#29992;&#30340;&#29992;&#25143;&#30331;&#24405;&#65292;&#28982;&#21518;&#32534;&#36753;~/.bashrc&#25991;&#20214;&#65292;
     </p>
     <p>
-      &#x5728;&#x6587;&#x4ef6;&#x7684;&#x6700;&#x540e;&#x52a0;&#x4e0a;&#x4e00;&#x6bb5;&#x914d;&#x7f6e;&#x4ee3;&#x7801;&#xff1a;
+      &#22312;&#25991;&#20214;&#30340;&#26368;&#21518;&#21152;&#19978;&#19968;&#27573;&#37197;&#32622;&#20195;&#30721;&#65306;
     </p>
     <pre class="bash"><i><font color="#808080"><b>### START-Keychain #### Let  re-use </b></font><b><font color="#c20cb9">ssh-agent</font><font color="#808080"> and/or gpg-agent between logins</font></b></i><b><font color="#0000cc">/usr/bin/keychain </font><font color="#007800">$HOME</font><font color="#0000cc">/.</font><font color="#c20cb9">ssh</font><font color="#0000cc">/id_dsa</font><font color="#7a0874">source</font><font color="#0000cc"> </font><font color="#007800">$HOME</font><font color="#0000cc">/.keychain/</font><font color="#007800">$HOSTNAME</font><font color="#0000cc">-</font><font color="#c20cb9">sh</font><i><font color="#808080">### End-Keychain ###</font></i></b></pre>
     <p>
@@ -1066,7 +1063,7 @@
       
     </p>
     <p>
-      OK&#xff0c;&#x5c31;&#x5b8c;&#x6210;&#x4e86;&#xff01;&#x7136;&#x540e;&#x6211;&#x4eec;&#x4f7f;&#x7528;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x53ea;&#x8981;&#x5728;&#x7b2c;&#x4e00;&#x6b21;&#x767b;&#x5f55;&#x670d;&#x52a1;&#x5668;&#x7684;&#x65f6;&#x5019;&#x8f93;&#x5165;&#x201c;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x201d;&#xff0c;&#x7136;&#x540e;&#x5373;&#x4f7f;&#x5ba2;&#x6237;&#x7aef;&#x91cd;&#x542f;&#xff0c;&#x4e5f;&#x4e0d;&#x7528;&#x518d;&#x6b21;&#x8f93;&#x5165;&#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x4e86;&#x3002;
+      OK&#65292;&#23601;&#23436;&#25104;&#20102;&#65281;&#28982;&#21518;&#25105;&#20204;&#20351;&#29992;&#30340;&#26102;&#20505;&#65292;&#21482;&#35201;&#22312;&#31532;&#19968;&#27425;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#36755;&#20837;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#65292;&#28982;&#21518;&#21363;&#20351;&#23458;&#25143;&#31471;&#37325;&#21551;&#65292;&#20063;&#19981;&#29992;&#20877;&#27425;&#36755;&#20837;&#23494;&#30721;&#30701;&#21477;&#20102;&#12290;
     </p>
   </body>
 </html>
@@ -1122,7 +1119,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="[&#x9644;&#x4ef6;]&#x751f;&#x6210;&#x7684;&#x516c;&#x94a5;&#x6587;&#x4ef6;" FOLDED="true" ID="ID_235730934" CREATED="1370326597673" MODIFIED="1370333664574" LINK="../pub/id_dsa.pub"><richcontent TYPE="NOTE">
+<node TEXT="[&#x9644;&#x4ef6;]&#x751f;&#x6210;&#x7684;&#x516c;&#x94a5;&#x6587;&#x4ef6;" FOLDED="true" ID="ID_235730934" CREATED="1370326597673" MODIFIED="1517533646580" LINK="../pub/id_dsa.pub"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1130,13 +1127,13 @@
   </head>
   <body>
     <p>
-      &#x5bf9;&#x5e94;&#x7684;&#x7f51;&#x7edc;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;&#x4e3a;&#xff1a;
+      &#23545;&#24212;&#30340;&#32593;&#32476;&#25991;&#20214;&#30340;&#36335;&#24452;&#20026;&#65306;
     </p>
     <p>
       
     </p>
     <p>
-      <b><font size="3" color="#0033cc">http://www.pub.proudj.com/id_dsa.pub</font></b>
+      <b><font color="#0033cc" size="3">http://www.pub.proudj.com/id_dsa.pub</font></b>
     </p>
   </body>
 </html>
@@ -1157,7 +1154,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Gnome&#x684c;&#x9762;&#x7684;&#x62a4;&#x773c;&#x8bbe;&#x7f6e;" ID="ID_200361465" CREATED="1393329327644" MODIFIED="1393329404621" LINK="../MiscDocuments/gnome_eye_protect.jpg"><richcontent TYPE="NOTE">
+<node TEXT="Gnome&#x684c;&#x9762;&#x7684;&#x62a4;&#x773c;&#x8bbe;&#x7f6e;" ID="ID_200361465" CREATED="1393329327644" MODIFIED="1517532810729" LINK="../MiscDocuments/gnome_eye_protect.jpg"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1586,7 +1583,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1511493578566"><richcontent TYPE="NOTE">
+<node TEXT="[vps.proudj.com@YardVPS]Debian6&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1511493578566"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1667,7 +1664,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x9632;&#x6b62;ssh&#x66b4;&#x529b;&#x7834;&#x89e3;&#x767b;&#x5f55;" FOLDED="true" ID="ID_827860402" CREATED="1352817686321" MODIFIED="1352817893322"><richcontent TYPE="NOTE">
+<node TEXT="&#x9632;&#x6b62;ssh&#x66b4;&#x529b;&#x7834;&#x89e3;&#x767b;&#x5f55;" ID="ID_827860402" CREATED="1352817686321" MODIFIED="1352817893322"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1746,7 +1743,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7981;&#x6b62;root&#x7528;&#x6237;&#x767b;&#x5f55;,&#x53ea;&#x5141;&#x8bb8;&#x67d0;&#x4e9b;&#x7528;&#x6237;&#x767b;&#x5f55;" FOLDED="true" ID="ID_1130918398" CREATED="1352817899148" MODIFIED="1352818822188"><richcontent TYPE="NOTE">
+<node TEXT="&#x7981;&#x6b62;root&#x7528;&#x6237;&#x767b;&#x5f55;,&#x53ea;&#x5141;&#x8bb8;&#x67d0;&#x4e9b;&#x7528;&#x6237;&#x767b;&#x5f55;" ID="ID_1130918398" CREATED="1352817899148" MODIFIED="1352818822188"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1816,7 +1813,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x66f4;&#x6539;sshd&#x7684;&#x7aef;&#x53e3;&#x53f7;" FOLDED="true" ID="ID_1077416951" CREATED="1352817908874" MODIFIED="1359030685073"><richcontent TYPE="NOTE">
+<node TEXT="&#x66f4;&#x6539;sshd&#x7684;&#x7aef;&#x53e3;&#x53f7;" ID="ID_1077416951" CREATED="1352817908874" MODIFIED="1359030685073"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1880,7 +1877,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x9650;&#x5236;&#x7528;&#x6237;&#x5c1d;&#x8bd5;&#x8fde;&#x63a5;&#x7684;&#x6b21;&#x6570;" FOLDED="true" ID="ID_870600743" CREATED="1352819206325" MODIFIED="1371090730444"><richcontent TYPE="NOTE">
+<node TEXT="&#x9650;&#x5236;&#x7528;&#x6237;&#x5c1d;&#x8bd5;&#x8fde;&#x63a5;&#x7684;&#x6b21;&#x6570;" ID="ID_870600743" CREATED="1352819206325" MODIFIED="1371090730444"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1926,7 +1923,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;Denyhosts" FOLDED="true" ID="ID_1941153989" CREATED="1371090867215" MODIFIED="1371098217878" LINK="../pub/denyhosts.htm"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;Denyhosts" ID="ID_1941153989" CREATED="1371090867215" MODIFIED="1371098217878" LINK="../pub/denyhosts.htm"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2142,7 +2139,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lighttpd&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1250917492" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
+<node TEXT="lighttpd&#x5b89;&#x88c5;" ID="ID_1250917492" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2155,7 +2152,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_348106430" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
+<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" ID="ID_348106430" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2370,7 +2367,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1546280381" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE">
+<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1546280381" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2660,7 +2657,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;phpmyadmin" FOLDED="true" ID="ID_773894478" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;phpmyadmin" ID="ID_773894478" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3050,7 +3047,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x57fa;&#x4e8e;&#x4e0a;&#x8ff0;&#x914d;&#x7f6e;&#x7684;wordpress&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1624834437" CREATED="1355780891979" MODIFIED="1355780903613">
+<node TEXT="&#x57fa;&#x4e8e;&#x4e0a;&#x8ff0;&#x914d;&#x7f6e;&#x7684;wordpress&#x5b89;&#x88c5;" ID="ID_1624834437" CREATED="1355780891979" MODIFIED="1355780903613">
 <node TEXT="&#x6570;&#x636e;&#x5e93;&#x7684;&#x8bbe;&#x7f6e;" ID="ID_1380772518" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE">
 
 <html>
@@ -3109,7 +3106,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1783884193" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;FTP&#x670d;&#x52a1;&#x5668;" ID="ID_1783884193" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3207,7 +3204,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x9009;&#x62e9;&#x901f;&#x5ea6;&#x5feb;&#x7684;aptitude&#x6e90;" FOLDED="true" ID="ID_868438502" CREATED="1364909698254" MODIFIED="1364909871452"><richcontent TYPE="NOTE">
+<node TEXT="&#x9009;&#x62e9;&#x901f;&#x5ea6;&#x5feb;&#x7684;aptitude&#x6e90;" ID="ID_868438502" CREATED="1364909698254" MODIFIED="1364909871452"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3334,7 +3331,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;&#x53d6;&#x6d88;&#x5b89;&#x88c5;&#x3011;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_621452073" CREATED="1364909361456" MODIFIED="1364914319370"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x53d6;&#x6d88;&#x5b89;&#x88c5;&#x3011;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_621452073" CREATED="1364909361456" MODIFIED="1364914319370"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3412,7 +3409,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x5f97;vim&#x7f16;&#x8f91;&#x5668;&#x80fd;&#x591f;&#x9ad8;&#x4eae;&#x6587;&#x5b57;" FOLDED="true" ID="ID_1810877692" CREATED="1373426708046" MODIFIED="1373426903625" LINK="#ID_156002278">
+<node TEXT="&#x5982;&#x4f55;&#x4f7f;&#x5f97;vim&#x7f16;&#x8f91;&#x5668;&#x80fd;&#x591f;&#x9ad8;&#x4eae;&#x6587;&#x5b57;" ID="ID_1810877692" CREATED="1373426708046" MODIFIED="1373426903625" LINK="#ID_156002278">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_156002278" STARTINCLINATION="328;0;" ENDINCLINATION="328;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -3448,7 +3445,7 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;&#x57fa;&#x4e8e;PPTPD&#x7684;VPN&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1385454342449" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x548c;&#x914d;&#x7f6e;&#x57fa;&#x4e8e;PPTPD&#x7684;VPN&#x670d;&#x52a1;&#x5668;" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1385454342449" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3598,7 +3595,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" FOLDED="true" ID="ID_1964664702" CREATED="1385431355713" MODIFIED="1385431363373">
+<node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" ID="ID_1964664702" CREATED="1385431355713" MODIFIED="1385431363373">
 <node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_1947689177" CREATED="1385431368233" MODIFIED="1385431391082" LINK="#ID_745571441"><richcontent TYPE="NOTE">
 
 <html>
@@ -4054,7 +4051,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lighttpd&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
+<node TEXT="lighttpd&#x5b89;&#x88c5;" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4067,7 +4064,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
+<node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4112,7 +4109,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x652f;&#x6301;virtual host" FOLDED="true" ID="ID_431989124" CREATED="1355783154576" MODIFIED="1385445184721"><richcontent TYPE="NOTE">
+<node TEXT="&#x652f;&#x6301;virtual host" ID="ID_431989124" CREATED="1355783154576" MODIFIED="1385445184721"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4259,7 +4256,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
+<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4298,7 +4295,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql-server&#x5b89;&#x88c5;log" FOLDED="true" ID="ID_1760248379" CREATED="1355781141740" MODIFIED="1385444322921"><richcontent TYPE="NOTE">
+<node TEXT="mysql-server&#x5b89;&#x88c5;log" ID="ID_1760248379" CREATED="1355781141740" MODIFIED="1385444322921"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4626,7 +4623,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;phpmyadmin" FOLDED="true" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;phpmyadmin" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4986,7 +4983,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x597d;&#x7684;&#x5de5;&#x5177;&#x7684;&#x5730;&#x5740;" FOLDED="true" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1385451787843"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x597d;&#x7684;&#x5de5;&#x5177;&#x7684;&#x5730;&#x5740;" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1385451787843"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5093,7 +5090,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" FOLDED="true" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
+<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5149,7 +5146,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Wordpress&#x53ef;&#x4ee5;&#x8f7b;&#x677e;&#x7684;&#x8fc1;&#x79fb;" FOLDED="true" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE">
+<node TEXT="Wordpress&#x53ef;&#x4ee5;&#x8f7b;&#x677e;&#x7684;&#x8fc1;&#x79fb;" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5222,7 +5219,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;Wordpress&#x652f;&#x6301;MultiSite&#x914d;&#x7f6e;" FOLDED="true" ID="ID_565499545" CREATED="1386298256103" MODIFIED="1386559070974"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;Wordpress&#x652f;&#x6301;MultiSite&#x914d;&#x7f6e;" ID="ID_565499545" CREATED="1386298256103" MODIFIED="1386559070974"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6787,8 +6784,8 @@
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7274,8 +7271,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
