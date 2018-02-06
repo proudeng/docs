@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1511493582083"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1517921701933"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3833,6 +3833,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" FOLDED="true" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
 <node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
@@ -5864,6 +5865,105 @@
 </node>
 </node>
 </node>
+<node TEXT="Debian@Redmi2_Android" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1517921995925"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Based on Linux Deploy app, it is possible to run full Linux distribution on Android Phone with chroot.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Phone type: <b>Redmi2</b>
+    </p>
+    <p>
+      OS: <b>LineageOS 14.1</b>
+    </p>
+    <p>
+      Linux OS: D<b>ebian Stretch</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Chinese Input" ID="ID_652115084" CREATED="1517922007883" MODIFIED="1517922309127"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Failed to install fcitx and ibus. Scim installation succeeded.
+    </p>
+    <p>
+      Follow Steps below:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1,
+    </p>
+    <p>
+      type following commands to install related package
+    </p>
+    <p>
+      &gt;aptitude install scim scim-pinyin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      edit .bashrc file under home directory and add following alias in the end
+    </p>
+    <p>
+      export GTK_IM_MODULE=scim
+    </p>
+    <p>
+      export XMODIFIERS=@im=scim
+    </p>
+    <p>
+      export QT_IM_MODULE=scim
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3,
+    </p>
+    <p>
+      type scim-setup command to setup the hotkey and the input method.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4,
+    </p>
+    <p>
+      restart the system and then it is OK to input with scim
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
 <node TEXT="[zh@burstnet]CentOS&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
 <node TEXT="apache" FOLDED="true" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
@@ -6783,8 +6883,8 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
