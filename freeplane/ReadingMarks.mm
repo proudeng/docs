@@ -629,7 +629,7 @@ END</pre>
 </node>
 <node TEXT="Machine_Learning(Andrew NG)" POSITION="right" ID="ID_1918982945" CREATED="1513143323182" MODIFIED="1513143355252">
 <edge COLOR="#808080"/>
-<node TEXT="&#x7b2c;7&#x5468;" ID="ID_763242646" CREATED="1516013018353" MODIFIED="1516013037382"><richcontent TYPE="NOTE">
+<node TEXT="&#x7b2c;7&#x5468;-&#x652f;&#x6301;&#x5411;&#x91cf;&#x673a;" ID="ID_763242646" CREATED="1516013018353" MODIFIED="1518006964038"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -641,8 +641,26 @@ END</pre>
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="Optimization Objective(video1)" ID="ID_364952082" CREATED="1516024069196" MODIFIED="1516093815101"><richcontent TYPE="NOTE">
+<node TEXT="&#x6982;&#x5ff5;" FOLDED="true" ID="ID_488052216" CREATED="1516024596364" MODIFIED="1516024599690">
+<node TEXT="Decision Boundary" ID="ID_945386130" CREATED="1516024600580" MODIFIED="1516024632198"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;&lt;&#20915;&#31574;&#36793;&#30028;&gt;&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7f16;&#x7a0b;&#x7ec3;&#x4e60;" ID="ID_626374610" CREATED="1518007397944" MODIFIED="1518007425516"/>
+<node TEXT="Optimization Objective(video1)" ID="ID_364952082" CREATED="1516024069196" MODIFIED="1518007611418"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -663,7 +681,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Large Margin Intuition(video2)" ID="ID_1790380177" CREATED="1516026465915" MODIFIED="1516026842177"><richcontent TYPE="NOTE">
@@ -702,26 +719,13 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6982;&#x5ff5;" ID="ID_488052216" CREATED="1516024596364" MODIFIED="1516024599690">
-<node TEXT="Decision Boundary" ID="ID_945386130" CREATED="1516024600580" MODIFIED="1516024632198"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;&lt;&#20915;&#31574;&#36793;&#30028;&gt;&gt;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="&#x7b2c;&#x516b;&#x5468;-&#x975e;&#x76d1;&#x7763;&#x5b66;&#x4e60;" ID="ID_1755281125" CREATED="1518006946320" MODIFIED="1518006956666">
+<node TEXT="&#x7f16;&#x7a0b;&#x7ec3;&#x4e60;" ID="ID_555707057" CREATED="1518007428791" MODIFIED="1518007437073"/>
 </node>
 </node>
 <node TEXT="perl&#x8bed;&#x8a00;&#x5b66;&#x4e60;" FOLDED="true" POSITION="right" ID="ID_1132999439" CREATED="1304669378782" MODIFIED="1382733398119">
 <edge COLOR="#ff0000"/>
-<node TEXT="&#x756a;&#x5916;&#x7bc7;--&#x4e3b;&#x9898;&#x5185;&#x5bb9;" ID="ID_1625848670" CREATED="1304849018449" MODIFIED="1318303357070">
+<node TEXT="&#x756a;&#x5916;&#x7bc7;--&#x4e3b;&#x9898;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_1625848670" CREATED="1304849018449" MODIFIED="1318303357070">
 <node TEXT="&#x5404;&#x79cd;&#x73af;&#x5883;&#x4e0b;&#x7684;&quot;&#x5185;&#x63d2;&quot;--interpolate" ID="ID_1388200136" CREATED="1304849038710" MODIFIED="1318302437398"><richcontent TYPE="NOTE">
 
 <html>
@@ -791,7 +795,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node ID="ID_444195328" CREATED="1318302061584" MODIFIED="1381242846099"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_444195328" CREATED="1318302061584" MODIFIED="1381242846099"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -870,7 +874,7 @@ END</pre>
 <node TEXT="&#x5c45;&#x7136;&#x6709;&#x5982;&#x6b64;&#x5e9e;&#x5927;&#x7684;&#x4e00;&#x4e2a;&#x6a21;&#x5757;&#x5e93;!!--CPAN" ID="ID_1048538695" CREATED="1318304588946" MODIFIED="1318304626381"/>
 </node>
 </node>
-<node TEXT="&#x53c2;&#x8003;&#x56fe;&#x4e66;&#x8d44;&#x6599;&#x5185;&#x5bb9;&#x4ee5;&#x53ca;&#x9605;&#x8bfb;&#x7b14;&#x8bb0;" FOLDED="true" ID="ID_1473487434" CREATED="1318299292778" MODIFIED="1383207829571">
+<node TEXT="&#x53c2;&#x8003;&#x56fe;&#x4e66;&#x8d44;&#x6599;&#x5185;&#x5bb9;&#x4ee5;&#x53ca;&#x9605;&#x8bfb;&#x7b14;&#x8bb0;" ID="ID_1473487434" CREATED="1318299292778" MODIFIED="1383207829571">
 <node TEXT="Impatient Perl" FOLDED="true" ID="ID_1286038151" CREATED="1318298591143" MODIFIED="1318298903863"><richcontent TYPE="NOTE">
 
 <html>
@@ -5065,7 +5069,7 @@ END</pre>
 </node>
 <node TEXT="&#x5feb;&#x6377;&#x952e;" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
 <edge COLOR="#ffff00"/>
-<node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1382732857520"><richcontent TYPE="NOTE">
+<node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1518007687042"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5078,6 +5082,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
+<font ITALIC="true"/>
 </node>
 </node>
 </node>
