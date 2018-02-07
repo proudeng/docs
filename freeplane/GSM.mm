@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="GSM BTS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="GSM_PreStudy_before_Travel_to_Kista" FOLDED="true" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1381543833785">
 <edge COLOR="#ff0000"/>
 <node TEXT="dTRU&#x5185;&#x90e8;&#x5404;&#x6a21;&#x5757;&#x7684;&#x4e3b;&#x8981;&#x529f;&#x80fd;" ID="ID_568949512" CREATED="1381568075000" MODIFIED="1381568265362" LINK="../pub/dTRU_structure.pdf"><richcontent TYPE="NOTE">
@@ -93,7 +93,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b9e;&#x9645;&#x5de5;&#x4f5c;" POSITION="right" ID="ID_1633212834" CREATED="1393846778593" MODIFIED="1393846785077">
+<node TEXT="&#x5b9e;&#x9645;&#x5de5;&#x4f5c;" FOLDED="true" POSITION="right" ID="ID_1633212834" CREATED="1393846778593" MODIFIED="1393846785077">
 <edge COLOR="#7c007c"/>
 <node TEXT="Tips&amp;Tricks" FOLDED="true" ID="ID_979848708" CREATED="1399442837554" MODIFIED="1399442844664">
 <node TEXT="Log&#x4e2d;&#x67e5;&#x770b;TRX-MCTR&#x6620;&#x5c04;&#x5173;&#x7cfb;&#x4ee5;&#x53ca;&#x5efa;&#x7acb;Carrier&#x7684;&#x6570;&#x91cf;" ID="ID_1175613359" CREATED="1399442870522" MODIFIED="1399448397653" LINK="../OneNote/TRX-MCTR-Carrier_mapping.one"><richcontent TYPE="NOTE">
@@ -123,7 +123,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Feature/CR/TR" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
+<node TEXT="Feature/CR/TR" FOLDED="true" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
 <node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
 <node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
 <node TEXT="PSR of DMM for AIR" ID="ID_365489858" CREATED="1383579025498" MODIFIED="1384743721368" LINK="../GSM_document_base/38_0363-110_FCP1307999_Uen_PA11.doc"><richcontent TYPE="NOTE">
@@ -5304,6 +5304,9 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="CQCR" POSITION="left" ID="ID_866560742" CREATED="1517966995256" MODIFIED="1517967120425">
+<edge COLOR="#808080"/>
 </node>
 </node>
 </map>
