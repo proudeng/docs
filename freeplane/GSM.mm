@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="GSM BTS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -93,7 +93,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b9e;&#x9645;&#x5de5;&#x4f5c;" FOLDED="true" POSITION="right" ID="ID_1633212834" CREATED="1393846778593" MODIFIED="1393846785077">
+<node TEXT="&#x5b9e;&#x9645;&#x5de5;&#x4f5c;" POSITION="right" ID="ID_1633212834" CREATED="1393846778593" MODIFIED="1393846785077">
 <edge COLOR="#7c007c"/>
 <node TEXT="Tips&amp;Tricks" FOLDED="true" ID="ID_979848708" CREATED="1399442837554" MODIFIED="1399442844664">
 <node TEXT="Log&#x4e2d;&#x67e5;&#x770b;TRX-MCTR&#x6620;&#x5c04;&#x5173;&#x7cfb;&#x4ee5;&#x53ca;&#x5efa;&#x7acb;Carrier&#x7684;&#x6570;&#x91cf;" ID="ID_1175613359" CREATED="1399442870522" MODIFIED="1399448397653" LINK="../OneNote/TRX-MCTR-Carrier_mapping.one"><richcontent TYPE="NOTE">
@@ -123,7 +123,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Feature/CR/TR" FOLDED="true" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
+<node TEXT="Feature/CR/TR" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
 <node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
 <node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
 <node TEXT="PSR of DMM for AIR" ID="ID_365489858" CREATED="1383579025498" MODIFIED="1384743721368" LINK="../GSM_document_base/38_0363-110_FCP1307999_Uen_PA11.doc"><richcontent TYPE="NOTE">
@@ -1062,7 +1062,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="&#x5173;&#x4e8e;SE_TRX_G_COM&#x7684;&#x5b9a;&#x4e49;" ID="ID_930916829" CREATED="1393846999964" MODIFIED="1393847228574" LINK="../MiscDocuments/SE_TRX_G_COM.msg"/>
 </node>
-<node TEXT="&#x3010;MR3681&#x3011;Easier BTS SW upgrade" ID="ID_1616724387" CREATED="1517204533538" MODIFIED="1517212350325"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;MR3681&#x3011;Easier BTS SW upgrade" ID="ID_1616724387" CREATED="1517204533538" MODIFIED="1518409649170"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1070,20 +1070,83 @@ field-separator'></span><![endif]-->
   </head>
   <body>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Feature</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: Easier BTS SW Upgrade</span></font><span lang="EN-US"><o p="#DEFAULT"></o></span>
+      <b><font face="Arial,sans-serif">Feature</font></b><font face="Arial,sans-serif">: Easier BTS SW Upgrade</font><o p="#DEFAULT"></o>
     </p>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Link to Feature in Hansoft</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: </span></font><span lang="EN-US"><a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/438249">FE: Easier BTS SW Upgrade</a>, <a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/437264">Easier BTS SW Upgrade</a><o p="#DEFAULT"></o></span>
+      <b><font face="Arial,sans-serif">Link to Feature in Hansoft</font></b><font face="Arial,sans-serif">: </font><a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/438249">FE: Easier BTS SW Upgrade</a>, <a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/437264">Easier BTS SW Upgrade</a><o p="#DEFAULT"></o>
     </p>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Impacted Products</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: BSC, BTS, OSS (</span></font><span lang="EN-US">GUI support for OSS-RC</span><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">)</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+      <b><font face="Arial,sans-serif">Impacted Products</font></b><font face="Arial,sans-serif">: BSC, BTS, OSS (</font>GUI support for OSS-RC<font face="Arial,sans-serif">)</font><o p="#DEFAULT"></o>
     </p>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Artifacts</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">&#160;(OA, PPS or equivalent documents):</span></font><span lang="EN-US">&#160;<a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bd99250?docno=124/0360-110/FCP1307999Uen&amp;action=current&amp;format=ppt12">OA</a><o p="#DEFAULT"></o></span>
+      <b><font face="Arial,sans-serif">Artifacts</font></b><font face="Arial,sans-serif">&#160;(OA, PPS or equivalent documents):</font>&#160;<a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bd99250?docno=124/0360-110/FCP1307999Uen&amp;action=current&amp;format=ppt12">OA</a><o p="#DEFAULT"></o>
     </p>
   </body>
 </html>
+
 </richcontent>
+<node TEXT="FOP" ID="ID_342738751" CREATED="1518409638907" MODIFIED="1518409649141"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bf77e4e?docno=365/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt8
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_1394095988" CREATED="1518409651146" MODIFIED="1518409664523"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bfe781e?docno=227/0363-110/FCP1307999Uen&amp;action=current&amp;format=msw8
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR2484-5&#x3011;NGS SRS" ID="ID_1952967029" CREATED="1518409249297" MODIFIED="1518409294272">
+<node TEXT="FOP" ID="ID_1434956415" CREATED="1518409303302" MODIFIED="1518409337200"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c1f1311?docno=BNEP-17:010619Uen&amp;action=approved&amp;format=ppt8
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_1903602476" CREATED="1518409306741" MODIFIED="1518409349973"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c5c2e39?docno=258/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x3010;MR5172-6&#x3011;NGS GSM SRS Enhancement" ID="ID_156671729" CREATED="1517204549217" MODIFIED="1517206982940"><richcontent TYPE="NOTE">
 
@@ -1162,6 +1225,70 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="&#x3010;MR5093&#x3011;Generic Radio Unit Cascading support for DUG" ID="ID_1523206866" CREATED="1518412242363" MODIFIED="1518412281266">
+<node TEXT="FOP" ID="ID_129104669" CREATED="1518412283002" MODIFIED="1518412354593"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8ca78d18?docno=51/28821-110/FCP1307999Uen&amp;format=ppt12
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_316692022" CREATED="1518412284914" MODIFIED="1518412387600"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cc8e9d5?docno=56/0363-110/FCP1307999Uen&amp;format=msw12
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR3256&#x3011;Generic Radio Unit Cascading support for DUG" ID="ID_1479073208" CREATED="1518412877474" MODIFIED="1518412898240">
+<node TEXT="FOP" ID="ID_1571443639" CREATED="1518412880267" MODIFIED="1518412886020"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8b42f1d9?docno=99/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_29820754" CREATED="1518412922836" MODIFIED="1518412928510"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c7b14a9?docno=276/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw8
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="BCI&#x63a5;&#x53e3;&#x7684;&#x5934;&#x6587;&#x4ef6;&#x548c;sig&#x6587;&#x4ef6;&#x4f4d;&#x7f6e;" ID="ID_166963389" CREATED="1418876600307" MODIFIED="1418880456280" LINK="../OneNote/BCI&#x63a5;&#x53e3;&#x7684;&#x8def;&#x5f84;&#x5df2;&#x7ecf;fault%20id&#x7684;&#x610f;&#x4e49;.one"><richcontent TYPE="NOTE">

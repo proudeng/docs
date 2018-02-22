@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1517921701933"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4028,7 +4028,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;&#x7684;&#x5b89;&#x88c5;" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1355779664163"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4052,7 +4052,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="lighttpd&#x5b89;&#x88c5;" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
+<node TEXT="lighttpd&#x5b89;&#x88c5;" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1519275513211"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4064,6 +4064,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
 
@@ -4257,7 +4258,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
+<node TEXT="mysql&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4624,7 +4625,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;phpmyadmin" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;phpmyadmin" FOLDED="true" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5091,7 +5092,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
+<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" FOLDED="true" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5865,7 +5866,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Debian@Redmi2_Android" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1517921995925"><richcontent TYPE="NOTE">
+<node TEXT="Debian@Redmi2_Android" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1519275537149"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5960,8 +5961,331 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#34394;&#25311;&#26426;&#19978;&#30340;&#26381;&#21153;&#22120;&#23433;&#35013;&#36807;&#31243;
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT="&#x5b89;&#x88c5;lighttpd" ID="ID_666001091" CREATED="1519275495856" MODIFIED="1519275607894"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b><font color="#000099">aptitude install lighttpd</font></b></i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x66f4;&#x6539;web&#x670d;&#x52a1;&#x5668;&#x6839;&#x76ee;&#x5f55;" ID="ID_936316597" CREATED="1519275611772" MODIFIED="1519275942490"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1,
+    </p>
+    <p>
+      &#32534;&#36753;/etc/lighttpd/lighttpd.conf:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23558;server.document-root&#30340;&#20540;&#20174;/var/www/html&#25913;&#20026;/var/www
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#26041;&#27861;&#20043;&#19968;&#37325;&#21551;lighttpd:
+    </p>
+    <p>
+      /etc/init.d/lighttpd restart &#25110;&#32773;
+    </p>
+    <p>
+      service lighttpd restart
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x652f;&#x6301;php7.0" ID="ID_836463585" CREATED="1519276484274" MODIFIED="1519277722080">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1012849837" STARTINCLINATION="58;0;" ENDINCLINATION="58;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#36339;&#36716;&#33410;&#28857;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;php7" FOLDED="true" ID="ID_1161537075" CREATED="1519276131819" MODIFIED="1519276205250"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#36848;&#30340;&#21629;&#20196;&#23433;&#35013;php7:
+    </p>
+    <p>
+      aptitude install php7.0 php7.0-fpm
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4fee;&#x6539;ini&#x6587;&#x4ef6;" ID="ID_1676375519" CREATED="1519276206886" MODIFIED="1519276829360"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1,
+    </p>
+    <p>
+      &#32534;&#36753;/etc/php/7.0/fpm/php.ini&#25991;&#20214;,
+    </p>
+    <p>
+      &#23558;&#19979;&#38754;&#19968;&#34892;&#30340;&#31532;&#19968;&#20010;#&#27880;&#37322;&#21435;&#25481;&#28982;&#21518;&#20445;&#23384;&#20851;&#38381;&#25991;&#20214;:
+    </p>
+    <p>
+      #cgi.fix_pathinfo=1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#37325;&#21551;php-fpm &#26381;&#21153;:
+    </p>
+    <p>
+      service php7.0-fpm restart
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519276870323"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1,
+    </p>
+    <p>
+      &#22797;&#21046;&#25991;&#20214;/etc/lighttpd/conf-available/15-fastcgi-php.conf &#20026; /etc/lighttpd/conf-available/15-fastcgi-php.conf
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      &#32534;&#36753;&#25991;&#20214;/etc/lighttpd/conf-available/15-fastcgi-php.conf,&#23558;&#20869;&#23481;&#20462;&#25913;&#20026;&#19979;&#38754;&#30340;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#000000">=====&#25991;&#20214;&#24320;&#22987;,&#36825;&#19968;&#34892;&#19981;&#31639;</font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">fastcgi.server += ( &quot;.php&quot; =&gt; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(( </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;socket&quot; =&gt; &quot;/var/run/php/php7.0-fpm.sock&quot;, </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;broken-scriptfilename&quot; =&gt; &quot;enable&quot; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;)) </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">)</font></i>
+    </p>
+    <p>
+      <i><font color="#000000">====&#25991;&#20214;&#32467;&#26463;,&#36825;&#19968;&#34892;&#19981;&#31639;</font></i>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1519276997888"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#21442;&#32771;&#32593;&#19978;&#30340;&#25945;&#31243;&#30340;&#35805;,&#24456;&#22810;&#30340;&#25945;&#31243;&#20250;&#35828;&#35201;&#20462;&#25913;&#25991;&#20214;&#20026;&#19979;&#38754;&#30340;&#36825;&#26679;:
+    </p>
+    <p>
+      &#27880;&#24847;&#19979;&#38754;&#30340;&#32418;&#33394;&#30340;&#37096;&#20998;,&#23454;&#38469;&#19978;php7.0&#23433;&#35013;&#22909;&#20102;&#21518;,&#36825;&#20010;&#36335;&#24452;&#21253;&#25324;&#25193;&#23637;&#21517;.socket&#37117;&#26159;&#38169;&#35823;&#30340;.&#22914;&#26524;&#30495;&#30340;&#36825;&#20040;&#20570;&#30340;&#35805;,&#20250;&#20986;&#29616;&#23376;&#33410;&#28857;&#30340;&#38382;&#39064;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#000000">=====&#25991;&#20214;&#24320;&#22987;,&#36825;&#19968;&#34892;&#19981;&#31639;</font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">fastcgi.server += ( &quot;.php&quot; =&gt; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(( </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;socket&quot; =&gt; &quot;</font><font color="#ff0033">/var/run/lighttpd/php7.0-fpm.socket</font><font color="#0000ff">&quot;, </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;broken-scriptfilename&quot; =&gt; &quot;enable&quot; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;)) </font></i>
+    </p>
+    <p>
+      <i><font color="#0000ff">)</font></i>
+    </p>
+    <p>
+      <i><font color="#000000">====&#25991;&#20214;&#32467;&#26463;,&#36825;&#19968;&#34892;&#19981;&#31639;</font></i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="/var/log/lighttpd/error.log" ID="ID_1194909261" CREATED="1519276999473" MODIFIED="1519277358414"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#20986;&#29616;&#20102;&#29238;&#33410;&#28857;&#25551;&#36848;&#30340;&#37197;&#32622;&#38169;&#35823;&#30340;&#35805;,&#37027;&#20040;&#35775;&#38382;web&#26381;&#21153;&#22120;&#30340;.php&#25991;&#20214;&#30340;&#35805;&#23601;&#20250;&#20986;&#29616;&#31867;&#20284;&#20110;:
+    </p>
+    <p>
+      <b><font color="#ff0033">503 Service not Available</font></b>&#36825;&#26679;&#30340;&#38169;&#35823;.
+    </p>
+    <p>
+      &#26597;&#30475;lighttpd&#30340;error.log&#30340;&#35805;,&#20250;&#26377;&#31867;&#20284;&#19979;&#38754;&#30340;&#36755;&#20986;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //log&#24320;&#22987;
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:09: (mod_fastcgi.c.1926) connect failed: No such file or directory on unix:/var/run/lighttpd/php7.0-fpm.socket </font>
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:09: (mod_fastcgi.c.2842) backend died; we'll disable it for 1 seconds and send the request to another backend instead: reconnects: 0 load: 1 </font>
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:09: (mod_fastcgi.c.1689) all handlers for /info.php? on .php are down. </font>
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:11: (mod_fastcgi.c.2686) fcgi-server re-enabled: unix:/var/run/lighttpd/php7.0-fpm.socket </font>
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:22: (mod_fastcgi.c.1926) connect failed: No such file or directory on unix:/var/run/lighttpd/php7.0-fpm.socket </font>
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:22: (mod_fastcgi.c.2842) backend died; we'll disable it for 1 seconds and send the request to another backend instead: reconnects: 0 load: 1 </font>
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:22: (mod_fastcgi.c.1689) all handlers for /info.php? on .php are down. </font>
+    </p>
+    <p>
+      <font color="#330099">2018-02-22 12:51:24: (mod_fastcgi.c.2686) fcgi-server re-enabled: unix:/var/run/lighttpd/php7.0-fpm.socket</font>
+    </p>
+    <p>
+      //log&#32467;&#26463;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25110;&#32773;&#26377;&#21487;&#33021;&#20250;&#20986;&#29616;&#19979;&#38754;&#36825;&#26679;&#30340;log&#20869;&#23481;:
+    </p>
+    <p>
+      //log&#24320;&#22987;
+    </p>
+    <p>
+      <font color="#330099">connect failed: No such file or directory on unix:/var/run/lighttpd/php7.0-fpm.socket</font>
+    </p>
+    <p>
+      //log&#32467;&#26463;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
@@ -6883,8 +7207,8 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -7371,8 +7695,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10891,6 +11215,82 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 </node>
+</node>
+<node POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1519277225782"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0033">&#26684;&#24335;&#32422;&#23450;</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table border="0" style="width: 80%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0">
+      <tr>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            &#20195;&#30721;&#29255;&#27573;
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            &#25991;&#20214;&#21517;&#25110;&#36335;&#24452;
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            &#25991;&#20214;&#20869;&#23481;&#25688;&#25220;(&#27604;&#22914;&#25991;&#20214;&#20869;&#37096;&#30340;&#19968;&#34892;&#25991;&#23383;)
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            log&#20869;&#23481;
+          </p>
+        </td>
+        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
+          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
+            
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </map>

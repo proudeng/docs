@@ -3,7 +3,7 @@
 <node TEXT="DailyWork" FOLDED="false" ID="ID_757627064" CREATED="1515983673148" MODIFIED="1515983836679" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,13 +63,15 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="E&amp;J" POSITION="right" ID="ID_129328092" CREATED="1515986403496" MODIFIED="1515986521020">
 <edge COLOR="#0000ff"/>
 </node>
 <node TEXT="DailyTask" POSITION="left" ID="ID_1276038489" CREATED="1515986421422" MODIFIED="1516003404814">
 <edge COLOR="#00ff00"/>
-<node TEXT="BTS Quality Assessment" ID="ID_1750049179" CREATED="1517391956259" MODIFIED="1517392435878"><richcontent TYPE="NOTE">
+<node TEXT="BTS Quality Assessment" LOCALIZED_STYLE_REF="default" ID="ID_1750049179" CREATED="1517391956259" MODIFIED="1519280481309">
+<icon BUILTIN="25%"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -111,12 +113,15 @@
 <node TEXT="Happy" POSITION="right" ID="ID_207551268" CREATED="1515986434701" MODIFIED="1515986469863">
 <edge COLOR="#ff00ff"/>
 </node>
+<node TEXT="&#x56f4;&#x68cb;&#x62a5;&#x540d;" POSITION="right" ID="ID_264484301" CREATED="1518408998528" MODIFIED="1519280252701">
+<edge COLOR="#7c0000"/>
+</node>
 <node TEXT="TodoList" POSITION="left" ID="ID_1239886904" CREATED="1515986486307" MODIFIED="1515986498134">
 <edge COLOR="#00ffff"/>
-<node TEXT="Release Notes" ID="ID_744561693" CREATED="1517360634035" MODIFIED="1517798312687"/>
+<node TEXT="Release Notes" ID="ID_744561693" CREATED="1517360634035" MODIFIED="1518314883020"/>
 <node TEXT="Quality Assessment slides" ID="ID_1107008102" CREATED="1517360649288" MODIFIED="1517360657455"/>
 <node TEXT="&#x641c;&#x96c6;&#x6700;&#x4f73;&#x6539;&#x8fdb;&#x5efa;&#x8bae;&#x60f3;&#x6cd5;" ID="ID_107036768" CREATED="1517362655642" MODIFIED="1517363038560"/>
-<node TEXT="GDPR&#x8c03;&#x67e5;&#x62a5;&#x544a;(BTS/GRAT)" ID="ID_567858728" CREATED="1517363041149" MODIFIED="1517800046169"><richcontent TYPE="NOTE">
+<node TEXT="GDPR&#x8c03;&#x67e5;&#x62a5;&#x544a;(BTS/GRAT)" FOLDED="true" ID="ID_567858728" CREATED="1517363041149" MODIFIED="1517800046169"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -152,7 +157,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" ID="ID_17131739" CREATED="1517799499223" MODIFIED="1517799505913">
+<node TEXT="&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" FOLDED="true" ID="ID_17131739" CREATED="1517799499223" MODIFIED="1517799505913">
 <node TEXT="EVMS" ID="ID_1123447870" CREATED="1517799454561" MODIFIED="1517799483362"><richcontent TYPE="NOTE">
 
 <html>
@@ -228,6 +233,23 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="PIA&#x6a21;&#x677f;" ID="ID_1696088278" CREATED="1517992852909" MODIFIED="1517992870431"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#26723;&#21495;&#65306;
+    </p>
+    <p>
+      <span lang="EN-GB" style="font-size: 11.0pt; font-family: Arial,sans-serif"><font size="11.0pt" face="Arial,sans-serif">LMF-10:001012 </font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="PSIRT" ID="ID_1227016249" CREATED="1517799342687" MODIFIED="1517799367657"><richcontent TYPE="NOTE">
 
@@ -288,11 +310,147 @@ style='mso-element:field-end'></span></span><![endif]-->
 </node>
 </node>
 </node>
+<node TEXT="&#x53c2;&#x8003;&#x6587;&#x6863;" FOLDED="true" ID="ID_1905911815" CREATED="1517992894170" MODIFIED="1517992900993">
+<node TEXT="Generic Baseline Security for Ericsson Products" ID="ID_1502827355" CREATED="1517992903331" MODIFIED="1517992921762"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#26723;&#21495;:
+    </p>
+    <p>
+      <span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">EAB-04:000820 Uen</font></span><!--[if supportFields]><span lang=EN-US style='font-size:10.0pt;
+font-family:"Arial",sans-serif;mso-fareast-font-family:&#x7b49;&#x7ebf;;mso-fareast-theme-font:
+minor-fareast;mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US;
+mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span style='mso-element:
+field-end'></span></span><![endif]-->
+      
+    </p>
+    <!--[if supportFields]><span lang=EN-US
+style='font-size:10.0pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+&#x7b49;&#x7ebf;;mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:"Times New Roman";
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>DOCPROPERTY &quot;DocNo&quot;<span
+style='mso-spacerun:yes'>&#xa0; </span>&quot;LangCode&quot; \* MERGEFORMAT <span
+style='mso-element:field-separator'></span></span><![endif]-->
+    </body>
+</html>
+<!--[if supportFields]><span lang=EN-US
+style='font-size:10.0pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+&#x7b49;&#x7ebf;;mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:"Times New Roman";
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>DOCPROPERTY &quot;DocNo&quot;<span
+style='mso-spacerun:yes'>&#xa0; </span>&quot;LangCode&quot; \* MERGEFORMAT <span
+style='mso-element:field-separator'></span></span><![endif]-->
+</richcontent>
+</node>
+<node TEXT="PSIRT Vulnerability Watch Registration instruction" ID="ID_585640608" CREATED="1517992958388" MODIFIED="1517992980684"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="EN-GB" style="font-size: 11.0pt; font-family: Arial,sans-serif"><font size="11.0pt" face="Arial,sans-serif">&#25991;&#26723;&#21495;&#65306; </font></span>
+    </p>
+    <p>
+      <span lang="EN-GB" style="font-size: 11.0pt; font-family: Arial,sans-serif"><font size="11.0pt" face="Arial,sans-serif">LMF-15:000197 Uen</font></span><!--[if supportFields]><span
+lang=EN-GB style='font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:&#x7b49;&#x7ebf;;mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-GB;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><span style='mso-element:field-end'></span></span><![endif]-->
+      
+    </p>
+    <!--[if supportFields]><span lang=EN-GB
+style='font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:&#x7b49;&#x7ebf;;mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-GB;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>DOCPROPERTY &quot;DocNo&quot;<span
+style='mso-spacerun:yes'>&#xa0; </span>&quot;LangCode&quot; \* MERGEFORMAT <span
+style='mso-element:field-separator'></span></span><![endif]-->
+    </body>
+</html>
+<!--[if supportFields]><span lang=EN-GB
+style='font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:&#x7b49;&#x7ebf;;mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-GB;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>DOCPROPERTY &quot;DocNo&quot;<span
+style='mso-spacerun:yes'>&#xa0; </span>&quot;LangCode&quot; \* MERGEFORMAT <span
+style='mso-element:field-separator'></span></span><![endif]-->
+</richcontent>
+</node>
+<node TEXT="PIA&#x6a21;&#x677f;" ID="ID_1550894948" CREATED="1517992987782" MODIFIED="1517993000017">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1696088278" STARTINCLINATION="127;0;" ENDINCLINATION="127;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Area of Regulation: Product Security &amp; Privacy" ID="ID_255423116" CREATED="1517993138630" MODIFIED="1517993155465"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#26723;&#21495;:
+    </p>
+    <table class="NormalTable">
+      <tr>
+        <td width="337">
+          <span class="fontstyle0">155 01-FEA 901 050/8 Uen</span>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="GDPR Presentation" ID="ID_490576951" CREATED="1517993236623" MODIFIED="1517993256696" LINK="../../../../Users/edenjun/Desktop/GDPR%20compliance%20and%20survey%20(002).pptx"/>
+<node TEXT="Generic Privacy Requirements for Products" ID="ID_71191523" CREATED="1517993376536" MODIFIED="1517993408819" LINK="../../../../Users/edenjun/Desktop/Copy%20of%20Product%20Privacy%20Requirements.xlsx"/>
+<node TEXT="Personal Data Classification instruction" ID="ID_575347832" CREATED="1517993453083" MODIFIED="1517993640323" LINK="../../../../Users/edenjun/Desktop/Copy%20of%20Personal%20Data%20Classification%20Instruction.xlsx"/>
+</node>
+<node TEXT="&#x62a5;&#x544a;&#x4e0a;&#x4ea4;deadline" ID="ID_890741888" CREATED="1518315212460" MODIFIED="1518408991314"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2/11&#25552;&#20132;&#25253;&#21578;&#24182;&#19988;&#25226;&#32467;&#26524;&#25253;&#21578;&#32473;&#32769;&#22823;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="PCBTS with GRAT" ID="ID_1336824017" CREATED="1517363051173" MODIFIED="1517363059543"/>
 <node TEXT="Tech Mentor&#x53cd;&#x9988;&#x7ed9;Leo Li" ID="ID_1035229250" CREATED="1517365419186" MODIFIED="1517365441886"/>
 <node TEXT="NieCheng&#x7684;4MCTR&#x7684;&#x95ee;&#x9898;" ID="ID_285082144" CREATED="1517391767703" MODIFIED="1517391789496"/>
 <node TEXT="update RN to reflect PICO limitation" ID="ID_1494148291" CREATED="1517969649869" MODIFIED="1517969684658"/>
+<node TEXT="&#x66f4;&#x65b0;G17.Q4&#x7684;release notes" ID="ID_499507693" CREATED="1518315510913" MODIFIED="1518315536062"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20855;&#20307;&#20160;&#20040;&#20869;&#23481;&#30340;&#65311;&#23621;&#28982;&#24536;&#25481;&#20102;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Archives" POSITION="right" ID="ID_1443627166" CREATED="1519280352361" MODIFIED="1519280352385">
+<edge COLOR="#00007c"/>
 </node>
 </node>
 </map>
