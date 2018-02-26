@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x76f8;&#x5173;" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1413880889271"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
+<node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
+    <properties fit_to_viewport="true" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4205,7 +4205,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4238,7 +4237,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5957,7 +5955,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
@@ -5988,7 +5985,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x66f4;&#x6539;web&#x670d;&#x52a1;&#x5668;&#x6839;&#x76ee;&#x5f55;" ID="ID_936316597" CREATED="1519275611772" MODIFIED="1519275942490"><richcontent TYPE="NOTE">
 
@@ -6153,7 +6149,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6ce8;&#x610f;" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1519276997888"><richcontent TYPE="NOTE">
 
@@ -6271,7 +6266,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x7f3a;&#x5931;&#x7684;extension" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1519460574460"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x7f3a;&#x5931;&#x7684;extension" FOLDED="true" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1519460574460"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6337,7 +6332,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7f3a;&#x5931;extension&#x7684;&#x8868;&#x73b0;" ID="ID_1058492235" CREATED="1519460133491" MODIFIED="1519460334576"><richcontent TYPE="NOTE">
 
@@ -6372,12 +6366,56 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
+</node>
+<node TEXT="Flat-File CMS" ID="ID_647719980" CREATED="1519652606443" MODIFIED="1519653665825"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#30452;&#20197;&#26469;&#20351;&#29992;Wordpress&#20316;&#20026;&#21338;&#23458;&#24179;&#21488;&#65292;WordPress&#34429;&#22909;&#65292;&#20294;&#26159;&#25240;&#33150;&#30340;&#24515;&#24635;&#26159;&#20250;&#20135;&#29983;&#24456;&#22810;&#26032;&#30340;&#38656;&#27714;&#12290;
+    </p>
+    <p>
+      &#39318;&#20808;&#22312;&#23433;&#21331;&#19978;&#20351;&#29992;mysql&#25968;&#25454;&#24211;&#65292;&#20284;&#20046;&#24615;&#33021;&#24182;&#19981;&#26159;&#24456;&#22909;(&#22312;Hornor6&#19978;&#23433;&#35013;&#20102;&#19968;&#20010;wordpress&#65292;&#24635;&#24863;&#35273;&#21453;&#24212;&#36895;&#24230;&#24930;)&#65292;
+    </p>
+    <p>
+      &#32780;&#19988;&#25105;&#22522;&#26412;&#19978;&#23384;&#25918;&#30340;&#20869;&#23481;&#37117;&#26159;&#32431;&#25991;&#26723;&#31867;&#30340;&#65292;&#25152;&#20197;&#24635;&#35273;&#24471;&#20351;&#29992;wordpress&#36825;&#26679;&#36234;&#26469;&#36234;&#24222;&#22823;&#36234;&#26469;&#36234;&#19987;&#19994;&#30340;&#24037;&#20855;&#65292;&#26159;&#22823;&#26448;&#23567;&#29992;&#20102;&#12290;
+    </p>
+    <p>
+      &#20272;&#35745;&#26159;&#24456;&#22810;&#20154;&#20063;&#26377;&#31867;&#20284;&#30340;&#24819;&#27861;&#65292;&#32593;&#32476;&#19978;&#27969;&#34892;&#36215;&#20102;&#38745;&#24577;&#21338;&#23458;&#31995;&#32479;(flat file CMS)&#12290;&#36825;&#26679;&#30340;&#31995;&#32479;&#19981;&#38656;&#35201;&#25968;&#25454;&#24211;&#65292;&#30456;&#23545;&#26469;&#35828;&#36731;&#37327;&#32423;&#22810;&#20102;&#65292;&#32780;&#19988;&#21453;&#24212;&#36895;&#24230;&#20063;&#24555;&#65292;&#23545;&#31995;&#32479;&#36164;&#28304;&#30340;&#28040;&#32791;&#20063;&#23569;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25628;&#20102;&#19968;&#19979;&#30495;&#30340;&#26377;&#24456;&#22810;&#30340;&#31995;&#32479;,&#29978;&#33267;&#26377;&#20154;&#22312;github&#19978;&#21019;&#24314;&#20102;&#19968;&#20010;&#39033;&#30446;&#65292;&#19987;&#38376;&#25972;&#29702;&#25628;&#38598;&#21508;&#31181;&#32431;&#25991;&#26723;CMS,&#24819;&#20102;&#35299;&#30340;&#35805;&#65292;&#21487;&#20197;&#21442;&#32771;&#19979;&#25991;&#65306;
+    </p>
+    <p>
+      <a href="https://github.com/ahadb/flat-file-cms">https://github.com/ahadb/flat-file-cms </a>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#19978;&#38754;&#30340;&#21015;&#34920;&#65292;&#25105;&#35797;&#30528;&#23433;&#35013;&#20102;&#20960;&#20010;&#31995;&#32479;&#12290;
+    </p>
+    <p>
+      &#23376;&#33410;&#28857;&#20013;&#21015;&#20030;&#20102;&#20960;&#20010;&#22312;Redmi2&#19978;&#23433;&#35013;&#25104;&#21151;&#30340;&#20960;&#20010;&#39033;&#30446;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="HTMLy" ID="ID_885986992" CREATED="1519653574866" MODIFIED="1519653581260"/>
+<node TEXT="Typesetter" ID="ID_1526227773" CREATED="1519653581642" MODIFIED="1519653602332"/>
+<node TEXT="Hugo" ID="ID_1289475590" CREATED="1519653602690" MODIFIED="1519653605612"/>
 </node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
@@ -7299,9 +7337,9 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>

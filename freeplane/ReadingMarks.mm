@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -627,7 +627,7 @@ END</pre>
 <edge COLOR="#00007c"/>
 <node TEXT="&#x7b2c;&#x56db;&#x7ae0;&#xff0c;&#x4f7f;&#x7528;Make" ID="ID_85635013" CREATED="1470387176587" MODIFIED="1470387192476"/>
 </node>
-<node TEXT="Machine_Learning(Andrew NG)" POSITION="right" ID="ID_1918982945" CREATED="1513143323182" MODIFIED="1513143355252">
+<node TEXT="Machine_Learning(Andrew NG)" FOLDED="true" POSITION="right" ID="ID_1918982945" CREATED="1513143323182" MODIFIED="1513143355252">
 <edge COLOR="#808080"/>
 <node TEXT="&#x7b2c;7&#x5468;-&#x652f;&#x6301;&#x5411;&#x91cf;&#x673a;" ID="ID_763242646" CREATED="1516013018353" MODIFIED="1518006964038"><richcontent TYPE="NOTE">
 
@@ -641,7 +641,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6982;&#x5ff5;" FOLDED="true" ID="ID_488052216" CREATED="1516024596364" MODIFIED="1516024599690">
 <node TEXT="Decision Boundary" ID="ID_945386130" CREATED="1516024600580" MODIFIED="1516024632198"><richcontent TYPE="NOTE">
@@ -5067,7 +5066,7 @@ END</pre>
 <node TEXT="&#x5173;&#x4e8e;&#x5bf9;&#x79f0;&#x591a;&#x5904;&#x7406;SMP&#x67b6;&#x6784;" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="&#x5feb;&#x6377;&#x952e;" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
+<node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
 <edge COLOR="#ffff00"/>
 <node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1518007687042"><richcontent TYPE="NOTE">
 
