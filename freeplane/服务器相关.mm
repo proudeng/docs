@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3833,7 +3833,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4f7f;&#x7528;UnixBench&#x6d4b;&#x8bd5;VPS&#x6027;&#x80fd;" FOLDED="true" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
 <node TEXT="&#x5b89;&#x88c5;&#x548c;&#x6267;&#x884c;&#x547d;&#x4ee4;" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
@@ -4064,7 +4063,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="lightttp&#x5b89;&#x88c5;&#x4e4b;&#x540e;&#x7684;&#x914d;&#x7f6e;" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
 
@@ -4181,7 +4179,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x9488;&#x5bf9;pub&#x5b50;&#x57df;&#x540d;&#x8981;&#x505a;&#x7684;&#x64cd;&#x4f5c;" ID="ID_16058721" CREATED="1385445252601" MODIFIED="1385445320292"><richcontent TYPE="NOTE">
+<node TEXT="&#x9488;&#x5bf9;pub&#x5b50;&#x57df;&#x540d;&#x8981;&#x505a;&#x7684;&#x64cd;&#x4f5c;" ID="ID_16058721" CREATED="1385445252601" MODIFIED="1519453975224"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4207,10 +4205,11 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
-<node TEXT="lighttpd&#x4e3a;&#x5728;Openwrt&#x4e0a;&#x642d;&#x7684;&#x670d;&#x52a1;&#x5668;&#x505a;&#x7f51;&#x5740;redirect" ID="ID_536180752" CREATED="1427641663623" MODIFIED="1427642143503">
+<node TEXT="lighttpd&#x4e3a;&#x5728;Openwrt&#x4e0a;&#x642d;&#x7684;&#x670d;&#x52a1;&#x5668;&#x505a;&#x7f51;&#x5740;redirect" ID="ID_536180752" CREATED="1427641663623" MODIFIED="1519453953611">
 <attribute NAME="status" VALUE="unfinished"/>
 <richcontent TYPE="NOTE">
 
@@ -4239,6 +4238,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -5866,7 +5866,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Debian@Redmi2_Android" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1519275537149"><richcontent TYPE="NOTE">
+<node TEXT="Debian@Redmi2_Android" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1519275537149"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5890,9 +5890,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="Chinese Input" ID="ID_652115084" CREATED="1517922007883" MODIFIED="1517922309127"><richcontent TYPE="NOTE">
+<node TEXT="Chinese Input" ID="ID_652115084" CREATED="1517922007883" MODIFIED="1519453890801"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5956,11 +5955,9 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
@@ -5978,9 +5975,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="&#x5b89;&#x88c5;lighttpd" ID="ID_666001091" CREATED="1519275495856" MODIFIED="1519275607894"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;lighttpd" ID="ID_666001091" CREATED="1519275495856" MODIFIED="1519456732041"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6030,7 +6026,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x652f;&#x6301;php7.0" ID="ID_836463585" CREATED="1519276484274" MODIFIED="1519277722080">
@@ -6047,11 +6042,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;php7" FOLDED="true" ID="ID_1161537075" CREATED="1519276131819" MODIFIED="1519276205250"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;php7" ID="ID_1161537075" CREATED="1519276131819" MODIFIED="1519276205250"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6069,7 +6063,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4fee;&#x6539;ini&#x6587;&#x4ef6;" ID="ID_1676375519" CREATED="1519276206886" MODIFIED="1519276829360"><richcontent TYPE="NOTE">
 
@@ -6107,10 +6100,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519276870323"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" FOLDED="true" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519460132187"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6158,9 +6150,6 @@
     </p>
     <p>
       <i><font color="#000000">====&#25991;&#20214;&#32467;&#26463;,&#36825;&#19968;&#34892;&#19981;&#31639;</font></i>
-    </p>
-    <p>
-      
     </p>
   </body>
 </html>
@@ -6211,7 +6200,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="/var/log/lighttpd/error.log" ID="ID_1194909261" CREATED="1519276999473" MODIFIED="1519277358414"><richcontent TYPE="NOTE">
 
@@ -6279,9 +6267,113 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+</node>
+<node TEXT="&#x5b89;&#x88c5;&#x7f3a;&#x5931;&#x7684;extension" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1519460574460"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#35797;&#22270;&#23433;&#35013;&#19968;&#20123;&#22522;&#20110;&#25991;&#20214;&#30340;&#21338;&#23458;&#31995;&#32479;&#30340;&#26102;&#20505;&#65292;&#21457;&#29616;&#24635;&#26159;&#22833;&#36133;&#12290;
+    </p>
+    <p>
+      &#35843;&#26597;&#20043;&#21518;&#65292;&#20027;&#35201;&#26159;&#26816;&#26597;lighttpd&#30340;errorlog&#21518;&#65292;&#21457;&#29616;&#21407;&#22240;&#26159;&#36825;&#20123;&#21338;&#23458;&#31995;&#32479;&#20381;&#36182;&#30340;&#19968;&#20123;extension&#40664;&#35748;&#24773;&#20917;&#19979;&#27809;&#26377;&#23433;&#35013;&#12290;
+    </p>
+    <p>
+      &#26597;&#20986;&#26469;&#26159;&#32570;&#22833;&#20102;json&#21644;ctype&#36825;&#20004;&#20010;extension.
+    </p>
+    <p>
+      &#23433;&#35013;&#27493;&#39588;&#22914;&#19979;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1,
+    </p>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23433;&#35013;&#36825;&#20004;&#20010;extension:
+    </p>
+    <p>
+      &gt;aptitude install php7.0-json php7.0-ctype
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      &#20165;&#20165;&#23433;&#35013;&#24182;&#27809;&#26377;&#20316;&#29992;&#65292;&#36824;&#38656;&#35201;&#22312;php.ini&#25991;&#20214;&#37324;&#38754;&#37197;&#32622;&#35753;&#20854;&#33258;&#21160;&#21551;&#21160;.
+    </p>
+    <p>
+      &#20462;&#25913;/etc/php/7.0/fpm/php.ini&#25991;&#20214;&#65292;&#22312;&#20854;&#20013;&#21152;&#20837;&#19979;&#38754;&#30340;&#20004;&#34892;:
+    </p>
+    <p>
+      extension=json.so
+    </p>
+    <p>
+      extension=ctype.so
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3,
+    </p>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#37325;&#26032;&#21551;&#21160;php&#21644;lighttpd:
+    </p>
+    <p>
+      &gt;service php7.0-fpm restart &amp;&amp; service lighttpd restart
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x7f3a;&#x5931;extension&#x7684;&#x8868;&#x73b0;" ID="ID_1058492235" CREATED="1519460133491" MODIFIED="1519460334576"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26597;&#30475;&#20301;&#20110;/var/log/lighttpd/error.log&#37324;&#38754;&#30340;&#20869;&#23481;&#33021;&#22815;&#21457;&#29616;&#22914;&#19979;&#30340;log:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ==log start
+    </p>
+    <p>
+      <font color="#ff0033">PHP message: PHP Fatal error:&#160;&#160;Uncaught Error: Call to undefined function Leafo\ScssPhp\</font><font color="#009999"><b>ctype_space()</b></font><font color="#ff0033">&#160;in /var/www/typesetter/include/thirdparty/Leafo/ScssPhp/Parser.php:1348 </font>
+    </p>
+    <p>
+      <font color="#ff0033">PHP message: PHP Fatal error:&#160;&#160;Uncaught Error: Call to undefined function </font><font color="#009999"><b>json_decode()</b></font><font color="#ff0033">&#160;in /var/www/htmly/system/includes/functions.php:2726 </font>
+    </p>
+    <p>
+      <font color="#000000">==log end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19978;&#38754;&#30340;log&#22522;&#26412;&#19978;&#23601;&#26159;&#26174;&#31034;&#20102;&#32570;&#22833;json&#21644;ctype&#36825;&#20004;&#20010;extension&#20102;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
@@ -7207,9 +7299,9 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7695,8 +7787,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9069,8 +9161,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -11228,7 +11320,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -11289,7 +11380,6 @@ root@OpenWrt:~# wifi</pre>
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

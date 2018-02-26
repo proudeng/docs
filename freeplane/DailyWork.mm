@@ -3,7 +3,7 @@
 <node TEXT="DailyWork" FOLDED="false" ID="ID_757627064" CREATED="1515983673148" MODIFIED="1515983836679" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -113,13 +113,16 @@
 <node TEXT="Happy" POSITION="right" ID="ID_207551268" CREATED="1515986434701" MODIFIED="1515986469863">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="&#x56f4;&#x68cb;&#x62a5;&#x540d;" POSITION="right" ID="ID_264484301" CREATED="1518408998528" MODIFIED="1519280252701">
+<node TEXT="&#x56f4;&#x68cb;&#x62a5;&#x540d;" POSITION="right" ID="ID_264484301" CREATED="1518408998528" MODIFIED="1519284823379">
+<icon BUILTIN="100%"/>
 <edge COLOR="#7c0000"/>
 </node>
 <node TEXT="TodoList" POSITION="left" ID="ID_1239886904" CREATED="1515986486307" MODIFIED="1515986498134">
 <edge COLOR="#00ffff"/>
 <node TEXT="Release Notes" ID="ID_744561693" CREATED="1517360634035" MODIFIED="1518314883020"/>
-<node TEXT="Quality Assessment slides" ID="ID_1107008102" CREATED="1517360649288" MODIFIED="1517360657455"/>
+<node TEXT="Quality Assessment slides" ID="ID_1107008102" CREATED="1517360649288" MODIFIED="1519284832658">
+<icon BUILTIN="100%"/>
+</node>
 <node TEXT="&#x641c;&#x96c6;&#x6700;&#x4f73;&#x6539;&#x8fdb;&#x5efa;&#x8bae;&#x60f3;&#x6cd5;" ID="ID_107036768" CREATED="1517362655642" MODIFIED="1517363038560"/>
 <node TEXT="GDPR&#x8c03;&#x67e5;&#x62a5;&#x544a;(BTS/GRAT)" FOLDED="true" ID="ID_567858728" CREATED="1517363041149" MODIFIED="1517800046169"><richcontent TYPE="NOTE">
 
@@ -157,7 +160,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" FOLDED="true" ID="ID_17131739" CREATED="1517799499223" MODIFIED="1517799505913">
+<node TEXT="&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" ID="ID_17131739" CREATED="1517799499223" MODIFIED="1517799505913">
 <node TEXT="EVMS" ID="ID_1123447870" CREATED="1517799454561" MODIFIED="1517799483362"><richcontent TYPE="NOTE">
 
 <html>
@@ -264,7 +267,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6982;&#x5ff5;" ID="ID_340817427" CREATED="1517799930319" MODIFIED="1517799938422"><richcontent TYPE="NOTE">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_340817427" CREATED="1517799930319" MODIFIED="1519350886425"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -272,40 +275,41 @@
   </head>
   <body>
     <p class="MsoBodyText">
-      <span lang="EN-US">All Ericsson </span><span lang="EN">product/solution/service </span><span lang="EN-US">shall register to the PSIRT Vulnerability Watch service before reaching General Availability. Registration enables products to receive information of possible vulnerabilities affecting the 3pp that are used in the product and to have a basis for efficient Vulnerability Management.<o p="#DEFAULT"></o></span>
+      All Ericsson product/solution/service shall register to the PSIRT Vulnerability Watch service before reaching General Availability. Registration enables products to receive information of possible vulnerabilities affecting the 3pp that are used in the product and to have a basis for efficient Vulnerability Management.<o p="#DEFAULT"></o>
     </p>
     <p class="MsoBodyText">
-      <span lang="EN-US">The VW </span><span lang="EN">service is provided by Ericsson PSIRT, that continuously monitors for new vulnerabilities and security updates that are published in various feeds. Vulnerabilities are then mapped to Ericsson products, and notifications (alerts) are sent to possible affected products that are registered for the service.</span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+      The VW service is provided by Ericsson PSIRT, that continuously monitors for new vulnerabilities and security updates that are published in various feeds. Vulnerabilities are then mapped to Ericsson products, and notifications (alerts) are sent to possible affected products that are registered for the service.<o p="#DEFAULT"></o>
     </p>
     <p class="MsoBodyText">
-      <span lang="EN-US">EVMS (Ericsson Vulnerability Management Service) Ref </span><!--[if supportFields]><span
+      EVMS (Ericsson Vulnerability Management Service) Ref<!--[if supportFields]><span
 lang=EN-US><span style='mso-element:field-begin'></span><span
 style='mso-spacerun:yes'>&#xa0;</span>REF _Ref476569393 \r \h <span
 style='mso-element:field-separator'></span></span><![endif]-->
-      <span lang="EN-US">[3]<!--[if gte mso 9]><xml>
+       [3]<!--[if gte mso 9]><xml>
  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003400370036003500360039003300390033000000</w:data>
 </xml><![endif]-->
-       </span><!--[if supportFields]><span lang=EN-US><span
+       &#160;<!--[if supportFields]><span lang=EN-US><span
 style='mso-element:field-end'></span></span><![endif]-->
-      <span lang="EN-US">&#160;is the tool used to provide the VW service.<o p="#DEFAULT"></o></span>
+       &#160;is the tool used to provide the VW service.<o p="#DEFAULT"></o>
     </p>
     <p class="MsoBodyText">
-      <span lang="EN-US">EVMS can be accessed by anyone with Ericsson user id and their LAN credentials at <a href="https://evms.internal.ericsson.com/">https://evms.internal.ericsson.com/</a><o p="#DEFAULT"></o></span>
+      EVMS can be accessed by anyone with Ericsson user id and their LAN credentials at <a href="https://evms.internal.ericsson.com/">https://evms.internal.ericsson.com/</a><o p="#DEFAULT"></o>
     </p>
     <p class="MsoBodyText">
-      <span lang="EN-US">For details on how to use EVMS please go to the EVMS Wiki, Ref </span><!--[if supportFields]><span lang=EN-US><span
+      For details on how to use EVMS please go to the EVMS Wiki, Ref<!--[if supportFields]><span lang=EN-US><span
 style='mso-element:field-begin'></span><span
 style='mso-spacerun:yes'>&#xa0;</span>REF _Ref476569368 \r \h <span
 style='mso-element:field-separator'></span></span><![endif]-->
-      <span lang="EN-US">[2]<!--[if gte mso 9]><xml>
+       [2]<!--[if gte mso 9]><xml>
  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003400370036003500360039003300360038000000</w:data>
 </xml><![endif]-->
-       </span><!--[if supportFields]><span lang=EN-US><span
+       &#160;<!--[if supportFields]><span lang=EN-US><span
 style='mso-element:field-end'></span></span><![endif]-->
-      <span lang="EN-US"><o p="#DEFAULT"></o></span>
+       <o p="#DEFAULT"></o>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -433,7 +437,9 @@ style='mso-element:field-separator'></span></span><![endif]-->
 <node TEXT="PCBTS with GRAT" ID="ID_1336824017" CREATED="1517363051173" MODIFIED="1517363059543"/>
 <node TEXT="Tech Mentor&#x53cd;&#x9988;&#x7ed9;Leo Li" ID="ID_1035229250" CREATED="1517365419186" MODIFIED="1517365441886"/>
 <node TEXT="NieCheng&#x7684;4MCTR&#x7684;&#x95ee;&#x9898;" ID="ID_285082144" CREATED="1517391767703" MODIFIED="1517391789496"/>
-<node TEXT="update RN to reflect PICO limitation" ID="ID_1494148291" CREATED="1517969649869" MODIFIED="1517969684658"/>
+<node TEXT="update RN to reflect PICO limitation" ID="ID_1494148291" CREATED="1517969649869" MODIFIED="1519284677446">
+<icon BUILTIN="75%"/>
+</node>
 <node TEXT="&#x66f4;&#x65b0;G17.Q4&#x7684;release notes" ID="ID_499507693" CREATED="1518315510913" MODIFIED="1518315536062"><richcontent TYPE="NOTE">
 
 <html>

@@ -124,7 +124,7 @@
 </node>
 </node>
 <node TEXT="Feature/CR/TR" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
-<node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
+<node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" FOLDED="true" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
 <node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
 <node TEXT="PSR of DMM for AIR" ID="ID_365489858" CREATED="1383579025498" MODIFIED="1384743721368" LINK="../GSM_document_base/38_0363-110_FCP1307999_Uen_PA11.doc"><richcontent TYPE="NOTE">
 
@@ -1062,7 +1062,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="&#x5173;&#x4e8e;SE_TRX_G_COM&#x7684;&#x5b9a;&#x4e49;" ID="ID_930916829" CREATED="1393846999964" MODIFIED="1393847228574" LINK="../MiscDocuments/SE_TRX_G_COM.msg"/>
 </node>
-<node TEXT="&#x3010;MR3681&#x3011;Easier BTS SW upgrade" ID="ID_1616724387" CREATED="1517204533538" MODIFIED="1518409649170"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;MR3681&#x3011;Easier BTS SW upgrade" FOLDED="true" ID="ID_1616724387" CREATED="1517204533538" MODIFIED="1518409649170"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1083,7 +1083,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="FOP" ID="ID_342738751" CREATED="1518409638907" MODIFIED="1518409649141"><richcontent TYPE="NOTE">
 
@@ -1097,7 +1096,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NDS" ID="ID_1394095988" CREATED="1518409651146" MODIFIED="1518409664523"><richcontent TYPE="NOTE">
@@ -1112,7 +1110,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1129,7 +1126,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NDS" ID="ID_1903602476" CREATED="1518409306741" MODIFIED="1518409349973"><richcontent TYPE="NOTE">
@@ -1144,7 +1140,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1239,7 +1234,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NDS" ID="ID_316692022" CREATED="1518412284914" MODIFIED="1518412387600"><richcontent TYPE="NOTE">
@@ -1254,11 +1248,10 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;MR3256&#x3011;Generic Radio Unit Cascading support for DUG" ID="ID_1479073208" CREATED="1518412877474" MODIFIED="1518412898240">
+<node TEXT="&#x3010;MR3256&#x3011;Generic Radio Unit Cascading support for DUG" FOLDED="true" ID="ID_1479073208" CREATED="1518412877474" MODIFIED="1518412898240">
 <node TEXT="FOP" ID="ID_1571443639" CREATED="1518412880267" MODIFIED="1518412886020"><richcontent TYPE="NOTE">
 
 <html>
@@ -1271,7 +1264,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NDS" ID="ID_29820754" CREATED="1518412922836" MODIFIED="1518412928510"><richcontent TYPE="NOTE">
@@ -1286,7 +1278,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3539,7 +3530,7 @@ field-separator'></span><![endif]-->
 <node TEXT="GSM Radio SwA" POSITION="left" ID="ID_983556455" CREATED="1399187373956" MODIFIED="1399187379060">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="GSM&#x6587;&#x6863;" FOLDED="true" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
+<node TEXT="GSM&#x6587;&#x6863;" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
 <edge COLOR="#ffff00"/>
 <node TEXT="&#x6587;&#x6863;&#x5c42;&#x6b21;&#x7ed3;&#x6784;" ID="ID_853031523" CREATED="1384328000217" MODIFIED="1384328231179" LINK="../MiscDocuments/doc_hierarchy.png"><richcontent TYPE="NOTE">
 
