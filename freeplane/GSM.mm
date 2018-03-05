@@ -55,9 +55,9 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="GSM_PreStudy_before_Travel_to_Kista" FOLDED="true" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1381543833785">
+<node TEXT="GSM_PreStudy_before_Travel_to_Kista" FOLDED="true" POSITION="right" ID="ID_650921638" CREATED="1381543807858" MODIFIED="1519611745884">
 <edge COLOR="#ff0000"/>
-<node TEXT="dTRU&#x5185;&#x90e8;&#x5404;&#x6a21;&#x5757;&#x7684;&#x4e3b;&#x8981;&#x529f;&#x80fd;" ID="ID_568949512" CREATED="1381568075000" MODIFIED="1381568265362" LINK="../pub/dTRU_structure.pdf"><richcontent TYPE="NOTE">
+<node TEXT="dTRU&#x5185;&#x90e8;&#x5404;&#x6a21;&#x5757;&#x7684;&#x4e3b;&#x8981;&#x529f;&#x80fd;" ID="ID_568949512" CREATED="1381568075000" MODIFIED="1519611745883" LINK="../pub/dTRU_structure.pdf"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -124,164 +124,7 @@
 </node>
 </node>
 <node TEXT="Feature/CR/TR" ID="ID_226971846" CREATED="1399442848148" MODIFIED="1399442866059">
-<node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" FOLDED="true" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
-<node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
-<node TEXT="PSR of DMM for AIR" ID="ID_365489858" CREATED="1383579025498" MODIFIED="1384743721368" LINK="../GSM_document_base/38_0363-110_FCP1307999_Uen_PA11.doc"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Pre Study Report
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="RICI-IWD" ID="ID_797987512" CREATED="1383579029178" MODIFIED="1383579262347" LINK="../GSM_document_base/Interwork%20Description%20for%20RICI.docx"/>
-<node TEXT="&#x5173;&#x4e8e;feature&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x6863;" ID="ID_502243171" CREATED="1384734093791" MODIFIED="1386209392299" LINK="../GSM_document_base/DMM_for_AIR.ppt"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#36825;&#26159;&#19968;&#20010;Workshop&#30340;PPT
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="NDS_2_way_CPRI" ID="ID_1308856434" CREATED="1384743723577" MODIFIED="1384743760275" LINK="../GSM_document_base/NDS_2-way_CPRI.docx"/>
-<node TEXT="NDS_Radio_Synch_G2" ID="ID_356728019" CREATED="1386207891387" MODIFIED="1386207928938" LINK="../GSM_document_base/NDS_Radio_Synch_G2.doc"/>
-<node TEXT="&#x6700;&#x65b0;&#x7684;RICI IWD" ID="ID_1015342472" CREATED="1386312101766" MODIFIED="1386312137812" LINK="../GSM_document_base/Interwork%20Description%20for%20RICI.pdf"/>
-</node>
-<node TEXT="&#x3010;&#x793a;&#x4f8b;&#x3011;CR&#x6587;&#x6863;" FOLDED="true" ID="ID_710742119" CREATED="1384911086397" MODIFIED="1384911144337">
-<node TEXT="CR6185" ID="ID_1334896194" CREATED="1384911145841" MODIFIED="1386209391161" LINK="../MiscDocuments/CR6185_PA1.doc"/>
-<node TEXT="CR6203" ID="ID_121400907" CREATED="1384911149946" MODIFIED="1384911186822" LINK="../MiscDocuments/CR-6203.doc"/>
-</node>
-<node TEXT="&#x6742;&#x9879;" FOLDED="true" ID="ID_1591544244" CREATED="1386209399030" MODIFIED="1386209402541">
-<node TEXT="ECP_PH&#x7684;&#x5de5;&#x4f5c;&#x65b9;&#x5f0f;" FOLDED="true" ID="ID_997027991" CREATED="1386209403438" MODIFIED="1517360201791"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p class="MsoBodyText">
-      For ECP packets there are no problem with the slave to slave connection if the namespace problematic is solved.
-    </p>
-    <p class="MsoBodyText">
-      There is an ECP packet handler (ECP_PH) for each CPRI port and an ECP_PH working as a <font color="#ff0033"><b>slave</b></font>&#160;will forward packets with <font color="#ff0033"><b>unknown address</b></font>&#160;to the <font color="#ff0033"><b>cascade port.</b></font>&#160;
-    </p>
-    <p class="MsoBodyText">
-      This can be seen in<!--[if supportFields]><span
-style='mso-element:field-begin'></span><span
-style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028471 \h <span style='mso-element:
-field-separator'></span><![endif]-->
-       &#160;&#160;Figure 45<!--[if gte mso 9]><xml>
- <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003400370031000000</w:data>
-</xml><![endif]-->
-      <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
-       &#160;&#160;showing how it looks today.
-    </p>
-    <p class="MsoBodyText">
-      A more detailed picture for an ECP_PH block can be seen in<!--[if supportFields]><span style='mso-element:field-begin'></span><span
-style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028646 \h <span style='mso-element:
-field-separator'></span><![endif]-->
-       &#160;&#160;Figure 46<!--[if gte mso 9]><xml>
- <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003600340036000000</w:data>
-</xml><![endif]-->
-      <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
-       &#160;.
-    </p>
-    <p class="MsoBodyText">
-      As indicated the ECP_PH block or more correct the <font color="#ff0033"><b>receiver part</b></font>&#160;of the block can work in master or slave mode.
-    </p>
-    <p class="MsoBodyText">
-      In <font color="#ff0033"><b>master mode</b></font>&#160;all ECP packets are <font color="#ff0033"><b>forwarded to the cascade port</b></font>&#160;regardless of the address.<o p="#DEFAULT"></o>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Force Slave&#x6a21;&#x5f0f;" ID="ID_400318695" CREATED="1386209658330" MODIFIED="1386209837700"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#22240;&#20026;&#23384;&#22312;&#20043;&#21069;&#29238;&#33410;&#28857;&#25152;&#35828;&#30340;ECP_PH&#30340;&#34892;&#20026;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#25152;&#20197;&#65292;&#22312;RUS&#19978;&#38656;&#35201;&#20570;&#30340;&#25913;&#21160;&#26159;&#23558;&#37027;&#20010;Master&#21475;&#30340;&#27169;&#24335;&#25913;&#20026;&quot;force slave&quot;&#27169;&#24335;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="CR for US3" FOLDED="true" ID="ID_1105717939" CREATED="1391999613558" MODIFIED="1391999666737"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#36825;&#20010;feature&#30340;US3&#26159;&#36319;RC SW&#30456;&#20851;&#30340;&#65292;&#38656;&#35201;RC SW&#20570;&#20986;&#19968;&#20123;&#25913;&#21160;&#12290;
-    </p>
-    <p>
-      &#21019;&#24314;&#30340;CR&#21495;&#26159;7271,CR&#30340;id&#21495;&#26159;6223.
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="CR&#x5904;&#x7406;&#x7684;Tips&#x548c;&#x611f;&#x60f3;" ID="ID_1250568093" CREATED="1391999676404" MODIFIED="1391999688179"/>
-<node TEXT="&#x751f;&#x6210;CR&#x7684;Activity&#x6587;&#x6863;" ID="ID_851082327" CREATED="1393240847057" MODIFIED="1393241093149" LINK="#ID_1544703732"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#22312;Model&#20462;&#25913;&#23436;&#25104;&#20043;&#21518;&#65292;&#35201;&#29983;&#25104;&#25913;&#21160;&#25991;&#26723;&#65292;&#21483;&#20570;Activity&#25991;&#26723;&#35753;&#21035;&#20154;review.
-    </p>
-    <p>
-      &#25991;&#26723;&#30340;&#29983;&#25104;&#26041;&#27861;&#21442;&#32771;&#36339;&#36716;&#32467;&#28857;&#30340;&#20869;&#23481;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="&#x3010;Feature&#x3011;Soft Sync Over IDL2" FOLDED="true" ID="ID_687694711" CREATED="1399965301964" MODIFIED="1399965319681">
-<node TEXT="PSR" ID="ID_1926351520" CREATED="1399965321917" MODIFIED="1399965358943" LINK="../GSM_document_base/2_PB1_PSR%20BTS%20Soft%20Synchronization%20over%20IDL2.doc"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#36825;&#37324;&#30340;&#25991;&#26723;&#26159;PB2&#30340;Pre Study Report
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="&#x3010;CR&#x3011;CR12220" FOLDED="true" ID="ID_1590583286" CREATED="1393834497085" MODIFIED="1399442855910"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;CR&#x3011;CR12220" FOLDED="true" ID="ID_1590583286" CREATED="1393834497085" MODIFIED="1519611530571"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1062,7 +905,288 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="&#x5173;&#x4e8e;SE_TRX_G_COM&#x7684;&#x5b9a;&#x4e49;" ID="ID_930916829" CREATED="1393846999964" MODIFIED="1393847228574" LINK="../MiscDocuments/SE_TRX_G_COM.msg"/>
 </node>
-<node TEXT="&#x3010;MR3681&#x3011;Easier BTS SW upgrade" FOLDED="true" ID="ID_1616724387" CREATED="1517204533538" MODIFIED="1518409649170"><richcontent TYPE="NOTE">
+<node TEXT="Features" ID="ID_1935205872" CREATED="1519611503616" MODIFIED="1519716129336">
+<icon BUILTIN="bookmark"/>
+<node TEXT="&#x3010;Feature&#x3011;Dual Mixed Mode for AIR" FOLDED="true" ID="ID_233570522" CREATED="1383579010024" MODIFIED="1393846790139">
+<node TEXT="&#x76f8;&#x5173;&#x6587;&#x6863;" FOLDED="true" ID="ID_515093863" CREATED="1383579023148" MODIFIED="1384479201180">
+<node TEXT="PSR of DMM for AIR" ID="ID_365489858" CREATED="1383579025498" MODIFIED="1384743721368" LINK="../GSM_document_base/38_0363-110_FCP1307999_Uen_PA11.doc"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pre Study Report
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="RICI-IWD" ID="ID_797987512" CREATED="1383579029178" MODIFIED="1383579262347" LINK="../GSM_document_base/Interwork%20Description%20for%20RICI.docx"/>
+<node TEXT="&#x5173;&#x4e8e;feature&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x6863;" ID="ID_502243171" CREATED="1384734093791" MODIFIED="1386209392299" LINK="../GSM_document_base/DMM_for_AIR.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#26159;&#19968;&#20010;Workshop&#30340;PPT
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NDS_2_way_CPRI" ID="ID_1308856434" CREATED="1384743723577" MODIFIED="1384743760275" LINK="../GSM_document_base/NDS_2-way_CPRI.docx"/>
+<node TEXT="NDS_Radio_Synch_G2" ID="ID_356728019" CREATED="1386207891387" MODIFIED="1386207928938" LINK="../GSM_document_base/NDS_Radio_Synch_G2.doc"/>
+<node TEXT="&#x6700;&#x65b0;&#x7684;RICI IWD" ID="ID_1015342472" CREATED="1386312101766" MODIFIED="1386312137812" LINK="../GSM_document_base/Interwork%20Description%20for%20RICI.pdf"/>
+</node>
+<node TEXT="&#x3010;&#x793a;&#x4f8b;&#x3011;CR&#x6587;&#x6863;" FOLDED="true" ID="ID_710742119" CREATED="1384911086397" MODIFIED="1384911144337">
+<node TEXT="CR6185" ID="ID_1334896194" CREATED="1384911145841" MODIFIED="1386209391161" LINK="../MiscDocuments/CR6185_PA1.doc"/>
+<node TEXT="CR6203" ID="ID_121400907" CREATED="1384911149946" MODIFIED="1384911186822" LINK="../MiscDocuments/CR-6203.doc"/>
+</node>
+<node TEXT="&#x6742;&#x9879;" FOLDED="true" ID="ID_1591544244" CREATED="1386209399030" MODIFIED="1386209402541">
+<node TEXT="ECP_PH&#x7684;&#x5de5;&#x4f5c;&#x65b9;&#x5f0f;" FOLDED="true" ID="ID_997027991" CREATED="1386209403438" MODIFIED="1517360201791"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoBodyText">
+      For ECP packets there are no problem with the slave to slave connection if the namespace problematic is solved.
+    </p>
+    <p class="MsoBodyText">
+      There is an ECP packet handler (ECP_PH) for each CPRI port and an ECP_PH working as a <font color="#ff0033"><b>slave</b></font>&#160;will forward packets with <font color="#ff0033"><b>unknown address</b></font>&#160;to the <font color="#ff0033"><b>cascade port.</b></font>&#160;
+    </p>
+    <p class="MsoBodyText">
+      This can be seen in<!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028471 \h <span style='mso-element:
+field-separator'></span><![endif]-->
+       &#160;&#160;Figure 45<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003400370031000000</w:data>
+</xml><![endif]-->
+      <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
+       &#160;&#160;showing how it looks today.
+    </p>
+    <p class="MsoBodyText">
+      A more detailed picture for an ECP_PH block can be seen in<!--[if supportFields]><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'>&#xa0;</span>REF _Ref346028646 \h <span style='mso-element:
+field-separator'></span><![endif]-->
+       &#160;&#160;Figure 46<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F005200650066003300340036003000320038003600340036000000</w:data>
+</xml><![endif]-->
+      <!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->
+       &#160;.
+    </p>
+    <p class="MsoBodyText">
+      As indicated the ECP_PH block or more correct the <font color="#ff0033"><b>receiver part</b></font>&#160;of the block can work in master or slave mode.
+    </p>
+    <p class="MsoBodyText">
+      In <font color="#ff0033"><b>master mode</b></font>&#160;all ECP packets are <font color="#ff0033"><b>forwarded to the cascade port</b></font>&#160;regardless of the address.<o p="#DEFAULT"></o>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Force Slave&#x6a21;&#x5f0f;" ID="ID_400318695" CREATED="1386209658330" MODIFIED="1386209837700"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22240;&#20026;&#23384;&#22312;&#20043;&#21069;&#29238;&#33410;&#28857;&#25152;&#35828;&#30340;ECP_PH&#30340;&#34892;&#20026;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20197;&#65292;&#22312;RUS&#19978;&#38656;&#35201;&#20570;&#30340;&#25913;&#21160;&#26159;&#23558;&#37027;&#20010;Master&#21475;&#30340;&#27169;&#24335;&#25913;&#20026;&quot;force slave&quot;&#27169;&#24335;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="CR for US3" FOLDED="true" ID="ID_1105717939" CREATED="1391999613558" MODIFIED="1391999666737"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;feature&#30340;US3&#26159;&#36319;RC SW&#30456;&#20851;&#30340;&#65292;&#38656;&#35201;RC SW&#20570;&#20986;&#19968;&#20123;&#25913;&#21160;&#12290;
+    </p>
+    <p>
+      &#21019;&#24314;&#30340;CR&#21495;&#26159;7271,CR&#30340;id&#21495;&#26159;6223.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CR&#x5904;&#x7406;&#x7684;Tips&#x548c;&#x611f;&#x60f3;" ID="ID_1250568093" CREATED="1391999676404" MODIFIED="1391999688179"/>
+<node TEXT="&#x751f;&#x6210;CR&#x7684;Activity&#x6587;&#x6863;" ID="ID_851082327" CREATED="1393240847057" MODIFIED="1393241093149" LINK="#ID_1544703732"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;Model&#20462;&#25913;&#23436;&#25104;&#20043;&#21518;&#65292;&#35201;&#29983;&#25104;&#25913;&#21160;&#25991;&#26723;&#65292;&#21483;&#20570;Activity&#25991;&#26723;&#35753;&#21035;&#20154;review.
+    </p>
+    <p>
+      &#25991;&#26723;&#30340;&#29983;&#25104;&#26041;&#27861;&#21442;&#32771;&#36339;&#36716;&#32467;&#28857;&#30340;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x3010;Feature&#x3011;Soft Sync Over IDL2" FOLDED="true" ID="ID_687694711" CREATED="1399965301964" MODIFIED="1399965319681">
+<node TEXT="PSR" ID="ID_1926351520" CREATED="1399965321917" MODIFIED="1519611571046" LINK="../GSM_document_base/2_PB1_PSR%20BTS%20Soft%20Synchronization%20over%20IDL2.doc"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#37324;&#30340;&#25991;&#26723;&#26159;PB2&#30340;Pre Study Report
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR2484-5&#x3011;NGS SRS" FOLDED="true" ID="ID_1952967029" CREATED="1518409249297" MODIFIED="1518409294272">
+<node TEXT="FOP" ID="ID_1434956415" CREATED="1518409303302" MODIFIED="1518409337200"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c1f1311?docno=BNEP-17:010619Uen&amp;action=approved&amp;format=ppt8
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_1903602476" CREATED="1518409306741" MODIFIED="1518409349973"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c5c2e39?docno=258/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR4596-1&#x3011;Radio 4443 in Ericsson Radio System(4T4R dual band)" ID="ID_1088468827" CREATED="1517206483415" MODIFIED="1519611548190"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Feature: Radio 4443 in Ericsson Radio System (4T4R dual band)
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Link to Feature in Hansoft: hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/588821
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Impacted Products: BTS, OMT, BSC(verification), OSS
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      Artifacts NDS: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12</a>&#160;
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x3010;MR5093&#x3011;Generic Radio Unit Cascading support for DUG" FOLDED="true" ID="ID_1523206866" CREATED="1518412242363" MODIFIED="1518412281266">
+<node TEXT="FOP" ID="ID_129104669" CREATED="1518412283002" MODIFIED="1518412354593"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8ca78d18?docno=51/28821-110/FCP1307999Uen&amp;format=ppt12
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_316692022" CREATED="1518412284914" MODIFIED="1518412387600"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cc8e9d5?docno=56/0363-110/FCP1307999Uen&amp;format=msw12
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR3256&#x3011;Dual Band Radio 2242" FOLDED="true" ID="ID_1479073208" CREATED="1518412877474" MODIFIED="1519611689831">
+<node TEXT="FOP" ID="ID_1571443639" CREATED="1518412880267" MODIFIED="1518412886020"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8b42f1d9?docno=99/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_29820754" CREATED="1518412922836" MODIFIED="1519611593387"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c7b14a9?docno=276/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw8
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR3681&#x3011;Easier BTS SW upgrade" FOLDED="true" ID="ID_1616724387" CREATED="1517204533538" MODIFIED="1519611606937"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1113,37 +1237,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;MR2484-5&#x3011;NGS SRS" ID="ID_1952967029" CREATED="1518409249297" MODIFIED="1518409294272">
-<node TEXT="FOP" ID="ID_1434956415" CREATED="1518409303302" MODIFIED="1518409337200"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c1f1311?docno=BNEP-17:010619Uen&amp;action=approved&amp;format=ppt8
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="NDS" ID="ID_1903602476" CREATED="1518409306741" MODIFIED="1518409349973"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c5c2e39?docno=258/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="&#x3010;MR5172-6&#x3011;NGS GSM SRS Enhancement" ID="ID_156671729" CREATED="1517204549217" MODIFIED="1517206982940"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;MR5172-6&#x3011;NGS GSM SRS Enhancement" FOLDED="true" ID="ID_156671729" CREATED="1517204549217" MODIFIED="1519716253192"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1151,19 +1245,19 @@ field-separator'></span><![endif]-->
   </head>
   <body>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><font size="10.0pt" face="Arial,sans-serif">Feature</font></b><font size="10.0pt" face="Arial,sans-serif">:</font>&#160;<font size="10.0pt" face="Arial,sans-serif">MR5172-SP6: NGS GSM SRS enhancement</font><o p="#DEFAULT"></o>
+      <b><font face="Arial,sans-serif">Feature</font></b><font face="Arial,sans-serif">:</font>&#160;<font face="Arial,sans-serif">MR5172-SP6: NGS GSM SRS enhancement</font><o p="#DEFAULT"></o>
     </p>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><font size="10.0pt" face="Arial,sans-serif">Link to Feature in Hansoft</font></b><font size="10.0pt" face="Arial,sans-serif">:</font>&#160;<a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/593290">SP6: NGS GSM SRS enhancement</a><o p="#DEFAULT"></o>
+      <b><font face="Arial,sans-serif">Link to Feature in Hansoft</font></b><font face="Arial,sans-serif">:</font>&#160;<a href="hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/593290">SP6: NGS GSM SRS enhancement</a><o p="#DEFAULT"></o>
     </p>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><font size="10.0pt" face="Arial,sans-serif">Impacted Products</font></b><font size="10.0pt" face="Arial,sans-serif">: BTS, OMT</font><o p="#DEFAULT"></o>
+      <b><font face="Arial,sans-serif">Impacted Products</font></b><font face="Arial,sans-serif">: BTS, OMT</font><o p="#DEFAULT"></o>
     </p>
     <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
-      <b><font size="10.0pt" face="Arial,sans-serif">Artifacts</font></b><font size="10.0pt" face="Arial,sans-serif">&#160;(OA, PPS or equivalent documents):<o p="#DEFAULT"></o></font>
+      <b><font face="Arial,sans-serif">Artifacts</font></b><font face="Arial,sans-serif">&#160;(OA, PPS or equivalent documents):<o p="#DEFAULT"></o></font>
     </p>
     <p class="MsoNormal">
-      <font size="10.0pt" face="Arial,sans-serif">OA: </font><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cbb9075?docno=158/0363-200/FCP1314743Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cbb9075?docno=158/0363-200/FCP1314743Uen&amp;action=current&amp;format=ppt12</a><o p="#DEFAULT"></o>
+      <font face="Arial,sans-serif">OA: </font><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cbb9075?docno=158/0363-200/FCP1314743Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cbb9075?docno=158/0363-200/FCP1314743Uen&amp;action=current&amp;format=ppt12</a><o p="#DEFAULT"></o>
     </p>
     <p class="MsoNormal">
       Feature presentation: <font color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd70929?docno=BNEP-18:000149Uen&amp;action=approved&amp;format=ppt8">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd70929?docno=BNEP-18:000149Uen&amp;action=approved&amp;format=ppt8</a><o p="#DEFAULT"></o></font>
@@ -1171,7 +1265,7 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="NDS_Link_To_Other_SP" ID="ID_1910231844" CREATED="1517364005026" MODIFIED="1517364033298"><richcontent TYPE="NOTE">
+<node TEXT="NDS_Link_To_Other_SP" ID="ID_1910231844" CREATED="1517364005026" MODIFIED="1519716253188"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1186,98 +1280,63 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;MR4596-1&#x3011;Radio 4443 in Ericsson Radio System(4T4R dual band)" ID="ID_1088468827" CREATED="1517206483415" MODIFIED="1517206946376"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;MR4172-1&#x3011;Radio 4428 (4x40 W light FDD) in Ericsson Radio Systems" FOLDED="true" ID="ID_1068001354" CREATED="1519716134094" MODIFIED="1519716184355">
+<node TEXT="FOP" ID="ID_1037821501" CREATED="1519716194850" MODIFIED="1519716221673"><richcontent TYPE="NOTE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p class="MsoNormal" style="margin-bottom: 5.0pt">
-      Feature: Radio 4443 in Ericsson Radio System (4T4R dual band)
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bdcd1c3?docno=331/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12
     </p>
-    <p class="MsoNormal" style="margin-bottom: 5.0pt">
-      Link to Feature in Hansoft: hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/588821
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_1894360054" CREATED="1519716198018" MODIFIED="1519716234605"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c086d7f?docno=197/10268-300/FCP1314743Uen&amp;format=msw8
     </p>
-    <p class="MsoNormal" style="margin-bottom: 5.0pt">
-      Impacted Products: BTS, OMT, BSC(verification), OSS
-    </p>
-    <p class="MsoNormal" style="margin-bottom: 5.0pt">
-      Artifacts NDS: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12</a>&#160;
-    </p>
-    <p class="MsoNormal" style="margin-bottom: 5.0pt">
-      
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;GRAN-SI-69&#x3011; External Condition Faults Mismatch Technical Report" ID="ID_787338164" CREATED="1519721460509" MODIFIED="1519721532117"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <b><span lang="EN-US" style="color: #212121"><font color="#212121">System Improvement:&#160;</font></span></b><font color="#212121"><span lang="EN-US" style="color: #212121">GRAN-SI-69: External Condition Faults Mismatch Technical Report</span></font><span lang="EN-US" style="font-size: 11.5pt; font-family: Segoe UI,sans-serif; color: #212121"><font size="11.5pt" face="Segoe UI,sans-serif" color="#212121"><o p="#DEFAULT"></o></font></span>
     </p>
     <p class="MsoNormal">
-      
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #212121"><font size="10.0pt" face="Arial,sans-serif" color="#212121">Impacted Products</font></span></b><font size="10.0pt" face="Arial,sans-serif" color="#212121"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #212121">: BTS, OMT</span></font><span lang="EN-US" style="font-size: 11.5pt; font-family: Segoe UI,sans-serif; color: #212121"><font size="11.5pt" face="Segoe UI,sans-serif" color="#212121"><o p="#DEFAULT"></o></font></span>
     </p>
     <p class="MsoNormal">
-      
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #212121"><font size="10.0pt" face="Arial,sans-serif" color="#212121">Artifacts</font></span></b><font size="10.0pt" face="Arial,sans-serif" color="#212121"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #212121">&#160;(OA, PPS or equivalent documents):</span></font><span lang="EN-US" style="font-size: 11.5pt; font-family: Segoe UI,sans-serif; color: #212121"><font size="11.5pt" face="Segoe UI,sans-serif" color="#212121"><o p="#DEFAULT"></o></font></span>
     </p>
-    <p>
-      
+    <p class="MsoNormal">
+      <span lang="EN-US" style="font-size: 10.0pt; color: #212121"><font size="10.0pt" color="#212121">SI Presentation:&#160;<a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c7971c7?docno=106/1570-300/FCP1314743Uen&amp;action=current&amp;format=ppt12" target="_blank">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c7971c7?docno=106/1570-300/FCP1314743Uen&amp;action=current&amp;format=ppt12</a></font></span><span lang="EN-US" style="font-size: 11.5pt; font-family: Segoe UI,sans-serif; color: #212121"><font size="11.5pt" face="Segoe UI,sans-serif" color="#212121"><o p="#DEFAULT"></o></font></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US" style="font-size: 10.0pt; color: #212121"><font size="10.0pt" color="#212121">SI Technical Report:&#160;<a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8ccd045d?docno=2/0360-230/FCG10255Uen&amp;action=current&amp;format=msw8">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8ccd045d?docno=2/0360-230/FCG10255Uen&amp;action=current&amp;format=msw8</a>&#160;</font></span><span lang="EN-US" style="font-size: 11.5pt; font-family: Segoe UI,sans-serif; color: #212121"><font size="11.5pt" face="Segoe UI,sans-serif" color="#212121"><o p="#DEFAULT"></o></font></span>
     </p>
   </body>
 </html>
-</richcontent>
-</node>
-<node TEXT="&#x3010;MR5093&#x3011;Generic Radio Unit Cascading support for DUG" ID="ID_1523206866" CREATED="1518412242363" MODIFIED="1518412281266">
-<node TEXT="FOP" ID="ID_129104669" CREATED="1518412283002" MODIFIED="1518412354593"><richcontent TYPE="NOTE">
 
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8ca78d18?docno=51/28821-110/FCP1307999Uen&amp;format=ppt12
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="NDS" ID="ID_316692022" CREATED="1518412284914" MODIFIED="1518412387600"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cc8e9d5?docno=56/0363-110/FCP1307999Uen&amp;format=msw12
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="&#x3010;MR3256&#x3011;Generic Radio Unit Cascading support for DUG" FOLDED="true" ID="ID_1479073208" CREATED="1518412877474" MODIFIED="1518412898240">
-<node TEXT="FOP" ID="ID_1571443639" CREATED="1518412880267" MODIFIED="1518412886020"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8b42f1d9?docno=99/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="NDS" ID="ID_29820754" CREATED="1518412922836" MODIFIED="1518412928510"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8c7b14a9?docno=276/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw8
-    </p>
-  </body>
-</html>
 </richcontent>
 </node>
 </node>
@@ -3530,7 +3589,7 @@ field-separator'></span><![endif]-->
 <node TEXT="GSM Radio SwA" POSITION="left" ID="ID_983556455" CREATED="1399187373956" MODIFIED="1399187379060">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="GSM&#x6587;&#x6863;" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
+<node TEXT="GSM&#x6587;&#x6863;" FOLDED="true" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
 <edge COLOR="#ffff00"/>
 <node TEXT="&#x6587;&#x6863;&#x5c42;&#x6b21;&#x7ed3;&#x6784;" ID="ID_853031523" CREATED="1384328000217" MODIFIED="1384328231179" LINK="../MiscDocuments/doc_hierarchy.png"><richcontent TYPE="NOTE">
 
