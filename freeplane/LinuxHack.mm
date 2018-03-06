@@ -4256,7 +4256,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql&#x5b89;&#x88c5;" FOLDED="true" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
+<node TEXT="mysql&#x5b89;&#x88c5;" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4623,7 +4623,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;phpmyadmin" FOLDED="true" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;phpmyadmin" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6370,8 +6370,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
 <node TEXT="Flat-File CMS" ID="ID_647719980" CREATED="1519652606443" MODIFIED="1519653665825"><richcontent TYPE="NOTE">
 
 <html>
@@ -6415,6 +6413,144 @@
 <node TEXT="HTMLy" ID="ID_885986992" CREATED="1519653574866" MODIFIED="1519653581260"/>
 <node TEXT="Typesetter" ID="ID_1526227773" CREATED="1519653581642" MODIFIED="1519653602332"/>
 <node TEXT="Hugo" ID="ID_1289475590" CREATED="1519653602690" MODIFIED="1519653605612"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x56fe;&#x5f62;&#x754c;&#x9762;&#x5e94;&#x7528;&#x5b89;&#x88c5;" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1519988801050"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23433;&#35013;&#20043;&#21069;&#22312;Linux Deploy&#37324;&#38754;&#37197;&#32622;Debian&#30340;&#26102;&#20505;&#24182;&#27809;&#26377;&#36873;&#25321;X&#31995;&#32479;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#38656;&#35201;&#33258;&#24049;&#23433;&#35013;&#30456;&#24212;&#30340;&#36719;&#20214;&#21644;&#32452;&#20214;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="xauth" FOLDED="true" ID="ID_685934389" CREATED="1519988830331" MODIFIED="1519989068457">
+<icon BUILTIN="messagebox_warning"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      xauth&#26159;&#24517;&#39035;&#35201;&#23433;&#35013;&#30340;&#19968;&#20010;&#36719;&#20214;&#21253;&#12290;&#19981;&#28982;&#30340;&#35805;&#21363;&#20351;&#23433;&#35013;&#20102;xterm&#25110;&#32773;gvim&#65292;&#23581;&#35797;&#25171;&#24320;&#36825;&#20123;&#36719;&#20214;&#30340;&#26102;&#20505;&#31995;&#32479;&#20063;&#20250;&#25253;&#38169;&#12290;
+    </p>
+    <p>
+      &#20986;&#38169;&#30340;log&#21442;&#32771;&#23376;&#33410;&#28857;&#30340;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x7f3a;&#x5c11;xauth&#x7684;&#x8868;&#x73b0;" ID="ID_726580813" CREATED="1519988869651" MODIFIED="1519989052520"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21551;&#21160;x&#31243;&#24207;&#30340;&#26102;&#20505;&#65292;&#22914;&#26524;&#31995;&#32479;&#37324;&#38754;&#27809;&#26377;&#23433;&#35013;xauth&#36719;&#20214;&#30340;&#35805;&#65292;&#20250;&#21457;&#29616;&#31867;&#20284;&#20110;&#19979;&#38754;&#30340;&#25253;&#38169;log:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //log&#24320;&#22987;
+    </p>
+    <p>
+      xterm: Xt error: Can't open display:
+    </p>
+    <p>
+      //log&#32467;&#26463;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="xterm" ID="ID_924049833" CREATED="1519988808090" MODIFIED="1519988811076"/>
+<node TEXT="gvim&#x5b89;&#x88c5;&#x914d;&#x7f6e;" ID="ID_905058782" CREATED="1519985462085" MODIFIED="1519985474007">
+<node TEXT="Chinese Input" ID="ID_652115084" CREATED="1517922007883" MODIFIED="1519453890801"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Failed to install fcitx and ibus. Scim installation succeeded.
+    </p>
+    <p>
+      Follow Steps below:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1,
+    </p>
+    <p>
+      type following commands to install related package
+    </p>
+    <p>
+      &gt;aptitude install scim scim-pinyin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      edit .bashrc file under home directory and add following alias in the end
+    </p>
+    <p>
+      export GTK_IM_MODULE=scim
+    </p>
+    <p>
+      export XMODIFIERS=@im=scim
+    </p>
+    <p>
+      export QT_IM_MODULE=scim
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3,
+    </p>
+    <p>
+      type scim-setup command to setup the hotkey and the input method.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4,
+    </p>
+    <p>
+      restart the system and then it is OK to input with scim
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
@@ -7824,8 +7960,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>

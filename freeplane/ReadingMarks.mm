@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -5065,6 +5065,117 @@ END</pre>
 </node>
 <node TEXT="&#x5173;&#x4e8e;&#x5bf9;&#x79f0;&#x591a;&#x5904;&#x7406;SMP&#x67b6;&#x6784;" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
 <edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="&#x600e;&#x6837;&#x8bfb;&#x8d22;&#x62a5;" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
+<edge COLOR="#808080"/>
+<node TEXT="&#x540d;&#x8bcd;" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
+<node TEXT="operating margin" ID="ID_1741430453" CREATED="1520217202692" MODIFIED="1520217334706"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33829;&#19994;&#21033;&#28070;&#29575;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="gross margin" ID="ID_591434712" CREATED="1520217395994" MODIFIED="1520217418695"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27611;&#21033;&#29575;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="nomination committee" ID="ID_108524082" CREATED="1520217336614" MODIFIED="1520217360826"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25552;&#21517;&#22996;&#21592;&#20250;(&#33891;&#20107;&#20250;)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="net sales" ID="ID_1175854872" CREATED="1520217490380" MODIFIED="1520217555968"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20928;&#38144;&#21806;&#39069;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="reported operating income" ID="ID_511113377" CREATED="1520217557097" MODIFIED="1520217572237"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25253;&#21578;&#33829;&#19994;&#25910;&#20837;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="adjusted operating income" ID="ID_1491550084" CREATED="1520217597665" MODIFIED="1520217612687"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35843;&#25972;&#21518;&#30340;&#33829;&#19994;&#25910;&#20837;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="free cash flow" ID="ID_486526" CREATED="1520217630341" MODIFIED="1520217755247"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33258;&#30001;&#29616;&#37329;&#27969;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="restructuring charge" ID="ID_362002208" CREATED="1520217756342" MODIFIED="1520217827189"/>
+</node>
 </node>
 <node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1382732836436">
 <edge COLOR="#ffff00"/>
