@@ -5889,75 +5889,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Chinese Input" ID="ID_652115084" CREATED="1517922007883" MODIFIED="1519453890801"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Failed to install fcitx and ibus. Scim installation succeeded.
-    </p>
-    <p>
-      Follow Steps below:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      1,
-    </p>
-    <p>
-      type following commands to install related package
-    </p>
-    <p>
-      &gt;aptitude install scim scim-pinyin
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      2,
-    </p>
-    <p>
-      edit .bashrc file under home directory and add following alias in the end
-    </p>
-    <p>
-      export GTK_IM_MODULE=scim
-    </p>
-    <p>
-      export XMODIFIERS=@im=scim
-    </p>
-    <p>
-      export QT_IM_MODULE=scim
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      3,
-    </p>
-    <p>
-      type scim-setup command to setup the hotkey and the input method.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      4,
-    </p>
-    <p>
-      restart the system and then it is OK to input with scim
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
 <node TEXT="web&#x670d;&#x52a1;&#x5668;" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
@@ -6431,7 +6363,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="xauth" FOLDED="true" ID="ID_685934389" CREATED="1519988830331" MODIFIED="1519989068457">
 <icon BUILTIN="messagebox_warning"/>
@@ -6450,7 +6381,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7f3a;&#x5c11;xauth&#x7684;&#x8868;&#x73b0;" ID="ID_726580813" CREATED="1519988869651" MODIFIED="1519989052520"><richcontent TYPE="NOTE">
 
@@ -6476,13 +6406,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="xterm" ID="ID_924049833" CREATED="1519988808090" MODIFIED="1519988811076"/>
-<node TEXT="gvim&#x5b89;&#x88c5;&#x914d;&#x7f6e;" ID="ID_905058782" CREATED="1519985462085" MODIFIED="1519985474007">
-<node TEXT="Chinese Input" ID="ID_652115084" CREATED="1517922007883" MODIFIED="1519453890801"><richcontent TYPE="NOTE">
+<node TEXT="gvim&#x5b89;&#x88c5;&#x914d;&#x7f6e;" ID="ID_905058782" CREATED="1519985462085" MODIFIED="1519985474007"/>
+<node TEXT="Chinese Input" ID="ID_276199738" CREATED="1517922007883" MODIFIED="1519453890801"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6550,6 +6479,35 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="Git&#x5ba2;&#x6237;&#x7aef;&#x4ee5;&#x53ca;&#x5de5;&#x5177;" ID="ID_1941712175" CREATED="1520401147679" MODIFIED="1520401340512"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23433;&#35013;git&#20197;&#21450;&#38468;&#24102;&#30340;&#24037;&#20855;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt;aptitude install git gitk tkdiff
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20854;&#20013;gitk&#26159;git&#30340;&#22270;&#24418;&#21270;&#23458;&#25143;&#31471;&#65292;tkdiff&#26159;&#19968;&#20010;&#36731;&#37327;&#32423;&#30340;&#22270;&#24418;&#21270;diff&#24037;&#20855;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
@@ -7473,8 +7431,8 @@
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7960,8 +7918,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
