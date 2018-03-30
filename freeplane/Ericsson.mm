@@ -995,8 +995,8 @@
 <node TEXT="&#x7fbd;&#x6bdb;&#x7403;&#x6d88;&#x8d39;&#x8bb0;&#x5f55;" ID="ID_1279062235" CREATED="1323831940078" MODIFIED="1397458117774" LINK="file:/G:/Group_RD/09_WRBS3000_MPSW/5%20RD_AR/02_W%20BP/04_Teambuilding"/>
 </node>
 </node>
-<node TEXT="&#x5de5;&#x5177;" FOLDED="true" POSITION="left" ID="ID_1174870052" CREATED="1323738234553" MODIFIED="1323738236581">
-<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" FOLDED="true" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
+<node TEXT="&#x5de5;&#x5177;" POSITION="left" ID="ID_1174870052" CREATED="1323738234553" MODIFIED="1323738236581">
+<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1009,7 +1009,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Mark&#x63d2;&#x4ef6;" FOLDED="true" ID="ID_111719412" CREATED="1323738271319" MODIFIED="1323738347194" LINK="http://www.vim.org/scripts/script.php?script_id=1238"><richcontent TYPE="NOTE">
+<node TEXT="Mark&#x63d2;&#x4ef6;" ID="ID_111719412" CREATED="1323738271319" MODIFIED="1323738347194" LINK="http://www.vim.org/scripts/script.php?script_id=1238"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1022,7 +1022,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x6cd5;" FOLDED="true" ID="ID_490275511" CREATED="1323738353748" MODIFIED="1400251542457"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x6cd5;" ID="ID_490275511" CREATED="1323738353748" MODIFIED="1400251542457"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1084,7 +1084,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="VIM&#x63d2;&#x4ef6;&#x7f51;&#x9875;&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x5b57;" ID="ID_1197910910" CREATED="1400333952799" MODIFIED="1400333971869"><richcontent TYPE="NOTE">
+<node TEXT="VIM&#x63d2;&#x4ef6;&#x7f51;&#x9875;&#x7684;&#x4ecb;&#x7ecd;&#x6587;&#x5b57;" ID="ID_1197910910" CREATED="1400333952799" MODIFIED="1520581186460"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1150,10 +1150,11 @@
     </table>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
-<node TEXT="vimgrep&#x641c;&#x7d22;&#x4ee5;&#x53ca;&#x6253;&#x5f00;&#x641c;&#x7d22;&#x7ed3;&#x679c;&#x7a97;&#x53e3;" ID="ID_1787793831" CREATED="1323738435507" MODIFIED="1400251507887"><richcontent TYPE="NOTE">
+<node TEXT="vimgrep&#x641c;&#x7d22;&#x4ee5;&#x53ca;&#x6253;&#x5f00;&#x641c;&#x7d22;&#x7ed3;&#x679c;&#x7a97;&#x53e3;" ID="ID_1787793831" CREATED="1323738435507" MODIFIED="1520581169833"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1195,6 +1196,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="&#x4e00;&#x4e9b;&#x5173;&#x4e8e;&#x641c;&#x7d22;&#x7684;&#x5feb;&#x6377;&#x952e;" ID="ID_1176218639" CREATED="1323739892351" MODIFIED="1323747644650"><richcontent TYPE="NOTE">

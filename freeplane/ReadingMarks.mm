@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -144,7 +144,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" FOLDED="true" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1382222171903">
+<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -191,6 +191,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="X86&#x67b6;&#x6784;&#x7684;&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;" ID="ID_1755621105" CREATED="1381899014323" MODIFIED="1382732944031">
 <icon BUILTIN="help"/>
@@ -4020,7 +4021,7 @@ END</pre>
 <node TEXT="perl&#x8bed;&#x8a00;&#x7f16;&#x7a0b;(&#x7b2c;&#x4e09;&#x7248;)" ID="ID_1948694476" CREATED="1318298709204" MODIFIED="1318298721969"/>
 </node>
 </node>
-<node TEXT="Pro Git" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
+<node TEXT="Pro Git" FOLDED="true" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
 <edge COLOR="#7c0000"/>
 <node TEXT="Ch2--Git Basics" ID="ID_1647110050" CREATED="1455436238940" MODIFIED="1455436400977" LINK="../OneNote/Git_Basic_operation.one"><richcontent TYPE="NOTE">
 
@@ -4103,7 +4104,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x51b2;&#x7a81;&#x53d1;&#x751f;&#x540e;&#x60f3;&#x76f4;&#x63a5;&#x4f7f;&#x7528;&#x8fdc;&#x7aef;&#x7248;&#x672c;&#x8986;&#x76d6;&#x672c;&#x5730;&#x4fee;&#x6539;" ID="ID_216988497" CREATED="1520406261433" MODIFIED="1520407166649"><richcontent TYPE="NOTE">
 
@@ -4120,7 +4120,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4145,7 +4144,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4e0d;&#x5c0f;&#x5fc3;&#x5c06;&#x6587;&#x4ef6;&#x7ed9;stage&#x4e86;" ID="ID_1984160963" CREATED="1520406786948" MODIFIED="1520406974045"><richcontent TYPE="NOTE">
 
@@ -4162,7 +4160,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x60f3;&#x5c06;&#x672c;&#x5730;&#x4fee;&#x6539;&#x8fc7;&#x7684;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4fee;&#x6539;&#x524d;&#x7684;&#x5185;&#x5bb9;" ID="ID_1905462866" CREATED="1520406852800" MODIFIED="1520407811783"><richcontent TYPE="NOTE">
@@ -4195,7 +4192,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5c0f;&#x7ed3;" ID="ID_1540978296" CREATED="1520409349193" MODIFIED="1520413487634"><richcontent TYPE="NOTE">
@@ -4250,7 +4246,6 @@ END</pre>
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1520409891261"><richcontent TYPE="NOTE">
 
@@ -4278,11 +4273,49 @@ END</pre>
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Linux Foundation Courses" POSITION="right" ID="ID_236017217" CREATED="1521197476614" MODIFIED="1521706279056">
+<edge COLOR="#808080"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29233;&#31435;&#20449;&#30340;&#25552;&#20379;&#30340;&#35838;&#31243;&#65292;&#26377;&#25928;&#26399;&#19968;&#24180;.
+    </p>
+    <p>
+      Start Date: 2018/3/15
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30331;&#38470;&#38142;&#25509;:
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="LFS201" ID="ID_1874577788" CREATED="1521197489734" MODIFIED="1521770266906"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Essentials of Linux System Admnistration
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="Understanding the Linux Kernel,3rd edition" FOLDED="true" POSITION="left" ID="ID_504465545" CREATED="1378975555231" MODIFIED="1395929729166" LINK="../pub/OReilly.Understanding.the.Linux.Kernel.3rd.Edition.Nov.2005.HAPPY.NEW.YEAR.chm">
@@ -5268,7 +5301,7 @@ END</pre>
 </richcontent>
 </node>
 <node TEXT="Miscellaneous" FOLDED="true" ID="ID_81604588" CREATED="1382726755432" MODIFIED="1382726759962">
-<node TEXT="&#x5185;&#x6838;&#x53d8;&#x91cf;&#x548c;&#x6570;&#x636e;&#x7ed3;&#x6784;" FOLDED="true" ID="ID_1355984575" CREATED="1382737740499" MODIFIED="1382737746584">
+<node TEXT="&#x5185;&#x6838;&#x53d8;&#x91cf;&#x548c;&#x6570;&#x636e;&#x7ed3;&#x6784;" ID="ID_1355984575" CREATED="1382737740499" MODIFIED="1382737746584">
 <node TEXT="preempt_count" ID="ID_714830929" CREATED="1382737750631" MODIFIED="1382737754704"/>
 </node>
 <node TEXT="&#x6709;&#x51e0;&#x79cd;&quot;kernel control path&quot;?" ID="ID_1582558193" CREATED="1383166018518" MODIFIED="1383166258660">
@@ -5316,7 +5349,7 @@ END</pre>
 </node>
 <node TEXT="&#x600e;&#x6837;&#x8bfb;&#x8d22;&#x62a5;" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
 <edge COLOR="#808080"/>
-<node TEXT="&#x540d;&#x8bcd;" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
+<node TEXT="&#x540d;&#x8bcd;" FOLDED="true" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
 <node TEXT="operating margin" ID="ID_1741430453" CREATED="1520217202692" MODIFIED="1520217334706"><richcontent TYPE="NOTE">
 
 <html>
@@ -5417,6 +5450,23 @@ END</pre>
 </node>
 <node TEXT="restructuring charge" ID="ID_362002208" CREATED="1520217756342" MODIFIED="1520217827189"/>
 </node>
+</node>
+<node TEXT="&#x5168;&#x7403;&#x901a;&#x53f2;" POSITION="left" ID="ID_34264488" CREATED="1521766564285" MODIFIED="1521766621883">
+<edge COLOR="#808080"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28023;&#26031;/&#31302;&#24681;/&#38886;&#20848; &#29256;&#26412;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 <node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1520401450920">
 <edge COLOR="#ffff00"/>
