@@ -7470,9 +7470,9 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9332,8 +9332,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10469,7 +10469,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="systemupgrade" FOLDED="true" ID="ID_201702831" CREATED="1418209182998" MODIFIED="1418210934906" LINK="../OneNote/Openwrt_upgrade_log.one"><richcontent TYPE="NOTE">
+<node TEXT="systemupgrade" ID="ID_201702831" CREATED="1418209182998" MODIFIED="1418210934906" LINK="../OneNote/Openwrt_upgrade_log.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10717,9 +10717,8 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="u-boot-mod&#x9879;&#x76ee;" ID="ID_1504926658" CREATED="1522480263220" MODIFIED="1522480647406"><richcontent TYPE="NOTE">
+<node TEXT="u-boot-mod&#x9879;&#x76ee;" FOLDED="true" ID="ID_1504926658" CREATED="1522480263220" MODIFIED="1522480647406"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10748,9 +10747,8 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="&#x5237;u-boot-mod&#x64cd;&#x4f5c;" ID="ID_1797563351" CREATED="1522480656532" MODIFIED="1522481495656"><richcontent TYPE="NOTE">
+<node TEXT="&#x5237;u-boot-mod&#x64cd;&#x4f5c;" FOLDED="true" ID="ID_1797563351" CREATED="1522480656532" MODIFIED="1522483709151"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10769,8 +10767,6 @@ root@OpenWrt:~# wifi</pre>
     <ol>
       <li>
         &#39318;&#20808;&#22791;&#20221;&#24403;&#21069;&#30340;mtd0&#65292;&#20351;&#29992;&#21629;&#20196;dd if=/dev/mtd0 of=uboot_factory.bin &#27880;&#24847;&#36825;&#20010;&#25805;&#20316;&#35201;&#22312;/tmp&#30446;&#24405;&#19979;&#25805;&#20316;
-
-        <pre></pre>
       </li>
       <li>
         &#19979;&#36733;u-boot-mod&#30340;&#26368;&#26032;&#21457;&#34892;&#29256;&#65292;&#26368;&#26032;&#29256;&#26412;&#20013;&#21253;&#21547;&#20102;&#20004;&#20010;&#19996;&#35199;&#65292;&#19968;&#20010;&#20462;&#25913;&#36807;&#30340;openwrt&#22266;&#20214;&#65292;&#19968;&#20010;&#25105;&#20204;&#38656;&#35201;&#19979;&#36733;&#21040;&#36335;&#30001;&#22120;&#19978;&#30340;&#26356;&#26032;&#36807;&#30340;Uboot&#22266;&#20214;
@@ -10784,11 +10780,86 @@ root@OpenWrt:~# wifi</pre>
       <li>
         &#31995;&#32479;&#37325;&#21551;&#21040;&#20462;&#25913;&#36807;&#30340;openwrt&#22266;&#20214;&#20043;&#21518;&#65292;ssh&#30331;&#38470;&#19978;&#21435;&#65292;&#30452;&#25509;&#25970;u-boot-upgrade&#36825;&#19968;&#20010;&#21629;&#20196;&#65292;&#28982;&#21518;&#25353;&#29031;&#25552;&#31034;&#19968;&#27493;&#19968;&#27493;&#26469;&#65292;&#28857;&#20987;&#20960;&#20010;yes&#65292;&#23601;&#23436;&#25104;&#20102;uboot&#30340;&#20462;&#25913;&#20102;&#65281;
       </li>
+      <li>
+        &#27492;&#26102;&#30340;openwrt&#22266;&#20214;&#36824;&#26159;&#33021;&#22815;&#24037;&#20316;&#30340;&#65292;&#21487;&#20197;&#20351;&#29992;openwrt&#30340;&#26631;&#20934;&#31995;&#32479;&#21319;&#32423;&#26041;&#27861;&#21319;&#32423;&#21040;&#26368;&#26032;&#30340;&#27491;&#24335;&#29256;&#26412;&#30340;openwrt&#22266;&#20214;&#25110;&#32773;&#20219;&#24847;&#30340;&#22266;&#20214;&#12290;
+      </li>
     </ol>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
   </body>
 </html>
 
 </richcontent>
+<node TEXT="&#x4f7f;&#x7528;&#x5230;&#x7684;&#x6587;&#x4ef6;" FOLDED="true" ID="ID_274562894" CREATED="1522483311793" MODIFIED="1522483714680">
+<node TEXT="&#x4fee;&#x6539;&#x8fc7;&#x7684;openwrt&#x56fa;&#x4ef6;" ID="ID_703519195" CREATED="1522483137871" MODIFIED="1522483275921" LINK="../attachment/openwrt-ar71xx-generic-tl-wr720n-v3-squashfs-sysupgrade.bin"/>
+<node TEXT="&#x539f;&#x5382;uboot&#x5907;&#x4efd;&#x6587;&#x4ef6;" ID="ID_1618285779" CREATED="1522483126203" MODIFIED="1522483302594" LINK="../attachment/uboot_backup.bin"/>
+</node>
+<node TEXT="&#x8fdb;&#x5165;Uboot&#x7684;&#x65b9;&#x6cd5;" ID="ID_796276643" CREATED="1522483372922" MODIFIED="1522483452923"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#29031;&#23448;&#26041;&#25991;&#26723;&#19978;&#30340;&#25551;&#36848;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font size="3">Press and hold reset button to run: </font></b>
+    </p>
+    <ul>
+      <li>
+        &#160;&#160;&#160;&#160;Web server (min. 3 seconds)
+      </li>
+      <li>
+        &#160;&#160;&#160;&#160;U-Boot serial console (min. 5 seconds)
+      </li>
+      <li>
+        &#160;&#160;&#160;&#160;U-Boot network console (min. 7 seconds)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5237;&#x673a;&#x64cd;&#x4f5c;" ID="ID_1144288474" CREATED="1522483719789" MODIFIED="1522483769392" LINK="#ID_201702831"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#21047;&#23436;&#36825;&#20010;&#33258;&#24102;&#30340;openwrt&#22266;&#20214;&#20043;&#21518;&#65292;&#26159;&#19981;&#24102;luci&#30028;&#38754;&#30340;&#12290;&#25152;&#20197;&#24819;&#21319;&#32423;&#21040;&#20854;&#20182;&#30340;&#22266;&#20214;&#30340;&#35805;&#21482;&#33021;&#26159;&#20351;&#29992;&#21629;&#20196;&#34892;&#26469;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      &#19979;&#36733;&#23436;&#24076;&#26395;&#21047;&#30340;&#22266;&#20214;x&#20043;&#21518;&#65292;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#21487;&#20197;&#21319;&#32423;&#21040;x&#22266;&#20214;&#65292;&#24182;&#20445;&#30041;&#21047;x&#20043;&#21069;&#30340;&#25152;&#26377;&#37197;&#32622;:
+    </p>
+    <p>
+      &gt;sysupgrade -v x
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#36339;&#36716;&#38142;&#25509;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
