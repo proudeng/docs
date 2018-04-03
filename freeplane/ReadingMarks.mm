@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -144,7 +144,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
+<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" FOLDED="true" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -191,7 +191,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="X86&#x67b6;&#x6784;&#x7684;&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;" ID="ID_1755621105" CREATED="1381899014323" MODIFIED="1382732944031">
 <icon BUILTIN="help"/>
@@ -5347,9 +5346,9 @@ END</pre>
 <node TEXT="&#x5173;&#x4e8e;&#x5bf9;&#x79f0;&#x591a;&#x5904;&#x7406;SMP&#x67b6;&#x6784;" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="&#x600e;&#x6837;&#x8bfb;&#x8d22;&#x62a5;" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
+<node TEXT="&#x600e;&#x6837;&#x8bfb;&#x8d22;&#x62a5;" FOLDED="true" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
 <edge COLOR="#808080"/>
-<node TEXT="&#x540d;&#x8bcd;" FOLDED="true" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
+<node TEXT="&#x540d;&#x8bcd;" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
 <node TEXT="operating margin" ID="ID_1741430453" CREATED="1520217202692" MODIFIED="1520217334706"><richcontent TYPE="NOTE">
 
 <html>
@@ -5465,8 +5464,10 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
+<node TEXT="&#x6781;&#x7b80;&#x6b27;&#x6d32;&#x53f2;" POSITION="left" ID="ID_1259379989" CREATED="1522389671618" MODIFIED="1522389680584">
+<edge COLOR="#808080"/>
 </node>
 <node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1520401450920">
 <edge COLOR="#ffff00"/>
