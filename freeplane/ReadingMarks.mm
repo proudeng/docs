@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -4020,7 +4020,7 @@ END</pre>
 <node TEXT="perl&#x8bed;&#x8a00;&#x7f16;&#x7a0b;(&#x7b2c;&#x4e09;&#x7248;)" ID="ID_1948694476" CREATED="1318298709204" MODIFIED="1318298721969"/>
 </node>
 </node>
-<node TEXT="Pro Git" FOLDED="true" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
+<node TEXT="Pro Git" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
 <edge COLOR="#7c0000"/>
 <node TEXT="Ch2--Git Basics" ID="ID_1647110050" CREATED="1455436238940" MODIFIED="1455436400977" LINK="../OneNote/Git_Basic_operation.one"><richcontent TYPE="NOTE">
 
@@ -4122,7 +4122,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x64a4;&#x9500;&#x64cd;&#x4f5c;" ID="ID_1492531930" CREATED="1520406619053" MODIFIED="1520409324651"><richcontent TYPE="NOTE">
+<node TEXT="&#x5982;&#x4f55;&#x64a4;&#x9500;&#x64cd;&#x4f5c;" ID="ID_1492531930" CREATED="1520406619053" MODIFIED="1522719518624"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4138,11 +4138,9 @@ END</pre>
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x4e0d;&#x5c0f;&#x5fc3;&#x5c06;&#x6587;&#x4ef6;&#x7ed9;stage&#x4e86;" ID="ID_1984160963" CREATED="1520406786948" MODIFIED="1520406974045"><richcontent TYPE="NOTE">
 
@@ -4161,7 +4159,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x60f3;&#x5c06;&#x672c;&#x5730;&#x4fee;&#x6539;&#x8fc7;&#x7684;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4fee;&#x6539;&#x524d;&#x7684;&#x5185;&#x5bb9;" ID="ID_1905462866" CREATED="1520406852800" MODIFIED="1520407811783"><richcontent TYPE="NOTE">
+<node TEXT="&#x60f3;&#x5c06;&#x672c;&#x5730;&#x4fee;&#x6539;&#x8fc7;&#x7684;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4fee;&#x6539;&#x524d;&#x7684;&#x5185;&#x5bb9;" ID="ID_1905462866" CREATED="1520406852800" MODIFIED="1522719753271"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4186,14 +4184,13 @@ END</pre>
     <p>
       <code>&gt;git reset --hard HEAD </code>
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="&#x5c0f;&#x7ed3;" ID="ID_1540978296" CREATED="1520409349193" MODIFIED="1520413487634"><richcontent TYPE="NOTE">
+<node TEXT="&#x60f3;&#x5c06;&#x67d0;&#x4e00;&#x4e2a;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4ee5;&#x524d;remote branch&#x4e0a;&#x7684;&#x67d0;&#x4e00;&#x4e2a;&#x7248;&#x672c;" ID="ID_1048099483" CREATED="1522721025050" MODIFIED="1522721050412"/>
+<node TEXT="&#x5c0f;&#x7ed3;" ID="ID_1540978296" CREATED="1520409349193" MODIFIED="1522719672952"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4245,8 +4242,9 @@ END</pre>
     </ul>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1520409891261"><richcontent TYPE="NOTE">
+<node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1522719514234"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4272,6 +4270,7 @@ END</pre>
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
