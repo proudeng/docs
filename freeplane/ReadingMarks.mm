@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -144,7 +144,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
+<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" FOLDED="true" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -191,7 +191,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="X86&#x67b6;&#x6784;&#x7684;&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;" ID="ID_1755621105" CREATED="1381899014323" MODIFIED="1382732944031">
 <icon BUILTIN="help"/>
@@ -4021,7 +4020,7 @@ END</pre>
 <node TEXT="perl&#x8bed;&#x8a00;&#x7f16;&#x7a0b;(&#x7b2c;&#x4e09;&#x7248;)" ID="ID_1948694476" CREATED="1318298709204" MODIFIED="1318298721969"/>
 </node>
 </node>
-<node TEXT="Pro Git" FOLDED="true" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
+<node TEXT="Pro Git" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
 <edge COLOR="#7c0000"/>
 <node TEXT="Ch2--Git Basics" ID="ID_1647110050" CREATED="1455436238940" MODIFIED="1455436400977" LINK="../OneNote/Git_Basic_operation.one"><richcontent TYPE="NOTE">
 
@@ -4123,7 +4122,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x64a4;&#x9500;&#x64cd;&#x4f5c;" ID="ID_1492531930" CREATED="1520406619053" MODIFIED="1520409324651"><richcontent TYPE="NOTE">
+<node TEXT="&#x5982;&#x4f55;&#x64a4;&#x9500;&#x64cd;&#x4f5c;" ID="ID_1492531930" CREATED="1520406619053" MODIFIED="1522719518624"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4135,9 +4134,6 @@ END</pre>
     </p>
     <p>
       &#20250;&#26377;&#26356;&#22823;&#30340;&#20449;&#24515;&#21644;&#24847;&#24895;&#21435;&#23581;&#35797;&#21508;&#31181;&#21508;&#26679;&#30340;git&#21629;&#20196;&#65292;&#22240;&#20026;&#25105;&#20204;&#30693;&#36947;&#25152;&#26377;&#30340;&#25805;&#20316;&#37117;&#26159;&#21487;&#20197;&#25764;&#38144;&#30340;&#65292;&#23601;&#21487;&#20197;&#25918;&#25163;&#21435;&#30606;&#25630;&#20102;&#12290;
-    </p>
-    <p>
-      
     </p>
     <p>
       
@@ -4162,7 +4158,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x60f3;&#x5c06;&#x672c;&#x5730;&#x4fee;&#x6539;&#x8fc7;&#x7684;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4fee;&#x6539;&#x524d;&#x7684;&#x5185;&#x5bb9;" ID="ID_1905462866" CREATED="1520406852800" MODIFIED="1520407811783"><richcontent TYPE="NOTE">
+<node TEXT="&#x60f3;&#x5c06;&#x672c;&#x5730;&#x4fee;&#x6539;&#x8fc7;&#x7684;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4fee;&#x6539;&#x524d;&#x7684;&#x5185;&#x5bb9;" ID="ID_1905462866" CREATED="1520406852800" MODIFIED="1522719753271"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4187,14 +4183,13 @@ END</pre>
     <p>
       <code>&gt;git reset --hard HEAD </code>
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="&#x5c0f;&#x7ed3;" ID="ID_1540978296" CREATED="1520409349193" MODIFIED="1520413487634"><richcontent TYPE="NOTE">
+<node TEXT="&#x60f3;&#x5c06;&#x67d0;&#x4e00;&#x4e2a;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4ee5;&#x524d;remote branch&#x4e0a;&#x7684;&#x67d0;&#x4e00;&#x4e2a;&#x7248;&#x672c;" ID="ID_1048099483" CREATED="1522721025050" MODIFIED="1522721050412"/>
+<node TEXT="&#x5c0f;&#x7ed3;" ID="ID_1540978296" CREATED="1520409349193" MODIFIED="1522719672952"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4246,8 +4241,9 @@ END</pre>
     </ul>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1520409891261"><richcontent TYPE="NOTE">
+<node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1522816456533"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4273,6 +4269,7 @@ END</pre>
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -5347,9 +5344,9 @@ END</pre>
 <node TEXT="&#x5173;&#x4e8e;&#x5bf9;&#x79f0;&#x591a;&#x5904;&#x7406;SMP&#x67b6;&#x6784;" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="&#x600e;&#x6837;&#x8bfb;&#x8d22;&#x62a5;" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
+<node TEXT="&#x600e;&#x6837;&#x8bfb;&#x8d22;&#x62a5;" FOLDED="true" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
 <edge COLOR="#808080"/>
-<node TEXT="&#x540d;&#x8bcd;" FOLDED="true" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
+<node TEXT="&#x540d;&#x8bcd;" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
 <node TEXT="operating margin" ID="ID_1741430453" CREATED="1520217202692" MODIFIED="1520217334706"><richcontent TYPE="NOTE">
 
 <html>
@@ -5465,8 +5462,10 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
+<node TEXT="&#x6781;&#x7b80;&#x6b27;&#x6d32;&#x53f2;" POSITION="left" ID="ID_1259379989" CREATED="1522389671618" MODIFIED="1522389680584">
+<edge COLOR="#808080"/>
 </node>
 <node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1520401450920">
 <edge COLOR="#ffff00"/>
