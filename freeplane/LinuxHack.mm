@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="true" show_note_icons="true"/>
+    <properties fit_to_viewport="true" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -6030,7 +6030,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519460132187"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1522769272978"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6041,7 +6041,7 @@
       1,
     </p>
     <p>
-      &#22797;&#21046;&#25991;&#20214;/etc/lighttpd/conf-available/15-fastcgi-php.conf &#20026; /etc/lighttpd/conf-available/15-fastcgi-php.conf
+      &#22797;&#21046;&#25991;&#20214;/etc/lighttpd/conf-available/15-fastcgi-php.conf &#20026; /etc/lighttpd/conf-available/15-fastcgi-php-back.conf
     </p>
     <p>
       
@@ -6077,10 +6077,32 @@
       <i><font color="#0000ff">)</font></i>
     </p>
     <p>
-      <i><font color="#000000">====&#25991;&#20214;&#32467;&#26463;,&#36825;&#19968;&#34892;&#19981;&#31639;</font></i>
+      <i><font color="#000000">====&#25991;&#20214;&#32467;&#26463;,&#36825;&#19968;&#34892;&#19981;&#31639; </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#000000">3, </font></i>&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#28608;&#27963;&#36825;&#20010;&#37197;&#32622;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt;<b><i><font color="#ff0066">lighttpd-enable-mod fastcgi-php</font></i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4,&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#21551;&#21160;php&#26381;&#21153;.
+    </p>
+    <p>
+      &gt;<i><b><font color="#ff0066">service php7.0-fpm start </font></b></i>
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x6ce8;&#x610f;" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1519276997888"><richcontent TYPE="NOTE">
 
@@ -7471,8 +7493,8 @@
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9332,8 +9354,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10634,7 +10656,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5237;&#x4e0d;&#x6b7b;UBOOT" ID="ID_1647881117" CREATED="1418214841260" MODIFIED="1522480403010"><richcontent TYPE="NOTE">
+<node TEXT="&#x5237;&#x4e0d;&#x6b7b;UBOOT" FOLDED="true" ID="ID_1647881117" CREATED="1418214841260" MODIFIED="1522480403010"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10792,7 +10814,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4f7f;&#x7528;&#x5230;&#x7684;&#x6587;&#x4ef6;" FOLDED="true" ID="ID_274562894" CREATED="1522483311793" MODIFIED="1522483714680">
 <node TEXT="&#x4fee;&#x6539;&#x8fc7;&#x7684;openwrt&#x56fa;&#x4ef6;" ID="ID_703519195" CREATED="1522483137871" MODIFIED="1522483275921" LINK="../attachment/openwrt-ar71xx-generic-tl-wr720n-v3-squashfs-sysupgrade.bin"/>
@@ -10827,7 +10848,6 @@ root@OpenWrt:~# wifi</pre>
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5237;&#x673a;&#x64cd;&#x4f5c;" ID="ID_1144288474" CREATED="1522483719789" MODIFIED="1522483769392" LINK="#ID_201702831"><richcontent TYPE="NOTE">
@@ -10857,7 +10877,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
