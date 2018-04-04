@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -4140,7 +4140,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4e0d;&#x5c0f;&#x5fc3;&#x5c06;&#x6587;&#x4ef6;&#x7ed9;stage&#x4e86;" ID="ID_1984160963" CREATED="1520406786948" MODIFIED="1520406974045"><richcontent TYPE="NOTE">
 
@@ -4244,7 +4243,7 @@ END</pre>
 </html>
 
 </richcontent>
-<node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1522719514234"><richcontent TYPE="NOTE">
+<node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1522816456533"><richcontent TYPE="NOTE">
 
 <html>
   <head>
