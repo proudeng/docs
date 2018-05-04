@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="GSM BTS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -1094,7 +1094,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;MR4596-1&#x3011;Radio 4443 in Ericsson Radio System(4T4R dual band)" ID="ID_1088468827" CREATED="1517206483415" MODIFIED="1520236229825"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;MR4596-1&#x3011;Radio 4443 in Ericsson Radio System(4T4R dual band)" ID="ID_1088468827" CREATED="1517206483415" MODIFIED="1524883121469"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1113,14 +1113,9 @@ field-separator'></span><![endif]-->
     <p class="MsoNormal" style="margin-bottom: 5.0pt">
       Artifacts NDS: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12</a>&#160;
     </p>
-    <p class="MsoNormal" style="margin-bottom: 5.0pt">
-      
-    </p>
-    <p class="MsoNormal">
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="&#x3010;MR5093&#x3011;Generic Radio Unit Cascading support for DUG" ID="ID_1523206866" CREATED="1518412242363" MODIFIED="1518412281266">
@@ -1281,7 +1276,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;MR4172-1&#x3011;Radio 4428 (4x40 W light FDD) in Ericsson Radio Systems" FOLDED="true" ID="ID_1068001354" CREATED="1519716134094" MODIFIED="1519716184355">
+<node TEXT="&#x3010;MR4172-1&#x3011;Radio 4428 (4x40 W light FDD) in Ericsson Radio Systems" ID="ID_1068001354" CREATED="1519716134094" MODIFIED="1519716184355">
 <node TEXT="FOP" ID="ID_1037821501" CREATED="1519716194850" MODIFIED="1519716221673"><richcontent TYPE="NOTE">
 
 <html>

@@ -122,7 +122,7 @@
 </node>
 </node>
 </node>
-<node TEXT="VirtualBox&#x4e0a;&#x7684;Debian6.0&#x865a;&#x62df;&#x673a;" FOLDED="true" POSITION="right" ID="ID_1086992913" CREATED="1331120397118" MODIFIED="1413880889265">
+<node TEXT="VirtualBox&#x4e0a;&#x7684;Debian6.0&#x865a;&#x62df;&#x673a;" POSITION="right" ID="ID_1086992913" CREATED="1331120397118" MODIFIED="1413880889265">
 <node TEXT="&#x865a;&#x62df;&#x673a;&#x4e0a;&#x7f51;&#x8bbe;&#x7f6e;" FOLDED="true" ID="ID_93588915" CREATED="1331120417500" MODIFIED="1331121590789"><richcontent TYPE="NOTE">
 
 <html>
@@ -5888,10 +5888,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
-<node TEXT="web&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -6031,7 +6030,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" FOLDED="true" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519460132187"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519460132187"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6199,7 +6198,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x7f3a;&#x5931;&#x7684;extension" FOLDED="true" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1519460574460"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x7f3a;&#x5931;&#x7684;extension" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1519460574460"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6349,7 +6348,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x56fe;&#x5f62;&#x754c;&#x9762;&#x5e94;&#x7528;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE">
+<node TEXT="&#x56fe;&#x5f62;&#x754c;&#x9762;&#x5e94;&#x7528;&#x5b89;&#x88c5;" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6508,6 +6507,95 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+<node TEXT="USB Tethering" ID="ID_1882245883" CREATED="1522822048422" MODIFIED="1522822112802"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      USB Tethering
+    </p>
+    <p>
+      USB Reverse Tethering &#21448;&#21483;&#20570; Internet Passthrough
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Hornor6&#x4e0a;&#x7684;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_778604055" CREATED="1522822515781" MODIFIED="1522822543736"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32418;&#31859;2&#19978;&#20381;&#28982;&#19981;&#21487;&#20197;&#35774;&#32622;reverse USB Tethering
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="USB Tethering with Openwrt" ID="ID_1177246933" CREATED="1522822120626" MODIFIED="1522822167806" LINK="#ID_1868999429"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#36339;&#36716;&#30340;&#33410;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="USB Tethering with Windows" ID="ID_96272367" CREATED="1522822131194" MODIFIED="1522822483027" LINK="#ID_548891811"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      windows&#19978;&#20570;reverse tethering&#30456;&#23545;&#26469;&#35828;&#27604;&#36739;&#30340;&#31616;&#21333;&#65292;
+    </p>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#39318;&#20808;&#25163;&#26426;&#31471;&#25171;&#24320;usb&#32593;&#32476;&#20849;&#20139;&#30340;&#24320;&#20851;&#65292;&#28982;&#21518;&#29992;usb&#32447;&#36830;&#25509;&#30005;&#33041;&#12290;
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      &#27492;&#26102;&#24212;&#35813;&#22312;windows&#19978;&#30340;&#32593;&#32476;&#36830;&#25509;&#19978;&#33021;&#22815;&#30475;&#21040;&#19968;&#20010;&#26032;&#30340;&#29289;&#29702;&#32593;&#32476;&#25509;&#21475; A
+    </p>
+    <p>
+      3&#65292;
+    </p>
+    <p>
+      &#32534;&#36753;windows&#19978;&#30340;&#29992;&#20110;&#19978;&#32593;&#30340;&#32593;&#32476;&#25509;&#21475;&#30340;&#20849;&#20139;&#65292;&#20849;&#20139;&#32473;A
+    </p>
+    <p>
+      4&#65292;
+    </p>
+    <p>
+      &#32534;&#36753;A&#30340;&#32593;&#32476;&#35774;&#32622;&#65292;&#27604;&#22914;&#23558;ip&#22320;&#22336;&#35774;&#32622;&#25104;192.168.137.1
+    </p>
+    <p>
+      5&#65292;
+    </p>
+    <p>
+      &#28982;&#21518;&#22312;&#25163;&#26426;&#65292;&#31471;&#21442;&#32771;&#36339;&#36716;&#33410;&#28857;&#37324;&#38754;&#30340;&#35774;&#32622;&#65292;&#23558;&#25163;&#26426;&#30340;rndis0&#35774;&#22791;&#30340;ip&#22320;&#22336;&#35774;&#32622;&#25104;&#36319;A&#19968;&#20010;&#32593;&#27573;&#65292;&#24182;&#40664;&#35748;&#36335;&#30001;&#21040;192.168.137.1
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -7430,9 +7518,9 @@
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7918,8 +8006,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -8788,7 +8876,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
+<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9292,8 +9380,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -11261,7 +11349,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 <node TEXT="&#x901a;&#x8fc7;PPTP&#x7ffb;&#x5899;" ID="ID_521559635" CREATED="1427373784972" MODIFIED="1427373802828"/>
-<node TEXT="USB&#x7f51;&#x7edc;" ID="ID_1868999429" CREATED="1522374981179" MODIFIED="1522388344784"><richcontent TYPE="NOTE">
+<node TEXT="USB&#x7f51;&#x7edc;" ID="ID_1868999429" CREATED="1522374981179" MODIFIED="1522822151042"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11337,7 +11425,6 @@ root@OpenWrt:~# wifi</pre>
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Android&#x8fde;&#x63a5;OpenWRT&#x7684;&#x9700;&#x6c42;" ID="ID_1257252800" CREATED="1522385826202" MODIFIED="1522818334883" LINK="#ID_825881001"><richcontent TYPE="NOTE">
 
@@ -11415,7 +11502,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Hornor6&#x5b9e;&#x73b0;USB Reverse Tethering" ID="ID_1251823420" CREATED="1522817274839" MODIFIED="1522820094744"><richcontent TYPE="NOTE">
 
@@ -11446,7 +11532,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x8def;&#x7531;&#x5668;&#x7aef;&#x9700;&#x8981;&#x7684;&#x64cd;&#x4f5c;&#x6b65;&#x9aa4;" ID="ID_1127396063" CREATED="1522819095929" MODIFIED="1522820438364">
 <icon BUILTIN="full-1"/>
@@ -11483,10 +11568,9 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="&#x624b;&#x673a;&#x7aef;&#x9700;&#x8981;&#x7684;&#x64cd;&#x4f5c;&#x6b65;&#x9aa4;" ID="ID_548891811" CREATED="1522819078282" MODIFIED="1522819855663">
+<node TEXT="&#x624b;&#x673a;&#x7aef;&#x9700;&#x8981;&#x7684;&#x64cd;&#x4f5c;&#x6b65;&#x9aa4;" ID="ID_548891811" CREATED="1522819078282" MODIFIED="1522822473167">
 <icon BUILTIN="full-2"/>
 <richcontent TYPE="NOTE">
 
@@ -11539,11 +11623,10 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Redmi2&#x5b9e;&#x73b0;USB Tethering" ID="ID_631623666" CREATED="1522819864714" MODIFIED="1522820419449"><richcontent TYPE="NOTE">
+<node TEXT="Redmi2&#x5b9e;&#x73b0;USB Tethering" FOLDED="true" ID="ID_631623666" CREATED="1522819864714" MODIFIED="1522820419449"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11582,7 +11665,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Redmi2&#x5b9e;&#x73b0;USB Reverse Tethering&#x5931;&#x8d25;" ID="ID_1840512724" CREATED="1522820096826" MODIFIED="1522820126158"><richcontent TYPE="NOTE">
 
@@ -11605,7 +11687,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -11626,7 +11707,6 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
