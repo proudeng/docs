@@ -1115,7 +1115,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x3010;MR5093&#x3011;Generic Radio Unit Cascading support for DUG" ID="ID_1523206866" CREATED="1518412242363" MODIFIED="1518412281266">
@@ -1331,6 +1330,78 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="&#x3010;MR-4975&#x3011; Mini Air 4455 in Ericsson Radio System" ID="ID_1366492266" CREATED="1525672219769" MODIFIED="1525672347439"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Feature</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: </span></font><span style="color: #1F497D"><font color="#1F497D" size="10.0pt" face="Arial,sans-serif">MR4975&#160;Mini AIR 4455 in Ericsson Radio Systems<o p="#DEFAULT"></o></font></span>
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Link to Feature in Hansoft</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">:</span></font><span lang="EN-US" style="font-size: 9.5pt"><font size="9.5pt">&#160;</font></span><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D">hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/584534?ID=22121<o p="#DEFAULT"></o></font></span>
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Impacted Products</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: BTS&amp;OMT</span></font><span lang="EN-US" style="font-size: 9.5pt; font-family: &#x5b8b;&#x4f53;"><font size="9.5pt" face="&#x5b8b;&#x4f53;"><o p="#DEFAULT"></o></font></span>
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Artifacts</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">&#160;</span></font><span lang="EN-US" style="font-size: 12.0pt"><font size="12.0pt">(OA, PPS or equivalent documents):</font></span><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif"><o p="#DEFAULT"></o></font></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D">OA:</font></span><span lang="EN-US">&#160;</span><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12</a><o p="#DEFAULT"></o></font></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D">FOP: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12</a><o p="#DEFAULT"></o></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="OA" ID="ID_3509568" CREATED="1525672306919" MODIFIED="1525672320508"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12 </a></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="FOP" ID="ID_1786306976" CREATED="1525672309280" MODIFIED="1525672322749"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12</a></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_394041692" CREATED="1526001254644" MODIFIED="1526001261863"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d31b2b7?docno=389/10268-300/FCP1314743Uen&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d31b2b7?docno=389/10268-300/FCP1314743Uen&amp;format=msw12</a></font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
