@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="GSM BTS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -1399,10 +1399,28 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x3010;MR5288&#x3011;" ID="ID_337522422" CREATED="1526375190643" MODIFIED="1526375198152"/>
+</node>
+<node TEXT="Feature Time Plan" ID="ID_1668170730" CREATED="1526368950214" MODIFIED="1526368965018"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Link:
+    </p>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff89f1954d?docno=&amp;action=current&amp;format=excel12book
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="BCI&#x63a5;&#x53e3;&#x7684;&#x5934;&#x6587;&#x4ef6;&#x548c;sig&#x6587;&#x4ef6;&#x4f4d;&#x7f6e;" ID="ID_166963389" CREATED="1418876600307" MODIFIED="1418880456280" LINK="../OneNote/BCI&#x63a5;&#x53e3;&#x7684;&#x8def;&#x5f84;&#x5df2;&#x7ecf;fault%20id&#x7684;&#x610f;&#x4e49;.one"><richcontent TYPE="NOTE">
