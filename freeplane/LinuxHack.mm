@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="true" show_note_icons="true"/>
+    <properties fit_to_viewport="true" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5090,7 +5090,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" FOLDED="true" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
+<node TEXT="&#x4ece;yardvps&#x4e2d;&#x8fc1;&#x79fb;wordpress&#x5230;Virpus&#x4e2d;&#x6765;" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5325,7 +5325,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x7ed9;&#x6653;&#x820c;&#x5b89;&#x88c5;&#x4e00;&#x4e2a;guoguo&#x7684;&#x535a;&#x5ba2;" FOLDED="true" ID="ID_1612611537" CREATED="1392006616409" MODIFIED="1392014244036"><richcontent TYPE="NOTE">
+<node TEXT="&#x7ed9;&#x6653;&#x820c;&#x5b89;&#x88c5;&#x4e00;&#x4e2a;guoguo&#x7684;&#x535a;&#x5ba2;" ID="ID_1612611537" CREATED="1392006616409" MODIFIED="1392014244036"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5864,7 +5864,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Debian@Redmi2_Android" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1522817126149"><richcontent TYPE="NOTE">
+<node TEXT="Debian@Redmi2_Android" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1522817126149"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7917,8 +7917,8 @@
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -8787,7 +8787,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
+<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9291,8 +9291,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -11622,6 +11622,244 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 </node>
+<node TEXT="Youhua&#x7684;WR1200JS&#x914d;&#x7f6e;" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
+<node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32593;&#19978;&#26377;&#25945;&#31243;&#25171;&#24320;&#23448;&#26041;&#22266;&#20214;&#30340;telnet&#65292;&#25171;&#24320;telnet&#20043;&#21518;&#23601;&#23601;&#21487;&#20197;&#20445;&#23384;&#21451;&#21326;&#30340;&#23448;&#26041;&#22266;&#20214;(&#23448;&#26041;&#22266;&#20214;&#30340;&#22909;&#22788;&#26080;&#38750;&#23601;&#26159;wifi&#24615;&#33021;&#22909;)
+    </p>
+    <p>
+      &#21487;&#26159;&#25105;&#30340;&#26426;&#22120;&#19978;&#24590;&#20040;&#37117;&#24320;&#19981;&#20102;telnet&#65292;&#25152;&#20197;&#27809;&#21150;&#27861;&#36873;&#25321;&#20102;&#30452;&#25509;&#21047;&#26426;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5237;&#x673a;padavan" ID="ID_841843215" CREATED="1527550776976" MODIFIED="1527601568656">
+<icon BUILTIN="100%"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21047;padavan&#30340;&#30446;&#30340;&#26159;&#20026;&#20102;&#33021;&#22815;&#22312;&#21551;&#21160;&#21040;padavan&#20043;&#21518;&#21487;&#20197;enable telnet&#25110;&#32773;ssh&#21151;&#33021;&#65292;&#26041;&#20415;&#21518;&#38754;&#32487;&#32493;&#21047;&#26426;breed.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x76f4;&#x63a5;&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5347;&#x7ea7;&#x9875;&#x9762;&#x5237;&#x5165;padavan&#x56fa;&#x4ef6;" ID="ID_1288487668" CREATED="1527550913079" MODIFIED="1527601632557">
+<icon BUILTIN="full-1"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      192.168.123.1
+    </p>
+    <p>
+      admin/admin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27880;&#24847;&#65306;
+    </p>
+    <p>
+      &#21047;&#23436;padavan&#20043;&#21518;&#65292;WAN&#21475;&#21464;&#25104;&#20102;&#31532;&#22235;&#20010;LAN&#21475;&#65292;&#22914;&#26524;&#35201;&#25509;&#19978;&#32423;&#36335;&#30001;&#30340;&#35805;&#65292;&#32593;&#32447;&#24212;&#35813;&#25509;&#22312;LAN4&#21475;&#19978;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6bd4;&#x8f83;&#x51fa;&#x540d;&#x7684;Padavan&#x7248;&#x672c;" ID="ID_947663386" CREATED="1527689060324" MODIFIED="1527691398381"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;&#33618;&#37326;&#26080;&#28783;&#30340;&#29256;&#26412;
+    </p>
+    <p>
+      &#32593;&#39029;&#65306;
+    </p>
+    <p>
+      http://www.right.com.cn/forum/thread-316402-1-1.html
+    </p>
+    <p>
+      &#25991;&#20214;&#65306;
+    </p>
+    <p>
+      YH-WR1200JS_3.4.3.9-099_20180421-0528.trx
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;hiboyhiboyhiboy&#30340;&#29256;&#26412;
+    </p>
+    <p>
+      &#32593;&#39029;&#65306;
+    </p>
+    <p>
+      http://www.right.com.cn/forum/thread-161324-1-1.html
+    </p>
+    <p>
+      &#25991;&#20214;&#65306;
+    </p>
+    <p>
+      WR1200JS_3.4.3.9-099.trx
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5237;&#x673a;&#x534e;&#x7855;&#x539f;&#x5382;&#x56fa;&#x4ef6;" ID="ID_525623439" CREATED="1527764233385" MODIFIED="1527766484522"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      WR1200js&#30340;&#30828;&#20214;&#29256;&#26412;&#25454;&#35828;&#36319;&#21326;&#30805;&#21407;&#21378;&#30340;RT-AC1200GU&#19968;&#27169;&#19968;&#26679;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5237;Bootloader(breed)" ID="ID_531259129" CREATED="1527552494342" MODIFIED="1527764230888">
+<icon BUILTIN="100%"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#19979;&#36733;&#19979;&#38754;&#30340;breed&#25991;&#20214;&#65306;
+    </p>
+    <p>
+      breed-mt7621-pbr-m1.bin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      &#28982;&#21518;&#23558;breed&#25335;&#36125;&#36827;&#20351;&#29992;&#19968;&#20010;U&#30424;&#65292;&#25554;&#20837;&#36335;&#30001;&#22120;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3&#65292;
+    </p>
+    <p>
+      &#22312;&#21047;&#20837;padavan&#20043;&#21518;&#65292;&#20351;&#29992;ssh&#30331;&#38470;&#36335;&#30001;&#22120;&#65306;
+    </p>
+    <p>
+      &gt;ssh admin@192.168.123.1
+    </p>
+    <p>
+      &#23494;&#30721;&#20063;&#26159;admin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4&#65292;
+    </p>
+    <p>
+      ssh&#36827;&#20837;&#36335;&#30001;&#22120;&#20043;&#21518;&#65292;&#25214;&#21040;&#23384;&#25918;&#30340;breed&#25991;&#20214;&#65292;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#28903;&#20889;breed:
+    </p>
+    <p>
+      &gt;mtd_write write breed-mt7621-pbr-m1.bin Bootloader
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      5&#65292;&#28903;&#20889;&#25104;&#21151;&#65281;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6267;&#x884c;mtd_write&#x7684;&#x8f93;&#x51fa;log" ID="ID_60581928" CREATED="1527602266703" MODIFIED="1527602283645"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Unlocking 'Bootloader' ...
+    </p>
+    <p>
+      Writing from 'breed-mt7621-pbr-m1.bin' to MTD 'Bootloader' ...&#160;&#160;[ok]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8fdb;&#x5165;breed" ID="ID_1876518553" CREATED="1527602787327" MODIFIED="1527602910648"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1,
+    </p>
+    <p>
+      &#22312;padavin&#30340;&#32593;&#39029;&#19978;&#36873;&#25321;&#37325;&#21551;&#24182;&#21516;&#26102;&#25353;&#20303;&#36335;&#30001;&#22120;&#32972;&#21518;&#30340;Wifi&#25353;&#38190;5&#31186;&#38047;(&#27880;&#24847;&#19981;&#26159;reset&#38190;&#65292;&#32780;&#26159;wifi&#25353;&#38190;&#65292;&#20854;&#23454;&#25105;&#26159;&#19968;&#30452;&#25353;&#20303;&#20102;&#22823;&#27010;&#26377;30&#31186;&#65292;&#20063;&#25104;&#21151;&#36827;&#20837;&#20102;breed&#30028;&#38754;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      &#37325;&#21551;&#23436;&#20043;&#21518;&#65292;&#35775;&#38382;192.168.1.1&#39029;&#38754;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3&#65292;
+    </p>
+    <p>
+      &#25104;&#21151;&#21457;&#29616;breed&#30340;web&#39029;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="CubieBoard2&#x53cc;&#x5361;&#x7248;&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
 <node TEXT="&#x4f3c;&#x4e4e;&#x662f;&#x53cc;&#x5361;&#x7684;&#x4e00;&#x4e2a;&#x95ee;&#x9898;" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE">
 
@@ -11796,7 +12034,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 </node>
-<node POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1519277225782"><richcontent TYPE="NODE">
+<node FOLDED="true" POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1527550746804"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -11869,7 +12107,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x53c2;&#x8003;Linux Foundation &#x57f9;&#x8bad;&#x7ed9;&#x51fa;&#x7684;&#x4e00;&#x4e9b;&#x5177;&#x4f53;&#x4f8b;&#x5b50;" ID="ID_251441128" CREATED="1521195779030" MODIFIED="1522392053871"/>
+<node TEXT="&#x53c2;&#x8003;Linux Foundation &#x57f9;&#x8bad;&#x7ed9;&#x51fa;&#x7684;&#x4e00;&#x4e9b;&#x5177;&#x4f53;&#x4f8b;&#x5b50;" ID="ID_251441128" CREATED="1521195779030" MODIFIED="1527550746804"/>
 </node>
 </node>
 </map>
