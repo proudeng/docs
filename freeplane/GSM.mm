@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="GSM BTS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458625353909"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -642,7 +642,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;TR&#x3011;HR83604" FOLDED="true" ID="ID_861419681" CREATED="1393846809147" MODIFIED="1393846817149">
+<node TEXT="&#x3010;TR&#x3011;HR83604" ID="ID_861419681" CREATED="1393846809147" MODIFIED="1393846817149">
 <node TEXT="Jarl&#x5bf9;&#x4e8e;&#x8fd9;&#x4e2a;TR&#x7684;&#x56de;&#x590d;" ID="ID_1854689254" CREATED="1393846837225" MODIFIED="1393846998031"><richcontent TYPE="NOTE">
 
 <html>
@@ -1331,7 +1331,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x3010;MR-4975&#x3011; Mini Air 4455 in Ericsson Radio System" ID="ID_1366492266" CREATED="1525672219769" MODIFIED="1525672347439"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;MR-4975&#x3011; Mini Air 4455 in Ericsson Radio System" FOLDED="true" ID="ID_1366492266" CREATED="1525672219769" MODIFIED="1525672347439"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1419,7 +1419,6 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1438,7 +1437,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="TRS-3" FOLDED="true" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
+<node TEXT="TRS-3" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
 <edge COLOR="#7c0000"/>
 <node TEXT="&#x5982;&#x4f55;&#x5728;&#x670d;&#x52a1;&#x5668;&#x4e0a;&#x6253;&#x5f00;&#x5e76;&#x7f16;&#x8f91;TRS-3&#x6a21;&#x578b;" ID="ID_1997616957" CREATED="1384759711220" MODIFIED="1384759777550" LINK="#ID_230718592"/>
 <node TEXT="TRS-3&#x4e2d;&#x4f7f;&#x7528;&#x7684;&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" FOLDED="true" ID="ID_1235404221" CREATED="1384840248291" MODIFIED="1384840256211">
@@ -2484,7 +2483,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="GSM RC SW(6K)" FOLDED="true" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1386568680293">
+<node TEXT="GSM RC SW(6K)" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1528423651298">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -2507,6 +2506,7 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="WOW" FOLDED="true" ID="ID_535013950" CREATED="1383036167676" MODIFIED="1383036170733">
 <node TEXT="build SW package and test" ID="ID_1594637605" CREATED="1383036172769" MODIFIED="1383307680783"><richcontent TYPE="NOTE">
@@ -3852,7 +3852,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="BTS_CI_Delivery_Process_and_Test_Results" ID="ID_1407305291" CREATED="1384909634340" MODIFIED="1384909833221" LINK="../GSM_document_base/BTS%20%20CI_presentation_jenkins.ppt"/>
 </node>
-<node TEXT="System Baseline" FOLDED="true" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1398391977291" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
+<node TEXT="System Baseline" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1528423657796" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3873,6 +3873,7 @@ field-separator'></span><![endif]-->
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x3010;RC SWPS&#x3011;" FOLDED="true" ID="ID_154533239" CREATED="1387175630689" MODIFIED="1403675242523" LINK="../GSM_document_base/Baseline/PS_RCSW.pdf">
 <icon BUILTIN="button_ok"/>
@@ -4266,7 +4267,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="&#x3010;RCSW IWD&#x3011;" ID="ID_167000299" CREATED="1403675201982" MODIFIED="1403675271175" LINK="../GSM_document_base/Baseline/IWD_RC_102_15519-CNH201343_01_EN_AH_PDFV1R4.pdf"/>
 <node TEXT="&#x3010;CREC SWPS&#x3011;" ID="ID_547937170" CREATED="1407805357019" MODIFIED="1407805404881" LINK="../GSM_document_base/Baseline/SWPS_CREC_14_10261-HRB10521_EN_BS_PDFV1R4.pdf"/>
-<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" FOLDED="true" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1399194158085" LINK="../GSM_document_base/Baseline/GD_General_Specification_of_SW_Architecture.pdf">
+<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1399194158085" LINK="../GSM_document_base/Baseline/GD_General_Specification_of_SW_Architecture.pdf">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
@@ -4355,7 +4356,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388639052963">
+<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388639052963">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>

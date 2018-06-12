@@ -292,7 +292,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x7ed9;&#x745e;&#x5178;&#x6253;&#x7535;&#x8bdd;" ID="ID_483895137" CREATED="1338967252492" MODIFIED="1459932540586" LINK="../MiscDocuments/&#x5982;&#x4f55;&#x7ed9;EAB&#x6253;&#x7535;&#x8bdd;.jpg">
+<node TEXT="&#x5982;&#x4f55;&#x7ed9;&#x745e;&#x5178;&#x6253;&#x7535;&#x8bdd;" FOLDED="true" ID="ID_483895137" CREATED="1338967252492" MODIFIED="1459932540586" LINK="../MiscDocuments/&#x5982;&#x4f55;&#x7ed9;EAB&#x6253;&#x7535;&#x8bdd;.jpg">
 <node TEXT="&#x6253;&#x56fd;&#x9645;&#x7535;&#x8bdd;&#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x4e8b;&#x9879;" ID="ID_437785044" CREATED="1400141312376" MODIFIED="1400141327336">
 <node TEXT="&#x4ef7;&#x76ee;" ID="ID_1103963098" CREATED="1400141329783" MODIFIED="1400141466947" LINK="../MiscDocuments/VOICE%20SERVICES%20PRICE%20LIST%202008-11%20FOR%20SWEDEN.doc"/>
 <node TEXT="&#x6280;&#x5de7;" ID="ID_1813509507" CREATED="1400141333959" MODIFIED="1400141453731" LINK="../MiscDocuments/Oversea_mobile_usage_guide.ppt"/>
@@ -996,7 +996,7 @@
 </node>
 </node>
 <node TEXT="&#x5de5;&#x5177;" POSITION="left" ID="ID_1174870052" CREATED="1323738234553" MODIFIED="1323738236581">
-<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
+<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" FOLDED="true" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1150,7 +1150,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1196,7 +1195,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4e00;&#x4e9b;&#x5173;&#x4e8e;&#x641c;&#x7d22;&#x7684;&#x5feb;&#x6377;&#x952e;" ID="ID_1176218639" CREATED="1323739892351" MODIFIED="1323747644650"><richcontent TYPE="NOTE">
@@ -1499,7 +1497,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8d2d;&#x4e70;&#x80a1;&#x7968;&#x7684;&#x7f51;&#x7ad9;&#x4ee5;&#x53ca;&#x4e00;&#x4e9b;&#x672f;&#x8bed;&#x7684;&#x542b;&#x4e49;" ID="ID_1588145031" CREATED="1398757838582" MODIFIED="1398761107350" LINK="../OneNote/&#x5982;&#x4f55;&#x770b;ComputerShare&#x7f51;&#x9875;.one"><richcontent TYPE="NOTE">
+<node TEXT="&#x8d2d;&#x4e70;&#x80a1;&#x7968;&#x7684;&#x7f51;&#x7ad9;&#x4ee5;&#x53ca;&#x4e00;&#x4e9b;&#x672f;&#x8bed;&#x7684;&#x542b;&#x4e49;" ID="ID_1588145031" CREATED="1398757838582" MODIFIED="1528419949859" LINK="../OneNote/&#x5982;&#x4f55;&#x770b;ComputerShare&#x7f51;&#x9875;.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1509,7 +1507,7 @@
     <p>
       &#20351;&#29992;&#19979;&#38754;&#30340;&#32593;&#39029;&#30331;&#24405;&#26597;&#30475;&#33258;&#24049;&#30340;&#32929;&#31080;&#20449;&#24687;&#65306;
     </p>
-    <strong><font face="Arial,sans-serif" color="blue"><a href="http://www.computershare.co.uk/ericsson">www.computershare.co.uk/ericsson </a></font></strong>
+    <strong><font color="blue" face="Arial,sans-serif"><a href="http://www.computershare.co.uk/ericsson">www.computershare.co.uk/ericsson </a></font></strong>
 
     <p>
       
@@ -1528,7 +1526,172 @@
     </p>
   </body>
 </html>
+
 </richcontent>
+</node>
+<node TEXT="&#x5982;&#x4f55;&#x552e;&#x5356;&#x7231;&#x7acb;&#x4fe1;&#x80a1;&#x7968;" FOLDED="true" ID="ID_583682551" CREATED="1528246391308" MODIFIED="1528246845670"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;:
+    </p>
+    <p>
+      <a href="https://internal.ericsson.com/employee-service/6620/inforamtion-aboout-sppgreater-china?unit=30091792">https://internal.ericsson.com/employee-service/6620/inforamtion-aboout-sppgreater-china?unit=30091792 </a>
+    </p>
+    <p>
+      <a href="https://internal.ericsson.com/employee-service/6620/inforamtion-aboout-sppgreater-china?unit=30091792">
+</a>    </p>
+    <p>
+      &#21442;&#32771;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      Step 1:
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;&#160;Click here (http://erilink.ericsson.se/eridoc/erl/objectId/09004cff86f9922e?docno=&amp;format=pdf) to download shares selling form.
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;&#160;Print this form &quot;Step1 SPP Sell Share form.pdf&quot; and fill in it under instruction.
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;&#160;After finished, send it to mailbox: ericssonADRSales@computershare.co.uk
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      Step2:
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;&#160;After &quot;Plan Contract Note&quot; created, please log on your SPP account on Computershare Website, download the PDF file of &quot;Plan Contract Note&quot;(My Holdings -&gt; Correspondence-&gt; Plan Contract Note) for this Stock Sale.
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      Step 3:
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;&#160;Click here(http://anon.ericsson.se/eridoc/component/eriurl?docno=&amp;objectId=09004cff867b7393&amp;action=current&amp;format=excel8book) to download &quot;Bank Account Collection Form.xls&quot;.
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;&#160;Please finish it.
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      Step4:
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      &#160;&#160;Send &quot;Plan Contract Note.pdf&quot; and &quot;Bank Account Collection Form.xls&quot; to payroll.office@ericsson.com
+    </p>
+    <p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal">
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x63d0;&#x4ea4;&#x552e;&#x5356;&#x8868;&#x683c;" ID="ID_1102803395" CREATED="1528246479609" MODIFIED="1528246912773">
+<icon BUILTIN="full-1"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#20174;&#19979;&#38754;&#30340;&#38142;&#25509;&#19979;&#36733;&#34920;&#26684;&#65292;&#25171;&#21360;&#20986;&#26469;&#24182;&#22635;&#20889;&#30456;&#24212;&#20449;&#24687;
+    </p>
+    <p>
+      http://erilink.ericsson.se/eridoc/erl/objectId/09004cff86f9922e?docno=&amp;format=pdf
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#65292;
+    </p>
+    <p>
+      &#22635;&#20889;&#22909;&#30340;&#34920;&#26684;&#30340;&#25195;&#25551;&#20214;&#29992;&#37038;&#20214;&#21457;&#36865;&#21040;&#19979;&#38754;&#30340;&#37038;&#20214;&#22320;&#22336;&#22996;&#25176;&#20080;&#21334;:
+    </p>
+    <p>
+      <font color="#0033ff">ericssonADRSales@computershare.co.uk </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x4e0b;&#x8f7d;Plan Contract Note" ID="ID_39799993" CREATED="1528246502149" MODIFIED="1528247020561" LINK="#ID_1588145031">
+<icon BUILTIN="full-2"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;
+    </p>
+    <p>
+      &#22312;&#32929;&#31080;&#21806;&#21334;&#23436;&#25104;&#20043;&#21518;&#65292;&#30331;&#38470;computershare&#32593;&#31449;&#19979;&#36733;plan Contract Note&#25991;&#20214;&#65292;&#20301;&#32622;&#22312;:
+    </p>
+    <p>
+      <font color="#0033ff">My Holdings -&gt; Correspondence-&gt; Plan Contract Note</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x63d0;&#x4ea4;Plan Contract Note&#x548c;&#x94f6;&#x884c;&#x8d26;&#x6237;" ID="ID_1253165813" CREATED="1528246686832" MODIFIED="1528247182719">
+<icon BUILTIN="full-3"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1,
+    </p>
+    <p>
+      &#20174;&#19979;&#38754;&#30340;&#38142;&#25509;&#19979;&#36733;&#38134;&#34892;&#36134;&#25143;&#20449;&#24687;&#24182;&#22635;&#20889;
+    </p>
+    <p>
+      <a href="http://anon.ericsson.se/eridoc/component/eriurl?docno=&amp;objectId=09004cff867b7393&amp;action=current&amp;format=excel8book)">http://anon.ericsson.se/eridoc/component/eriurl?docno=&amp;objectId=09004cff867b7393&amp;action=current&amp;format=excel8book) </a>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      &#36890;&#36807;&#37038;&#20214;&#23558;&#31532;&#20108;&#27493;&#30340;Plan Contract Note&#21644;&#22635;&#20889;&#22909;&#30340;&#38134;&#34892;&#36134;&#25143;&#20449;&#24687;&#21457;&#36865;&#21040;&#19979;&#38754;&#30340;&#37038;&#20214;&#22320;&#22336;&#65292;&#23601;&#20250;&#36827;&#34892;&#25903;&#20184;&#20102;:
+    </p>
+    <p>
+      <font color="#0033ff">payroll.office@ericsson.com</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="Source Insight&#x5e8f;&#x5217;&#x53f7;" ID="ID_1237488072" CREATED="1421670089425" MODIFIED="1425022475416"><richcontent TYPE="NOTE">
