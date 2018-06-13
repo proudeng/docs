@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -4037,7 +4037,7 @@ END</pre>
 </richcontent>
 </node>
 <node TEXT="git&#x5b9e;&#x9645;&#x64cd;&#x7ec3;" ID="ID_1296539121" CREATED="1520405532596" MODIFIED="1520405537329">
-<node TEXT="&#x5904;&#x7406;&#x51b2;&#x7a81;" FOLDED="true" ID="ID_1934074610" CREATED="1520405538932" MODIFIED="1520406360108"><richcontent TYPE="NOTE">
+<node TEXT="&#x5904;&#x7406;&#x51b2;&#x7a81;" ID="ID_1934074610" CREATED="1520405538932" MODIFIED="1520406360108"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4271,9 +4271,169 @@ END</pre>
 </node>
 </node>
 </node>
+<node TEXT="&#x8fdc;&#x7a0b;&#x5206;&#x652f;&#x64cd;&#x4f5c;" ID="ID_1247323764" CREATED="1528853680352" MODIFIED="1528853688725">
+<node TEXT="&#x672c;&#x5730;&#x521b;&#x5efa;&#x65b0;&#x5206;&#x652f;&#x5e76;&#x4e0b;&#x8f7d;&#x8fdc;&#x7a0b;&#x5206;&#x652f;" ID="ID_1544659426" CREATED="1528853696889" MODIFIED="1528854012924"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#36828;&#31243;&#20998;&#25903;win10&#32473;&#25289;&#21040;&#26412;&#22320;&#65292;&#24182;&#22312;&#26412;&#22320;&#21019;&#24314;&#19968;&#20010;win10&#20998;&#25903;&#65292;&#24182;&#20999;&#25442;&#24037;&#20316;&#20998;&#25903;&#21040;win10&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000cc">$ git checkout -b win10 origin/win10</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x4ece;&#x8fdc;&#x7a0b;&#x5206;&#x652f;merge&#x6700;&#x65b0;&#x6539;&#x52a8;&#x5230;&#x672c;&#x5730;&#x5206;&#x652f;" ID="ID_658231334" CREATED="1528854013415" MODIFIED="1528854031645">
+<node TEXT="&#x4e00;&#x6b65;&#x8d70;&#x65b9;&#x6cd5;" ID="ID_449867401" CREATED="1528854086851" MODIFIED="1528854777681"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000cc">git pull origin</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x4e24;&#x6b65;&#x8d70;&#x65b9;&#x6cd5;" ID="ID_79284909" CREATED="1528854080601" MODIFIED="1528854149671"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        git fetch origin
+      </li>
+      <li>
+        git merge remote/master
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4e0b;&#x8f7d;&#x8fdc;&#x7a0b;&#x5206;&#x652f;" ID="ID_619471657" CREATED="1528854154510" MODIFIED="1528854425290">
+<icon BUILTIN="full-1"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#26469;&#19979;&#36733;&#36828;&#31243;&#20998;&#25903;&#21040;&#26412;&#22320;:
+    </p>
+    <p>
+      <b><font color="#0000cc">git fetch origin</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5408;&#x5e76;&#x8fdc;&#x7a0b;&#x5206;&#x652f;&#x5230;&#x672c;&#x5730;&#x5206;&#x652f;" ID="ID_1282961167" CREATED="1528854176182" MODIFIED="1528854416710">
+<icon BUILTIN="full-2"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#36828;&#31243;&#20998;&#25903;&#19982;&#26412;&#22320;&#30340;&#20998;&#25903;&#36827;&#34892;&#21512;&#24182;:
+    </p>
+    <p>
+      <b><font color="#0000cc">git merge remote/master</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x5408;&#x5e76;&#x4e4b;&#x524d;diff&#x4e00;&#x4e0b;" ID="ID_1986443215" CREATED="1528854206557" MODIFIED="1528854409935"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#26597;&#30475;&#36828;&#31243;&#20998;&#25903;&#19982;&#26412;&#22320;&#20998;&#25903;&#20043;&#38388;&#30340;&#24046;&#21035;:
+    </p>
+    <p>
+      <b><font color="#0000cc">git diff master origin/master</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
-<node TEXT="Linux Foundation Courses" POSITION="right" ID="ID_236017217" CREATED="1521197476614" MODIFIED="1521706279056">
+</node>
+</node>
+<node TEXT="&#x5c06;&#x672c;&#x5730;&#x5206;&#x652f;&#x63a8;&#x9001;&#x5230;&#x8fdc;&#x7a0b;&#x5206;&#x652f;&#x4e0a;" ID="ID_1995023269" CREATED="1528854465038" MODIFIED="1528854630766"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#26412;&#22320;&#20998;&#25903;test&#25512;&#36865;&#21040;&#36828;&#31243;&#30340;&#20998;&#25903;&#19978;(&#36828;&#31243;&#30340;&#20998;&#25903;&#25351;&#30340;&#26159;&#26412;&#22320;&#20808;&#21069;&#20174;&#36828;&#31243;&#20013;&#25289;&#20986;&#26469;&#30340;&#37027;&#20010;&#20998;&#25903;):
+    </p>
+    <p>
+      <b><font color="#0000cc">git push origin test</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fds
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x5982;&#x679c;&#x9700;&#x8981;&#x63a8;&#x9001;&#x5230;&#x8fdc;&#x7a0b;&#x4e0d;&#x540c;&#x7684;&#x5206;&#x652f;&#x4e0a;" ID="ID_16215971" CREATED="1528854634437" MODIFIED="1528854723073"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#25105;&#20204;&#24076;&#26395;&#25226;&#25913;&#21160;&#25512;&#36865;&#21040;&#36828;&#31243;&#19981;&#21516;&#30340;&#20998;&#25903;&#19978;(&#27604;&#22914;&#35828;remote-test)&#65292;&#20351;&#29992;&#22914;&#19979;&#30340;&#21629;&#20196;&#26469;&#25805;&#20316;&#65306;
+    </p>
+    <p>
+      <b><font color="#0000cc">git push origin test:remote-test</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Linux Foundation Courses" FOLDED="true" POSITION="right" ID="ID_236017217" CREATED="1521197476614" MODIFIED="1521706279056">
 <edge COLOR="#808080"/>
 <richcontent TYPE="NOTE">
 
@@ -5464,7 +5624,7 @@ END</pre>
 <node TEXT="&#x6781;&#x7b80;&#x6b27;&#x6d32;&#x53f2;" POSITION="left" ID="ID_1259379989" CREATED="1522389671618" MODIFIED="1522389680584">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x5feb;&#x6377;&#x952e;" FOLDED="true" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1520401450920">
+<node TEXT="&#x5feb;&#x6377;&#x952e;" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1520401450920">
 <edge COLOR="#ffff00"/>
 <node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1520401450919"><richcontent TYPE="NOTE">
 
