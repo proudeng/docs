@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
-    <properties fit_to_viewport="true" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1519275687798"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5889,7 +5889,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
 <node TEXT="web&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
@@ -5905,7 +5905,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5b89;&#x88c5;lighttpd" ID="ID_666001091" CREATED="1519275495856" MODIFIED="1519456732041"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;lighttpd" FOLDED="true" ID="ID_666001091" CREATED="1519275495856" MODIFIED="1519456732041"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5973,7 +5973,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;php7" ID="ID_1161537075" CREATED="1519276131819" MODIFIED="1519276205250"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;php7" FOLDED="true" ID="ID_1161537075" CREATED="1519276131819" MODIFIED="1519276205250"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6030,7 +6030,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519460132187"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" FOLDED="true" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1519460132187"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6198,7 +6198,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;&#x7f3a;&#x5931;&#x7684;extension" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1519460574460"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;&#x7f3a;&#x5931;&#x7684;extension" FOLDED="true" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1519460574460"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6302,7 +6302,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Flat-File CMS" ID="ID_647719980" CREATED="1519652606443" MODIFIED="1519653665825"><richcontent TYPE="NOTE">
+<node TEXT="Flat-File CMS" FOLDED="true" ID="ID_647719980" CREATED="1519652606443" MODIFIED="1519653665825"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6364,7 +6364,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="xauth" ID="ID_685934389" CREATED="1519988830331" MODIFIED="1519989068457">
+<node TEXT="xauth" FOLDED="true" ID="ID_685934389" CREATED="1519988830331" MODIFIED="1519989068457">
 <icon BUILTIN="messagebox_warning"/>
 <richcontent TYPE="NOTE">
 
@@ -9291,8 +9291,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -11622,8 +11622,8 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 </node>
-<node TEXT="Youhua&#x7684;WR1200JS&#x914d;&#x7f6e;" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
-<node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
+<node TEXT="Youhua&#x7684;WR1200JS&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
+<node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" FOLDED="true" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11639,7 +11639,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5237;&#x673a;padavan" ID="ID_841843215" CREATED="1527550776976" MODIFIED="1527601568656">
+<node TEXT="&#x5237;&#x673a;padavan" FOLDED="true" ID="ID_841843215" CREATED="1527550776976" MODIFIED="1527601568656">
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
 
@@ -11739,10 +11739,9 @@ root@OpenWrt:~# wifi</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="&#x5237;Bootloader(breed)" ID="ID_531259129" CREATED="1527552494342" MODIFIED="1527764230888">
+<node TEXT="&#x5237;Bootloader(breed)" FOLDED="true" ID="ID_531259129" CREATED="1527552494342" MODIFIED="1527764230888">
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
 
