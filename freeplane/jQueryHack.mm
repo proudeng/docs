@@ -3,7 +3,7 @@
 <node TEXT="jQuery&#x5165;&#x95e8;" FOLDED="false" ID="ID_8072154" CREATED="1527859364966" MODIFIED="1527859545181" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -77,7 +77,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="jQuery&#x80fd;&#x505a;&#x4ec0;&#x4e48;" POSITION="right" ID="ID_841774281" CREATED="1527859600873" MODIFIED="1527860025318">
+<node TEXT="jQuery&#x80fd;&#x505a;&#x4ec0;&#x4e48;" POSITION="right" ID="ID_841774281" CREATED="1527859600873" MODIFIED="1529044862235">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -452,7 +452,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
