@@ -110,25 +110,7 @@
 </html>
 
 </richcontent>
-<node TEXT="&#x4f7f;&#x7528;urblib2&#x76f4;&#x63a5;&#x8bf7;&#x6c42;url" ID="ID_1270067681" CREATED="1529852936146" MODIFIED="1529853416731"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#20351;&#29992;urllib2&#30340;urlopen&#26041;&#27861;&#33719;&#21462;url&#30340;&#39029;&#38754;&#65292;&#24182;&#23384;&#25918;&#22312;&#19968;&#20010;&#21483;&#20570;html&#30340;&#21464;&#37327;&#20013;
-    </p>
-    <p>
-      html = urllib2.urlopen(url).read()
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="&#x9700;&#x8981;&#x7f16;&#x8f91;url&#x8bf7;&#x6c42;&#x7684;head&#x90e8;&#x5206;" ID="ID_1909196797" CREATED="1529853417138" MODIFIED="1529853425305"/>
+<node TEXT="&#x793a;&#x4f8b;&#x4ee3;&#x7801;&#x5c0f;&#x7ed3;" ID="ID_999115564" CREATED="1529854361309" MODIFIED="1529854397985" LINK="../OneNote/wswp_ch1&#x793a;&#x4f8b;&#x4ee3;&#x7801;&#x5c0f;&#x7ed3;.one"/>
 </node>
 <node TEXT="Ch2.&#x6570;&#x636e;&#x6293;&#x53d6;" ID="ID_1527600648" CREATED="1528748507372" MODIFIED="1529646797574"><richcontent TYPE="NOTE">
 
