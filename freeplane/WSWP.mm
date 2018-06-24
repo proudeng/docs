@@ -77,7 +77,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7ae0;&#x8282;&#x5c0f;&#x7ed3;" POSITION="right" ID="ID_1413724873" CREATED="1529646778781" MODIFIED="1529646915799">
+<node TEXT="&#x7ae0;&#x8282;&#x5c0f;&#x7ed3;" POSITION="right" ID="ID_1413724873" CREATED="1529646778781" MODIFIED="1529851521877">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -87,10 +87,11 @@
   </head>
   <body>
     <p>
-      &#21508;&#31456;&#33410;&#23567;&#32467;,&#21508;&#31456;&#33410;&#30340;&#31034;&#20363;&#20195;&#30721;&#22312;&#19979;&#38754;&#30340;&#32593;&#39029;&#19978;&#33021;&#22815;&#25214;&#21040;&#65306;
+      &#21508;&#31456;&#33410;&#23567;&#32467;
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Ch1.&#x7f51;&#x7edc;&#x722c;&#x866b;&#x7b80;&#x4ecb;" ID="ID_1249833004" CREATED="1528748153599" MODIFIED="1529646797572"><richcontent TYPE="NOTE">
 
@@ -107,9 +108,29 @@
     </p>
   </body>
 </html>
+
+</richcontent>
+<node TEXT="&#x4f7f;&#x7528;urblib2&#x76f4;&#x63a5;&#x8bf7;&#x6c42;url" ID="ID_1270067681" CREATED="1529852936146" MODIFIED="1529853416731"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;urllib2&#30340;urlopen&#26041;&#27861;&#33719;&#21462;url&#30340;&#39029;&#38754;&#65292;&#24182;&#23384;&#25918;&#22312;&#19968;&#20010;&#21483;&#20570;html&#30340;&#21464;&#37327;&#20013;
+    </p>
+    <p>
+      html = urllib2.urlopen(url).read()
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
-<node TEXT="Ch2.&#x6570;&#x636e;&#x6293;&#x53d6;" FOLDED="true" ID="ID_1527600648" CREATED="1528748507372" MODIFIED="1529646797574"><richcontent TYPE="NOTE">
+<node TEXT="&#x9700;&#x8981;&#x7f16;&#x8f91;url&#x8bf7;&#x6c42;&#x7684;head&#x90e8;&#x5206;" ID="ID_1909196797" CREATED="1529853417138" MODIFIED="1529853425305"/>
+</node>
+<node TEXT="Ch2.&#x6570;&#x636e;&#x6293;&#x53d6;" ID="ID_1527600648" CREATED="1528748507372" MODIFIED="1529646797574"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -158,7 +179,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4f7f;&#x7528;&#x9009;&#x62e9;&#x5668;" FOLDED="true" ID="ID_1563113669" CREATED="1528749259011" MODIFIED="1528750240720"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;&#x9009;&#x62e9;&#x5668;" ID="ID_1563113669" CREATED="1528749259011" MODIFIED="1528750240720"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -781,7 +802,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4f7f;&#x7528;&#x5230;&#x7684;&#x5e93;" FOLDED="true" ID="ID_1081848738" CREATED="1528748172839" MODIFIED="1529597611754">
+<node TEXT="&#x4f7f;&#x7528;&#x5230;&#x7684;&#x5e93;" ID="ID_1081848738" CREATED="1528748172839" MODIFIED="1529597611754">
 <node TEXT="Urllib2" ID="ID_1414022757" CREATED="1528748182073" MODIFIED="1528748231721"/>
 <node TEXT="urlparse" ID="ID_1225258319" CREATED="1528748269079" MODIFIED="1528748273485"/>
 <node TEXT="re" ID="ID_451938865" CREATED="1528748277298" MODIFIED="1528748278032"/>
@@ -893,7 +914,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
