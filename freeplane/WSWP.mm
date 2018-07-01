@@ -91,7 +91,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Ch1.&#x7f51;&#x7edc;&#x722c;&#x866b;&#x7b80;&#x4ecb;" ID="ID_1249833004" CREATED="1528748153599" MODIFIED="1529646797572"><richcontent TYPE="NOTE">
 
@@ -108,7 +107,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x793a;&#x4f8b;&#x4ee3;&#x7801;&#x5c0f;&#x7ed3;" ID="ID_999115564" CREATED="1529854361309" MODIFIED="1529854397985" LINK="../OneNote/wswp_ch1&#x793a;&#x4f8b;&#x4ee3;&#x7801;&#x5c0f;&#x7ed3;.one"/>
 </node>
@@ -175,7 +173,7 @@
 </html>
 </richcontent>
 <node TEXT="XPath&#x9009;&#x62e9;&#x5668;" ID="ID_1657827865" CREATED="1528750260919" MODIFIED="1528750268911"/>
-<node TEXT="CSS&#x9009;&#x62e9;&#x5668;" FOLDED="true" ID="ID_1521869653" CREATED="1528750269255" MODIFIED="1528750272187">
+<node TEXT="CSS&#x9009;&#x62e9;&#x5668;" ID="ID_1521869653" CREATED="1528750269255" MODIFIED="1528750272187">
 <node TEXT="W3C&#x53c2;&#x8003;&#x94fe;&#x63a5;" ID="ID_78947699" CREATED="1528750668445" MODIFIED="1528750696508"><richcontent TYPE="NOTE">
 
 <html>
