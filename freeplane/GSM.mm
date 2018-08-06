@@ -642,7 +642,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;TR&#x3011;HR83604" FOLDED="true" ID="ID_861419681" CREATED="1393846809147" MODIFIED="1393846817149">
+<node TEXT="&#x3010;TR&#x3011;HR83604" ID="ID_861419681" CREATED="1393846809147" MODIFIED="1393846817149">
 <node TEXT="Jarl&#x5bf9;&#x4e8e;&#x8fd9;&#x4e2a;TR&#x7684;&#x56de;&#x590d;" ID="ID_1854689254" CREATED="1393846837225" MODIFIED="1393846998031"><richcontent TYPE="NOTE">
 
 <html>
@@ -1094,7 +1094,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;MR4596-1&#x3011;Radio 4443 in Ericsson Radio System(4T4R dual band)" ID="ID_1088468827" CREATED="1517206483415" MODIFIED="1520236229825"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;MR4596-1&#x3011;Radio 4443 in Ericsson Radio System(4T4R dual band)" ID="ID_1088468827" CREATED="1517206483415" MODIFIED="1524883121469"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1113,17 +1113,11 @@ field-separator'></span><![endif]-->
     <p class="MsoNormal" style="margin-bottom: 5.0pt">
       Artifacts NDS: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cd4145e?docno=377/10268-300/FCP1314743Uen&amp;action=current&amp;format=msw12</a>&#160;
     </p>
-    <p class="MsoNormal" style="margin-bottom: 5.0pt">
-      
-    </p>
-    <p class="MsoNormal">
-      
-    </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x3010;MR5093&#x3011;Generic Radio Unit Cascading support for DUG" ID="ID_1523206866" CREATED="1518412242363" MODIFIED="1518412281266">
+<node TEXT="&#x3010;MR5093&#x3011;Generic Radio Unit Cascading support for DUG" FOLDED="true" ID="ID_1523206866" CREATED="1518412242363" MODIFIED="1518412281266">
 <node TEXT="FOP" ID="ID_129104669" CREATED="1518412283002" MODIFIED="1518412354593"><richcontent TYPE="NOTE">
 
 <html>
@@ -1153,7 +1147,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3010;MR3256&#x3011;Dual Band Radio 2242" ID="ID_1479073208" CREATED="1518412877474" MODIFIED="1519611689831">
+<node TEXT="&#x3010;MR3256&#x3011;Dual Band Radio 2242" FOLDED="true" ID="ID_1479073208" CREATED="1518412877474" MODIFIED="1519611689831">
 <node TEXT="FOP" ID="ID_1571443639" CREATED="1518412880267" MODIFIED="1518412886020"><richcontent TYPE="NOTE">
 
 <html>
@@ -1337,6 +1331,127 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x3010;MR-4975&#x3011; Mini Air 4455 in Ericsson Radio System" FOLDED="true" ID="ID_1366492266" CREATED="1525672219769" MODIFIED="1530840507233"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><font size="10.0pt" face="Arial,sans-serif">Feature</font></b><font size="10.0pt" face="Arial,sans-serif">: </font><font color="#1F497D" face="Arial,sans-serif">MR4975&#160;Mini AIR 4455 in Ericsson Radio Systems<o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><font size="10.0pt" face="Arial,sans-serif">Link to Feature in Hansoft</font></b><font size="10.0pt" face="Arial,sans-serif">:</font><font size="9.5pt">&#160;</font><font size="10.0pt" face="Arial,sans-serif" color="#1F497D">hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/584534?ID=22121<o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><font size="10.0pt" face="Arial,sans-serif">Impacted Products</font></b><font size="10.0pt" face="Arial,sans-serif">: BTS&amp;OMT</font><font size="9.5pt" face="&#x5b8b;&#x4f53;"><o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal" style="margin-bottom: 5.0pt">
+      <b><font size="10.0pt" face="Arial,sans-serif">Artifacts</font></b><font size="10.0pt" face="Arial,sans-serif">&#160;</font><font size="12.0pt">(OA, PPS or equivalent documents):</font><font size="10.0pt" face="Arial,sans-serif"><o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font size="10.0pt" face="Arial,sans-serif" color="#1F497D">OA:</font>&#160;<font size="10.0pt" face="Arial,sans-serif" color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12</a><o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font size="10.0pt" face="Arial,sans-serif" color="#1F497D">FOP: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12</a><o p="#DEFAULT"></o></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="OA" ID="ID_3509568" CREATED="1525672306919" MODIFIED="1525672320508"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cdf01b9?docno=111/0360-200/FCP1314743Uen&amp;action=current&amp;format=ppt12 </a></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="FOP" ID="ID_1786306976" CREATED="1525672309280" MODIFIED="1525672322749"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif; color: #1F497D"><font size="10.0pt" face="Arial,sans-serif" color="#1F497D"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2847cc?docno=206/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt12</a></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NDS" ID="ID_394041692" CREATED="1526001254644" MODIFIED="1526001261863"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d31b2b7?docno=389/10268-300/FCP1314743Uen&amp;format=msw12">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d31b2b7?docno=389/10268-300/FCP1314743Uen&amp;format=msw12</a></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3010;MR5288&#x3011;Energy Measurement Counters DUG" FOLDED="true" ID="ID_337522422" CREATED="1526375190643" MODIFIED="1531791482971"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Feature</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">:</span></font><span lang="EN-US" style="font-size: 10.0pt; font-family: Tahoma,sans-serif"><font size="10.0pt" face="Tahoma,sans-serif">&#160;MR5288 Energy Measurement Counters DUG</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Link to Feature in Hansoft</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">:</span></font><span lang="EN-US" style="font-size: 10.0pt; font-family: Tahoma,sans-serif"><font size="10.0pt" face="Tahoma,sans-serif">hansoft://esekiwdp2175.rnd.ericsson.se;GSM;c2c34aa3/Task/593709?ID=5953</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Impacted Products</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">: BSC, BTS, OSS, </span></font><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal" style="margin-top: 5.0pt; margin-right: 0cm; margin-bottom: 5.0pt; margin-left: 0cm">
+      <b><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif"><font size="10.0pt" face="Arial,sans-serif">Artifacts</font></span></b><font size="10.0pt" face="Arial,sans-serif"><span lang="EN-US" style="font-size: 10.0pt; font-family: Arial,sans-serif">&#160;(OA, PPS or equivalent documents):<o p="#DEFAULT"></o></span></font>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US">OA: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d319db6?docno=135/0360-110/FCP1307999Uen&amp;action=current&amp;format=ppt8">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d319db6?docno=135/0360-110/FCP1307999Uen&amp;action=current&amp;format=ppt8</a>&#8203;&#160;&#160;<o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US">FOP: <a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2bc461?docno=207/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt8">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8d2bc461?docno=207/28821-110/FCP1307999Uen&amp;action=current&amp;format=ppt8</a><o p="#DEFAULT"></o></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="feature presentation" ID="ID_164004903" CREATED="1530840508584" MODIFIED="1530840572808" LINK="../../../../../Desktop/all/PC-BTS/OA%20Report%20MR5288%20Energy%20Measurement%20Counters%20DUG%20PA4.ppt"/>
+</node>
+<node TEXT="&#x3010;MR5280/MR5279&#x3011;Radio 4480 and Radio 4499" ID="ID_749533653" CREATED="1530689237654" MODIFIED="1530689276027">
+<node TEXT="Introduction" ID="ID_104624529" CREATED="1530689284601" MODIFIED="1530689346348" LINK="../GSM_document_base/Oslo.odp"/>
+</node>
+</node>
+<node TEXT="Feature Time Plan" ID="ID_1668170730" CREATED="1526368950214" MODIFIED="1526368965018"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Link:
+    </p>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cff89f1954d?docno=&amp;action=current&amp;format=excel12book
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="BCI&#x63a5;&#x53e3;&#x7684;&#x5934;&#x6587;&#x4ef6;&#x548c;sig&#x6587;&#x4ef6;&#x4f4d;&#x7f6e;" ID="ID_166963389" CREATED="1418876600307" MODIFIED="1418880456280" LINK="../OneNote/BCI&#x63a5;&#x53e3;&#x7684;&#x8def;&#x5f84;&#x5df2;&#x7ecf;fault%20id&#x7684;&#x610f;&#x4e49;.one"><richcontent TYPE="NOTE">
@@ -1354,7 +1469,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="TRS-3" FOLDED="true" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
+<node TEXT="TRS-3" POSITION="right" ID="ID_838523908" CREATED="1384422460593" MODIFIED="1384422463960">
 <edge COLOR="#7c0000"/>
 <node TEXT="&#x5982;&#x4f55;&#x5728;&#x670d;&#x52a1;&#x5668;&#x4e0a;&#x6253;&#x5f00;&#x5e76;&#x7f16;&#x8f91;TRS-3&#x6a21;&#x578b;" ID="ID_1997616957" CREATED="1384759711220" MODIFIED="1384759777550" LINK="#ID_230718592"/>
 <node TEXT="TRS-3&#x4e2d;&#x4f7f;&#x7528;&#x7684;&#x4e00;&#x4e9b;&#x6982;&#x5ff5;" FOLDED="true" ID="ID_1235404221" CREATED="1384840248291" MODIFIED="1384840256211">
@@ -2400,7 +2515,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="GSM RC SW(6K)" FOLDED="true" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1386568680293">
+<node TEXT="GSM RC SW(6K)" FOLDED="true" POSITION="left" ID="ID_1778624824" CREATED="1383036144938" MODIFIED="1528423651298">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -3587,7 +3702,7 @@ field-separator'></span><![endif]-->
 <node TEXT="GSM Radio SwA" POSITION="left" ID="ID_983556455" CREATED="1399187373956" MODIFIED="1399187379060">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="GSM&#x6587;&#x6863;" FOLDED="true" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
+<node TEXT="GSM&#x6587;&#x6863;" POSITION="left" ID="ID_410612741" CREATED="1383579276636" MODIFIED="1383579288157">
 <edge COLOR="#ffff00"/>
 <node TEXT="&#x6587;&#x6863;&#x5c42;&#x6b21;&#x7ed3;&#x6784;" ID="ID_853031523" CREATED="1384328000217" MODIFIED="1384328231179" LINK="../MiscDocuments/doc_hierarchy.png"><richcontent TYPE="NOTE">
 
@@ -3768,7 +3883,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="BTS_CI_Delivery_Process_and_Test_Results" ID="ID_1407305291" CREATED="1384909634340" MODIFIED="1384909833221" LINK="../GSM_document_base/BTS%20%20CI_presentation_jenkins.ppt"/>
 </node>
-<node TEXT="System Baseline" FOLDED="true" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1398391977291" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
+<node TEXT="System Baseline" FOLDED="true" ID="ID_1678864960" CREATED="1385430444627" MODIFIED="1528423657796" LINK="../GSM_document_base/Copy%20of%203_1090-HRB10521_EN_XH_MSEXCEL_XLS.xls"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3790,7 +3905,7 @@ field-separator'></span><![endif]-->
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x3010;RC SWPS&#x3011;" FOLDED="true" ID="ID_154533239" CREATED="1387175630689" MODIFIED="1403675242523" LINK="../GSM_document_base/Baseline/PS_RCSW.pdf">
+<node TEXT="&#x3010;RC SWPS&#x3011;" ID="ID_154533239" CREATED="1387175630689" MODIFIED="1403675242523" LINK="../GSM_document_base/Baseline/PS_RCSW.pdf">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
 <node TEXT="SWPC&#x4e2d;&#x53c2;&#x8003;&#x7684;&#x4e00;&#x4e9b;&#x91cd;&#x8981;&#x6587;&#x6863;" FOLDED="true" ID="ID_1604794897" CREATED="1387175643069" MODIFIED="1387175680910">
@@ -3820,7 +3935,7 @@ field-separator'></span><![endif]-->
 <node TEXT="FD RFD" ID="ID_1296544815" CREATED="1387375038322" MODIFIED="1387375044001"/>
 <node TEXT="FD RC Common" ID="ID_5100759" CREATED="1387434578824" MODIFIED="1387434583095"/>
 </node>
-<node TEXT="RC SW Package&#x4e2d;&#x7684;&#x51e0;&#x4e2a;System Class" FOLDED="true" ID="ID_1048364772" CREATED="1387354211941" MODIFIED="1387355472292"><richcontent TYPE="NOTE">
+<node TEXT="RC SW Package&#x4e2d;&#x7684;&#x51e0;&#x4e2a;System Class" ID="ID_1048364772" CREATED="1387354211941" MODIFIED="1387355472292"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4182,7 +4297,7 @@ field-separator'></span><![endif]-->
 </node>
 <node TEXT="&#x3010;RCSW IWD&#x3011;" ID="ID_167000299" CREATED="1403675201982" MODIFIED="1403675271175" LINK="../GSM_document_base/Baseline/IWD_RC_102_15519-CNH201343_01_EN_AH_PDFV1R4.pdf"/>
 <node TEXT="&#x3010;CREC SWPS&#x3011;" ID="ID_547937170" CREATED="1407805357019" MODIFIED="1407805404881" LINK="../GSM_document_base/Baseline/SWPS_CREC_14_10261-HRB10521_EN_BS_PDFV1R4.pdf"/>
-<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" FOLDED="true" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1399194158085" LINK="../GSM_document_base/Baseline/GD_General_Specification_of_SW_Architecture.pdf">
+<node TEXT="&#x3010;General Specification of SW Architecture&#x3011;" ID="ID_1767843448" CREATED="1387419902707" MODIFIED="1399194158085" LINK="../GSM_document_base/Baseline/GD_General_Specification_of_SW_Architecture.pdf">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
@@ -4271,7 +4386,7 @@ field-separator'></span><![endif]-->
 </node>
 </node>
 </node>
-<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388639052963">
+<node TEXT="&#x6587;&#x6863;&#x7ae0;&#x8282;&#x5185;&#x5bb9;" ID="ID_578860700" CREATED="1388382410777" MODIFIED="1388639052963">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
 <icon BUILTIN="yes"/>
@@ -4468,7 +4583,7 @@ field-separator'></span><![endif]-->
 </richcontent>
 </node>
 </node>
-<node TEXT="Replaceable Unit" FOLDED="true" ID="ID_822794183" CREATED="1388387893755" MODIFIED="1388393222040"><richcontent TYPE="NOTE">
+<node TEXT="Replaceable Unit" ID="ID_822794183" CREATED="1388387893755" MODIFIED="1388393222040"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4518,7 +4633,7 @@ field-separator'></span><![endif]-->
 </html>
 </richcontent>
 </node>
-<node TEXT="Active RU" FOLDED="true" ID="ID_882765322" CREATED="1388393404813" MODIFIED="1388393409381">
+<node TEXT="Active RU" ID="ID_882765322" CREATED="1388393404813" MODIFIED="1388393409381">
 <node TEXT="Main RU" ID="ID_966926760" CREATED="1388392168717" MODIFIED="1388393120543"><richcontent TYPE="NOTE">
 
 <html>
