@@ -349,7 +349,7 @@
 <node TEXT="BTSNodeTeam&#x4e0a;&#x521b;&#x5efa;&#x4e2a;&#x4eba;&#x7684;backlog" FOLDED="true" ID="ID_1103450065" CREATED="1519374990205" MODIFIED="1519438246563">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="Update Node Team Board" ID="ID_180584152" CREATED="1519375557905" MODIFIED="1536138585274">
+<node TEXT="Update Node Team Board" ID="ID_180584152" CREATED="1519375557905" MODIFIED="1537857218623">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="full-2"/>
@@ -385,7 +385,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x51b3;&#x5b9a;&#x7b56;&#x7565;&#x533a;&#x5206;&#x81ea;&#x5df1;&#x5185;&#x90e8;&#x548c;node team&#x7684;&#x65e5;&#x5e38;backlog" ID="ID_189137042" CREATED="1519375955403" MODIFIED="1536138585275">
+<node TEXT="&#x51b3;&#x5b9a;&#x7b56;&#x7565;&#x533a;&#x5206;&#x81ea;&#x5df1;&#x5185;&#x90e8;&#x548c;node team&#x7684;&#x65e5;&#x5e38;backlog" ID="ID_189137042" CREATED="1519375955403" MODIFIED="1537857218624">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="full-1"/>
@@ -1748,10 +1748,6 @@
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="UltraVPS&#x7cfb;&#x7edf;&#x66f4;&#x65b0;" ID="ID_561131706" CREATED="1522393106428" MODIFIED="1524193978315">
-<icon BUILTIN="info"/>
-<font NAME="SansSerif"/>
-</node>
 <node TEXT="&#x4e2a;&#x4eba;&#x52a9;&#x7406;&#x7c7b;APP&#x7814;&#x7a76;" ID="ID_1734852159" CREATED="1524193955542" MODIFIED="1524194008448">
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
@@ -1786,27 +1782,6 @@
   </body>
 </html>
 </richcontent>
-</node>
-<node TEXT="Oslo&#x8fd9;&#x4e2a;feature&#x76f8;&#x5173;&#x7684;&#x4fe1;&#x606f;&#x6c47;&#x603b;" ID="ID_1684888806" CREATED="1531791641584" MODIFIED="1531791695805">
-<icon BUILTIN="info"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Yi Lu&#21644; feature driver&#20043;&#38388;&#26377;&#19968;&#20123;&#37038;&#20214;&#30340;&#27807;&#36890;&#65292;&#26597;&#30475;&#19968;&#19979;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&#x6700;&#x4f73;&#x6392;&#x5e8f;&#x6bd4;&#x8d5b;&#x603b;&#x7ed3;&#x548c;&#x7814;&#x7a76;" ID="ID_1285046697" CREATED="1534146137795" MODIFIED="1534146162498">
-<icon BUILTIN="info"/>
-<font NAME="SansSerif"/>
 </node>
 <node TEXT="Assigned Input" FOLDED="true" ID="ID_1239004083" CREATED="1522138603142" MODIFIED="1522206170150">
 <font NAME="SansSerif"/>
@@ -2216,6 +2191,31 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x6700;&#x4f73;&#x6392;&#x5e8f;&#x6bd4;&#x8d5b;&#x603b;&#x7ed3;&#x548c;&#x7814;&#x7a76;" ID="ID_1285046697" CREATED="1534146137795" MODIFIED="1536547538408" LINK="#ID_1840510357">
+<icon BUILTIN="info"/>
+<font NAME="SansSerif"/>
+</node>
+<node TEXT="Oslo&#x8fd9;&#x4e2a;feature&#x76f8;&#x5173;&#x7684;&#x4fe1;&#x606f;&#x6c47;&#x603b;" ID="ID_1684888806" CREATED="1531791641584" MODIFIED="1531791695805">
+<icon BUILTIN="info"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Yi Lu&#21644; feature driver&#20043;&#38388;&#26377;&#19968;&#20123;&#37038;&#20214;&#30340;&#27807;&#36890;&#65292;&#26597;&#30475;&#19968;&#19979;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="UltraVPS&#x7cfb;&#x7edf;&#x66f4;&#x65b0;" ID="ID_561131706" CREATED="1522393106428" MODIFIED="1524193978315">
+<icon BUILTIN="info"/>
+<font NAME="SansSerif"/>
+</node>
 </node>
 </node>
 <node TEXT="Projects" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1256051703" CREATED="1427225914994" MODIFIED="1522142510072">
@@ -2257,7 +2257,7 @@
 <icon BUILTIN="0%"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="2,&#x627e;Li Kai&#x8ba8;&#x8bba;&#x65b0;&#x589e;CF Key&#x7684;&#x5bb9;&#x91cf;" ID="ID_1452841710" CREATED="1533633010408" MODIFIED="1536137103752">
+<node TEXT="2,&#x627e;Li Kai&#x8ba8;&#x8bba;&#x65b0;&#x589e;CF Key&#x7684;&#x5bb9;&#x91cf;" ID="ID_1452841710" CREATED="1533633010408" MODIFIED="1536547516593">
 <icon BUILTIN="100%"/>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
@@ -2274,7 +2274,13 @@
       
     </p>
     <p>
-      &#25214;&#20197;&#21069;&#30340;CR&#65292;&#20132;&#32473;Hongxiang Yu
+      &#25214;&#20197;&#21069;&#30340;CR&#65292;&#20132;&#32473;Hongxiang Yu&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      BTS-SI&#24050;&#32463;&#21019;&#24314;&#65292;&#31561;Richard&#20132;&#32473;Team&#21435;&#25191;&#34892;&#12290;
     </p>
   </body>
 </html>
@@ -2285,13 +2291,59 @@
 <font NAME="SansSerif"/>
 </node>
 </node>
+<node TEXT="&#x6539;&#x8fdb;BTS&#x5bf9;Radio Product Name&#x7684;&#x652f;&#x6301;" ID="ID_1100971340" CREATED="1536548454857" MODIFIED="1536636399404">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="idea"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Radio&#30340;product Name&#30340;&#26684;&#24335;&#21040;&#30446;&#21069;&#24050;&#32463;&#28436;&#21270;&#20986;&#20102;&#22909;&#20960;&#31181;&#19981;&#21516;&#30340;&#26684;&#24335;&#65292;&#38024;&#23545;&#27599;&#19968;&#31181;&#26032;&#30340;&#26684;&#24335;&#25105;&#20204;BTS&#37117;&#38656;&#35201;&#22312;&#20195;&#30721;&#20013;&#38024;&#23545;&#23427;&#20570;&#19968;&#20123;hardcode&#12290;
+    </p>
+    <p>
+      &#36825;&#31181;&#19981;&#28789;&#27963;&#30340;&#26041;&#24335;&#24182;&#19981;&#26377;&#25928;&#65292;&#32780;&#19988;&#21518;&#26399;&#32500;&#25252;&#36215;&#26469;&#27604;&#36739;&#30340;&#40635;&#28902;&#12290;
+    </p>
+    <p>
+      &#38656;&#35201;&#25552;&#20379;&#19968;&#31181;&#36890;&#29992;&#30340;&#26041;&#24335;&#32479;&#19968;&#30340;&#22788;&#29702;&#19981;&#21516;Radio&#20013;&#19981;&#21516;&#26684;&#24335;&#30340;product name&#12290;
+    </p>
+    <p>
+      &#24314;&#35758;&#30340;&#19968;&#31181;&#26041;&#24335;&#26159;&#20351;&#29992;&#31867;&#20284;&#20110;&#37197;&#32622;&#25991;&#20214;&#36825;&#26679;&#30340;&#26041;&#24335;&#65292;&#37197;&#32622;&#25991;&#20214;&#20013;&#23450;&#20041;&#20102;&#25152;&#26377;&#21487;&#33021;&#30340;&#26684;&#24335;&#12290;&#20195;&#30721;&#21482;&#35201;&#25195;&#25551;&#36825;&#20010;&#37197;&#32622;&#25991;&#20214;&#23547;&#25214;&#26368;&#21305;&#37197;&#30340;&#26041;&#24335;&#23601;&#21487;&#20197;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6539;&#x8fdb;CR&#x5b58;&#x6863;&#x7684;&#x663e;&#x793a;&#x65b9;&#x5f0f;" ID="ID_1183203438" CREATED="1536634923320" MODIFIED="1536636396497">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="idea"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CR&#30340;Archive&#20445;&#23384;&#19979;&#26469;&#20102;&#65292;&#20294;&#26159;&#27809;&#26377;&#19968;&#20010;&#24456;&#22909;&#30340;&#26041;&#24335;&#21435;&#26816;&#32034;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="Vocation Plan" ID="ID_795818900" CREATED="1533526028553" MODIFIED="1533526044845">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="&#x9152;&#x5e97;&#x548c;&#x673a;&#x7968;&#x786e;&#x8ba4;" ID="ID_68604329" CREATED="1533526047337" MODIFIED="1535080190198">
+<node TEXT="&#x9152;&#x5e97;&#x548c;&#x673a;&#x7968;&#x786e;&#x8ba4;" ID="ID_68604329" CREATED="1533526047337" MODIFIED="1537857217739">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="100%"/>
+<icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -2310,20 +2362,21 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5e7f;&#x5dde;&#x548c;&#x73e0;&#x6d77;&#x653b;&#x7565;&#x9605;&#x8bfb;" ID="ID_489849624" CREATED="1534735628707" MODIFIED="1535080205056">
+<node TEXT="&#x5e7f;&#x5dde;&#x548c;&#x73e0;&#x6d77;&#x653b;&#x7565;&#x9605;&#x8bfb;" ID="ID_489849624" CREATED="1534735628707" MODIFIED="1537857218612">
 <icon BUILTIN="yes"/>
-<icon BUILTIN="25%"/>
+<icon BUILTIN="100%"/>
+<icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 </node>
 </node>
 <node TEXT="Other" ID="ID_1070004421" CREATED="1520218480044" MODIFIED="1521193871814">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="&#x56fe;&#x4e66;&#x9986;&#x8fd8;&#x4e66;" ID="ID_1116977657" CREATED="1524536923304" MODIFIED="1536138585325">
+<node TEXT="&#x56fe;&#x4e66;&#x9986;&#x8fd8;&#x4e66;" ID="ID_1116977657" CREATED="1524536923304" MODIFIED="1537857218662">
 <icon BUILTIN="yes"/>
 <attribute NAME="Where" VALUE="Library"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
-<attribute NAME="When" VALUE="2018-09-09" OBJECT="org.freeplane.features.format.FormattedDate|2018-09-09T00:00+0800|yyyy-MM-dd"/>
+<attribute NAME="When" VALUE="2018-10-07" OBJECT="org.freeplane.features.format.FormattedDate|2018-10-07T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -2333,10 +2386,7 @@
   </head>
   <body>
     <p>
-      8&#26376;15&#21495;&#65292;&#20004;&#26412;&#20851;&#20110;python&#30340;&#20070;&#38656;&#35201;&#36824;&#25481;
-    </p>
-    <p>
-      &#26032;&#20511;&#30340;&#37027;&#20004;&#26412;&#20070;&#65292;&#19968;&#26412;&#20851;&#20110;Kali&#65292;&#19968;&#26412;&#26159;&#20851;&#20110;openwrt&#30340;&#65292;8&#26376;15&#21495;&#21487;&#20197;&#32493;&#20511;&#12290;
+      10&#26376;7&#21495;&#65292;&#20511;&#30340;&#26524;&#26524;&#20004;&#26412;&#20070;&#38656;&#35201;&#32493;&#20511;&#12290;
     </p>
   </body>
 </html>
@@ -2404,7 +2454,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6c7d;&#x8f66;&#x5e74;&#x68c0;" ID="ID_271573638" CREATED="1534820043115" MODIFIED="1536138585339">
+<node TEXT="&#x6c7d;&#x8f66;&#x5e74;&#x68c0;&#x4ee5;&#x53ca;&#x8f66;&#x9669;&#x66f4;&#x65b0;" ID="ID_271573638" CREATED="1534820043115" MODIFIED="1537857218667">
 <icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
@@ -2426,7 +2476,7 @@
 <node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="Linux Course" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
+<node TEXT="Linux Course" FOLDED="true" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="&#x5b66;&#x4e60;&#x5f00;&#x6e90;&#x8bfe;&#x7a0b;" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1536219654532" TEXT_SHORTENED="true">
@@ -2445,7 +2495,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x57f9;&#x8bad;&#x5185;&#x5bb9;" ID="ID_1840476330" CREATED="1536138731643" MODIFIED="1536138773235"><richcontent TYPE="NOTE">
 
@@ -2593,10 +2642,33 @@
 <font NAME="SansSerif"/>
 </node>
 </node>
-<node TEXT="&#x6392;&#x5e8f;&#x6bd4;&#x8d5b;&#x603b;&#x7ed3;&#x548c;&#x7814;&#x7a76;" ID="ID_1840510357" CREATED="1534733865836" MODIFIED="1534733882970">
+<node TEXT="&#x7231;&#x7acb;&#x4fe1;&#x5728;&#x7ebf;5G&#x57fa;&#x7840;&#x57f9;&#x8bad;" ID="ID_163201155" CREATED="1536547187427" MODIFIED="1536547659552" LINK="../OneNote/5G%20online%20training%20materials.one">
+<icon BUILTIN="list"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22320;&#22336;&#35831;&#21442;&#32771;&#38142;&#25509;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6392;&#x5e8f;&#x6bd4;&#x8d5b;&#x603b;&#x7ed3;&#x548c;&#x7814;&#x7a76;" ID="ID_1840510357" CREATED="1534733865836" MODIFIED="1536547271709">
+<icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="Docker&#x57f9;&#x8bad;&#x7ed3;&#x679c;&#x603b;&#x7ed3;" ID="ID_382429396" CREATED="1534733893045" MODIFIED="1534733904951">
+<node TEXT="Docker&#x57f9;&#x8bad;&#x7ed3;&#x679c;&#x603b;&#x7ed3;" ID="ID_382429396" CREATED="1534733893045" MODIFIED="1536547271712">
+<icon BUILTIN="yes"/>
+<font NAME="SansSerif"/>
+</node>
+<node TEXT="&#x6025;&#x6551;&#x77e5;&#x8bc6;&#x548c;&#x6d88;&#x9632;&#x77e5;&#x8bc6;" ID="ID_504256769" CREATED="1536912145872" MODIFIED="1536912164214">
+<icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
 </node>
 </node>

@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="true" show_note_icons="true"/>
+    <properties fit_to_viewport="true" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" FOLDED="true" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
+<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -87,7 +87,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql install" FOLDED="true" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
+<node TEXT="mysql install" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1534582442720"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1534582442720"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4991,7 +4991,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="ultravps&#x7684;&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x548c;&#x5bc6;&#x7801;" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1535986144875"><richcontent TYPE="NOTE">
+<node TEXT="ultravps&#x7684;&#x767b;&#x5f55;&#x7528;&#x6237;&#x540d;&#x548c;&#x5bc6;&#x7801;" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1536911979654"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5002,12 +5002,12 @@
       &#22240;&#20026;&#26032;&#30340;mysql5.7&#26356;&#25913;&#20102;&#31574;&#30053;&#65292;root&#29992;&#25143;&#19981;&#33021;&#22815;&#30331;&#38470;&#20102;&#12290;&#25152;&#20197;&#25105;&#20204;&#21019;&#24314;&#20102;&#19968;&#20010;&#26032;&#30340;&#29992;&#25143;&#29992;&#20110;&#30331;&#38470;phpmyadmin
     </p>
     <p>
-      &#30331;&#24405;&#29992;&#25143;&#21517;&#20026;phpmyadmin.&#23494;&#30721;&#20026;luckyxiaoshe0901
+      &#30331;&#24405;&#29992;&#25143;&#21517;&#20026;admin.&#23494;&#30721;&#20026;luckyxiaoshe
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x521b;&#x5efa;&#x7528;&#x4e8e;&#x767b;&#x9646;phpmyadmin&#x7684;&#x7528;&#x6237;" ID="ID_946229541" CREATED="1535986166020" MODIFIED="1536022706024"><richcontent TYPE="NOTE">
+<node TEXT="&#x521b;&#x5efa;&#x7528;&#x4e8e;&#x767b;&#x9646;phpmyadmin&#x7684;&#x7528;&#x6237;" ID="ID_946229541" CREATED="1535986166020" MODIFIED="1536910220116"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5889,6 +5889,21 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x8fdc;&#x7a0b;&#x7ba1;&#x7406;&#x5bc6;&#x7801;" ID="ID_1317641530" CREATED="1537854613737" MODIFIED="1537854630222"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      644388
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1534589510993"><richcontent TYPE="NOTE">
 
@@ -8023,8 +8038,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -8511,8 +8526,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9459,7 +9474,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </richcontent>
 <node TEXT="VLAN&#x4fe1;&#x606f;&#x4ee5;&#x53ca;&#x7834;&#x89e3;&#x4e4b;&#x540e;&#x7684;&#x8d85;&#x7ea7;&#x7528;&#x6237;&#x5bc6;&#x7801;" ID="ID_1555415270" CREATED="1534597014774" MODIFIED="1534597165449" LINK="../OneNote/HS8145V_&#x8d85;&#x7ea7;&#x7528;&#x6237;&#x5bc6;&#x7801;&#x548c;VLAN.one"/>
 </node>
-<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
+<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11879,7 +11894,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x589e;&#x52a0;&#x7528;&#x6237;&#x548c;&#x7ec4;&#x7528;&#x6237;" FOLDED="true" ID="ID_643323807" CREATED="1425120574040" MODIFIED="1426598185444"><richcontent TYPE="NOTE">
+<node TEXT="&#x589e;&#x52a0;&#x7528;&#x6237;&#x548c;&#x7ec4;&#x7528;&#x6237;" ID="ID_643323807" CREATED="1425120574040" MODIFIED="1426598185444"><richcontent TYPE="NOTE">
 
 <html>
   <head>
