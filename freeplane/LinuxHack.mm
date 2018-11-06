@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1534582442720"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7&#x670d;&#x52a1;&#x5668;" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1534582442720"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5876,7 +5876,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[ali.proudj.com@AliYun]Ubuntu&#x5de5;&#x4f5c;&#x7ad9;" POSITION="right" ID="ID_541309669" CREATED="1534582390269" MODIFIED="1534582440089"><richcontent TYPE="NOTE">
+<node TEXT="[ali.proudj.com@AliYun]Ubuntu&#x5de5;&#x4f5c;&#x7ad9;" FOLDED="true" POSITION="right" ID="ID_541309669" CREATED="1534582390269" MODIFIED="1534582440089"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5901,7 +5901,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5945,11 +5944,11 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8bbe;&#x5907;" FOLDED="true" ID="ID_731780486" CREATED="1534582539581" MODIFIED="1534582542623">
+<node TEXT="&#x8bbe;&#x5907;" ID="ID_731780486" CREATED="1534582539581" MODIFIED="1534582542623">
 <node TEXT="&#x7ea2;&#x7c73;2&#x9ad8;&#x914d;&#x7248;" ID="ID_161813112" CREATED="1534582545574" MODIFIED="1534582553479"/>
 <node TEXT="&#x534e;&#x4e3a;&#x8363;&#x8000;6" ID="ID_1341118826" CREATED="1534582553853" MODIFIED="1534582557862"/>
 </node>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
 <node TEXT="web&#x670d;&#x52a1;&#x5668;" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
@@ -6450,7 +6449,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x56fe;&#x5f62;&#x754c;&#x9762;&#x5e94;&#x7528;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE">
+<node TEXT="&#x56fe;&#x5f62;&#x754c;&#x9762;&#x5e94;&#x7528;&#x5b89;&#x88c5;" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7117,6 +7116,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 </node>
+</node>
+<node TEXT="Tasker/Automate" ID="ID_1731550692" CREATED="1540478526995" MODIFIED="1540478547402">
+<icon BUILTIN="bookmark"/>
 </node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
@@ -8039,8 +8041,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -8526,8 +8528,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9474,7 +9476,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </richcontent>
 <node TEXT="VLAN&#x4fe1;&#x606f;&#x4ee5;&#x53ca;&#x7834;&#x89e3;&#x4e4b;&#x540e;&#x7684;&#x8d85;&#x7ea7;&#x7528;&#x6237;&#x5bc6;&#x7801;" ID="ID_1555415270" CREATED="1534597014774" MODIFIED="1534597165449" LINK="../OneNote/HS8145V_&#x8d85;&#x7ea7;&#x7528;&#x6237;&#x5bc6;&#x7801;&#x548c;VLAN.one"/>
 </node>
-<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1418313685260"><richcontent TYPE="NOTE">
+<node TEXT="TP-Link&#x7684;WR720N&#x7684;OpenWRT&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1540729940407"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9978,8 +9980,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10781,7 +10783,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5b89;&#x88c5;web&#x7ba1;&#x7406;&#x754c;&#x9762;" ID="ID_435067597" CREATED="1413892610751" MODIFIED="1413892719636"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b89;&#x88c5;web&#x7ba1;&#x7406;&#x754c;&#x9762;" ID="ID_435067597" CREATED="1413892610751" MODIFIED="1540478451158"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10795,13 +10797,13 @@ root@OpenWrt:~# wifi</pre>
       &gt;opkg install luci
     </p>
     <p>
-      &gt;<em><span lang="EN-US">opkg install luci-i18n-chinese </span></em>
+      &gt;<em>opkg install luci-i18n-chinese </em>
     </p>
     <p>
-      <em><span lang="EN-US">&gt;/etc/init.d/uhttpd enable </span></em>
+      <em>&gt;/etc/init.d/uhttpd enable </em>
     </p>
     <p>
-      <em><span lang="EN-US">&gt;/etc/init.d/uhttpd start</span></em>
+      <em>&gt;/etc/init.d/uhttpd start</em>
     </p>
   </body>
 </html>
@@ -10999,7 +11001,7 @@ root@OpenWrt:~# wifi</pre>
 <font SIZE="10" BOLD="false"/>
 </node>
 </node>
-<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x652f;&#x6301;&#x5916;&#x7f51;&#x8bbf;&#x95ee;SSH&#x548c;WEB" FOLDED="true" ID="ID_1354312414" CREATED="1414834508053" MODIFIED="1425123960870"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x5e9f;&#x5f03;&#x3011;&#x652f;&#x6301;&#x5916;&#x7f51;&#x8bbf;&#x95ee;SSH&#x548c;WEB" ID="ID_1354312414" CREATED="1414834508053" MODIFIED="1425123960870"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11075,7 +11077,7 @@ root@OpenWrt:~# wifi</pre>
 <node TEXT="&#x65e0;&#x7ebf;&#x732b;&#x914d;&#x7f6e;&#x6865;&#x63a5;&#x548c;&#x8def;&#x7531;&#x53cc;&#x6a21;&#x5f0f;" ID="ID_1422194968" CREATED="1414836357485" MODIFIED="1414836385609" LINK="#ID_1944931410"/>
 <node TEXT="Openwrt&#x505a;&#x7aef;&#x53e3;&#x6620;&#x5c04;" ID="ID_396956879" CREATED="1414836830325" MODIFIED="1414836844325" LINK="../OneNote/Openwrt&#x7aef;&#x53e3;&#x6620;&#x5c04;.one"/>
 </node>
-<node TEXT="&#x3010;&#x6700;&#x65b0;&#x3011;&#x5f00;&#x653e;&#x8def;&#x7531;&#x5668;&#x7684;WEB/SSH/FTP&#x7aef;&#x53e3;" FOLDED="true" ID="ID_248063579" CREATED="1425123861983" MODIFIED="1425124989977" LINK="../OneNote/openwrt&#x5f00;&#x653e;FTP&#x7aef;&#x53e3;.one"><richcontent TYPE="NOTE">
+<node TEXT="&#x3010;&#x6700;&#x65b0;&#x3011;&#x5f00;&#x653e;&#x8def;&#x7531;&#x5668;&#x7684;WEB/SSH/FTP&#x7aef;&#x53e3;" FOLDED="true" ID="ID_248063579" CREATED="1425123861983" MODIFIED="1540478451267" LINK="../OneNote/openwrt&#x5f00;&#x653e;FTP&#x7aef;&#x53e3;.one"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11280,7 +11282,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="[&#x672a;&#x5b9e;&#x8df5;]&#x5237;UBOOT&#x6559;&#x7a0b;" ID="ID_1647881117" CREATED="1418214841260" MODIFIED="1425820293885"><richcontent TYPE="NOTE">
+<node TEXT="[&#x672a;&#x5b9e;&#x8df5;]&#x5237;UBOOT&#x6559;&#x7a0b;" ID="ID_1647881117" CREATED="1418214841260" MODIFIED="1540729940406"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11531,7 +11533,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_403399799" CREATED="1424875691944" MODIFIED="1426598185420"><richcontent TYPE="NOTE">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x914d;&#x7f6e;" ID="ID_403399799" CREATED="1424875691944" MODIFIED="1426598185420"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11975,7 +11977,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="USB Tethering" FOLDED="true" ID="ID_1674764199" CREATED="1522387462627" MODIFIED="1522817141091"><richcontent TYPE="NOTE">
+<node TEXT="USB Tethering" ID="ID_1674764199" CREATED="1522387462627" MODIFIED="1522817141091"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12024,7 +12026,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="Android&#x8fde;&#x63a5;OpenWRT&#x7684;&#x9700;&#x6c42;" FOLDED="true" ID="ID_1257252800" CREATED="1522385826202" MODIFIED="1522818334883" LINK="#ID_825881001"><richcontent TYPE="NOTE">
+<node TEXT="Android&#x8fde;&#x63a5;OpenWRT&#x7684;&#x9700;&#x6c42;" ID="ID_1257252800" CREATED="1522385826202" MODIFIED="1522818334883" LINK="#ID_825881001"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12341,7 +12343,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 <node TEXT="Youhua&#x7684;WR1200JS&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
-<node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" FOLDED="true" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12357,7 +12359,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5237;&#x673a;padavan" FOLDED="true" ID="ID_841843215" CREATED="1527550776976" MODIFIED="1527601568656">
+<node TEXT="&#x5237;&#x673a;padavan" ID="ID_841843215" CREATED="1527550776976" MODIFIED="1527601568656">
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
 
@@ -12575,7 +12577,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5237;&#x673a;&#x5b98;&#x65b9;Openwrt" ID="ID_1008730692" CREATED="1534581121280" MODIFIED="1534581165565"><richcontent TYPE="NOTE">
+<node TEXT="&#x5237;&#x673a;&#x5b98;&#x65b9;Openwrt&#x56fa;&#x4ef6;" ID="ID_1008730692" CREATED="1534581121280" MODIFIED="1540729812331"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12594,9 +12596,9 @@ root@OpenWrt:~# wifi</pre>
 <node TEXT="USB&#x7f51;&#x7edc;" ID="ID_615368049" CREATED="1534587214661" MODIFIED="1534587225663" LINK="#ID_1868999429"/>
 </node>
 </node>
-<node TEXT="OpenWRT&#x914d;&#x7f6e;" FOLDED="true" ID="ID_636474486" CREATED="1536209772336" MODIFIED="1536209779845">
+<node TEXT="OpenWRT&#x914d;&#x7f6e;" ID="ID_636474486" CREATED="1536209772336" MODIFIED="1536209779845">
 <node TEXT="USB&#x7f51;&#x7edc;" ID="ID_999407093" CREATED="1536209786931" MODIFIED="1536209797047" LINK="#ID_615368049"/>
-<node TEXT="aircrack_ng" ID="ID_468783745" CREATED="1536209799668" MODIFIED="1536212493727"><richcontent TYPE="NOTE">
+<node TEXT="aircrack_ng" FOLDED="true" ID="ID_468783745" CREATED="1536209799668" MODIFIED="1536212493727"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12686,6 +12688,1168 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT=" &#x5185;&#x7f51;&#x7a7f;&#x900f;" ID="ID_117508308" CREATED="1540729855387" MODIFIED="1540730049923"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38656;&#35201;&#22312;&#22806;&#32593;&#35775;&#38382;&#36335;&#30001;&#22120;&#30340;&#26102;&#20505;&#23601;&#38656;&#35201;&#36827;&#34892;&#20869;&#32593;&#31359;&#36879;&#65292;&#23558;&#36335;&#30001;&#22120;&#36890;&#36807;&#26576;&#31181;&#26041;&#24335;&#26292;&#38706;&#22312;&#22806;&#32593;&#20013;&#65292;&#20174;&#32780;&#20351;&#24471;&#22312;&#22806;&#32593;&#29615;&#22659;&#19979;&#33021;&#22815;&#20197;&#26576;&#31181;&#26041;&#24335;&#32852;&#31995;&#19978;&#36335;&#30001;&#22120;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="ISP&#x63d0;&#x4f9b;&#x4e86;&#x52a8;&#x6001;&#x5916;&#x7f51;IP" ID="ID_1034720807" CREATED="1540729877195" MODIFIED="1540730378660" LINK="#ID_747226402"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ddns&#26041;&#24335;&#26159;&#26368;&#26041;&#20415;&#30340;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ISP&#x672a;&#x63d0;&#x4f9b;&#x5916;&#x7f51;IP" ID="ID_1232042696" CREATED="1540729892554" MODIFIED="1540737126539"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ISP&#27809;&#26377;&#25552;&#20379;&#22806;&#32593;IP&#30340;&#24773;&#20917;&#19979;&#65292;&#23601;&#26080;&#27861;&#20351;&#29992;DDNS&#30340;&#26041;&#26696;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="VPN" ID="ID_1100118737" CREATED="1540730316890" MODIFIED="1540730339546"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;vpn&#20063;&#26159;&#19968;&#31181;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="frp" ID="ID_737810720" CREATED="1540730323802" MODIFIED="1540734434028"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      frp&#26159;&#19968;&#20010;&#26041;&#20415;&#30340;&#20869;&#32593;&#31359;&#36879;&#24037;&#20855;&#65292;&#32780;&#19988;&#37197;&#32622;&#31616;&#21333;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Frp&#x914d;&#x7f6e;" ID="ID_248363388" CREATED="1540735259051" MODIFIED="1540735375846">
+<icon BUILTIN="yes"/>
+</node>
+<node TEXT="frp&#x7684;&#x7f3a;&#x9677;" ID="ID_1754635629" CREATED="1540737133638" MODIFIED="1540737217081"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      frp&#26159;&#27604;&#36739;&#22909;&#29992;&#65292;&#20294;&#26159;&#26377;&#19968;&#20010;&#38382;&#39064;&#26159;&#23427;&#26159;&#20351;&#29992;go&#35821;&#35328;&#24320;&#21457;&#30340;&#65292;frpc&#23458;&#25143;&#31471;&#30340;&#25991;&#20214;&#22823;&#23567;&#22312;8M&#24038;&#21491;&#65292;
+    </p>
+    <p>
+      &#22312;&#19968;&#33324;&#30340;&#31995;&#32479;&#20013;&#36825;&#24182;&#27809;&#26377;&#20160;&#20040;&#38382;&#39064;&#65292;&#20294;&#26159;&#22312;openwrt&#36825;&#26679;&#30340;&#31995;&#32479;&#20013;&#65292;&#27604;&#22914;Youhua WR1200js&#36825;&#26679;&#30340;Flash&#22823;&#23567;&#24635;&#20849;&#25165;16M&#30340;&#65292;8M&#23601;&#26174;&#24471;&#24456;&#21050;&#30524;&#20102;&#12290;
+    </p>
+    <p>
+      &#34429;&#28982;&#25105;&#21487;&#20197;&#20570;exroot&#65292;&#23558;&#26681;&#30446;&#24405;&#25193;&#23637;&#21040;&#22806;&#32622;&#30340;USB&#23384;&#20648;&#19978;&#65292;&#20294;&#26159;&#24590;&#20040;&#30475;&#36215;&#26469;&#65292;&#22312;Openwrt&#30340;&#31995;&#32479;&#20013;&#65292;&#20026;&#20102;&#20869;&#32593;&#31359;&#36879;&#36825;&#20010;&#30446;&#30340;&#65292;&#20351;&#29992;8M&#30340;&#24212;&#29992;&#31243;&#24207;&#37117;&#24863;&#35273;&#19981;&#33298;&#26381;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4f7f;&#x7528;xfrpc" ID="ID_975441762" CREATED="1540737180985" MODIFIED="1540737230356"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      xfrp&#38024;&#23545;frpc&#20307;&#31215;&#36807;&#22823;&#30340;&#36825;&#20010;&#38382;&#39064;&#65292;&#20351;&#29992;C&#35821;&#35328;&#31227;&#26893;&#20102;frp&#65292;&#20351;&#24471;&#24212;&#29992;&#31243;&#24207;&#30340;&#22823;&#23567;&#21482;&#26377;20&#20960;K&#12290;&#24590;&#20040;&#30475;&#37117;&#24863;&#35273;&#20687;xfrp&#36825;&#26679;&#30340;&#39033;&#30446;&#25165;&#26159;openwrt&#19978;&#20351;&#29992;frp&#24212;&#26377;&#30340;&#25171;&#24320;&#26041;&#24335;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="xfrpc&#x7f16;&#x8bd1;" ID="ID_27558784" CREATED="1540735665813" MODIFIED="1540736356797" LINK="#ID_1724658367"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;openwrt&#30340;&#40664;&#35748;&#27169;&#22359;&#20013;&#24182;&#27809;&#26377;xfrp&#12290;&#25152;&#20197;&#35201;&#20351;&#29992;xfrpc&#30340;&#35805;&#65292;&#38656;&#35201;&#25105;&#20204;&#33258;&#24049;&#26469;&#32534;&#35793;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20855;&#20307;&#20869;&#23481;&#21442;&#32771;&#38142;&#25509;&#36339;&#36716;&#21040;&#30340;Node
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="xfrp&#x914d;&#x7f6e;" ID="ID_1572286592" CREATED="1540737406779" MODIFIED="1540737422091">
+<icon BUILTIN="yes"/>
+</node>
+</node>
+<node TEXT="&#x4f7f;&#x7528;upx&#x538b;&#x7f29;&#x53ef;&#x6267;&#x884c;&#x6587;&#x4ef6;" ID="ID_333385667" CREATED="1540737236245" MODIFIED="1540737618768"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20102;&#35299;&#21040;&#26377;&#19968;&#20010;&#31070;&#22855;&#30340;&#24320;&#28304;&#39033;&#30446;&#65292;&#33021;&#22815;&#21387;&#32553;&#21487;&#25191;&#34892;&#25991;&#20214;&#30340;&#22823;&#23567;&#12290;&#36825;&#20010;&#39033;&#30446;&#21483;&#20570;upx&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;<a href="https://github.com/upx/upx">https://github.com/upx/upx </a>
+    </p>
+    <p>
+      <a href="https://github.com/upx/upx">
+</a>    </p>
+    <p>
+      upx&#23601;&#26159;&#19968;&#20010;&#24037;&#20855;&#65292;&#20351;&#29992;&#36215;&#26469;&#24456;&#31616;&#21333;&#12290;&#30452;&#25509;&#19979;&#36733;&#36319;&#25105;&#20204;&#25805;&#20316;&#31995;&#32479;&#23545;&#24212;&#30340;&#20108;&#36827;&#21046;&#25991;&#20214;&#19979;&#26469;&#12290;windows&#19979;&#23601;&#26159;win64.
+    </p>
+    <p>
+      &#28982;&#21518;&#35299;&#21387;&#20986;&#30340;&#21629;&#20196;&#34892;&#24037;&#20855;&#30452;&#25509;&#23558;frpc&#36825;&#20010;&#21487;&#25191;&#34892;&#25991;&#20214;&#20316;&#20026;&#21442;&#25968;&#24102;&#20837;&#36825;&#20010;&#21629;&#20196;&#23601;&#24471;&#21040;&#21387;&#32553;&#21518;&#30340;frpc&#20102;&#12290;
+    </p>
+    <p>
+      &#23454;&#38469;&#25805;&#20316;&#30340;&#32467;&#26524;&#26159;&#65292;&#23558;&#36817;<font color="#cc0000"><b>8M</b>&#30340;</font>frpc&#25991;&#20214;&#32463;&#36807;upx&#22788;&#29702;&#20043;&#21518;&#65292;&#22823;&#27010;&#22312;<font color="#0033cc"><b>2M</b></font>&#24038;&#21491;&#65292;&#25928;&#26524;&#26126;&#26174;&#65281;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Shadowsocks" ID="ID_1116823705" CREATED="1540730149778" MODIFIED="1540730155924"/>
+</node>
+<node TEXT="&#x6784;&#x5efa;Openwrt&#x5f00;&#x53d1;&#x73af;&#x5883;" ID="ID_604975626" CREATED="1540730100874" MODIFIED="1540730735244"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;Openwrt&#30340;Build&#31995;&#32479;&#30340;&#35805;&#65292;&#33021;&#22815;&#26041;&#20415;&#30340;&#33258;&#24049;&#32534;&#35793;&#26368;&#26032;&#30340;Openwrt&#22266;&#20214;&#65292;&#33021;&#22815;&#33258;&#24049;&#23450;&#21046;&#22266;&#20214;&#30340;&#20869;&#23481;&#65292;&#20063;&#33021;&#22815;&#21033;&#29992;Build&#31995;&#32479;&#33258;&#24049;&#32534;&#35793;Openwrt&#19978;&#30340;&#31532;&#19977;&#26041;ipk&#25110;&#32773;&#24212;&#29992;&#31243;&#24207;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5b89;&#x88c5;openwrt&#x6e90;&#x7801;&#x7f16;&#x8bd1;&#x56fa;&#x4ef6;" ID="ID_115337241" CREATED="1540730756166" MODIFIED="1540734179076"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Openwrt&#24320;&#21457;&#29615;&#22659;&#30340;&#23433;&#35013;&#22522;&#26412;&#27493;&#39588;&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1):
+    </p>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#19979;&#36733;Openwrt&#30340;Repo :
+    </p>
+    <p>
+      git clone https://github.com/openwrt/openwrt.git
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2):
+    </p>
+    <p>
+      &#20351;&#29992;&#21629;&#20196;update&#24182;&#19988;install feeds:
+    </p>
+    <p>
+      cd openwrt
+    </p>
+    <p>
+      ./scripts/feeds update -a
+    </p>
+    <p>
+      ./scripts/feeds install -a
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3):
+    </p>
+    <p>
+      &#20351;&#29992;&#21629;&#20196;&#36873;&#25321;&#38656;&#35201;&#32534;&#35793;&#36827;&#22266;&#20214;&#30340;&#32452;&#20214;:
+    </p>
+    <p>
+      make menuconfig
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4):
+    </p>
+    <p>
+      &#20351;&#29992;&#21629;&#20196;&#32534;&#35793;&#22266;&#20214;:
+    </p>
+    <p>
+      make
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="xfrp&#x5b89;&#x88c5;" ID="ID_1724658367" CREATED="1540735248748" MODIFIED="1540736940958"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;<a href="https://github.com/KunTengRom/kunteng-lede-17.01.4">https://github.com/KunTengRom/kunteng-lede-17.01.4</a>&#36825;&#20010;lede&#30340;repo&#20013;&#24050;&#32463;&#21253;&#21547;&#20102;xfrpc&#30340;package&#65292;&#25152;&#20197;&#25105;&#20204;&#21482;&#35201;&#25226;xfrpc&#30340;package&#25335;&#36125;&#21040;&#33258;&#24049;&#30340;build&#31995;&#32479;&#20013;&#23601;&#21487;&#20197;&#20102;&#12290;
+    </p>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#26041;&#24335;&#22312;openwrt&#30340;build&#31995;&#32479;&#37324;&#38754;&#32534;&#35793;xfrpc&#30340;ipk&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1).
+    </p>
+    <p>
+      &#22312;openwrt&#30340;&#26681;&#30446;&#24405;&#19979;&#21019;&#24314;&#30446;&#24405;xfrpc&#30340;package&#30446;&#24405;:
+    </p>
+    <p>
+      package/kunteng/net/xfrpc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2).
+    </p>
+    <p>
+      &#23558;kunteng-lede-17.01.04&#36825;&#20010;repo&#20013;&#30340;package/kunten/net/xfrpc&#19979;&#30340;&#20869;&#23481;&#20840;&#37096;&#25335;&#36125;&#21040;&#25105;&#20204;&#33258;&#24049;&#30340;build&#31995;&#32479;&#30340;&#30456;&#21516;&#30446;&#24405;&#19979;&#12290;
+    </p>
+    <p>
+      &#20855;&#20307;&#26469;&#35828;&#23601;&#26159;&#25335;&#36125;&#19977;&#20010;&#25991;&#20214;,xfrpc&#30446;&#24405;&#19979;&#30340;<font color="#cc0000">Makefile</font>&#25991;&#20214;&#65292;&#36824;&#26377;xfrpc/files&#30446;&#24405;&#19979;&#30340;<font color="#cc0000">xfrpc.config</font>&#25991;&#20214;&#21644;<font color="#cc0000">xfrpc.init</font>&#25991;&#20214;&#36825;&#19977;&#20010;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3).
+    </p>
+    <p>
+      &#28982;&#21518;&#20351;&#29992;make menuconfig&#23601;&#33021;&#22815;&#22312;&#22270;&#24418;&#30028;&#38754;&#20013;&#30475;&#21040;xfrpc&#30340;&#36873;&#39033;&#20102;&#65292;&#36873;&#20013;&#23427;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4).
+    </p>
+    <p>
+      &#20351;&#29992;make /package/kunteng/net/xfrpc/compile &#21629;&#20196;&#23436;&#25104;ipk&#30340;&#32534;&#35793;&#12290;
+    </p>
+    <p>
+      &#25110;&#32773;&#30452;&#25509;&#20351;&#29992;make&#21629;&#20196;&#32534;&#35793;&#24102;&#26377;xfrpc&#30340;&#22266;&#20214;&#23601;&#21487;&#20197;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65306;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6587;&#x4ef6;" ID="ID_1942294547" CREATED="1540736944075" MODIFIED="1540736946669">
+<node TEXT="Makefile&#x6587;&#x4ef6;" ID="ID_1442245384" CREATED="1540736381957" MODIFIED="1540736858226"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #
+    </p>
+    <p>
+      # Copyright (C) 2014-2017 ZengFei Zhang &lt;zhangzengfei@kunteng.org&gt;
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # This is free software, licensed under the GNU General Public License v3.
+    </p>
+    <p>
+      # See /LICENSE for more information.
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # update log:
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;tag:0.07.451 commit:2429f797214980abbb60815970ee16c4f469725e add ftp support
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      include $(TOPDIR)/rules.mk
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PKG_NAME:=xfrpc
+    </p>
+    <p>
+      PKG_VERSION:=0.07.496
+    </p>
+    <p>
+      PKG_RELEASE:=2
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PKG_SOURCE_PROTO:=git
+    </p>
+    <p>
+      PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+    </p>
+    <p>
+      PKG_SOURCE_URL:=https://gitee.com/apfree/xfrp.git
+    </p>
+    <p>
+      PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
+    </p>
+    <p>
+      PKG_SOURCE_VERSION:=$(PKG_VERSION)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PKG_INSTALL:=1
+    </p>
+    <p>
+      PKG_BUILD_PARALLEL:=1
+    </p>
+    <p>
+      PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      include $(INCLUDE_DIR)/package.mk
+    </p>
+    <p>
+      include $(INCLUDE_DIR)/cmake.mk
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      define Package/$(PKG_NAME)
+    </p>
+    <p>
+      &#160;&#160;SECTION:=net
+    </p>
+    <p>
+      &#160;&#160;CATEGORY:=Network
+    </p>
+    <p>
+      &#160;&#160;URL:=https://github.com/KunTengRom/xfrp
+    </p>
+    <p>
+      &#160;&#160;TITLE:=xfrps client for Embedded system
+    </p>
+    <p>
+      &#160;&#160;DEPENDS:=+libevent2 +libopenssl +libjson-c +zlib
+    </p>
+    <p>
+      endef
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      define Package/$(PKG_NAME)/description
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xFrps is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+    </p>
+    <p>
+      endef
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      define Package/$(PKG_NAME)/install
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(INSTALL_DIR) $(1)/usr/bin $(1)/etc/config $(1)/etc/init.d
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(INSTALL_BIN) $(PKG_BUILD_DIR)/xfrpc $(1)/usr/bin/xfrpc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(INSTALL_CONF) ./files/xfrpc.config $(1)/etc/config/xfrpc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(INSTALL_BIN) ./files/xfrpc.init $(1)/etc/init.d/xfrpc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# register package into kt market
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(INSTALL_DIR) $(1)/etc/market
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(INSTALL_DIR) $(1)/etc/market/$(PKG_NAME)
+    </p>
+    <p>
+      endef
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      $(eval $(call BuildPackage,$(PKG_NAME)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="xfrpc.config&#x6587;&#x4ef6;" ID="ID_477965692" CREATED="1540736390856" MODIFIED="1540736862457"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      config server common
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;option server_addr 'xfrp.kunteng.org'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;option server_ip '114.112.99.148'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;option server_port '7001'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #config proxy
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option name 'custom'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option type 'http'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option local_port '80'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option custom_domains 'custom_domain.xfrp.kunteng.org'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #config proxy
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option name 'ssh'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option type 'tcp'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option local_port '22'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option remote_port 'remote_port'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option section_name 'section_name'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #config proxy
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option name 'ftp_router'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option type 'ftp'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option local_port '21'
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option remote_port 'remote_port'
+    </p>
+    <p>
+      # option remote_data_port 'remote_data_port'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="xfrpc.init&#x6587;&#x4ef6;" ID="ID_891325138" CREATED="1540736421305" MODIFIED="1540736951047"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #!/bin/sh /etc/rc.common
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      START=98
+    </p>
+    <p>
+      USE_PROCD=1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PROG_NAME=&quot;xfrpc&quot;
+    </p>
+    <p>
+      PROG_UCI_CONF=&quot;$PROG_NAME&quot;
+    </p>
+    <p>
+      PROG_COMMAND=$(which &quot;$PROG_NAME&quot;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      MACADDR=$(ifconfig br-lan | grep HWaddr | awk '{print $5}'| sed 's/://g')
+    </p>
+    <p>
+      PROG_CONFIG_FILE=&quot;/var/etc/xfrpc.ini&quot;
+    </p>
+    <p>
+      PROXY_COUNT=0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      append_section() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ -f &quot;$PROG_CONFIG_FILE&quot; ] &amp;&amp; echo '' &gt;&gt; $PROG_CONFIG_FILE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;echo &quot;$1&quot; &gt;&gt; $PROG_CONFIG_FILE
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      append_key_value() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local section=&quot;$1&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local option=&quot;$2&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local key=&quot;$3&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local _value
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;config_get _value &quot;$section&quot; &quot;$option&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ -z &quot;$_value&quot; ] &amp;&amp; return 1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;echo &quot;${key#--} = $_value&quot; &gt;&gt; $PROG_CONFIG_FILE
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      xfrpc_config_set() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local section=&quot;$1&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local option=&quot;$2&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local value=&quot;$3&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uci set xfrpc.${1}.${option}=&quot;$value&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uci commit xfrpc
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      xfrpc_validate_common() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uci_validate_section xfrpc common &quot;${1}&quot; \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'server_addr:string' \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'server_port:uinteger'
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      xfrpc_parse_common() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local cfg=&quot;$1&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local server_addr server_port
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xfrpc_validate_common &quot;$cfg&quot; || {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;Section common validation failed!&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;exit 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_section &quot;[common]&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; server_addr &quot;--server_addr&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; server_port &quot;--server_port&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; auth_token &quot;--auth_token&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# Privilege mode
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; privilege_token &quot;--privilege_token&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# Connect frps by HTTP PROXY
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; http_proxy &quot;--http_proxy&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# Log
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; log_file &quot;--log_file&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; log_level &quot;--log_level&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; log_max_days &quot;--log_max_days&quot;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      xfrpc_parse_proxy() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local cfg=&quot;$1&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local section_name
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;local local_port
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;config_get local_port &quot;$cfg&quot; local_port
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ -z &quot;$local_port&quot; ] &amp;&amp; return 1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;config_get name &quot;$cfg&quot; name
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ -z &quot;$name&quot; ] &amp;&amp; xfrpc_config_set ${1} name &quot;$(date +%s)&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;config_get section_name &quot;$cfg&quot; section_name
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ -z &quot;$section_name&quot; ] &amp;&amp; {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;local r=$(cat /proc/sys/kernel/random/uuid | cut -d &quot;-&quot; -f2 | tr [a-z] [A-Z])
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;section_name=&quot;${MACADDR}_${name:-KUNTENG}_${r}&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;xfrpc_config_set ${1} section_name &quot;$section_name&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_section &quot;[${section_name}]&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;PROXY_COUNT=`expr $PROXY_COUNT + 1`
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; type &quot;--type&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; local_port &quot;--local_port&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; local_ip &quot;--local_ip&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; remote_port &quot;--remote_port&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; auth_token &quot;--auth_token&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# gukq 20170710 add remote_data_port for ftp supportting
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; remote_data_port &quot;--remote_data_port&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# append over
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# Privilege Mode
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; privilege_mode &quot;--privilege_mode&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# Encryption and Compression
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; use_encryption &quot;--use_encryption&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; use_gzip &quot;--use_gzip&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# Connection Pool
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; pool_count &quot;--pool_count&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# Web service
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; subdomain &quot;--subdomain&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; custom_domains &quot;--custom_domains&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; host_header_rewrite &quot;--host_header_rewrite&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; http_user &quot;--http_user&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; http_pwd &quot;--http_pwd&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;append_key_value &quot;$cfg&quot; locations &quot;--locations&quot;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      init_config() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ -f &quot;$PROG_CONFIG_FILE&quot; ] &amp;&amp; rm -f &quot;$PROG_CONFIG_FILE&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;config_load &quot;$PROG_UCI_CONF&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;config_foreach xfrpc_parse_common server
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;config_foreach xfrpc_parse_proxy proxy
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      init_rule() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if ! iptables -t nat -L prerouting_lan_rule | grep -q prerouting_to_frps; then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;local frps_addr=$(uci -q get xfrpc.common.server_ip)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[ -n &quot;$frps_addr&quot; ] &amp;&amp; {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -N prerouting_to_frps
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -A prerouting_lan_rule -p tcp -d wifi.kunteng.org --dport 20000:65443 -j prerouting_to_frps
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -A OUTPUT -p tcp -d wifi.kunteng.org --dport 20000:65443 -j prerouting_to_frps
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -A prerouting_to_frps -j DNAT --to-destination $frps_addr
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fi
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;grep -q frps /etc/firewall.user 2&gt;/dev/null
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ $? == 0 ] &amp;&amp; return 0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;cat &lt;&lt;-EOF &gt;&gt;/etc/firewall.user
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# for xfrpc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if ! iptables -t nat -L prerouting_lan_rule | grep -q prerouting_to_frps; then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;frps_addr=\$(uci -q get xfrpc.common.server_ip)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[ -n &quot;\$frps_addr&quot; ] &amp;&amp; {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -N prerouting_to_frps
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -A prerouting_lan_rule -p tcp -d wifi.kunteng.org --dport 20000:65443 -j prerouting_to_frps
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -A OUTPUT -p tcp -d wifi.kunteng.org --dport 20000:65443 -j prerouting_to_frps
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iptables -t nat -A prerouting_to_frps -j DNAT --to-destination \$frps_addr
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fi
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;exit 0
+    </p>
+    <p>
+      EOF
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      service_triggers() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;procd_add_reload_trigger &quot;$PROG_UCI_CONF&quot;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      start_service() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;# init_rule
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ ! -d &quot;/var/etc/&quot; ] &amp;&amp; mkdir -p /var/etc/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;init_config
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[ $PROXY_COUNT -eq 0 ] &amp;&amp; exit 0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;procd_open_instance
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;procd_set_param command $PROG_COMMAND -c $PROG_CONFIG_FILE -f -d 0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;procd_set_param file &quot;$PROG_UCI_CONF&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;procd_set_param respawn ${respawn_threshold:-3600} ${respawn_timeout:-10} ${respawn_retry:-0}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;procd_close_instance
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="libevent&#x7684;&#x4f9d;&#x8d56;&#x95ee;&#x9898;" ID="ID_1335325272" CREATED="1540736956198" MODIFIED="1540737044769"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23454;&#38469;&#19978;&#22914;&#26524;&#26159;&#20351;&#29992;Openwrt 18.06&#30340;&#29615;&#22659;&#32534;&#35793;&#30340;&#35805;&#65292;&#40664;&#35748;&#30340;libevent&#24050;&#32463;&#27809;&#26377;&#20219;&#20309;&#30340;&#38382;&#39064;&#20102;&#65292;&#33021;&#22815;&#39034;&#21033;&#30340;&#30452;&#25509;&#32534;&#35793;&#25191;&#34892;xfrpc.
+    </p>
+    <p>
+      &#21482;&#26159;&#22914;&#26524;&#26159;&#32534;&#35793;&#30340;&#21333;&#29420;&#30340;ipk&#30340;&#35805;&#65292;&#23433;&#35013;xfrpc&#30340;&#21516;&#26102;&#65292;&#20063;&#38656;&#35201;&#23558;libevent&#30340;&#21253;&#32473;&#22312;&#31995;&#32479;&#20013;&#35013;&#19978;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="SDK&#x548c;Image Builder" ID="ID_238491824" CREATED="1540733110301" MODIFIED="1540734317329"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38500;&#20102;&#20351;&#29992;openwrt&#28304;&#30721;&#32534;&#35793;&#22266;&#20214;&#21644;ipk&#20043;&#22806;&#65292;&#36824;&#21487;&#20197;&#20351;&#29992;&#29616;&#25104;&#30340;&#24037;&#20855;&#38142;&#26469;&#29983;&#25104;&#22266;&#20214;&#21644;ipk&#12290;
+    </p>
+    <p>
+      SDK&#30340;&#20316;&#29992;&#23601;&#26159;&#29992;&#26469;&#32534;&#35793;&#28304;&#20195;&#30721;&#29983;&#25104;&#29305;&#23450;&#30340;ipk&#30340;
+    </p>
+    <p>
+      Image Builder&#26159;&#29992;&#26469;&#29983;&#25104;&#22266;&#20214;&#30340;&#65292;&#21487;&#20197;&#36873;&#25321;&#23558;&#37027;&#20123;ipk&#25171;&#21253;&#36827;&#22266;&#20214;&#20013;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -12863,6 +14027,82 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 </node>
+<node TEXT="&#x6811;&#x8393;&#x6d3e;2" POSITION="left" ID="ID_525492540" CREATED="1541382213382" MODIFIED="1541382216903">
+<node TEXT="&#x5b89;&#x88c5;Kali" ID="ID_554380518" CREATED="1541382220403" MODIFIED="1541382224861">
+<node TEXT="Kali&#x66f4;&#x65b0;Kernel" ID="ID_472384086" CREATED="1541382226386" MODIFIED="1541393845715">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kali&#30340;raspery&#29256;&#26412;&#26159;&#22522;&#20110;Raspberrian&#30340;&#12290;&#21047;&#20889;flash&#21345;&#30340;&#26102;&#20505;&#65292;&#29983;&#25104;&#20102;&#20004;&#20010;&#20998;&#21306;&#65292;&#19968;&#20010;&#26159;bootloader&#20998;&#21306;(&#25105;&#30340;&#31995;&#32479;&#19978;&#26159;/dev/mmcblk0p1)&#65292;&#19968;&#20010;&#26159;sytem&#20998;&#21306;(/dev/mmcblk0p2)&#12290;
+    </p>
+    <p>
+      &#22312;&#25105;&#20204;&#36816;&#34892;&#31995;&#32479;&#30340;&#26102;&#20505;&#65292;&#21457;&#29616;boot&#20998;&#21306;&#19981;&#30693;&#36947;&#20026;&#20160;&#20040;&#27809;&#26377;&#25346;&#36733;&#21040;&#25991;&#20214;&#31995;&#32479;&#37324;&#38754;&#21435;&#30340;&#12290;&#34429;&#28982;&#22312;/etc/fstab&#25991;&#20214;&#20013;&#20889;&#20102;&#38656;&#35201;&#23558;boot&#20998;&#21306;&#25346;&#36733;&#21040;/boot&#30446;&#24405;&#19979;&#65292;&#20294;&#26159;&#23454;&#38469;&#30340;&#36816;&#34892;&#32467;&#26524;&#26469;&#30475;&#65292;&#30830;&#23454;&#23601;&#26159;&#27809;&#26377;&#25346;&#36733;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#23454;&#38469;&#19978;&#22312;&#31995;&#32479;&#20013;&#20351;&#29992;apt-get update &amp;&amp; apt-get upgrade&#21629;&#20196;&#21319;&#32423;&#30340;&#20869;&#26680;&#37117;&#35013;&#36733;&#21040;&#26681;&#30446;&#24405;&#19979;&#30340;/boot&#30446;&#24405;&#37324;&#20102;&#12290;
+    </p>
+    <p>
+      &#28982;&#21518;&#23454;&#38469;&#30340;&#25805;&#20316;&#26159;&#65292;&#30475;&#36215;&#26469;&#31995;&#32479;&#20869;&#26680;&#26356;&#26032;&#21040;&#20102;&#26368;&#26032;&#30340;&#29256;&#26412;&#65292;&#20294;&#26159;&#19968;&#26086;&#37325;&#21551;&#65292;&#21457;&#29616;&#37325;&#21551;&#21518;&#30340;&#31995;&#32479;&#24182;&#27809;&#26377;&#20999;&#25442;&#21040;&#26032;&#30340;&#20869;&#26680;&#19978;&#21435;&#12290;&#36824;&#26159;&#21574;&#22312;&#32769;&#30340;&#20869;&#26680;&#29256;&#26412;&#19978;&#65292;&#36825;&#26159;&#22240;&#20026;bootload&#22312;load&#20869;&#26680;&#30340;&#26102;&#20505;&#65292;&#26159;&#20174;/dev/mmcblk0p1&#37324;&#38754;&#25214;&#20869;&#26680;&#30340;&#65292;&#32780;&#25105;&#20204;&#26356;&#26032;&#30340;&#20869;&#26680;&#23384;&#22312;&#20110;/dev/mmcblk0p2&#20998;&#21306;&#20013;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="rpi-update&#x811a;&#x672c;" ID="ID_1045292329" CREATED="1541393854647" MODIFIED="1541394149101"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#22914;&#19979;&#30340;&#21629;&#20196;&#23433;&#35013;rpi-update&#33050;&#26412;:
+    </p>
+    <pre><code><i><font color="#0033cc" face="Arial"><b>sudo curl -L --output /usr/bin/rpi-update https://raw.githubusercontent.com/Hexxeh/rpi-update/master/rpi-update &amp;&amp; sudo chmod +x /usr/bin/rpi-update</b></font></i></code>
+&#28982;&#21518;&#20351;&#29992;rpi-update&#33050;&#26412;&#26356;&#26032;Raspbian&#23448;&#26041;&#26368;&#26032;&#30340;&#20869;&#26680;&#29256;&#26412;&#12290;
+&#28982;&#21518;&#20351;&#29992;rpi-update&#21629;&#20196;&#23601;&#21487;&#20197;&#26356;&#26032;&#20869;&#26680;&#20102;&#12290;
+&#22240;&#20026;&#25105;&#30340;&#31995;&#32479;&#19978;&#23454;&#38469;&#24182;&#27809;&#26377;&#25346;&#36733;/dev/mmcblk0p1, &#25152;&#20197;&#25105;&#20204;&#21487;&#20197;&#25351;&#23450;rpi-update&#30340;&#36816;&#34892;&#21442;&#25968;&#65292;&#35753;&#33050;&#26412;&#25226;&#26032;&#30340;&#20869;&#26680;&#23433;&#35013;&#21040;/dev/mmcblk0p1&#20013;&#65306;
+
+    </pre>
+    <pre><code><b><i><font color="#0033cc" face="Arial">ROOT_PATH=/ BOOT_PATH=/dev/mmcblk0p1 rpi-update</font></i></b></code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Kali&#x4f7f;&#x7528;&#x65e0;&#x7ebf;&#x7f51;&#x5361;&#x8fde;&#x63a5;wifi&#x70ed;&#x70b9;" ID="ID_620238317" CREATED="1541423743479" MODIFIED="1541423899774"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#37197;&#32622;wlan0&#65292;&#35753;&#20854;&#25509;&#20837;wifi&#28909;&#28857;:
+    </p>
+    <ul>
+      <li>
+        wpa_passphrase SSID PASSWORD &gt; /etc/wpa_supplicant/wpa_supplicant.conf
+      </li>
+      <li>
+        wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+      </li>
+      <li>
+        dhclient wlan0
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 <node POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1527550746804"><richcontent TYPE="NODE">
 
 <html>
@@ -12937,6 +14177,86 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 <node TEXT="&#x53c2;&#x8003;Linux Foundation &#x57f9;&#x8bad;&#x7ed9;&#x51fa;&#x7684;&#x4e00;&#x4e9b;&#x5177;&#x4f53;&#x4f8b;&#x5b50;" ID="ID_251441128" CREATED="1521195779030" MODIFIED="1527550746804"/>
+</node>
+<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1540735321564" LINK="#ID_867421423"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is an optional folder to store nodes which define how the Freeplane GTD+ plugin handles icons.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Icon: Project&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- Icon to represent a project
+    </p>
+    <p>
+      Icon: Task&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- Icon to represent a task
+    </p>
+    <p>
+      Icon: Done&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;- Icon to represent a completed task
+    </p>
+    <p>
+      Icon: Next action&#160;&#160;&#160;&#160;&#160;- Icon to represent an urgent task
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Icon: @<i>[CONTEXT]</i>&#160;&#160;&#160;- Icon to represent a context
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="SansSerif">&lt;Shorthand Notation&gt; </font>
+    </p>
+    <p>
+      <font face="SansSerif">&#21487;&#20197;&#20351;&#29992;&#19979;&#38754;&#30340;&#26041;&#27861;&#24555;&#36895;&#30340;&#25351;&#23450;Next Action&#30340;&#21508;&#31181;&#23646;&#24615;</font>
+    </p>
+    <pre><font size="5" face="SansSerif" color="#ff0033">* Action name</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#0000ff">{when}</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#006666">@context</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#999900">[who]</font></pre>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Icon: @Computer" ID="ID_1821210832" CREATED="1427226511560" MODIFIED="1427226607171">
+<icon BUILTIN="male1"/>
+</node>
+<node TEXT="Icon: @email" ID="ID_368331860" CREATED="1427226532275" MODIFIED="1427226613079">
+<icon BUILTIN="Mail"/>
+</node>
+<node TEXT="Icon: @Meeting" ID="ID_1136940334" CREATED="1427226567638" MODIFIED="1427226653217">
+<icon BUILTIN="group"/>
+</node>
+<node TEXT="Icon: @Home" ID="ID_635308207" CREATED="1427226636588" MODIFIED="1427226659054">
+<icon BUILTIN="gohome"/>
+</node>
+<node TEXT="Icon: Project" ID="ID_131803380" CREATED="1519290884473" MODIFIED="1519290896431">
+<icon BUILTIN="list"/>
+</node>
+<node TEXT="Icon: Task" ID="ID_960133394" CREATED="1519290899870" MODIFIED="1519360973178">
+<icon BUILTIN="info"/>
+</node>
+<node TEXT="Icon: Next action" ID="ID_1943159381" CREATED="1519347206161" MODIFIED="1519347220701">
+<icon BUILTIN="yes"/>
+</node>
+<node TEXT="Icon: Done" ID="ID_1823263778" CREATED="1519349597487" MODIFIED="1519349603390">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="Icon: Today" ID="ID_215169570" CREATED="1519355727486" MODIFIED="1519355746643">
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 </node>
 </map>

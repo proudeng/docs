@@ -824,7 +824,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e3a;&#x90e8;&#x95e8;&#x6280;&#x672f;&#x9762;&#x8bd5;&#x5de5;&#x7a0b;&#x5e08;" FOLDED="true" ID="ID_1454887209" CREATED="1398085504152" MODIFIED="1398391495337">
+<node TEXT="&#x4e3a;&#x90e8;&#x95e8;&#x6280;&#x672f;&#x9762;&#x8bd5;&#x5de5;&#x7a0b;&#x5e08;" ID="ID_1454887209" CREATED="1398085504152" MODIFIED="1398391495337">
 <node TEXT="&#x9700;&#x8981;&#x8003;&#x5bdf;&#x7684;&#x65b9;&#x9762;" ID="ID_1706571195" CREATED="1398391454552" MODIFIED="1398395821987"><richcontent TYPE="NOTE">
 
 <html>
@@ -862,7 +862,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x9762;&#x8bd5;&#x6d41;&#x7a0b;&#x5c0f;&#x7ed3;" FOLDED="true" ID="ID_1025121244" CREATED="1398395837369" MODIFIED="1398403297549"><richcontent TYPE="NOTE">
+<node TEXT="&#x9762;&#x8bd5;&#x6d41;&#x7a0b;&#x5c0f;&#x7ed3;" ID="ID_1025121244" CREATED="1398395837369" MODIFIED="1398403297549"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -976,7 +976,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1043,7 +1042,7 @@
 </node>
 </node>
 <node TEXT="&#x5de5;&#x5177;" POSITION="left" ID="ID_1174870052" CREATED="1323738234553" MODIFIED="1323738236581">
-<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" FOLDED="true" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
+<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;" ID="ID_68596577" CREATED="1323738237495" MODIFIED="1323825219342"><richcontent TYPE="NOTE">
 
 <html>
   <head>

@@ -116,7 +116,7 @@
 <node TEXT="&#x5bf9;&#x5b57;&#x7b26;&#x4e32;&#x6267;&#x884c;&#x6392;&#x5e8f;&#x7b97;&#x6cd5;&#x6267;&#x884c;" ID="ID_936067714" CREATED="1531561638405" MODIFIED="1531561655940"/>
 <node TEXT="&#x6392;&#x5e8f;&#x540e;&#x7684;&#x5b57;&#x7b26;&#x4e32;&#x5199;&#x5165;&#x8f93;&#x51fa;&#x6587;&#x4ef6;" ID="ID_1017881439" CREATED="1531561656299" MODIFIED="1531561673940"/>
 </node>
-<node TEXT="&#x53ef;&#x9009;&#x7684;&#x6392;&#x5e8f;&#x7b97;&#x6cd5;" POSITION="left" ID="ID_1948484342" CREATED="1531561454392" MODIFIED="1531561696600">
+<node TEXT="&#x53ef;&#x9009;&#x7684;&#x6392;&#x5e8f;&#x7b97;&#x6cd5;" FOLDED="true" POSITION="left" ID="ID_1948484342" CREATED="1531561454392" MODIFIED="1531561696600">
 <edge COLOR="#0000ff"/>
 <node TEXT="&#x5feb;&#x901f;&#x6392;&#x5e8f;" ID="ID_473326626" CREATED="1531561697530" MODIFIED="1531561703950"/>
 <node TEXT="&#x57fa;&#x6570;&#x6392;&#x5e8f;" ID="ID_91573988" CREATED="1531561704580" MODIFIED="1531561732010"/>
@@ -126,7 +126,7 @@
 <icon BUILTIN="bookmark"/>
 </node>
 </node>
-<node TEXT="&#x7b97;&#x6cd5;&#x9009;&#x62e9;&#x7684;&#x8003;&#x91cf;" POSITION="left" ID="ID_1604207442" CREATED="1531561948374" MODIFIED="1531561960656">
+<node TEXT="&#x7b97;&#x6cd5;&#x9009;&#x62e9;&#x7684;&#x8003;&#x91cf;" FOLDED="true" POSITION="left" ID="ID_1604207442" CREATED="1531561948374" MODIFIED="1531561960656">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -170,7 +170,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4f18;&#x5316;&#x6392;&#x5e8f;&#x7b97;&#x6cd5;&#x7684;&#x8003;&#x8651;" POSITION="left" ID="ID_565478672" CREATED="1531561824350" MODIFIED="1531562933647">
+<node TEXT="&#x4f18;&#x5316;&#x6392;&#x5e8f;&#x7b97;&#x6cd5;&#x7684;&#x8003;&#x8651;" FOLDED="true" POSITION="left" ID="ID_565478672" CREATED="1531561824350" MODIFIED="1531562933647">
 <edge COLOR="#ff00ff"/>
 <node TEXT="&#x5e76;&#x884c;&#x5316;" FOLDED="true" ID="ID_1192937653" CREATED="1531561846950" MODIFIED="1531570781418">
 <icon BUILTIN="full-3"/>
@@ -215,11 +215,11 @@
 </node>
 </node>
 </node>
-<node TEXT="Cache&#x4f18;&#x5316;" ID="ID_1476128727" CREATED="1531563207274" MODIFIED="1534141230667">
+<node TEXT="Cache&#x4f18;&#x5316;" FOLDED="true" ID="ID_1476128727" CREATED="1531563207274" MODIFIED="1534141230667">
 <icon BUILTIN="idea"/>
 <icon BUILTIN="idea"/>
 <icon BUILTIN="idea"/>
-<node TEXT="&#x5173;&#x4e8e;CPU Cache" ID="ID_1892728774" CREATED="1534774869531" MODIFIED="1534775208025"><richcontent TYPE="NOTE">
+<node TEXT="&#x5173;&#x4e8e;CPU Cache" FOLDED="true" ID="ID_1892728774" CREATED="1534774869531" MODIFIED="1534775208025"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -231,7 +231,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Cache Line" ID="ID_1639357517" CREATED="1534774894657" MODIFIED="1534775319923"><richcontent TYPE="NOTE">
 
@@ -248,7 +247,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Association" ID="ID_146540595" CREATED="1534774899429" MODIFIED="1534776527579">
@@ -274,7 +272,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="full association" ID="ID_1652465604" CREATED="1534775926080" MODIFIED="1534775939553"/>
 <node TEXT="set association" ID="ID_1008929023" CREATED="1534775940022" MODIFIED="1534776455454">
@@ -298,7 +295,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="direct association" ID="ID_127154454" CREATED="1534775944877" MODIFIED="1534775948768"/>
@@ -315,7 +311,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -512,7 +507,7 @@
 </richcontent>
 <node TEXT="switch-case&#x548c;if-else&#x7684;&#x6bd4;&#x8f83;" ID="ID_697715736" CREATED="1534141238228" MODIFIED="1534141258218"/>
 </node>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x76f4;&#x63a5;&#x6bd4;&#x8f83;&#xff1f;" FOLDED="true" ID="ID_337248748" CREATED="1531563241054" MODIFIED="1531563506804"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x76f4;&#x63a5;&#x6bd4;&#x8f83;&#xff1f;" ID="ID_337248748" CREATED="1531563241054" MODIFIED="1531563506804"><richcontent TYPE="NOTE">
 
 <html>
   <head>
