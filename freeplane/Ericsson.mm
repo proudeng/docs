@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Ericsson" FOLDED="false" ID="ID_651602807" CREATED="1322027751883" MODIFIED="1322027830251"><hook NAME="MapStyle">
     <properties fit_to_viewport="false" show_note_icons="true"/>
@@ -981,7 +981,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" FOLDED="true" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
+<node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
 <node TEXT="&#x7d2b;&#x91d1;&#x5c71;&#x767b;&#x5c71;&#x8def;&#x7ebf;" FOLDED="true" ID="ID_463031084" CREATED="1322119884287" MODIFIED="1325333872599" HGAP_QUANTITY="18.0 px" VSHIFT_QUANTITY="-10.0 px"><richcontent TYPE="NOTE">
 
 <html>
@@ -1023,7 +1023,7 @@
 <hook URI="&#x7d2b;&#x91d1;&#x5c71;.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="RD/AR&#x7fbd;&#x6bdb;&#x7403;&#x6d3b;&#x52a8;" FOLDED="true" ID="ID_195693738" CREATED="1323831899624" MODIFIED="1323831910260">
+<node TEXT="RD/AR&#x7fbd;&#x6bdb;&#x7403;&#x6d3b;&#x52a8;" ID="ID_195693738" CREATED="1323831899624" MODIFIED="1323831910260">
 <node TEXT="&#x540c;&#x66e6;&#x4f53;&#x80b2;&#x9986;&#x7535;&#x8bdd;" ID="ID_559339176" CREATED="1323831915661" MODIFIED="1384911450080"><richcontent TYPE="NOTE">
 
 <html>

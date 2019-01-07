@@ -3,7 +3,7 @@
 <node TEXT="jQuery&#x5165;&#x95e8;" FOLDED="false" ID="ID_8072154" CREATED="1527859364966" MODIFIED="1527859545181" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -125,7 +125,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="h" ID="ID_910299817" CREATED="1541481980163" MODIFIED="1541482007125"><richcontent TYPE="NOTE">
 
@@ -137,7 +136,6 @@
     <pre>&lt;h1&gt;This is a heading&lt;/h1&gt;</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="p" ID="ID_1170020660" CREATED="1541481983500" MODIFIED="1541482014353"><richcontent TYPE="NOTE">
@@ -150,7 +148,6 @@
     <pre>&lt;p&gt;This is a paragraph.&lt;/p&gt;</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="a" ID="ID_209988700" CREATED="1541481985340" MODIFIED="1541482023906"><richcontent TYPE="NOTE">
@@ -163,7 +160,6 @@
     <pre>&lt;a href=&quot;http://www.w3school.com.cn&quot;&gt;This is a link&lt;/a&gt;</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="img" ID="ID_1620263776" CREATED="1541481986613" MODIFIED="1541482142197"><richcontent TYPE="NOTE">
@@ -176,7 +172,6 @@
     <pre>&lt;img src=&quot;w3school.jpg&quot; width=&quot;104&quot; height=&quot;142&quot; /&gt;</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -192,10 +187,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="&#x5c5e;&#x6027;" ID="ID_107961151" CREATED="1541482309603" MODIFIED="1541482736482"><richcontent TYPE="NOTE">
+<node TEXT="&#x5c5e;&#x6027;" FOLDED="true" ID="ID_107961151" CREATED="1541482309603" MODIFIED="1541482736482"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -207,7 +201,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="class" ID="ID_1990409433" CREATED="1541482398846" MODIFIED="1541482401135"/>
 <node TEXT="id" ID="ID_1042683997" CREATED="1541482413358" MODIFIED="1541482736481"/>
@@ -220,6 +213,52 @@
   <body>
     <p>
       &#23450;&#20041;&#26631;&#31614;&#30340;&#26679;&#24335;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x9ad8;&#x7ea7;tag" ID="ID_1575050785" CREATED="1541493146167" MODIFIED="1541493151415">
+<node TEXT="div" ID="ID_761415850" CREATED="1541493173857" MODIFIED="1541495496642"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HTML &lt;div&gt; &#20803;&#32032;&#26159;&#22359;&#32423;&#20803;&#32032;&#65292;&#23427;&#26159;&#21487;&#29992;&#20110;&#32452;&#21512;&#20854;&#20182; HTML &#20803;&#32032;&#30340;&#23481;&#22120;&#12290;
+    </p>
+    <p>
+      &lt;div&gt; &#20803;&#32032;&#27809;&#26377;&#29305;&#23450;&#30340;&#21547;&#20041;&#12290;&#38500;&#27492;&#20043;&#22806;&#65292;&#30001;&#20110;&#23427;&#23646;&#20110;&#22359;&#32423;&#20803;&#32032;&#65292;&#27983;&#35272;&#22120;&#20250;&#22312;&#20854;&#21069;&#21518;&#26174;&#31034;&#25240;&#34892;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#19982; CSS &#19968;&#21516;&#20351;&#29992;&#65292;&lt;div&gt; &#20803;&#32032;&#21487;&#29992;&#20110;&#23545;&#22823;&#30340;&#20869;&#23481;&#22359;&#35774;&#32622;&#26679;&#24335;&#23646;&#24615;&#12290;
+    </p>
+    <p>
+      &lt;div&gt; &#20803;&#32032;&#30340;&#21478;&#19968;&#20010;&#24120;&#35265;&#30340;&#29992;&#36884;&#26159;&#25991;&#26723;&#24067;&#23616;&#12290;&#23427;&#21462;&#20195;&#20102;&#20351;&#29992;&#34920;&#26684;&#23450;&#20041;&#24067;&#23616;&#30340;&#32769;&#24335;&#26041;&#27861;&#12290;&#20351;&#29992; &lt;table&gt; &#20803;&#32032;&#36827;&#34892;&#25991;&#26723;&#24067;&#23616;&#19981;&#26159;&#34920;&#26684;&#30340;&#27491;&#30830;&#29992;&#27861;&#12290;&lt;table&gt; &#20803;&#32032;&#30340;&#20316;&#29992;&#26159;&#26174;&#31034;&#34920;&#26684;&#21270;&#30340;&#25968;&#25454;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="span" ID="ID_1838862138" CREATED="1541493175953" MODIFIED="1541495513488"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HTML &lt;span&gt; &#20803;&#32032;&#26159;&#20869;&#32852;&#20803;&#32032;&#65292;&#21487;&#29992;&#20316;&#25991;&#26412;&#30340;&#23481;&#22120;&#12290;
+    </p>
+    <p>
+      &lt;span&gt; &#20803;&#32032;&#20063;&#27809;&#26377;&#29305;&#23450;&#30340;&#21547;&#20041;&#12290;
+    </p>
+    <p>
+      &#24403;&#19982; CSS &#19968;&#21516;&#20351;&#29992;&#26102;&#65292;&lt;span&gt; &#20803;&#32032;&#21487;&#29992;&#20110;&#20026;&#37096;&#20998;&#25991;&#26412;&#35774;&#32622;&#26679;&#24335;&#23646;&#24615;&#12290;
     </p>
   </body>
 </html>
@@ -452,7 +491,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x9009;&#x62e9;&#x5668;" ID="ID_1809314229" CREATED="1527861176977" MODIFIED="1528750550216"><richcontent TYPE="NOTE">
 

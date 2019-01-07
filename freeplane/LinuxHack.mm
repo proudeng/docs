@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
-    <properties fit_to_viewport="true" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -5948,8 +5948,8 @@
 <node TEXT="&#x7ea2;&#x7c73;2&#x9ad8;&#x914d;&#x7248;" ID="ID_161813112" CREATED="1534582545574" MODIFIED="1534582553479"/>
 <node TEXT="&#x534e;&#x4e3a;&#x8363;&#x8000;6" ID="ID_1341118826" CREATED="1534582553853" MODIFIED="1534582557862"/>
 </node>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
-<node TEXT="web&#x670d;&#x52a1;&#x5668;" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -6610,7 +6610,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x901a;&#x8fc7;USB&#x7ebf;&#x8bbf;&#x95ee;Linux Deploy" ID="ID_199779670" CREATED="1534583019404" MODIFIED="1534585261168">
+<node TEXT="&#x901a;&#x8fc7;USB&#x7ebf;&#x8bbf;&#x95ee;Linux Deploy" FOLDED="true" ID="ID_199779670" CREATED="1534583019404" MODIFIED="1534585261168">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -11949,7 +11949,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 <node TEXT="&#x901a;&#x8fc7;PPTP&#x7ffb;&#x5899;" ID="ID_521559635" CREATED="1427373784972" MODIFIED="1427373802828"/>
-<node TEXT="USB&#x7f51;&#x7edc;" FOLDED="true" ID="ID_1868999429" CREATED="1522374981179" MODIFIED="1522388344784"><richcontent TYPE="NOTE">
+<node TEXT="USB&#x7f51;&#x7edc;" ID="ID_1868999429" CREATED="1522374981179" MODIFIED="1522388344784"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12342,7 +12342,7 @@ root@OpenWrt:~# wifi</pre>
 <node TEXT="&#x53c2;&#x8003;onenote&#x64cd;&#x4f5c;&#x56fe;&#x89e3;" ID="ID_217129351" CREATED="1534589134659" MODIFIED="1534589167492" LINK="../OneNote/WR720N&#x505a;&#x4e8c;&#x7ea7;&#x8def;&#x7531;-&#x914d;&#x7f6e;&#x6210;&#x4ea4;&#x6362;&#x673a;.one"/>
 </node>
 </node>
-<node TEXT="Youhua&#x7684;WR1200JS&#x914d;&#x7f6e;" FOLDED="true" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
+<node TEXT="Youhua&#x7684;WR1200JS&#x914d;&#x7f6e;" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
 <node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" FOLDED="true" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
 
 <html>
@@ -14098,7 +14098,6 @@ root@OpenWrt:~# wifi</pre>
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
