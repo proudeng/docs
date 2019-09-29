@@ -1,7 +1,7 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
+<node TEXT="ubuntu 11.10 lamp&#x5b89;&#x88c5;" FOLDED="true" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -87,7 +87,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mysql install" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
+<node TEXT="mysql install" FOLDED="true" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -333,7 +333,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;&#x7684;&#x914d;&#x7f6e;" FOLDED="true" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1394538838078"><richcontent TYPE="NOTE">
+<node TEXT="VIM&#x7f16;&#x8f91;&#x5668;&#x7684;&#x914d;&#x7f6e;" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1394538838078"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5876,7 +5876,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[ali.proudj.com@AliYun]Ubuntu&#x5de5;&#x4f5c;&#x7ad9;" FOLDED="true" POSITION="right" ID="ID_541309669" CREATED="1534582390269" MODIFIED="1534582440089"><richcontent TYPE="NOTE">
+<node TEXT="[ali.proudj.com@AliYun]Ubuntu&#x5de5;&#x4f5c;&#x7ad9;" POSITION="right" ID="ID_541309669" CREATED="1534582390269" MODIFIED="1534582440089"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5904,7 +5904,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1534589510993"><richcontent TYPE="NOTE">
+<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5948,8 +5948,8 @@
 <node TEXT="&#x7ea2;&#x7c73;2&#x9ad8;&#x914d;&#x7248;" ID="ID_161813112" CREATED="1534582545574" MODIFIED="1534582553479"/>
 <node TEXT="&#x534e;&#x4e3a;&#x8363;&#x8000;6" ID="ID_1341118826" CREATED="1534582553853" MODIFIED="1534582557862"/>
 </node>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
-<node TEXT="web&#x670d;&#x52a1;&#x5668;" FOLDED="true" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x5b89;&#x88c5;" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
+<node TEXT="web&#x670d;&#x52a1;&#x5668;" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -6089,7 +6089,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1535895434250"><richcontent TYPE="NOTE">
+<node TEXT="&#x914d;&#x7f6e;lighttpd&#x652f;&#x6301;php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1569499350618"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6140,8 +6140,9 @@
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="&#x6ce8;&#x610f;" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1535895685899"><richcontent TYPE="NOTE">
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1560522968242"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6187,7 +6188,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="/var/log/lighttpd/error.log" ID="ID_1194909261" CREATED="1519276999473" MODIFIED="1535895694147"><richcontent TYPE="NOTE">
+<node TEXT="/var/log/lighttpd/error.log" ID="ID_1194909261" CREATED="1519276999473" MODIFIED="1560522886544"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6324,7 +6325,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7f3a;&#x5931;extension&#x7684;&#x8868;&#x73b0;" ID="ID_1058492235" CREATED="1519460133491" MODIFIED="1535895705080"><richcontent TYPE="NOTE">
+<node TEXT="&#x7f3a;&#x5931;extension&#x7684;&#x8868;&#x73b0;" ID="ID_1058492235" CREATED="1519460133491" MODIFIED="1560522982207"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6407,7 +6408,7 @@
 <node TEXT="Pico" ID="ID_606184524" CREATED="1534582699509" MODIFIED="1534582703198"/>
 <node TEXT="Grav" ID="ID_1306659786" CREATED="1534582703645" MODIFIED="1534582712630"/>
 </node>
-<node TEXT="dlna&#x670d;&#x52a1;&#x5668;" ID="ID_1330832302" CREATED="1534589201963" MODIFIED="1534589277193"><richcontent TYPE="NOTE">
+<node TEXT="dlna&#x670d;&#x52a1;&#x5668;" ID="ID_1330832302" CREATED="1534589201963" MODIFIED="1560525835018"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6415,13 +6416,10 @@
   </head>
   <body>
     <p>
-      &#160;&#22312;Android&#25163;&#26426;&#19978;&#37197;&#32622;dlna&#30340;&#21151;&#33021;: &#23433;&#35013;&#20854;&#23454;&#38750;&#24120;&#30340;&#31616;&#21333;&#65292;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23601;&#21487;&#20197;&#20102;:&#160; aptitude install minidlna
+      &#160;&#22312;Android&#25163;&#26426;&#19978;&#37197;&#32622;dlna&#30340;&#21151;&#33021;: &#23433;&#35013;&#20854;&#23454;&#38750;&#24120;&#30340;&#31616;&#21333;&#65292;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23601;&#21487;&#20197;&#20102;:&#160;&#160;aptitude install minidlna
     </p>
     <p>
       &#23433;&#35013;&#23436;&#27605;&#20043;&#21518;&#21487;&#20197;&#32534;&#36753;/etc/minidlna.conf&#25991;&#20214;&#36827;&#34892;&#37197;&#32622;&#65292;&#20854;&#23454;&#38656;&#35201;&#37197;&#32622;&#30340;&#19968;&#33324;&#23601;&#26159;media_dir&#36825;&#20010;&#12290; &#20063;&#23601;&#26159;&#37197;&#32622;&#23186;&#20307;&#25991;&#20214;&#23384;&#25918;&#30340;&#30446;&#24405;&#12290;&#37197;&#32622;&#23436;&#25104;&#20043;&#21518;&#25353;&#29702;&#24212;&#20351;&#29992;service minidlna start&#23601;&#21487;&#20197;&#21551;&#21160;&#26381;&#21153;&#20102;&#12290;
-    </p>
-    <p>
-      
     </p>
   </body>
 </html>
@@ -6449,7 +6447,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x56fe;&#x5f62;&#x754c;&#x9762;&#x5e94;&#x7528;&#x5b89;&#x88c5;" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE">
+<node TEXT="&#x56fe;&#x5f62;&#x754c;&#x9762;&#x5e94;&#x7528;&#x5b89;&#x88c5;" FOLDED="true" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6610,7 +6608,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x901a;&#x8fc7;USB&#x7ebf;&#x8bbf;&#x95ee;Linux Deploy" FOLDED="true" ID="ID_199779670" CREATED="1534583019404" MODIFIED="1534585261168">
+<node TEXT="&#x901a;&#x8fc7;USB&#x7ebf;&#x8bbf;&#x95ee;Linux Deploy" ID="ID_199779670" CREATED="1534583019404" MODIFIED="1534585261168">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -8040,9 +8038,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 <node TEXT="CentOS&#x5b9a;&#x5236;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x7684;&#x670d;&#x52a1;&#x5668;&#x9009;&#x9879;" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10809,7 +10807,7 @@ root@OpenWrt:~# wifi</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4f7f;&#x7528;DDNS&#x52a8;&#x6001;&#x57df;&#x540d;" FOLDED="true" ID="ID_747226402" CREATED="1413894788194" MODIFIED="1426755052038"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f7f;&#x7528;DDNS&#x52a8;&#x6001;&#x57df;&#x540d;" FOLDED="true" ID="ID_747226402" CREATED="1413894788194" MODIFIED="1548134649122"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10829,7 +10827,7 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
     <p>
-      <font size="4" color="#0000cc"><b>[&#26356;&#26032;]&#65306;</b></font>
+      <font color="#0000cc" size="4"><b>[&#26356;&#26032;]&#65306;</b></font>
     </p>
     <p>
       &#27880;&#24847;&#65292;&#19968;&#20010;&#20248;&#21270;&#26159;&#65292;&#26368;&#22909;&#22312;&#36335;&#30001;&#22120;&#30340;&#21551;&#21160;&#33050;&#26412;&#37324;&#38754;&#65292;&#25226;&#26356;&#26032;DDNS&#30340;&#21629;&#20196;&#20063;&#25918;&#21040;&#37324;&#38754;&#21435;&#12290;
@@ -12596,7 +12594,7 @@ root@OpenWrt:~# wifi</pre>
 <node TEXT="USB&#x7f51;&#x7edc;" ID="ID_615368049" CREATED="1534587214661" MODIFIED="1534587225663" LINK="#ID_1868999429"/>
 </node>
 </node>
-<node TEXT="OpenWRT&#x914d;&#x7f6e;" ID="ID_636474486" CREATED="1536209772336" MODIFIED="1536209779845">
+<node TEXT="OpenWRT&#x914d;&#x7f6e;" FOLDED="true" ID="ID_636474486" CREATED="1536209772336" MODIFIED="1536209779845">
 <node TEXT="USB&#x7f51;&#x7edc;" ID="ID_999407093" CREATED="1536209786931" MODIFIED="1536209797047" LINK="#ID_615368049"/>
 <node TEXT="aircrack_ng" FOLDED="true" ID="ID_468783745" CREATED="1536209799668" MODIFIED="1536212493727"><richcontent TYPE="NOTE">
 
@@ -12856,7 +12854,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 <node TEXT="Shadowsocks" ID="ID_1116823705" CREATED="1540730149778" MODIFIED="1540730155924"/>
 </node>
-<node TEXT="&#x6784;&#x5efa;Openwrt&#x5f00;&#x53d1;&#x73af;&#x5883;" ID="ID_604975626" CREATED="1540730100874" MODIFIED="1540730735244"><richcontent TYPE="NOTE">
+<node TEXT="&#x6784;&#x5efa;Openwrt&#x5f00;&#x53d1;&#x73af;&#x5883;" FOLDED="true" ID="ID_604975626" CREATED="1540730100874" MODIFIED="1540730735244"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -14028,7 +14026,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 <node TEXT="&#x6811;&#x8393;&#x6d3e;2" POSITION="left" ID="ID_525492540" CREATED="1541382213382" MODIFIED="1541382216903">
-<node TEXT="&#x5b89;&#x88c5;Kali" ID="ID_554380518" CREATED="1541382220403" MODIFIED="1541382224861">
+<node TEXT="&#x5b89;&#x88c5;Kali" FOLDED="true" ID="ID_554380518" CREATED="1541382220403" MODIFIED="1541382224861">
 <node TEXT="Kali&#x66f4;&#x65b0;Kernel" ID="ID_472384086" CREATED="1541382226386" MODIFIED="1541393845715">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -14101,6 +14099,20 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="Godaddy&#x5bc6;&#x7801;" POSITION="left" ID="ID_1916301877" CREATED="1547025419217" MODIFIED="1547025537219"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lovexiaoshe0901
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1527550746804"><richcontent TYPE="NODE">
 

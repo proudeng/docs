@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Ericsson" FOLDED="false" ID="ID_651602807" CREATED="1322027751883" MODIFIED="1322027830251"><hook NAME="MapStyle">
     <properties fit_to_viewport="false" show_note_icons="true"/>
@@ -982,7 +982,7 @@
 </node>
 </node>
 <node TEXT="&#x516c;&#x53f8;&#x4f11;&#x95f2;" POSITION="left" ID="ID_392318462" CREATED="1322119875039" MODIFIED="1323738230041">
-<node TEXT="&#x7d2b;&#x91d1;&#x5c71;&#x767b;&#x5c71;&#x8def;&#x7ebf;" FOLDED="true" ID="ID_463031084" CREATED="1322119884287" MODIFIED="1325333872599" HGAP_QUANTITY="18.0 px" VSHIFT_QUANTITY="-10.0 px"><richcontent TYPE="NOTE">
+<node TEXT="&#x7d2b;&#x91d1;&#x5c71;&#x767b;&#x5c71;&#x8def;&#x7ebf;" ID="ID_463031084" CREATED="1322119884287" MODIFIED="1325333872599" HGAP_QUANTITY="18.0 px" VSHIFT_QUANTITY="-10.0 px"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1199,6 +1199,26 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="Indent&#x63d2;&#x4ef6;" ID="ID_599845823" CREATED="1562638740201" MODIFIED="1562638807652"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20687;Python&#36825;&#26679;&#30340;&#35821;&#35328;&#65292;&#24456;&#26377;&#24517;&#35201;&#26174;&#31034;&#32553;&#36827;&#32447;&#25110;&#32773;&#35828;&#26159;&#23545;&#40784;&#32447;&#65292;&#19981;&#28982;&#30340;&#35805;&#65292;&#22312;&#36923;&#36753;&#31245;&#24494;&#22797;&#26434;&#19968;&#28857;&#30340;&#20195;&#30721;&#26681;&#26412;&#23601;&#27809;&#21457;&#30475;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;Indent&#25554;&#20214;&#23601;&#21487;&#20197;&#20570;&#21040;&#36825;&#19968;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="vimgrep&#x641c;&#x7d22;&#x4ee5;&#x53ca;&#x6253;&#x5f00;&#x641c;&#x7d22;&#x7ed3;&#x679c;&#x7a97;&#x53e3;" ID="ID_1787793831" CREATED="1323738435507" MODIFIED="1520581169833"><richcontent TYPE="NOTE">
 
 <html>
@@ -1328,8 +1348,38 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x63d2;&#x4ef6;&#x7ba1;&#x7406;&#x5668;" ID="ID_407873240" CREATED="1562638570432" MODIFIED="1562638576085">
+<node TEXT="ali.proudj.com" ID="ID_484415563" CREATED="1562638577136" MODIFIED="1562638656178"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#30340;&#26159;vundle&#31995;&#32479;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="FreePlane" FOLDED="true" ID="ID_1345857265" CREATED="1323929519014" MODIFIED="1384824371054"><richcontent TYPE="NOTE">
+<node TEXT="wls" ID="ID_291734624" CREATED="1562638592255" MODIFIED="1562638651642"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#30340;&#26159;vim-plug&#31995;&#32479;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="FreePlane" ID="ID_1345857265" CREATED="1323929519014" MODIFIED="1384824371054"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1438,7 +1488,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Firefox&#x76f8;&#x5173;" ID="ID_68803354" CREATED="1397369596577" MODIFIED="1397369603989">
+<node TEXT="Firefox&#x76f8;&#x5173;" FOLDED="true" ID="ID_68803354" CREATED="1397369596577" MODIFIED="1397369603989">
 <node TEXT="Firefox Sync Recovery Key" ID="ID_1016886604" CREATED="1386214232889" MODIFIED="1395904066605"><richcontent TYPE="NOTE">
 
 <html>
