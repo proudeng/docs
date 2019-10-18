@@ -6447,11 +6447,10 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="decision-directed" ID="ID_1845196612" CREATED="1569735420020" MODIFIED="1569735426860"/>
 <node TEXT="non decision-directed" ID="ID_1015756002" CREATED="1569735427244" MODIFIED="1569735432634">
-<node TEXT="early-late gate synchronizer" ID="ID_1979804352" CREATED="1569735469797" MODIFIED="1569735553650"><richcontent TYPE="NOTE">
+<node TEXT="early-late gate synchronizer" FOLDED="true" ID="ID_1979804352" CREATED="1569735469797" MODIFIED="1569735553650"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6472,7 +6471,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_736124285" CREATED="1569735557477" MODIFIED="1569735777481"><richcontent TYPE="NODE">
 
@@ -6484,7 +6482,6 @@ END</pre>
     <a href="../attachment/ID_736124285_1569735738365.png"><img src="../attachment/ID_736124285_1569735738365.png" width="462" height="293"/>
 </a>  </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6539,6 +6536,9 @@ END</pre>
 </html>
 </richcontent>
 <node TEXT="&#x7b2c;&#x4e00;&#x7ae0;-&#x968f;&#x673a;&#x8fc7;&#x7a0b;" ID="ID_829074271" CREATED="1569215644470" MODIFIED="1569215653780"/>
+<node TEXT="&#x7b2c;&#x56db;&#x7ae0;-&#x57fa;&#x5e26;&#x8109;&#x51b2;&#x4f20;&#x8f93;" ID="ID_76260692" CREATED="1569745170779" MODIFIED="1569745182445">
+<node TEXT="&#x5339;&#x914d;&#x6ee4;&#x6ce2;&#x5668;" ID="ID_18830876" CREATED="1569745187003" MODIFIED="1569824066947" LINK="freeplane:/%20/S:/freeplane/freeplane/LTE_Study.mm#ID_1215409203"/>
+</node>
 <node TEXT="&#x9644;&#x5f55;1-&#x6982;&#x7387;&#x8bba;" ID="ID_302682118" CREATED="1569215707725" MODIFIED="1569215721414">
 <node TEXT="&#x6982;&#x7387;&#x7684;&#x6982;&#x5ff5;" ID="ID_688633629" CREATED="1569215800825" MODIFIED="1569215804406">
 <node TEXT="&#x6982;&#x7387;&#x516c;&#x7406;" ID="ID_554932032" CREATED="1569222088346" MODIFIED="1569222163008">
