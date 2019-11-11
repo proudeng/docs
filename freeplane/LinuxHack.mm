@@ -5904,7 +5904,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
+<node TEXT="Android Linux Deploy" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6140,7 +6140,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6ce8;&#x610f;" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1560522968242"><richcontent TYPE="NOTE">
 
@@ -6442,6 +6441,153 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6d41;&#x5a92;&#x4f53;&#x670d;&#x52a1;&#x5668;" ID="ID_1279954065" CREATED="1573400667874" MODIFIED="1573402922784"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#26381;&#21153;&#22120;&#30340;&#20027;&#35201;&#24819;&#27861;&#26159;&#35201;&#33021;&#22815;&#22312;&#23616;&#22495;&#32593;&#30340;&#32593;&#39029;&#31471;&#30452;&#25509;&#25773;&#25918;&#26381;&#21153;&#22120;&#31471;&#30340;&#35270;&#39057;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20284;&#20046;&#20063;&#21487;&#20197;&#20351;&#29992;&#27969;&#23186;&#20307;&#26381;&#21153;&#22120;&#26597;&#30475;&#25668;&#20687;&#22836;&#30340;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_710220145" CREATED="1573401360968" MODIFIED="1573401387608"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22522;&#26412;&#19978;&#26159;&#25353;&#29031;&#19979;&#38754;&#30340;&#25805;&#20316;&#26469;&#23433;&#35013;nginx&#21644;&#23427;&#30340;RTMP&#27169;&#22359;&#30340;&#65306;
+    </p>
+    <p>
+      https://blog.csdn.net/willhuo/article/details/79620876
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x8def;&#x5f84;" ID="ID_1861209788" CREATED="1573401395544" MODIFIED="1573401496177"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nginx&#30340;&#25991;&#20214;&#36335;&#24452;&#26159;:
+    </p>
+    <p>
+      /usr/local/nginx/sbin/nginx
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      nginx&#30340;html&#26681;&#36335;&#24452;&#26159;:
+    </p>
+    <p>
+      /usr/local/nginx/html
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#37197;&#32622;&#25991;&#20214;&#30340;&#36335;&#24452;&#26159;:
+    </p>
+    <p>
+      /usr/local/nginx/conf
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x914d;&#x7f6e;&#x6587;&#x4ef6;" ID="ID_1883651781" CREATED="1573401469160" MODIFIED="1573401562673"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37197;&#32622;&#25991;&#20214;&#30340;&#25913;&#21160;&#22914;&#19979;&#65292;&#23454;&#29616;&#20102;&#19968;&#20010;&#31616;&#21333;&#30340;&#27969;&#23186;&#20307;&#25773;&#25918;&#30340;&#21151;&#33021;&#65292;&#21482;&#35201;&#25226;&#35270;&#39057;&#25991;&#20214;test.mp4&#25918;&#21040;/vod&#30446;&#24405;&#19979;&#65292;&#28982;&#21518;web&#19978;&#35775;&#38382;http://ip/vod/test.mp4&#23601;&#34892;&#20102;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      rtmp {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;server {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;listen 1935;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;chunk_size 4000;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;application hls {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;live on;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hls on;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hls_path /usr/local/nginx/html/hls;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hls_fragment 5s;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;application vod {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;play /vod;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -7117,6 +7263,231 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 <node TEXT="Tasker/Automate" ID="ID_1731550692" CREATED="1540478526995" MODIFIED="1540478547402">
 <icon BUILTIN="bookmark"/>
+</node>
+</node>
+<node TEXT="&#x5c0f;&#x9a6c;&#x8f6f;&#x8def;&#x7531;" POSITION="right" ID="ID_1893027885" CREATED="1572187176322" MODIFIED="1572187179428">
+<node TEXT="Debian" ID="ID_769180834" CREATED="1572187186770" MODIFIED="1572187188868">
+<node TEXT="&#x7f51;&#x5173;&#x7b80;&#x5355;&#x914d;&#x7f6e;" ID="ID_1026225973" CREATED="1572187205354" MODIFIED="1572187212436">
+<node TEXT="&#x914d;&#x7f6e;&#x7f51;&#x53e3;ip" ID="ID_1247374838" CREATED="1572188084544" MODIFIED="1572188090267">
+<node TEXT="/etc/network/interfaces" ID="ID_1013386605" CREATED="1572187229098" MODIFIED="1572187271587"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # The loopback network interface
+    </p>
+    <p>
+      auto lo
+    </p>
+    <p>
+      iface lo inet loopback
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # The primary network interface
+    </p>
+    <p>
+      # The WAN port
+    </p>
+    <p>
+      allow-hotplug enp1s0
+    </p>
+    <p>
+      iface enp1s0 inet dhcp
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # The LAN port
+    </p>
+    <p>
+      allow-hotplug enp2s0
+    </p>
+    <p>
+      iface enp2s0 inet static
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;address 192.168.99.1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;netmask 255.255.255.0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gateway 192.168.99.1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;broadcast 192.168.99.255
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6682;&#x65f6;&#x53ea;&#x914d;&#x4e86;&#x4e24;&#x4e2a;&#x7f51;&#x53e3;" ID="ID_1019561078" CREATED="1572187273929" MODIFIED="1572187292955"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#21475;&#20570;WAN
+    </p>
+    <p>
+      2&#21475;&#20570;LAN
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x6253;&#x5f00;&#x8def;&#x7531;&#x529f;&#x80fd;" ID="ID_1230675247" CREATED="1572188095392" MODIFIED="1572188127027">
+<node TEXT="/etc/sysctl.conf" ID="ID_1022462515" CREATED="1572187890353" MODIFIED="1572187916483"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21435;&#25481; net.ipv4.ip_forward=1 &#21069;&#38754;&#30340; #
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="dhcp&#x670d;&#x52a1;" ID="ID_975848619" CREATED="1572188139784" MODIFIED="1572188146626">
+<node TEXT="&#x5b89;&#x88c5;dnsmasq" ID="ID_1083006491" CREATED="1572188155344" MODIFIED="1572188162273"/>
+<node TEXT="/etc/dnsmasq.conf" ID="ID_1606207584" CREATED="1572188182759" MODIFIED="1572188414279"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25913;&#20102;&#19979;&#38754;&#20960;&#22788;&#65306;
+    </p>
+    <p>
+      interface=enp2s0
+    </p>
+    <p>
+      listen-address=192.168.99.1
+    </p>
+    <p>
+      dhcp-range=192.168.99.50,192.168.99.150,255.255.255.0,12h
+    </p>
+    <p>
+      dhcp-option=3,192.168.99.1
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="iptables&#x914d;&#x7f6e;" ID="ID_399935916" CREATED="1572188434871" MODIFIED="1572188438937">
+<node TEXT="&#x5b89;&#x88c5;iptables-persistent" ID="ID_93140899" CREATED="1572188440127" MODIFIED="1572188518340"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#24037;&#20855;&#20250;&#29983;&#25104;&#19968;&#20010;&#25991;&#20214;&#65292;&#22312;/etc/iptables/rules.v4&#21644;/etc/iptables/rules.v6
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27599;&#27425;&#24320;&#26426;&#30340;&#26102;&#20505;&#20250;&#33258;&#21160;load&#36825;&#20004;&#20010;&#25991;&#20214;&#20013;&#30340;&#35268;&#21017;&#21040;iptables&#30340;&#35268;&#21017;&#37324;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="/etc/iptables/rules.v4" ID="ID_1687351601" CREATED="1572188524959" MODIFIED="1572188641647"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #MASQURADE for WAN port
+    </p>
+    <p>
+      *nat
+    </p>
+    <p>
+      <font color="#cc0066">-A POSTROUTING -o enp1s0 -j MASQUERADE</font>
+    </p>
+    <p>
+      COMMIT
+    </p>
+    <p>
+      # Generated by xtables-save v1.8.2 on Sun Oct 27 18:38:02 2019
+    </p>
+    <p>
+      *filter
+    </p>
+    <p>
+      -A INPUT -i lo -j ACCEPT
+    </p>
+    <p>
+      #-A INPUT -i enp1s0 -p tcp -m tcp --dport 22 -j ACCEPT
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #allow incoming traffic to the outgoing connections
+    </p>
+    <p>
+      -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #prohibit other incoming traffic on WAN
+    </p>
+    <p>
+      -A INPUT -i enp1s0 -j DROP
+    </p>
+    <p>
+      COMMIT
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #:INPUT ACCEPT [0:0]
+    </p>
+    <p>
+      #:FORWARD ACCEPT [0:0]
+    </p>
+    <p>
+      #:OUTPUT ACCEPT [0:0]
+    </p>
+    <p>
+      #COMMIT
+    </p>
+    <p>
+      # Completed on Sun Oct 27 18:38:02 2019
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Linux&#x4e0b;&#x7684;&#x7b56;&#x7565;&#x8def;&#x7531;" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
@@ -8526,8 +8897,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html>
 </richcontent>
 <node TEXT="&#x57df;&#x540d;&#x7ed1;&#x5b9a;" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9978,8 +10349,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="&#x6302;&#x8f7d;&#x6570;&#x636e;&#x76d8;&#x7684;fstab&#x7684;&#x914d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="&#x5f71;&#x54cd;&#x7684;&#x7ed3;&#x70b9;" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -12341,7 +12712,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 <node TEXT="Youhua&#x7684;WR1200JS&#x914d;&#x7f6e;" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
-<node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" FOLDED="true" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
+<node TEXT="&#x5b98;&#x65b9;&#x56fa;&#x4ef6;&#x5f00;&#x59cb;&#x5237;&#x673a;" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
 
 <html>
   <head>

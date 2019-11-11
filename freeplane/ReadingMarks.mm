@@ -4525,7 +4525,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="5.2&#x5185;&#x6838;&#x540c;&#x6b65;&#x6b66;&#x5668;" FOLDED="true" ID="ID_1368612385" CREATED="1382464118326" MODIFIED="1393244050123"><richcontent TYPE="NOTE">
+<node TEXT="5.2&#x5185;&#x6838;&#x540c;&#x6b65;&#x6b66;&#x5668;" ID="ID_1368612385" CREATED="1382464118326" MODIFIED="1393244050123"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4755,7 +4755,7 @@ END</pre>
 <node TEXT="Local Interrupt Disabling" ID="ID_447370414" CREATED="1382472763535" MODIFIED="1382472770415"/>
 <node TEXT="Disabling and Enabling Deferrable Functions" ID="ID_973213017" CREATED="1382472770794" MODIFIED="1382472789115"/>
 </node>
-<node TEXT="5.3&#x4f7f;&#x7528;&#x8fd9;&#x4e9b;&#x540c;&#x6b65;&#x5de5;&#x5177;&#x4fdd;&#x62a4;&#x5185;&#x6838;&#x6570;&#x636e;" FOLDED="true" ID="ID_1798772395" CREATED="1382733831947" MODIFIED="1383165708416"><richcontent TYPE="NOTE">
+<node TEXT="5.3&#x4f7f;&#x7528;&#x8fd9;&#x4e9b;&#x540c;&#x6b65;&#x5de5;&#x5177;&#x4fdd;&#x62a4;&#x5185;&#x6838;&#x6570;&#x636e;" ID="ID_1798772395" CREATED="1382733831947" MODIFIED="1383165708416"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5057,7 +5057,7 @@ END</pre>
 <node TEXT="6.5.&#x8f6f;&#x4ef6;&#x5b9a;&#x65f6;&#x5668;&#x548c;&#x5ef6;&#x65f6;&#x5904;&#x7406;" ID="ID_1897517863" CREATED="1383168245183" MODIFIED="1383168258697"/>
 <node TEXT="6.6.&#x8ddf;&#x65f6;&#x95f4;&#x8ba1;&#x91cf;&#x76f8;&#x5173;&#x7684;&#x7cfb;&#x7edf;&#x8c03;&#x7528;" ID="ID_1202684923" CREATED="1383168264239" MODIFIED="1383168276899"/>
 </node>
-<node TEXT="&#x7b2c;&#x516b;&#x7ae0;.&#x5185;&#x5b58;&#x7ba1;&#x7406;" FOLDED="true" ID="ID_394972281" CREATED="1394600339741" MODIFIED="1394718552772"><richcontent TYPE="NOTE">
+<node TEXT="&#x7b2c;&#x516b;&#x7ae0;.&#x5185;&#x5b58;&#x7ba1;&#x7406;" ID="ID_394972281" CREATED="1394600339741" MODIFIED="1394718552772"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5096,7 +5096,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x7b2c;&#x4e8c;&#x8282;.Memory Area&#x7ba1;&#x7406;" FOLDED="true" ID="ID_68485801" CREATED="1395751074944" MODIFIED="1398588522090"><richcontent TYPE="NOTE">
+<node TEXT="&#x7b2c;&#x4e8c;&#x8282;.Memory Area&#x7ba1;&#x7406;" ID="ID_68485801" CREATED="1395751074944" MODIFIED="1398588522090"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5238,7 +5238,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x7b2c;&#x4e5d;&#x7ae0;.&#x7528;&#x6237;&#x8fdb;&#x7a0b;&#x5730;&#x5740;&#x7a7a;&#x95f4;" FOLDED="true" ID="ID_953867700" CREATED="1398587805245" MODIFIED="1400927294391"><richcontent TYPE="NOTE">
+<node TEXT="&#x7b2c;&#x4e5d;&#x7ae0;.&#x7528;&#x6237;&#x8fdb;&#x7a0b;&#x5730;&#x5740;&#x7a7a;&#x95f4;" ID="ID_953867700" CREATED="1398587805245" MODIFIED="1400927294391"><richcontent TYPE="NOTE">
 
 <html>
   <head>
