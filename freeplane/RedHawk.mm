@@ -467,7 +467,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LogField定义" ID="ID_1294242055" CREATED="1583677323023" MODIFIED="1583820340842"><richcontent TYPE="NOTE">
@@ -584,7 +583,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1556,8 +1554,8 @@
 </node>
 </node>
 <node TEXT="Basic/Complex" ID="ID_1504691198" CREATED="1583907433121" MODIFIED="1584589099265">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1456230348" STARTINCLINATION="489;0;" ENDINCLINATION="489;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_208324624" STARTINCLINATION="492;0;" ENDINCLINATION="492;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1456230348" STARTINCLINATION="489;0;" ENDINCLINATION="489;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="数据信道" ID="ID_1563707068" CREATED="1583907476870" MODIFIED="1583907479346"/>
 <node TEXT="控制信道" ID="ID_1716275261" CREATED="1583907479639" MODIFIED="1583907481961"/>
 </node>
@@ -2103,8 +2101,8 @@
 </html>
 </richcontent>
 <node TEXT="LteRadioFlow" ID="ID_1293988609" CREATED="1584079950454" MODIFIED="1584080547190">
-<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1964881020" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_43543919" STARTINCLINATION="246;0;" ENDINCLINATION="246;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1964881020" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -2735,7 +2733,7 @@
 </node>
 </node>
 <node TEXT="carriers" ID="ID_375110176" CREATED="1584597022494" MODIFIED="1584597025289">
-<node ID="ID_1798300010" CREATED="1584596970213" MODIFIED="1584622450811"><richcontent TYPE="NODE">
+<node ID="ID_1798300010" CREATED="1584596970213" MODIFIED="1584946230575"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2826,6 +2824,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -4730,7 +4729,7 @@
 </node>
 </node>
 </node>
-<node TEXT="代码框架" POSITION="left" ID="ID_1913983001" CREATED="1583923624553" MODIFIED="1583924628545">
+<node TEXT="代码框架和运行机制" POSITION="left" ID="ID_1913983001" CREATED="1583923624553" MODIFIED="1584945875838" LINK="#ID_1558851922">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -4740,21 +4739,49 @@
   </head>
   <body>
     <p>
-      &#20351;&#29992;LTESimulator&#36825;&#20010;&#20223;&#30495;&#22120;&#26469;&#20102;&#35299;Redhawk&#20195;&#30721;&#30340;&#22823;&#33268;&#26694;&#26550;&#12290;
+      使用LTESimulator这个仿真器来了解Redhawk代码的大致框架。
     </p>
     <p>
       
     </p>
     <p>
-      &#20195;&#30721;&#20301;&#32622;:
+      代码位置:
     </p>
     <p>
-      <b><font color="#0000c0">src.redhawk.system.lte.LteSimulator.java</font></b>
+      <b><font color="#008000">src.redhawk.system.lte.LteSimulator.java</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      基于的RSD文件:
+    </p>
+    <p>
+      <b><font color="#008000">lte-ftp.rsd </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      RSD文件微调:
+    </p>
+    <p>
+      <font color="#0000c0"><b>Site=</b></font><b><font color="#ff0000">1</font><font color="#0000c0">, </font></b>
+    </p>
+    <p>
+      <b><font color="#0000c0">sectorPerSite=</font><font color="#ff0000">1</font><font color="#0000c0">, </font></b>
+    </p>
+    <p>
+      <b><font color="#0000c0">initialUser=</font><font color="#ff0000">1</font><font color="#0000c0">, </font></b>
+    </p>
+    <p>
+      <b><font color="#0000c0">userIntensity=</font><font color="#ff0000">0</font></b>
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="SimulatorBase" ID="ID_1958422729" CREATED="1583924517291" MODIFIED="1583924620161"><richcontent TYPE="NOTE">
+<richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4762,15 +4789,32 @@
   </head>
   <body>
     <p>
-      &#20301;&#32622;:
-    </p>
-    <p>
-      <b><font color="#0000c0">src.redhawk.system.lte.LteRadioBaseStation</font></b>
+      配置文件:<b><font color="#008000">lte-ftp.rsd</font></b>
     </p>
   </body>
 </html>
+
 </richcontent>
+<node TEXT="SimulatorBase" ID="ID_1958422729" CREATED="1583924517291" MODIFIED="1584945516225"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      位置:
+    </p>
+    <p>
+      <b><font color="#008000">src.redhawk.system.lte.LteRadioBaseStation</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="BasicLteManager" ID="ID_482373780" CREATED="1584946111566" MODIFIED="1584946121918">
 <node TEXT="LtePhysicalLayerManager" ID="ID_923050180" CREATED="1583923648309" MODIFIED="1583923670642"/>
+</node>
 </node>
 </node>
 </node>
