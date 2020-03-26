@@ -5806,8 +5806,304 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<node TEXT="相关LTE的Feature" ID="ID_1157409300" CREATED="1585031209994" MODIFIED="1585039940196">
+<node TEXT="Service Specific HARQ" ID="ID_572632552" CREATED="1585031240155" MODIFIED="1585036227513" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;ID=27110&amp;DB=73933-en_lzn7931040_r17g.alx&amp;fn=339_22104-LZA7016014_1Uen.AF.html"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature说的是可以将所有的bearer的优先级设置为UE中优先级最高的那个bear的优先级？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个feature跟TTI Bundling的关系是，如果是TTI bundling的配置的话，那么参数<font color="#0000c0">ulMaxHARQTx</font>的取值是使用的TTI bundling的参数<font color="#0000c0">ulTtiBundlingMaxHARQTx </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">Related</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Mission-Critical Push-to-Talk" ID="ID_31741443" CREATED="1585034424845" MODIFIED="1585036960080" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;ID=27110&amp;DB=73933-en_lzn7931040_r17g.alx&amp;fn=417_22104-LZA7016014_1Uen.AM10C.html"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">Related</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature跟TTI bundling之间的关系是下面的两个原先在TTI bundling中会更新的两个counter也会在这个feature里面被更新:
+    </p>
+    <p>
+      pmRlcSduEstLostUlVoipTtiBundling
+    </p>
+    <p>
+      pmRlcSduRecUlVoipTtiBundling
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="VoLTE Frequency Hopping" ID="ID_888278096" CREATED="1585035107310" MODIFIED="1585036759005" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;ID=27110&amp;DB=73933-en_lzn7931040_r17g.alx&amp;fn=138_22104-LZA7016014_1Uen.AE.html"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">Related</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature是对TTI Bundling功能的增强，它必须是在enable了TTI Bundling的UE上工作。
+    </p>
+    <p>
+      具体的操作是，在不开这个feature的时候，4个子帧占用的频域资源是完全一样的。但是开了这个feature之后，第一个和第三个子帧占用的频域资源跟DCI中指定的一样，第1子帧和第4子帧占用的频域资源是跟第1，3子帧关于中心频点对称。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Efficient DRX/DTX for Connected UE" ID="ID_975656462" CREATED="1585036961661" MODIFIED="1585037372526"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">Conflicting</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在TTI Bundling这个feature打开的时候，需要把DRX/DTX这个feature给关掉。这两个feature不能够共存。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Ericsson Lean Carrier" ID="ID_827441662" CREATED="1585037451905" MODIFIED="1585037588050"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">Conflicting</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在TTI Bundling这个feature打开的时候，Ericsson Lean Carrier这个feature的gain会降低。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      但是feature描述里面没有提到为什么gain会降低。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Uplink Carrier Aggregation" ID="ID_111564838" CREATED="1585037614160" MODIFIED="1585039648376" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;ID=27110&amp;DB=73933-en_lzn7931040_r17g.alx&amp;fn=172_22104-LZA7016014_1Uen.BJ10B.html"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">Conflicting</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这两个feature不能够同时配置，这是在RRC协议中规定的。
+    </p>
+    <p>
+      所以在两个feature同时enable的时候，在同一个时刻，只能是有一个feature工作。当信道条件好的时候，会激活上行载波聚合，同时关闭TTI Bundling。
+    </p>
+    <p>
+      当信道质量差需要激活TTI Bundling的时候，会同时关闭上行的载波聚合(但是不影响下行的载波聚合功能)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Uplink Frequency-Selective Scheduling" ID="ID_1114281277" CREATED="1585040836168" MODIFIED="1585040894641" LINK="http://cpistore.internal.ericsson.com/alexserv?DB=73933-en_lzn7931040_r17g.alx&amp;AC=LINKEXT&amp;ID=27110&amp;FN=96_22104-LZA7016014_1Uen.AJ.html&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=FULLTEXT#SearchMatch1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这两个feature是互斥的，频率选择性调度不在使能TTI bundling的UE上使用。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Service Specific DRX" ID="ID_851716950" CREATED="1585040931687" MODIFIED="1585041014318" LINK="http://cpistore.internal.ericsson.com/alexserv?DB=73933-en_lzn7931040_r17g.alx&amp;AC=LINKEXT&amp;ID=27110&amp;FN=95_22104-LZA7016014_1Uen.AJ10B.html&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=FULLTEXT#SearchMatch1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The TTI Bundling feature is only used for UEs that are using a VoIP service. When TTI Bundling feature is activated, the Disable DRX in Poor Radio Frequency function does not take effect for VoIP service.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Non-Planned PCI Range" ID="ID_1961626398" CREATED="1585041130970" MODIFIED="1585041157594" LINK="http://cpistore.internal.ericsson.com/alexserv?DB=73933-en_lzn7931040_r17g.alx&amp;AC=LINKEXT&amp;ID=27110&amp;FN=226_22104-LZA7016014_1Uen.AJ.html&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=FULLTEXT#SearchMatch1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      似乎是有些参数会在TTI bundling的配置下被覆盖掉。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="High Power UE" ID="ID_1332396335" CREATED="1585041242752" MODIFIED="1585041329389" LINK="http://cpistore.internal.ericsson.com/alexserv?DB=73933-en_lzn7931040_r17g.alx&amp;AC=LINKEXT&amp;ID=27110&amp;FN=346_22104-LZA7016014_1Uen.AZ10B.html&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=FULLTEXT#SearchMatch1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature跟TTI bundling的关系其实是和上行载波聚合功能相关。
+    </p>
+    <p>
+      用户允许的最大的发射功率在TTI bundling打开和上行载波聚合功能打开时，不同的场景下是不一样的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Elastic RAN Uplink Coordinated Multi-Point Reception" ID="ID_490723653" CREATED="1585041375092" MODIFIED="1585041465465" LINK="http://cpistore.internal.ericsson.com/alexserv?DB=73933-en_lzn7931040_r17g.alx&amp;AC=LINKEXT&amp;ID=27110&amp;FN=394_22104-LZA7016014_1Uen.AG10C.html&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=FULLTEXT#SearchMatch1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature在选择target用户的时候会优先选择TTI Bundling打开的UE
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="相关NR的Feature" ID="ID_1336842328" CREATED="1585039927279" MODIFIED="1585039936188">
+<node TEXT="Basic Intelligent Connectivity" ID="ID_1544681568" CREATED="1585039944170" MODIFIED="1585039984779" LINK="http://cpistore.internal.ericsson.com/alexserv?DB=73929-en_lzn7931060_r6g.alx&amp;AC=LINKEXT&amp;ID=16971&amp;FN=369_22104-LZA7016014_1Uen.BU10F.html&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=FULLTEXT#SearchMatch1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这两个feature是互相冲突的
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Instant Uplink Access" ID="ID_1182622945" CREATED="1585040046954" MODIFIED="1585040081272" LINK="cpistore.internal.ericsson.com/alexserv?DB=73929-en_lzn7931060_r6g.alx&amp;AC=LINKEXT&amp;ID=16971&amp;FN=426_22104-LZA7016014_1Uen.E10B.html&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=FULLTEXT#SearchMatch1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这两个feature也是冲突的，在TTI Bundling打开的情况下，这个feature不可以激活。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -6565,8 +6861,8 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -7843,8 +8139,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>

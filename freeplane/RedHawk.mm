@@ -1554,8 +1554,8 @@
 </node>
 </node>
 <node TEXT="Basic/Complex" ID="ID_1504691198" CREATED="1583907433121" MODIFIED="1584589099265">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_208324624" STARTINCLINATION="492;0;" ENDINCLINATION="492;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1456230348" STARTINCLINATION="489;0;" ENDINCLINATION="489;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_208324624" STARTINCLINATION="492;0;" ENDINCLINATION="492;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="数据信道" ID="ID_1563707068" CREATED="1583907476870" MODIFIED="1583907479346"/>
 <node TEXT="控制信道" ID="ID_1716275261" CREATED="1583907479639" MODIFIED="1583907481961"/>
 </node>
@@ -2101,8 +2101,8 @@
 </html>
 </richcontent>
 <node TEXT="LteRadioFlow" ID="ID_1293988609" CREATED="1584079950454" MODIFIED="1584080547190">
-<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_43543919" STARTINCLINATION="246;0;" ENDINCLINATION="246;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1964881020" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_43543919" STARTINCLINATION="246;0;" ENDINCLINATION="246;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -2824,7 +2824,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4779,7 +4778,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -4793,9 +4791,22 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node ID="ID_1958422729" CREATED="1583924517291" MODIFIED="1585014986850"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">SimulatorBase</font></b>
+    </p>
+  </body>
+</html>
 
 </richcontent>
-<node TEXT="SimulatorBase" ID="ID_1958422729" CREATED="1583924517291" MODIFIED="1584945516225"><richcontent TYPE="NOTE">
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4806,14 +4817,805 @@
       位置:
     </p>
     <p>
-      <b><font color="#008000">src.redhawk.system.lte.LteRadioBaseStation</font></b>
+      <b><font color="#008000">src.redhawk.core.SimulatorBase.java </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个类被<font color="#0000c0">simulator</font>类继承，<font color="#0000c0">simulator</font>类又继续被<font color="#0000c0">RadioNetworkSimulator</font>类继承，而<font color="#0000c0">RadioNetworkSimulator</font>类最终又被<font color="#0000c0">LteSimulator</font>类给继承。
     </p>
   </body>
 </html>
 
 </richcontent>
-<node TEXT="BasicLteManager" ID="ID_482373780" CREATED="1584946111566" MODIFIED="1584946121918">
-<node TEXT="LtePhysicalLayerManager" ID="ID_923050180" CREATED="1583923648309" MODIFIED="1583923670642"/>
+<node ID="ID_27606513" CREATED="1584976472163" MODIFIED="1585014315889"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">main()</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_482373780" CREATED="1584946111566" MODIFIED="1585014333230"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">BasicLteManager</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_923050180" CREATED="1583923648309" MODIFIED="1585014340601"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">LtePhysicalLayerManager</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_983981595" CREATED="1584976562008" MODIFIED="1585014305151"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">expire()</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_920980133" CREATED="1584976631308" MODIFIED="1585014461928"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      执行<b><font color="#0000c0">endsubframe()</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      后续的子节点中的所有的类，都实现了endsubframe()方法，在这一步，所有后续列出来的子节点中的类都会执行自己的endsubframe()方法。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="measurement" ID="ID_1684390775" CREATED="1584976875622" MODIFIED="1584976878664">
+<node ID="ID_356198997" CREATED="1584976899764" MODIFIED="1585016774078"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">uplinkInterferenceEstimator</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.radioNetwork.bases[0].logicalCells[0].uplinkInterferenceEstimator
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="cellSoundingEstimator" ID="ID_1124800175" CREATED="1584976928350" MODIFIED="1585016790942"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.radioNetwork.bases[0].logicalCells[0].cellSoundingEstimator
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="cellQualityEstimator" ID="ID_1721870965" CREATED="1584976949633" MODIFIED="1584976968968"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.carrierMeasurementContainers[0].cellQualityEstimator
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="radioLinkMonitoring" ID="ID_247621451" CREATED="1584976972396" MODIFIED="1584976995587"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].radioLinkMonitoring
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="sounding" ID="ID_312102797" CREATED="1584976996908" MODIFIED="1584977009591"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.sounding
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="downlinkEstimationChannel" ID="ID_412539315" CREATED="1584977025649" MODIFIED="1584977040765"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkEstimationChannel
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="downlinkPathLossEstimator" ID="ID_1183281835" CREATED="1584977042246" MODIFIED="1584977077237"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].downlinkPathLossEstimator
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="pdcch" ID="ID_153037401" CREATED="1584976879126" MODIFIED="1584976880772">
+<node TEXT="ePdcch" ID="ID_1445236832" CREATED="1584977077985" MODIFIED="1584977093422"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.ePdcch
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="downlinkPdcch" ID="ID_1656903558" CREATED="1584977098694" MODIFIED="1584977114975"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.downlinkPdcch
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="uplinkPdcch" ID="ID_1763587579" CREATED="1584977116042" MODIFIED="1584977136178"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.uplinkPdcch
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="other" ID="ID_249496753" CREATED="1584976881375" MODIFIED="1584976882892">
+<node TEXT="pusch" ID="ID_1436281061" CREATED="1584977137924" MODIFIED="1584977156077"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.pusch
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="pucch" ID="ID_547748448" CREATED="1584977157675" MODIFIED="1584977187467"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.pucch
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="rach" ID="ID_1480848206" CREATED="1584977188486" MODIFIED="1584977193484"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.rach
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="pdsch" ID="ID_152401794" CREATED="1584977216565" MODIFIED="1584977244722"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.pdsch
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="phich" ID="ID_693698668" CREATED="1584977246135" MODIFIED="1584977263896"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.phich
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1485265961" CREATED="1584976643545" MODIFIED="1585014267060"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      轮询<b><font color="#0000c0">runners</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      轮询所有的runners，并且执行其中的run()方法
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="LteRadioBaseStation" ID="ID_566321548" CREATED="1584977287195" MODIFIED="1585014058080"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.system.lte.LteRadioBaseStation
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="LteUplinkInterferenceEstimator" ID="ID_949583054" CREATED="1584977303425" MODIFIED="1585014065684"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.radio.lte.channelqualityestimation.LteUplinkInterferenceEstimator
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SubframeAllocation" ID="ID_278718870" CREATED="1584977323916" MODIFIED="1585014070637"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.protocol.mac.lte.SubframeAllocation
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SubframeAllocation" ID="ID_1643402591" CREATED="1584977335990" MODIFIED="1585014076628"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.protocol.mac.lte.SubframeAllocation
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ErSchedulerHandler" ID="ID_1172676261" CREATED="1584977346712" MODIFIED="1585014080334"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.system.lte.ErSchedulerHandler
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="LteSimplisticRsrpAndRsrqHandler" ID="ID_1575515136" CREATED="1584977356347" MODIFIED="1585014086201"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.protocol.rrc.lte.ho.LteSimplisticRsrpAndRsrqHandler
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="BasicCqiTimingHandler" ID="ID_442090197" CREATED="1584977365914" MODIFIED="1585014092240"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.protocol.mac.lte.cqi.BasicCqiTimingHandler
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="UplinkFeedbackHandler" ID="ID_588274549" CREATED="1584977374549" MODIFIED="1585014096859"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.radio.lte.channelcontainer.UplinkFeedbackHandler
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="LteUplinkTerminalPowerControl" ID="ID_1363659199" CREATED="1584977383205" MODIFIED="1585014102587"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.radio.lte.powercontrol.LteUplinkTerminalPowerControl
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="LteUplinkTransmissionStateHandler" ID="ID_827424742" CREATED="1584977394128" MODIFIED="1585014105960"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.radio.lte.channelcontainer.LteUplinkTransmissionStateHandler
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="LteUplinkChannelQualityEstimator" ID="ID_1671866658" CREATED="1584977419290" MODIFIED="1585014111896"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk.radio.lte.channelqualityestimation.LteUplinkChannelQualityEstimator
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_856075817" CREATED="1584976651722" MODIFIED="1585014280859"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">subframe++</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_698443319" CREATED="1584976657116" MODIFIED="1585014671139"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      执行<b><font color="#0000c0">beginsubframe()</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      后续的子节点中的所有的类，都实现了<font color="#0000c0">beginsubframe()</font>方法，在这一步，所有后续列出来的子节点中的类都会执行自己的<font color="#0000c0">beginsubframe()</font>方法。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="PDCCH_List" ID="ID_25414009" CREATED="1584977444853" MODIFIED="1584977505663">
+<node TEXT="ePdcch" ID="ID_1843093231" CREATED="1584977463162" MODIFIED="1585014119635"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.ePdcch
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="downlinkPdcch" ID="ID_604321362" CREATED="1584977476436" MODIFIED="1585014125236"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.downlinkPdcch
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="uplinkPdcch" ID="ID_1926557621" CREATED="1584977487400" MODIFIED="1585014174414"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.uplinkPdcch
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Other" ID="ID_1331713888" CREATED="1584977506299" MODIFIED="1584977509527">
+<node TEXT="pusch" ID="ID_986884119" CREATED="1584977517827" MODIFIED="1585014131372"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.pusch
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="pucch" ID="ID_301441616" CREATED="1584977526713" MODIFIED="1585014138136"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.pucch
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="rach" ID="ID_713317225" CREATED="1584977536107" MODIFIED="1585014143785"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.rach
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="pdsch" ID="ID_1673575746" CREATED="1584977543830" MODIFIED="1585014150498"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.pdsch
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="phich" ID="ID_670336548" CREATED="1584977551264" MODIFIED="1585014157173"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkChannelContainer.phich
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Measurement" ID="ID_650914517" CREATED="1584977554078" MODIFIED="1584977557256">
+<node TEXT="uplinkInterferenceEstimator" ID="ID_575741178" CREATED="1584977564695" MODIFIED="1585014164947"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.radioNetwork.bases[0].logicalCells[0].uplinkInterferenceEstimator
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="cellSoundingEstimator" ID="ID_1628799637" CREATED="1584977573049" MODIFIED="1585014183459"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.radioNetwork.bases[0].logicalCells[0].cellSoundingEstimator
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="cellQualityEstimator" ID="ID_921531945" CREATED="1584977581979" MODIFIED="1585014189419"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.carrierMeasurementContainers[0].cellQualityEstimator
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="radioLinkMonitoring" ID="ID_1687485639" CREATED="1584977589507" MODIFIED="1585014197019"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].radioLinkMonitoring
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="sounding" ID="ID_1264975690" CREATED="1584977596653" MODIFIED="1585014202624"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].uplinkChannelContainer.sounding
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="downlinkEstimationChannel" ID="ID_558741329" CREATED="1584977610873" MODIFIED="1585014209195"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkEstimationChannel
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="downlinkPathLossEstimator" ID="ID_835595304" CREATED="1584977627338" MODIFIED="1585014214134"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].downlinkPathLossEstimator
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>

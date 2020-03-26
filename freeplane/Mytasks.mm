@@ -2788,7 +2788,7 @@
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="物理世界与数字文档的交互" ID="ID_1982782125" CREATED="1584340930997" MODIFIED="1584341984328">
+<node TEXT="物理世界与数字文档的交互" FOLDED="true" ID="ID_1982782125" CREATED="1584340930997" MODIFIED="1584341984328">
 <icon BUILTIN="info"/>
 <richcontent TYPE="NOTE">
 
@@ -3664,7 +3664,7 @@
 </node>
 <node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
 <icon BUILTIN="list"/>
-<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1583992078422">
+<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1585036465461">
 <icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
@@ -3675,14 +3675,44 @@
   </head>
   <body>
     <p>
-      &#20102;&#35299;&#19968;&#19979;&#22914;&#20309;&#33719;&#21462;ipv6&#22320;&#22336;
+      了解一下如何获取ipv6地址
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="商业保险需要更新子女的信息" ID="ID_1716827525" CREATED="1583977202388" MODIFIED="1583977215839">
+<node TEXT="商业保险需要更新子女的信息" ID="ID_1716827525" CREATED="1583977202388" MODIFIED="1585036463470">
 <icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      已经完成！
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="*relative/absolute hyperlink之间互相转换的脚本" ID="ID_698348921" CREATED="1585036466863" MODIFIED="1585036660415"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      有时候需要将freeplane文件和其附件拷贝到其他地方使用，但是freeplane中已经有了大量的保存为绝对路径的链接。这时候如果能够将这些链接转变为相对路径，那么将freeplane和附件拷贝到其他地方之后，也能够完全无障碍的使用。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="System Improvements" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
