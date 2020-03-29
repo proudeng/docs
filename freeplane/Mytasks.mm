@@ -3501,6 +3501,21 @@
 <node TEXT="了解一下Redhawk中的mainloop结构" ID="ID_1342779987" CREATED="1583827001974" MODIFIED="1583827027793">
 <icon BUILTIN="yes"/>
 </node>
+<node TEXT="*了解一下debug的技巧" ID="ID_1723921092" CREATED="1585466642777" MODIFIED="1585466702631"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk的执行过程比较的复杂，需要找到一些好的技巧来更好的梳理redhawk的执行过程
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
@@ -3679,7 +3694,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="商业保险需要更新子女的信息" ID="ID_1716827525" CREATED="1583977202388" MODIFIED="1585036463470">
@@ -3696,7 +3710,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="*relative/absolute hyperlink之间互相转换的脚本" ID="ID_698348921" CREATED="1585036466863" MODIFIED="1585036660415"><richcontent TYPE="NOTE">
@@ -3711,7 +3724,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -2101,8 +2101,8 @@
 </html>
 </richcontent>
 <node TEXT="LteRadioFlow" ID="ID_1293988609" CREATED="1584079950454" MODIFIED="1584080547190">
-<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_43543919" STARTINCLINATION="246;0;" ENDINCLINATION="246;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1964881020" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_43543919" STARTINCLINATION="246;0;" ENDINCLINATION="246;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -4754,7 +4754,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -4768,7 +4767,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_952245432" CREATED="1585273177473" MODIFIED="1585273273442"><richcontent TYPE="NODE">
 
@@ -4782,7 +4780,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -4817,7 +4814,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1958422729" CREATED="1583924517291" MODIFIED="1585014986850"><richcontent TYPE="NODE">
 
@@ -4895,7 +4891,7 @@
   </body>
 </html>
 </richcontent>
-<node FOLDED="true" ID="ID_983981595" CREATED="1584976562008" MODIFIED="1585014305151"><richcontent TYPE="NODE">
+<node ID="ID_983981595" CREATED="1584976562008" MODIFIED="1585014305151"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5618,7 +5614,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5662,7 +5657,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_856552704" CREATED="1584946111566" MODIFIED="1585014333230"><richcontent TYPE="NODE">
 
@@ -5742,7 +5736,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5769,7 +5762,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1720713078" CREATED="1584976928350" MODIFIED="1585280272153"><richcontent TYPE="NODE">
@@ -5784,7 +5776,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5811,7 +5802,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1653039306" CREATED="1584976949633" MODIFIED="1585280281021"><richcontent TYPE="NODE">
@@ -5826,7 +5816,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5853,7 +5842,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1419371241" CREATED="1584976972396" MODIFIED="1585280289003"><richcontent TYPE="NODE">
@@ -5868,7 +5856,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5895,7 +5882,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1146444208" CREATED="1584976996908" MODIFIED="1585280294927"><richcontent TYPE="NODE">
@@ -5910,7 +5896,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5937,7 +5922,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_506732766" CREATED="1584977025649" MODIFIED="1585280301282"><richcontent TYPE="NODE">
@@ -5952,7 +5936,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5979,7 +5962,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1998297319" CREATED="1584977042246" MODIFIED="1585280307236"><richcontent TYPE="NODE">
@@ -5994,7 +5976,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6021,7 +6002,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6038,7 +6018,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pdcch[sib20-0]" ID="ID_321014471" CREATED="1585276058942" MODIFIED="1585276091978"><richcontent TYPE="DETAILS">
@@ -6053,7 +6032,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ePdcch" ID="ID_1562334151" CREATED="1584977077985" MODIFIED="1585276113674"><richcontent TYPE="NOTE">
@@ -6081,7 +6059,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="downlinkPdcch" ID="ID_398059184" CREATED="1584977098694" MODIFIED="1585276118528"><richcontent TYPE="NOTE">
@@ -6109,7 +6086,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="uplinkPdcch" ID="ID_1852349054" CREATED="1584977116042" MODIFIED="1585276123144"><richcontent TYPE="NOTE">
@@ -6137,7 +6113,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6154,7 +6129,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pdsch[sib20-0]" ID="ID_1744722905" CREATED="1585276170066" MODIFIED="1585276197157"><richcontent TYPE="DETAILS">
@@ -6169,7 +6143,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pusch" ID="ID_1228224627" CREATED="1584977137924" MODIFIED="1585276235459"><richcontent TYPE="NOTE">
@@ -6197,7 +6170,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pucch" ID="ID_1459081016" CREATED="1584977157675" MODIFIED="1585276240056"><richcontent TYPE="NOTE">
@@ -6225,7 +6197,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="rach" ID="ID_1983159922" CREATED="1584977188486" MODIFIED="1585276244731"><richcontent TYPE="NOTE">
@@ -6253,7 +6224,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pdsch" ID="ID_1214711350" CREATED="1584977216565" MODIFIED="1585276249058"><richcontent TYPE="NOTE">
@@ -6281,7 +6251,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phich" ID="ID_1086578281" CREATED="1584977246135" MODIFIED="1585276253965"><richcontent TYPE="NOTE">
@@ -6309,12 +6278,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node FOLDED="true" ID="ID_431044076" CREATED="1584976643545" MODIFIED="1585277121428"><richcontent TYPE="NODE">
+<node ID="ID_431044076" CREATED="1584976643545" MODIFIED="1585277121428"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -6326,7 +6294,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6353,7 +6320,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6367,7 +6333,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteRanUplinkInterferenceEstimatorAlg1" ID="ID_363706639" CREATED="1585276577216" MODIFIED="1585277010098"><richcontent TYPE="NOTE">
@@ -6382,7 +6347,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6396,7 +6360,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteRanSingleCarrierPowerControlAlg1" ID="ID_805388524" CREATED="1585276634016" MODIFIED="1585276648117"><richcontent TYPE="NOTE">
@@ -6411,7 +6374,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteRadioBaseStation" ID="ID_1116830951" CREATED="1585276659921" MODIFIED="1585276669594"><richcontent TYPE="NOTE">
@@ -6426,7 +6388,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteRanMultiCellSchedulerHandler" ID="ID_1556728864" CREATED="1585276677568" MODIFIED="1585276686788"><richcontent TYPE="NOTE">
@@ -6441,7 +6402,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteDetailedRsrpAndRsrqHandler" ID="ID_1018376465" CREATED="1585276705121" MODIFIED="1585276736699"><richcontent TYPE="NOTE">
@@ -6456,7 +6416,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6470,7 +6429,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="BasicCqiTimingHandler" ID="ID_986147145" CREATED="1585276775105" MODIFIED="1585276795995"><richcontent TYPE="NOTE">
@@ -6485,7 +6443,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6499,7 +6456,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="UplinkFeedbackHandler" ID="ID_1118563801" CREATED="1585276805041" MODIFIED="1585276827297"><richcontent TYPE="NOTE">
@@ -6514,7 +6470,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6528,7 +6483,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteUplinkTransmissionStateHandler" ID="ID_1249124879" CREATED="1585276901009" MODIFIED="1585276916587"><richcontent TYPE="DETAILS">
@@ -6543,7 +6497,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteRanUplinkChannelQualityEstimatorAlg2" ID="ID_1803520854" CREATED="1585276951265" MODIFIED="1585276977396"><richcontent TYPE="NOTE">
@@ -6558,7 +6511,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6572,7 +6524,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6629,7 +6580,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6643,7 +6593,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pdcch[sib20-0]" ID="ID_764762087" CREATED="1585277151309" MODIFIED="1585277667637"><richcontent TYPE="DETAILS">
@@ -6658,7 +6607,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6672,7 +6620,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ePdcch" ID="ID_853382026" CREATED="1584977463162" MODIFIED="1585277698558"><richcontent TYPE="NOTE">
@@ -6687,7 +6634,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6701,7 +6647,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="downlinkPdcch" ID="ID_1384348613" CREATED="1584977476436" MODIFIED="1585277707133"><richcontent TYPE="NOTE">
@@ -6716,7 +6661,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6730,7 +6674,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="uplinkPdcch" ID="ID_294612548" CREATED="1584977487400" MODIFIED="1585277729342"><richcontent TYPE="NOTE">
@@ -6745,7 +6688,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6759,7 +6701,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6776,7 +6717,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6790,7 +6730,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pdsch[sib20-0]" ID="ID_487169397" CREATED="1585277234562" MODIFIED="1585277744829"><richcontent TYPE="DETAILS">
@@ -6805,7 +6744,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6819,7 +6757,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pusch" ID="ID_967837595" CREATED="1584977517827" MODIFIED="1585277776294"><richcontent TYPE="NOTE">
@@ -6834,7 +6771,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6848,7 +6784,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pucch" ID="ID_1099381372" CREATED="1584977526713" MODIFIED="1585277787985"><richcontent TYPE="NOTE">
@@ -6863,7 +6798,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6877,7 +6811,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="rach" ID="ID_705094313" CREATED="1584977536107" MODIFIED="1585277792729"><richcontent TYPE="NOTE">
@@ -6892,7 +6825,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6906,7 +6838,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pdsch" ID="ID_1099325448" CREATED="1584977543830" MODIFIED="1585277810927"><richcontent TYPE="NOTE">
@@ -6921,7 +6852,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6935,7 +6865,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phich" ID="ID_1249155353" CREATED="1584977551264" MODIFIED="1585277821385"><richcontent TYPE="NOTE">
@@ -6950,7 +6879,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6964,7 +6892,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6994,7 +6921,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cellSoundingEstimator" ID="ID_331594352" CREATED="1584977573049" MODIFIED="1585277407959"><richcontent TYPE="NOTE">
@@ -7022,7 +6948,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cellQualityEstimator" ID="ID_1378900072" CREATED="1584977581979" MODIFIED="1585277897474"><richcontent TYPE="NOTE">
@@ -7037,7 +6962,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -7051,7 +6975,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="radioLinkMonitoring" ID="ID_1041200848" CREATED="1584977589507" MODIFIED="1585277901085"><richcontent TYPE="NOTE">
@@ -7066,7 +6989,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -7080,7 +7002,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="sounding" ID="ID_491465456" CREATED="1584977596653" MODIFIED="1585277922174"><richcontent TYPE="NOTE">
@@ -7095,7 +7016,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -7109,7 +7029,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="downlinkEstimationChannel" ID="ID_313474186" CREATED="1584977610873" MODIFIED="1585277941124"><richcontent TYPE="NOTE">
@@ -7124,7 +7043,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -7138,7 +7056,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="downlinkPathLossEstimator" ID="ID_693582519" CREATED="1584977627338" MODIFIED="1585277959640"><richcontent TYPE="NOTE">
@@ -7153,7 +7070,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -7167,7 +7083,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7184,7 +7099,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -7198,7 +7112,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
