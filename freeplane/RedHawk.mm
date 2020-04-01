@@ -2101,8 +2101,8 @@
 </html>
 </richcontent>
 <node TEXT="LteRadioFlow" ID="ID_1293988609" CREATED="1584079950454" MODIFIED="1584080547190">
-<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1964881020" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_43543919" STARTINCLINATION="246;0;" ENDINCLINATION="246;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="LINE" COLOR="#000099" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1964881020" STARTINCLINATION="250;0;" ENDINCLINATION="250;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -5723,8 +5723,8 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="measurement" ID="ID_1498769704" CREATED="1584976875622" MODIFIED="1584976878664">
-<node ID="ID_1296960304" CREATED="1584976899764" MODIFIED="1585280204355"><richcontent TYPE="NODE">
+<node TEXT="measurement" ID="ID_1498769704" CREATED="1584976875622" MODIFIED="1585751031113">
+<node ID="ID_1296960304" CREATED="1584976899764" MODIFIED="1585748643477"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5745,10 +5745,23 @@
   </head>
   <body>
     <p>
-      sim.radioNetwork.bases[0].logicalCells[0].uplinkInterferenceEstimator
+      <font color="#ff0000">Tag: </font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>sim.radioNetwork.bases[0].logicalCells[0].uplinkInterferenceEstimator</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">Class: </font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>redhawk.radio.lte.basic.BasicUplinkTotalReceivedPowerEstimator</b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -5758,11 +5771,44 @@
   </head>
   <body>
     <p>
-      <font color="#0000c0">perLogicalChannal</font>
+      <font color="#0000c0">perLogicalCell</font>
     </p>
   </body>
 </html>
+
 </richcontent>
+<node TEXT="功能" ID="ID_70308234" CREATED="1585748650639" MODIFIED="1585750871417">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      计算出整个带宽上的接收功率，以及干扰和噪声的矩阵，
+    </p>
+    <p>
+      将这些信息传递给所有的<font color="#0000c0">UplinkTotalReceivedPowerMeasurementResultListener</font>，并执行他们的<font color="#0000c0">processResult</font>()方法。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      如何查看那些对象注册成为了listenser？
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node ID="ID_1720713078" CREATED="1584976928350" MODIFIED="1585280272153"><richcontent TYPE="NODE">
 
@@ -5804,7 +5850,7 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_1653039306" CREATED="1584976949633" MODIFIED="1585280281021"><richcontent TYPE="NODE">
+<node ID="ID_1653039306" CREATED="1584976949633" MODIFIED="1585752004818"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5825,10 +5871,23 @@
   </head>
   <body>
     <p>
-      sim.usertype[ftp].users[0].radio.carrierMeasurementContainers[0].cellQualityEstimator
+      <font color="#ff0000">Tag: </font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>sim.usertype[ftp].users[0].radio.carrierMeasurementContainers[0].cellQualityEstimator </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">Class:</font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>redhawk.radio.lte.basic.BasicCellQualityEstimator</b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -5843,8 +5902,32 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="功能" ID="ID_548207592" CREATED="1585751970723" MODIFIED="1585752055415"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      估计RSRP和RSSI的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      没有来得及仔细看这个对象，这是每一个UE计算下行的RSRP和RSSI的函数吗？
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node ID="ID_1419371241" CREATED="1584976972396" MODIFIED="1585280289003"><richcontent TYPE="NODE">
+</node>
+<node ID="ID_1419371241" CREATED="1584976972396" MODIFIED="1585752119567"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5865,10 +5948,23 @@
   </head>
   <body>
     <p>
-      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].radioLinkMonitoring
+      <font color="#ff0000">Tag: </font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].radioLinkMonitoring </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">Class; </font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>redhawk.protocol.rrc.lte.ho.LteRadioLinkMonitoring</b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -5924,7 +6020,7 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_506732766" CREATED="1584977025649" MODIFIED="1585280301282"><richcontent TYPE="NODE">
+<node ID="ID_506732766" CREATED="1584977025649" MODIFIED="1585753175786"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5945,10 +6041,23 @@
   </head>
   <body>
     <p>
-      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkEstimationChannel
+      <font color="#ff0000">Tag: </font>
+    </p>
+    <p>
+      <b><font color="#0000c0">sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].downlinkCellContainers[0].downlinkEstimationChannel</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">Class: </font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>redhawk.radio.lte.basic.BasicDownlinkQualityEstimator</b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -5963,8 +6072,32 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="功能" ID="ID_350654204" CREATED="1585752705123" MODIFIED="1585752740550"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      每一个UE估计下行信道的质量？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      基本没有看这个类
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node ID="ID_1998297319" CREATED="1584977042246" MODIFIED="1585280307236"><richcontent TYPE="NODE">
+</node>
+<node ID="ID_1998297319" CREATED="1584977042246" MODIFIED="1585752974678"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5976,6 +6109,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -5985,10 +6119,23 @@
   </head>
   <body>
     <p>
-      sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].downlinkPathLossEstimator
+      <font color="#ff0000">Tag:</font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>sim.usertype[ftp].users[0].radio.lowerLayerConnections[Master].uplinkCellContainers[0].downlinkPathLossEstimator </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">Class:</font>
+    </p>
+    <p>
+      <font color="#0000c0"><b>redhawk.radio.lte.basic.BasicNbIotDownlinkPathLossEstimator</b></font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6003,6 +6150,21 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="功能" ID="ID_1646875659" CREATED="1585753178340" MODIFIED="1585753230893"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      每一个UE计算下行路损，并将下行路损的值传递给所有的<font color="#0000c0">DownlinkPathLossMeasurementResultListener</font>去执行<font color="#0000c0">processResult</font>()
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="pdcch" ID="ID_1130768025" CREATED="1584976879126" MODIFIED="1584976880772">
