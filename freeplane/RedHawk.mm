@@ -79,7 +79,7 @@
 </richcontent>
 <node TEXT="Courses" POSITION="right" ID="ID_262933358" CREATED="1573697880235" MODIFIED="1573697884790">
 <edge COLOR="#ff0000"/>
-<node TEXT="RedHawk Core" ID="ID_784514335" CREATED="1573697899394" MODIFIED="1574649255030">
+<node TEXT="RedHawk Core" FOLDED="true" ID="ID_784514335" CREATED="1573697899394" MODIFIED="1574649255030">
 <icon BUILTIN="bookmark"/>
 <node TEXT="Block and Block Models" ID="ID_229264009" CREATED="1573697928470" MODIFIED="1573787470386"><richcontent TYPE="NOTE">
 
@@ -1295,7 +1295,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="NR/LTE L1" ID="ID_1747543050" CREATED="1574403848812" MODIFIED="1574403856158">
+<node TEXT="NR/LTE L1" FOLDED="true" ID="ID_1747543050" CREATED="1574403848812" MODIFIED="1574403856158">
 <node TEXT="L1整体架构" ID="ID_1368866762" CREATED="1583892301438" MODIFIED="1583892350088" LINK="../attachment/RedhawkL1.jpg"/>
 <node TEXT="主要软件类" ID="ID_1783382509" CREATED="1583894600773" MODIFIED="1583894679034">
 <node TEXT="redhawk.radio.lte" ID="ID_925758238" CREATED="1583894609637" MODIFIED="1584591954801" LINK="../OneNote/MajorBlockinRedhawkL1.one"><richcontent TYPE="NOTE">
@@ -2085,8 +2085,8 @@
 </html>
 </richcontent>
 <node TEXT="LteConnection" ID="ID_1067351280" CREATED="1584079945832" MODIFIED="1584080533674">
-<arrowlink SHAPE="LINE" COLOR="#ff6600" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_34104870" STARTINCLINATION="241;0;" ENDINCLINATION="241;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="LINE" COLOR="#ff6600" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1425831628" STARTINCLINATION="245;0;" ENDINCLINATION="245;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="LINE" COLOR="#ff6600" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_34104870" STARTINCLINATION="241;0;" ENDINCLINATION="241;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -2209,7 +2209,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="将调度器的接口函数注册到SubframeTimer中" ID="ID_332116729" CREATED="1584090518976" MODIFIED="1584090873951">
+<node TEXT="将调度器的接口函数注册到SubframeTimer中" ID="ID_332116729" CREATED="1584090518976" MODIFIED="1585796063857">
 <icon BUILTIN="PalmIcons/cSeries/NumbersDark/Dark-5-"/>
 <richcontent TYPE="NOTE">
 
@@ -2233,7 +2233,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_495825982" CREATED="1584090915834" MODIFIED="1584090974915"><richcontent TYPE="NODE">
+<node ID="ID_495825982" CREATED="1584090915834" MODIFIED="1585796063857"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2316,7 +2316,7 @@
 </node>
 </node>
 <node TEXT="JUnit Testing" ID="ID_134631130" CREATED="1574403863041" MODIFIED="1574403867677"/>
-<node TEXT="RSD-files in Redhawk" ID="ID_636815161" CREATED="1574649114672" MODIFIED="1574649127272">
+<node TEXT="RSD-files in Redhawk" FOLDED="true" ID="ID_636815161" CREATED="1574649114672" MODIFIED="1574649127272">
 <node TEXT="RSD作用" ID="ID_1231048700" CREATED="1583592379749" MODIFIED="1583592386814">
 <node TEXT="使用&quot;:&quot;定义Simulator结构" ID="ID_229845407" CREATED="1583592392107" MODIFIED="1583593332158"><richcontent TYPE="NOTE">
 
@@ -5761,7 +5761,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -5775,7 +5774,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="功能" ID="ID_70308234" CREATED="1585748650639" MODIFIED="1585750871417">
 <icon BUILTIN="help"/>
@@ -5806,7 +5804,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5887,7 +5884,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -5923,7 +5919,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5964,7 +5959,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6057,7 +6051,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6093,7 +6086,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6109,7 +6101,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6135,7 +6126,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6162,7 +6152,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6552,7 +6541,10 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="LteRanMultiCellSchedulerHandler" ID="ID_1556728864" CREATED="1585276677568" MODIFIED="1585276686788"><richcontent TYPE="NOTE">
+<node TEXT="LteRanMultiCellSchedulerHandler" ID="ID_1556728864" CREATED="1585276677568" MODIFIED="1585792365309">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>

@@ -2895,7 +2895,7 @@
 </node>
 <node TEXT="【LTE-DL】RRM培训" FOLDED="true" POSITION="right" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1578295234264">
 <edge COLOR="#ff00ff"/>
-<node TEXT="下行调度算法" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
+<node TEXT="下行调度算法" FOLDED="true" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
 <node TEXT="QOS Framework" FOLDED="true" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
 <node TEXT="QCI" ID="ID_198970372" CREATED="1549868306011" MODIFIED="1573451774082"><richcontent TYPE="NOTE">
 
@@ -4314,7 +4314,7 @@
 <node TEXT="引入pre-scheduler" ID="ID_216501381" CREATED="1576737571093" MODIFIED="1576737625679"/>
 </node>
 </node>
-<node TEXT="GINR" ID="ID_212940521" CREATED="1573634834050" MODIFIED="1573635307289"><richcontent TYPE="NOTE">
+<node TEXT="GINR" FOLDED="true" ID="ID_212940521" CREATED="1573634834050" MODIFIED="1573635307289"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4522,7 +4522,7 @@
 </node>
 <node TEXT="Regular Outerloop Adjustment" ID="ID_699367824" CREATED="1575872277302" MODIFIED="1575872295069"/>
 </node>
-<node TEXT="DL Link Adaptation" ID="ID_1663726212" CREATED="1576137991871" MODIFIED="1576488069619"><richcontent TYPE="NOTE">
+<node TEXT="DL Link Adaptation" FOLDED="true" ID="ID_1663726212" CREATED="1576137991871" MODIFIED="1576488069619"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4925,7 +4925,7 @@
 <node TEXT="其他上行消息的SINR计算" ID="ID_144181112" CREATED="1578301785292" MODIFIED="1578301793608"/>
 </node>
 </node>
-<node TEXT="NPDCCH的LA" ID="ID_617100584" CREATED="1578296977195" MODIFIED="1578297229051">
+<node TEXT="NPDCCH的LA" FOLDED="true" ID="ID_617100584" CREATED="1578296977195" MODIFIED="1578297229051">
 <node TEXT="CSS相关" ID="ID_19015438" CREATED="1578296667897" MODIFIED="1578635816601"><richcontent TYPE="NOTE">
 
 <html>
@@ -5149,7 +5149,7 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_760055835" CREATED="1578297334266" MODIFIED="1578891896607"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_760055835" CREATED="1578297334266" MODIFIED="1578891896607"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5634,7 +5634,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="【SC2590】LA配置" ID="ID_39837452" CREATED="1578367012722" MODIFIED="1578367403339"><richcontent TYPE="NOTE">
