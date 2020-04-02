@@ -3454,6 +3454,29 @@
 </richcontent>
 <node TEXT="了解协议中多次描述的MAC Control Element概念" ID="ID_660574504" CREATED="1584068633479" MODIFIED="1584068652857"/>
 </node>
+<node TEXT="确认一下计算上行Gain的场景" ID="ID_1809770746" CREATED="1585632046018" MODIFIED="1585632153844">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Msg3和NPUSCH Foramt2是肯定会用于计算并更新上行Gain的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么NPUSCH Format2呢？是否也会被eNB用于计算上行Gain?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="RedHawk学习" ID="ID_1768383805" CREATED="1583746046595" MODIFIED="1583746058687">
 <icon BUILTIN="list"/>
@@ -3513,7 +3536,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

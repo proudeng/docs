@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="NB-IoT RRM" FOLDED="false" ID="ID_601996279" CREATED="1580886756062" MODIFIED="1585185441474" LINK="../attachment/NB_Scheduler.jpg" STYLE="oval">
+<node TEXT="NB-IoT RRM" FOLDED="false" ID="ID_601996279" CREATED="1580886756062" MODIFIED="1585620055429" LINK="../attachment/NB_Scheduler.jpg" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
@@ -88,8 +88,18 @@
     <p>
       NB-IoT的调度的大体执行过程参见链接的简图。
     </p>
+    <p>
+      
+    </p>
+    <p>
+      基于的算法文档的版本是:
+    </p>
+    <p>
+      <font color="#0000c0"><b>PAX10版本(2019-01-25)</b></font>
+    </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="【Ch14.2】 Common Configuration" LOCALIZED_STYLE_REF="styles.topic" POSITION="left" ID="ID_284084380" CREATED="1580888164996" MODIFIED="1580889230121">
 <edge COLOR="#0000ff"/>
@@ -460,7 +470,9 @@
 </richcontent>
 </node>
 <node TEXT="【Ch14.5.2】Uplink outer loop adjustment of gain" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1042864877" CREATED="1581571250322" MODIFIED="1581571289893"/>
-<node TEXT="【Ch14.5.3】Calculate NbUlRxTxPsd" LOCALIZED_STYLE_REF="styles.topic" ID="ID_262689675" CREATED="1581571314925" MODIFIED="1585617368291"><richcontent TYPE="NOTE">
+<node TEXT="【Ch14.5.3】Calculate NbUlRxTxPsd" LOCALIZED_STYLE_REF="styles.topic" ID="ID_262689675" CREATED="1581571314925" MODIFIED="1585622968898">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -468,14 +480,44 @@
   </head>
   <body>
     <p>
-      这个算法用来计算
+      这个算法用来在接收到上行信道的时候计算接收功率(<b><font color="#0000cc">UlRxPsd</font></b>)和估计UE端的发射功率(<b><font color="#0000cc">UlTxPsd</font></b>)的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      依据的输入就是L1上报上来的MacCtrlInfo，这个消息中携带了测量到的上行接收功率。
+    </p>
+    <p>
+      基本上计算方法就是根据接收功率和PHR来一起计算。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      <font color="#ff0000">有一点需要确认的是，NB-IoT中PHR的值只在initial MSG3中携带，但是这个算法是会被多次的调用，在NPUSCH Format1 和 Format2的传输过程中也会使用这个函数。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">但是每一次的计算都需要<b>PHR</b>的值的参与，那么后续的计算过程中，<b>PHR</b>值是如何取值的呢？ </font>
+    </p>
+    <p>
+      
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
-<node TEXT="【Ch14.5.4】Calculate NB Gain Initial Msg3" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1899628168" CREATED="1581571378065" MODIFIED="1583805050311"><richcontent TYPE="NOTE">
+<node TEXT="【Ch14.5.4】Calculate NB Gain Initial Msg3" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1899628168" CREATED="1581571378065" MODIFIED="1585622946554"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -483,25 +525,35 @@
   </head>
   <body>
     <p>
-      &#36825;&#20010;&#31639;&#27861;&#20013;&#22312;&#35745;&#31639;UlPsd&#65292;&#20063;&#23601;&#26159;FilteredEqGain&#30340;&#26102;&#20505;&#65292;&#20351;&#29992;&#20102;delta&#65292;&#36825;&#37324;&#30340;delta&#30340;&#35745;&#31639;&#27604;&#36739;&#30340;&#35753;&#20154;&#24863;&#21040;&#22256;&#24785;&#12290;
+      这个算法在接收到上行信道的时候执行，的主要目的是计算两个输出，一个是<font color="#0000c0">FilteredEqGain</font>(这个参数的含义参考子节点)，一个是估计出来的上行路损<font color="#0000c0">GainFiltAvg</font>。
     </p>
     <p>
-      &#36825;&#37324;&#30340;delta&#30340;&#20316;&#29992;&#26159;&#36825;&#26679;&#30340;&#65306;
+      计算的方法其实也是比较简单的：
     </p>
-    <p>
-      &#36825;&#37324;&#30340;FilteredEqGain&#20195;&#34920;&#30340;&#26159;&#65292;&#22312;UE&#20351;&#29992;12-tone&#26469;&#20256;&#36755;NPUSCH&#30340;&#22330;&#21512;&#19979;&#65292;&#21333;&#20010;&#23376;&#36733;&#27874;&#19978;&#30340;&#25509;&#25910;&#21151;&#29575;PSD&#12290;
-    </p>
-    <p>
-      &#20294;&#26159;&#23454;&#38469;&#30340;UE&#21487;&#33021;&#26159;&#20351;&#29992;1-Tone&#65292;3-Tone&#65292;6-Tone&#65292;12-Tone&#21508;&#31181;&#24773;&#20917;&#65292;&#25152;&#20197;&#22312;&#21508;&#31181;&#24773;&#20917;&#19979;&#65292;&#21333;&#20010;&#23376;&#36733;&#27874;&#30340;&#25509;&#25910;&#21151;&#29575;&#38500;&#20102;&#26159;UlPSD - 10log(M)&#22806;&#65292;&#36824;&#38656;&#35201;&#19968;&#20010;delta&#26469;&#36716;&#25442;&#25104;12-tone&#22330;&#26223;&#19979;&#30340;PSD&#12290;
-    </p>
+    <ol>
+      <li>
+        调用14.5.3算法计算出估计出的在UE端的发射功率<font color="#0000c0">UlTxPsd</font>
+      </li>
+      <li>
+        计算<font color="#0000c0">deltaNpuschPsdMtone</font>参数，这个参数的含义作用参考子节点
+      </li>
+      <li>
+        使用接收功率减去<font color="#0000c0">deltaNpuschPsdMtone</font>参数得到<font color="#0000c0">FilteredEqGain</font>
+      </li>
+      <li>
+        使用接收功率减去估计出的发射功率，得到<font color="#0000c0">Gain</font>
+      </li>
+    </ol>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="【Ch14.5.3】Calculate NbUlRxTxPsd" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1784984749" CREATED="1581571626482" MODIFIED="1582986369471">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_262689675" STARTINCLINATION="291;0;" ENDINCLINATION="291;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-</node>
-<node TEXT="【Ch14.5.5】Calculate Path Gain" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1276224939" CREATED="1581571378065" MODIFIED="1583805050087"><richcontent TYPE="NOTE">
+<node ID="ID_1600539155" CREATED="1585621336166" MODIFIED="1585630402002">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -509,25 +561,258 @@
   </head>
   <body>
     <p>
-      &#36825;&#20010;&#31639;&#27861;&#20013;&#22312;&#35745;&#31639;UlPsd&#65292;&#20063;&#23601;&#26159;FilteredEqGain&#30340;&#26102;&#20505;&#65292;&#20351;&#29992;&#20102;delta&#65292;&#36825;&#37324;&#30340;delta&#30340;&#35745;&#31639;&#27604;&#36739;&#30340;&#35753;&#20154;&#24863;&#21040;&#22256;&#24785;&#12290;
-    </p>
-    <p>
-      &#36825;&#37324;&#30340;delta&#30340;&#20316;&#29992;&#26159;&#36825;&#26679;&#30340;&#65306;
-    </p>
-    <p>
-      &#36825;&#37324;&#30340;FilteredEqGain&#20195;&#34920;&#30340;&#26159;&#65292;&#22312;UE&#20351;&#29992;12-tone&#26469;&#20256;&#36755;NPUSCH&#30340;&#22330;&#21512;&#19979;&#65292;&#21333;&#20010;&#23376;&#36733;&#27874;&#19978;&#30340;&#25509;&#25910;&#21151;&#29575;PSD&#12290;
-    </p>
-    <p>
-      &#20294;&#26159;&#23454;&#38469;&#30340;UE&#21487;&#33021;&#26159;&#20351;&#29992;1-Tone&#65292;3-Tone&#65292;6-Tone&#65292;12-Tone&#21508;&#31181;&#24773;&#20917;&#65292;&#25152;&#20197;&#22312;&#21508;&#31181;&#24773;&#20917;&#19979;&#65292;&#21333;&#20010;&#23376;&#36733;&#27874;&#30340;&#25509;&#25910;&#21151;&#29575;&#38500;&#20102;&#26159;UlPSD - 10log(M)&#22806;&#65292;&#36824;&#38656;&#35201;&#19968;&#20010;delta&#26469;&#36716;&#25442;&#25104;12-tone&#22330;&#26223;&#19979;&#30340;PSD&#12290;
+      <font color="#0000c0"><b>FilteredEqGain</b></font>的含义
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="【Ch14.5.3】Calculate NbUlRxTxPsd" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1226451107" CREATED="1581571626482" MODIFIED="1582986380562">
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0"><b>FilteredEqGain</b></font>这个参数的含义比较的晦涩，它表示的是下面的含义:
+    </p>
+    <ul>
+      <li>
+        假设UE以12tone的配置来传输NPUSCH/Msg3
+      </li>
+      <li>
+        <font color="#0000c0"><b>FilteredEqGain</b></font>的值表示在这个条件下<font color="#0000c0">单子载波</font>上的接收功率
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_648736802" CREATED="1585620952390" MODIFIED="1585622606687">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0"><b>deltaNpuschPsdMtone</b></font>的作用
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0"><b>deltaNpuschPsdMtone</b></font>的计算在好一些地方都出现了，这个参数主要在计算Path Gain的时候主要是用于计算<font color="#0000c0"><b>FilteredEqGain</b></font>这个参数的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个算法中在计算UlPsd，也就是<b><font color="#0000c0">FilteredEqGain</font></b>的时候，使用了delta，这里的delta的计算比较的让人感到困惑。
+    </p>
+    <p>
+      这里的delta的作用是这样的：
+    </p>
+    <p>
+      这里的<b><font color="#0000c0">FilteredEqGain</font></b>代表的是，在UE使用12-tone来传输NPUSCH的场合下，单个子载波上的接收功率PSD。
+    </p>
+    <p>
+      但是实际的UE可能是使用1-Tone，3-Tone，6-Tone，12-Tone各种情况，所以在各种情况下，单个子载波的接收功率除了是UlPSD - 10log(M)外，还需要一个delta来转换成12-tone场景下的PSD。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="【Ch14.5.5】Calculate Path Gain" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1276224939" CREATED="1581571378065" MODIFIED="1585630222264"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个算法与14.5.4一样，同样是在接收到上行信道的时候计算Gain和 每个子载波的接收功率。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么这个算法与14.5.4有什么不同呢？：
+    </p>
+    <p>
+      在14.5.4中，针对的场景是Initial Msg3接收到之后的Gain计算，这是eNB端能够进行的第一次计算，它计算出来的gain和FilteredEqGain都是一个initial值。
+    </p>
+    <p>
+      14.5.5中的计算，是在初次计算之后后续的计算，它的优势是可以利用前面进行过的N次测量结果来优化预测。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="【Ch14.5.3】Calculate NbUlRxTxPsd" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1226451107" CREATED="1581571626482" MODIFIED="1585630020640">
+<icon BUILTIN="PalmIcons/cSeries/NumbersLight/Light-01"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_262689675" STARTINCLINATION="291;0;" ENDINCLINATION="291;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      调用14.5.3算法来获取<font color="#0000c0">UlRxPsdCurrent</font>以及估计UE的发送功率<font color="#0000c0">UlTxPsdCurrent</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="计算新的Gain并做滤波" ID="ID_134925970" CREATED="1585623346789" MODIFIED="1585630349691">
+<icon BUILTIN="PalmIcons/cSeries/NumbersLight/Light-02"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      根据上面的结果相减，计算出新的Gain，并与旧的Gain一起做滤波(所谓的滤波也就是所谓的α滤波)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000"><b>Output</b></font><b><font color="#0000c0">: GainFiltAvg</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="根据滤波后的Gain计算等效PHR值" ID="ID_434107033" CREATED="1585623827950" MODIFIED="1585632555977">
+<icon BUILTIN="PalmIcons/cSeries/NumbersLight/Light-03"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263773291" STARTINCLINATION="2451;0;" ENDINCLINATION="2451;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Output</font></b>: <b><font color="#0000c0">UlPsdTxPhrForDeltaNpusch</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      计算方法也很简单，就是根据UE发送功率的公式计算出使用single tone发射的时候，还能够剩余多少功率，这就是新的PHR的值。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="根据3GPP表格限制PHR值范围" ID="ID_1564777285" CREATED="1585630509241" MODIFIED="1585630536413"/>
+</node>
+<node ID="ID_165138521" CREATED="1585628771657" MODIFIED="1585630080118">
+<icon BUILTIN="PalmIcons/cSeries/NumbersLight/Light-04"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      根据等效PHR值计算<b><font color="#0000c0">deltaNpuschPsdMtone</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1100542945" CREATED="1585629824321" MODIFIED="1585630343443">
+<icon BUILTIN="PalmIcons/cSeries/NumbersLight/Light-05"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基于<font color="#0000c0"><b>delaNpuschPsdMtone</b></font>计算<font color="#0000c0"><b>FilteredEqGain</b></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1600539155" STARTINCLINATION="137;0;" ENDINCLINATION="137;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Output</font></b>:<b><font color="#0000c0">FilteredEqGain</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="计算滤波后的UlTxPsdFiltered" ID="ID_645374124" CREATED="1585629889232" MODIFIED="1585630086671">
+<icon BUILTIN="PalmIcons/cSeries/NumbersLight/Light-05"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      也就是滤波之后的UE端的发射功率
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
-<node LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_430020232" CREATED="1580886906876" MODIFIED="1583379047291">
+<node LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_430020232" CREATED="1580886906876" MODIFIED="1585631709526">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="full-1"/>
@@ -552,13 +837,14 @@
   </head>
   <body>
     <p>
-      NB-IoT &#38142;&#36335;&#33258;&#36866;&#24212;&#30340;&#20027;&#31639;&#27861;&#12290;
+      NB-IoT 链路自适应的主算法。
     </p>
     <p>
-      &#36825;&#20010;&#31639;&#27861;&#20854;&#23454;&#26159;&#20998;&#21035;&#35745;&#31639;NPDCCH&#65292;NPDSCH&#65292;NPUSCH&#19977;&#20010;&#19981;&#21516;&#30340;&#20449;&#36947;&#30340;&#38142;&#36335;&#33258;&#36866;&#24212;&#12290;
+      这个算法其实是分别计算NPDCCH，NPDSCH，NPUSCH三个不同的信道的链路自适应。
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="signalType == NPDCCH" ID="ID_1110801632" CREATED="1580887240827" MODIFIED="1580895576175"><richcontent TYPE="NOTE">
 
@@ -1663,7 +1949,7 @@
 </richcontent>
 </node>
 </node>
-<node LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1092767080" CREATED="1582726923552" MODIFIED="1583314929738">
+<node LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1092767080" CREATED="1582726923552" MODIFIED="1585630754587">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="PalmIcons/cSeries/NumbersDark/Dark-5-"/>
@@ -1688,22 +1974,23 @@
   </head>
   <body>
     <p>
-      NB-IoT&#30340;&#35843;&#24230;&#22120;&#20027;&#20989;&#25968;&#12290;&#35843;&#24230;&#22120;&#20250;&#21516;&#26102;&#35843;&#24230;&#22810;&#20010;NB&#23567;&#21306;&#12290;
+      NB-IoT的调度器主函数。调度器会同时调度多个NB小区。
     </p>
     <p>
       
     </p>
     <p>
-      &#19979;&#34892;&#35843;&#24230;&#30340;&#19968;&#20010;session&#21253;&#21547;&#19968;&#20010;NPDCCH+&#19968;&#20010;NPDSCH+&#19968;&#20010;NPUSCH(Format2&#65292;&#20063;&#23601;&#26159;HARQ Feedback)
+      下行调度的一个session包含一个NPDCCH+一个NPDSCH+一个NPUSCH(Format2，也就是HARQ Feedback)
     </p>
     <p>
-      &#19978;&#34892;&#35843;&#24230;&#30340;&#19968;&#20010;session&#21253;&#21547;&#19968;&#20010;NPDCCH+&#19968;&#20010;NPUSCH
+      上行调度的一个session包含一个NPDCCH+一个NPUSCH
     </p>
     <p>
-      RA session&#21253;&#21547;&#19968;&#20010;NPDCCH+&#19968;&#20010;NPDSCH(Msg2)+&#19968;&#20010;NPUSCH(Msg3)
+      RA session包含一个NPDCCH+一个NPDSCH(Msg2)+一个NPUSCH(Msg3)
     </p>
   </body>
 </html>
+
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -2015,8 +2302,8 @@
 </html>
 </richcontent>
 <node TEXT="【Ch14.4.41】Choose scheduling tone number" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1877456530" CREATED="1582732032797" MODIFIED="1582986773845">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1058304796" STARTINCLINATION="1724;0;" ENDINCLINATION="1724;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1058304796" STARTINCLINATION="1271;-122;" ENDINCLINATION="1270;-122;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1058304796" STARTINCLINATION="1724;0;" ENDINCLINATION="1724;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -2051,8 +2338,8 @@
 <icon BUILTIN="help"/>
 </node>
 <node TEXT="【Ch14.4.18】Resource Availability Check for NPUSCH" LOCALIZED_STYLE_REF="styles.topic" ID="ID_108450123" CREATED="1582732667810" MODIFIED="1582986902851">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_17443576" STARTINCLINATION="1399;0;" ENDINCLINATION="1399;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#ffffff" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_17443576" STARTINCLINATION="1195;0;" ENDINCLINATION="1255;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_17443576" STARTINCLINATION="1399;0;" ENDINCLINATION="1399;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node ID="ID_554202757" CREATED="1582769385689" MODIFIED="1582769492089"><richcontent TYPE="NODE">
 
 <html>
@@ -3677,7 +3964,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="【Ch14.4.43】Compensate NPUSCH Format1 SINR" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1557065709" CREATED="1581572704558" MODIFIED="1583139890566">
+<node TEXT="【Ch14.4.43】Compensate NPUSCH Format1 SINR" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1557065709" CREATED="1581572704558" MODIFIED="1585631390134">
+<icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -3687,66 +3975,120 @@
   </head>
   <body>
     <p>
-      <b><font color="#0000c0">&#36827;&#34892;SINR&#20540;&#30340;&#34917;&#20607;&#12290;&#20026;&#20160;&#20040;&#38656;&#35201;&#34917;&#20607;&#65311;&#65306;</font></b>
+      <b><font color="#0000c0">进行SINR值的补偿。为什么需要补偿？：</font></b>
     </p>
     <p>
-      1&#65292;&#31995;&#32479;&#20013;&#35745;&#31639;&#20986;&#30340;SINR&#20540;&#37117;&#26159;&#22522;&#20110;12-tone&#26469;&#35745;&#31639;&#30340;SINR&#20540;&#12290;
+      1，系统中计算出的SINR值都是基于12-tone来计算的SINR值。
     </p>
     <p>
-      2&#65292;&#32780;&#23454;&#38469;&#30340;NPUSCH Format1&#21487;&#33021;&#24182;&#38750;&#19968;&#23450;&#26159;12-Tone&#65292;&#32780;&#26377;&#21487;&#33021;&#26159;&#37319;&#29992;&#30340;Single Tone&#65292;3-Tone&#25110;&#32773;6-Tone
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#0000c0"><b>&#20160;&#20040;&#24773;&#20917;&#37117;&#38656;&#35201;&#36827;&#34892;&#34917;&#20607;&#21527;&#65311;</b>&#160; </font>
-    </p>
-    <p>
-      &#39318;&#20808;&#38656;&#35201;&#20102;&#35299;&#30340;&#26159;&#65292;&#22914;&#26524;&#33021;&#22815;&#30830;&#35748;UE&#22312;12-Tone&#30340;&#26102;&#20505;&#65292;&#21457;&#23556;&#21151;&#29575;&#24182;&#27809;&#26377;&#36798;&#21040;&#26368;&#22823;&#21457;&#23556;&#21151;&#29575;Pmax&#65292;&#37027;&#20040;&#23601;&#30693;&#36947;&#65292;&#20854;&#20182;&#25152;&#26377;Tone&#30340;&#37197;&#32622;&#19979;&#65292;UE&#30340;&#21457;&#23556;&#21151;&#29575;&#37117;&#27809;&#26377;&#36798;&#21040;&#26368;&#22823;&#21457;&#23556;&#21151;&#29575;Pmax
-    </p>
-    <p>
-      &#36825;&#31181;&#22330;&#26223;&#19979;&#65292;eNB&#30340;&#25509;&#25910;&#21151;&#29575;&#20026;&#22266;&#23450;&#30340;P0&#65292;&#19981;&#31649;&#26159;&#22810;&#23569;Tone&#65292;SINR&#20540;&#37117;&#26159;&#19968;&#26679;&#30340;&#65292;&#25152;&#20197;SINR&#20540;&#19981;&#38656;&#35201;&#34917;&#20607;&#12290;
+      2，而实际的NPUSCH Format1可能并非一定是12-Tone，而有可能是采用的Single Tone，3-Tone或者6-Tone
     </p>
     <p>
       
     </p>
     <p>
-      <b><font color="#0000c0">&#22914;&#20309;&#34917;&#20607;&#65311;&#65306;</font></b>
+      <font color="#0000c0"><b>什么情况都需要进行补偿吗？</b>&nbsp; </font>
     </p>
     <p>
-      &#22522;&#20110;PHR&#20540;&#26469;&#34917;&#20607;&#12290;
+      首先需要了解的是，如果能够确认UE在12-Tone的时候，发射功率并没有达到最大发射功率Pmax，那么就知道，其他所有Tone的配置下，UE的发射功率都没有达到最大发射功率Pmax
+    </p>
+    <p>
+      这种场景下，eNB的接收功率为每个子载波固定为P0，不管是多少Tone，SINR值都是一样的，所以SINR值不需要补偿。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">如何补偿？：</font></b>
+    </p>
+    <p>
+      基于PHR值来补偿。
     </p>
     <p>
       1,
     </p>
     <p>
-      &#22914;&#26524;10log(M) &gt; PHR&#30340;&#35805;&#65292;&#36825;&#35828;&#26126;M-Tone&#30340;&#37197;&#32622;&#26102;&#65292;UE&#30340;&#21457;&#23556;&#21151;&#29575;&#24050;&#32463;&#36798;&#21040;&#26368;&#22823;&#21457;&#23556;&#21151;&#29575;Pmax, &#27492;&#26102;12-Tone&#26102;&#30340;&#21457;&#23556;&#21151;&#29575;&#24517;&#28982;&#20063;&#26159;Pmax&#12290;
+      如果10log(M) &gt; PHR的话，这说明M-Tone的配置时，UE的发射功率已经达到最大发射功率Pmax, 此时12-Tone时的发射功率必然也是Pmax。
     </p>
     <p>
-      &#25152;&#20197;&#36825;&#26102;&#20505;M-Tone&#27599;&#20010;tone&#30340;&#25509;&#25910;&#21151;&#29575;&#23601;&#26159;12-Tone&#30340; <font color="#ff0000"><b>12/M</b></font>&#160;&#20493;&#65292;SINR&#30340;&#34917;&#20607;&#20026;<b><font color="#ff0000">10log(12/M)</font></b>
+      所以这时候M-Tone每个tone的接收功率就是12-Tone的 <font color="#ff0000"><b>12/M</b></font>&nbsp;倍，SINR的补偿为<b><font color="#ff0000">10log(12/M)</font></b>
     </p>
     <p>
       2,
     </p>
     <p>
-      &#22914;&#26524;10log(M) &lt; PHR &lt; 10log(12)&#30340;&#35805;&#65292;&#36825;&#35828;&#26126;M-tone&#26102;&#65292;UE&#30340;&#21457;&#23556;&#21151;&#29575;&#36824;&#27809;&#26377;&#36798;&#21040;&#26368;&#22823;&#21457;&#23556;&#21151;&#29575;Pmax,&#32780;12-Tone&#24050;&#32463;&#36798;&#21040;&#20102;&#26368;&#22823;&#21457;&#23556;&#21151;&#29575;&#20102;&#12290;
+      如果10log(M) &lt; PHR &lt; 10log(12)的话，这说明M-tone时，UE的发射功率还没有达到最大发射功率Pmax,而12-Tone已经达到了最大发射功率了。
     </p>
     <p>
-      &#36825;&#26102;&#20505;&#27880;&#24847;&#65292;1-Tone&#21644;M-Tone&#30340;SINR&#20540;&#26159;&#19968;&#26679;&#30340;&#12290;&#34917;&#20607;&#20026;<font color="#ff0000"><b>10log(12) - PHR</b></font>
+      这时候注意，1-Tone和M-Tone的SINR值是一样的。补偿为<font color="#ff0000"><b>10log(12) - PHR</b></font>
     </p>
     <p>
-      &#22914;&#20309;&#29702;&#35299;&#19978;&#38754;&#30340;&#34917;&#20607;&#21602;&#65311;&#22240;&#20026;12-Tone&#26159;&#28385;&#21151;&#29575;&#21457;&#23556;&#65292;&#25152;&#20197;&#21152;&#19978;10log(12)&#34920;&#31034;&#30340;&#26159;&#22914;&#26524;1-Tone&#20063;&#26159;&#28385;&#21151;&#29575;&#21457;&#23556;&#30340;&#22330;&#26223;&#19979;&#30340;SINR&#20540;&#12290;
+      如何理解上面的补偿呢？因为12-Tone是满功率发射，所以加上10log(12)表示的是如果1-Tone也是满功率发射的场景下的SINR值。
     </p>
     <p>
-      &#32780;&#23454;&#38469;&#19978;1Tone&#24182;&#38750;&#26159;&#20197;&#28385;&#21151;&#29575;&#21457;&#23556;&#30340;&#65292;&#32780;&#26159;&#20197;<b><font color="#ff0000">Pmax - PHR</font></b>&#36825;&#20040;&#22823;&#30340;&#21151;&#29575;&#21457;&#23556;&#30340;&#65292;&#25152;&#20197;&#25972;&#20010;&#30340;&#34917;&#20607;&#23601;&#26159;<b><font color="#ff0000">10log(12) - PHR</font></b>
+      而实际上1Tone并非是以满功率发射的，而是以<b><font color="#ff0000">Pmax - PHR</font></b>这么大的功率发射的，所以整个的补偿就是<b><font color="#ff0000">10log(12) - PHR</font></b>
     </p>
   </body>
 </html>
+
 </richcontent>
+<node FOLDED="true" ID="ID_263773291" CREATED="1585630964833" MODIFIED="1585631554947"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Input</font></b>:<b><font color="#0000c0">UlPsdTxPhrForDeltaNpusch</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      补偿是基于PHR的值来判断是否要补偿已经如何补偿的。
+    </p>
+    <p>
+      需要注意的是，虽然在实际中UE只能在Msg3上报一次PHR值，但是每次上行接收完成之后，都会重新计算出一个滤波后的PHR值，也就是这里的输入参数。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="PHR的含义" ID="ID_941223718" CREATED="1585631156323" MODIFIED="1585631284987"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PHR的含义是:
+    </p>
+    <p>
+      假设此UE使用单Tone传输NPUSCH信道，那么UE的总功率减去传输使用的功率，得到的剩余的功率就是PHR值。
+    </p>
+    <p>
+      注意，这里的关键是单Tone，如果UE实际是以multi-Tone传输的话，那么UE的实际发送功率还得加上10log(M)这么多。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="【Ch14.4.46】Resource Availability Check for Non12Tone" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1433450844" CREATED="1582791354600" MODIFIED="1582791380531"/>
 <node TEXT="【Ch14.4.47】Resource Availability Check for 12Tone" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1332503901" CREATED="1582791299098" MODIFIED="1582959106347">
-<node TEXT="轮询所有的ActiveSession且检查到有冲突" FOLDED="true" ID="ID_413384106" CREATED="1582792732839" MODIFIED="1582959106347"><richcontent TYPE="NOTE">
+<node TEXT="轮询所有的ActiveSession且检查到有冲突" ID="ID_413384106" CREATED="1582792732839" MODIFIED="1582959106347"><richcontent TYPE="NOTE">
 
 <html>
   <head>
