@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false;"/>
@@ -83,7 +83,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Intel&#xae; 64 and IA-32 Architectures Software Developer&apos;s Manual" FOLDED="true" POSITION="left" ID="ID_1634058927" CREATED="1382555128815" MODIFIED="1382559152095">
+<node TEXT="Intel® 64 and IA-32 Architectures Software Developer&apos;s Manual" FOLDED="true" POSITION="left" ID="ID_1634058927" CREATED="1382555128815" MODIFIED="1382559152095">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -144,7 +144,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Intel&#x6c47;&#x7f16;&#x76f8;&#x5173;&#x77e5;&#x8bc6;&#x6c47;&#x603b;" FOLDED="true" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
+<node TEXT="Intel汇编相关知识汇总" FOLDED="true" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -192,7 +192,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="X86&#x67b6;&#x6784;&#x7684;&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;" ID="ID_1755621105" CREATED="1381899014323" MODIFIED="1382732944031">
+<node TEXT="X86架构的通用寄存器" ID="ID_1755621105" CREATED="1381899014323" MODIFIED="1382732944031">
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
@@ -219,7 +219,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="AT&amp;T&#x8bed;&#x6cd5;&#x57fa;&#x672c;&#x683c;&#x5f0f;(Linux&#x7f16;&#x8bd1;&#x5668;&#x4f7f;&#x7528;&#x7684;&#x683c;&#x5f0f;)" ID="ID_299941890" CREATED="1381948961954" MODIFIED="1381953154264"><richcontent TYPE="NOTE">
+<node TEXT="AT&amp;T语法基本格式(Linux编译器使用的格式)" ID="ID_299941890" CREATED="1381948961954" MODIFIED="1381953154264"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -259,7 +259,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x4ecb;&#x7ecd;&#x6458;&#x9009;" ID="ID_724654088" CREATED="1381952729903" MODIFIED="1381953097534"><richcontent TYPE="NOTE">
+<node TEXT="网络上的介绍摘选" ID="ID_724654088" CREATED="1381952729903" MODIFIED="1381953097534"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -432,8 +432,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="X86&#x7684;&#x4f53;&#x7cfb;&#x67b6;&#x6784;(&#x81ea;&#x8eab;&#x7279;&#x70b9;&#x4ee5;&#x53ca;&#x4e0e;RISC&#x7684;&#x4e0d;&#x540c;)" ID="ID_1268523209" CREATED="1381903246008" MODIFIED="1381903274589"/>
-<node TEXT="C&#x8bed;&#x8a00;&#x4e2d;&#x51fd;&#x6570;&#x8c03;&#x7528;&#x65f6;&#x7684;&#x5806;&#x6808;&#x7684;&#x53d8;&#x5316;" ID="ID_1927046336" CREATED="1381903865090" MODIFIED="1381904737433"><richcontent TYPE="NOTE">
+<node TEXT="X86的体系架构(自身特点以及与RISC的不同)" ID="ID_1268523209" CREATED="1381903246008" MODIFIED="1381903274589"/>
+<node TEXT="C语言中函数调用时的堆栈的变化" ID="ID_1927046336" CREATED="1381903865090" MODIFIED="1381904737433"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -621,15 +621,15 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="AT&amp;T&#x683c;&#x5f0f;&#x7684;&#x6c47;&#x7f16;&#x548c;Intel&#x683c;&#x5f0f;&#x6c47;&#x7f16;&#x683c;&#x5f0f;&#x7684;&#x533a;&#x522b;" ID="ID_1752025884" CREATED="1381948381710" MODIFIED="1381948419296"/>
+<node TEXT="AT&amp;T格式的汇编和Intel格式汇编格式的区别" ID="ID_1752025884" CREATED="1381948381710" MODIFIED="1381948419296"/>
 </node>
 <node TEXT="Linux Programming Unleashed" FOLDED="true" POSITION="right" ID="ID_673116851" CREATED="1470386060730" MODIFIED="1470386322848" LINK="../MiscDocuments/linux_programming_unleashed.pdf">
 <edge COLOR="#00007c"/>
-<node TEXT="&#x7b2c;&#x56db;&#x7ae0;&#xff0c;&#x4f7f;&#x7528;Make" ID="ID_85635013" CREATED="1470387176587" MODIFIED="1470387192476"/>
+<node TEXT="第四章，使用Make" ID="ID_85635013" CREATED="1470387176587" MODIFIED="1470387192476"/>
 </node>
 <node TEXT="Machine_Learning(Andrew NG)" FOLDED="true" POSITION="right" ID="ID_1918982945" CREATED="1513143323182" MODIFIED="1513143355252">
 <edge COLOR="#808080"/>
-<node TEXT="&#x7b2c;7&#x5468;-&#x652f;&#x6301;&#x5411;&#x91cf;&#x673a;" FOLDED="true" ID="ID_763242646" CREATED="1516013018353" MODIFIED="1518006964038"><richcontent TYPE="NOTE">
+<node TEXT="第7周-支持向量机" FOLDED="true" ID="ID_763242646" CREATED="1516013018353" MODIFIED="1518006964038"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -642,7 +642,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6982;&#x5ff5;" ID="ID_488052216" CREATED="1516024596364" MODIFIED="1516024599690">
+<node TEXT="概念" ID="ID_488052216" CREATED="1516024596364" MODIFIED="1516024599690">
 <node TEXT="Decision Boundary" ID="ID_945386130" CREATED="1516024600580" MODIFIED="1516024632198"><richcontent TYPE="NOTE">
 
 <html>
@@ -658,7 +658,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x7f16;&#x7a0b;&#x7ec3;&#x4e60;" ID="ID_626374610" CREATED="1518007397944" MODIFIED="1518007425516"/>
+<node TEXT="编程练习" ID="ID_626374610" CREATED="1518007397944" MODIFIED="1518007425516"/>
 <node TEXT="Optimization Objective(video1)" ID="ID_364952082" CREATED="1516024069196" MODIFIED="1518007611418"><richcontent TYPE="NOTE">
 
 <html>
@@ -718,14 +718,14 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x7b2c;&#x516b;&#x5468;-&#x975e;&#x76d1;&#x7763;&#x5b66;&#x4e60;" FOLDED="true" ID="ID_1755281125" CREATED="1518006946320" MODIFIED="1518006956666">
-<node TEXT="&#x7f16;&#x7a0b;&#x7ec3;&#x4e60;" ID="ID_555707057" CREATED="1518007428791" MODIFIED="1518007437073"/>
+<node TEXT="第八周-非监督学习" FOLDED="true" ID="ID_1755281125" CREATED="1518006946320" MODIFIED="1518006956666">
+<node TEXT="编程练习" ID="ID_555707057" CREATED="1518007428791" MODIFIED="1518007437073"/>
 </node>
 </node>
-<node TEXT="perl&#x8bed;&#x8a00;&#x5b66;&#x4e60;" FOLDED="true" POSITION="right" ID="ID_1132999439" CREATED="1304669378782" MODIFIED="1382733398119">
+<node TEXT="perl语言学习" FOLDED="true" POSITION="right" ID="ID_1132999439" CREATED="1304669378782" MODIFIED="1382733398119">
 <edge COLOR="#ff0000"/>
-<node TEXT="&#x756a;&#x5916;&#x7bc7;--&#x4e3b;&#x9898;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_1625848670" CREATED="1304849018449" MODIFIED="1318303357070">
-<node TEXT="&#x5404;&#x79cd;&#x73af;&#x5883;&#x4e0b;&#x7684;&quot;&#x5185;&#x63d2;&quot;--interpolate" FOLDED="true" ID="ID_1388200136" CREATED="1304849038710" MODIFIED="1318302437398"><richcontent TYPE="NOTE">
+<node TEXT="番外篇--主题内容" FOLDED="true" ID="ID_1625848670" CREATED="1304849018449" MODIFIED="1318303357070">
+<node TEXT="各种环境下的&quot;内插&quot;--interpolate" FOLDED="true" ID="ID_1388200136" CREATED="1304849038710" MODIFIED="1318302437398"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -760,8 +760,8 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x4e2d;" ID="ID_999501535" CREATED="1304849134135" MODIFIED="1304849138774">
-<node TEXT="%hash&#x8fd9;&#x6837;&#x7684;&#x8868;&#x8fbe;&#x5f0f;&#x662f;&#x4e0d;&#x4f1a;&#x88ab;&#x5185;&#x63d2;&#x7684;." ID="ID_658559388" CREATED="1304849159726" MODIFIED="1382906456885" VSHIFT_QUANTITY="-4.0 px"><richcontent TYPE="NOTE">
+<node TEXT="字符串中" ID="ID_999501535" CREATED="1304849134135" MODIFIED="1304849138774">
+<node TEXT="%hash这样的表达式是不会被内插的." ID="ID_658559388" CREATED="1304849159726" MODIFIED="1382906456885" VSHIFT_QUANTITY="-4.0 px"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -779,7 +779,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x4e2d;" ID="ID_1037255224" CREATED="1304849144064" MODIFIED="1318475029221"><richcontent TYPE="NOTE">
+<node TEXT="正则表达式中" ID="ID_1037255224" CREATED="1304849144064" MODIFIED="1318475029221"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -807,9 +807,9 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x57fa;&#x672c;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x9664;&#x4e86;C/C++&#x4e2d;&#x7684;&quot;&#x53d8;&#x91cf;&quot;,&quot;&#x6570;&#x7ec4;&quot;,&#x8fd8;&#x591a;&#x4e86;&#x4e00;&#x79cd;HASH!!--scalar/array/hash" ID="ID_1931108918" CREATED="1318302784283" MODIFIED="1318304477665"/>
-<node TEXT="&#x4e24;&#x4e2a;&#x53d8;&#x91cf;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x4e92;&#x6362;,&#x4e0d;&#x9700;&#x8981;&#x901a;&#x8fc7;&#x4e2d;&#x95f4;&#x53d8;&#x91cf;!" ID="ID_1210969804" CREATED="1318830925013" MODIFIED="1318830946451"/>
-<node TEXT="&#x6570;&#x7ec4;&#x7684;&#x7ef4;&#x6570;/hash&#x7684;&#x7ed3;&#x6784;&#x53ef;&#x4ee5;&#x5728;&#x8fd0;&#x884c;&#x7684;&#x65f6;&#x5019;&#x51b3;&#x5b9a;" FOLDED="true" ID="ID_1554985925" CREATED="1318303232243" MODIFIED="1318474109259">
+<node TEXT="基本数据结构除了C/C++中的&quot;变量&quot;,&quot;数组&quot;,还多了一种HASH!!--scalar/array/hash" ID="ID_1931108918" CREATED="1318302784283" MODIFIED="1318304477665"/>
+<node TEXT="两个变量可以直接互换,不需要通过中间变量!" ID="ID_1210969804" CREATED="1318830925013" MODIFIED="1318830946451"/>
+<node TEXT="数组的维数/hash的结构可以在运行的时候决定" FOLDED="true" ID="ID_1554985925" CREATED="1318303232243" MODIFIED="1318474109259">
 <icon BUILTIN="button_cancel"/>
 <richcontent TYPE="NOTE">
 
@@ -832,12 +832,12 @@ END</pre>
 </richcontent>
 <node TEXT="autovivification" ID="ID_347848471" CREATED="1318473895388" MODIFIED="1318474015394"/>
 </node>
-<node TEXT="&#x6570;&#x7ec4;&#x5c45;&#x7136;&#x662f;&#x53ef;&#x4ee5;&#x52a8;&#x6001;&#x589e;&#x957f;&#x7684;!!" FOLDED="true" ID="ID_1877450742" CREATED="1318403860784" MODIFIED="1318403870477">
-<node TEXT="&#x4e0d;&#x5149;&#x662f;&#x6570;&#x7ec4;,&#x6563;&#x91cf;&#x4e5f;&#x4e00;&#x6837;" ID="ID_1816318489" CREATED="1319437596009" MODIFIED="1319437608343"/>
+<node TEXT="数组居然是可以动态增长的!!" FOLDED="true" ID="ID_1877450742" CREATED="1318403860784" MODIFIED="1318403870477">
+<node TEXT="不光是数组,散量也一样" ID="ID_1816318489" CREATED="1319437596009" MODIFIED="1319437608343"/>
 </node>
-<node TEXT="&#x6570;&#x7ec4;&#x7684;&#x4e0b;&#x6807;&#x5c45;&#x7136;&#x53ef;&#x4ee5;&#x662f;&#x8d1f;&#x6570;!!" ID="ID_1824137603" CREATED="1318404786501" MODIFIED="1318404799525"/>
-<node TEXT="perl&#x4e2d;&#x4e0d;&#x9700;&#x8981;main&#x51fd;&#x6570;" ID="ID_1554086703" CREATED="1318475092956" MODIFIED="1318475109434"/>
-<node TEXT="&#x4e3a;&#x4ec0;&#x4e48;perl&#x4e2d;&#x5230;&#x5904;&#x90fd;&#x6709;&#x6ee1;&#x5730;&#x7684;&#x5927;&#x62ec;&#x53f7;,&#x4e2d;&#x62ec;&#x53f7;??--&#x533f;&#x540d;&#x5f15;&#x7528;" ID="ID_1967987501" CREATED="1318304297241" MODIFIED="1318304425380"/>
+<node TEXT="数组的下标居然可以是负数!!" ID="ID_1824137603" CREATED="1318404786501" MODIFIED="1318404799525"/>
+<node TEXT="perl中不需要main函数" ID="ID_1554086703" CREATED="1318475092956" MODIFIED="1318475109434"/>
+<node TEXT="为什么perl中到处都有满地的大括号,中括号??--匿名引用" ID="ID_1967987501" CREATED="1318304297241" MODIFIED="1318304425380"/>
 <node FOLDED="true" ID="ID_820768641" CREATED="1318302739663" MODIFIED="1318303560953"><richcontent TYPE="NODE">
 
 <html>
@@ -851,29 +851,29 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x5143;&#x7d20;&#x53ef;&#x4ee5;&#x662f;&#x5404;&#x79cd;&#x7c7b;&#x578b;" ID="ID_592554589" CREATED="1318404712543" MODIFIED="1318404726045"/>
+<node TEXT="数组中的元素可以是各种类型" ID="ID_592554589" CREATED="1318404712543" MODIFIED="1318404726045"/>
 </node>
-<node TEXT="perl&#x9ed8;&#x8ba4;&#x652f;&#x6301;&#x65b9;&#x4fbf;&#x5f3a;&#x5927;&#x7684;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;!!" ID="ID_361124103" CREATED="1318304648912" MODIFIED="1318473991812"/>
-<node TEXT="&#x600e;&#x4e48;&#x6709;&#x8fd9;&#x4e48;&#x591a;&#x602a;&#x5f02;&#x540d;&#x5b57;&#x83ab;&#x540d;&#x5176;&#x5999;&#x7684;perl&#x9ed8;&#x8ba4;&#x53d8;&#x91cf;?" ID="ID_262306392" CREATED="1318303977569" MODIFIED="1318304364901">
+<node TEXT="perl默认支持方便强大的正则表达式!!" ID="ID_361124103" CREATED="1318304648912" MODIFIED="1318473991812"/>
+<node TEXT="怎么有这么多怪异名字莫名其妙的perl默认变量?" ID="ID_262306392" CREATED="1318303977569" MODIFIED="1318304364901">
 <node TEXT="$_" ID="ID_1640510702" CREATED="1318304007440" MODIFIED="1318304015084"/>
 </node>
-<node TEXT="&#x8d4b;&#x503c;&#x8bed;&#x53e5;&#x5c45;&#x7136;&#x6709;&#x81ea;&#x7136;&#x8bed;&#x8a00;&#x4e2d;&#x624d;&#x6709;&#x7684;&quot;&#x8bed;&#x5883;/&#x4e0a;&#x4e0b;&#x6587;&quot;&#x6982;&#x5ff5;!!--context" ID="ID_1984685345" CREATED="1318302888204" MODIFIED="1318304456290"/>
-<node TEXT="&#x53ef;&#x80fd;&#x51fa;&#x9519;&#x4e86;,&#x4f46;&#x662f;&#x4f60;&#x6c38;&#x8fdc;&#x90fd;&#x627e;&#x4e0d;&#x5230;!!--orz" FOLDED="true" ID="ID_1245995514" CREATED="1318304951208" MODIFIED="1318304977637">
+<node TEXT="赋值语句居然有自然语言中才有的&quot;语境/上下文&quot;概念!!--context" ID="ID_1984685345" CREATED="1318302888204" MODIFIED="1318304456290"/>
+<node TEXT="可能出错了,但是你永远都找不到!!--orz" FOLDED="true" ID="ID_1245995514" CREATED="1318304951208" MODIFIED="1318304977637">
 <node TEXT="autovivification" ID="ID_1208651185" CREATED="1318474003044" MODIFIED="1318474019860"/>
 </node>
-<node TEXT="&#x5b9a;&#x4e49;&#x51fd;&#x6570;&#x5c45;&#x7136;&#x4e0d;&#x7528;&#x6307;&#x5b9a;&#x53c2;&#x6570;!!" ID="ID_1111460424" CREATED="1318304132541" MODIFIED="1318304161257"/>
-<node TEXT="&#x8c03;&#x7528;&#x51fd;&#x6570;&#x65f6;,&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#x51fd;&#x6570;&#x8fd4;&#x56de;&#x503c;&#x7684;&#x7c7b;&#x578b;!!" FOLDED="true" ID="ID_228792635" CREATED="1318841445875" MODIFIED="1318841537432">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1216512755" MIDDLE_LABEL="&#x53c2;&#x8003;" STARTINCLINATION="435;0;" ENDINCLINATION="435;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<node TEXT="&#x53ea;&#x80fd;&#x90e8;&#x5206;&#x5b9e;&#x73b0;,&#x4f46;&#x662f;&#x5df2;&#x7ecf;&#x5f88;&#x65b9;&#x4fbf;" ID="ID_849874885" CREATED="1318841559292" MODIFIED="1318841577995"/>
+<node TEXT="定义函数居然不用指定参数!!" ID="ID_1111460424" CREATED="1318304132541" MODIFIED="1318304161257"/>
+<node TEXT="调用函数时,可以指定函数返回值的类型!!" FOLDED="true" ID="ID_228792635" CREATED="1318841445875" MODIFIED="1318841537432">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1216512755" MIDDLE_LABEL="参考" STARTINCLINATION="435;0;" ENDINCLINATION="435;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="只能部分实现,但是已经很方便" ID="ID_849874885" CREATED="1318841559292" MODIFIED="1318841577995"/>
 </node>
-<node TEXT="&#x9ed8;&#x8ba4;&#x6709;&#x8fd9;&#x4e48;&#x591a;&#x65b9;&#x4fbf;&#x7684;&#x51fd;&#x6570;&#x53ef;&#x4ee5;&#x7528;??" ID="ID_1805112031" CREATED="1318303918242" MODIFIED="1318303939231"/>
-<node TEXT="&#x8fd9;&#x4e48;&#x591a;&#x7684;&#x8fc7;&#x7a0b;&#x63a7;&#x5236;&#x65b9;&#x6cd5;??" ID="ID_869836676" CREATED="1318303707271" MODIFIED="1318303823107"/>
-<node TEXT="&#x5982;&#x6b64;&#x7c97;&#x7cd9;&#x5947;&#x602a;&#x7684;&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x673a;&#x5236;&#x7684;&#x5b9e;&#x73b0;??--bless" ID="ID_919226199" CREATED="1318303861123" MODIFIED="1318304437506"/>
-<node TEXT="&#x8fd9;&#x5c31;&#x662f;&#x9884;&#x7f16;&#x8bd1;??--BEGIN,END" ID="ID_69776565" CREATED="1318304047647" MODIFIED="1318304447922"/>
-<node TEXT="&#x5c45;&#x7136;&#x6709;&#x5982;&#x6b64;&#x5e9e;&#x5927;&#x7684;&#x4e00;&#x4e2a;&#x6a21;&#x5757;&#x5e93;!!--CPAN" ID="ID_1048538695" CREATED="1318304588946" MODIFIED="1318304626381"/>
+<node TEXT="默认有这么多方便的函数可以用??" ID="ID_1805112031" CREATED="1318303918242" MODIFIED="1318303939231"/>
+<node TEXT="这么多的过程控制方法??" ID="ID_869836676" CREATED="1318303707271" MODIFIED="1318303823107"/>
+<node TEXT="如此粗糙奇怪的面向对象机制的实现??--bless" ID="ID_919226199" CREATED="1318303861123" MODIFIED="1318304437506"/>
+<node TEXT="这就是预编译??--BEGIN,END" ID="ID_69776565" CREATED="1318304047647" MODIFIED="1318304447922"/>
+<node TEXT="居然有如此庞大的一个模块库!!--CPAN" ID="ID_1048538695" CREATED="1318304588946" MODIFIED="1318304626381"/>
 </node>
 </node>
-<node TEXT="&#x53c2;&#x8003;&#x56fe;&#x4e66;&#x8d44;&#x6599;&#x5185;&#x5bb9;&#x4ee5;&#x53ca;&#x9605;&#x8bfb;&#x7b14;&#x8bb0;" FOLDED="true" ID="ID_1473487434" CREATED="1318299292778" MODIFIED="1383207829571">
+<node TEXT="参考图书资料内容以及阅读笔记" FOLDED="true" ID="ID_1473487434" CREATED="1318299292778" MODIFIED="1383207829571">
 <node TEXT="Impatient Perl" FOLDED="true" ID="ID_1286038151" CREATED="1318298591143" MODIFIED="1318298903863"><richcontent TYPE="NOTE">
 
 <html>
@@ -896,10 +896,10 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5185;&#x5bb9;&#x76ee;&#x5f55;" FOLDED="true" ID="ID_1721605576" CREATED="1318300798720" MODIFIED="1318302010192">
+<node TEXT="内容目录" FOLDED="true" ID="ID_1721605576" CREATED="1318300798720" MODIFIED="1318302010192">
 <node TEXT="1.Impatient Introduction to Perl" FOLDED="true" ID="ID_908659128" CREATED="1318300806639" MODIFIED="1318300819260">
-<node TEXT="Autovivify&#x6982;&#x5ff5;" FOLDED="true" ID="ID_1085840668" CREATED="1318386816050" MODIFIED="1318837116620">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1973263710" MIDDLE_LABEL="&#x5305;&#x542b;&#x53e6;&#x4e00;&#x79cd;&#x60c5;&#x51b5;" STARTINCLINATION="150;0;" ENDINCLINATION="150;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="Autovivify概念" FOLDED="true" ID="ID_1085840668" CREATED="1318386816050" MODIFIED="1318837116620">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1973263710" MIDDLE_LABEL="包含另一种情况" STARTINCLINATION="150;0;" ENDINCLINATION="150;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1003,7 +1003,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x53ef;&#x80fd;&#x4f1a;&#x5f15;&#x8d77;&#x95ee;&#x9898;." ID="ID_1833678567" CREATED="1318387208092" MODIFIED="1318387299345"><richcontent TYPE="NOTE">
+<node TEXT="可能会引起问题." ID="ID_1833678567" CREATED="1318387208092" MODIFIED="1318387299345"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1054,7 +1054,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6807;&#x91cf;--Scalar" FOLDED="true" ID="ID_1343821786" CREATED="1318387508325" MODIFIED="1318403132338"><richcontent TYPE="NOTE">
+<node TEXT="标量--Scalar" FOLDED="true" ID="ID_1343821786" CREATED="1318387508325" MODIFIED="1318403132338"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1105,7 +1105,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="Undefined/Uninitialized&#x53d8;&#x91cf;--undef" FOLDED="true" ID="ID_1200812687" CREATED="1318387861754" MODIFIED="1318400625739">
+<node TEXT="Undefined/Uninitialized变量--undef" FOLDED="true" ID="ID_1200812687" CREATED="1318387861754" MODIFIED="1318400625739">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -1139,7 +1139,7 @@ END</pre>
 <icon BUILTIN="bookmark"/>
 </node>
 </node>
-<node TEXT="defined&#x51fd;&#x6570;" ID="ID_1279206474" CREATED="1318399330632" MODIFIED="1318399593469"><richcontent TYPE="NOTE">
+<node TEXT="defined函数" ID="ID_1279206474" CREATED="1318399330632" MODIFIED="1318399593469"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1162,11 +1162,11 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Boolean&#x503c;-&#x6761;&#x4ef6;&#x4e3a;&#x771f;/&#x5047;&#x65f6;&#x5bf9;&#x5e94;&#x7684;&#x503c;" FOLDED="true" ID="ID_850459836" CREATED="1318388584915" MODIFIED="1318401052020">
+<node TEXT="Boolean值-条件为真/假时对应的值" FOLDED="true" ID="ID_850459836" CREATED="1318388584915" MODIFIED="1318401052020">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1200812687" MIDDLE_LABEL="undef&#x53c2;&#x8003;" STARTINCLINATION="48;0;" ENDINCLINATION="48;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1200812687" MIDDLE_LABEL="undef参考" STARTINCLINATION="48;0;" ENDINCLINATION="48;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1218,7 +1218,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6570;&#x503c;0&#x4e3a;false" ID="ID_473608974" CREATED="1318400764012" MODIFIED="1318400783397"><richcontent TYPE="NOTE">
+<node TEXT="数值0为false" ID="ID_473608974" CREATED="1318400764012" MODIFIED="1318400783397"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1235,7 +1235,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&quot;0&quot;&#x4e5f;&#x4e3a;false!!" ID="ID_760059274" CREATED="1318400805951" MODIFIED="1318400841449">
+<node TEXT="字符串&quot;0&quot;也为false!!" ID="ID_760059274" CREATED="1318400805951" MODIFIED="1318400841449">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -1253,7 +1253,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x51fd;&#x6570;&#x8fd4;&#x56de;boolen&#x65f6;&#x7684;&#x60c5;&#x51b5;" ID="ID_440257269" CREATED="1318401056787" MODIFIED="1318401088509">
+<node TEXT="函数返回boolen时的情况" ID="ID_440257269" CREATED="1318401056787" MODIFIED="1318401088509">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -1272,8 +1272,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4e00;&#x4e9b;&#x5bf9;&#x5e94;&#x4e8e;&#x6570;&#x503c;&#x7684;&#x51fd;&#x6570;" FOLDED="true" ID="ID_1619765473" CREATED="1318388463082" MODIFIED="1318388488939">
-<node TEXT="&#x6570;&#x503c;&#x7684;&#x8868;&#x8fbe;&#x65b9;&#x5f0f;" ID="ID_1381054554" CREATED="1318390423323" MODIFIED="1318390461989"><richcontent TYPE="NOTE">
+<node TEXT="一些对应于数值的函数" FOLDED="true" ID="ID_1619765473" CREATED="1318388463082" MODIFIED="1318388488939">
+<node TEXT="数值的表达方式" ID="ID_1381054554" CREATED="1318390423323" MODIFIED="1318390461989"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1310,7 +1310,7 @@ END</pre>
 </node>
 <node TEXT="abs" ID="ID_1569264976" CREATED="1318390492641" MODIFIED="1318390494733"/>
 <node TEXT="int" ID="ID_1095982760" CREATED="1318390497969" MODIFIED="1318390499422"/>
-<node TEXT="&#x6307;&#x6570;&#x64cd;&#x4f5c;&#x7b26;**" ID="ID_1387671161" CREATED="1318390518131" MODIFIED="1318390543130"><richcontent TYPE="NOTE">
+<node TEXT="指数操作符**" ID="ID_1387671161" CREATED="1318390518131" MODIFIED="1318390543130"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1326,8 +1326,8 @@ END</pre>
 </node>
 <node TEXT="sqrt" ID="ID_461396973" CREATED="1318390562678" MODIFIED="1318390566229"/>
 </node>
-<node TEXT="&#x4e00;&#x4e9b;&#x5bf9;&#x5e94;&#x4e8e;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x51fd;&#x6570;" FOLDED="true" ID="ID_539419230" CREATED="1318388477388" MODIFIED="1318388486330">
-<node TEXT="&#x53cc;&#x5f15;&#x53f7;/&#x5355;&#x5f15;&#x53f7;&#x62ec;&#x8d77;&#x6765;&#x7684;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x533a;&#x522b;" ID="ID_109543620" CREATED="1318389128437" MODIFIED="1318389381220"><richcontent TYPE="NOTE">
+<node TEXT="一些对应于字符串的函数" FOLDED="true" ID="ID_539419230" CREATED="1318388477388" MODIFIED="1318388486330">
+<node TEXT="双引号/单引号括起来的字符串的区别" ID="ID_109543620" CREATED="1318389128437" MODIFIED="1318389381220"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1344,7 +1344,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x7cbe;&#x5de7;&#x65b9;&#x4fbf;&#x7684;&#x5b57;&#x7b26;&#x4e32;&#x64cd;&#x4f5c;--&#x8fde;&#x63a5;&#x5b57;&#x7b26;&#x4e32;,&#x5b57;&#x7b26;&#x4e32;&#x91cd;&#x590d;,&#x591a;&#x884c;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1810776111" CREATED="1318389429409" MODIFIED="1318390281646"><richcontent TYPE="NOTE">
+<node TEXT="精巧方便的字符串操作--连接字符串,字符串重复,多行字符串" ID="ID_1810776111" CREATED="1318389429409" MODIFIED="1318390281646"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1418,7 +1418,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x53ef;&#x4ee5;&#x66ff;&#x4ee3;splice??" ID="ID_1819203767" CREATED="1318389647362" MODIFIED="1318407887025">
+<node TEXT="可以替代splice??" ID="ID_1819203767" CREATED="1318389647362" MODIFIED="1318407887025">
 <icon BUILTIN="button_cancel"/>
 <richcontent TYPE="NOTE">
 
@@ -1479,8 +1479,8 @@ END</pre>
 <node TEXT="join(&apos;SEPARATOR STRING&apos;, STRING1, STRING2, ...)" ID="ID_1764733356" CREATED="1318389943415" MODIFIED="1318389967975"/>
 <node TEXT="qw" ID="ID_1208951147" CREATED="1318390164024" MODIFIED="1318390165830"/>
 </node>
-<node TEXT="&#x6bd4;&#x8f83;&#x548c;&#x903b;&#x8f91;&#x64cd;&#x4f5c;&#x7b26;" FOLDED="true" ID="ID_1392398325" CREATED="1318388845944" MODIFIED="1318388851717">
-<node TEXT="&#x6bd4;&#x8f83;&#x64cd;&#x4f5c;&#x7b26;" ID="ID_323191060" CREATED="1318401154202" MODIFIED="1318401522802"><richcontent TYPE="NOTE">
+<node TEXT="比较和逻辑操作符" FOLDED="true" ID="ID_1392398325" CREATED="1318388845944" MODIFIED="1318388851717">
+<node TEXT="比较操作符" ID="ID_323191060" CREATED="1318401154202" MODIFIED="1318401522802"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1644,7 +1644,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x903b;&#x8f91;&#x64cd;&#x4f5c;&#x7b26;" FOLDED="true" ID="ID_110973435" CREATED="1318401605004" MODIFIED="1318470198673"><richcontent TYPE="NOTE">
+<node TEXT="逻辑操作符" FOLDED="true" ID="ID_110973435" CREATED="1318401605004" MODIFIED="1318470198673"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1728,7 +1728,7 @@ END</pre>
 <node TEXT="&amp;&amp;/||/not" ID="ID_498898308" CREATED="1318402425797" MODIFIED="1318402695393" HGAP_QUANTITY="24.0 px"/>
 </node>
 </node>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&lt;--&gt;&#x6570;&#x503c;&#x8f6c;&#x5316;" FOLDED="true" ID="ID_971427048" CREATED="1318388497421" MODIFIED="1318399234581">
+<node TEXT="字符串&lt;--&gt;数值转化" FOLDED="true" ID="ID_971427048" CREATED="1318388497421" MODIFIED="1318399234581">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -1824,7 +1824,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x542f;&#x52a8;&#x8f6c;&#x5316;&#x64cd;&#x4f5c;&#x5462;?" ID="ID_1516549427" CREATED="1318391352055" MODIFIED="1318391503387"><richcontent TYPE="NOTE">
+<node TEXT="如何启动转化操作呢?" ID="ID_1516549427" CREATED="1318391352055" MODIFIED="1318391503387"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1869,7 +1869,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5f15;&#x7528;--Reference" FOLDED="true" ID="ID_581447399" CREATED="1318403229968" MODIFIED="1318472559298"><richcontent TYPE="NOTE">
+<node TEXT="引用--Reference" FOLDED="true" ID="ID_581447399" CREATED="1318403229968" MODIFIED="1318472559298"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1891,7 +1891,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="[&#x8bed;&#x6cd5;]&#x5f97;&#x5230;&#x5f15;&#x7528;&#x4e2d;&#x7684;&#x5b9e;&#x9645;&#x6570;&#x636e;--Dereference" ID="ID_1589656723" CREATED="1318403380907" MODIFIED="1318472981356">
+<node TEXT="[语法]得到引用中的实际数据--Dereference" ID="ID_1589656723" CREATED="1318403380907" MODIFIED="1318472981356">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -1989,7 +1989,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x6570;&#x7ec4;--Array" FOLDED="true" ID="ID_406450472" CREATED="1318387516629" MODIFIED="1318403789901"><richcontent TYPE="NOTE">
+<node TEXT="数组--Array" FOLDED="true" ID="ID_406450472" CREATED="1318387516629" MODIFIED="1318403789901"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2008,7 +2008,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="perl&#x4e2d;&#x7684;&#x6570;&#x7ec4;&#x662f;&#x53ef;&#x4ee5;&#x968f;&#x610f;&#x6539;&#x53d8;&#x5927;&#x5c0f;&#x7684;!!" ID="ID_1908461855" CREATED="1318403842558" MODIFIED="1318404918230"><richcontent TYPE="NOTE">
+<node TEXT="perl中的数组是可以随意改变大小的!!" ID="ID_1908461855" CREATED="1318403842558" MODIFIED="1318404918230"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2028,7 +2028,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="perl&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#x7684;&#x7c7b;&#x578b;&#x662f;&#x53ef;&#x4ee5;&#x4e0d;&#x4e00;&#x6837;&#x7684;!!" ID="ID_279153793" CREATED="1318404650827" MODIFIED="1318407350892"><richcontent TYPE="NOTE">
+<node TEXT="perl数组中的每个元素的类型是可以不一样的!!" ID="ID_279153793" CREATED="1318404650827" MODIFIED="1318407350892"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2048,7 +2048,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e00;&#x4e9b;&#x5e38;&#x7528;&#x7684;&#x9ed8;&#x8ba4;&#x51fd;&#x6570;" FOLDED="true" ID="ID_1037809011" CREATED="1318407376351" MODIFIED="1318407382398">
+<node TEXT="一些常用的默认函数" FOLDED="true" ID="ID_1037809011" CREATED="1318407376351" MODIFIED="1318407382398">
 <node TEXT="scalar()" ID="ID_1090843976" CREATED="1318407383728" MODIFIED="1318407389246"/>
 <node TEXT="push(@array,LIST)" ID="ID_414921003" CREATED="1318407399249" MODIFIED="1318407409119"/>
 <node TEXT="pop(@array)" ID="ID_1199342446" CREATED="1318407416082" MODIFIED="1318407422048"/>
@@ -2085,7 +2085,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x6e05;&#x7a7a;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;" FOLDED="true" ID="ID_1927937162" CREATED="1318407920473" MODIFIED="1318407964800"><richcontent TYPE="NOTE">
+<node TEXT="如何清空一个数组" FOLDED="true" ID="ID_1927937162" CREATED="1318407920473" MODIFIED="1318407964800"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2122,10 +2122,10 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4f46;&#x662f;&#x5e72;&#x561b;&#x8981;&#x6e05;&#x7a7a;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x5462;?" ID="ID_1269662135" CREATED="1318407970908" MODIFIED="1318407977994"/>
+<node TEXT="但是干嘛要清空一个数组呢?" ID="ID_1269662135" CREATED="1318407970908" MODIFIED="1318407977994"/>
 </node>
 </node>
-<node TEXT="&#x6563;&#x91cf;--Hash" FOLDED="true" ID="ID_1831086669" CREATED="1318387518821" MODIFIED="1318409208722"><richcontent TYPE="NOTE">
+<node TEXT="散量--Hash" FOLDED="true" ID="ID_1831086669" CREATED="1318387518821" MODIFIED="1318409208722"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2156,7 +2156,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4e00;&#x4e9b;&#x5e38;&#x7528;&#x7684;&#x9ed8;&#x8ba4;&#x51fd;&#x6570;" FOLDED="true" ID="ID_195065999" CREATED="1318408982984" MODIFIED="1318408992534">
+<node TEXT="一些常用的默认函数" FOLDED="true" ID="ID_195065999" CREATED="1318408982984" MODIFIED="1318408992534">
 <node TEXT="exist($hash{$key})" ID="ID_1403714701" CREATED="1318408882961" MODIFIED="1318408899440"/>
 <node TEXT="delete($hash{key})" ID="ID_829541207" CREATED="1318408957384" MODIFIED="1318408964981"/>
 <node TEXT="keys(%hash)" ID="ID_1147319831" CREATED="1318410214564" MODIFIED="1318410220975"/>
@@ -2183,7 +2183,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x4e0a;&#x4e0b;&#x6587;--List/Scalar context" FOLDED="true" ID="ID_692483687" CREATED="1318410724531" MODIFIED="1318472544338"><richcontent TYPE="NOTE">
+<node TEXT="上下文--List/Scalar context" FOLDED="true" ID="ID_692483687" CREATED="1318410724531" MODIFIED="1318472544338"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2239,7 +2239,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4ec0;&#x4e48;&#x662f;list?" ID="ID_472249294" CREATED="1318470424527" MODIFIED="1318471242565">
+<node TEXT="什么是list?" ID="ID_472249294" CREATED="1318470424527" MODIFIED="1318471242565">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -2300,11 +2300,11 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5f15;&#x7528;--References" FOLDED="true" ID="ID_966343872" CREATED="1318471905678" MODIFIED="1318472550977">
-<node TEXT="[&#x8bed;&#x6cd5;]&#x5982;&#x4f55;&#x5f97;&#x5230;referent" ID="ID_727102370" CREATED="1318472410867" MODIFIED="1318472456927">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1589656723" MIDDLE_LABEL="&#x5f97;&#x5230;referent" STARTINCLINATION="296;0;" ENDINCLINATION="296;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="引用--References" FOLDED="true" ID="ID_966343872" CREATED="1318471905678" MODIFIED="1318472550977">
+<node TEXT="[语法]如何得到referent" ID="ID_727102370" CREATED="1318472410867" MODIFIED="1318472456927">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1589656723" MIDDLE_LABEL="得到referent" STARTINCLINATION="296;0;" ENDINCLINATION="296;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="&#x547d;&#x540d;&#x5f15;&#x7528;" ID="ID_744779125" CREATED="1318472580597" MODIFIED="1318472634624"><richcontent TYPE="NOTE">
+<node TEXT="命名引用" ID="ID_744779125" CREATED="1318472580597" MODIFIED="1318472634624"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2318,7 +2318,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x533f;&#x540d;&#x5f15;&#x7528;" FOLDED="true" ID="ID_88584659" CREATED="1318472561732" MODIFIED="1318474211740">
+<node TEXT="匿名引用" FOLDED="true" ID="ID_88584659" CREATED="1318472561732" MODIFIED="1318474211740">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -2341,7 +2341,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6570;&#x7ec4;&#x7684;&#x533f;&#x540d;&#x5f15;&#x7528;" ID="ID_590183467" CREATED="1318473043134" MODIFIED="1318473108469"><richcontent TYPE="NOTE">
+<node TEXT="数组的匿名引用" ID="ID_590183467" CREATED="1318473043134" MODIFIED="1318473108469"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2379,7 +2379,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6563;&#x91cf;&#x7684;&#x533f;&#x540d;&#x5f15;&#x7528;" ID="ID_155179166" CREATED="1318473049886" MODIFIED="1318473127509"><richcontent TYPE="NOTE">
+<node TEXT="散量的匿名引用" ID="ID_155179166" CREATED="1318473049886" MODIFIED="1318473127509"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2412,7 +2412,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="ref()&#x51fd;&#x6570;" ID="ID_762862978" CREATED="1318474582560" MODIFIED="1318819515176"><richcontent TYPE="NOTE">
+<node TEXT="ref()函数" ID="ID_762862978" CREATED="1318474582560" MODIFIED="1318819515176"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2447,8 +2447,8 @@ END</pre>
 </node>
 </node>
 <node TEXT="3.Control Flow" FOLDED="true" ID="ID_1668931676" CREATED="1318300841215" MODIFIED="1318300847531">
-<node TEXT="&#x5faa;&#x73af;" FOLDED="true" ID="ID_1710855207" CREATED="1318820192234" MODIFIED="1318820194743">
-<node TEXT="&#x5faa;&#x73af;&#x4e2d;&#x7684;&#x63a7;&#x5236;&#x5b57;" FOLDED="true" ID="ID_192341499" CREATED="1318819625043" MODIFIED="1318819634948">
+<node TEXT="循环" FOLDED="true" ID="ID_1710855207" CREATED="1318820192234" MODIFIED="1318820194743">
+<node TEXT="循环中的控制字" FOLDED="true" ID="ID_192341499" CREATED="1318819625043" MODIFIED="1318819634948">
 <node TEXT="next" ID="ID_1633022090" CREATED="1318819637654" MODIFIED="1318819664725"><richcontent TYPE="NOTE">
 
 <html>
@@ -2493,8 +2493,8 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x6761;&#x4ef6;" FOLDED="true" ID="ID_329108741" CREATED="1318820195210" MODIFIED="1318820197335">
-<node TEXT="&#x6ce8;&#x610f;&#x662f;elsif,&#x4e0d;&#x662f;else if" ID="ID_520492542" CREATED="1318819719685" MODIFIED="1318819749534"><richcontent TYPE="NOTE">
+<node TEXT="条件" FOLDED="true" ID="ID_329108741" CREATED="1318820195210" MODIFIED="1318820197335">
+<node TEXT="注意是elsif,不是else if" ID="ID_520492542" CREATED="1318819719685" MODIFIED="1318819749534"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2511,7 +2511,7 @@ END</pre>
 </node>
 </node>
 <node TEXT="4.Packages and Namespaces and Lexical Scoping" FOLDED="true" ID="ID_1444353218" CREATED="1318300855230" MODIFIED="1318300869723">
-<node TEXT="&#x6bcf;&#x4e00;&#x4e2a;&#x53d8;&#x91cf;&#x90fd;&#x6709;&#x4e00;&#x4e2a;package&#x540d;&#x5b57;" ID="ID_1268841288" CREATED="1318820649084" MODIFIED="1318820688212"><richcontent TYPE="NOTE">
+<node TEXT="每一个变量都有一个package名字" ID="ID_1268841288" CREATED="1318820649084" MODIFIED="1318820688212"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2528,7 +2528,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="our&#x7684;&#x4f5c;&#x7528;" ID="ID_1051975082" CREATED="1318820790827" MODIFIED="1318821068387"><richcontent TYPE="NOTE">
+<node TEXT="our的作用" ID="ID_1051975082" CREATED="1318820790827" MODIFIED="1318821068387"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2554,7 +2554,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="package&#x9650;&#x5b9a;&#x8bcd;&#x7684;&#x4f5c;&#x7528;&#x8303;&#x56f4;" ID="ID_871444076" CREATED="1318821209135" MODIFIED="1318821800044"><richcontent TYPE="NOTE">
+<node TEXT="package限定词的作用范围" ID="ID_871444076" CREATED="1318821209135" MODIFIED="1318821800044"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2571,7 +2571,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="lexical variables&#x7684;&#x4f5c;&#x7528;&#x8303;&#x56f4;" FOLDED="true" ID="ID_310457183" CREATED="1318823161028" MODIFIED="1318918215934"><richcontent TYPE="NOTE">
+<node TEXT="lexical variables的作用范围" FOLDED="true" ID="ID_310457183" CREATED="1318823161028" MODIFIED="1318918215934"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2590,7 +2590,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="lexical variable&#x7684;&#x4e09;&#x4e2a;&#x7279;&#x6027;" ID="ID_1545914865" CREATED="1318823306239" MODIFIED="1318823500079">
+<node TEXT="lexical variable的三个特性" ID="ID_1545914865" CREATED="1318823306239" MODIFIED="1318823500079">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -2616,7 +2616,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x8d85;&#x51fa;&#x4f5c;&#x7528;&#x8303;&#x56f4;&#x4e5f;&#x4e0d;&#x4f1a;&#x88ab;&#x5783;&#x573e;&#x56de;&#x6536;&#x7684;&#x4f8b;&#x5b50;--&#x5b58;&#x5728;&#x5f15;&#x7528;" ID="ID_1863963282" CREATED="1318830758472" MODIFIED="1318830976208"><richcontent TYPE="NOTE">
+<node TEXT="超出作用范围也不会被垃圾回收的例子--存在引用" ID="ID_1863963282" CREATED="1318830758472" MODIFIED="1318830976208"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2664,7 +2664,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="local()&#x51fd;&#x6570;" ID="ID_651070190" CREATED="1318832527227" MODIFIED="1318832586879"><richcontent TYPE="NOTE">
+<node TEXT="local()函数" ID="ID_651070190" CREATED="1318832527227" MODIFIED="1318832586879"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2680,7 +2680,7 @@ END</pre>
 </node>
 </node>
 <node TEXT="5.Subroutings" FOLDED="true" ID="ID_1048012930" CREATED="1318300870366" MODIFIED="1318300877931">
-<node TEXT="&#x533f;&#x540d;&#x51fd;&#x6570;" FOLDED="true" ID="ID_575230754" CREATED="1318836077937" MODIFIED="1318836124868"><richcontent TYPE="NOTE">
+<node TEXT="匿名函数" FOLDED="true" ID="ID_575230754" CREATED="1318836077937" MODIFIED="1318836124868"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2705,7 +2705,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="dereferance&#x4e00;&#x4e2a;&#x533f;&#x540d;&#x51fd;&#x6570;&#x5f15;&#x7528;" ID="ID_98079211" CREATED="1318836637284" MODIFIED="1318836742853"><richcontent TYPE="NOTE">
+<node TEXT="dereferance一个匿名函数引用" ID="ID_98079211" CREATED="1318836637284" MODIFIED="1318836742853"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2840,13 +2840,13 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x51fd;&#x6570;&#x7684;&#x8fd4;&#x56de;&#x503c;" FOLDED="true" ID="ID_200617449" CREATED="1318837194190" MODIFIED="1318837201275">
-<node TEXT="&#x5982;&#x679c;&#x4e0d;&#x6307;&#x5b9a;&#x8fd4;&#x56de;&#x503c;,&#x5219;&#x51fd;&#x6570;&#x7684;&#x6700;&#x540e;&#x6267;&#x884c;&#x7684;&#x4e00;&#x884c;&#x7684;&#x7ed3;&#x679c;&#x88ab;&#x8fd4;&#x56de;!!" ID="ID_302794656" CREATED="1318837234433" MODIFIED="1318837256182">
+<node TEXT="函数的返回值" FOLDED="true" ID="ID_200617449" CREATED="1318837194190" MODIFIED="1318837201275">
+<node TEXT="如果不指定返回值,则函数的最后执行的一行的结果被返回!!" ID="ID_302794656" CREATED="1318837234433" MODIFIED="1318837256182">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 </node>
-<node TEXT="&#x53ef;&#x4ee5;&#x8fd4;&#x56de;&#x5355;&#x4e2a;&#x503c;,&#x4e5f;&#x53ef;&#x4ee5;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x5217;&#x8868;," FOLDED="true" ID="ID_1309948328" CREATED="1318837281412" MODIFIED="1318839749891">
+<node TEXT="可以返回单个值,也可以返回一个列表," FOLDED="true" ID="ID_1309948328" CREATED="1318837281412" MODIFIED="1318839749891">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -2869,7 +2869,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8fd4;&#x56de;&#x5217;&#x8868;&#x7684;&#x60c5;&#x51b5;&#x4e0b;,&#x6839;&#x636e;&#x5de6;&#x503c;&#x7684;context(scalar/list)&#x53ef;&#x4ee5;&#x63a7;&#x5236;&#x53d6;&#x8fd4;&#x56de;&#x503c;&#x4e2d;&#x7684;&#x591a;&#x5c11;&#x4e2a;." ID="ID_427203258" CREATED="1318838366166" MODIFIED="1318839845878"><richcontent TYPE="NOTE">
+<node TEXT="返回列表的情况下,根据左值的context(scalar/list)可以控制取返回值中的多少个." ID="ID_427203258" CREATED="1318838366166" MODIFIED="1318839845878"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2910,7 +2910,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x8fd9;&#x4e2a;&#x7279;&#x6027;&#x7ed9;&#x4e86;&#x6211;&#x4eec;&#x4e00;&#x4e2a;&#x5e7b;&#x60f3;--&#x80fd;&#x6839;&#x636e;context&#x8fd4;&#x56de;&#x9002;&#x5f53;&#x7684;&#x503c;&#x4e48;" ID="ID_1134109028" CREATED="1318839856900" MODIFIED="1318840915252">
+<node TEXT="这个特性给了我们一个幻想--能根据context返回适当的值么" ID="ID_1134109028" CREATED="1318839856900" MODIFIED="1318840915252">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -3007,7 +3007,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x76f4;&#x63a5;&#x4f7f;&#x7528;return&#x547d;&#x4ee4;" ID="ID_124670574" CREATED="1318838695775" MODIFIED="1318838773626"><richcontent TYPE="NOTE">
+<node TEXT="直接使用return命令" ID="ID_124670574" CREATED="1318838695775" MODIFIED="1318838773626"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3031,8 +3031,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="caller( 0 )&#x51fd;&#x6570;" FOLDED="true" ID="ID_1216512755" CREATED="1318839564000" MODIFIED="1318841619180">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134109028" MIDDLE_LABEL="&#x5b9e;&#x73b0;&#x4ee4;&#x4eba;&#x60ca;&#x5947;&#x7684;&#x6548;&#x679c;" STARTINCLINATION="844;0;" ENDINCLINATION="844;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="caller( 0 )函数" FOLDED="true" ID="ID_1216512755" CREATED="1318839564000" MODIFIED="1318841619180">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134109028" MIDDLE_LABEL="实现令人惊奇的效果" STARTINCLINATION="844;0;" ENDINCLINATION="844;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -3100,7 +3100,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4e00;&#x4e2a;&#x4f8b;&#x5b50;" ID="ID_1763620555" CREATED="1318841265670" MODIFIED="1318841315668"><richcontent TYPE="NOTE">
+<node TEXT="一个例子" ID="ID_1763620555" CREATED="1318841265670" MODIFIED="1318841315668"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3195,7 +3195,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7f16;&#x8bd1;&#x548c;&#x6267;&#x884c;&#x987a;&#x5e8f;" ID="ID_211678431" CREATED="1318841890964" MODIFIED="1318842368500">
+<node TEXT="编译和执行顺序" ID="ID_211678431" CREATED="1318841890964" MODIFIED="1318842368500">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -3261,7 +3261,7 @@ END</pre>
 </node>
 </node>
 <node TEXT="7.Code Reuse,Perl Modules" FOLDED="true" ID="ID_637068657" CREATED="1318300897805" MODIFIED="1318300907978">
-<node TEXT="&#x7528;&#x6237;&#x5b9a;&#x4e49;&#x7684;&#x6a21;&#x5757;&#x540d;&#x5e94;&#x8be5;&#x662f;&#x5927;&#x5c0f;&#x5199;&#x6df7;&#x5408;&#x7684;" ID="ID_112893011" CREATED="1318924031379" MODIFIED="1318924069320"><richcontent TYPE="NOTE">
+<node TEXT="用户定义的模块名应该是大小写混合的" ID="ID_112893011" CREATED="1318924031379" MODIFIED="1318924069320"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3275,7 +3275,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4f7f;&#x7528;use,&#x6a21;&#x5757;&#x4e2d;&#x51e1;&#x662f;&#x4e0d;&#x662f;&#x5b9a;&#x4e49;&#x7684;&#x90e8;&#x5206;&#x90fd;&#x88ab;&#x6267;&#x884c;&#x4e86;" ID="ID_1536435313" CREATED="1318924673875" MODIFIED="1318924712525"><richcontent TYPE="NOTE">
+<node TEXT="使用use,模块中凡是不是定义的部分都被执行了" ID="ID_1536435313" CREATED="1318924673875" MODIFIED="1318924712525"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3289,7 +3289,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="use&#x548c;require&#x7684;&#x5173;&#x7cfb;" ID="ID_1304708933" CREATED="1318924108169" MODIFIED="1318924907816">
+<node TEXT="use和require的关系" ID="ID_1304708933" CREATED="1318924108169" MODIFIED="1318924907816">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -3337,7 +3337,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6a21;&#x5757;&#x4e2d;&#x5b9a;&#x4e49;&#x7684;import()&#x51fd;&#x6570;" FOLDED="true" ID="ID_1000212188" CREATED="1318924881251" MODIFIED="1318925390867"><richcontent TYPE="NOTE">
+<node TEXT="模块中定义的import()函数" FOLDED="true" ID="ID_1000212188" CREATED="1318924881251" MODIFIED="1318925390867"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3380,13 +3380,13 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5728;use &#x6a21;&#x5757;&#x7684;&#x65f6;&#x5019;,&#x5982;&#x679c;&#x5e26;&#x53c2;&#x6570;&#x7684;&#x8bdd;,&#x53c2;&#x6570;&#x5c31;&#x88ab;&#x4f20;&#x9012;&#x7ed9;import()&#x4e86;" ID="ID_1335737929" CREATED="1318926346561" MODIFIED="1318926370647">
+<node TEXT="在use 模块的时候,如果带参数的话,参数就被传递给import()了" ID="ID_1335737929" CREATED="1318926346561" MODIFIED="1318926370647">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 </node>
 </node>
-<node TEXT="@INC&#x6570;&#x7ec4;&#x548c;PERL5LIB/PERLLIB&#x73af;&#x5883;&#x53d8;&#x91cf;" FOLDED="true" ID="ID_1504354590" CREATED="1318924176238" MODIFIED="1318924606189"><richcontent TYPE="NOTE">
+<node TEXT="@INC数组和PERL5LIB/PERLLIB环境变量" FOLDED="true" ID="ID_1504354590" CREATED="1318924176238" MODIFIED="1318924606189"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3399,7 +3399,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5982;&#x679c;&#x60f3;&#x624b;&#x52a8;&#x66f4;&#x6539;@INC&#x6570;&#x7ec4;&#x7684;&#x5185;&#x5bb9;,&#x8bf7;&#x5728;BEGIN{}&#x4e2d;&#x64cd;&#x4f5c;" ID="ID_490002127" CREATED="1318924451250" MODIFIED="1318924551106"><richcontent TYPE="NOTE">
+<node TEXT="如果想手动更改@INC数组的内容,请在BEGIN{}中操作" ID="ID_490002127" CREATED="1318924451250" MODIFIED="1318924551106"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3414,7 +3414,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="glob()&#x51fd;&#x6570;" ID="ID_1765492571" CREATED="1318924569147" MODIFIED="1318924573544"/>
+<node TEXT="glob()函数" ID="ID_1765492571" CREATED="1318924569147" MODIFIED="1318924573544"/>
 </node>
 <node TEXT="8.The use Statement" ID="ID_1137238236" CREATED="1318300908861" MODIFIED="1318300918234"/>
 <node TEXT="9.The use Statement,formally" ID="ID_1065731201" CREATED="1318300918717" MODIFIED="1318300931017"/>
@@ -3451,7 +3451,7 @@ END</pre>
 </richcontent>
 </node>
 <node TEXT="11.Method Calls" FOLDED="true" ID="ID_1491415371" CREATED="1318300937804" MODIFIED="1318300942713">
-<node TEXT="method calls&#x548c;function calls&#x7684;&#x533a;&#x522b;" FOLDED="true" ID="ID_1324386696" CREATED="1318926245962" MODIFIED="1318926573098">
+<node TEXT="method calls和function calls的区别" FOLDED="true" ID="ID_1324386696" CREATED="1318926245962" MODIFIED="1318926573098">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -3486,10 +3486,10 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="method call&#x4f1a;&#x628a;&#x8c03;&#x7528;&#x8005;&#x4f5c;&#x4e3a;&#x7b2c;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#x4f20;&#x9012;&#x7ed9;&#x88ab;&#x8c03;&#x7528;&#x7684;&#x51fd;&#x6570;" ID="ID_773914465" CREATED="1319001839515" MODIFIED="1319001862317"/>
+<node TEXT="method call会把调用者作为第一个参数传递给被调用的函数" ID="ID_773914465" CREATED="1319001839515" MODIFIED="1319001862317"/>
 </node>
 <node TEXT="use base" ID="ID_963282220" CREATED="1319003008205" MODIFIED="1319003011146"/>
-<node TEXT="@ISA&#x6570;&#x7ec4;" ID="ID_758798331" CREATED="1319002049162" MODIFIED="1319002094118"><richcontent TYPE="NOTE">
+<node TEXT="@ISA数组" ID="ID_758798331" CREATED="1319002049162" MODIFIED="1319002094118"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3503,9 +3503,9 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="-&gt;isa(BASEPACKAGE)&#x51fd;&#x6570;" ID="ID_586953628" CREATED="1319002266075" MODIFIED="1319002292988"/>
+<node TEXT="-&gt;isa(BASEPACKAGE)函数" ID="ID_586953628" CREATED="1319002266075" MODIFIED="1319002292988"/>
 <node TEXT="-&gt;can(METHODNAME)" ID="ID_312262329" CREATED="1319002272525" MODIFIED="1319002282746"/>
-<node TEXT="&#x88ab;bless&#x540e;&#x7684;&#x5f15;&#x7528;&#x6267;&#x884c;&#x65b9;&#x6cd5;&#x8c03;&#x7528;" FOLDED="true" ID="ID_373777522" CREATED="1319002461546" MODIFIED="1319002957177">
+<node TEXT="被bless后的引用执行方法调用" FOLDED="true" ID="ID_373777522" CREATED="1319002461546" MODIFIED="1319002957177">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -3560,7 +3560,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4e00;&#x4e2a;&#x5f88;&#x602a;&#x5f02;&#x4f46;&#x662f;&#x8bf4;&#x660e;&#x95ee;&#x9898;&#x7684;&#x4f8b;&#x5b50;" ID="ID_914822670" CREATED="1319002841299" MODIFIED="1319002920349"><richcontent TYPE="NOTE">
+<node TEXT="一个很怪异但是说明问题的例子" ID="ID_914822670" CREATED="1319002841299" MODIFIED="1319002920349"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3635,11 +3635,11 @@ END</pre>
 </node>
 <node TEXT="12.Procedural Perl" ID="ID_929980034" CREATED="1318300943292" MODIFIED="1318300952553"/>
 <node TEXT="13.Object Oriented Perl" FOLDED="true" ID="ID_1841404302" CREATED="1318300952972" MODIFIED="1319012062634">
-<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x673a;&#x5236;&#x7684;&#x5b9e;&#x73b0;" FOLDED="true" ID="ID_582113215" CREATED="1319012044683" MODIFIED="1319013589374">
+<node TEXT="面向对象机制的实现" FOLDED="true" ID="ID_582113215" CREATED="1319012044683" MODIFIED="1319013589374">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_373777522" MIDDLE_LABEL="&#x53c2;&#x8003;" STARTINCLINATION="138;0;" ENDINCLINATION="138;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_373777522" MIDDLE_LABEL="参考" STARTINCLINATION="138;0;" ENDINCLINATION="138;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -3701,7 +3701,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x591a;&#x6001;" ID="ID_1390694159" CREATED="1319012731989" MODIFIED="1319012820167"><richcontent TYPE="NOTE">
+<node TEXT="多态" ID="ID_1390694159" CREATED="1319012731989" MODIFIED="1319012820167"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3729,7 +3729,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="perl&#x7684;&#x6790;&#x6784;&#x51fd;&#x6570;" FOLDED="true" ID="ID_1685140774" CREATED="1319013727991" MODIFIED="1319013898229"><richcontent TYPE="NOTE">
+<node TEXT="perl的析构函数" FOLDED="true" ID="ID_1685140774" CREATED="1319013727991" MODIFIED="1319013898229"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3766,7 +3766,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5982;&#x679c;&#x7c7b;&#x4e2d;&#x5b58;&#x5728;DESTORY&#x51fd;&#x6570;&#x7684;&#x8bdd;" ID="ID_1000629097" CREATED="1319013839556" MODIFIED="1319014103810"><richcontent TYPE="NOTE">
+<node TEXT="如果类中存在DESTORY函数的话" ID="ID_1000629097" CREATED="1319013839556" MODIFIED="1319014103810"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3983,7 +3983,7 @@ END</pre>
 <node TEXT="22.Perl.GUI,and Tk" ID="ID_61034254" CREATED="1318301073769" MODIFIED="1318301081862"/>
 </node>
 </node>
-<node TEXT="perl&#x8bed;&#x8a00;&#x5165;&#x95e8;(&#x7b2c;&#x56db;&#x7248;)" ID="ID_1847175297" CREATED="1318298697428" MODIFIED="1318299159632"><richcontent TYPE="NOTE">
+<node TEXT="perl语言入门(第四版)" ID="ID_1847175297" CREATED="1318298697428" MODIFIED="1318299159632"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4017,7 +4017,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="perl&#x8bed;&#x8a00;&#x7f16;&#x7a0b;(&#x7b2c;&#x4e09;&#x7248;)" ID="ID_1948694476" CREATED="1318298709204" MODIFIED="1318298721969"/>
+<node TEXT="perl语言编程(第三版)" ID="ID_1948694476" CREATED="1318298709204" MODIFIED="1318298721969"/>
 </node>
 </node>
 <node TEXT="Pro Git" FOLDED="true" POSITION="right" ID="ID_1880528027" CREATED="1455432560640" MODIFIED="1455440899749" LINK="../MiscDocuments/Git.pdf">
@@ -4036,8 +4036,8 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="git&#x5b9e;&#x9645;&#x64cd;&#x7ec3;" FOLDED="true" ID="ID_1296539121" CREATED="1520405532596" MODIFIED="1520405537329">
-<node TEXT="&#x5904;&#x7406;&#x51b2;&#x7a81;" ID="ID_1934074610" CREATED="1520405538932" MODIFIED="1520406360108"><richcontent TYPE="NOTE">
+<node TEXT="git实际操练" FOLDED="true" ID="ID_1296539121" CREATED="1520405532596" MODIFIED="1520405537329">
+<node TEXT="处理冲突" ID="ID_1934074610" CREATED="1520405538932" MODIFIED="1520406360108"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4104,7 +4104,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x51b2;&#x7a81;&#x53d1;&#x751f;&#x540e;&#x60f3;&#x76f4;&#x63a5;&#x4f7f;&#x7528;&#x8fdc;&#x7aef;&#x7248;&#x672c;&#x8986;&#x76d6;&#x672c;&#x5730;&#x4fee;&#x6539;" ID="ID_216988497" CREATED="1520406261433" MODIFIED="1520407166649"><richcontent TYPE="NOTE">
+<node TEXT="冲突发生后想直接使用远端版本覆盖本地修改" ID="ID_216988497" CREATED="1520406261433" MODIFIED="1520407166649"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4122,7 +4122,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x64a4;&#x9500;&#x64cd;&#x4f5c;" ID="ID_1492531930" CREATED="1520406619053" MODIFIED="1522719518624"><richcontent TYPE="NOTE">
+<node TEXT="如何撤销操作" ID="ID_1492531930" CREATED="1520406619053" MODIFIED="1522719518624"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4141,7 +4141,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4e0d;&#x5c0f;&#x5fc3;&#x5c06;&#x6587;&#x4ef6;&#x7ed9;stage&#x4e86;" ID="ID_1984160963" CREATED="1520406786948" MODIFIED="1520406974045"><richcontent TYPE="NOTE">
+<node TEXT="不小心将文件给stage了" ID="ID_1984160963" CREATED="1520406786948" MODIFIED="1520406974045"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4158,7 +4158,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x60f3;&#x5c06;&#x672c;&#x5730;&#x4fee;&#x6539;&#x8fc7;&#x7684;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4fee;&#x6539;&#x524d;&#x7684;&#x5185;&#x5bb9;" ID="ID_1905462866" CREATED="1520406852800" MODIFIED="1522719753271"><richcontent TYPE="NOTE">
+<node TEXT="想将本地修改过的文件恢复到修改前的内容" ID="ID_1905462866" CREATED="1520406852800" MODIFIED="1522719753271"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4187,8 +4187,8 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x60f3;&#x5c06;&#x67d0;&#x4e00;&#x4e2a;&#x6587;&#x4ef6;&#x6062;&#x590d;&#x5230;&#x4ee5;&#x524d;remote branch&#x4e0a;&#x7684;&#x67d0;&#x4e00;&#x4e2a;&#x7248;&#x672c;" ID="ID_1048099483" CREATED="1522721025050" MODIFIED="1522721050412"/>
-<node TEXT="&#x5c0f;&#x7ed3;" ID="ID_1540978296" CREATED="1520409349193" MODIFIED="1558937847785"><richcontent TYPE="NOTE">
+<node TEXT="想将某一个文件恢复到以前remote branch上的某一个版本" ID="ID_1048099483" CREATED="1522721025050" MODIFIED="1522721050412"/>
+<node TEXT="小结" ID="ID_1540978296" CREATED="1520409349193" MODIFIED="1558937847785"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4241,7 +4241,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="--soft/mixed/hard&#x7684;&#x4e0d;&#x540c;&#x6548;&#x679c;" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1522816456533"><richcontent TYPE="NOTE">
+<node TEXT="--soft/mixed/hard的不同效果" ID="ID_1520679149" CREATED="1520407690137" MODIFIED="1522816456533"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4271,7 +4271,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x5206;&#x652f;&#x64cd;&#x4f5c;" ID="ID_126023646" CREATED="1548137556297" MODIFIED="1548137561005"/>
+<node TEXT="分支操作" ID="ID_126023646" CREATED="1548137556297" MODIFIED="1548137561005"/>
 </node>
 </node>
 <node TEXT="Linux Foundation Courses" POSITION="right" ID="ID_236017217" CREATED="1521197476614" MODIFIED="1521706279056">
@@ -4364,7 +4364,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7ae0;&#x8282;&#x5185;&#x5bb9;&#x5c0f;&#x7ed3;&#x548c;&#x5206;&#x6790;" FOLDED="true" ID="ID_439722042" CREATED="1378975627513" MODIFIED="1383163486325"><richcontent TYPE="NOTE">
+<node TEXT="章节内容小结和分析" FOLDED="true" ID="ID_439722042" CREATED="1378975627513" MODIFIED="1383163486325"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4377,7 +4377,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7b2c;&#x4e8c;&#x7ae0;.&#x5185;&#x5b58;&#x5730;&#x5740;" ID="ID_779290147" CREATED="1393244083070" MODIFIED="1393244217207"><richcontent TYPE="NOTE">
+<node TEXT="第二章.内存地址" ID="ID_779290147" CREATED="1393244083070" MODIFIED="1393244217207"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4391,7 +4391,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x7b2c;&#x4e94;&#x7ae0;.&#x5185;&#x6838;&#x7684;&#x540c;&#x6b65;" FOLDED="true" ID="ID_380274918" CREATED="1382040367963" MODIFIED="1383167626333"><richcontent TYPE="NOTE">
+<node TEXT="第五章.内核的同步" FOLDED="true" ID="ID_380274918" CREATED="1382040367963" MODIFIED="1383167626333"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4439,7 +4439,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="5.1&#x5185;&#x6838;&#x670d;&#x52a1;&#x662f;&#x5982;&#x4f55;&#x88ab;&#x8bf7;&#x6c42;&#x7684;" ID="ID_804718214" CREATED="1382733744520" MODIFIED="1382738451097">
+<node TEXT="5.1内核服务是如何被请求的" ID="ID_804718214" CREATED="1382733744520" MODIFIED="1382738451097">
 <attribute_layout NAME_WIDTH="49.499998524785084 pt" VALUE_WIDTH="49.499998524785084 pt"/>
 <attribute NAME="preemption" VALUE="yes"/>
 <richcontent TYPE="NOTE">
@@ -4525,7 +4525,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="5.2&#x5185;&#x6838;&#x540c;&#x6b65;&#x6b66;&#x5668;" ID="ID_1368612385" CREATED="1382464118326" MODIFIED="1393244050123"><richcontent TYPE="NOTE">
+<node TEXT="5.2内核同步武器" ID="ID_1368612385" CREATED="1382464118326" MODIFIED="1393244050123"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4755,7 +4755,7 @@ END</pre>
 <node TEXT="Local Interrupt Disabling" ID="ID_447370414" CREATED="1382472763535" MODIFIED="1382472770415"/>
 <node TEXT="Disabling and Enabling Deferrable Functions" ID="ID_973213017" CREATED="1382472770794" MODIFIED="1382472789115"/>
 </node>
-<node TEXT="5.3&#x4f7f;&#x7528;&#x8fd9;&#x4e9b;&#x540c;&#x6b65;&#x5de5;&#x5177;&#x4fdd;&#x62a4;&#x5185;&#x6838;&#x6570;&#x636e;" ID="ID_1798772395" CREATED="1382733831947" MODIFIED="1383165708416"><richcontent TYPE="NOTE">
+<node TEXT="5.3使用这些同步工具保护内核数据" ID="ID_1798772395" CREATED="1382733831947" MODIFIED="1383165708416"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4839,7 +4839,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5982;&#x4f55;&#x5728;&quot;&#x81ea;&#x65cb;&#x9501;&quot;/&quot;&#x4fe1;&#x53f7;&#x91cf;&quot;/&quot;&#x4e2d;&#x65ad;&#x5c4f;&#x853d;&quot;&#x4e4b;&#x95f4;&#x505a;&#x51fa;&#x9009;&#x62e9;" FOLDED="true" ID="ID_818798645" CREATED="1383165713529" MODIFIED="1383170078782"><richcontent TYPE="NOTE">
+<node TEXT="如何在&quot;自旋锁&quot;/&quot;信号量&quot;/&quot;中断屏蔽&quot;之间做出选择" FOLDED="true" ID="ID_818798645" CREATED="1383165713529" MODIFIED="1383170078782"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4894,10 +4894,10 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6709;&#x51e0;&#x79cd;&quot;kernel control path&quot;?" ID="ID_1086699273" CREATED="1383167175872" MODIFIED="1383167201665" LINK="#ID_1582558193"/>
+<node TEXT="有几种&quot;kernel control path&quot;?" ID="ID_1086699273" CREATED="1383167175872" MODIFIED="1383167201665" LINK="#ID_1582558193"/>
 </node>
 </node>
-<node TEXT="5.4.&#x51e0;&#x79cd;&#x5185;&#x6838;&#x540c;&#x6b65;&#x5de5;&#x5177;&#x5b9e;&#x4f8b;" ID="ID_474187865" CREATED="1382733893644" MODIFIED="1383167334239"><richcontent TYPE="NOTE">
+<node TEXT="5.4.几种内核同步工具实例" ID="ID_474187865" CREATED="1382733893644" MODIFIED="1383167334239"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4918,7 +4918,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x7b2c;&#x516d;&#x7ae0;.&#x65f6;&#x95f4;&#x7684;&#x8ba1;&#x91cf;" FOLDED="true" ID="ID_425352555" CREATED="1383167508399" MODIFIED="1470385992988"><richcontent TYPE="NOTE">
+<node TEXT="第六章.时间的计量" FOLDED="true" ID="ID_425352555" CREATED="1383167508399" MODIFIED="1470385992988"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4976,7 +4976,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="6.1.&#x65f6;&#x949f;&#x548c;&#x8ba1;&#x65f6;&#x5668;&#x7535;&#x8def;" ID="ID_1955482928" CREATED="1383168165338" MODIFIED="1388570416857"><richcontent TYPE="NOTE">
+<node TEXT="6.1.时钟和计时器电路" ID="ID_1955482928" CREATED="1383168165338" MODIFIED="1388570416857"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5012,7 +5012,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5173;&#x4e8e;RTC" ID="ID_1297399465" CREATED="1388580702502" MODIFIED="1388580982563"><richcontent TYPE="NOTE">
+<node TEXT="关于RTC" ID="ID_1297399465" CREATED="1388580702502" MODIFIED="1388580982563"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5049,15 +5049,15 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5173;&#x4e8e;TSC" ID="ID_926013579" CREATED="1388580987656" MODIFIED="1388580990464"/>
+<node TEXT="关于TSC" ID="ID_926013579" CREATED="1388580987656" MODIFIED="1388580990464"/>
 </node>
-<node TEXT="6.2.Linux&#x7684;&#x8ba1;&#x65f6;&#x673a;&#x5236;" ID="ID_622066814" CREATED="1383168183446" MODIFIED="1383168193450"/>
-<node TEXT="6.3.&#x66f4;&#x65b0;&#x65f6;&#x95f4;&#x548c;&#x65e5;&#x671f;" ID="ID_1138775390" CREATED="1383168200531" MODIFIED="1383168207172"/>
-<node TEXT="6.4.&#x66f4;&#x65b0;&#x7cfb;&#x7edf;&#x7684;&#x7edf;&#x8ba1;&#x6570;&#x636e;" ID="ID_1280344054" CREATED="1383168225243" MODIFIED="1383168236911"/>
-<node TEXT="6.5.&#x8f6f;&#x4ef6;&#x5b9a;&#x65f6;&#x5668;&#x548c;&#x5ef6;&#x65f6;&#x5904;&#x7406;" ID="ID_1897517863" CREATED="1383168245183" MODIFIED="1383168258697"/>
-<node TEXT="6.6.&#x8ddf;&#x65f6;&#x95f4;&#x8ba1;&#x91cf;&#x76f8;&#x5173;&#x7684;&#x7cfb;&#x7edf;&#x8c03;&#x7528;" ID="ID_1202684923" CREATED="1383168264239" MODIFIED="1383168276899"/>
+<node TEXT="6.2.Linux的计时机制" ID="ID_622066814" CREATED="1383168183446" MODIFIED="1383168193450"/>
+<node TEXT="6.3.更新时间和日期" ID="ID_1138775390" CREATED="1383168200531" MODIFIED="1383168207172"/>
+<node TEXT="6.4.更新系统的统计数据" ID="ID_1280344054" CREATED="1383168225243" MODIFIED="1383168236911"/>
+<node TEXT="6.5.软件定时器和延时处理" ID="ID_1897517863" CREATED="1383168245183" MODIFIED="1383168258697"/>
+<node TEXT="6.6.跟时间计量相关的系统调用" ID="ID_1202684923" CREATED="1383168264239" MODIFIED="1383168276899"/>
 </node>
-<node TEXT="&#x7b2c;&#x516b;&#x7ae0;.&#x5185;&#x5b58;&#x7ba1;&#x7406;" ID="ID_394972281" CREATED="1394600339741" MODIFIED="1394718552772"><richcontent TYPE="NOTE">
+<node TEXT="第八章.内存管理" ID="ID_394972281" CREATED="1394600339741" MODIFIED="1394718552772"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5073,7 +5073,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7b2c;&#x4e00;&#x8282;.&#x9875;&#x6846;&#x7ba1;&#x7406;" ID="ID_20366675" CREATED="1394716802244" MODIFIED="1394718752965"><richcontent TYPE="NOTE">
+<node TEXT="第一节.页框管理" ID="ID_20366675" CREATED="1394716802244" MODIFIED="1394718752965"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5096,7 +5096,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x7b2c;&#x4e8c;&#x8282;.Memory Area&#x7ba1;&#x7406;" ID="ID_68485801" CREATED="1395751074944" MODIFIED="1398588522090"><richcontent TYPE="NOTE">
+<node TEXT="第二节.Memory Area管理" ID="ID_68485801" CREATED="1395751074944" MODIFIED="1398588522090"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5163,7 +5163,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="/proc/slabinfo&#x7684;&#x5185;&#x5bb9;" ID="ID_418537148" CREATED="1395755030083" MODIFIED="1395932776153" LINK="../MiscDocuments/slabinfo.txt"><richcontent TYPE="NOTE">
+<node TEXT="/proc/slabinfo的内容" ID="ID_418537148" CREATED="1395755030083" MODIFIED="1395932776153" LINK="../MiscDocuments/slabinfo.txt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5177,7 +5177,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5173;&#x4e8e;slab coloring" ID="ID_1585302765" CREATED="1395929778027" MODIFIED="1395929868694"><richcontent TYPE="NOTE">
+<node TEXT="关于slab coloring" ID="ID_1585302765" CREATED="1395929778027" MODIFIED="1395929868694"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5194,7 +5194,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Object&#x4e5f;&#x5b58;&#x5728;cache&#x673a;&#x5236;" ID="ID_1503274258" CREATED="1395930952493" MODIFIED="1395930963458"/>
+<node TEXT="Object也存在cache机制" ID="ID_1503274258" CREATED="1395930952493" MODIFIED="1395930963458"/>
 <node TEXT="General Purpose Objects" ID="ID_858731062" CREATED="1395931715516" MODIFIED="1395933069397"><richcontent TYPE="NOTE">
 
 <html>
@@ -5238,7 +5238,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x7b2c;&#x4e5d;&#x7ae0;.&#x7528;&#x6237;&#x8fdb;&#x7a0b;&#x5730;&#x5740;&#x7a7a;&#x95f4;" ID="ID_953867700" CREATED="1398587805245" MODIFIED="1400927294391"><richcontent TYPE="NOTE">
+<node TEXT="第九章.用户进程地址空间" ID="ID_953867700" CREATED="1398587805245" MODIFIED="1400927294391"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5251,7 +5251,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7b2c;&#x4e00;&#x8282;.&#x7528;&#x6237;&#x8fdb;&#x7a0b;&#x5730;&#x5740;&#x7a7a;&#x95f4;" ID="ID_1762617188" CREATED="1400927275663" MODIFIED="1400934587018"><richcontent TYPE="NOTE">
+<node TEXT="第一节.用户进程地址空间" ID="ID_1762617188" CREATED="1400927275663" MODIFIED="1400934587018"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5273,7 +5273,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x9605;&#x8bfb;&#x672c;&#x4e66;&#x9700;&#x8981;&#x5177;&#x5907;&#x7684;&#x77e5;&#x8bc6;" ID="ID_1923686994" CREATED="1382561765165" MODIFIED="1382733594607"><richcontent TYPE="NOTE">
+<node TEXT="阅读本书需要具备的知识" ID="ID_1923686994" CREATED="1382561765165" MODIFIED="1382733594607"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5296,10 +5296,10 @@ END</pre>
 </richcontent>
 </node>
 <node TEXT="Miscellaneous" FOLDED="true" ID="ID_81604588" CREATED="1382726755432" MODIFIED="1382726759962">
-<node TEXT="&#x5185;&#x6838;&#x53d8;&#x91cf;&#x548c;&#x6570;&#x636e;&#x7ed3;&#x6784;" ID="ID_1355984575" CREATED="1382737740499" MODIFIED="1382737746584">
+<node TEXT="内核变量和数据结构" ID="ID_1355984575" CREATED="1382737740499" MODIFIED="1382737746584">
 <node TEXT="preempt_count" ID="ID_714830929" CREATED="1382737750631" MODIFIED="1382737754704"/>
 </node>
-<node TEXT="&#x6709;&#x51e0;&#x79cd;&quot;kernel control path&quot;?" ID="ID_1582558193" CREATED="1383166018518" MODIFIED="1383166258660">
+<node TEXT="有几种&quot;kernel control path&quot;?" ID="ID_1582558193" CREATED="1383166018518" MODIFIED="1383166258660">
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
@@ -5339,12 +5339,12 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x5173;&#x4e8e;&#x5bf9;&#x79f0;&#x591a;&#x5904;&#x7406;SMP&#x67b6;&#x6784;" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
+<node TEXT="关于对称多处理SMP架构" POSITION="left" ID="ID_1896103540" CREATED="1382036989112" MODIFIED="1382037004312">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="&#x600e;&#x6837;&#x8bfb;&#x8d22;&#x62a5;" FOLDED="true" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
+<node TEXT="怎样读财报" FOLDED="true" POSITION="left" ID="ID_1783466580" CREATED="1520217170955" MODIFIED="1520217182416">
 <edge COLOR="#808080"/>
-<node TEXT="&#x540d;&#x8bcd;" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
+<node TEXT="名词" ID="ID_1502148635" CREATED="1520217183382" MODIFIED="1520217185209">
 <node TEXT="operating margin" ID="ID_1741430453" CREATED="1520217202692" MODIFIED="1520217334706"><richcontent TYPE="NOTE">
 
 <html>
@@ -5446,7 +5446,7 @@ END</pre>
 <node TEXT="restructuring charge" ID="ID_362002208" CREATED="1520217756342" MODIFIED="1520217827189"/>
 </node>
 </node>
-<node TEXT="&#x5168;&#x7403;&#x901a;&#x53f2;" POSITION="left" ID="ID_34264488" CREATED="1521766564285" MODIFIED="1521766621883">
+<node TEXT="全球通史" POSITION="left" ID="ID_34264488" CREATED="1521766564285" MODIFIED="1521766621883">
 <edge COLOR="#808080"/>
 <richcontent TYPE="NOTE">
 
@@ -5462,16 +5462,16 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6781;&#x7b80;&#x6b27;&#x6d32;&#x53f2;" POSITION="left" ID="ID_1259379989" CREATED="1522389671618" MODIFIED="1522389680584">
+<node TEXT="极简欧洲史" POSITION="left" ID="ID_1259379989" CREATED="1522389671618" MODIFIED="1522389680584">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x901a;&#x4fe1;" POSITION="right" ID="ID_1861360303" CREATED="1568685622114" MODIFIED="1568685627680">
+<node TEXT="通信" POSITION="right" ID="ID_1861360303" CREATED="1568685622114" MODIFIED="1568685627680">
 <edge COLOR="#808080"/>
-<node TEXT="&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;" FOLDED="true" ID="ID_1480410074" CREATED="1568685733306" MODIFIED="1568685737083">
-<node TEXT="A Practical Approach to Signals and Systems" ID="ID_1024702715" CREATED="1568685738176" MODIFIED="1568685790170" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/A%20Practical%20Approach%20to%20Signals%20and%20Systems.pdf"/>
-<node TEXT="fundamentals-of-signals-and-systems" ID="ID_1041890803" CREATED="1568685799289" MODIFIED="1568685852337" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/fundamentals-of-signals-and-systems.pdf"/>
-<node TEXT="intro_comm_systems_madhow_jan2014b" ID="ID_286965965" CREATED="1568685856424" MODIFIED="1568685953603" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/intro_comm_systems_madhow_jan2014b.pdf"/>
-<node TEXT="Signals and Systems" ID="ID_1395957396" CREATED="1568686590205" MODIFIED="1568686849575" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/matdid018094.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="信号与系统" FOLDED="true" ID="ID_1480410074" CREATED="1568685733306" MODIFIED="1568685737083">
+<node TEXT="A Practical Approach to Signals and Systems" ID="ID_1024702715" CREATED="1568685738176" MODIFIED="1568685790170" LINK="../attachment/数学和通信基础/信号与系统/A%20Practical%20Approach%20to%20Signals%20and%20Systems.pdf"/>
+<node TEXT="fundamentals-of-signals-and-systems" ID="ID_1041890803" CREATED="1568685799289" MODIFIED="1568685852337" LINK="../attachment/数学和通信基础/信号与系统/fundamentals-of-signals-and-systems.pdf"/>
+<node TEXT="intro_comm_systems_madhow_jan2014b" ID="ID_286965965" CREATED="1568685856424" MODIFIED="1568685953603" LINK="../attachment/数学和通信基础/信号与系统/intro_comm_systems_madhow_jan2014b.pdf"/>
+<node TEXT="Signals and Systems" ID="ID_1395957396" CREATED="1568686590205" MODIFIED="1568686849575" LINK="../attachment/数学和通信基础/信号与系统/matdid018094.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5485,7 +5485,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Basics of Signals and Systems" ID="ID_1568239429" CREATED="1568686863187" MODIFIED="1568687032106" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/matdid744681.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Basics of Signals and Systems" ID="ID_1568239429" CREATED="1568686863187" MODIFIED="1568687032106" LINK="../attachment/数学和通信基础/信号与系统/matdid744681.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5499,7 +5499,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Signals and Systems with Matlab Applications" ID="ID_1336977453" CREATED="1568687035353" MODIFIED="1568687803271" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/Signals_and_Systems_with_MATLAB_Applications_0970951183.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Signals and Systems with Matlab Applications" ID="ID_1336977453" CREATED="1568687035353" MODIFIED="1568687803271" LINK="../attachment/数学和通信基础/信号与系统/Signals_and_Systems_with_MATLAB_Applications_0970951183.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5513,7 +5513,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Signals and Systems: A Fresh Look" ID="ID_1052747138" CREATED="1568687806049" MODIFIED="1568687952987" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/Signals_System_Fresh_Look.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Signals and Systems: A Fresh Look" ID="ID_1052747138" CREATED="1568687806049" MODIFIED="1568687952987" LINK="../attachment/数学和通信基础/信号与系统/Signals_System_Fresh_Look.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5527,7 +5527,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Signals and Systems" ID="ID_1961758298" CREATED="1568688052883" MODIFIED="1568688175072" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/SignalsAndSystems.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Signals and Systems" ID="ID_1961758298" CREATED="1568688052883" MODIFIED="1568688175072" LINK="../attachment/数学和通信基础/信号与系统/SignalsAndSystems.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5542,9 +5542,9 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6570;&#x5b57;&#x4fe1;&#x53f7;&#x5904;&#x7406;" FOLDED="true" ID="ID_413932892" CREATED="1568689882744" MODIFIED="1568689887130">
-<node TEXT="&#x7b80;&#x660e;&#x6570;&#x5b57;&#x4fe1;&#x53f7;&#x5904;&#x7406;" ID="ID_497370559" CREATED="1568689889879" MODIFIED="1568690035368" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x6570;&#x5b57;&#x4fe1;&#x53f7;&#x5904;&#x7406;&#x5165;&#x95e8;/&#x6570;&#x5b57;&#x4fe1;&#x53f7;&#x5904;&#x7406;/"/>
-<node TEXT="Digital Signal Processing Using MATLAB" ID="ID_737024868" CREATED="1568689361318" MODIFIED="1568689849785" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/UploadFile_6417.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="数字信号处理" FOLDED="true" ID="ID_413932892" CREATED="1568689882744" MODIFIED="1568689887130">
+<node TEXT="简明数字信号处理" ID="ID_497370559" CREATED="1568689889879" MODIFIED="1568690035368" LINK="../attachment/数学和通信基础/数字信号处理入门/数字信号处理/"/>
+<node TEXT="Digital Signal Processing Using MATLAB" ID="ID_737024868" CREATED="1568689361318" MODIFIED="1568689849785" LINK="../attachment/数学和通信基础/信号与系统/UploadFile_6417.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5573,9 +5573,9 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x65e0;&#x7ebf;&#x901a;&#x4fe1;" ID="ID_270501259" CREATED="1568690443575" MODIFIED="1568690448370">
-<node TEXT="WirelessCom" ID="ID_540553525" CREATED="1568690458960" MODIFIED="1568709369125" LINK="../attachment/Communication/&#x79fb;&#x52a8;&#x901a;&#x4fe1;/wirelessCom/"/>
-<node TEXT="Wireless Communication" ID="ID_1422176627" CREATED="1568690521680" MODIFIED="1569202971853" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x79fb;&#x52a8;&#x901a;&#x4fe1;/&#x65e0;&#x7ebf;&#x901a;&#x4fe1;_Goldsmith.pdf">
+<node TEXT="无线通信" FOLDED="true" ID="ID_270501259" CREATED="1568690443575" MODIFIED="1568690448370">
+<node TEXT="WirelessCom" ID="ID_540553525" CREATED="1568690458960" MODIFIED="1568709369125" LINK="../attachment/Communication/移动通信/wirelessCom/"/>
+<node TEXT="Wireless Communication" FOLDED="true" ID="ID_1422176627" CREATED="1568690521680" MODIFIED="1569202971853" LINK="../attachment/数学和通信基础/移动通信/无线通信_Goldsmith.pdf">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="DETAILS">
 
@@ -5590,9 +5590,9 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7b2c;&#x4e8c;&#x7ae0;-&#x8def;&#x635f;&#x548c;&#x9634;&#x5f71;" ID="ID_693458560" CREATED="1569202983495" MODIFIED="1569202998127"/>
-<node TEXT="&#x7b2c;&#x516d;&#x7ae0;-&#x6570;&#x5b57;&#x8c03;&#x5236;&#x548c;&#x89e3;&#x8c03;" ID="ID_1037007253" CREATED="1569202999619" MODIFIED="1569203008341">
-<node TEXT="&#x4fe1;&#x53f7;&#x7a7a;&#x95f4;&#x5206;&#x6790;" ID="ID_158669292" CREATED="1569381319869" MODIFIED="1569404632983"><richcontent TYPE="NOTE">
+<node TEXT="第二章-路损和阴影" ID="ID_693458560" CREATED="1569202983495" MODIFIED="1569202998127"/>
+<node TEXT="第六章-数字调制和解调" ID="ID_1037007253" CREATED="1569202999619" MODIFIED="1569203008341">
+<node TEXT="信号空间分析" ID="ID_158669292" CREATED="1569381319869" MODIFIED="1569404632983"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5611,7 +5611,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6a21;&#x578b;" ID="ID_1188306188" CREATED="1569382067590" MODIFIED="1569382266274"><richcontent TYPE="NOTE">
+<node TEXT="模型" ID="ID_1188306188" CREATED="1569382067590" MODIFIED="1569382266274"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5631,8 +5631,8 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4fe1;&#x53f7;&#x7684;&#x51e0;&#x4f55;&#x8868;&#x793a;&#x6cd5;" ID="ID_1470197323" CREATED="1569382069961" MODIFIED="1569382075779">
-<node TEXT="&#x4efb;&#x610f;&#x4fe1;&#x53f7;&#x8868;&#x793a;&#x4e3a;&#x6b63;&#x4ea4;&#x57fa;&#x51fd;&#x6570;&#x7684;&#x7ebf;&#x6027;&#x7ec4;&#x5408;" ID="ID_360489524" CREATED="1569391294122" MODIFIED="1569726067021">
+<node TEXT="信号的几何表示法" ID="ID_1470197323" CREATED="1569382069961" MODIFIED="1569382075779">
+<node TEXT="任意信号表示为正交基函数的线性组合" ID="ID_360489524" CREATED="1569391294122" MODIFIED="1569726067021">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -5696,7 +5696,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5e26;&#x901a;&#x4fe1;&#x53f7;&#x8c03;&#x5236;&#x4f7f;&#x7528;&#x7684;&#x57fa;&#x51fd;&#x6570;" ID="ID_1417090315" CREATED="1569392818376" MODIFIED="1569393979697">
+<node TEXT="带通信号调制使用的基函数" ID="ID_1417090315" CREATED="1569392818376" MODIFIED="1569393979697">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -5720,7 +5720,7 @@ END</pre>
 <node TEXT="\latex $\sqrt{2/T}sin(2\pi f_{c}t)$" ID="ID_1635973308" CREATED="1569392986463" MODIFIED="1569392999081"/>
 <node TEXT="\latex $\sqrt{2/T}cos(2\pi f_{c}t)$" ID="ID_1026053841" CREATED="1569393010536" MODIFIED="1569393016719"/>
 </node>
-<node TEXT="&#x4fe1;&#x53f7;&#x661f;&#x5ea7;&#x56fe;" ID="ID_593166451" CREATED="1569393515631" MODIFIED="1569393589165"><richcontent TYPE="NOTE">
+<node TEXT="信号星座图" ID="ID_593166451" CREATED="1569393515631" MODIFIED="1569393589165"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5741,7 +5741,7 @@ END</pre>
 </richcontent>
 <node TEXT="\latex $(s_{i1},s_{i2},s_{i3}...s_{iN})" ID="ID_257192154" CREATED="1569393592519" MODIFIED="1569393664552"/>
 </node>
-<node TEXT="&#x5411;&#x91cf;&#x957f;&#x5ea6;" ID="ID_85557368" CREATED="1569393781216" MODIFIED="1569393920374"><richcontent TYPE="NOTE">
+<node TEXT="向量长度" ID="ID_85557368" CREATED="1569393781216" MODIFIED="1569393920374"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5756,7 +5756,7 @@ END</pre>
 </richcontent>
 <node TEXT="\latex $||s_{i}|| = \sqrt{\sum_{j=1}^{N}s_{ij}^2}$" ID="ID_1737834581" CREATED="1569393787025" MODIFIED="1569393872321"/>
 </node>
-<node TEXT="&#x5411;&#x91cf;/&#x4fe1;&#x53f7;&#x95f4;&#x8ddd;&#x79bb;" ID="ID_933129192" CREATED="1569395190087" MODIFIED="1569395828224"><richcontent TYPE="NOTE">
+<node TEXT="向量/信号间距离" ID="ID_933129192" CREATED="1569395190087" MODIFIED="1569395828224"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5772,7 +5772,7 @@ END</pre>
 <node TEXT="\latex $||s_{i}-s_{k}|| = \sqrt{\sum_{j=1}^{N}(s_{ij} - s_{ik})^2}$" ID="ID_1767236979" CREATED="1569395198718" MODIFIED="1569395291176"/>
 <node TEXT="\latex $||s_{i}-s_{k}|| = \sqrt{\int_{0}^{T}(s_{i}(t) - s_{k}(t))^2dt}$" ID="ID_1685297852" CREATED="1569395311366" MODIFIED="1569395499298"/>
 </node>
-<node TEXT="&#x5411;&#x91cf;/&#x4fe1;&#x53f7;&#x7684;&#x5185;&#x79ef;&#x5b9a;&#x4e49;" ID="ID_1219998881" CREATED="1569395540005" MODIFIED="1569395837558"><richcontent TYPE="NOTE">
+<node TEXT="向量/信号的内积定义" ID="ID_1219998881" CREATED="1569395540005" MODIFIED="1569395837558"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5789,7 +5789,7 @@ END</pre>
 <node TEXT="\latex $&lt;s_{i},s_{k}&gt; = s_{i}s_{k}^T = &lt;s_{i}(t),s_{k}(t)&gt;$" ID="ID_1537777136" CREATED="1569395705429" MODIFIED="1569395777668"/>
 </node>
 </node>
-<node TEXT="&#x63a5;&#x6536;&#x673a;&#x7684;&#x7ed3;&#x6784;&#x548c;sufficient Statistics" ID="ID_1390579789" CREATED="1569395885069" MODIFIED="1569726077698">
+<node TEXT="接收机的结构和sufficient Statistics" ID="ID_1390579789" CREATED="1569395885069" MODIFIED="1569726077698">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -5804,7 +5804,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7ed3;&#x6784;" ID="ID_1119058348" CREATED="1569398487197" MODIFIED="1569398639502"><richcontent TYPE="NOTE">
+<node TEXT="结构" ID="ID_1119058348" CREATED="1569398487197" MODIFIED="1569398639502"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5820,10 +5820,10 @@ END</pre>
 <node TEXT="" ID="ID_48096322" CREATED="1569398689276" MODIFIED="1569398689277">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="&#x591a;&#x8def;&#x5e76;&#x884c;&#x5904;&#x7406;&#xff0c;&#x5206;&#x522b;&#x4e58;&#x4ee5;&#x4e0d;&#x540c;&#x7684;&#x6b63;&#x4ea4;&#x57fa;&#x51fd;&#x6570;" ID="ID_1083924669" CREATED="1569398490013" MODIFIED="1569398677458">
+<node TEXT="多路并行处理，分别乘以不同的正交基函数" ID="ID_1083924669" CREATED="1569398490013" MODIFIED="1569398677458">
 <icon BUILTIN="full-1"/>
 </node>
-<node TEXT="&#x79ef;&#x5206;&#x5904;&#x7406;" ID="ID_524470402" CREATED="1569398524318" MODIFIED="1569398681194">
+<node TEXT="积分处理" ID="ID_524470402" CREATED="1569398524318" MODIFIED="1569398681194">
 <icon BUILTIN="full-2"/>
 </node>
 <node TEXT="" ID="ID_1457630535" CREATED="1569398689275" MODIFIED="1569398689276">
@@ -5876,7 +5876,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x566a;&#x58f0;&#x8fd8;&#x6709;&#x5269;&#x4f59;&#x5206;&#x91cf;" ID="ID_826157005" CREATED="1569399503524" MODIFIED="1569399608989"><richcontent TYPE="NOTE">
+<node TEXT="噪声还有剩余分量" ID="ID_826157005" CREATED="1569399503524" MODIFIED="1569399608989"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5895,8 +5895,8 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x51b3;&#x7b56;&#x533a;&#x95f4;&#x548c;&#x6700;&#x5927;&#x4f3c;&#x7136;&#x4f30;&#x8ba1;&#x51c6;&#x5219;" ID="ID_951423754" CREATED="1569399938579" MODIFIED="1569399948181">
-<node TEXT="&#x7ed3;&#x8bba;" ID="ID_1922082" CREATED="1569403631170" MODIFIED="1569403836667"><richcontent TYPE="NOTE">
+<node TEXT="决策区间和最大似然估计准则" ID="ID_951423754" CREATED="1569399938579" MODIFIED="1569399948181">
+<node TEXT="结论" ID="ID_1922082" CREATED="1569403631170" MODIFIED="1569403836667"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5915,7 +5915,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8fd9;&#x662f;&#x5747;&#x5300;&#x5206;&#x5e03;&#x524d;&#x63d0;&#x4e0b;&#x7684;&#x6700;&#x5927;&#x4f3c;&#x7136;" ID="ID_188144189" CREATED="1569403839226" MODIFIED="1569403896369"><richcontent TYPE="NOTE">
+<node TEXT="这是均匀分布前提下的最大似然" ID="ID_188144189" CREATED="1569403839226" MODIFIED="1569403896369"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5930,7 +5930,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5339;&#x914d;&#x6ee4;&#x6ce2;&#x5668;" ID="ID_1953005972" CREATED="1569403911751" MODIFIED="1569404121595"><richcontent TYPE="NOTE">
+<node TEXT="匹配滤波器" ID="ID_1953005972" CREATED="1569403911751" MODIFIED="1569404121595"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5949,7 +5949,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x5e26;&#x901a;&#x8c03;&#x5236;&#x539f;&#x5219;" ID="ID_372098385" CREATED="1569404300463" MODIFIED="1569404371909"><richcontent TYPE="NOTE">
+<node TEXT="带通调制原则" ID="ID_372098385" CREATED="1569404300463" MODIFIED="1569404371909"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5962,7 +5962,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="I&#x5206;&#x91cf;&#x548c;Q&#x5206;&#x91cf;" ID="ID_1998230931" CREATED="1569422328448" MODIFIED="1569424401693"><richcontent TYPE="NOTE">
+<node TEXT="I分量和Q分量" ID="ID_1998230931" CREATED="1569422328448" MODIFIED="1569424401693"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5979,7 +5979,7 @@ END</pre>
 <node TEXT="" ID="ID_1907650559" CREATED="1569422851623" MODIFIED="1569422851624">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="&#x4fe1;&#x53f7;&#x7684;&#x4e09;&#x89d2;&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1956610154" CREATED="1569422537270" MODIFIED="1569726104467">
+<node TEXT="信号的三角函数表达式" ID="ID_1956610154" CREATED="1569422537270" MODIFIED="1569726104467">
 <icon BUILTIN="bookmark"/>
 <node TEXT="\latex $s(t) = s_{I}(t)\cos(2\pi f_{c}t) - s_{Q}(t)\sin(2\pi f_{c}t)$" ID="ID_1421328693" CREATED="1569422544446" MODIFIED="1569426263277"><richcontent TYPE="NOTE">
 
@@ -5996,7 +5996,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4fe1;&#x53f7;&#x7684;&#x590d;&#x6307;&#x6570;&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_489056569" CREATED="1569422689333" MODIFIED="1569422698688">
+<node TEXT="信号的复指数函数表达式" ID="ID_489056569" CREATED="1569422689333" MODIFIED="1569422698688">
 <node TEXT="\latex $s(t) = \Re{\{u(t)e^{j2\pi f_{c}t}}\}$" ID="ID_1976465135" CREATED="1569422721774" MODIFIED="1569422840144"/>
 </node>
 <node TEXT="" ID="ID_1394991304" CREATED="1569422851621" MODIFIED="1569422851623">
@@ -6018,14 +6018,14 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x632f;&#x5e45;&#x548c;&#x76f8;&#x4f4d;&#x8c03;&#x5236;" ID="ID_1800286029" CREATED="1569404399709" MODIFIED="1569404404112">
+<node TEXT="振幅和相位调制" ID="ID_1800286029" CREATED="1569404399709" MODIFIED="1569404404112">
 <node TEXT="" ID="ID_158761595" CREATED="1569426863695" MODIFIED="1569426863696">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="&#x4e09;&#x89d2;&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1701589003" CREATED="1569425534629" MODIFIED="1569426263278">
+<node TEXT="三角函数表达式" ID="ID_1701589003" CREATED="1569425534629" MODIFIED="1569426263278">
 <node ID="ID_1999783744" TREE_ID="ID_1421328693"/>
 </node>
-<node TEXT="&#x4fe1;&#x53f7;&#x7a7a;&#x95f4;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1283522769" CREATED="1569425775445" MODIFIED="1569425784991">
+<node TEXT="信号空间表达式" ID="ID_1283522769" CREATED="1569425775445" MODIFIED="1569425784991">
 <node TEXT="\latex $s(t) = s_{i1}\phi_{1}(t) + s_{i2}\phi_{2}(t)$" ID="ID_310875086" CREATED="1569425786468" MODIFIED="1569426228969"><richcontent TYPE="NOTE">
 
 <html>
@@ -6048,12 +6048,12 @@ END</pre>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex $s_{I}(t) = s_{i1}g(t) \ s_{Q}(t) = s_{i2}g(t)$" ID="ID_1725155710" CREATED="1569426863696" MODIFIED="1569426867566"/>
 </node>
-<node TEXT="&#x590d;&#x6307;&#x6570;&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1797129132" CREATED="1569426332692" MODIFIED="1569426338144">
+<node TEXT="复指数函数表达式" ID="ID_1797129132" CREATED="1569426332692" MODIFIED="1569426338144">
 <node TEXT="\latex $s(t) = \Re{\{u(t)e^{j\phi 0}e^{j2\pi f_{c}t}}\}$" ID="ID_636703551" CREATED="1569426345356" MODIFIED="1569426372942"/>
 </node>
-<node TEXT="&#x6574;&#x5f62;&#x8109;&#x51b2;-Shaping Pulse" ID="ID_306793785" CREATED="1569426496099" MODIFIED="1569426511094"/>
-<node TEXT="&#x5173;&#x4e8e;&#x76f8;&#x4f4d;&#x540c;&#x6b65;&#x548c;&#x65f6;&#x95f4;&#x540c;&#x6b65;" ID="ID_1749628096" CREATED="1569426513427" MODIFIED="1569426525574">
-<node TEXT="&#x76f8;&#x4f4d;&#x540c;&#x6b65;" ID="ID_222952440" CREATED="1569426534868" MODIFIED="1569426620438"><richcontent TYPE="NOTE">
+<node TEXT="整形脉冲-Shaping Pulse" ID="ID_306793785" CREATED="1569426496099" MODIFIED="1569426511094"/>
+<node TEXT="关于相位同步和时间同步" ID="ID_1749628096" CREATED="1569426513427" MODIFIED="1569426525574">
+<node TEXT="相位同步" ID="ID_222952440" CREATED="1569426534868" MODIFIED="1569426620438"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6066,7 +6066,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x76f8;&#x4f4d;&#x4e0d;&#x5339;&#x914d;&#x7684;&#x6765;&#x6e90;" ID="ID_1923209983" CREATED="1569426635604" MODIFIED="1569426723798"><richcontent TYPE="NOTE">
+<node TEXT="相位不匹配的来源" ID="ID_1923209983" CREATED="1569426635604" MODIFIED="1569426723798"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6092,9 +6092,9 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e3a;&#x4ec0;&#x4e48;I&#x8def;&#x548c;Q&#x8def;&#x4f1a;&#x4e92;&#x76f8;&#x5e72;&#x6270;" ID="ID_306765723" CREATED="1569464499852" MODIFIED="1569505974744">
+<node TEXT="为什么I路和Q路会互相干扰" ID="ID_306765723" CREATED="1569464499852" MODIFIED="1569505974744">
 <icon BUILTIN="bookmark"/>
-<node TEXT="&#x53d1;&#x5c04;&#x4fe1;&#x53f7;" ID="ID_1472907540" CREATED="1569464590461" MODIFIED="1569464597023">
+<node TEXT="发射信号" ID="ID_1472907540" CREATED="1569464590461" MODIFIED="1569464597023">
 <node TEXT="\latex $s_{I}(t)\cos(2\pi f_{c}t) - s_{Q}(t)\sin(2\pi f_{c}t)$" ID="ID_1590333542" CREATED="1569464598559" MODIFIED="1569464849414"><richcontent TYPE="NOTE">
 
 <html>
@@ -6113,7 +6113,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x63a5;&#x6536;&#x7aef;&#x8f7d;&#x6ce2;" ID="ID_690524317" CREATED="1569464674879" MODIFIED="1569464828762"><richcontent TYPE="NOTE">
+<node TEXT="接收端载波" ID="ID_690524317" CREATED="1569464674879" MODIFIED="1569464828762"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6129,7 +6129,7 @@ END</pre>
 <node TEXT="\latex $\cos(2\pi f_{c}t +\phi)$" ID="ID_1530025428" CREATED="1569464734697" MODIFIED="1569464784326"/>
 <node TEXT="\latex $\sin(2\pi f_{c}t +\phi)$" ID="ID_755900276" CREATED="1569464793877" MODIFIED="1569464799351"/>
 </node>
-<node TEXT="&#x63a5;&#x6536;&#x7aef;&#x7684;I&#x8def;&#x4fe1;&#x53f7;" ID="ID_1642837908" CREATED="1569464874011" MODIFIED="1569464879486">
+<node TEXT="接收端的I路信号" ID="ID_1642837908" CREATED="1569464874011" MODIFIED="1569464879486">
 <node TEXT="\latex $\int_{0}^{T}\cos(2\pi f_{c}t +\phi)(s_{I}(t)\cos(2\pi f_{c}t) - s_{Q}(t)\sin(2\pi f_{c}t))dt$" ID="ID_1353005652" CREATED="1569464888093" MODIFIED="1569505271375">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1717331524" STARTINCLINATION="131;0;" ENDINCLINATION="131;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -6150,7 +6150,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x63a5;&#x6536;&#x7aef;&#x7684;Q&#x8def;&#x4fe1;&#x53f7;" ID="ID_528951027" CREATED="1569465358400" MODIFIED="1569465365307">
+<node TEXT="接收端的Q路信号" ID="ID_528951027" CREATED="1569465358400" MODIFIED="1569465365307">
 <node TEXT="\latex $\int_{0}^{T}\sin(2\pi f_{c}t +\phi)(s_{I}(t)\cos(2\pi f_{c}t) - s_{Q}(t)\sin(2\pi f_{c}t))dt$" ID="ID_293426073" CREATED="1569465370378" MODIFIED="1569505271376">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1491514008" STARTINCLINATION="130;0;" ENDINCLINATION="130;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -6173,9 +6173,9 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x65f6;&#x95f4;&#x540c;&#x6b65;" ID="ID_1199118500" CREATED="1569426772300" MODIFIED="1569426774933"/>
+<node TEXT="时间同步" ID="ID_1199118500" CREATED="1569426772300" MODIFIED="1569426774933"/>
 </node>
-<node TEXT="&#x4e0d;&#x540c;&#x7684;&#x8c03;&#x5236;&#x65b9;&#x6cd5;" ID="ID_595014339" CREATED="1569467891544" MODIFIED="1569467937698"><richcontent TYPE="NOTE">
+<node TEXT="不同的调制方法" ID="ID_595014339" CREATED="1569467891544" MODIFIED="1569467937698"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6191,7 +6191,7 @@ END</pre>
 <node TEXT="MPAM" ID="ID_182522546" CREATED="1569467867247" MODIFIED="1569467870370"/>
 <node TEXT="MPSK" ID="ID_1033159246" CREATED="1569467870783" MODIFIED="1569467882042"/>
 <node TEXT="MQAM" ID="ID_673317988" CREATED="1569467882487" MODIFIED="1569467884496">
-<node TEXT="&#x8868;&#x8fbe;&#x5f0f;" ID="ID_970889731" CREATED="1569468536886" MODIFIED="1569468543757">
+<node TEXT="表达式" ID="ID_970889731" CREATED="1569468536886" MODIFIED="1569468543757">
 <node TEXT="\latex $\Re{\{A_{i}e^{j\theta}g(t)e^{j2\pi f_{c}t}\}}$" ID="ID_66041009" CREATED="1569468051045" MODIFIED="1569468554992"><richcontent TYPE="NOTE">
 
 <html>
@@ -6238,7 +6238,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x5dee;&#x5206;&#x8c03;&#x5236;" ID="ID_231919484" CREATED="1569468744093" MODIFIED="1569477172191"><richcontent TYPE="NOTE">
+<node TEXT="差分调制" ID="ID_231919484" CREATED="1569468744093" MODIFIED="1569477172191"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6257,7 +6257,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5dee;&#x5206;&#x89e3;&#x8c03;" ID="ID_1695090133" CREATED="1569725564087" MODIFIED="1569725567354"/>
+<node TEXT="差分解调" ID="ID_1695090133" CREATED="1569725564087" MODIFIED="1569725567354"/>
 </node>
 <node TEXT="pi/4 QPSK" ID="ID_1962791974" CREATED="1569477248582" MODIFIED="1569486648039"><richcontent TYPE="NOTE">
 
@@ -6280,7 +6280,7 @@ END</pre>
 </richcontent>
 <node TEXT="pi/4 DQPSK" ID="ID_1361567643" CREATED="1569478267016" MODIFIED="1569486648038"/>
 </node>
-<node TEXT="&#x8109;&#x51b2;&#x6574;&#x5f62;-Pulse Shaping" ID="ID_939029023" CREATED="1569486665342" MODIFIED="1569490451187"><richcontent TYPE="NOTE">
+<node TEXT="脉冲整形-Pulse Shaping" ID="ID_939029023" CREATED="1569486665342" MODIFIED="1569490451187"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6299,14 +6299,14 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x77e9;&#x5f62;&#x8109;&#x51b2;" ID="ID_1143241797" CREATED="1569490301849" MODIFIED="1569490310058"/>
-<node TEXT="&#x4f59;&#x5f26;&#x8109;&#x51b2;" ID="ID_1953013018" CREATED="1569490310614" MODIFIED="1569490316522"/>
-<node TEXT="&#x5347;&#x4f59;&#x5f26;&#x8109;&#x51b2;" ID="ID_1889891428" CREATED="1569490316935" MODIFIED="1569490321818"/>
-<node TEXT="&#x6839;&#x5347;&#x4f59;&#x5f26;&#x8109;&#x51b2;" ID="ID_394072142" CREATED="1569490322191" MODIFIED="1569490328976"/>
+<node TEXT="矩形脉冲" ID="ID_1143241797" CREATED="1569490301849" MODIFIED="1569490310058"/>
+<node TEXT="余弦脉冲" ID="ID_1953013018" CREATED="1569490310614" MODIFIED="1569490316522"/>
+<node TEXT="升余弦脉冲" ID="ID_1889891428" CREATED="1569490316935" MODIFIED="1569490321818"/>
+<node TEXT="根升余弦脉冲" ID="ID_394072142" CREATED="1569490322191" MODIFIED="1569490328976"/>
 </node>
-<node TEXT="&#x7b26;&#x53f7;&#x540c;&#x6b65;&#x4ee5;&#x53ca;&#x8f7d;&#x6ce2;&#x76f8;&#x4f4d;&#x6062;&#x590d;" ID="ID_1432780586" CREATED="1569505449103" MODIFIED="1569505977573">
+<node TEXT="符号同步以及载波相位恢复" ID="ID_1432780586" CREATED="1569505449103" MODIFIED="1569505977573">
 <icon BUILTIN="bookmark"/>
-<node TEXT="&#x4e3a;&#x4ec0;&#x4e48;&#x8981;&#x8fdb;&#x884c;&#x76f8;&#x5e72;&#x89e3;&#x8c03;&#xff1f;" ID="ID_1107689365" CREATED="1569506024392" MODIFIED="1569506126371">
+<node TEXT="为什么要进行相干解调？" ID="ID_1107689365" CREATED="1569506024392" MODIFIED="1569506126371">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306765723" STARTINCLINATION="418;0;" ENDINCLINATION="418;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -6322,7 +6322,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x76f8;&#x4f4d;&#x540c;&#x6b65;" ID="ID_1937946121" CREATED="1569597232830" MODIFIED="1569597436742"><richcontent TYPE="NOTE">
+<node TEXT="相位同步" ID="ID_1937946121" CREATED="1569597232830" MODIFIED="1569597436742"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6338,7 +6338,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x672a;&#x8c03;&#x5236;&#x7684;&#x8f7d;&#x6ce2;&#x7684;&#x76f8;&#x4f4d;&#x540c;&#x6b65;" ID="ID_1012286334" CREATED="1569597304127" MODIFIED="1569597930939"><richcontent TYPE="NOTE">
+<node TEXT="未调制的载波的相位同步" ID="ID_1012286334" CREATED="1569597304127" MODIFIED="1569597930939"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6397,7 +6397,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x632f;&#x5e45;/&#x76f8;&#x4f4d;&#x8c03;&#x5236;&#x7684;&#x8f7d;&#x6ce2;&#x7684;&#x76f8;&#x4f4d;&#x540c;&#x6b65;" ID="ID_1080932109" CREATED="1569597940126" MODIFIED="1569598328793"><richcontent TYPE="NOTE">
+<node TEXT="振幅/相位调制的载波的相位同步" ID="ID_1080932109" CREATED="1569597940126" MODIFIED="1569598328793"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6430,7 +6430,7 @@ END</pre>
 <node TEXT="non decision-directed" ID="ID_965280026" CREATED="1569597978854" MODIFIED="1569597987393"/>
 </node>
 </node>
-<node TEXT="&#x65f6;&#x95f4;&#x540c;&#x6b65;" ID="ID_1797823784" CREATED="1569598607094" MODIFIED="1569735411355">
+<node TEXT="时间同步" ID="ID_1797823784" CREATED="1569598607094" MODIFIED="1569735411355">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE">
 
@@ -6490,7 +6490,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="Mobile Wireless Communications" ID="ID_369766623" CREATED="1568690925005" MODIFIED="1568695155540" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x79fb;&#x52a8;&#x901a;&#x4fe1;/&#x79fb;&#x52a8;&#x901a;&#x4fe1;_Schwartz.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Mobile Wireless Communications" ID="ID_369766623" CREATED="1568690925005" MODIFIED="1568695155540" LINK="../attachment/数学和通信基础/移动通信/移动通信_Schwartz.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6505,8 +6505,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x901a;&#x4fe1;&#x539f;&#x7406;" ID="ID_1376850175" CREATED="1568696623276" MODIFIED="1568696628527">
-<node TEXT="Introduction to Communication Systems" ID="ID_531430922" CREATED="1568696701963" MODIFIED="1568696790044" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x901a;&#x4fe1;&#x539f;&#x7406;/&#x901a;&#x4fe1;&#x539f;&#x7406;intro_comm_systems_madhow_jan2014b.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="通信原理" ID="ID_1376850175" CREATED="1568696623276" MODIFIED="1568696628527">
+<node TEXT="Introduction to Communication Systems" ID="ID_531430922" CREATED="1568696701963" MODIFIED="1568696790044" LINK="../attachment/数学和通信基础/通信原理/通信原理intro_comm_systems_madhow_jan2014b.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6520,7 +6520,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x901a;&#x4fe1;&#x7cfb;&#x7edf;" ID="ID_518903003" CREATED="1568696839009" MODIFIED="1568696906730" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x901a;&#x4fe1;&#x539f;&#x7406;/&#x901a;&#x4fe1;&#x7cfb;&#x7edf;_&#x597d;&#x4e66;.pdf">
+<node TEXT="通信系统" ID="ID_518903003" CREATED="1568696839009" MODIFIED="1568696906730" LINK="../attachment/数学和通信基础/通信原理/通信系统_好书.pdf">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="DETAILS">
 
@@ -6535,13 +6535,122 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x7b2c;&#x4e00;&#x7ae0;-&#x968f;&#x673a;&#x8fc7;&#x7a0b;" ID="ID_829074271" CREATED="1569215644470" MODIFIED="1569215653780"/>
-<node TEXT="&#x7b2c;&#x56db;&#x7ae0;-&#x57fa;&#x5e26;&#x8109;&#x51b2;&#x4f20;&#x8f93;" ID="ID_76260692" CREATED="1569745170779" MODIFIED="1569745182445">
-<node TEXT="&#x5339;&#x914d;&#x6ee4;&#x6ce2;&#x5668;" ID="ID_18830876" CREATED="1569745187003" MODIFIED="1569824066947" LINK="freeplane:/%20/S:/freeplane/freeplane/LTE_Study.mm#ID_1215409203"/>
+<node TEXT="第一章-随机过程" ID="ID_829074271" CREATED="1569215644470" MODIFIED="1569215653780"/>
+<node TEXT="第二章-连续波调制" ID="ID_631602392" CREATED="1586223693293" MODIFIED="1586223703790">
+<node TEXT="幅度调制" ID="ID_237208774" CREATED="1586226745129" MODIFIED="1586229068049"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      幅度调制是一种最为简单的额调制方式，在实际的实现中，非常容易实现调制和解调的过程。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="幅度调制的缺点" ID="ID_1367569862" CREATED="1586229076756" MODIFIED="1586229084142">
+<node TEXT="载波同时传输" ID="ID_1031001200" CREATED="1586229091508" MODIFIED="1586229903419"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      为了防止调制过后的包络发生相位反转，要求载波的幅度要高于调制信号的最大幅度，并且除了传输已调信号之外，还需要额外增加载波信号同时传输，这就是为了在调制信号为负的情况下，传输的信号的包络仍然是已调信号的包络。
+    </p>
+    <p>
+      这样的话，没有传递任何信息的载波却占据了大量的发射功率，是一种浪费。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="&#x9644;&#x5f55;1-&#x6982;&#x7387;&#x8bba;" ID="ID_302682118" CREATED="1569215707725" MODIFIED="1569215721414">
-<node TEXT="&#x6982;&#x7387;&#x7684;&#x6982;&#x5ff5;" ID="ID_688633629" CREATED="1569215800825" MODIFIED="1569215804406">
-<node TEXT="&#x6982;&#x7387;&#x516c;&#x7406;" ID="ID_554932032" CREATED="1569222088346" MODIFIED="1569222163008">
+<node TEXT="浪费带宽" ID="ID_1040126985" CREATED="1586229111219" MODIFIED="1586229310621"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      幅度调制后，调制信号的频谱双边带都被同时传输，但是实际上上下边带的频谱是有确定的对称关系的，可以只传输单边带的频谱就足够了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="线性调制" ID="ID_834336496" CREATED="1586229317219" MODIFIED="1586229320149">
+<node TEXT="DSB-SC调制" ID="ID_1796151558" CREATED="1586237141706" MODIFIED="1586237450546"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      相对于幅度调制，DSB-SC调制方式是去除了载波，直接传输双边带的调制信息。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="相干解调" ID="ID_1761010094" CREATED="1586237395089" MODIFIED="1586237756995"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      解调方式是让接收到的调制信号与和发送端同频同相的载波进行相乘操作，然后做低通滤波。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      所以系统解调时要求接收端的载频与发送端的载频要同频同相。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="科斯塔接收机" ID="ID_239885563" CREATED="1586237775854" MODIFIED="1586238011577"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      科斯塔接收机是一种相干解调接收机，它实际上是一个锁相环。保持接收机的相位锁定到发送端的载波相位。然后在接收机端使用载频去相乘接收信号并做低通滤波得到发送信号。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="正交载波复用" ID="ID_773018913" CREATED="1586239922548" MODIFIED="1586239936455"/>
+</node>
+</node>
+<node TEXT="第四章-基带脉冲传输" ID="ID_76260692" CREATED="1569745170779" MODIFIED="1569745182445">
+<node TEXT="匹配滤波器" ID="ID_18830876" CREATED="1569745187003" MODIFIED="1569824066947" LINK="freeplane:/%20/S:/freeplane/freeplane/LTE_Study.mm#ID_1215409203"/>
+</node>
+<node TEXT="附录1-概率论" FOLDED="true" ID="ID_302682118" CREATED="1569215707725" MODIFIED="1569215721414">
+<node TEXT="概率的概念" ID="ID_688633629" CREATED="1569215800825" MODIFIED="1569215804406">
+<node TEXT="概率公理" ID="ID_554932032" CREATED="1569222088346" MODIFIED="1569222163008">
 <node TEXT="P(S) = 1" ID="ID_912263469" CREATED="1569222094991" MODIFIED="1569222216190">
 <icon BUILTIN="full-1"/>
 <richcontent TYPE="NOTE">
@@ -6574,7 +6683,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="P(A + B) = P(A) + P(B) if A&#x548c;B&#x662f;&#x4e92;&#x65a5;&#x4e8b;&#x4ef6;" ID="ID_1502355368" CREATED="1569222122101" MODIFIED="1569222242740">
+<node TEXT="P(A + B) = P(A) + P(B) if A和B是互斥事件" ID="ID_1502355368" CREATED="1569222122101" MODIFIED="1569222242740">
 <icon BUILTIN="full-3"/>
 <richcontent TYPE="NOTE">
 
@@ -6591,7 +6700,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6027;&#x8d28;" ID="ID_354342928" CREATED="1569222255606" MODIFIED="1569222257916">
+<node TEXT="性质" ID="ID_354342928" CREATED="1569222255606" MODIFIED="1569222257916">
 <node TEXT="P(A + B) = P(A) + P(B) - P(AB)" ID="ID_182963623" CREATED="1569222455704" MODIFIED="1569222520035"><richcontent TYPE="NOTE">
 
 <html>
@@ -6609,7 +6718,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x5b8c;&#x5907;&#x6027;" ID="ID_763066050" CREATED="1569222543645" MODIFIED="1569222616465"><richcontent TYPE="NOTE">
+<node TEXT="完备性" ID="ID_763066050" CREATED="1569222543645" MODIFIED="1569222616465"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6633,8 +6742,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6761;&#x4ef6;&#x6982;&#x7387;" ID="ID_1891622547" CREATED="1569222628861" MODIFIED="1569222633127">
-<node TEXT="&#x5b9a;&#x4e49;" ID="ID_535394079" CREATED="1569222653762" MODIFIED="1569223000386"><richcontent TYPE="NOTE">
+<node TEXT="条件概率" ID="ID_1891622547" CREATED="1569222628861" MODIFIED="1569222633127">
+<node TEXT="定义" ID="ID_535394079" CREATED="1569222653762" MODIFIED="1569223000386"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6661,7 +6770,7 @@ END</pre>
 </richcontent>
 <node TEXT="P(AB) = P(A)P(B|A)" ID="ID_182234247" CREATED="1569223004663" MODIFIED="1569223019885"/>
 </node>
-<node TEXT="&#x8d1d;&#x53f6;&#x65af;&#x516c;&#x5f0f;" ID="ID_677761898" CREATED="1569223041097" MODIFIED="1569223156035"><richcontent TYPE="NOTE">
+<node TEXT="贝叶斯公式" ID="ID_677761898" CREATED="1569223041097" MODIFIED="1569223156035"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6674,7 +6783,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x5982;&#x4f55;&#x7406;&#x89e3;&#x8d1d;&#x53f6;&#x65af;&#x516c;&#x5f0f;" ID="ID_876184747" CREATED="1569223120894" MODIFIED="1569224008635">
+<node TEXT="如何理解贝叶斯公式" ID="ID_876184747" CREATED="1569223120894" MODIFIED="1569224008635">
 <icon BUILTIN="pencil"/>
 <richcontent TYPE="NOTE">
 
@@ -6702,8 +6811,8 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x968f;&#x673a;&#x53d8;&#x91cf;" ID="ID_71583634" CREATED="1569215805156" MODIFIED="1569215812381">
-<node TEXT="&#x5355;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x5206;&#x5e03;&#x51fd;&#x6570;cdf" ID="ID_1732564529" CREATED="1569224219575" MODIFIED="1569225021893"><richcontent TYPE="NOTE">
+<node TEXT="随机变量" ID="ID_71583634" CREATED="1569215805156" MODIFIED="1569215812381">
+<node TEXT="单随机变量分布函数cdf" ID="ID_1732564529" CREATED="1569224219575" MODIFIED="1569225021893"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6728,7 +6837,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x6982;&#x7387;&#x5bc6;&#x5ea6;&#x51fd;&#x6570;pdf" ID="ID_1473774486" CREATED="1569224357071" MODIFIED="1569224527373"><richcontent TYPE="NOTE">
+<node TEXT="概率密度函数pdf" ID="ID_1473774486" CREATED="1569224357071" MODIFIED="1569224527373"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6743,7 +6852,7 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x591a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x8054;&#x5408;&#x5206;&#x5e03;&#x51fd;&#x6570;" ID="ID_881047499" CREATED="1569224575286" MODIFIED="1569225028291"><richcontent TYPE="NOTE">
+<node TEXT="多随机变量联合分布函数" ID="ID_881047499" CREATED="1569224575286" MODIFIED="1569225028291"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6762,7 +6871,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8054;&#x5408;&#x6982;&#x7387;&#x5bc6;&#x5ea6;" ID="ID_1934485143" CREATED="1569224786278" MODIFIED="1569224818398"><richcontent TYPE="NOTE">
+<node TEXT="联合概率密度" ID="ID_1934485143" CREATED="1569224786278" MODIFIED="1569224818398"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6778,9 +6887,9 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x7edf;&#x8ba1;&#x5e73;&#x5747;" ID="ID_304442993" CREATED="1569215822724" MODIFIED="1569215825341">
-<node TEXT="&#x6570;&#x5b66;&#x671f;&#x671b;(&#x5747;&#x503c;)" ID="ID_1958255383" CREATED="1569225099550" MODIFIED="1569225106803">
-<node TEXT="&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7684;&#x6570;&#x5b66;&#x671f;&#x671b;" ID="ID_1380324770" CREATED="1569225456152" MODIFIED="1569225528303"><richcontent TYPE="NOTE">
+<node TEXT="统计平均" ID="ID_304442993" CREATED="1569215822724" MODIFIED="1569215825341">
+<node TEXT="数学期望(均值)" ID="ID_1958255383" CREATED="1569225099550" MODIFIED="1569225106803">
+<node TEXT="随机变量的数学期望" ID="ID_1380324770" CREATED="1569225456152" MODIFIED="1569225528303"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6794,7 +6903,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x968f;&#x673a;&#x53d8;&#x91cf;&#x4e3a;&#x81ea;&#x53d8;&#x91cf;&#x7684;&#x51fd;&#x6570;&#x7684;&#x6570;&#x5b66;&#x671f;&#x671b;" ID="ID_340444974" CREATED="1569225466799" MODIFIED="1569225594206"><richcontent TYPE="NOTE">
+<node TEXT="随机变量为自变量的函数的数学期望" ID="ID_340444974" CREATED="1569225466799" MODIFIED="1569225594206"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6809,8 +6918,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x77e9;" ID="ID_699211355" CREATED="1569225603104" MODIFIED="1569225612506">
-<node TEXT="&#x4e00;&#x9636;&#x77e9;" ID="ID_1013549461" CREATED="1569225652371" MODIFIED="1569225841219"><richcontent TYPE="NOTE">
+<node TEXT="矩" ID="ID_699211355" CREATED="1569225603104" MODIFIED="1569225612506">
+<node TEXT="一阶矩" ID="ID_1013549461" CREATED="1569225652371" MODIFIED="1569225841219"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6824,7 +6933,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e8c;&#x9636;&#x77e9;" ID="ID_1938381097" CREATED="1569225659863" MODIFIED="1569225847434"><richcontent TYPE="NOTE">
+<node TEXT="二阶矩" ID="ID_1938381097" CREATED="1569225659863" MODIFIED="1569225847434"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6838,8 +6947,8 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x4e2d;&#x5fc3;&#x77e9;" ID="ID_1225113016" CREATED="1569225677048" MODIFIED="1569225683849">
-<node TEXT="&#x4e8c;&#x9636;&#x4e2d;&#x5fc3;&#x77e9;" ID="ID_448643750" CREATED="1569225848961" MODIFIED="1569225867972"><richcontent TYPE="NOTE">
+<node TEXT="中心矩" ID="ID_1225113016" CREATED="1569225677048" MODIFIED="1569225683849">
+<node TEXT="二阶中心矩" ID="ID_448643750" CREATED="1569225848961" MODIFIED="1569225867972"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6854,8 +6963,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5207;&#x6bd4;&#x96ea;&#x592b;&#x4e0d;&#x7b49;&#x5f0f;" ID="ID_1102865933" CREATED="1569225898977" MODIFIED="1569225905354"/>
-<node TEXT="&#x65b9;&#x5dee;/&#x5747;&#x65b9;&#x503c;/&#x5747;&#x503c;&#x5173;&#x7cfb;" ID="ID_527065456" CREATED="1569226012248" MODIFIED="1569226202145"><richcontent TYPE="NOTE">
+<node TEXT="切比雪夫不等式" ID="ID_1102865933" CREATED="1569225898977" MODIFIED="1569225905354"/>
+<node TEXT="方差/均方值/均值关系" ID="ID_527065456" CREATED="1569226012248" MODIFIED="1569226202145"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6882,8 +6991,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x7279;&#x5f81;&#x51fd;&#x6570;" ID="ID_1679239017" CREATED="1569226228463" MODIFIED="1569226230729"/>
-<node TEXT="&#x8054;&#x5408;&#x77e9;" ID="ID_926769590" CREATED="1569226313544" MODIFIED="1569227130373"><richcontent TYPE="NOTE">
+<node TEXT="特征函数" ID="ID_1679239017" CREATED="1569226228463" MODIFIED="1569226230729"/>
+<node TEXT="联合矩" ID="ID_926769590" CREATED="1569226313544" MODIFIED="1569227130373"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6908,7 +7017,7 @@ END</pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="X&#x4e0e;Y&#x4e0d;&#x76f8;&#x5173;" ID="ID_494395472" CREATED="1569227153953" MODIFIED="1569227187043"><richcontent TYPE="NOTE">
+<node TEXT="X与Y不相关" ID="ID_494395472" CREATED="1569227153953" MODIFIED="1569227187043"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6926,7 +7035,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x901a;&#x4fe1;&#x7cfb;&#x7edf;-&#x4fe1;&#x53f7;&#x548c;&#x566a;&#x58f0;" ID="ID_1106190534" CREATED="1568697066336" MODIFIED="1568697167608" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x901a;&#x4fe1;&#x539f;&#x7406;/&#x901a;&#x4fe1;&#x7cfb;&#x7edf;2.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="通信系统-信号和噪声" ID="ID_1106190534" CREATED="1568697066336" MODIFIED="1568697167608" LINK="../attachment/数学和通信基础/通信原理/通信系统2.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6940,7 +7049,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Communication Systems Engineering" ID="ID_121143649" CREATED="1568697249285" MODIFIED="1568697413540" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x901a;&#x4fe1;&#x539f;&#x7406;/&#x901a;&#x4fe1;&#x7cfb;&#x7edf;3.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Communication Systems Engineering" ID="ID_121143649" CREATED="1568697249285" MODIFIED="1568697413540" LINK="../attachment/数学和通信基础/通信原理/通信系统3.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6956,13 +7065,13 @@ END</pre>
 </node>
 </node>
 <node TEXT="Matlab" FOLDED="true" ID="ID_821849644" CREATED="1568687166487" MODIFIED="1568687169266">
-<node TEXT="INTRODUCTION TO MATLAB" ID="ID_96738255" CREATED="1568687172040" MODIFIED="1568687241634" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x4fe1;&#x53f7;&#x4e0e;&#x7cfb;&#x7edf;/matlab_tutorial.pdf"/>
+<node TEXT="INTRODUCTION TO MATLAB" ID="ID_96738255" CREATED="1568687172040" MODIFIED="1568687241634" LINK="../attachment/数学和通信基础/信号与系统/matlab_tutorial.pdf"/>
 </node>
 </node>
-<node TEXT="&#x6570;&#x5b66;" POSITION="right" ID="ID_1674072098" CREATED="1568709223470" MODIFIED="1568709225111">
+<node TEXT="数学" FOLDED="true" POSITION="right" ID="ID_1674072098" CREATED="1568709223470" MODIFIED="1568709225111">
 <edge COLOR="#808080"/>
-<node TEXT="&#x968f;&#x673a;&#x53d8;&#x91cf;&#x548c;&#x968f;&#x673a;&#x8fc7;&#x7a0b;" ID="ID_365114412" CREATED="1568697444133" MODIFIED="1568697450383">
-<node TEXT="Probability and Stochastic Processes with Applications" ID="ID_980748852" CREATED="1568697496742" MODIFIED="1568697593867" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x968f;&#x673a;&#x53d8;&#x91cf;&#x548c;&#x968f;&#x673a;&#x8fc7;&#x7a0b;/&#x968f;&#x673a;&#x8fc7;&#x7a0b;.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="随机变量和随机过程" ID="ID_365114412" CREATED="1568697444133" MODIFIED="1568697450383">
+<node TEXT="Probability and Stochastic Processes with Applications" ID="ID_980748852" CREATED="1568697496742" MODIFIED="1568697593867" LINK="../attachment/数学和通信基础/随机变量和随机过程/随机过程.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6976,7 +7085,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Probability, Statistics, and Stochastic Processes" ID="ID_652290818" CREATED="1568697599149" MODIFIED="1568697776960" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x968f;&#x673a;&#x53d8;&#x91cf;&#x548c;&#x968f;&#x673a;&#x8fc7;&#x7a0b;/&#x968f;&#x673a;&#x8fc7;&#x7a0b;2.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Probability, Statistics, and Stochastic Processes" ID="ID_652290818" CREATED="1568697599149" MODIFIED="1568697776960" LINK="../attachment/数学和通信基础/随机变量和随机过程/随机过程2.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6991,8 +7100,8 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x7ebf;&#x6027;&#x4ee3;&#x6570;" FOLDED="true" ID="ID_1743539517" CREATED="1568695223327" MODIFIED="1568695227696">
-<node TEXT="Linear Algebra" ID="ID_786468146" CREATED="1568695346149" MODIFIED="1568695589278" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x7ebf;&#x6027;&#x4ee3;&#x6570;/linear-guest.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="线性代数" ID="ID_1743539517" CREATED="1568695223327" MODIFIED="1568695227696">
+<node TEXT="Linear Algebra" ID="ID_786468146" CREATED="1568695346149" MODIFIED="1568695589278" LINK="../attachment/数学和通信基础/线性代数/linear-guest.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7009,7 +7118,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="LINEAR ALGEBRA" ID="ID_84387580" CREATED="1568695610822" MODIFIED="1568695867582" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x7ebf;&#x6027;&#x4ee3;&#x6570;/LinerAlgebra.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="LINEAR ALGEBRA" ID="ID_84387580" CREATED="1568695610822" MODIFIED="1568695867582" LINK="../attachment/数学和通信基础/线性代数/LinerAlgebra.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7026,7 +7135,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Linear Algebra Abridged" ID="ID_850854801" CREATED="1568695871910" MODIFIED="1568696593424" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x7ebf;&#x6027;&#x4ee3;&#x6570;/&#x7ebf;&#x6027;&#x4ee3;&#x6570;&#x5e94;&#x8be5;&#x8fd9;&#x6837;&#x5b66;&#x5220;&#x8282;&#x7248;LinearAbridged.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Linear Algebra Abridged" ID="ID_850854801" CREATED="1568695871910" MODIFIED="1568696593424" LINK="../attachment/数学和通信基础/线性代数/线性代数应该这样学删节版LinearAbridged.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7053,7 +7162,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Linear Algebra" ID="ID_1015533713" CREATED="1568695982774" MODIFIED="1568696038432" LINK="../attachment/&#x6570;&#x5b66;&#x548c;&#x901a;&#x4fe1;&#x57fa;&#x7840;/&#x7ebf;&#x6027;&#x4ee3;&#x6570;/LinerAlgebra2.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Linear Algebra" ID="ID_1015533713" CREATED="1568695982774" MODIFIED="1568696038432" LINK="../attachment/数学和通信基础/线性代数/LinerAlgebra2.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7069,7 +7178,7 @@ END</pre>
 </node>
 </node>
 </node>
-<node TEXT="&#x5feb;&#x6377;&#x952e;" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1520401450920">
+<node TEXT="快捷键" POSITION="right" ID="ID_1839752617" CREATED="1382732829602" MODIFIED="1520401450920">
 <edge COLOR="#ffff00"/>
 <node TEXT="Ctl+i" ID="ID_1990493891" CREATED="1382732838050" MODIFIED="1520401450919"><richcontent TYPE="NOTE">
 
