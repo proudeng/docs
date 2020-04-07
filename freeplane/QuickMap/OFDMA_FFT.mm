@@ -119,7 +119,7 @@
 <node TEXT="什么是OFDM" POSITION="right" ID="ID_754366569" CREATED="1585838718632" MODIFIED="1585839081190">
 <icon BUILTIN="full-1"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="信号调制和接收的过程" ID="ID_1243596621" CREATED="1585837216184" MODIFIED="1586238182764">
+<node TEXT="信号调制和接收的过程" ID="ID_1243596621" CREATED="1585837216184" MODIFIED="1586271710684">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE">
 
@@ -142,6 +142,9 @@
     </p>
     <p>
       模拟信号和数字信号的调制解调过程是不一样的。在例子中选择哪种信号的调制解调过程？
+    </p>
+    <p>
+      还是数字信号的调制比较的简单。
     </p>
   </body>
 </html>
@@ -169,7 +172,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -224,7 +226,41 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="单载波QAM调制" ID="ID_1640450897" CREATED="1585838519952" MODIFIED="1586224969970">
+<node TEXT="单载波QAM调制" ID="ID_1640450897" CREATED="1585838519952" MODIFIED="1586272578876"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      模拟系统中叫做正交载波调制，在数字系统中叫做QAM调制。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      模拟信号和数字信号在发送端的调制过程是类似的，都是使用sin(2Πft)和cos(2Πft)两个正交载波调制，但是接收端的解调过程不一样。
+    </p>
+    <p>
+      模拟信号的正交载波调制，解调时使用同频同相的载波相乘，然后得到的解调信号的频域分布分别是在低频有一个调制信号，以及在载波信号的2倍频处有调制信号。<font color="#ff0000"><b>所以只要经过低通滤波器之后</b></font>，就得到了原始的调制信号了。
+    </p>
+    <p>
+      需要注意的是，sin(2Πft)和cos(2Πft)这两个载波上承载的调制信号之间是互相正交的，正交性体现在sin(2Πft)和cos(2Πft)相乘，在低频段的分布为0。只有sin(2Πft)和sin(2Πft)相乘，以及cos(2Πft)和cos(2Πft)相乘在低频段才有调制信号的频谱。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      数字信号的正交载波调制的解调思路是不一样的。但是发送端的调制方式以及接收端的载波与接收信号相乘的操作都是一样的。
+    </p>
+    <p>
+      不同点在接收端，载波信号与被调信号相乘之后，<font color="#ff0000"><b>进行了在周期T0上进行积分的操作</b></font>。这里利用的是sin(2Πft)和cos(2Πft)相乘后，在周期T0内积分为0的特性。而sin(2Πft)和sin(2Πft)相乘之后，以及cos(2Πft)和cos(2Πft)相乘周，在T0周期内积分能够还原处原始调制信号。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="引入正交的概念" ID="ID_404174159" CREATED="1585838533177" MODIFIED="1586225101678"><richcontent TYPE="NOTE">
 
 <html>
@@ -237,8 +273,24 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="模拟和数字信号的QAM调制" ID="ID_1814620259" CREATED="1586271774171" MODIFIED="1586271817412"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      同样都是QAM调制，
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT="模拟信号" ID="ID_1770836094" CREATED="1586271792212" MODIFIED="1586271794838"/>
+<node TEXT="数字信号" ID="ID_1254843441" CREATED="1586271795108" MODIFIED="1586271797046"/>
 </node>
 </node>
 <node TEXT="只有sin(ft)和cos(ft)是正交的吗？" ID="ID_1465807799" CREATED="1585838542048" MODIFIED="1585838562130">
@@ -252,6 +304,7 @@
 <node TEXT="为什么能够抗多径衰落" ID="ID_155158064" CREATED="1586224229448" MODIFIED="1586224251846">
 <node TEXT="码率和多径的关系" ID="ID_428745509" CREATED="1586224261744" MODIFIED="1586224269912"/>
 </node>
+<node TEXT="OFMDA复用优势" ID="ID_761232676" CREATED="1586272694338" MODIFIED="1586272704948"/>
 </node>
 </node>
 </node>
