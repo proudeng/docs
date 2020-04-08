@@ -100,7 +100,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="什么是傅里叶变换" POSITION="left" ID="ID_1711373754" CREATED="1585837722617" MODIFIED="1586330497629">
 <icon BUILTIN="full-2"/>
@@ -132,7 +131,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="研究系统特性的思路" ID="ID_1067984529" CREATED="1586330553298" MODIFIED="1586330558212">
 <node TEXT="研究最简单的系统" ID="ID_17945141" CREATED="1586330107809" MODIFIED="1586330253484"><richcontent TYPE="NOTE">
@@ -147,7 +145,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="线性时不变系统" ID="ID_525274456" CREATED="1586330972562" MODIFIED="1586330978324"/>
 </node>
@@ -178,7 +175,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="将信号在时间轴上分解成无数微小的片段" ID="ID_1165481497" CREATED="1586330719666" MODIFIED="1586330866098"><richcontent TYPE="NOTE">
 
@@ -192,7 +188,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex $\delta()$函数" ID="ID_1701322542" CREATED="1586330569497" MODIFIED="1586331032584"><richcontent TYPE="NOTE">
 
@@ -203,6 +198,35 @@
   <body>
     <p>
       最终得到的基本的输入
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $\delta()$函数通过线性时不变系统" ID="ID_1513386777" CREATED="1586357514548" MODIFIED="1586357575733"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      得到的是冲击响应。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="以冲击响应表示任意信号通过线性时不变系统后的输出" ID="ID_1697191732" CREATED="1586357679860" MODIFIED="1586357720895"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      卷积出现了。
     </p>
   </body>
 </html>
@@ -423,7 +447,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="载波单独占据带宽" ID="ID_1723541952" CREATED="1586328767576" MODIFIED="1586328837553"/>
 <node TEXT="需要加入保护间隔" ID="ID_1492012439" CREATED="1586328837976" MODIFIED="1586328850811"/>
@@ -452,7 +475,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
