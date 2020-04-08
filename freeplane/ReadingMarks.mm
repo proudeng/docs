@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1513732807390"><hook NAME="MapStyle">
+<node TEXT="Reading&amp;Marks" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1586310507994"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false;"/>
 
 <map_styles>
@@ -63,25 +63,26 @@
   </head>
   <body>
     <p>
-      Mark&#20160;&#20040;?
+      Mark什么?
     </p>
     <p>
       
     </p>
     <p>
-      &#24212;&#35813;&#26159;&#19968;&#20123;&#26680;&#24515;&#30340;&#20869;&#23481;,&#24403;&#35760;&#19981;&#28165;&#30340;&#26102;&#20505;,&#25110;&#32773;&#26377;&#28857;&#28151;&#28102;&#30340;&#26102;&#20505;&#26469;&#36825;&#37324;&#25195;&#19968;&#30524;,&#23601;&#33021;&#36805;&#36895;&#30340;&#20102;&#35299;&#33258;&#24049;&#24819;&#30693;&#36947;&#30340;&#20869;&#23481;.
+      应该是一些核心的内容,当记不清的时候,或者有点混淆的时候来这里扫一眼,就能迅速的了解自己想知道的内容.
     </p>
     <p>
-      &#33021;&#21040;&#36825;&#20010;&#31243;&#24230;,&#24212;&#35813;&#23601;&#33021;&#35828;&#26159;&#25226;&#26680;&#24515;&#30340;&#20869;&#23481;&#32473;&#35760;&#19979;&#26469;&#20102;.
+      能到这个程度,应该就能说是把核心的内容给记下来了.
     </p>
     <p>
       
     </p>
     <p>
-      &#24403;&#28982;,&#19968;&#20123;&#35752;&#35770;,&#19968;&#20123;&#24605;&#32771;,&#24212;&#35813;&#20063;&#23646;&#20110;Mark&#30340;&#33539;&#22260;&#20043;&#20869;.
+      当然,一些讨论,一些思考,应该也属于Mark的范围之内.
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Intel® 64 and IA-32 Architectures Software Developer&apos;s Manual" FOLDED="true" POSITION="left" ID="ID_1634058927" CREATED="1382555128815" MODIFIED="1382559152095">
 <edge COLOR="#00ffff"/>
@@ -5467,7 +5468,7 @@ END</pre>
 </node>
 <node TEXT="通信" POSITION="right" ID="ID_1861360303" CREATED="1568685622114" MODIFIED="1568685627680">
 <edge COLOR="#808080"/>
-<node TEXT="信号与系统" FOLDED="true" ID="ID_1480410074" CREATED="1568685733306" MODIFIED="1568685737083">
+<node TEXT="信号与系统" ID="ID_1480410074" CREATED="1568685733306" MODIFIED="1568685737083">
 <node TEXT="A Practical Approach to Signals and Systems" ID="ID_1024702715" CREATED="1568685738176" MODIFIED="1568685790170" LINK="../attachment/数学和通信基础/信号与系统/A%20Practical%20Approach%20to%20Signals%20and%20Systems.pdf"/>
 <node TEXT="fundamentals-of-signals-and-systems" ID="ID_1041890803" CREATED="1568685799289" MODIFIED="1568685852337" LINK="../attachment/数学和通信基础/信号与系统/fundamentals-of-signals-and-systems.pdf"/>
 <node TEXT="intro_comm_systems_madhow_jan2014b" ID="ID_286965965" CREATED="1568685856424" MODIFIED="1568685953603" LINK="../attachment/数学和通信基础/信号与系统/intro_comm_systems_madhow_jan2014b.pdf"/>
@@ -5485,7 +5486,7 @@ END</pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="Basics of Signals and Systems" ID="ID_1568239429" CREATED="1568686863187" MODIFIED="1568687032106" LINK="../attachment/数学和通信基础/信号与系统/matdid744681.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Basics of Signals and Systems" ID="ID_1568239429" CREATED="1568686863187" MODIFIED="1586315561568" LINK="../attachment/Communication/信号与系统/matdid744681.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6549,7 +6550,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="幅度调制的缺点" ID="ID_1367569862" CREATED="1586229076756" MODIFIED="1586229084142">
 <node TEXT="载波同时传输" ID="ID_1031001200" CREATED="1586229091508" MODIFIED="1586229903419"><richcontent TYPE="NOTE">
@@ -6567,7 +6567,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="浪费带宽" ID="ID_1040126985" CREATED="1586229111219" MODIFIED="1586229310621"><richcontent TYPE="NOTE">
@@ -6582,7 +6581,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6600,7 +6598,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="相干解调" ID="ID_1761010094" CREATED="1586237395089" MODIFIED="1586237756995"><richcontent TYPE="NOTE">
 
@@ -6623,7 +6620,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="科斯塔接收机" ID="ID_239885563" CREATED="1586237775854" MODIFIED="1586238011577"><richcontent TYPE="NOTE">
 
@@ -6637,7 +6633,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

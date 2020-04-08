@@ -99,7 +99,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="【Ch14.2】 Common Configuration" LOCALIZED_STYLE_REF="styles.topic" POSITION="left" ID="ID_284084380" CREATED="1580888164996" MODIFIED="1580889230121">
 <edge COLOR="#0000ff"/>
@@ -453,7 +452,7 @@
 <node TEXT="【subfunction】checkNprachPeriodicityForShortCp" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1299963979" CREATED="1583992578277" MODIFIED="1583993109055"/>
 <node TEXT="【subfunction】getNprachStartTimeList" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_599511869" CREATED="1583992621790" MODIFIED="1583993116875"/>
 </node>
-<node TEXT="【Ch14.5】Link Adaptation" LOCALIZED_STYLE_REF="styles.topic" POSITION="right" ID="ID_193602088" CREATED="1580888270345" MODIFIED="1580889177554">
+<node TEXT="【Ch14.5】Link Adaptation" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_193602088" CREATED="1580888270345" MODIFIED="1580889177554">
 <edge COLOR="#00ffff"/>
 <node TEXT="LA概要" ID="ID_930614511" CREATED="1583805040144" MODIFIED="1583805109563" LINK="../../../C:/Users/edenjun/Desktop/LTE/RBS_System_Arch.mm#ID_892950817"><richcontent TYPE="NOTE">
 
@@ -514,7 +513,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="【Ch14.5.4】Calculate NB Gain Initial Msg3" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1899628168" CREATED="1581571378065" MODIFIED="1585622946554"><richcontent TYPE="NOTE">
@@ -546,7 +544,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="【Ch14.5.3】Calculate NbUlRxTxPsd" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1784984749" CREATED="1581571626482" MODIFIED="1582986369471">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_262689675" STARTINCLINATION="291;0;" ENDINCLINATION="291;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -565,7 +562,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -587,7 +583,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_648736802" CREATED="1585620952390" MODIFIED="1585622606687">
@@ -604,7 +599,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -633,7 +627,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -661,7 +654,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="【Ch14.5.3】Calculate NbUlRxTxPsd" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1226451107" CREATED="1581571626482" MODIFIED="1585630020640">
 <icon BUILTIN="PalmIcons/cSeries/NumbersLight/Light-01"/>
@@ -678,7 +670,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="计算新的Gain并做滤波" ID="ID_134925970" CREATED="1585623346789" MODIFIED="1585630349691">
@@ -695,7 +686,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -709,7 +699,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="根据滤波后的Gain计算等效PHR值" ID="ID_434107033" CREATED="1585623827950" MODIFIED="1585632555977">
@@ -727,7 +716,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -741,7 +729,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="根据3GPP表格限制PHR值范围" ID="ID_1564777285" CREATED="1585630509241" MODIFIED="1585630536413"/>
 </node>
@@ -759,7 +746,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1100542945" CREATED="1585629824321" MODIFIED="1585630343443">
@@ -776,7 +762,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1600539155" STARTINCLINATION="137;0;" ENDINCLINATION="137;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
@@ -791,7 +776,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="计算滤波后的UlTxPsdFiltered" ID="ID_645374124" CREATED="1585629889232" MODIFIED="1585630086671">
@@ -808,7 +792,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -844,7 +827,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="signalType == NPDCCH" ID="ID_1110801632" CREATED="1580887240827" MODIFIED="1580895576175"><richcontent TYPE="NOTE">
 
@@ -964,8 +946,8 @@
 <node TEXT="Buffer based 或者 LowMCS based" ID="ID_797757953" CREATED="1580891228650" MODIFIED="1580891248240">
 <node TEXT="【Ch14.5.8】Grand Buffer Size" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1640030839" CREATED="1580887240827" MODIFIED="1582959343255">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#ffffff" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1767482736" STARTINCLINATION="768;0;" ENDINCLINATION="768;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1767482736" STARTINCLINATION="768;0;" ENDINCLINATION="768;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#ffffff" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1767482736" STARTINCLINATION="768;0;" ENDINCLINATION="768;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1767482736" STARTINCLINATION="768;0;" ENDINCLINATION="768;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1462,7 +1444,7 @@
 </node>
 </node>
 </node>
-<node TEXT="【Ch14.4】Scheduler: Traffic Data Scheduling" LOCALIZED_STYLE_REF="styles.topic" POSITION="right" ID="ID_1457722343" CREATED="1580888239699" MODIFIED="1580889230127">
+<node TEXT="【Ch14.4】Scheduler: Traffic Data Scheduling" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_1457722343" CREATED="1580888239699" MODIFIED="1580889230127">
 <edge COLOR="#ff00ff"/>
 <node TEXT="【Ch14.4.1】NBIOT UL SE weight calculation" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_46854259" CREATED="1581918888012" MODIFIED="1583314520708"><richcontent TYPE="NOTE">
 
@@ -1990,7 +1972,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -2302,8 +2283,8 @@
 </html>
 </richcontent>
 <node TEXT="【Ch14.4.41】Choose scheduling tone number" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1877456530" CREATED="1582732032797" MODIFIED="1582986773845">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1058304796" STARTINCLINATION="1271;-122;" ENDINCLINATION="1270;-122;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1058304796" STARTINCLINATION="1724;0;" ENDINCLINATION="1724;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1058304796" STARTINCLINATION="1271;-122;" ENDINCLINATION="1270;-122;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -2424,8 +2405,8 @@
 </node>
 <node TEXT="【Ch14.4.18】Resource Availability Check for NPUSCH" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_535976951" CREATED="1582732667810" MODIFIED="1583117939824">
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_17443576" STARTINCLINATION="1154;0;" ENDINCLINATION="1154;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#ffffff" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_17443576" STARTINCLINATION="1147;0;" ENDINCLINATION="1256;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="20" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_17443576" STARTINCLINATION="1154;0;" ENDINCLINATION="1154;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node ID="ID_1740305925" CREATED="1582769385689" MODIFIED="1582769482539"><richcontent TYPE="NODE">
 
 <html>
@@ -4030,7 +4011,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node FOLDED="true" ID="ID_263773291" CREATED="1585630964833" MODIFIED="1585631554947"><richcontent TYPE="NODE">
 
@@ -4044,7 +4024,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -4061,7 +4040,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="PHR的含义" ID="ID_941223718" CREATED="1585631156323" MODIFIED="1585631284987"><richcontent TYPE="NOTE">
 
@@ -4081,7 +4059,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
