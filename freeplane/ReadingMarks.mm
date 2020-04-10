@@ -82,7 +82,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Intel® 64 and IA-32 Architectures Software Developer&apos;s Manual" FOLDED="true" POSITION="left" ID="ID_1634058927" CREATED="1382555128815" MODIFIED="1382559152095">
 <edge COLOR="#00ffff"/>
@@ -5469,6 +5468,22 @@ END</pre>
 <node TEXT="通信" POSITION="right" ID="ID_1861360303" CREATED="1568685622114" MODIFIED="1568685627680">
 <edge COLOR="#808080"/>
 <node TEXT="信号与系统" ID="ID_1480410074" CREATED="1568685733306" MODIFIED="1568685737083">
+<node TEXT="信号与系统" ID="ID_219350225" CREATED="1586487912863" MODIFIED="1586487941716"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      清华大学版本教材
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="第六章-信号的矢量空间分析" ID="ID_939311556" CREATED="1586502533736" MODIFIED="1586502541977"/>
+</node>
 <node TEXT="A Practical Approach to Signals and Systems" ID="ID_1024702715" CREATED="1568685738176" MODIFIED="1568685790170" LINK="../attachment/数学和通信基础/信号与系统/A%20Practical%20Approach%20to%20Signals%20and%20Systems.pdf"/>
 <node TEXT="fundamentals-of-signals-and-systems" ID="ID_1041890803" CREATED="1568685799289" MODIFIED="1568685852337" LINK="../attachment/数学和通信基础/信号与系统/fundamentals-of-signals-and-systems.pdf"/>
 <node TEXT="intro_comm_systems_madhow_jan2014b" ID="ID_286965965" CREATED="1568685856424" MODIFIED="1568685953603" LINK="../attachment/数学和通信基础/信号与系统/intro_comm_systems_madhow_jan2014b.pdf"/>

@@ -3,7 +3,7 @@
 <node TEXT="OFDMA_FFT" FOLDED="false" ID="ID_68680464" CREATED="1585831179159" MODIFIED="1586328234955" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -176,7 +176,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="将信号在时间轴上分解成无数微小的片段" ID="ID_1165481497" CREATED="1586330719666" MODIFIED="1586330866098"><richcontent TYPE="NOTE">
+<node TEXT="【时间域】将信号在时间轴上分解成无数微小的片段" FOLDED="true" ID="ID_1165481497" CREATED="1586330719666" MODIFIED="1586501151778"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -215,7 +215,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="以冲击响应表示任意信号通过线性时不变系统后的输出" ID="ID_1697191732" CREATED="1586357679860" MODIFIED="1586357720895"><richcontent TYPE="NOTE">
@@ -230,6 +229,221 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="【变换域】将信号分解为正交的三角函数的组合" ID="ID_1549820206" CREATED="1586485762515" MODIFIED="1586501157018">
+<node TEXT="周期连续信号的傅里叶级数" ID="ID_267736546" CREATED="1586487086201" MODIFIED="1586487151201">
+<node TEXT="三角函数表达式" ID="ID_561570199" CREATED="1586487152286" MODIFIED="1586487155903"/>
+<node TEXT="【引入负频率】复指数函数表达式" ID="ID_1133610541" CREATED="1586487156212" MODIFIED="1586487862607"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      利用欧拉公式将三角级数傅里叶级数的表达式转为复指数函数的表达式。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在这个表达式的转换过程中可以看到，复指数函数表示的傅里叶级数表达式中引入了<font color="#ff0000"><b>负频率</b></font>的概念。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="欧拉公式" ID="ID_1502354947" CREATED="1586487360544" MODIFIED="1586487364265">
+<node TEXT="\latex $e^{j\omega t} = \cos (\omega t) + j\sin (\omega t)$" ID="ID_1001674210" CREATED="1586487377982" MODIFIED="1586487758230" COLOR="#0033ff">
+<font SIZE="12" BOLD="true"/>
+</node>
+<node TEXT="\latex $ \cos (\omega t) = 1/2 (e^{j\omega t} + e^{-j\omega t})$" ID="ID_1392406426" CREATED="1586487377982" MODIFIED="1586487766330" COLOR="#0033ff">
+<font SIZE="12" BOLD="true"/>
+</node>
+<node TEXT="\latex $ \sin (\omega t) = 1/2 (e^{j\omega t} - e^{-j\omega t})$" ID="ID_182643665" CREATED="1586487377982" MODIFIED="1586487770972" COLOR="#0033ff">
+<font SIZE="12" BOLD="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="从傅里叶级数过渡到傅里叶变换" ID="ID_1305672375" CREATED="1586488726791" MODIFIED="1586489021411"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如何从傅里叶级数过渡到傅里叶变换：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      首先将非周期的函数f(x)补成周期为T的函数，然后得到这个周期函数的傅里叶级数表达式(表达式中会以2pi/T作为傅里叶级数的基频)
+    </p>
+    <p>
+      然后将周期T往无限大推移，T-&gt;无限大，2pi/T-&gt;无限小，此时得到的就是周期函数实质上就是最初的非周期函数了，然后傅里叶级数中的表达式就变成了傅里叶变换的表达式。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="给出连续信号的傅里叶变换的公式" ID="ID_1057270198" CREATED="1586502067538" MODIFIED="1586509216509"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里可以不做过多的介绍，只是给出一个动画的过程，或者给出一些代码片段展示从傅里叶级数到傅里叶变换的过程。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="采样定理" ID="ID_803292976" CREATED="1586489053352" MODIFIED="1586490414626">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      采样定理是模拟信号与离散信号之间的关键桥梁，它描述的是下面的现象：
+    </p>
+    <p>
+      对一个模拟信号做间隔为T的采样操作，在时域上得到离散的序列，在频域上的影响是等同于在频域上将原始信号的频谱做周期为T的重复扩展。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      实际上，信号的时域表现和频域表现有一个通用的联系:
+    </p>
+    <ul>
+      <li>
+        时域是周期性信号，则频域是离散信号，如果时域是非周期信号，则频域是连续信号
+      </li>
+      <li>
+        时域是离散信号，则频域是周期型号，如果时域是连续信号，则频域是非周期信号
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      上面的两个规则可以合并，可以得到一个有趣的结论：
+    </p>
+    <p>
+      <font color="#ff0000"><b>如果时域上的信号不仅是周期的，并且是离散的，那么从频域上来看，频域上的分布同样是周期并且离散的。</b>&nbsp;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      而这样的信号是我们想使用数字信号处理的时候所期盼的信号，因为使用计算机能够同时在时域上和频域上施加我们希望的操作。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="DTFT" ID="ID_1638998200" CREATED="1586489624151" MODIFIED="1586490800952"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个就是对连续时间信号采样得到的离散信号，这种信号计算机并不能够处理，因为虽然在时间上是离散的，但是频域上的表现依然是连续的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DFT" ID="ID_812342476" CREATED="1586489627936" MODIFIED="1586496730051">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DFT想要起到的效果是，得到一个在时域表现和频域表现上都是离散的信号。使用数字信号处理系统能够同时在时域和频域上对这样的信号进行各种期望的操作。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      DFT做的事情其实是将DTFT操作后得到的连续的频域信号在频域进行采样，得到在频域同样离散的信号。这样的操作实质上也相当于在时域上对信号进行周期话扩展。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="给出DFT的公式" ID="ID_748542859" CREATED="1586502084362" MODIFIED="1586502088226">
+<node TEXT="为什么DFT的公式可以做OFDM的解调" ID="ID_754789194" CREATED="1586509481022" MODIFIED="1586509513842">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+</node>
+</node>
+<node TEXT="IDFT的公式" ID="ID_699679684" CREATED="1586509434204" MODIFIED="1586509438487">
+<node TEXT="为什么IDFT的公式可以做OFDM的调制" ID="ID_1103086268" CREATED="1586509463588" MODIFIED="1586509554933">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_703089721" STARTINCLINATION="2491;0;" ENDINCLINATION="2491;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="如何看待变换域" ID="ID_854368214" CREATED="1586501329872" MODIFIED="1586508587710"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      虽然说是变换域，这个词容易给人一种错觉，似乎我从变换域中来看信号的话，这个信号就已经被进行了某种处理。
+    </p>
+    <p>
+      实质上并不是这样的，从变换域上来看信号，这个信号没有被经过任何的处理，只是我们观察信号的方式发生了改变。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="可以加几张图描述" ID="ID_1611234985" CREATED="1586501348947" MODIFIED="1586502047658"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      比如相机中的人体，X光透视后的人体，还有热成像扫描仪下的人体.目的是表明，被观察的对象没有发生任何的改变，只是我们透过不同的视角观察到了同一个对象的不同角度的信息。
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
@@ -237,14 +451,28 @@
 </node>
 </node>
 </node>
-<node TEXT="LTE中的OFDM和傅里叶变换" POSITION="left" ID="ID_1335568656" CREATED="1585838922224" MODIFIED="1586330030139">
-<icon BUILTIN="full-3"/>
-<edge COLOR="#00ffff"/>
-<node TEXT="为什么用傅里叶变换来做OFDM的调制解调" ID="ID_553540485" CREATED="1585840636752" MODIFIED="1586330042258"/>
-</node>
-<node TEXT="为什么是FFT" POSITION="left" ID="ID_71685061" CREATED="1586330045354" MODIFIED="1586330073732">
+<node TEXT="为什么是FFT" POSITION="left" ID="ID_71685061" CREATED="1586330045354" MODIFIED="1586510306717">
 <icon BUILTIN="full-4"/>
 <edge COLOR="#7c0000"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这部分可以不展开来描述FFT是怎么优化并降低DFT的工作量的。
+    </p>
+    <p>
+      只要列举数据，介绍一下传统的DFT的一次操作需要的计算量是多少，以及基于LTE的现实情况
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="基于LTE的实际情况展现使用DFT时的工作量" ID="ID_1923538221" CREATED="1586509309508" MODIFIED="1586509332502"/>
+<node TEXT="直接展示结论FFT相对于DFT的计算复杂度的降低" ID="ID_456939616" CREATED="1586509333372" MODIFIED="1586509362095"/>
 </node>
 <node TEXT="正交" FOLDED="true" POSITION="left" ID="ID_118313830" CREATED="1585837235736" MODIFIED="1586330081454">
 <icon BUILTIN="full-5"/>
@@ -484,8 +712,69 @@
 <node TEXT="多载波同时调制" ID="ID_1457273031" CREATED="1586329532426" MODIFIED="1586329538099"/>
 <node TEXT="多载波同时解调" ID="ID_1681431163" CREATED="1586329538449" MODIFIED="1586329542953"/>
 <node TEXT="为什么不现实" ID="ID_772575300" CREATED="1586329583089" MODIFIED="1586329587419"/>
+<node TEXT="得出OFDM系统的信号的表达式" ID="ID_703089721" CREATED="1586486181070" MODIFIED="1586486289822"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      给出合成信号的表达式，方便后面介绍傅里叶变换的时候，容易看出傅里叶变换和OFDM调制之间的关系。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="【引出讨论】-是否可以通过数字处理的方式一把头算出最终信号" ID="ID_642081318" CREATED="1586486418161" MODIFIED="1586502443712">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="140" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1711373754" STARTINCLINATION="1575;0;" ENDINCLINATION="1574;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      结论当然是可以的，这个方法就是傅里叶变换，然后顺势进入傅里叶变换的介绍
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="这里需要引入复指数函数的OFDM调制结果的表达式" ID="ID_711030326" CREATED="1586500103879" MODIFIED="1586500201004"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OFDM调制信号的表达式需要一个最终的公式，便于跟后面描述的傅里叶变换的表达式做比较。在这个之后进入傅里叶变换的介绍，然后对比傅里叶变换的公式，得出可以使用傅里叶变换来做OFDM调制的结论。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="LTE物理层与OFDM" POSITION="right" ID="ID_1335568656" CREATED="1585838922224" MODIFIED="1586509768039">
+<icon BUILTIN="full-3"/>
+<edge COLOR="#00ffff"/>
+<node TEXT="LTE中使用的OFDM空口的特点" ID="ID_553540485" CREATED="1585840636752" MODIFIED="1586510203135">
+<node TEXT="基本参数" ID="ID_1479496254" CREATED="1586509669094" MODIFIED="1586509672679">
+<node TEXT="子载波宽度" ID="ID_556950443" CREATED="1586510311060" MODIFIED="1586510315351"/>
+<node TEXT="带宽" ID="ID_1154567610" CREATED="1586510316005" MODIFIED="1586510319688"/>
+<node TEXT="TTI大小" ID="ID_580050802" CREATED="1586510323310" MODIFIED="1586510337895"/>
+<node TEXT="帧结构" ID="ID_1075770481" CREATED="1586510329733" MODIFIED="1586510333983"/>
+</node>
+<node TEXT="CP的概念和引入的作用" ID="ID_579369265" CREATED="1586509676397" MODIFIED="1586510213897"/>
+</node>
+<node TEXT="LTE协议中物理层涉及OFDM调制的过程简介" ID="ID_1950813670" CREATED="1586509771157" MODIFIED="1586510243399"/>
 </node>
 </node>
 </map>
