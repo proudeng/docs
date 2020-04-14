@@ -3368,6 +3368,32 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="对Msg2的TBS的影响" ID="ID_70996630" CREATED="1586834267778" MODIFIED="1586834515374">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      因为加入了BI这个sub-header，所以Msg2的TBS增大了，对比3GPP表格中的可选TBS列表，原先使用的TBS不能够满足要求，需要提升一级。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      最终使用的方案是，在CE0上使用Low MCS策略，在同样的MCS index上，增大SF取值。
+    </p>
+    <p>
+      在CE1/2上，使用的是Buffer based的策略，不提高SF，尝试提高MCS index取值，达到提高TBS的要求。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="NBIoT RRM算法研究" ID="ID_193866899" CREATED="1582695620638" MODIFIED="1582696006366">
 <icon BUILTIN="list"/>
@@ -3474,7 +3500,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3794,6 +3819,47 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="Msg2的TBS选择" ID="ID_638437271" CREATED="1586834246265" MODIFIED="1586834868115">
+<icon BUILTIN="yes"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_70996630" STARTINCLINATION="500;0;" ENDINCLINATION="500;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      feature实现的过程中的逻辑是这样的：
+    </p>
+    <ol>
+      <li>
+        判断SC2594取值，如果取值为-1，则Msg2的MCS/SF使用LA方式来确定
+      </li>
+      <li>
+        如果SC2594取值非-1，则忽略它的实际取值，代码中hardcode 目标的MCS/SF值。
+      </li>
+      <li>
+        判断如果MR7798打开的话，那么使用新的MCS/SF参数组合，如果MR7798没有打开的话，沿用legacy的MCS/SF组合。
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      但是实现的时候有一个小的降低空口资源利用率的点没有考虑到:
+    </p>
+    <p>
+      如果判断MR7798打开的场合，实际上在某一个随机接入机会上并不需要发送BI值的时候，使用的TBS依然是和发送BI值的TBS一样的，这显然占据了其他下行信道的资源。
+    </p>
+    <p>
+      可以在代码中增加一个开关。在实际没有BI发送的情况下，Msg2的TBS还是回退到legacy的值。
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>

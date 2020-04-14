@@ -3,7 +3,7 @@
 <node TEXT="OFDMA_FFT" FOLDED="false" ID="ID_68680464" CREATED="1585831179159" MODIFIED="1586328234955" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icon_for_attributes="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -253,7 +253,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="欧拉公式" ID="ID_1502354947" CREATED="1586487360544" MODIFIED="1586487364265">
 <node TEXT="\latex $e^{j\omega t} = \cos (\omega t) + j\sin (\omega t)$" ID="ID_1001674210" CREATED="1586487377982" MODIFIED="1586487758230" COLOR="#0033ff">
@@ -289,7 +288,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="给出连续信号的傅里叶变换的公式" ID="ID_1057270198" CREATED="1586502067538" MODIFIED="1586509216509"><richcontent TYPE="NOTE">
 
@@ -303,7 +301,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -358,7 +355,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="DTFT" ID="ID_1638998200" CREATED="1586489624151" MODIFIED="1586490800952"><richcontent TYPE="NOTE">
 
@@ -372,7 +368,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="DFT" ID="ID_812342476" CREATED="1586489627936" MODIFIED="1586496730051">
@@ -397,7 +392,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="给出DFT的公式" ID="ID_748542859" CREATED="1586502084362" MODIFIED="1586502088226">
 <node TEXT="为什么DFT的公式可以做OFDM的解调" ID="ID_754789194" CREATED="1586509481022" MODIFIED="1586509513842">
@@ -430,7 +424,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="可以加几张图描述" ID="ID_1611234985" CREATED="1586501348947" MODIFIED="1586502047658"><richcontent TYPE="NOTE">
 
@@ -444,7 +437,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -469,7 +461,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="基于LTE的实际情况展现使用DFT时的工作量" ID="ID_1923538221" CREATED="1586509309508" MODIFIED="1586509332502"/>
 <node TEXT="直接展示结论FFT相对于DFT的计算复杂度的降低" ID="ID_456939616" CREATED="1586509333372" MODIFIED="1586509362095"/>
@@ -541,6 +532,7 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="\latex $\int_{0}^{T0}A \cos (2\pi ft) \cos (2\pi ft) dt= A/2 \int_{0}^{T0}(\cos (4\pi ft) + 1)dt = A/2 \int_{0}^{T0}(\cos (4\pi ft) + 1)dt = A * T0/2 $" ID="ID_844018983" CREATED="1586704102950" MODIFIED="1586704494533"/>
 </node>
 </node>
 <node TEXT="介绍一点正交的概念" ID="ID_1122435938" CREATED="1585839119439" MODIFIED="1585839151435"><richcontent TYPE="NOTE">
@@ -659,7 +651,44 @@
 <node TEXT="数字信号" ID="ID_1254843441" CREATED="1586271795108" MODIFIED="1586271797046"/>
 </node>
 </node>
-<node TEXT="宽带系统单载波调制的缺点" ID="ID_1608727907" CREATED="1586328538463" MODIFIED="1586328563065">
+<node TEXT="更高的速率要求有更大的带宽" ID="ID_251493716" CREATED="1586599213145" MODIFIED="1586599293970"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      随着通信技术的发展以及物联网应用的丰富，对无线通信能够提供的数据传输速率的要求也越来越高。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="香浓定理" ID="ID_1135278702" CREATED="1586599301142" MODIFIED="1586600042171"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      B = W log(1 + P/N)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      香农定理表明了，要想获得高的吞吐率，要么提高系统带宽，要么提高信噪比。
+    </p>
+    <p>
+      信噪比的提高有时候是很难的，而且信噪比对吞吐率的影响是对数的关系，而系统带宽对吞吐率的影响是非常直接的线性关系。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="单载波宽带系统调制的缺点" ID="ID_1608727907" CREATED="1586328538463" MODIFIED="1586599210967">
 <node TEXT="多径效应导致信道均衡比较难做" ID="ID_800077292" CREATED="1586328577288" MODIFIED="1586328605843"/>
 <node TEXT="均衡失败导致整个传输全部失败" ID="ID_190654307" CREATED="1586328626568" MODIFIED="1586328646818"/>
 </node>
@@ -691,7 +720,7 @@
 <node TEXT="为什么能够抗多径衰落" ID="ID_155158064" CREATED="1586224229448" MODIFIED="1586224251846">
 <node TEXT="码率和多径的关系" ID="ID_428745509" CREATED="1586224261744" MODIFIED="1586312692642"/>
 </node>
-<node TEXT="OFMDA复用优势" ID="ID_761232676" CREATED="1586272694338" MODIFIED="1586329506946"><richcontent TYPE="NOTE">
+<node TEXT="OFMDA复用优势" ID="ID_761232676" CREATED="1586272694338" MODIFIED="1586774343474"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -724,7 +753,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="【引出讨论】-是否可以通过数字处理的方式一把头算出最终信号" ID="ID_642081318" CREATED="1586486418161" MODIFIED="1586502443712">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="140" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1711373754" STARTINCLINATION="1575;0;" ENDINCLINATION="1574;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -740,7 +768,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="这里需要引入复指数函数的OFDM调制结果的表达式" ID="ID_711030326" CREATED="1586500103879" MODIFIED="1586500201004"><richcontent TYPE="NOTE">
@@ -755,7 +782,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -775,6 +801,10 @@
 <node TEXT="CP的概念和引入的作用" ID="ID_579369265" CREATED="1586509676397" MODIFIED="1586510213897"/>
 </node>
 <node TEXT="LTE协议中物理层涉及OFDM调制的过程简介" ID="ID_1950813670" CREATED="1586509771157" MODIFIED="1586510243399"/>
+<node TEXT="LTE中上下行调制过程的不同点" ID="ID_919382033" CREATED="1586601181744" MODIFIED="1586601203729">
+<node TEXT="SC-OFDMA" ID="ID_1062552458" CREATED="1586601205739" MODIFIED="1586601210203"/>
+<node TEXT="1/2子载波偏置" ID="ID_1578739951" CREATED="1586601210949" MODIFIED="1586601224001"/>
+</node>
 </node>
 </node>
 </map>
