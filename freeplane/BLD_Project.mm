@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -226,7 +226,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="nRF Connect Programmer" ID="ID_1150188771" CREATED="1583292976157" MODIFIED="1583292995664"><richcontent TYPE="NOTE">
@@ -280,7 +279,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="项目编译的时候将需要的驱动包含进去" ID="ID_728461600" CREATED="1587713476989" MODIFIED="1587713499927"/>
 <node TEXT="device_get_binding(&quot;driver_name&quot;)" ID="ID_392364904" CREATED="1587713501461" MODIFIED="1587714141308"><richcontent TYPE="NOTE">
@@ -295,7 +293,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="poll机制" ID="ID_448201104" CREATED="1587713791273" MODIFIED="1587714171112"><richcontent TYPE="NOTE">
@@ -310,7 +307,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="sensor_sample_fetch_channel(dev, channal)" ID="ID_769293338" CREATED="1587713840634" MODIFIED="1587713918963"/>
 <node TEXT="sensor_channel_get(dev, channel, &amp;data)" ID="ID_1752794650" CREATED="1587713840634" MODIFIED="1587713934690"/>
@@ -327,7 +323,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="sensor_trigger_set(dev, trigger, handler)" ID="ID_1014524621" CREATED="1587713993208" MODIFIED="1587714011035"/>
 </node>
@@ -344,10 +339,31 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="项目编译的时候将需要的云驱动编译进去" ID="ID_261389211" CREATED="1587717034846" MODIFIED="1587717050922"/>
 </node>
+</node>
+<node TEXT="nRF Connect SDK" POSITION="left" ID="ID_1143253232" CREATED="1587884204965" MODIFIED="1587884264902">
+<edge COLOR="#00ffff"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      经常会看到一些描述中有ncs这样的描述，实际上就是指的nRF Connect SDK
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
+<node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html"/>
+</node>
+<node TEXT="Sensor API" ID="ID_432974908" CREATED="1587884338732" MODIFIED="1587884350076" LINK="https://docs.zephyrproject.org/latest/reference/peripherals/sensor.html"/>
+<node TEXT="Device Tree" ID="ID_119144204" CREATED="1587891187823" MODIFIED="1587891195709" LINK="https://docs.zephyrproject.org/latest/guides/dts/index.html#adding-support-for-a-board"/>
 </node>
 </node>
 </map>

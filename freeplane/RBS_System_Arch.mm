@@ -4829,7 +4829,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="LA的输入" FOLDED="true" ID="ID_1619142773" CREATED="1578295664088" MODIFIED="1578295668340">
+<node TEXT="LA的输入" ID="ID_1619142773" CREATED="1578295664088" MODIFIED="1578295668340">
 <node TEXT="Calculate Path Loss" ID="ID_464354615" CREATED="1578295669168" MODIFIED="1578295981026"><richcontent TYPE="NOTE">
 
 <html>
@@ -4925,7 +4925,7 @@
 <node TEXT="其他上行消息的SINR计算" ID="ID_144181112" CREATED="1578301785292" MODIFIED="1578301793608"/>
 </node>
 </node>
-<node TEXT="NPDCCH的LA" FOLDED="true" ID="ID_617100584" CREATED="1578296977195" MODIFIED="1578297229051">
+<node TEXT="NPDCCH的LA" ID="ID_617100584" CREATED="1578296977195" MODIFIED="1578297229051">
 <node TEXT="CSS相关" FOLDED="true" ID="ID_19015438" CREATED="1578296667897" MODIFIED="1578635816601"><richcontent TYPE="NOTE">
 
 <html>
@@ -5102,7 +5102,7 @@
 </node>
 </node>
 </node>
-<node TEXT="NPDSCH的LA" FOLDED="true" ID="ID_1641816643" CREATED="1578297244385" MODIFIED="1578297250971">
+<node TEXT="NPDSCH的LA" ID="ID_1641816643" CREATED="1578297244385" MODIFIED="1578297250971">
 <node TEXT="Msg2的NPDSCH" ID="ID_279880284" CREATED="1578297281441" MODIFIED="1578623650802" LINK="#ID_1570176029"><richcontent TYPE="NOTE">
 
 <html>
@@ -5149,7 +5149,7 @@
 </html>
 </richcontent>
 </node>
-<node FOLDED="true" ID="ID_760055835" CREATED="1578297334266" MODIFIED="1578891896607"><richcontent TYPE="NODE">
+<node ID="ID_760055835" CREATED="1578297334266" MODIFIED="1578891896607"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5388,8 +5388,8 @@
 </node>
 </node>
 </node>
-<node TEXT="NPUSCH的LA" FOLDED="true" ID="ID_274126934" CREATED="1578297251763" MODIFIED="1578297255268">
-<node TEXT="Msg3重传的NPUSCH" ID="ID_1401765580" CREATED="1578297302151" MODIFIED="1578635387303" LINK="#ID_913679006"><richcontent TYPE="NOTE">
+<node TEXT="NPUSCH的LA" ID="ID_274126934" CREATED="1578297251763" MODIFIED="1578297255268">
+<node TEXT="Msg3重传的NPUSCH" ID="ID_1401765580" CREATED="1578297302151" MODIFIED="1587890317978" LINK="#ID_913679006"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5397,13 +5397,14 @@
   </head>
   <body>
     <p>
-      &#21442;&#32771;&#36339;&#36716;&#33410;&#28857;&#12290;
+      参考跳转节点。
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node FOLDED="true" ID="ID_1190999109" CREATED="1578364113497" MODIFIED="1578891903389"><richcontent TYPE="NODE">
+<node ID="ID_1190999109" CREATED="1578364113497" MODIFIED="1587890310012"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -5424,25 +5425,23 @@
   </head>
   <body>
     <p>
-      &#19978;&#34892;&#25968;&#20256;UL_SE(&#19981;&#21253;&#25324;msg3)&#30340;LA&#21516;&#26679;&#20063;&#26377;&#19977;&#31181;&#31574;&#30053;&#12290;
+      上行数传UL_SE(不包括msg3)的LA同样也有三种策略。
     </p>
     <p>
       
     </p>
     <p>
-      &#20351;&#29992;&#20102;&#20004;&#20010;SC&#26469;&#25511;&#21046;&#36873;&#25321;&#19981;&#21516;&#30340;&#31574;&#30053;&#12290;
+      使用了两个SC来控制选择不同的策略。
     </p>
     <p>
       npuschNumRepetitionsNb -- SC2592
     </p>
     <p>
-      npuschMcsIndexNb&#160;&#160;-- SC2591
-    </p>
-    <p>
-      
+      npuschMcsIndexNb&nbsp;&nbsp;-- SC2591
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="实质操作" ID="ID_26450123" CREATED="1578470520223" MODIFIED="1578470695925" LINK="#ID_1197914556"><richcontent TYPE="NOTE">
 
@@ -5457,7 +5456,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="3GPP核心表格" FOLDED="true" ID="ID_1628351722" CREATED="1578470584005" MODIFIED="1578470590309">
+<node TEXT="3GPP核心表格" ID="ID_1628351722" CREATED="1578470584005" MODIFIED="1578470590309">
 <node ID="ID_1551079576" CREATED="1578470592605" MODIFIED="1578470660297"><richcontent TYPE="NODE">
 
 <html>
@@ -5472,7 +5471,7 @@
 </node>
 </node>
 </node>
-<node TEXT="singleTone/multiTone?" ID="ID_1671913011" CREATED="1578471131315" MODIFIED="1578471190420"><richcontent TYPE="NOTE">
+<node TEXT="singleTone/multiTone?" ID="ID_1671913011" CREATED="1578471131315" MODIFIED="1587890276249"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5480,12 +5479,13 @@
   </head>
   <body>
     <p>
-      &#19978;&#34892;&#26159;&#21487;&#20197;&#36827;&#34892;&#39057;&#20998;&#22797;&#29992;&#30340;&#65292;&#25152;&#20197;&#38656;&#35201;&#20915;&#23450;&#20351;&#29992;&#21333;Tone&#65292;&#36824;&#26159;multiTone
+      上行是可以进行频分复用的，所以需要决定使用单Tone，还是multiTone
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="SINR门限值" ID="ID_1302890402" CREATED="1578471457211" MODIFIED="1578474838971"><richcontent TYPE="NOTE">
+<node TEXT="SINR门限值" ID="ID_1302890402" CREATED="1578471457211" MODIFIED="1587890278964"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5493,22 +5493,23 @@
   </head>
   <body>
     <p>
-      nbLa12tTo1tSinrTh &#40664;&#35748;&#20540;&#20026; -1.3dB
+      nbLa12tTo1tSinrTh 默认值为 -1.3dB
     </p>
     <p>
       
     </p>
     <p>
-      &#22914;&#26524;&#27979;&#37327;&#21040;&#30340;12tone&#30340;SINR&#20540;&#39640;&#20110; -1.3dB,&#21017;NPUSCH&#36873;&#25321;12 tone&#65292;&#22914;&#26524;12tone&#30340;SINR&#20540;&#20302;&#20110;&#36825;&#20010;&#38376;&#38480;&#20540;&#30340;&#35805;&#65292;&#21017;&#36873;&#25321;singleTone
+      如果测量到的12tone的SINR值高于 -1.3dB,则NPUSCH选择12 tone，如果12tone的SINR值低于这个门限值的话，则选择singleTone
     </p>
     <p>
       
     </p>
     <p>
-      &#28982;&#21518;SINR&#30340;&#35745;&#31639;&#26159;&#36319;Tone&#30340;&#20010;&#25968;&#30456;&#20851;&#30340;&#12290;
+      然后SINR的计算是跟Tone的个数相关的。
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -5583,7 +5584,7 @@
 </node>
 </node>
 <node TEXT="Random Access相关处理" ID="ID_1724791642" CREATED="1578364243539" MODIFIED="1578364258728">
-<node TEXT="SC配置" FOLDED="true" ID="ID_1782377071" CREATED="1578364262494" MODIFIED="1578364266001">
+<node TEXT="SC配置" ID="ID_1782377071" CREATED="1578364262494" MODIFIED="1578364266001">
 <node TEXT="CSS Rmax" ID="ID_1708593857" CREATED="1578364291004" MODIFIED="1578366569637"><richcontent TYPE="NOTE">
 
 <html>
