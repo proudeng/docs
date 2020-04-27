@@ -357,13 +357,134 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="各种模型" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
+<node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
+<node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html">
+<node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里的API是给驱动程序使用的，而非是给应用程序使用的。
+    </p>
+  </body>
+</html>
 
 </richcontent>
-<node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
-<node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html"/>
+<node TEXT="DEVICE_INIT()" ID="ID_850002459" CREATED="1587998570854" MODIFIED="1587998713027"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      create device object and set it up for boot time initialization.
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Sensor API" ID="ID_432974908" CREATED="1587884338732" MODIFIED="1587884350076" LINK="https://docs.zephyrproject.org/latest/reference/peripherals/sensor.html"/>
+<node TEXT="DEVICE_AND_API_INIT()" ID="ID_703810782" CREATED="1587998581845" MODIFIED="1587998727622"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create device object and set it up for boot time initialization. This also takes a pointer to driver API struct for link time pointer assignment.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DEVICE_NAME_GET()" ID="ID_1435952377" CREATED="1587998593806" MODIFIED="1587998737858"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Expands to the full name of a global device object.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DEVICE_GET()" ID="ID_574946737" CREATED="1587998601558" MODIFIED="1587998746462"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Obtain a pointer to a device object by name.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DEVICE_DECLARE()" ID="ID_240355837" CREATED="1587998607182" MODIFIED="1587998753534"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Declare a device object.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Driver Data Structures" ID="ID_1806101603" CREATED="1587998559389" MODIFIED="1587998869301"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="k">struct</span> <span class="n">device</span> <span class="p">{</span>
+      <span class="k">struct</span> <span class="n">device_config</span> <span class="o">*</span><span class="n">config</span><span class="p">;</span>
+      <span class="kt">void</span> <span class="o">*</span><span class="n">driver_api</span><span class="p">;</span>
+      <span class="kt">void</span> <span class="o">*</span><span class="n">driver_data</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">struct</span> <span class="n">device_config</span> <span class="p">{</span>
+      <span class="kt">char</span>    <span class="o">*</span><span class="n">name</span><span class="p">;</span>
+      <span class="kt">int</span> <span class="p">(</span><span class="o">*</span><span class="n">init</span><span class="p">)(</span><span class="k">struct</span> <span class="n">device</span> <span class="o">*</span><span class="n">device</span><span class="p">);</span>
+      <span class="k">const</span> <span class="kt">void</span> <span class="o">*</span><span class="n">config_info</span><span class="p">;</span>
+  <span class="p">[...]</span>
+<span class="p">};</span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Sensor API" ID="ID_432974908" CREATED="1587884338732" MODIFIED="1587998529334" LINK="https://docs.zephyrproject.org/latest/reference/peripherals/sensor.html"/>
 <node TEXT="Device Tree" ID="ID_119144204" CREATED="1587891187823" MODIFIED="1587891195709" LINK="https://docs.zephyrproject.org/latest/guides/dts/index.html#adding-support-for-a-board"/>
+</node>
+<node TEXT="项目构成" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
+<node TEXT="Kconfig" ID="ID_1577093772" CREATED="1587996924272" MODIFIED="1587996927690"/>
+<node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
+<node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
+</node>
 </node>
 </node>
 </map>
