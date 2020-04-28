@@ -373,7 +373,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="DEVICE_INIT()" ID="ID_850002459" CREATED="1587998570854" MODIFIED="1587998713027"><richcontent TYPE="NOTE">
 
@@ -387,7 +386,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="DEVICE_AND_API_INIT()" ID="ID_703810782" CREATED="1587998581845" MODIFIED="1587998727622"><richcontent TYPE="NOTE">
@@ -402,7 +400,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="DEVICE_NAME_GET()" ID="ID_1435952377" CREATED="1587998593806" MODIFIED="1587998737858"><richcontent TYPE="NOTE">
@@ -417,7 +414,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="DEVICE_GET()" ID="ID_574946737" CREATED="1587998601558" MODIFIED="1587998746462"><richcontent TYPE="NOTE">
@@ -432,7 +428,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="DEVICE_DECLARE()" ID="ID_240355837" CREATED="1587998607182" MODIFIED="1587998753534"><richcontent TYPE="NOTE">
@@ -447,7 +442,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -472,12 +466,82 @@
 <span class="p">};</span></pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Sensor API" ID="ID_432974908" CREATED="1587884338732" MODIFIED="1587998529334" LINK="https://docs.zephyrproject.org/latest/reference/peripherals/sensor.html">
+<node TEXT="表征传感器" ID="ID_1048766441" CREATED="1588087358103" MODIFIED="1588087364354">
+<node TEXT="channel" ID="ID_255248767" CREATED="1588087337360" MODIFIED="1588087343369"/>
+<node TEXT="values" ID="ID_1817116485" CREATED="1588087349215" MODIFIED="1588087352051"/>
+</node>
+<node TEXT="应用代码使用传感器" ID="ID_797088572" CREATED="1588087380294" MODIFIED="1588087387177">
+<node TEXT="轮询方式" ID="ID_434350976" CREATED="1588087554320" MODIFIED="1588087558777">
+<node TEXT="sensor_sample_fetch()" ID="ID_382283456" CREATED="1588087389855" MODIFIED="1588087450164"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用这个函数将传感器的数据获取到，保存在驱动程序的内部。此时应用程序还没有得到传感器的数据。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="sensor_channel_get(dev, channel, &amp;data)" ID="ID_1314873074" CREATED="1588087452654" MODIFIED="1588087540257"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个函数将上面采样的传感器的数据中，属性为channel的数据保存在data这个数据结构中。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="中断方式" ID="ID_961850342" CREATED="1588087564551" MODIFIED="1588087571033">
+<node TEXT="sensor_attr_set(dev,channel,attr,&amp;value)" ID="ID_1468246327" CREATED="1588087594095" MODIFIED="1588087684499"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在支持中断方式上报传感器数据的驱动中，可以先给传感器使用这个函数设置属性，后续可以根据这些提前设置的属性来制定触发中断的条件。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="sensor_trigger_set(dev,&amp;trigger, trigger_handler)" ID="ID_1320108864" CREATED="1588087699071" MODIFIED="1588087783107"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这就是定义触发中断的条件，这里的trigger就是可以选择先前设置的某个属性作为触发器，然后trigger_handler就是中断触发之后需要调用的处理函数。
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Sensor API" ID="ID_432974908" CREATED="1587884338732" MODIFIED="1587998529334" LINK="https://docs.zephyrproject.org/latest/reference/peripherals/sensor.html"/>
+</node>
 <node TEXT="Device Tree" ID="ID_119144204" CREATED="1587891187823" MODIFIED="1587891195709" LINK="https://docs.zephyrproject.org/latest/guides/dts/index.html#adding-support-for-a-board"/>
 </node>
 <node TEXT="项目构成" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
