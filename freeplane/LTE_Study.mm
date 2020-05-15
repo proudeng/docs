@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -6262,6 +6262,296 @@
 </node>
 </node>
 <node TEXT="SA Report" ID="ID_128377494" CREATED="1587454994477" MODIFIED="1587455009742" LINK="https://erilink.internal.ericsson.com/eridoc/erl/objectId/09004cffc43b0daf?docno=760%2F2882-300%2FFCP1314742Uen&amp;action=current&amp;format=ppt12"/>
+<node TEXT="NDS Link" ID="ID_1552939971" CREATED="1589447964419" MODIFIED="1589447987244" LINK="https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc4627b3c?docno=8/10268-300/FCP1314772Uen&amp;action=current&amp;format=msw12">
+<node TEXT="Issues" ID="ID_229476771" CREATED="1589505372440" MODIFIED="1589505405112">
+<node TEXT="改动即时生效具体是指什么？" ID="ID_324156015" CREATED="1589505378588" MODIFIED="1589505684801"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      有两种不同的UE的类型，在门限值改动发生时刻已经在系统中进行
+    </p>
+    <p>
+      系统中已经存在的UE和门限值改变后才初始接入的UE的处理有什么不同?
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="改动发生时系统中的UE状态" ID="ID_850349420" CREATED="1589505686757" MODIFIED="1589505697241">
+<node TEXT="已经接入的UE" ID="ID_133264421" CREATED="1589505698620" MODIFIED="1589505714384">
+<node TEXT="VoIP的UE" ID="ID_78329533" CREATED="1589505717668" MODIFIED="1589514111429">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于这些UE是确定有影响的。需要决定如何处理这些UE。
+    </p>
+    <p>
+      因为判决算法只有一份，而且针对的就是VoIP的UE，所以这些UE就是会受到影响的那些目标UE。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="处于TTI Bundling模式" ID="ID_1931288118" CREATED="1589514337461" MODIFIED="1589514359504">
+<node TEXT="已经给RAC上报了切换的ind" ID="ID_1872271469" CREATED="1589514461485" MODIFIED="1589518758261">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      需要注意的是，已经上报了ind之后，UPC会等待一段时间才会再次上报。也就是inhibittime和measurementcount。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="可能得出相反的结果" ID="ID_1751482806" CREATED="1589514717702" MODIFIED="1589519001371"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种情况下，UE有可能会发生两次切换。第一次的切换是无效的，我们实际上并不希望它发生。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      但是在实际的实现当中，UPC似乎只在需要和ueSetupReq()中携带的TTI bundling 模式需要被switch的时候才会发出indication。其他情况下并不会向RAC发送indication。
+    </p>
+    <p>
+      所以这种情况下，虽然UPC基于新的门限值做出了相反的判断，但是并不会将结论反馈给RAC。这种反馈只有在这个UE在Intro-Cell HO发生之后，会导致重新进行一次Intro-Cell HO。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="可能得出相同的结果" ID="ID_449500546" CREATED="1589514733909" MODIFIED="1589516551258"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种情况下，实际上没有什么影响。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="没有上报切换的ind" ID="ID_729720489" CREATED="1589514471789" MODIFIED="1589514677887"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实这种情况没有影响。门限值改变之后，有可能会触发立即的切换，这也是正常的预期的行为。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      需要考虑的只是有多少UE会同时发生切换。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="处于Normal模式" ID="ID_145180767" CREATED="1589514346525" MODIFIED="1589514459871"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      两种情况：
+    </p>
+    <p>
+      一种情况是老的门限值和新的门限值
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="已经给RAC上报了切换的ind" ID="ID_605124041" CREATED="1589514461485" MODIFIED="1589514693695">
+<icon BUILTIN="bookmark"/>
+<node TEXT="可能得出相反的结果" ID="ID_805581434" CREATED="1589514717702" MODIFIED="1589519017442"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种情况下，UE有可能会发生两次切换。第一次的切换是无效的，我们实际上并不希望它发生。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      但是在实际的实现当中，UPC似乎只在需要和ueSetupReq()中携带的TTI bundling 模式需要被switch的时候才会发出indication。其他情况下并不会向RAC发送indication。
+    </p>
+    <p>
+      所以这种情况下，虽然UPC基于新的门限值做出了相反的判断，但是并不会将结论反馈给RAC。这种反馈只有在这个UE在Intro-Cell HO发生之后，会导致重新进行一次Intro-Cell HO。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="可能得出相同的结果" ID="ID_1553616564" CREATED="1589514733909" MODIFIED="1589519023248"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种情况下，实际上没有什么影响。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="没有上报切换的ind" ID="ID_1622317656" CREATED="1589514471789" MODIFIED="1589514685575"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实这种情况没有影响。门限值改变之后，有可能会触发立即的切换，这也是正常的预期的行为。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      需要考虑的只是有多少UE会同时发生切换。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="非VoIP的UE" ID="ID_846129656" CREATED="1589505732876" MODIFIED="1589513006110"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      非VoIP的已经接入的UE，判决的动作不会发生，但是SINR值的计算是一直都存在的，而且根据feature NDS的描述，为什么这么做是因为有可能某个接入的UE在特定的时间点会创建VoIP的bearer，这时候能够根据之前测量到的SINR值迅速的做出判断。
+    </p>
+    <p>
+      所以这些UE，对他们实际上没有什么影响，因为改动的是判决的门限值，但是对这些UE来说，判决算法本身就没有被执行到，所以没有什么影响。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      而为什么如果不一直测量就不能够迅速的做出判断呢？
+    </p>
+    <p>
+      这是因为进行判决有两个先决条件，首先对于测量次数以及测量时间是有要求的。在进行SINR值的测量时，为了得到稳定的SINR值，规定了判决只能在SINR值测量经过了一段时间之后才能够进行，
+    </p>
+    <p>
+      同时也规定了，如果要进行判决，SINR值的计算次数也必须要超过一个门限个数。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="还没有接入的UE" ID="ID_298141560" CREATED="1589505739620" MODIFIED="1589507539376"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于在门限值改变之后新接入的UE来说，在接入之后使用的就是新的门限值。所以这个改动的操作对于这些UE来说不存在问题，因为它们不会感受到门限值改变这个行为。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="改动为什么会导致traffic loss？" ID="ID_1862078204" CREATED="1589516446494" MODIFIED="1589519175591"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      可能的一种情况是：
+    </p>
+    <p>
+      在门限值改动之后，同时会有多个UE因为自己的门限值情况需要进行切换，已经到了不切换就会掉线或者误码率上升的风险了，但是因为eNB无法同时处理这些情况，导致UE的切换请求没有得到及时的处理，从而导致UE发生traffic loss。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="物理层" POSITION="left" ID="ID_1217522266" CREATED="1542447751412" MODIFIED="1544164050528" LINK="../attachment/ppt/chapter%204%20LTE%20physical%20layer.pdf">
@@ -7022,8 +7312,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -8296,8 +8586,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
