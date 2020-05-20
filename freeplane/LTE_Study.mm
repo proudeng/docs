@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -5797,7 +5797,7 @@
 <node TEXT="demo版本" ID="ID_788678659" CREATED="1585725163604" MODIFIED="1585725233348" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/TTI-Bundling"/>
 <node TEXT="商用版本" ID="ID_1424618020" CREATED="1585725166899" MODIFIED="1585725265777" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/WP1981,TtiBundlingFeasibility"/>
 </node>
-<node TEXT="TTI bundling CPI link" ID="ID_1082760328" CREATED="1584955963339" MODIFIED="1584956049126" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;LI=EN/LZN%20793%201040%20R17G&amp;ID=27110&amp;FN=100_22104-LZA7016014_1Uen.AH.html&amp;73933-en_lzn7931040_r17g.alx&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=Title"><richcontent TYPE="NOTE">
+<node TEXT="TTI bundling CPI link" FOLDED="true" ID="ID_1082760328" CREATED="1584955963339" MODIFIED="1584956049126" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;LI=EN/LZN%20793%201040%20R17G&amp;ID=27110&amp;FN=100_22104-LZA7016014_1Uen.AH.html&amp;73933-en_lzn7931040_r17g.alx&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=Title"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6108,7 +6108,7 @@
 </node>
 </node>
 </node>
-<node TEXT="OA Report" ID="ID_1249914466" CREATED="1585725177020" MODIFIED="1585880030171" LINK="https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc41bb6e0?docno=212/0363-200/FCP1314742Uen&amp;action=current&amp;format=ppt12"><richcontent TYPE="NOTE">
+<node TEXT="OA Report" FOLDED="true" ID="ID_1249914466" CREATED="1585725177020" MODIFIED="1585880030171" LINK="https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc41bb6e0?docno=212/0363-200/FCP1314742Uen&amp;action=current&amp;format=ppt12"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6282,7 +6282,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="改动发生时系统中的UE状态" ID="ID_850349420" CREATED="1589505686757" MODIFIED="1589505697241">
 <node TEXT="已经接入的UE" ID="ID_133264421" CREATED="1589505698620" MODIFIED="1589505714384">
@@ -6303,7 +6302,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="处于TTI Bundling模式" ID="ID_1931288118" CREATED="1589514337461" MODIFIED="1589514359504">
 <node TEXT="已经给RAC上报了切换的ind" ID="ID_1872271469" CREATED="1589514461485" MODIFIED="1589518758261">
@@ -6320,7 +6318,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="可能得出相反的结果" ID="ID_1751482806" CREATED="1589514717702" MODIFIED="1589519001371"><richcontent TYPE="NOTE">
 
@@ -6346,7 +6343,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="可能得出相同的结果" ID="ID_449500546" CREATED="1589514733909" MODIFIED="1589516551258"><richcontent TYPE="NOTE">
@@ -6361,7 +6357,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6386,7 +6381,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6405,7 +6399,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="已经给RAC上报了切换的ind" ID="ID_605124041" CREATED="1589514461485" MODIFIED="1589514693695">
 <icon BUILTIN="bookmark"/>
@@ -6433,7 +6426,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="可能得出相同的结果" ID="ID_1553616564" CREATED="1589514733909" MODIFIED="1589519023248"><richcontent TYPE="NOTE">
@@ -6448,7 +6440,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6473,7 +6464,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6511,7 +6501,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6527,7 +6516,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6544,6 +6532,204 @@
     </p>
     <p>
       在门限值改动之后，同时会有多个UE因为自己的门限值情况需要进行切换，已经到了不切换就会掉线或者误码率上升的风险了，但是因为eNB无法同时处理这些情况，导致UE的切换请求没有得到及时的处理，从而导致UE发生traffic loss。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="VoIP相关知识" ID="ID_1389640429" CREATED="1589960144744" MODIFIED="1589960154023">
+<node TEXT="两个默认Bearer" ID="ID_1653169190" CREATED="1589960570134" MODIFIED="1589960802694"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LTE的UE默认会创建一个QCI=9的默认承载，这个承载在UEattach之后就被创建，一直存在，用于用户的Internet数据的交互。
+    </p>
+    <p>
+      对于具有VoLTE功能的UE来说，还会创建另外的一个QCI=5的默认承载，这个承载是用于IMS信令交互的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      等到用户发起VoIP通话，会创建一个QCI=1的承载用于承载用户的语音数据，如果同时伴随视频通话的话，网络还会给这个UE创建另外一个QCI=2的承载用于视频数据的交互。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRC connection reconfigure" ID="ID_937449184" CREATED="1589961762223" MODIFIED="1589961833998"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      VoLTE的QCI=1的bearer是通过RRC connection reconfigure消息来创建的。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="VoLTE关键技术" ID="ID_276762731" CREATED="1589960944602" MODIFIED="1589960950113">
+<node TEXT="半静态调度" ID="ID_1144495534" CREATED="1589960965214" MODIFIED="1589963884233">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_565927018" STARTINCLINATION="69;0;" ENDINCLINATION="69;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      主要是由于VoLTE通话时，语音包是每20ms为周期发送的。
+    </p>
+    <p>
+      所以如果每次上下行调度都是使用动态调度的话，PDCCH的资源消耗就会很大，尤其是在系统中VoLTE的Bearer数量比较多的时候。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以这种半静态调度的意思是，只发送一次PDCCH，指定MCS，时频资源，然后每隔20ms，用户都使用相同的调度参数去相同的时频资源上接收和传送数据。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的是，半静态调度的激活是在Talk Spurts阶段起作用的，如果UE的状态为静默态的话，那么基站会结束半静态调度，转而使用动态调度方法来调度SID帧。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="半静态调度操作步骤" ID="ID_214440623" CREATED="1589965784849" MODIFIED="1589965791478">
+<node TEXT="在建立bearer的时候配置半静态调度参数" ID="ID_1402385034" CREATED="1589965792425" MODIFIED="1589965906733"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一般是使用RRC connection reconfiguration消息创建VoIP的bearer的时候，会指定半静态调度的参数，比如sps-CRNTI,还有配置的是上行半静态，下行半静态，还是上下行均为半静态调度。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="sps-RNTI" ID="ID_1457587129" CREATED="1589966373622" MODIFIED="1589966473812"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      指示SPS的PDCCH是使用这个sps-RNTI加扰的。所以UE需要在每个TTI使用分配给自己的sps-RNTI去解码PDCCH，
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SPS-ConfigDL" ID="ID_341954045" CREATED="1589966400285" MODIFIED="1589966407607">
+<node TEXT="interval" ID="ID_462202894" CREATED="1589966511629" MODIFIED="1589966518330"/>
+<node TEXT="进程数" ID="ID_853560003" CREATED="1589966526078" MODIFIED="1589966528354"/>
+</node>
+<node TEXT="SPS-ConfigUL" ID="ID_761307621" CREATED="1589966407933" MODIFIED="1589966412256"/>
+</node>
+<node TEXT="使用PDCCH激活半静态调度" ID="ID_394466745" CREATED="1589965809537" MODIFIED="1589965816948"/>
+</node>
+</node>
+<node TEXT="上行Delay-Based动态调度" ID="ID_1675073996" CREATED="1589960984578" MODIFIED="1589960997078"/>
+<node TEXT="AMR" ID="ID_798286088" CREATED="1589960999962" MODIFIED="1589965777822"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AMR codec provides one packet every 20ms during active period and one silence indicator (SID) at 160ms
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Talk Spurts" ID="ID_565927018" CREATED="1589961714612" MODIFIED="1589964036851"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UE在通话期间，每20ms都会传输一次VoLTE数据。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Talk Spurts: during this period the UE sends or receive voice data packets. Voice packets are transmitted every 20 ms. Size of voice data packet depends on used speech coding rate.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Silent periods" ID="ID_1249486785" CREATED="1589961722420" MODIFIED="1589964067724"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      用户在不说话期间，也就是silent阶段，每160ms会发送一次固定的小包。
+    </p>
+    <p>
+      it means the UE doesn’t have any voice packets, in this period UE transmits or receives silence insertion descriptor (SID) frames. Interval is 160 ms for SID frames. The SID frame size is fixed to 56 bits for AMR speech codecs and 64 bits for EVS speech codecs.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      一般正常情况下，基站端在侦测到UE进入静默态之后，会取消掉半静态调度机制，转而使用动态调度机制来调度160ms一次的SID帧。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="ROHC" ID="ID_1580467985" CREATED="1589961013034" MODIFIED="1589961015303"/>
+<node TEXT="TTI bundling" ID="ID_1394114754" CREATED="1589961020851" MODIFIED="1589964780695"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TTI bundling不能够和半静态调度同时打开，
+    </p>
+    <p>
+      所以，如果UE使用TTI bundling的话，那么其上行的VoIP数据的调度就只能够是动态调度的了。
     </p>
   </body>
 </html>
@@ -8586,8 +8772,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
