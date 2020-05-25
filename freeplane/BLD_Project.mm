@@ -358,7 +358,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="各种模型" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
+<node TEXT="各种模型" FOLDED="true" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
 <node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
 <node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html">
 <node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE">
@@ -600,16 +600,34 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="项目构成" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
+<node TEXT="项目构成" FOLDED="true" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
 <node TEXT="Kconfig" ID="ID_1577093772" CREATED="1587996924272" MODIFIED="1587996927690"/>
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
+</node>
+<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一个很好的讲解nRF Connect SDK的官方的教程
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Part1" ID="ID_484875590" CREATED="1590417093033" MODIFIED="1590417095509"/>
+<node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1590417103491"/>
+<node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1590417105780"/>
+<node TEXT="安装nRF" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1590418445471"/>
 </node>
 </node>
 </node>
