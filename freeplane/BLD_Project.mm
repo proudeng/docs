@@ -622,12 +622,183 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="Part1" ID="ID_484875590" CREATED="1590417093033" MODIFIED="1590417095509">
+<node TEXT="最简单项目构成" ID="ID_39785052" CREATED="1590483289031" MODIFIED="1590483298249">
+<node TEXT="A folder named src with main.c inside" ID="ID_1553117378" CREATED="1590483311799" MODIFIED="1590483509409"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #include &lt;zephyr.h&gt;
+    </p>
+    <p>
+      #include &lt;sys/printk.h&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      void main(void)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;printk(&quot;Hello World!\n&quot;);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
 
 </richcontent>
-<node TEXT="Part1" ID="ID_484875590" CREATED="1590417093033" MODIFIED="1590417095509"/>
+</node>
+<node TEXT="CMakeLists.txt" ID="ID_336854346" CREATED="1590483322127" MODIFIED="1590483481733"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cmake_minimum_required(VERSION 3.13.1)
+    </p>
+    <p>
+      include($ENV{ZEPHYR_BASE}/../nrf/cmake/boilerplate.cmake)
+    </p>
+    <p>
+      include($ENV{ZEPHYR_BASE}/cmake/app/boilerplate.cmake NO_POLICY_SCOPE)
+    </p>
+    <p>
+      project(NONE)
+    </p>
+    <p>
+      target_sources(app PRIVATE src/main.c)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="prj.conf" ID="ID_1883226606" CREATED="1590483328783" MODIFIED="1590483492478"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CONFIG_SERIAL=y
+    </p>
+    <p>
+      CONFIG_UART_0_NRF_UARTE=y
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 <node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1590417103491"/>
 <node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1590417105780"/>
-<node TEXT="安装nRF" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1590418445471"/>
+<node TEXT="安装nRF开发环境" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1590482304480"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在公开的云主机ali.proudj.com上安装nRF的开发环境。
+    </p>
+    <p>
+      云主机是Ubuntu的系统
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="安装toolChain" ID="ID_1460453185" CREATED="1590462161196" MODIFIED="1590482414362"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      安装目录：
+    </p>
+    <p>
+      <font color="#0000c0"><b>/home/proudeng/gnuarmemb</b></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="安装nRF的SDK代码" ID="ID_1416433480" CREATED="1590462258219" MODIFIED="1590482407537"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      安装的路径为：
+    </p>
+    <p>
+      <b><font color="#0000c0">/home/proudeng/ncs</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="配置环境变量" ID="ID_1790605616" CREATED="1590477801399" MODIFIED="1590477809345">
+<node TEXT="~/.profile文件" ID="ID_1531904512" CREATED="1590477814423" MODIFIED="1590482427994"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在proudeng用户的home目录下的.profile文件中加入了下面的内容，用户配置环境变量：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000c0"><i># set enviroment variable for nRF91 project </i></font>
+    </p>
+    <p>
+      <font color="#0000c0"><i>export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb </i></font>
+    </p>
+    <p>
+      <font color="#0000c0"><i>export GNUARMEMB_TOOLCHAIN_PATH=&quot;~/gnuarmemb&quot; </i></font>
+    </p>
+    <p>
+      <font color="#0000c0"><i>if [ -f &quot;/home/proudeng/ncs/zephyr/zephyr-env.sh&quot; ]; then </i></font>
+    </p>
+    <p>
+      <font color="#0000c0"><i>&nbsp;&nbsp;&nbsp;&nbsp;. &quot;/home/proudeng/ncs/zephyr/zephyr-env.sh&quot; </i></font>
+    </p>
+    <p>
+      <font color="#0000c0"><i>fi </i></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
