@@ -2893,10 +2893,10 @@
 </node>
 </node>
 </node>
-<node TEXT="【LTE-DL】RRM培训" FOLDED="true" POSITION="right" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1578295234264">
+<node TEXT="【LTE-DL】RRM培训" POSITION="right" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1578295234264">
 <edge COLOR="#ff00ff"/>
-<node TEXT="下行调度算法" FOLDED="true" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
-<node TEXT="QOS Framework" FOLDED="true" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
+<node TEXT="下行调度算法" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
+<node TEXT="QOS Framework" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
 <node TEXT="QCI" ID="ID_198970372" CREATED="1549868306011" MODIFIED="1573451774082"><richcontent TYPE="NOTE">
 
 <html>
@@ -3022,7 +3022,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Weight Framework" FOLDED="true" ID="ID_1369771660" CREATED="1573202262476" MODIFIED="1573202273426">
+<node TEXT="Weight Framework" ID="ID_1369771660" CREATED="1573202262476" MODIFIED="1573202273426">
 <node TEXT="PQ" ID="ID_404283582" CREATED="1573452427549" MODIFIED="1573452445564"><richcontent TYPE="NOTE">
 
 <html>
@@ -3200,7 +3200,7 @@
 </node>
 </node>
 <node TEXT="Scheduling Strategies" ID="ID_1301142172" CREATED="1573202274379" MODIFIED="1573202279193">
-<node TEXT="Flow prioritization strategies" FOLDED="true" ID="ID_158870065" CREATED="1573453698154" MODIFIED="1576572341810">
+<node TEXT="Flow prioritization strategies" ID="ID_158870065" CREATED="1573453698154" MODIFIED="1576572341810">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -5401,7 +5401,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1190999109" CREATED="1578364113497" MODIFIED="1587890310012"><richcontent TYPE="NODE">
@@ -5441,7 +5440,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="实质操作" ID="ID_26450123" CREATED="1578470520223" MODIFIED="1578470695925" LINK="#ID_1197914556"><richcontent TYPE="NOTE">
 
@@ -5483,7 +5481,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="SINR门限值" ID="ID_1302890402" CREATED="1578471457211" MODIFIED="1587890278964"><richcontent TYPE="NOTE">
 
@@ -5509,7 +5506,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
