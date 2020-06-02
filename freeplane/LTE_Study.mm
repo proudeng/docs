@@ -5732,7 +5732,7 @@
 <node TEXT="Ref PPS" ID="ID_1243754141" CREATED="1572920137962" MODIFIED="1572920256277" LINK="../../../C:/Users/edenjun/Desktop/LTE/Feature/NPRACH_Congestion_control/NPRACH%20congestion%20control.pptx"/>
 </node>
 </node>
-<node TEXT="【MR6267】" FOLDED="true" ID="ID_941994621" CREATED="1584335888502" MODIFIED="1584336087819"><richcontent TYPE="NOTE">
+<node TEXT="【MR6267】" ID="ID_941994621" CREATED="1584335888502" MODIFIED="1590977708525" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/MR6267_Allow_TTI_bundling_parameters_to_be_changed_in_runtime(Global_Release)"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5797,7 +5797,7 @@
 <node TEXT="demo版本" ID="ID_788678659" CREATED="1585725163604" MODIFIED="1585725233348" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/TTI-Bundling"/>
 <node TEXT="商用版本" ID="ID_1424618020" CREATED="1585725166899" MODIFIED="1585725265777" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/WP1981,TtiBundlingFeasibility"/>
 </node>
-<node TEXT="TTI bundling CPI link" FOLDED="true" ID="ID_1082760328" CREATED="1584955963339" MODIFIED="1584956049126" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;LI=EN/LZN%20793%201040%20R17G&amp;ID=27110&amp;FN=100_22104-LZA7016014_1Uen.AH.html&amp;73933-en_lzn7931040_r17g.alx&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=Title"><richcontent TYPE="NOTE">
+<node TEXT="TTI bundling CPI link" ID="ID_1082760328" CREATED="1584955963339" MODIFIED="1584956049126" LINK="http://cpistore.internal.ericsson.com/alexserv?AC=LINKEXT&amp;LI=EN/LZN%20793%201040%20R17G&amp;ID=27110&amp;FN=100_22104-LZA7016014_1Uen.AH.html&amp;73933-en_lzn7931040_r17g.alx&amp;ORPA=TTI+Bundling&amp;SL=EN/LZN7931040R17G&amp;PA=TTI+Bundling&amp;ST=Title"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6501,7 +6501,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6565,7 +6564,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="已经接入的UE" ID="ID_207068251" CREATED="1589505698620" MODIFIED="1589505714384">
 <node TEXT="VoIP的UE" ID="ID_1570241713" CREATED="1589505717668" MODIFIED="1589514111429">
@@ -6771,7 +6769,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6794,7 +6791,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="已经接入的UE" ID="ID_1919970264" CREATED="1589505698620" MODIFIED="1589505714384">
@@ -7001,7 +6997,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7977,8 +7972,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>

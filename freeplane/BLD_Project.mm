@@ -605,7 +605,7 @@
 </node>
 </node>
 </node>
-<node TEXT="项目构成" FOLDED="true" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
+<node TEXT="项目构成" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
 <node TEXT="Kconfig" ID="ID_1577093772" CREATED="1587996924272" MODIFIED="1587996927690"/>
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
@@ -623,9 +623,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Part1" ID="ID_484875590" CREATED="1590417093033" MODIFIED="1590417095509">
-<node TEXT="最简单项目构成" ID="ID_39785052" CREATED="1590483289031" MODIFIED="1590483298249">
-<node TEXT="A folder named src with main.c inside" ID="ID_1553117378" CREATED="1590483311799" MODIFIED="1590483509409"><richcontent TYPE="NOTE">
+<node TEXT="安装nRF开发环境" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1591074999640"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -633,92 +631,7 @@
   </head>
   <body>
     <p>
-      #include &lt;zephyr.h&gt;
-    </p>
-    <p>
-      #include &lt;sys/printk.h&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      void main(void)
-    </p>
-    <p>
-      {
-    </p>
-    <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;printk(&quot;Hello World!\n&quot;);
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="CMakeLists.txt" ID="ID_336854346" CREATED="1590483322127" MODIFIED="1590483481733"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      cmake_minimum_required(VERSION 3.13.1)
-    </p>
-    <p>
-      include($ENV{ZEPHYR_BASE}/../nrf/cmake/boilerplate.cmake)
-    </p>
-    <p>
-      include($ENV{ZEPHYR_BASE}/cmake/app/boilerplate.cmake NO_POLICY_SCOPE)
-    </p>
-    <p>
-      project(NONE)
-    </p>
-    <p>
-      target_sources(app PRIVATE src/main.c)
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="prj.conf" ID="ID_1883226606" CREATED="1590483328783" MODIFIED="1590483492478"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      CONFIG_SERIAL=y
-    </p>
-    <p>
-      CONFIG_UART_0_NRF_UARTE=y
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1590417103491"/>
-<node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1590417105780"/>
-<node TEXT="安装nRF开发环境" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1590482304480"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      在公开的云主机ali.proudj.com上安装nRF的开发环境。
-    </p>
-    <p>
-      云主机是Ubuntu的系统
+      在公开的云主机ali.proudj.com上安装nRF的开发环境。其中云主机是Ubuntu的系统
     </p>
   </body>
 </html>
@@ -739,7 +652,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="安装nRF的SDK代码" ID="ID_1416433480" CREATED="1590462258219" MODIFIED="1590482407537"><richcontent TYPE="NOTE">
@@ -757,7 +669,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="配置环境变量" ID="ID_1790605616" CREATED="1590477801399" MODIFIED="1590477809345">
@@ -794,11 +705,356 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
+<node TEXT="Part1" ID="ID_484875590" CREATED="1590417093033" MODIFIED="1590417095509">
+<node TEXT="最简单项目构成" ID="ID_39785052" CREATED="1590483289031" MODIFIED="1590483298249">
+<node TEXT="A folder named src with main.c inside" ID="ID_1553117378" CREATED="1590483311799" MODIFIED="1590483509409"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #include &lt;zephyr.h&gt;
+    </p>
+    <p>
+      #include &lt;sys/printk.h&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      void main(void)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;printk(&quot;Hello World!\n&quot;);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="CMakeLists.txt" ID="ID_336854346" CREATED="1590483322127" MODIFIED="1590483481733"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cmake_minimum_required(VERSION 3.13.1)
+    </p>
+    <p>
+      include($ENV{ZEPHYR_BASE}/../nrf/cmake/boilerplate.cmake)
+    </p>
+    <p>
+      include($ENV{ZEPHYR_BASE}/cmake/app/boilerplate.cmake NO_POLICY_SCOPE)
+    </p>
+    <p>
+      project(NONE)
+    </p>
+    <p>
+      target_sources(app PRIVATE src/main.c)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="prj.conf" ID="ID_1883226606" CREATED="1590483328783" MODIFIED="1590483492478"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CONFIG_SERIAL=y
+    </p>
+    <p>
+      CONFIG_UART_0_NRF_UARTE=y
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="编译代码" ID="ID_593364567" CREATED="1591075025836" MODIFIED="1591077050913"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用west命令来编译项目，使用类似下面的命令编译，需要指定编译的target板子：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">west build -b nrf9160_pca20035ns </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      我们使用的-b参数是<font color="#0033ff">nrf9160_pca20035ns</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1590417103491">
+<node TEXT="ncs中的一些概念" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NCS = nRF Connect SDK
+    </p>
+    <p>
+      这是一个Nordic的开发环境，它包含了一些开源的repo，用于开发
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="包含的软件包" ID="ID_53113676" CREATED="1591077052856" MODIFIED="1591077058978">
+<node TEXT="nrf" ID="ID_1048215340" CREATED="1591077060471" MODIFIED="1591077064776"/>
+<node TEXT="nrfxlib" ID="ID_870008305" CREATED="1591077065022" MODIFIED="1591077070170"/>
+<node TEXT="MCUBoot" ID="ID_362205456" CREATED="1591077070407" MODIFIED="1591077079170"/>
+<node TEXT="Zephyr" ID="ID_150385644" CREATED="1591077085630" MODIFIED="1591077090353"/>
+</node>
+<node TEXT="编译工具链集合" ID="ID_1382036462" CREATED="1591077142239" MODIFIED="1591078610611">
+<node TEXT="Kconfig" ID="ID_708230321" CREATED="1591077163367" MODIFIED="1591078443475"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kconfig generates definitions that configure the whole system
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Device Tree" ID="ID_664702987" CREATED="1591077166766" MODIFIED="1591078447630"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Device Tree describes the hardware
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="CMake" ID="ID_992681936" CREATED="1591077171775" MODIFIED="1591078471011"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cmake then uses the information from Kconfig and the device tree to generate build files
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Ninja" ID="ID_763848935" CREATED="1591077176647" MODIFIED="1591078526724"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ninja (comparable to make) will use build files to build the program.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="gcc" ID="ID_865867543" CREATED="1591077182359" MODIFIED="1591078542414"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GCC compiler system is used to create the executables
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="west工具" ID="ID_1641406121" CREATED="1591079541394" MODIFIED="1591079722275"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在Zephyr项目中使用了一个叫做west的工具，从对这个工具的介绍上来说，它的主要作用似乎是管理系统中各个git repo的不同版本。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也就是说，系统可能依赖了很多的库，每个库有很多的版本，但是某一个ncs会选取每个库的特定的版本，而west这个工具就是完成这个工作的。
+    </p>
+    <p>
+      这其实有点类似于以前clearcase里面的config spec的作用。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="west.yaml" ID="ID_1972650403" CREATED="1591080538659" MODIFIED="1591080592090"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个文件是一个配置文件，主要是配置系统中使用的各种repo的地址以及使用的这个repo的那个具体的版本。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Device Tree概念" ID="ID_360683697" CREATED="1591081899193" MODIFIED="1591082090786"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Device Tree描述硬件的特性，比如中断地址，设备的串口波特率等等跟实际的硬件相关的参数。
+    </p>
+    <p>
+      使用Device Tree的好处是，可以将硬件和软件解耦，因为根据Device Tree可以生成标准的头文件，设备驱动只要面向Device Tree生成出来的头文件编写就行了，而不用在驱动中管理各种不同的设备的不同的硬件特性。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="配置项目" ID="ID_492215929" CREATED="1591082290589" MODIFIED="1591082504541"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      项目可以做这种的配置，包括使用哪些硬件，以及如何使用他们，选择使用哪个驱动代码，选择包括哪些库，不包括哪些库，选择打开哪些功能，不打开哪些功能等等。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这些配置通过Kconfig和prj.conf文件进行配置，最终生成.config文件，并被生成标准的头文件。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Kconfig" ID="ID_143703335" CREATED="1591082297883" MODIFIED="1591082300214"/>
+<node TEXT="prj.conf文件" ID="ID_28463085" CREATED="1591082300523" MODIFIED="1591082306997"/>
+</node>
+<node TEXT="Secure&amp;Non-Secure概念" ID="ID_297660271" CREATED="1591082570130" MODIFIED="1591082796434"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cortex-M33设备支持TrustZone技术，这种技术允许在同一个CPU上同时运行两种环境，安全环境和非安全环境。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="SPU硬件" ID="ID_873843902" CREATED="1591083214397" MODIFIED="1591083288571"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      System Protection Unit用于让CPU管理处于不同的区域的应用程序，这是一个硬件外设。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SPM库" ID="ID_311714470" CREATED="1591083322318" MODIFIED="1591084469600"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Secure Partition Manager是一个Nordic实现的库。它提供了两个函数组成的api。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      使用spm库可以配置各种参数，比如内存的哪些部分是属于secure部分，哪些是属于non-secure部分的。
+    </p>
+    <p>
+      还有哪些外设是设置为secure的，哪些外设被设置为non-secure的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="spm_config()" ID="ID_90114145" CREATED="1591083415717" MODIFIED="1591083417097"/>
+<node TEXT="spm_jump()" ID="ID_1601709390" CREATED="1591083422903" MODIFIED="1591083423642"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1590417105780"/>
 </node>
 </node>
 </node>
