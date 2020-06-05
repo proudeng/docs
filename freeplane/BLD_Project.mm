@@ -358,7 +358,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="各种模型" FOLDED="true" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
+<node TEXT="各种模型" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
 <node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
 <node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html">
 <node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE">
@@ -635,7 +635,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="安装toolChain" ID="ID_1460453185" CREATED="1590462161196" MODIFIED="1590482414362"><richcontent TYPE="NOTE">
 
@@ -811,11 +810,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1590417103491">
+<node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1591348922695" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-2-1478313418">
 <node TEXT="ncs中的一些概念" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE">
 
 <html>
@@ -831,7 +829,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="包含的软件包" ID="ID_53113676" CREATED="1591077052856" MODIFIED="1591077058978">
 <node TEXT="nrf" ID="ID_1048215340" CREATED="1591077060471" MODIFIED="1591077064776"/>
@@ -852,7 +849,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Device Tree" ID="ID_664702987" CREATED="1591077166766" MODIFIED="1591078447630"><richcontent TYPE="NOTE">
@@ -867,7 +863,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="CMake" ID="ID_992681936" CREATED="1591077171775" MODIFIED="1591078471011"><richcontent TYPE="NOTE">
@@ -882,7 +877,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Ninja" ID="ID_763848935" CREATED="1591077176647" MODIFIED="1591078526724"><richcontent TYPE="NOTE">
@@ -897,7 +891,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="gcc" ID="ID_865867543" CREATED="1591077182359" MODIFIED="1591078542414"><richcontent TYPE="NOTE">
@@ -912,7 +905,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -937,7 +929,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="west.yaml" ID="ID_1972650403" CREATED="1591080538659" MODIFIED="1591080592090"><richcontent TYPE="NOTE">
 
@@ -951,7 +942,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -970,8 +960,31 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="使用overlay文件来修改device tree配置" ID="ID_913911494" CREATED="1591334732871" MODIFIED="1591335001619"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一般某个板子，有配置好的默认的device tree配置。
+    </p>
+    <p>
+      但是这些默认配置不一定是我们所需要的，比如说将一些外设的输出映射到哪些IO针脚上。这部分的配置我们想自己定制。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这种操作就是修改device tree，这部分的delta的改动，可以通过overlay文件来实现，在项目的目录下创建一个以板子名称命名的overlay文件。修改的内容就在这个overlay中完成。
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
 </node>
 <node TEXT="配置项目" ID="ID_492215929" CREATED="1591082290589" MODIFIED="1591082504541"><richcontent TYPE="NOTE">
 
@@ -991,7 +1004,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Kconfig" ID="ID_143703335" CREATED="1591082297883" MODIFIED="1591082300214"/>
 <node TEXT="prj.conf文件" ID="ID_28463085" CREATED="1591082300523" MODIFIED="1591082306997"/>
@@ -1008,7 +1020,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="SPU硬件" ID="ID_873843902" CREATED="1591083214397" MODIFIED="1591083288571"><richcontent TYPE="NOTE">
 
@@ -1022,7 +1033,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="SPM库" ID="ID_311714470" CREATED="1591083322318" MODIFIED="1591084469600"><richcontent TYPE="NOTE">
@@ -1046,7 +1056,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="spm_config()" ID="ID_90114145" CREATED="1591083415717" MODIFIED="1591083417097"/>
 <node TEXT="spm_jump()" ID="ID_1601709390" CREATED="1591083422903" MODIFIED="1591083423642"/>
@@ -1054,7 +1063,189 @@
 </node>
 </node>
 </node>
-<node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1590417105780"/>
+<node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1591348932419" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-3-temporary">
+<node TEXT="Zephyr Sensor Subsystem" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zephyr项目中已经默认支持了很多的传感器，而且这些传感器的驱动都是现成的。对应用程序来说，并不需要了解这些传感器的细节。只要通过Zephyr的sensor subsystem来使用这些现成的传感器功能就行了。
+    </p>
+    <p>
+      子节点包含了当前Zephyr项目已经支持的传感器列表。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Zephyr传感器列表" ID="ID_955949050" CREATED="1591336106477" MODIFIED="1591336136338" LINK="https://github.com/nrfconnect/sdk-zephyr/tree/v2.1.99-ncs1/drivers/sensor"/>
+<node TEXT="Sensor首选需要一个驱动" ID="ID_956660526" CREATED="1591340742182" MODIFIED="1591342809293"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sensor有自己的一套api，提供一个通用的接口方便终端的用户使用。
+    </p>
+    <p>
+      但是首先，它是一个外设，所以要支持一个sensor，首先需要实现一个驱动，实现这个sensor的驱动，也就需要使用Zephyr的驱动模型，给它整出来一个驱动。
+    </p>
+    <p>
+      然后同时在驱动代码中，提供一个sensor的接口。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="sensor API" ID="ID_910962818" CREATED="1591342861751" MODIFIED="1591342868018"/>
+<node TEXT="Device Binding" ID="ID_1156181883" CREATED="1591342868278" MODIFIED="1591342887313"/>
+<node TEXT="Enable the peripheral" ID="ID_13757529" CREATED="1591342897438" MODIFIED="1591342904347">
+<node TEXT="configure the peripheral correctly" ID="ID_950992041" CREATED="1591342917761" MODIFIED="1591342926690"/>
+<node TEXT="include the peripheral into the device tree" ID="ID_490898555" CREATED="1591342929512" MODIFIED="1591342939879"/>
+</node>
+<node TEXT="fds" ID="ID_86135374" CREATED="1591342905455" MODIFIED="1591342906809"/>
+</node>
+<node TEXT="定制一个板子" ID="ID_1396583217" CREATED="1591342984455" MODIFIED="1591348935787"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果想要在新的板子上使用ncs来开发的话，就需要将这个新的板子移植到ncs环境里面来。
+    </p>
+    <p>
+      首先需要在下面的目录下创建一个新板子的目录：
+    </p>
+    <p>
+      <font color="#0000c0"><b>&lt;..&gt;/ncs/zephyr/boards/&lt;arch&gt;</b>&nbsp; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      一般不会从头开始定义一个板子，最实际的操作方法就是找到一个类似的板子，然后拷贝这个板子的文件夹，在里面做相应的修改。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="板子相关的文件" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
+<node TEXT="DTS文件" ID="ID_535798250" CREATED="1591343048079" MODIFIED="1591343349337"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DTS文件是最为重要的一个文件，因为它完全定义了板子上的硬件信息，包括外设的类型，各种需要的地址信息等等。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="DTS语法" ID="ID_527980698" CREATED="1591343365106" MODIFIED="1591343401602">
+<node TEXT="compatible关键字" ID="ID_887415169" CREATED="1591343373366" MODIFIED="1591343389985"/>
+<node TEXT="chosen关键字" ID="ID_237980255" CREATED="1591343380902" MODIFIED="1591343393891"/>
+</node>
+</node>
+<node TEXT="配置文件" ID="ID_432489059" CREATED="1591343053304" MODIFIED="1591343061770">
+<node TEXT="Kconfig" ID="ID_1710687409" CREATED="1591343890783" MODIFIED="1591343968336"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      you can define configuration symbols needed for your particular board
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Kconfig.board" ID="ID_501382939" CREATED="1591343901824" MODIFIED="1591344215997"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      defines the board configs
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Kconfig.defconfig" ID="ID_1980897784" CREATED="1591343907487" MODIFIED="1591344218809"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      the default values of various features and hardware interfaces are set
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="yaml文件" ID="ID_1941376969" CREATED="1591343062135" MODIFIED="1591344262144"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;board_variant&gt;.yaml文件。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      specify the properties for your board, such as toolchain, supported features and ram and flash size
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="board.cmake文件" ID="ID_1825978761" CREATED="1591343083734" MODIFIED="1591344276860"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This file simply instructs how to flash and debug the board
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
