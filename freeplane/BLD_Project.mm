@@ -358,7 +358,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="各种模型" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
+<node TEXT="各种模型" FOLDED="true" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
 <node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
 <node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html">
 <node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE">
@@ -610,7 +610,7 @@
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
 </node>
-<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
+<node TEXT="Tutorial" FOLDED="true" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -865,7 +865,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="CMake" ID="ID_992681936" CREATED="1591077171775" MODIFIED="1591078471011"><richcontent TYPE="NOTE">
+<node TEXT="CMake" ID="ID_992681936" CREATED="1591077171775" MODIFIED="1591594117777">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -945,7 +947,9 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Device Tree概念" ID="ID_360683697" CREATED="1591081899193" MODIFIED="1591082090786"><richcontent TYPE="NOTE">
+<node TEXT="Device Tree概念" ID="ID_360683697" CREATED="1591081899193" MODIFIED="1591594005441">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -982,7 +986,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1008,7 +1011,9 @@
 <node TEXT="Kconfig" ID="ID_143703335" CREATED="1591082297883" MODIFIED="1591082300214"/>
 <node TEXT="prj.conf文件" ID="ID_28463085" CREATED="1591082300523" MODIFIED="1591082306997"/>
 </node>
-<node TEXT="Secure&amp;Non-Secure概念" ID="ID_297660271" CREATED="1591082570130" MODIFIED="1591082796434"><richcontent TYPE="NOTE">
+<node TEXT="Secure&amp;Non-Secure概念" ID="ID_297660271" CREATED="1591082570130" MODIFIED="1591594010508">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1082,7 +1087,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Zephyr传感器列表" ID="ID_955949050" CREATED="1591336106477" MODIFIED="1591336136338" LINK="https://github.com/nrfconnect/sdk-zephyr/tree/v2.1.99-ncs1/drivers/sensor"/>
 <node TEXT="Sensor首选需要一个驱动" ID="ID_956660526" CREATED="1591340742182" MODIFIED="1591342809293"><richcontent TYPE="NOTE">
@@ -1103,7 +1107,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="sensor API" ID="ID_910962818" CREATED="1591342861751" MODIFIED="1591342868018"/>
@@ -1112,7 +1115,6 @@
 <node TEXT="configure the peripheral correctly" ID="ID_950992041" CREATED="1591342917761" MODIFIED="1591342926690"/>
 <node TEXT="include the peripheral into the device tree" ID="ID_490898555" CREATED="1591342929512" MODIFIED="1591342939879"/>
 </node>
-<node TEXT="fds" ID="ID_86135374" CREATED="1591342905455" MODIFIED="1591342906809"/>
 </node>
 <node TEXT="定制一个板子" ID="ID_1396583217" CREATED="1591342984455" MODIFIED="1591348935787"><richcontent TYPE="NOTE">
 
@@ -1138,7 +1140,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="板子相关的文件" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
 <node TEXT="DTS文件" ID="ID_535798250" CREATED="1591343048079" MODIFIED="1591343349337"><richcontent TYPE="NOTE">
@@ -1153,7 +1154,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="DTS语法" ID="ID_527980698" CREATED="1591343365106" MODIFIED="1591343401602">
 <node TEXT="compatible关键字" ID="ID_887415169" CREATED="1591343373366" MODIFIED="1591343389985"/>
@@ -1173,7 +1173,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Kconfig.board" ID="ID_501382939" CREATED="1591343901824" MODIFIED="1591344215997"><richcontent TYPE="NOTE">
@@ -1188,7 +1187,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Kconfig.defconfig" ID="ID_1980897784" CREATED="1591343907487" MODIFIED="1591344218809"><richcontent TYPE="NOTE">
@@ -1203,7 +1201,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1225,7 +1222,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="board.cmake文件" ID="ID_1825978761" CREATED="1591343083734" MODIFIED="1591344276860"><richcontent TYPE="NOTE">
@@ -1240,12 +1236,140 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
+</node>
+<node TEXT="Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1591600146439">
+<node TEXT="User Guides" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
+<node TEXT="Application Development" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
+<node TEXT="build&amp;config system" ID="ID_771765127" CREATED="1591601073709" MODIFIED="1591601083153">
+<node TEXT="CMake" ID="ID_1983482324" CREATED="1591601113758" MODIFIED="1591601175470" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#cmake-details"/>
+<node TEXT="Kconfig" ID="ID_395705266" CREATED="1591601116484" MODIFIED="1591601183146" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application-kconfig"/>
+<node TEXT="Device Tree" ID="ID_382489382" CREATED="1591601122556" MODIFIED="1591601195781" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/dts/howtos.html#set-devicetree-overlays"/>
+</node>
+<node TEXT="nRF Connect SDK additions" ID="ID_821236190" CREATED="1591602473173" MODIFIED="1591602484144">
+<node TEXT="Multi-image builds" ID="ID_87527211" CREATED="1591602487464" MODIFIED="1591609927384" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_multi_image.html#ug-multi-image">
+<icon BUILTIN="bookmark"/>
+</node>
+<node TEXT="partition manager" ID="ID_454490265" CREATED="1591602518262" MODIFIED="1591602521831"/>
+</node>
+<node TEXT="Custom Board" ID="ID_1991158924" CREATED="1591602305741" MODIFIED="1591602409944">
+<node TEXT="Custom Board/Device Tree/SoC definition" ID="ID_1120243420" CREATED="1591602344541" MODIFIED="1591602380272" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#custom-board-definition"/>
+<node TEXT="Board Porting Guide" ID="ID_544802748" CREATED="1591602389341" MODIFIED="1591602400879" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/porting/board_porting.html#board-porting-guide"/>
+</node>
+</node>
+<node TEXT="Working with nRF9160" ID="ID_966196066" CREATED="1591602955622" MODIFIED="1591602979422">
+<node TEXT="Application MCU" ID="ID_889891090" CREATED="1591609354260" MODIFIED="1591609393241"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The M33 TrustZone divides the application MCU into secure and non-secure domains.
+    </p>
+    <p>
+      When the MCU boots, it always starts executing from the secure area.
+    </p>
+    <p>
+      The secure bootloader chain starts the Secure Partition Manager, which configures a part of memory and peripherals to be non-secure and then jumps to the main application located in the non-secure area
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1591609565417" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader"/>
+<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1591609639068" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager"/>
+<node TEXT="application" ID="ID_904131689" CREATED="1591609421780" MODIFIED="1591609424357"/>
+<node TEXT="BSD socket" ID="ID_1381550855" CREATED="1591609429475" MODIFIED="1591609980740" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrfxlib/bsdlib/README.html#bsdlib"/>
+<node TEXT="LTE modem" ID="ID_11874769" CREATED="1591609433788" MODIFIED="1591609436599"/>
+</node>
+<node TEXT="Band lock" ID="ID_1432234983" CREATED="1591609486636" MODIFIED="1591610048782"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The band lock is a functionality of the application that lets you send an AT command to the modem instructing it to operate only on specific bands. Band lock is handled by the LTE Link Control driver and is by default disabled in its Kconfig file.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The modem can only operate on four certified bands: 3, 4, 13, and 20. The application cannot override this restriction.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Network mode" ID="ID_878357465" CREATED="1591609497989" MODIFIED="1591609502768">
+<node TEXT="Concurrent GPS and LTE" ID="ID_245145890" CREATED="1591610114229" MODIFIED="1591610211335"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An nRF9160 DK supports GPS in LTE-M and NB-IoT.
+    </p>
+    <p>
+      Concurrent operation of GPS with optional power saving features, such as extended Discontinuous Reception (eDRX) and Power Saving Mode (PSM), is also supported and recommended.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Asset Tracker enables the concurrent working of GPS and LTE in eDRX and PSM modes when the device is in RRC idle mode.
+    </p>
+    <p>
+      The time between the transition of a device from RRC connected mode (data transfer mode) to RRC idle mode is dependent on the network.
+    </p>
+    <p>
+      Typically the time ranges between 5 seconds to 70 seconds after the last data transfer on LTE. Sensor and GPS data is sent to the cloud only during the data transfer phase.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="FOTA upgrades" ID="ID_505906595" CREATED="1591610219430" MODIFIED="1591610223224"/>
+<node TEXT="Samples" ID="ID_671364008" CREATED="1591610281221" MODIFIED="1591610285665" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples.html#nrf9160-samples"/>
+</node>
+</node>
+<node TEXT="Applications&amp;Samples" ID="ID_388318850" CREATED="1591594402673" MODIFIED="1591594413590"/>
+<node TEXT="Drivers" ID="ID_1205682786" CREATED="1591594418208" MODIFIED="1591594420274">
+<node TEXT="nrfx" ID="ID_758059516" CREATED="1591597029535" MODIFIED="1591597106733"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个驱动库，里面包含了Nordic产品SoC中使用到的外设的驱动。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Libraries" ID="ID_1732530383" CREATED="1591594435352" MODIFIED="1591594444924"/>
 </node>
 </node>
 </node>
