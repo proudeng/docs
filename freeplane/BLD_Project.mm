@@ -1280,9 +1280,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1591609565417" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader"/>
+<node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1591703225290" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
+<icon BUILTIN="bookmark"/>
+</node>
 <node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1591609639068" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager"/>
 <node TEXT="application" ID="ID_904131689" CREATED="1591609421780" MODIFIED="1591609424357"/>
 <node TEXT="BSD socket" ID="ID_1381550855" CREATED="1591609429475" MODIFIED="1591609980740" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrfxlib/bsdlib/README.html#bsdlib"/>
@@ -1306,7 +1307,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Network mode" ID="ID_878357465" CREATED="1591609497989" MODIFIED="1591609502768">
@@ -1343,13 +1343,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="FOTA upgrades" ID="ID_505906595" CREATED="1591610219430" MODIFIED="1591610223224"/>
 <node TEXT="Samples" ID="ID_671364008" CREATED="1591610281221" MODIFIED="1591610285665" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples.html#nrf9160-samples"/>
 </node>
+<node TEXT="Working with Thingy:91" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020"/>
 </node>
 <node TEXT="Applications&amp;Samples" ID="ID_388318850" CREATED="1591594402673" MODIFIED="1591594413590"/>
 <node TEXT="Drivers" ID="ID_1205682786" CREATED="1591594418208" MODIFIED="1591594420274">
@@ -1365,7 +1365,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
