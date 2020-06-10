@@ -1251,8 +1251,23 @@
 <node TEXT="Device Tree" ID="ID_382489382" CREATED="1591601122556" MODIFIED="1591601195781" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/dts/howtos.html#set-devicetree-overlays"/>
 </node>
 <node TEXT="nRF Connect SDK additions" ID="ID_821236190" CREATED="1591602473173" MODIFIED="1591602484144">
-<node TEXT="Multi-image builds" ID="ID_87527211" CREATED="1591602487464" MODIFIED="1591609927384" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_multi_image.html#ug-multi-image">
+<node TEXT="Multi-image builds" ID="ID_87527211" CREATED="1591602487464" MODIFIED="1591770885131" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_multi_image.html#ug-multi-image">
 <icon BUILTIN="bookmark"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这一块的内容没有特别的搞懂，需要后面再继续研究。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 <node TEXT="partition manager" ID="ID_454490265" CREATED="1591602518262" MODIFIED="1591602521831"/>
 </node>
