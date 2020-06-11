@@ -1275,7 +1275,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="partition manager" ID="ID_454490265" CREATED="1591602518262" MODIFIED="1591602521831"/>
@@ -1307,10 +1306,105 @@
 </richcontent>
 <node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1591703225290" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
 <icon BUILTIN="bookmark"/>
-<node TEXT="Chain" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591862375936">
-<node TEXT="Immutable bootloader" ID="ID_1875137729" CREATED="1591851270795" MODIFIED="1591851278408"/>
+<node TEXT="Chain" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591890218954"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      概念上分为了三种东西：
+    </p>
+    <p>
+      1，不可改变的bootloader
+    </p>
+    <p>
+      2，可改变的bootloader
+    </p>
+    <p>
+      3，应用程序
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      不可变的bootloader存在的意义是，有它就可以升级可变bootloader。
+    </p>
+    <p>
+      如果我们不想后期升级bootloader，那么可以不用使用上面的这样的两级bootloader，只要有一级bootloader就行了。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Immutable bootloader" ID="ID_1875137729" CREATED="1591851270795" MODIFIED="1591890272023"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nRF实现了一个immutable bootloader,实际上，最简单的，如果不需要升级bootloader的话，可以直接使用MCUboot作为这个immutable bootloader.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="upgradable bootloader" ID="ID_349943074" CREATED="1591851278738" MODIFIED="1591851289215">
-<node TEXT="MCUboot" ID="ID_1432477176" CREATED="1591851379650" MODIFIED="1591851383581"/>
+<node TEXT="MCUboot" ID="ID_1432477176" CREATED="1591851379650" MODIFIED="1591890442783"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MCUboot可以用于升级application。
+    </p>
+    <p>
+      使用MCUboot对于flash的分区是有要求的，它要求有两个分区用于存放application，一个主分区，一个备份分区。
+    </p>
+    <p>
+      MCUboot永远跳转到主分区去执行application。
+    </p>
+    <p>
+      但是当application升级发生的时候，新的application是下载到备份分区里面去。然后MCUboot会将两个分区的application对调，接着仍然从主分区去启动最新的那个application
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      可以参考子节点的一个介绍MCUboot的文章。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="介绍MCUboot的文章" ID="ID_1302133779" CREATED="1591888275778" MODIFIED="1591888325247"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      简要介绍MCUboot使用的文章，直观方便理解:
+    </p>
+    <p>
+      https://lgl88911.gitee.io/2019/03/24/Zephyr%E4%BD%BF%E7%94%A8mcuboot/
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="application" ID="ID_407522652" CREATED="1591851317531" MODIFIED="1591851320101"/>
 </node>
@@ -1332,7 +1426,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Add Immutable bootloader" ID="ID_1441630642" CREATED="1591862393292" MODIFIED="1591862399236"/>
 <node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
