@@ -610,7 +610,7 @@
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
 </node>
-<node TEXT="Tutorial" FOLDED="true" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
+<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1251,7 +1251,7 @@
 <node TEXT="Device Tree" ID="ID_382489382" CREATED="1591601122556" MODIFIED="1591601195781" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/dts/howtos.html#set-devicetree-overlays"/>
 </node>
 <node TEXT="nRF Connect SDK additions" ID="ID_821236190" CREATED="1591602473173" MODIFIED="1591602484144">
-<node TEXT="Multi-image builds" ID="ID_87527211" CREATED="1591602487464" MODIFIED="1591770885131" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_multi_image.html#ug-multi-image">
+<node TEXT="Multi-image builds" ID="ID_87527211" CREATED="1591602487464" MODIFIED="1591843987755" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_multi_image.html#ug-multi-image">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE">
@@ -1263,6 +1263,15 @@
   <body>
     <p>
       这一块的内容没有特别的搞懂，需要后面再继续研究。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      这里的主要的思想是，软件启动是一步一步启动的，在启动的过程当中，需要有bootloader，有不依赖于操作系统的硬件管理的软件，还有依赖于操作系统的软件。
     </p>
   </body>
 </html>
@@ -1298,6 +1307,36 @@
 </richcontent>
 <node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1591703225290" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
 <icon BUILTIN="bookmark"/>
+<node TEXT="Chain" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591862375936">
+<node TEXT="Immutable bootloader" ID="ID_1875137729" CREATED="1591851270795" MODIFIED="1591851278408"/>
+<node TEXT="upgradable bootloader" ID="ID_349943074" CREATED="1591851278738" MODIFIED="1591851289215">
+<node TEXT="MCUboot" ID="ID_1432477176" CREATED="1591851379650" MODIFIED="1591851383581"/>
+</node>
+<node TEXT="application" ID="ID_407522652" CREATED="1591851317531" MODIFIED="1591851320101"/>
+</node>
+<node TEXT="将bootloader与应用程序一起编译" ID="ID_1150932088" CREATED="1591862383922" MODIFIED="1591862889331"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在multi-image builds里面描述过，在application的编译过程当中，可以将bootloader同样编译进来，application作为parent image,而bootloader作为application的child-image。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以可以将immutable bootloader和upgradable bootloader编译进来
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Add Immutable bootloader" ID="ID_1441630642" CREATED="1591862393292" MODIFIED="1591862399236"/>
+<node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
+</node>
 </node>
 <node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1591609639068" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager"/>
 <node TEXT="application" ID="ID_904131689" CREATED="1591609421780" MODIFIED="1591609424357"/>
