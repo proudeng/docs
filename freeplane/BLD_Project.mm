@@ -1339,9 +1339,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="Immutable bootloader" ID="ID_1875137729" CREATED="1591851270795" MODIFIED="1591890272023"><richcontent TYPE="NOTE">
+<node TEXT="Immutable bootloader" ID="ID_1875137729" CREATED="1591851270795" MODIFIED="1591931758289"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1350,6 +1349,24 @@
   <body>
     <p>
       nRF实现了一个immutable bootloader,实际上，最简单的，如果不需要升级bootloader的话，可以直接使用MCUboot作为这个immutable bootloader.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      在nRF的immutable bootloader的例子中，其实它并不是一个完整的程序，因为flash的分区只是给第二级的upgradable bootloader分配了两个slot，并没有给application分配flash的slot。
+    </p>
+    <p>
+      所以它只是一个例子而已，用于演示可以升级那个MCUboot。
+    </p>
+    <p>
+      而如果使用MCUboot作为第一级的bootloader的话，它对flash的要求是application也需要两个slot。
+    </p>
+    <p>
+      感觉大多数情况下，不需要两级的bootloader，直接使用MCUboot就够了。
     </p>
   </body>
 </html>
@@ -1384,7 +1401,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="介绍MCUboot的文章" ID="ID_1302133779" CREATED="1591888275778" MODIFIED="1591888325247"><richcontent TYPE="NOTE">
 
@@ -1401,14 +1417,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 <node TEXT="application" ID="ID_407522652" CREATED="1591851317531" MODIFIED="1591851320101"/>
 </node>
-<node TEXT="将bootloader与应用程序一起编译" ID="ID_1150932088" CREATED="1591862383922" MODIFIED="1591862889331"><richcontent TYPE="NOTE">
+<node TEXT="将bootloader与应用程序一起编译" ID="ID_1150932088" CREATED="1591862383922" MODIFIED="1591929886250"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1422,10 +1437,20 @@
       
     </p>
     <p>
-      所以可以将immutable bootloader和upgradable bootloader编译进来
+      所以可以将immutable bootloader和upgradable bootloader编译进来。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      不同的系统在处理bootloader和application的时候是不一样的，有些系统bootloader和application是需要分别build，然后分别烧写的。
+    </p>
+    <p>
+      但是在nRF SDK里面，是集成在一起的，就是在编译application的时候，如果选择了包含bootloader的话，那么最终生成的image就是一个完整的同时包含了bootloader和application的镜像文件。
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Add Immutable bootloader" ID="ID_1441630642" CREATED="1591862393292" MODIFIED="1591862399236"/>
 <node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
