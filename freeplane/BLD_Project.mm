@@ -1242,7 +1242,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1591600146439">
+<node TEXT="nRF SDK Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
 <node TEXT="User Guides" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
 <node TEXT="Application Development" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
 <node TEXT="build&amp;config system" ID="ID_771765127" CREATED="1591601073709" MODIFIED="1591601083153">
@@ -1304,8 +1304,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1591703225290" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
+<node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1592147857229" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
 <icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在nRF SDK中，如果使用了bootloader chain的话，那么多个镜像文件会被同时编译出来，然后拼接为一个完整的镜像。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="Chain" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591890218954"><richcontent TYPE="NOTE">
 
 <html>
@@ -1370,7 +1384,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="upgradable bootloader" ID="ID_349943074" CREATED="1591851278738" MODIFIED="1591851289215">
@@ -1450,13 +1463,28 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Add Immutable bootloader" ID="ID_1441630642" CREATED="1591862393292" MODIFIED="1591862399236"/>
 <node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
 </node>
 </node>
-<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1591609639068" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager"/>
+<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592149102420" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在应用程序是nrf9160板子的ns模式时，这个SPM代码是被默认一起编译的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="application" ID="ID_904131689" CREATED="1591609421780" MODIFIED="1591609424357"/>
 <node TEXT="BSD socket" ID="ID_1381550855" CREATED="1591609429475" MODIFIED="1591609980740" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrfxlib/bsdlib/README.html#bsdlib"/>
 <node TEXT="LTE modem" ID="ID_11874769" CREATED="1591609433788" MODIFIED="1591609436599"/>
