@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -358,7 +358,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="各种模型" FOLDED="true" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
+<node TEXT="各种模型" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
 <node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
 <node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html">
 <node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE">
@@ -1251,7 +1251,8 @@
 <node TEXT="Device Tree" ID="ID_382489382" CREATED="1591601122556" MODIFIED="1591601195781" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/dts/howtos.html#set-devicetree-overlays"/>
 </node>
 <node TEXT="nRF Connect SDK additions" ID="ID_821236190" CREATED="1591602473173" MODIFIED="1591602484144">
-<node TEXT="Multi-image builds" ID="ID_87527211" CREATED="1591602487464" MODIFIED="1591843987755" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_multi_image.html#ug-multi-image">
+<node TEXT="Multi-image builds" ID="ID_87527211" CREATED="1591602487464" MODIFIED="1592190079517" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_multi_image.html#ug-multi-image">
+<icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE">
@@ -1318,7 +1319,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Chain" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591890218954"><richcontent TYPE="NOTE">
 
@@ -1468,7 +1468,7 @@
 <node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
 </node>
 </node>
-<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592149102420" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
+<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592203349406" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -1480,10 +1480,17 @@
     <p>
       在应用程序是nrf9160板子的ns模式时，这个SPM代码是被默认一起编译的。
     </p>
+    <p>
+      
+    </p>
+    <p>
+      spm运行在secure模式下，它的作用其实是调用nRF提供的SPM库的api，实现了配置non-secure模式下的flash和RAM以及外设的配置，然后跳转到non-secure模式的application去执行。
+    </p>
   </body>
 </html>
 
 </richcontent>
+<node TEXT="SPM库" ID="ID_91206769" CREATED="1592203369245" MODIFIED="1592203371765"/>
 </node>
 <node TEXT="application" ID="ID_904131689" CREATED="1591609421780" MODIFIED="1591609424357"/>
 <node TEXT="BSD socket" ID="ID_1381550855" CREATED="1591609429475" MODIFIED="1591609980740" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrfxlib/bsdlib/README.html#bsdlib"/>
@@ -1569,6 +1576,66 @@
 </node>
 </node>
 <node TEXT="Libraries" ID="ID_1732530383" CREATED="1591594435352" MODIFIED="1591594444924"/>
+</node>
+</node>
+<node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
+<edge COLOR="#7c0000"/>
+<node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592216963453"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TrustZone做的事情，其实思路是很清晰和简单的：
+    </p>
+    <p>
+      将内存地址空间进行划分，划分成三类，Secure，Non-Secure和Non-Secure Callable。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要保护的资源放在Secure部分的地址，然后这部分的地址只能是“安全的世界”能访问的。
+    </p>
+    <p>
+      而那些用户的应用，被标记为“不安全的世界”，他们只能限制访问那些被定义为Non-Secure的地址，他们不允许访问“安全的世界”的地址空间。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      基本上就是这么 一个思路。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="参考资料" ID="ID_942787073" CREATED="1592216500317" MODIFIED="1592216504133">
+<node TEXT="中文介绍" ID="ID_1853256054" CREATED="1592216505122" MODIFIED="1592216751716" LINK="http://www.stmcu.org.cn/module/forum/thread-625180-1-1.html"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个一个非常好的关于Cortex-M33的关于TrustZone的中文介绍。
+    </p>
+    <p>
+      结合下面的英文资料，能够比较清楚的了解TrustZone的概念。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="英文介绍" ID="ID_594192066" CREATED="1592216585300" MODIFIED="1592216590390"/>
+</node>
 </node>
 </node>
 </node>

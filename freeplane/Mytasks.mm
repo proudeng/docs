@@ -72,7 +72,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1550713356611">
+<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1550713356611">
 <icon BUILTIN="calendar"/>
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -2448,6 +2448,24 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="商业保险需要更新子女的信息" ID="ID_1716827525" CREATED="1583977202388" MODIFIED="1591164458045">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      已经完成！
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
+</node>
 </node>
 <node TEXT="增强Release Confluence Page" ID="ID_1316714709" CREATED="1537927351630" MODIFIED="1575945676343">
 <icon BUILTIN="yes"/>
@@ -2615,9 +2633,93 @@
 <font NAME="SansSerif"/>
 </node>
 </node>
+<node TEXT="Redhawk代码的review" ID="ID_198721953" CREATED="1583285082831" MODIFIED="1591164472864">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<font NAME="SansSerif"/>
+<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="爱立信NB的实现中NPRACH是否长短CP都支持？" ID="ID_1252214069" CREATED="1583917745551" MODIFIED="1591164474646">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26681;&#25454;Xu Li&#30340;&#35828;&#27861;&#65292;&#29233;&#31435;&#20449;&#20135;&#21697;&#20013;&#26159;&#38271;CP&#21644;&#30701;CP&#37117;&#21516;&#26102;&#25903;&#25345;&#30340;&#12290;&#40664;&#35748;&#24773;&#20917;&#19979;&#37197;&#32622;&#30340;&#26159;&#38271;CP&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="对Msg2的TBS的影响" ID="ID_70996630" CREATED="1586834267778" MODIFIED="1591164475832">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      因为加入了BI这个sub-header，所以Msg2的TBS增大了，对比3GPP表格中的可选TBS列表，原先使用的TBS不能够满足要求，需要提升一级。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      最终使用的方案是，在CE0上使用Low MCS策略，在同样的MCS index上，增大SF取值。
+    </p>
+    <p>
+      在CE1/2上，使用的是Buffer based的策略，不提高SF，尝试提高MCS index取值，达到提高TBS的要求。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
 </node>
 </node>
-<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="left" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1539668056662" LINK="#ID_867421423">
+<node TEXT="NBIoT RRM算法研究" ID="ID_1653680626" CREATED="1582695620638" MODIFIED="1582696006366">
+<icon BUILTIN="list"/>
+<font NAME="SansSerif"/>
+<node TEXT="在NB-IoT RRM脑图里面整理一下计算NPRACH周期的算法" ID="ID_1706402300" CREATED="1583741044971" MODIFIED="1591172068229">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="75%"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T16:14+0800|yyyy-MM-dd"/>
+<node TEXT="未完成部分链接" ID="ID_1153964138" CREATED="1584005991346" MODIFIED="1584006005239" LINK="NB-IoT%20RRM.mm#ID_416994960"/>
+</node>
+<node TEXT="了解一下NB-IoT随机接入的多种场景" ID="ID_176141259" CREATED="1584002888834" MODIFIED="1591164572650">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      不同场景的随机接入情况，比如初始接入，resume，reestablish等等所使用的不同的Msg3，以及不同的RNTI情况。
+    </p>
+    <p>
+      在NB-IoT的书中有描述。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:09+0800|yyyy-MM-dd"/>
+<node TEXT="了解协议中多次描述的MAC Control Element概念" ID="ID_660574504" CREATED="1584068633479" MODIFIED="1584068652857"/>
+</node>
+</node>
+</node>
+<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" POSITION="left" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1539668056662" LINK="#ID_867421423">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -3345,61 +3447,6 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="MR7798" ID="ID_826884176" CREATED="1575945020495" MODIFIED="1575945134223">
-<icon BUILTIN="list"/>
-<font NAME="SansSerif"/>
-<node TEXT="Redhawk代码的review" ID="ID_198721953" CREATED="1583285082831" MODIFIED="1591164472864">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<font NAME="SansSerif"/>
-<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
-</node>
-<node TEXT="爱立信NB的实现中NPRACH是否长短CP都支持？" ID="ID_1252214069" CREATED="1583917745551" MODIFIED="1591164474646">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#26681;&#25454;Xu Li&#30340;&#35828;&#27861;&#65292;&#29233;&#31435;&#20449;&#20135;&#21697;&#20013;&#26159;&#38271;CP&#21644;&#30701;CP&#37117;&#21516;&#26102;&#25903;&#25345;&#30340;&#12290;&#40664;&#35748;&#24773;&#20917;&#19979;&#37197;&#32622;&#30340;&#26159;&#38271;CP&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
-</node>
-<node TEXT="对Msg2的TBS的影响" ID="ID_70996630" CREATED="1586834267778" MODIFIED="1591164475832">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      因为加入了BI这个sub-header，所以Msg2的TBS增大了，对比3GPP表格中的可选TBS列表，原先使用的TBS不能够满足要求，需要提升一级。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      最终使用的方案是，在CE0上使用Low MCS策略，在同样的MCS index上，增大SF取值。
-    </p>
-    <p>
-      在CE1/2上，使用的是Buffer based的策略，不提高SF，尝试提高MCS index取值，达到提高TBS的要求。
-    </p>
-  </body>
-</html>
-</richcontent>
-<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
-</node>
-</node>
 <node TEXT="NBIoT RRM算法研究" ID="ID_193866899" CREATED="1582695620638" MODIFIED="1582696006366">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
@@ -3458,37 +3505,7 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-</node>
-<node TEXT="在NB-IoT RRM脑图里面整理一下计算NPRACH周期的算法" ID="ID_1706402300" CREATED="1583741044971" MODIFIED="1591172068229">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="75%"/>
-<icon BUILTIN="button_ok"/>
-<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T16:14+0800|yyyy-MM-dd"/>
-<node TEXT="未完成部分链接" ID="ID_1153964138" CREATED="1584005991346" MODIFIED="1584006005239" LINK="NB-IoT%20RRM.mm#ID_416994960"/>
-</node>
-<node TEXT="了解一下NB-IoT随机接入的多种场景" ID="ID_176141259" CREATED="1584002888834" MODIFIED="1591164572650">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      不同场景的随机接入情况，比如初始接入，resume，reestablish等等所使用的不同的Msg3，以及不同的RNTI情况。
-    </p>
-    <p>
-      在NB-IoT的书中有描述。
-    </p>
-  </body>
-</html>
-</richcontent>
-<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:09+0800|yyyy-MM-dd"/>
-<node TEXT="了解协议中多次描述的MAC Control Element概念" ID="ID_660574504" CREATED="1584068633479" MODIFIED="1584068652857"/>
 </node>
 <node TEXT="确认一下计算上行Gain的场景" ID="ID_1809770746" CREATED="1585632046018" MODIFIED="1585632153844">
 <icon BUILTIN="yes"/>
@@ -3754,24 +3771,6 @@
   </body>
 </html>
 </richcontent>
-</node>
-<node TEXT="商业保险需要更新子女的信息" ID="ID_1716827525" CREATED="1583977202388" MODIFIED="1591164458045">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      已经完成！
-    </p>
-  </body>
-</html>
-</richcontent>
-<attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="relative/absolute hyperlink之间互相转换的脚本" ID="ID_698348921" CREATED="1585036466863" MODIFIED="1591164399530">
 <icon BUILTIN="yes"/>
