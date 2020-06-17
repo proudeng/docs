@@ -1468,8 +1468,9 @@
 <node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
 </node>
 </node>
-<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592203349406" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
+<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592288320676" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
 <icon BUILTIN="bookmark"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="775;0;" ENDINCLINATION="775;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1486,11 +1487,59 @@
     <p>
       spm运行在secure模式下，它的作用其实是调用nRF提供的SPM库的api，实现了配置non-secure模式下的flash和RAM以及外设的配置，然后跳转到non-secure模式的application去执行。
     </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      这个机制是使用了Cortex-M33的Trustzone技术，参考链接可以查看比较详细的介绍，
+    </p>
+    <p>
+      但是实际上，在Thingy91板子上的示例代码中，并没有使用真正意义上的Trustzone技术，也就是两个分别运行在安全世界和不安全世界的镜像，这两个镜像可以通过NSC内存区域互相跳转。
+    </p>
+    <p>
+      示例代码中，只是在Secure模式下配置了Non-Secure模式的内存映射(这应该是因为在系统上电的时候，必然是在Secure模式下的)，然后在配置完成之后，直接就跳转到Non-Secure模式下去执行了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      上面的PS的内容是不准确的，实际上示例代码提供了一些secure service，让处于non-secure区域的应用代码调用。
+    </p>
   </body>
 </html>
 
 </richcontent>
 <node TEXT="SPM库" ID="ID_91206769" CREATED="1592203369245" MODIFIED="1592203371765"/>
+<node TEXT="Secure Service" ID="ID_219269690" CREATED="1592288331186" MODIFIED="1592288430102"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      有些功能是只能在secure区域执行的，但是系统又想放开这些权限给non-secure的应用使用，那么就可以将这些功能注册为secure service。
+    </p>
+    <p>
+      nRF系统中默认提供了一些secure servie，只要在编译的时候使能这个功能就行了。
+    </p>
+    <p>
+      参考下面的描述：
+    </p>
+    <p>
+      https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/include/secure_services.html#lib-secure-services
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="application" ID="ID_904131689" CREATED="1591609421780" MODIFIED="1591609424357"/>
 <node TEXT="BSD socket" ID="ID_1381550855" CREATED="1591609429475" MODIFIED="1591609980740" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrfxlib/bsdlib/README.html#bsdlib"/>
@@ -1580,7 +1629,7 @@
 </node>
 <node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
 <edge COLOR="#7c0000"/>
-<node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592216963453"><richcontent TYPE="NOTE">
+<node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1606,13 +1655,28 @@
       
     </p>
     <p>
-      基本上就是这么 一个思路。
+      基本上就是这么 一个思路。有一些例子，比如储存在板子上的密钥，还有bootloader之类的内容，就需要放在安全世界，这些内容不希望能够被普通的应用软件访问。
     </p>
   </body>
 </html>
 
 </richcontent>
-<node TEXT="参考资料" ID="ID_942787073" CREATED="1592216500317" MODIFIED="1592216504133">
+<node TEXT="参考资料" ID="ID_942787073" CREATED="1592216500317" MODIFIED="1592273246665">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      子节点中贴上的两个参考资料非常的好，基本上根据这两个文档能够很好的了解TrustZone了。英文的文档是ARM的官方文档，中文是一个讲座的文字版。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="中文介绍" ID="ID_1853256054" CREATED="1592216505122" MODIFIED="1592216751716" LINK="http://www.stmcu.org.cn/module/forum/thread-625180-1-1.html"><richcontent TYPE="NOTE">
 
 <html>
@@ -1631,12 +1695,328 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="英文介绍" ID="ID_594192066" CREATED="1592216585300" MODIFIED="1592271897076" LINK="../attachment/armv8_m_architecture_trustzone_technology_100690_0201_01_en.pdf"/>
+</node>
+<node TEXT="概要" ID="ID_1226050477" CREATED="1592275136361" MODIFIED="1592275141908">
+<node TEXT="系统地址划分不同区域" ID="ID_1625326526" CREATED="1592273066779" MODIFIED="1592276008667"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cortex-M33的TrustZone技术，主要要做的事情，就是将系统的地址空间划分成不同大的区域，标记出一些区域不让普通的应用程序访问。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Secure(S)" ID="ID_1220228381" CREATED="1592275921701" MODIFIED="1592276203461"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      安全区域，这些内存地址区域是不允许Non-Secure的软件访问的。
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
-<node TEXT="英文介绍" ID="ID_594192066" CREATED="1592216585300" MODIFIED="1592216590390"/>
+<node TEXT="Non-Secure Callable(NSC)" ID="ID_573611338" CREATED="1592275924903" MODIFIED="1592276546165"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个神奇的区间。它的作用是让Non-Secure区间的代码，能够访问Secure部分代码提供的服务。也就是在Secure和Non-Secure区间之间搭建起一个桥梁，让它们能够互相访问(当然Secure代码本身就能够毫无障碍的访问整个系统的所有的地址空间)。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      NCS区间是这么被使用的：
+    </p>
+    <p>
+      首先这个区间是Non-Secure区间的应用可以访问的，一般可以在这个区间中定义一些服务函数API，Non-Secure世界的代码通过调用这些定义在NSC中的API访问Secure时间的服务，因为在NSC区域，可以访问Secure时间的内存地址。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Non-Secure(NS)" ID="ID_1330058813" CREATED="1592275939263" MODIFIED="1592276230438"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      普通的用户软件就运行在Non-Secure划定的地址区间里面。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
+<node TEXT="需要的硬件设备" ID="ID_1365014748" CREATED="1592276238592" MODIFIED="1592284388093"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cortex-M33的TrustZone技术是需要硬件外设支持才能工作的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      SAU和IDAU都可以完成将内存地址空间划分成不同属性(S/NS/NSC)的工作，其中SAU是处理器自带的内部硬件模块，而IDAU是一个可选的外部模块。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这两个模块可以分别使用，也可以结合在一起使用，因为它们分别有自己的特点。
+    </p>
+    <p>
+      SAU的特点是灵活，可以动态的将任意区域划定为S/NS/NSC种类的内存，但是它的缺点是能够划分的区域是有限的。好像在哦我们系统上最多是8个。
+    </p>
+    <p>
+      IDAU的特点是静态配置，它能够将全部的地址按照512M的大小分成各种不同属性的块。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      一般SAU和IDAU结合使用的时候使用IDAU进行静态的大块地址空间的配置，然后使用SAU进行动态的小范围的修改。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="SAU" ID="ID_285498550" CREATED="1592273110098" MODIFIED="1592278094528"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Secure Attribution Unit
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个是CPU自带的内部模块，用于
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="IDAU" ID="ID_684567539" CREATED="1592276644590" MODIFIED="1592276690370"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Implementation Defined Attribution Unit
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="SAU寄存器小结" ID="ID_1919461156" CREATED="1592273130619" MODIFIED="1592273141846">
+<node TEXT="CTRL" ID="ID_1921586318" CREATED="1592284889484" MODIFIED="1592284943620"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个寄存器用于控制使能还是去使能SAU设备。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="TYPE" ID="ID_794531981" CREATED="1592284894226" MODIFIED="1592284991319"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      只读寄存器，指示系统中有多少个region
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="RNR" ID="ID_795043298" CREATED="1592284899860" MODIFIED="1592285043627"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      配置一个Region的时候，使用这个寄存器选择一个将要操作的region的number
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="RBAR" ID="ID_508883086" CREATED="1592284909324" MODIFIED="1592285102196"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      配置一个region的时候，使用这个寄存器指示当前配置的region的起始地址
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="RLAR" ID="ID_1815000314" CREATED="1592284914289" MODIFIED="1592285188064">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      配置一个region的时候，使用这个寄存器指示当前配置的region的结束地址。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，这个寄存器还有其他的功能：
+    </p>
+    <p>
+      有bit用于指示当前配置的region是S/NS还是NSC，
+    </p>
+    <p>
+      并且还可以同时控制是否使能这个region
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="如何配置一个Region" ID="ID_1513436862" CREATED="1592285250274" MODIFIED="1592285256932">
+<node TEXT="选择操作region" ID="ID_585702928" CREATED="1592285258785" MODIFIED="1592285344653">
+<icon BUILTIN="full-1"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_795043298" STARTINCLINATION="211;0;" ENDINCLINATION="211;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="填写region起始地址" ID="ID_992790401" CREATED="1592285272538" MODIFIED="1592285348973">
+<icon BUILTIN="full-2"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_508883086" STARTINCLINATION="227;0;" ENDINCLINATION="227;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="填写region结束地址以及region属性" ID="ID_836854815" CREATED="1592285290579" MODIFIED="1592285352987">
+<icon BUILTIN="full-3"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1815000314" STARTINCLINATION="299;0;" ENDINCLINATION="299;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="所有region配置结束后使能SAU" ID="ID_827916928" CREATED="1592285304323" MODIFIED="1592285358294">
+<icon BUILTIN="full-4"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1921586318" STARTINCLINATION="336;0;" ENDINCLINATION="336;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="Secure和Non-Secure状态互相跳转" ID="ID_640416932" CREATED="1592273149362" MODIFIED="1592286987561">
+<node TEXT="原则" ID="ID_1319313185" CREATED="1592286988628" MODIFIED="1592287147506"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1，
+    </p>
+    <p>
+      安全世界里的代码可以调用非安全世界里的函数，这没有任何问题，但是非安全世界里的代码想要使用安全世界里的服务，必须只能先调用注册在NSC里面的代码，通过NSC里面的代码做一个代理，从而访问安全世界的代码。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      安全世界里的代码可以相应注册为non-secure的中断，这是为了降低中断处理的延迟。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="安全世界和非安全世界联系" ID="ID_953421936" CREATED="1592287629281" MODIFIED="1592287843419"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Secure Region和Non-Secure Region公用一套通用寄存器。
+    </p>
+    <p>
+      Secure Region和Non-Secure Region分别有自己的堆栈指针寄存器，也就是所谓的各自有一套自己的banked寄存器
+    </p>
+    <p>
+      Secure Region和Non-Secure Region分别有自己的中断向量表。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Thread和Handler模式" ID="ID_1062339080" CREATED="1592275553557" MODIFIED="1592275559986"/>
 </node>
 </node>
 </map>
