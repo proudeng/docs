@@ -1305,7 +1305,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="secure bootloader chain" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1592147857229" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
+<node TEXT="secure bootloader chain" FOLDED="true" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1592147857229" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -1320,7 +1320,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Chain" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591890218954"><richcontent TYPE="NOTE">
+<node TEXT="Chain" FOLDED="true" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591890218954"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1436,7 +1436,7 @@
 </node>
 <node TEXT="application" ID="ID_407522652" CREATED="1591851317531" MODIFIED="1591851320101"/>
 </node>
-<node TEXT="将bootloader与应用程序一起编译" ID="ID_1150932088" CREATED="1591862383922" MODIFIED="1591929886250"><richcontent TYPE="NOTE">
+<node TEXT="将bootloader与应用程序一起编译" FOLDED="true" ID="ID_1150932088" CREATED="1591862383922" MODIFIED="1591929886250"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1468,7 +1468,7 @@
 <node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
 </node>
 </node>
-<node TEXT="secure partition manager" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592288320676" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
+<node TEXT="secure partition manager" FOLDED="true" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592288320676" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
 <icon BUILTIN="bookmark"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="775;0;" ENDINCLINATION="775;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
@@ -1513,7 +1513,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="SPM库" ID="ID_91206769" CREATED="1592203369245" MODIFIED="1592203371765"/>
 <node TEXT="Secure Service" ID="ID_219269690" CREATED="1592288331186" MODIFIED="1592288430102"><richcontent TYPE="NOTE">
@@ -1537,7 +1536,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1607,7 +1605,70 @@
 </node>
 <node TEXT="Working with Thingy:91" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020"/>
 </node>
-<node TEXT="Applications&amp;Samples" ID="ID_388318850" CREATED="1591594402673" MODIFIED="1591594413590"/>
+<node TEXT="Applications&amp;Samples" ID="ID_388318850" CREATED="1591594402673" MODIFIED="1591594413590">
+<node TEXT="GPS示例" ID="ID_1830389595" CREATED="1592465615786" MODIFIED="1592465955136"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个利用nRF硬件平台来演示如何通过GPS定位的示例。同时，这个示例可以仅使用GPS定位，如果配置了Nordic的A-GPS客户端库(SUPL client)之后，也也支持使用A-GPS加快定位速度。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="依赖的库" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
+<node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1592466839518"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The BSD library is the primary interface for operating the nRF9160 modem and to establish LTE-M, NB-IoT, and GNSS connections。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      使用LTE-M和NB-IoT以及操作GPS的时候，主要使用的方式就是使用BSD socket。
+    </p>
+    <p>
+      在nRF提供的API是将这些功能封装成了socket，应用程序只需要建立特定的socket，就能够使用这些服务了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1592470513929"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      控制Modem是使用AT命令直接给Modem发字符串。
+    </p>
+    <p>
+      nRF提供了一个AT命令的Sockt，应用程序只需要创建这个socket，然后使用socket的读写命令就能够给Modem发送AT命令以及获取AT命令的返回字符串。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="GPS Socket" ID="ID_1411648197" CREATED="1592470400848" MODIFIED="1592470405752"/>
+</node>
+<node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1592465977878"/>
+<node TEXT="AT命令接口" ID="ID_68316434" CREATED="1592466031803" MODIFIED="1592466042750"/>
+</node>
+</node>
+</node>
 <node TEXT="Drivers" ID="ID_1205682786" CREATED="1591594418208" MODIFIED="1591594420274">
 <node TEXT="nrfx" ID="ID_758059516" CREATED="1591597029535" MODIFIED="1591597106733"><richcontent TYPE="NOTE">
 
@@ -1659,7 +1720,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="参考资料" ID="ID_942787073" CREATED="1592216500317" MODIFIED="1592273246665">
 <icon BUILTIN="bookmark"/>
@@ -1675,7 +1735,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="中文介绍" ID="ID_1853256054" CREATED="1592216505122" MODIFIED="1592216751716" LINK="http://www.stmcu.org.cn/module/forum/thread-625180-1-1.html"><richcontent TYPE="NOTE">
 
@@ -1712,7 +1771,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Secure(S)" ID="ID_1220228381" CREATED="1592275921701" MODIFIED="1592276203461"><richcontent TYPE="NOTE">
 
@@ -1726,7 +1784,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Non-Secure Callable(NSC)" ID="ID_573611338" CREATED="1592275924903" MODIFIED="1592276546165"><richcontent TYPE="NOTE">
@@ -1750,7 +1807,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Non-Secure(NS)" ID="ID_1330058813" CREATED="1592275939263" MODIFIED="1592276230438"><richcontent TYPE="NOTE">
@@ -1765,7 +1821,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1805,7 +1860,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="SAU" ID="ID_285498550" CREATED="1592273110098" MODIFIED="1592278094528"><richcontent TYPE="DETAILS">
 
@@ -1819,7 +1873,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -1833,7 +1886,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="IDAU" ID="ID_684567539" CREATED="1592276644590" MODIFIED="1592276690370"><richcontent TYPE="DETAILS">
@@ -1848,7 +1900,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1865,7 +1916,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="TYPE" ID="ID_794531981" CREATED="1592284894226" MODIFIED="1592284991319"><richcontent TYPE="NOTE">
@@ -1880,7 +1930,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="RNR" ID="ID_795043298" CREATED="1592284899860" MODIFIED="1592285043627"><richcontent TYPE="NOTE">
@@ -1895,7 +1944,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="RBAR" ID="ID_508883086" CREATED="1592284909324" MODIFIED="1592285102196"><richcontent TYPE="NOTE">
@@ -1910,7 +1958,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="RLAR" ID="ID_1815000314" CREATED="1592284914289" MODIFIED="1592285188064">
@@ -1939,7 +1986,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="如何配置一个Region" ID="ID_1513436862" CREATED="1592285250274" MODIFIED="1592285256932">
@@ -1986,7 +2032,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="安全世界和非安全世界联系" ID="ID_953421936" CREATED="1592287629281" MODIFIED="1592287843419"><richcontent TYPE="NOTE">
@@ -2010,7 +2055,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
