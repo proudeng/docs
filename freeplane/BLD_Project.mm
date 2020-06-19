@@ -1618,10 +1618,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="依赖的库" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
-<node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1592466839518"><richcontent TYPE="NOTE">
+<node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1592531418380"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1644,7 +1643,7 @@
 </html>
 
 </richcontent>
-<node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1592470513929"><richcontent TYPE="NOTE">
+<node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1592552624831"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1652,7 +1651,7 @@
   </head>
   <body>
     <p>
-      控制Modem是使用AT命令直接给Modem发字符串。
+      在nRF SDK中，封装了socket用于控制Modem，可以创建一个专门用于AT命令的socket，然后给Modem发送AT命令字符串以及从Modem接收命令的返回字符串都是通过读写这个socket实现的。
     </p>
     <p>
       nRF提供了一个AT命令的Sockt，应用程序只需要创建这个socket，然后使用socket的读写命令就能够给Modem发送AT命令以及获取AT命令的返回字符串。
@@ -1661,8 +1660,71 @@
 </html>
 
 </richcontent>
+<node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1592552991442"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nRF SDK对modem的驱动的封装是将其封装成了一个socket，应用程序可以通过创建一个特定的socket来给Modem发送AT命令。
+    </p>
+    <p>
+      但是问题是，系统中能够同时存在的socket数目最大为8，而如果同时使用多个设备驱动的话，可能会占用很多的socket。
+    </p>
+    <p>
+      所以nRF中提供了一个库，这个库将AT socket做了一个额外的封装，系统中所有的代码都使用这个AT接口，而不用自己再单独创建socket来发送AT命令以及接收AT命令的返回值。
+    </p>
+    <p>
+      也就是使用这个库的话，相当于只建立了一个socket，多个应用程序共享这个socket。
+    </p>
+    <p>
+      在发生同时有多个写AT命令的请求时，AT命令接口内部会将这些请求排序，顺序的执行并依次将结果返回给各自的请求者。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="GPS Socket" ID="ID_1411648197" CREATED="1592470400848" MODIFIED="1592470405752"/>
+<node TEXT="PDN管理" ID="ID_1115375386" CREATED="1592534317253" MODIFIED="1592535029623"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在使用移动网络进行网络传输的时候，需要配置APN(Access Point Name)，然后移动终端可以使用配置的APN进行数据通信。
+    </p>
+    <p>
+      在nRF SDK中，创建APN是通过创建一个PDN socket来实现的。所以一个应用程序想要通过LTE网络进行数据的传输，需要创建两个socket，一个PDN socket，还有一个正常的TCP socket。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      典型使用场景：
+    </p>
+    <p>
+      1，用户application首先创建一个PDN，也就是创建一个协议类型为NRF_NPROTO_PDN的socket，在连接到这个socket的时候，指定APN的字符串，这个字符串作为APN的标识，后续的用户数据的传输会需要指定这个字符串。
+    </p>
+    <p>
+      2，用户application需要进行数据传输的时候，可以创建一个TCP的socket，然后配置这个socket的属性，绑定到上面配置的APN上面去，使用上面创建的字符串表征APN
+    </p>
+    <p>
+      3，然后用户application就可以使用自己创建的这个socket进行通信了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1592465977878"/>
 <node TEXT="AT命令接口" ID="ID_68316434" CREATED="1592466031803" MODIFIED="1592466042750"/>
