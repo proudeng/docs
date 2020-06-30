@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -264,84 +264,6 @@
   </body>
 </html>
 </richcontent>
-</node>
-<node TEXT="Asset Tracker Demo" POSITION="left" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1587537557335">
-<edge COLOR="#ff00ff"/>
-<node TEXT="设备Driver模型" ID="ID_627794340" CREATED="1587713173943" MODIFIED="1587714107168" LINK="https://onedrive.live.com/view.aspx?resid=C924C414C7191D53%25211189&amp;id=documents&amp;wd=target%2528%25E5%25BF%25AB%25E9%2580%259F%25E7%25AC%2594%25E8%25AE%25B0.one%257C683E139F-43E4-4080-84E3-B1053D7F6260%252FMotion_driver%257C2697D566-0F4A-400D-A863-043A5F8AB376%252F%2529%20onenote:https://d.docs.live.net/c924c414c7191d53/Documents/军%2520的笔记本/快速笔记.one#Motion_driver&amp;section-id=%7B683E139F-43E4-4080-84E3-B1053D7F6260%7D&amp;page-id=%7B2697D566-0F4A-400D-A863-043A5F8AB376%7D&amp;end"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      参考跳转链接中显示的一个例子
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="项目编译的时候将需要的驱动包含进去" ID="ID_728461600" CREATED="1587713476989" MODIFIED="1587713499927"/>
-<node TEXT="device_get_binding(&quot;driver_name&quot;)" ID="ID_392364904" CREATED="1587713501461" MODIFIED="1587714141308"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      使用driver_name这么一个字符串来获取驱动的dev对象
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="poll机制" ID="ID_448201104" CREATED="1587713791273" MODIFIED="1587714171112"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      先采样，然后再读取采样得到的数据。参考子节点的连个函数
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="sensor_sample_fetch_channel(dev, channal)" ID="ID_769293338" CREATED="1587713840634" MODIFIED="1587713918963"/>
-<node TEXT="sensor_channel_get(dev, channel, &amp;data)" ID="ID_1752794650" CREATED="1587713840634" MODIFIED="1587713934690"/>
-</node>
-<node TEXT="trigger机制" ID="ID_1338942093" CREATED="1587713795555" MODIFIED="1587714219919"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      trigger的方法是类似于中断机制，注册一个触发的条件，同时注册一个触发条件满足后的回调函数。当触发的条件满足的时候，回调函数就会被执行。
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="sensor_trigger_set(dev, trigger, handler)" ID="ID_1014524621" CREATED="1587713993208" MODIFIED="1587714011035"/>
-</node>
-</node>
-<node TEXT="云Driver模型" ID="ID_922726756" CREATED="1587713203552" MODIFIED="1587718809385" LINK="../OneNote/AssesstTracker.one"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      参考跳转链接中的例子。清晰的描述了设备和云端是如何连接和通信的。
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="项目编译的时候将需要的云驱动编译进去" ID="ID_261389211" CREATED="1587717034846" MODIFIED="1587717050922"/>
-</node>
 </node>
 <node TEXT="nRF Connect SDK" POSITION="left" ID="ID_1143253232" CREATED="1587884204965" MODIFIED="1587884264902">
 <edge COLOR="#00ffff"/>
@@ -601,6 +523,82 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="QoS以及消息交互流程" ID="ID_1725909935" CREATED="1592880082795" MODIFIED="1592881713783" LINK="https://onedrive.live.com/view.aspx?resid=C924C414C7191D53%25211189&amp;id=documents&amp;wd=target%2528%25E5%25BF%25AB%25E9%2580%259F%25E7%25AC%2594%25E8%25AE%25B0.one%257C683E139F-43E4-4080-84E3-B1053D7F6260%252FMQTT%25E6%25B6%2588%25E6%2581%25AF%25E4%25BA%25A4%25E4%25BA%2592%25E6%25B5%2581%25E7%25A8%258B%2528%25E4%25B8%258D%25E5%2590%258CQoS%255C%2529%257CA5E06E9F-D338-428E-8334-5D63BB3DB2B7%252F%2529%20onenote:https://d.docs.live.net/c924c414c7191d53/Documents/军%2520的笔记本/快速笔记.one#MQTT消息交互流程(不同QoS)&amp;section-id=%7B683E139F-43E4-4080-84E3-B1053D7F6260%7D&amp;page-id=%7BA5E06E9F-D338-428E-8334-5D63BB3DB2B7%7D&amp;end">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MQTT的QoS的概念，实际上是规定了不同等级的消息，发布者，broker，订阅者之间如何进行消息交互
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="QoS0" ID="ID_1925072776" CREATED="1592880089955" MODIFIED="1592880126238"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>至多一次</b>:
+    </p>
+    <p>
+      消息发布完全依赖底层TCP/IP网络。会发生消息丢失或重复。这一级别可用于如下情况，环境传感器数据，丢失一次读记录无所谓，因为不久后还会有第二次发送。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="QoS1" ID="ID_441390180" CREATED="1592880094218" MODIFIED="1592880143165"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>至少一次</b>:
+    </p>
+    <p>
+      PUBACK消息是对QoS级别为1的PUBLISH消息的响应.PUBACK消息由服务器发送以响应来自发布端的PUBLISH消息，订阅端也会响应来自服务器的PUBLISH消息。当发布端收到PUBACK消息时，它会丢弃原始消息，因为它也被服务器接收（并记录）。
+    </p>
+    <p>
+      如果一定时间内，发布端或服务器没有收到PUBACK消息，则会进行重发。这种方式虽然确保了消息到达，但消息重复可能会发生。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Qos2" ID="ID_875233555" CREATED="1592880097330" MODIFIED="1592880185524"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>只有一次</b>:
+    </p>
+    <p>
+      PUBREC消息是对QoS级别为2的PUBLISH消息的响应。它是QoS级别2协议流的第二个消息。 PUBREC消息由服务器响应来自发布端的PUBLISH消息，或订阅端响应来自服务器的PUBLISH消息。发布端或服务器收到PUBREC消息时，会响应PUBREL消息。
+    </p>
+    <p>
+      PUBREL消息是从发布端对PUBREC的响应，或从服务器对订阅端PUBREC消息的响应。 这是QoS 2协议流中第三个消息。当服务器从发布者收到PUBREL消息时，服务器会将PUBLISH消息发送到订阅端，并发送PUBCOMP消息到发布端。 当订阅端收到来自服务器的消息PUBREL时，使得消息可用于应用程序并将PUBCOMP消息发送到服务器。
+    </p>
+    <p>
+      PUBCOMP消息是服务器对来自发布端的PUBREL消息的响应，或订阅者对来自服务器的PUBREL消息的响应。 它是QoS 2协议流程中的第四个也是最后一个消息。当发布端收到PUBCOMP消息时，它会丢弃原始消息，因为它已经将消息发给了服务器。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -610,7 +608,7 @@
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
 </node>
-<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
+<node TEXT="Tutorial" FOLDED="true" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1243,7 +1241,7 @@
 </node>
 </node>
 <node TEXT="nRF SDK Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
-<node TEXT="User Guides" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
+<node TEXT="User Guides" FOLDED="true" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
 <node TEXT="Application Development" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
 <node TEXT="build&amp;config system" ID="ID_771765127" CREATED="1591601073709" MODIFIED="1591601083153">
 <node TEXT="CMake" ID="ID_1983482324" CREATED="1591601113758" MODIFIED="1591601175470" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#cmake-details"/>
@@ -1606,7 +1604,7 @@
 <node TEXT="Working with Thingy:91" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020"/>
 </node>
 <node TEXT="Applications&amp;Samples" ID="ID_388318850" CREATED="1591594402673" MODIFIED="1591594413590">
-<node TEXT="GPS示例" ID="ID_1830389595" CREATED="1592465615786" MODIFIED="1592465955136"><richcontent TYPE="NOTE">
+<node TEXT="GPS示例" ID="ID_1830389595" CREATED="1592465615786" MODIFIED="1592807981782"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1615,6 +1613,24 @@
   <body>
     <p>
       这是一个利用nRF硬件平台来演示如何通过GPS定位的示例。同时，这个示例可以仅使用GPS定位，如果配置了Nordic的A-GPS客户端库(SUPL client)之后，也也支持使用A-GPS加快定位速度。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      示例总结:
+    </p>
+    <p>
+      1，应用软件使用GNSS Socket跟GPS模块建立起通信。
+    </p>
+    <p>
+      2，LTE模块是通过AT命令去控制和配置的，应用程序也是通过创建一个Socket，用于写AT命令和读AT命令返回字符串的环境。
+    </p>
+    <p>
+      3，如果使用A-GPS的话，应用程序是通过将SUPL库包含进来，然后通过使用SUPL库的接口向远程服务器发送A-GPS请求以及向GPS模块传送服务器的反馈。
+    </p>
+    <p>
+      4，定位功能完全是在GPS模块内部自己完成，GPS模块完成一次定位之后会通过socket接口向应用程序发送信息，应用程序只要使用recv()就可以接收到GPS的定位了。
     </p>
   </body>
 </html>
@@ -1641,7 +1657,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1592552624831"><richcontent TYPE="NOTE">
 
@@ -1658,7 +1673,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1592552991442"><richcontent TYPE="NOTE">
 
@@ -1684,7 +1698,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1722,12 +1735,347 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1592465977878"/>
+<node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1592806778772"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个是一个二级制库，Nordic提供的，可以在产品页面下载，应用程序只需要将其编译进最终的代码中就可以了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Nordic提供了两个库供应用程序使用：
+    </p>
+    <ul>
+      <li>
+        SUPL library
+      </li>
+      <li>
+        SUPL client OS integration library
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      这两个库函数的区别是，SUPL库是一个操作系统无关的库函数，而SUPL client OS integration library是一个在SUPL library库上另外封装的可以直接在nRD SDK上使用的库，使用这个库简化了应用程序的开发。
+    </p>
+    <p>
+      所以使用SUPL的话，在nRF SDK的环境下，集成SUPL client OS integration library这个库就可以了。感受到了什么？
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="SUPL client" ID="ID_244938073" CREATED="1592799611886" MODIFIED="1592799613250">
+<node TEXT="可能的问题" ID="ID_1412395199" CREATED="1592802466194" MODIFIED="1592802818750">
+<icon BUILTIN="stop-sign"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在实例代码里面使用的SUPL服务器是Google 的SUPL服务器。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在实际应用的时候，可能需要替换成能够在国内访问的服务器。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="SUPL client OS integration library" ID="ID_217017119" CREATED="1592799620934" MODIFIED="1592799622297"/>
+</node>
 <node TEXT="AT命令接口" ID="ID_68316434" CREATED="1592466031803" MODIFIED="1592466042750"/>
+</node>
+</node>
+<node TEXT="简单MQTT实例" ID="ID_336610260" CREATED="1592808991801" MODIFIED="1592884895381"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个实例完成的事情很简单:
+    </p>
+    <p>
+      1，实现一个MQTT client，使用的是Zephyr自带的MQTT的library
+    </p>
+    <p>
+      2，使能LTE网络，通过LTE网络使得在91板子上的MQTT client能够连接上外网的MQTT Broker
+    </p>
+    <p>
+      3，MQTT client使用MQTT接口subscribe特定的主题，然后收到发布者发布的内容之后，再原封不动的echo回去。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      <font color="#ff0000">需要注意的是，这个例子仅仅展示了如何接收和发送MQTT的payload，但是实例中并没有对接收到的payload进行解码操作 </font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="使用的库" ID="ID_732475382" CREATED="1592809968522" MODIFIED="1592809973679">
+<node TEXT="LTE Link Control" ID="ID_383268992" CREATED="1592809974771" MODIFIED="1592816898738"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是Nordic提供的一个简单就能够让nRF91板子的LTE网络运行起来的库，而不需要使用底层的AT命令和socket通信机制。
+    </p>
+    <p>
+      相当于是封装了一个LTE库，只要编译的时候包含了这个库，就能够让nRF91板子轻易的完成LTE网络的配置。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="prj" ID="ID_1406184754" CREATED="1592816900834" MODIFIED="1592817097381"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CONFIG_LTE_LINK_CONTROL
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="BSD library" ID="ID_274367169" CREATED="1592842253614" MODIFIED="1592842258252"/>
+<node TEXT="MQTT" ID="ID_1203527956" CREATED="1592842263389" MODIFIED="1592883435707"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基本上Zephyr的MQTT库已经极大的简化了MQTT client端的开发工作，应用程序的主要工作就是要<b><font color="#ff0000">实现一个自己的event handler</font></b>。
+    </p>
+    <p>
+      其他的跟broker的交互工作都可以直接的调用MQTT库的接口来完成。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="流程" ID="ID_16500976" CREATED="1592883405632" MODIFIED="1592883579561">
+<node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1592884821661">
+<icon BUILTIN="full-1"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这一步是准备填写<font color="#008000"><b>mqtt_client</b></font>数据结构，这个数据结构里面有所有必须知道的信息(MQTT broker的IP地址，client Id，用户名/密码，input/output buffer，event handler...)
+    </p>
+    <p>
+      然后调用Zephyr提供的MQTT库函数<b><font color="#008000">client_init()</font></b>函数
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="连接MQTT Broker" ID="ID_1755692985" CREATED="1592883870663" MODIFIED="1592884827514">
+<icon BUILTIN="full-2"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个阶段做的事情非常的简单，就是直接调用Zephyr的MQTT接口<b><font color="#008000">mqtt_connect()</font></b>函数。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="接收流程" ID="ID_1637162097" CREATED="1592884670681" MODIFIED="1592884829758">
+<icon BUILTIN="full-3"/>
+<node TEXT="获取Socket端口然后poll()" ID="ID_1734841746" CREATED="1592883922495" MODIFIED="1592883999411"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这一步是为了接收从MQTT broker发过来的消息。在上面的mqtt_connect()执行完成之后，socket连接就已经建立起来了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="mqtt_input()" ID="ID_667286307" CREATED="1592884022817" MODIFIED="1592884167588"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      poll()返回之后，如果发现从Broker有数据过来(revent == POLLIN)，使用mqtt_input()接收数据包。
+    </p>
+    <p>
+      需要注意的是，在接收完数据包之后，会自动触发我们注册的event handler函数
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="执行event_handler()" ID="ID_531378072" CREATED="1592884172455" MODIFIED="1592884187713">
+<node TEXT="mqtt_read_publish_payload()" ID="ID_505041442" CREATED="1592884578112" MODIFIED="1592884613044"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用这个接口获取发布内容的payload()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Publish流程" ID="ID_1931567432" CREATED="1592884678688" MODIFIED="1592884831938">
+<icon BUILTIN="full-3"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      准备<b><font color="#008000">mqtt_publish_param</font></b>数据结构，发布消息所需要的所有信息和payload，都在这个数据结构中。
+    </p>
+    <p>
+      调用Zephyr的<b><font color="#008000">mqtt_publish()</font></b>函数完成数据的发布
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="SPM" ID="ID_890646121" CREATED="1592842274789" MODIFIED="1592842277489"/>
+</node>
+</node>
+<node TEXT="Cloud Client" ID="ID_1879742012" CREATED="1592893402601" MODIFIED="1592893408482"/>
+<node TEXT="Asset Tracker Demo" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1592883546581">
+<icon BUILTIN="bookmark"/>
+<node TEXT="设备Driver模型" ID="ID_627794340" CREATED="1587713173943" MODIFIED="1587714107168" LINK="https://onedrive.live.com/view.aspx?resid=C924C414C7191D53%25211189&amp;id=documents&amp;wd=target%2528%25E5%25BF%25AB%25E9%2580%259F%25E7%25AC%2594%25E8%25AE%25B0.one%257C683E139F-43E4-4080-84E3-B1053D7F6260%252FMotion_driver%257C2697D566-0F4A-400D-A863-043A5F8AB376%252F%2529%20onenote:https://d.docs.live.net/c924c414c7191d53/Documents/军%2520的笔记本/快速笔记.one#Motion_driver&amp;section-id=%7B683E139F-43E4-4080-84E3-B1053D7F6260%7D&amp;page-id=%7B2697D566-0F4A-400D-A863-043A5F8AB376%7D&amp;end"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      参考跳转链接中显示的一个例子
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="项目编译的时候将需要的驱动包含进去" ID="ID_728461600" CREATED="1587713476989" MODIFIED="1587713499927"/>
+<node TEXT="device_get_binding(&quot;driver_name&quot;)" ID="ID_392364904" CREATED="1587713501461" MODIFIED="1587714141308"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用driver_name这么一个字符串来获取驱动的dev对象
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="poll机制" ID="ID_448201104" CREATED="1587713791273" MODIFIED="1587714171112"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      先采样，然后再读取采样得到的数据。参考子节点的连个函数
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="sensor_sample_fetch_channel(dev, channal)" ID="ID_769293338" CREATED="1587713840634" MODIFIED="1587713918963"/>
+<node TEXT="sensor_channel_get(dev, channel, &amp;data)" ID="ID_1752794650" CREATED="1587713840634" MODIFIED="1587713934690"/>
+</node>
+<node TEXT="trigger机制" ID="ID_1338942093" CREATED="1587713795555" MODIFIED="1587714219919"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      trigger的方法是类似于中断机制，注册一个触发的条件，同时注册一个触发条件满足后的回调函数。当触发的条件满足的时候，回调函数就会被执行。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="sensor_trigger_set(dev, trigger, handler)" ID="ID_1014524621" CREATED="1587713993208" MODIFIED="1587714011035"/>
+</node>
+</node>
+<node TEXT="云Driver模型" ID="ID_922726756" CREATED="1587713203552" MODIFIED="1587718809385" LINK="../OneNote/AssesstTracker.one"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      参考跳转链接中的例子。清晰的描述了设备和云端是如何连接和通信的。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="项目编译的时候将需要的云驱动编译进去" ID="ID_261389211" CREATED="1587717034846" MODIFIED="1587717050922"/>
 </node>
 </node>
 </node>
@@ -1750,7 +2098,7 @@
 <node TEXT="Libraries" ID="ID_1732530383" CREATED="1591594435352" MODIFIED="1591594444924"/>
 </node>
 </node>
-<node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
+<node TEXT="Cortex-M33" FOLDED="true" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
 <edge COLOR="#7c0000"/>
 <node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE">
 
@@ -2123,6 +2471,25 @@
 </node>
 </node>
 <node TEXT="Thread和Handler模式" ID="ID_1062339080" CREATED="1592275553557" MODIFIED="1592275559986"/>
+</node>
+<node TEXT="Socket编程" POSITION="left" ID="ID_1964924697" CREATED="1592797181140" MODIFIED="1592797260358">
+<edge COLOR="#00007c"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在nRF SDK中，大量的设备控制接口被设计为了socket，应用程序通过socket接口控制设备并且接收设备的信息。
+    </p>
+    <p>
+      有必要简单的了解一下socket编程的基本知识。
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </map>
