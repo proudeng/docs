@@ -608,7 +608,7 @@
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
 </node>
-<node TEXT="Tutorial" FOLDED="true" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
+<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2076,6 +2076,387 @@
 </html>
 </richcontent>
 <node TEXT="项目编译的时候将需要的云驱动编译进去" ID="ID_261389211" CREATED="1587717034846" MODIFIED="1587717050922"/>
+</node>
+<node TEXT="代码分析" ID="ID_392767526" CREATED="1593605050976" MODIFIED="1593605056004">
+<node TEXT="prj.conf" ID="ID_1413036563" CREATED="1593605064248" MODIFIED="1593606394200">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #
+    </p>
+    <p>
+      # Copyright (c) 2019 Nordic Semiconductor ASA
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # SPDX-License-Identifier: LicenseRef-BSD-5-Clause-Nordic
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # General config
+    </p>
+    <p>
+      CONFIG_NEWLIB_LIBC=y
+    </p>
+    <p>
+      CONFIG_NEWLIB_LIBC_FLOAT_PRINTF=y
+    </p>
+    <p>
+      CONFIG_ASSERT=y
+    </p>
+    <p>
+      CONFIG_REBOOT=y
+    </p>
+    <p>
+      CONFIG_LOG=y
+    </p>
+    <p>
+      CONFIG_LOG_IMMEDIATE=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Network
+    </p>
+    <p>
+      CONFIG_NETWORKING=y
+    </p>
+    <p>
+      CONFIG_NET_NATIVE=n
+    </p>
+    <p>
+      CONFIG_NET_SOCKETS=y
+    </p>
+    <p>
+      CONFIG_NET_SOCKETS_OFFLOAD=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # LTE link control
+    </p>
+    <p>
+      CONFIG_POWER_OPTIMIZATION_ENABLE=n
+    </p>
+    <p>
+      CONFIG_LTE_LINK_CONTROL=y
+    </p>
+    <p>
+      CONFIG_LTE_NETWORK_MODE_LTE_M_GPS=y
+    </p>
+    <p>
+      CONFIG_LTE_AUTO_INIT_AND_CONNECT=n
+    </p>
+    <p>
+      CONFIG_LTE_LINK_CONTROL_LOG_LEVEL_DBG=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CONFIG_LTE_NETWORK_MODE_NBIOT=n
+    </p>
+    <p>
+      CONFIG_LTE_LEGACY_PCO_MODE=n
+    </p>
+    <p>
+      CONFIG_LTE_PSM_REQ_RPTAU=&quot;00000110&quot;
+    </p>
+    <p>
+      CONFIG_LTE_PSM_REQ_RAT=&quot;00000000&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CONFIG_LTE_LOCK_BANDS=y
+    </p>
+    <p>
+      # Enable band 2, 3, 4, 8, 12, 13 ,20 and 28
+    </p>
+    <p>
+      CONFIG_LTE_LOCK_BAND_MASK=&quot;1000000010000001100010001110&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Modem info
+    </p>
+    <p>
+      CONFIG_MODEM_INFO=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # BSD library
+    </p>
+    <p>
+      CONFIG_BSD_LIBRARY=y
+    </p>
+    <p>
+      CONFIG_BSD_LIBRARY_TRACE_ENABLED=n
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # nRF Cloud
+    </p>
+    <p>
+      CONFIG_CLOUD_API=y
+    </p>
+    <p>
+      CONFIG_NRF_CLOUD=y
+    </p>
+    <p>
+      CONFIG_NRF_CLOUD_LOG_LEVEL_DBG=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Sensors
+    </p>
+    <p>
+      CONFIG_SENSOR=y
+    </p>
+    <p>
+      CONFIG_ACCEL_USE_EXTERNAL=y
+    </p>
+    <p>
+      CONFIG_ACCEL_DEV_NAME=&quot;ADXL362&quot;
+    </p>
+    <p>
+      CONFIG_ADXL362=y
+    </p>
+    <p>
+      CONFIG_ADXL362_TRIGGER_GLOBAL_THREAD=y
+    </p>
+    <p>
+      CONFIG_ADXL362_ABS_REF_MODE=1
+    </p>
+    <p>
+      CONFIG_ADXL362_ACTIVITY_THRESHOLD=200
+    </p>
+    <p>
+      CONFIG_ADXL362_INACTIVITY_THRESHOLD=200
+    </p>
+    <p>
+      CONFIG_ADXL362_INTERRUPT_MODE=1
+    </p>
+    <p>
+      CONFIG_TEMP_USE_EXTERNAL=y
+    </p>
+    <p>
+      CONFIG_TEMP_DEV_NAME=&quot;BME680&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Deselect CONFIG_BME680 if CONFIG_USE_BME680_BSEC is selected
+    </p>
+    <p>
+      CONFIG_BME680=y
+    </p>
+    <p>
+      CONFIG_USE_BME680_BSEC=n
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # GPS
+    </p>
+    <p>
+      CONFIG_NRF9160_GPS_LOG_LEVEL_DBG=y
+    </p>
+    <p>
+      CONFIG_NRF9160_GPS=y
+    </p>
+    <p>
+      CONFIG_NRF9160_GPS_LOG_LEVEL_DBG=y
+    </p>
+    <p>
+      CONFIG_GPS_USE_EXTERNAL=y
+    </p>
+    <p>
+      CONFIG_GPS_DEV_NAME=&quot;NRF9160_GPS&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CONFIG_GPS_CONTROL_FIRST_FIX_CHECK_DELAY=10
+    </p>
+    <p>
+      CONFIG_GPS_CONTROL_FIX_CHECK_INTERVAL=30
+    </p>
+    <p>
+      CONFIG_GPS_CONTROL_FIX_TRY_TIME=360
+    </p>
+    <p>
+      CONFIG_GPS_CONTROL_PSM_DISABLE_ON_STOP=n
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Library for buttons and LEDs
+    </p>
+    <p>
+      CONFIG_DK_LIBRARY=y
+    </p>
+    <p>
+      CONFIG_DK_LIBRARY_INVERT_LEDS=n
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Console
+    </p>
+    <p>
+      CONFIG_CLOUD_UA_BUTTONS=n
+    </p>
+    <p>
+      CONFIG_CLOUD_UA_CONSOLE=n
+    </p>
+    <p>
+      CONFIG_CONSOLE_SUBSYS=y
+    </p>
+    <p>
+      CONFIG_CONSOLE_HANDLER=y
+    </p>
+    <p>
+      CONFIG_CONSOLE_GETCHAR=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Heap and stacks
+    </p>
+    <p>
+      CONFIG_HEAP_MEM_POOL_SIZE=16384
+    </p>
+    <p>
+      CONFIG_MAIN_STACK_SIZE=8192
+    </p>
+    <p>
+      CONFIG_SYSTEM_WORKQUEUE_STACK_SIZE=2048
+    </p>
+    <p>
+      CONFIG_HW_STACK_PROTECTION=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Settings
+    </p>
+    <p>
+      CONFIG_FLASH=y
+    </p>
+    <p>
+      CONFIG_FLASH_PAGE_LAYOUT=y
+    </p>
+    <p>
+      CONFIG_FLASH_MAP=y
+    </p>
+    <p>
+      CONFIG_FCB=y
+    </p>
+    <p>
+      CONFIG_SETTINGS=y
+    </p>
+    <p>
+      CONFIG_SETTINGS_FCB=y
+    </p>
+    <p>
+      CONFIG_MPU_ALLOW_FLASH_WRITE=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # MCUBOOT
+    </p>
+    <p>
+      CONFIG_BOOTLOADER_MCUBOOT=y
+    </p>
+    <p>
+      CONFIG_IMG_MANAGER=y
+    </p>
+    <p>
+      CONFIG_MCUBOOT_IMG_MANAGER=y
+    </p>
+    <p>
+      CONFIG_IMG_ERASE_PROGRESSIVELY=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # AWS FOTA
+    </p>
+    <p>
+      CONFIG_AWS_FOTA=y
+    </p>
+    <p>
+      CONFIG_AWS_FOTA_LOG_LEVEL_DBG=y
+    </p>
+    <p>
+      CONFIG_AWS_JOBS_LOG_LEVEL_DBG=y
+    </p>
+    <p>
+      CONFIG_DFU_TARGET=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Download client (needed by AWS FOTA)
+    </p>
+    <p>
+      CONFIG_DOWNLOAD_CLIENT=y
+    </p>
+    <p>
+      CONFIG_DOWNLOAD_CLIENT_STACK_SIZE=4096
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Fatal error
+    </p>
+    <p>
+      CONFIG_RESET_ON_FATAL_ERROR=n
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CONFIG_WATCHDOG=y
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
