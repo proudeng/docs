@@ -2000,8 +2000,26 @@
 </node>
 </node>
 <node TEXT="Cloud Client" ID="ID_1879742012" CREATED="1592893402601" MODIFIED="1592893408482"/>
-<node TEXT="Asset Tracker Demo" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1592883546581">
+<node TEXT="Asset Tracker Demo" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1594024118156">
 <icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个链接里面也有很多关于nRF91有用的信息：
+    </p>
+    <p>
+      <a href="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_nrf9160.html">https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_nrf9160.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="设备Driver模型" ID="ID_627794340" CREATED="1587713173943" MODIFIED="1587714107168" LINK="https://onedrive.live.com/view.aspx?resid=C924C414C7191D53%25211189&amp;id=documents&amp;wd=target%2528%25E5%25BF%25AB%25E9%2580%259F%25E7%25AC%2594%25E8%25AE%25B0.one%257C683E139F-43E4-4080-84E3-B1053D7F6260%252FMotion_driver%257C2697D566-0F4A-400D-A863-043A5F8AB376%252F%2529%20onenote:https://d.docs.live.net/c924c414c7191d53/Documents/军%2520的笔记本/快速笔记.one#Motion_driver&amp;section-id=%7B683E139F-43E4-4080-84E3-B1053D7F6260%7D&amp;page-id=%7B2697D566-0F4A-400D-A863-043A5F8AB376%7D&amp;end"><richcontent TYPE="NOTE">
 
 <html>
@@ -2472,7 +2490,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="modem_configure()" ID="ID_904204409" CREATED="1593696249349" MODIFIED="1593696253661"/>
+<node TEXT="modem_configure()" ID="ID_904204409" CREATED="1593696249349" MODIFIED="1594025619870">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_891820953" STARTINCLINATION="1002;0;" ENDINCLINATION="1002;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
 </node>
 <node TEXT="nRF云处理" ID="ID_675738347" CREATED="1593695982237" MODIFIED="1593696135562">
 <node TEXT="cloud_get_binding()" ID="ID_1465284792" CREATED="1593696170830" MODIFIED="1593696175039"/>
@@ -2561,7 +2581,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="CLOUD_EVT_PAIR_REQUEST" ID="ID_184557176" CREATED="1593697640789" MODIFIED="1593697641522"/>
@@ -2625,7 +2644,95 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Libraries" ID="ID_1732530383" CREATED="1591594435352" MODIFIED="1591594444924"/>
+<node TEXT="Libraries" ID="ID_1732530383" CREATED="1591594435352" MODIFIED="1591594444924">
+<node TEXT="LTE Link Control" ID="ID_891820953" CREATED="1594025590962" MODIFIED="1594027540728"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使能LTE网络并非一定要使用这个库，可以直接使用AT命令的库给Modem发送AT命令来配置/使能/关闭 LTE网络，使用AT命令能够很灵活的做各种配置和操作。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是有时候过于灵活的操作也意味着复杂的操作，复杂的操作有些场景下很有必要，但是有些场景下就显得很没有必要:
+    </p>
+    <p>
+      如果我们的使用场景时，只是想简单的将LTE网络给使能起来，<font color="#008000"><b>得到一个always online的LTE网络</b></font>，而且不关心很多配置选项，只想改动那些少量的关键参数。这时候就可以使用LTE Link Control这个库了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      LTE Link Control这个库用于将使能和配置LTE网络的操作给封装成简单统一的API操作。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="最小使用集" ID="ID_1536825757" CREATED="1594027547876" MODIFIED="1594028400849"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LTE Link Control库的最小使用集很简单:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font size="4" color="#008000">如何使能LTE网络</font><font size="4">？</font>&nbsp;</b>
+    </p>
+    <p>
+      只要调用一个函数就行了:
+    </p>
+    <ul>
+      <li>
+        <b><font color="#0000c0">lte_lc_init_and_connect(void)</font></b>
+      </li>
+    </ul>
+    <p>
+      只要调用上面的这个函数，这是一个blocking的函数，等到这个函数正常返回了，那么LTE网络就已经连接成功了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#008000"><b>如何配置LTE网络？</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      然后关于如何配置LTE(比如是使用CAT-M还是使用NB-IoT网络？是否使能DRX功能，是否使能PSM功能，是否使能GPS？)，这些配置可以在<b><font color="#ff0000">prj.conf</font></b>中指定
+    </p>
+    <p>
+      参考子节点中的配置选项，其实也很简单和方便使用，参数很少。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="配置选项" ID="ID_1526940872" CREATED="1594027839293" MODIFIED="1594028322222" LINK="../attachment/LteLinkControl.png"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
