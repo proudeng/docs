@@ -2801,7 +2801,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
+<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
 <icon BUILTIN="edit"/>
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">

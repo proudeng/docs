@@ -2626,6 +2626,104 @@
 </node>
 <node TEXT="UI处理" ID="ID_1061314983" CREATED="1593696523032" MODIFIED="1593696529695"/>
 </node>
+<node TEXT="接入NB-IoT网络" ID="ID_130042723" CREATED="1594195630206" MODIFIED="1594195754127"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      板子上默认烧写的程序就是Asset Tracker，但是Modem被配置为了支持CAT-M网络，不支持NB-IoT网络。
+    </p>
+    <p>
+      需要烧写新的接入NB-IoT网络的固件。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="默认固件的log" ID="ID_1847719399" CREATED="1594195724831" MODIFIED="1594195879037"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果使用默认的固件，但是插上了NB-IoT的sim卡，使用LTE Link Monitor观察串口的输出就会发现网络状态一直处于搜索网络的阶段。这就是因为设备一直在搜索CAT-M网络，但是国内没有运行商布了CaT-M的网络。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="PCO和ePCO" ID="ID_432418052" CREATED="1594195965566" MODIFIED="1594196518016"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在Nordic官方的产品页面上有官方固件下载，里面包含了预先编译好的多种固件，其中就有支持NB-IoT的固件。
+    </p>
+    <p>
+      将其烧写进去之后按理说就可以接入LTE网络并且连接到nRF云了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，有时候从LTE Link Monitor上的log可以发现，NB-IoT的网络能够顺利接入，但是Cloud连接不上，提示的错误是getAddrInfo()失败，这是因为DNS解析失败，没法找到服务器的IP。
+    </p>
+    <p>
+      出现这个现象的原因是，不同的运营商，有的使用PCO，有的使用ePCO，设备的固件也要根据自己接入的网络的这个特性的不同，使用不同的选项。
+    </p>
+    <p>
+      默认的NB固件是使用ePCO的配置，如果我们接入的网络是使用的PCO的配置，那么我们需要在prj.conf文件中加入下面的配置项:
+    </p>
+    <ul>
+      <li>
+        <b><font color="#0000c0">CONFIG_LTE_LEGACY_PCO_MODE=y</font></b>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="中国移动的NB-IoT网络" ID="ID_1793282430" CREATED="1594196268615" MODIFIED="1594196374385"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      中国移动的NB-IoT网络是使用的ePCO，所以如果我们的设备希望接入中国移动的NB-IoT网络的话，需要固件使用ePCO配置
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="iBasis的NB-IoT网络" ID="ID_647285746" CREATED="1594196277310" MODIFIED="1594196440999"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备默认赠送的iBasis的NB-IoT网络是使用的PCO，所以如果我们的设备希望使用这张卡接入网络的话，需要固件使用legacy的PCO配置。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Drivers" ID="ID_1205682786" CREATED="1591594418208" MODIFIED="1591594420274">
@@ -2672,7 +2770,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="最小使用集" ID="ID_1536825757" CREATED="1594027547876" MODIFIED="1594028400849"><richcontent TYPE="NOTE">
 
@@ -2727,7 +2824,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="配置选项" ID="ID_1526940872" CREATED="1594027839293" MODIFIED="1594028322222" LINK="../attachment/LteLinkControl.png"/>
 </node>
