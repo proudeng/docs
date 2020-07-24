@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -77,7 +77,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="【Platform】Thingy:91" POSITION="right" ID="ID_232176577" CREATED="1583287393218" MODIFIED="1583287421097">
+<node TEXT="【Platform】Thingy:91" FOLDED="true" POSITION="right" ID="ID_232176577" CREATED="1583287393218" MODIFIED="1583287421097">
 <edge COLOR="#0000ff"/>
 <node TEXT="硬件组成" ID="ID_1864208304" CREATED="1583287582672" MODIFIED="1583287668745">
 <node TEXT="nRF9160 SiP" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1637993052" CREATED="1583287597824" MODIFIED="1583291183558"><richcontent TYPE="NOTE">
@@ -249,7 +249,7 @@
 <node TEXT=" J-Link device" ID="ID_1795842964" CREATED="1583288792773" MODIFIED="1583288793686"/>
 </node>
 </node>
-<node TEXT="【Platform】Ardesco" POSITION="right" ID="ID_235202325" CREATED="1583287832928" MODIFIED="1583287867711">
+<node TEXT="【Platform】Ardesco" POSITION="right" ID="ID_235202325" CREATED="1583287832928" MODIFIED="1594765109682">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -259,7 +259,7 @@
   </head>
   <body>
     <p>
-      &#29233;&#31435;&#20449;&#33258;&#24049;&#30340;&#29289;&#32852;&#32593;&#24179;&#21488;
+      爱立信自己的物联网平台
     </p>
   </body>
 </html>
@@ -1241,7 +1241,7 @@
 </node>
 </node>
 <node TEXT="nRF SDK Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
-<node TEXT="User Guides" FOLDED="true" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
+<node TEXT="User Guides" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
 <node TEXT="Application Development" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
 <node TEXT="build&amp;config system" ID="ID_771765127" CREATED="1591601073709" MODIFIED="1591601083153">
 <node TEXT="CMake" ID="ID_1983482324" CREATED="1591601113758" MODIFIED="1591601175470" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#cmake-details"/>
@@ -1601,7 +1601,104 @@
 <node TEXT="FOTA upgrades" ID="ID_505906595" CREATED="1591610219430" MODIFIED="1591610223224"/>
 <node TEXT="Samples" ID="ID_671364008" CREATED="1591610281221" MODIFIED="1591610285665" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples.html#nrf9160-samples"/>
 </node>
-<node TEXT="Working with Thingy:91" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020"/>
+<node TEXT="Working with Thingy:91" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020">
+<node TEXT="烧写软件" ID="ID_873505696" CREATED="1594463635556" MODIFIED="1594478915524"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在windows下烧写软件最简单的方法是使用nRF SDK提供的那个Programmer工具，因为可以直接通过USB线烧写代码。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是需要注意的是，这个烧写方式是利用了实现烧写到板子上的bootloader程序-MCUboot，也就是说板子需要跑在MCUboot状态，然后使用Programmer工具来烧写新软件。
+    </p>
+    <p>
+      同样需要注意的是，如果要使用这种方式来烧写板子，那么代码的配置文件里面，就必须 要把MCUboot给配置进去。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="代码配置prj.conf" ID="ID_1203853254" CREATED="1594478923711" MODIFIED="1594479021343"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      加入了下面的配置：(MCUboot那一块肯定是需要的，目前还不确定FLASH相关的这些配置是不是必须的)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Settings
+    </p>
+    <p>
+      CONFIG_FLASH=y
+    </p>
+    <p>
+      CONFIG_FLASH_PAGE_LAYOUT=y
+    </p>
+    <p>
+      CONFIG_FLASH_MAP=y
+    </p>
+    <p>
+      CONFIG_FCB=y
+    </p>
+    <p>
+      CONFIG_SETTINGS=y
+    </p>
+    <p>
+      CONFIG_SETTINGS_FCB=y
+    </p>
+    <p>
+      CONFIG_MPU_ALLOW_FLASH_WRITE=y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # MCUBOOT
+    </p>
+    <p>
+      CONFIG_BOOTLOADER_MCUBOOT=y
+    </p>
+    <p>
+      CONFIG_IMG_MANAGER=y
+    </p>
+    <p>
+      CONFIG_MCUBOOT_IMG_MANAGER=y
+    </p>
+    <p>
+      CONFIG_IMG_ERASE_PROGRESSIVELY=y
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="烧写hex文件" ID="ID_737034938" CREATED="1594479024406" MODIFIED="1594479068575"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用programmer工具烧写app_signed.hex这个文件。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Applications&amp;Samples" ID="ID_388318850" CREATED="1591594402673" MODIFIED="1591594413590">
 <node TEXT="GPS示例" ID="ID_1830389595" CREATED="1592465615786" MODIFIED="1592807981782"><richcontent TYPE="NOTE">
@@ -1636,7 +1733,7 @@
 </html>
 </richcontent>
 <node TEXT="依赖的库" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
-<node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1592531418380"><richcontent TYPE="NOTE">
+<node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1594825894919"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1657,8 +1754,9 @@
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1592552624831"><richcontent TYPE="NOTE">
+<node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1594825905713"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1673,8 +1771,9 @@
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1592552991442"><richcontent TYPE="NOTE">
+<node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1594825918458"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1698,6 +1797,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -1738,7 +1838,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1592806778772"><richcontent TYPE="NOTE">
+<node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1594825981799"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1773,6 +1873,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="SUPL client" ID="ID_244938073" CREATED="1592799611886" MODIFIED="1592799613250">
 <node TEXT="可能的问题" ID="ID_1412395199" CREATED="1592802466194" MODIFIED="1592802818750">
@@ -1873,7 +1974,7 @@
 </node>
 </node>
 <node TEXT="BSD library" ID="ID_274367169" CREATED="1592842253614" MODIFIED="1592842258252"/>
-<node TEXT="MQTT" ID="ID_1203527956" CREATED="1592842263389" MODIFIED="1592883435707"><richcontent TYPE="NOTE">
+<node TEXT="MQTT" ID="ID_1203527956" CREATED="1592842263389" MODIFIED="1594479411849"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1890,7 +1991,7 @@
 </html>
 </richcontent>
 <node TEXT="流程" ID="ID_16500976" CREATED="1592883405632" MODIFIED="1592883579561">
-<node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1592884821661">
+<node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1594479433005">
 <icon BUILTIN="full-1"/>
 <richcontent TYPE="NOTE">
 
@@ -2641,7 +2742,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="默认固件的log" ID="ID_1847719399" CREATED="1594195724831" MODIFIED="1594195879037"><richcontent TYPE="NOTE">
 
@@ -2655,7 +2755,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="PCO和ePCO" ID="ID_432418052" CREATED="1594195965566" MODIFIED="1594196518016"><richcontent TYPE="NOTE">
@@ -2690,7 +2789,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="中国移动的NB-IoT网络" ID="ID_1793282430" CREATED="1594196268615" MODIFIED="1594196374385"><richcontent TYPE="NOTE">
 
@@ -2704,7 +2802,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="iBasis的NB-IoT网络" ID="ID_647285746" CREATED="1594196277310" MODIFIED="1594196440999"><richcontent TYPE="NOTE">
@@ -2719,7 +2816,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2831,7 +2927,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
+<node TEXT="Cortex-M33" FOLDED="true" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
 <edge COLOR="#7c0000"/>
 <node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE">
 
@@ -3223,6 +3319,122 @@
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="Bld开发" POSITION="right" ID="ID_690499500" CREATED="1594620535285" MODIFIED="1594765109671">
+<edge COLOR="#007c00"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个项目大体上想尽可能的复用开发板自带的Asset Tracker的代码，因为Asset Tracker这个代码本身包含了所有的传感的采集和上报的功能。
+    </p>
+    <p>
+      不过Asset Tracker代码采用了nRF自带的云服务，所有采集的传感器数据都上报到了nRF Cloud上面去了，而且支持从nRF Cloud上面下发控制和配置命令。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Bld项目希望使用公共的MQTT broker来作为设备和外界通信的途径。所以需要剥离nRF Cloud相关的部分。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      而且，因为主要关注的是震动相关的数据采集，所以在三轴传感器的处理部分可能还需要做进一步的定制化处理。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Demo1版本" ID="ID_1294354754" CREATED="1594765111697" MODIFIED="1594765521451"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个版本基于nRF Cloud的那个MQTT simple例子开发。实现的功能为：
+    </p>
+    <ul>
+      <li>
+        实现一个MQTT client，跟外部的MQTT broker建立起连接，配置一个publish主题。MQTT client与MQTT broker之间保持实时的连接
+      </li>
+      <li>
+        使用trigger方式配置三轴传感器，并配置门限值
+      </li>
+      <li>
+        使用trigger方式配置GPS设备
+      </li>
+      <li>
+        在三轴传感器达到门限值，trigger被触发的情况下，采集GPS位置信息并且上报MQTT broker
+      </li>
+      <li>
+        使用LTE Link Control库来作为网络的驱动，使用这个库的话，LTE网络是实时连接的。
+      </li>
+      <li>
+        MQTT报文使用简单的JSON格式仅仅封装三轴传感器数据和MMEA字符串格式的GPS位置信息。
+      </li>
+      <li>
+        MQTT客户端暂时不subscribe主题，也就是不接收网络端下发的控制命令，功能仅仅是上报信息
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="GPS配置" ID="ID_1823957208" CREATED="1594765394360" MODIFIED="1594765425863"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Demo版本使用Asset Tracker中的GPS配置的代码，做简单的移植
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="AssetTracker的GPS使用流程" ID="ID_1080613754" CREATED="1594766001607" MODIFIED="1594766065486" LINK="../OneNote/NRF-GPS代码.one"/>
+</node>
+<node TEXT="GPS无法定位" ID="ID_643704255" CREATED="1594892137869" MODIFIED="1594892218369"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      我的现象跟下面这个post里面描述的内容完全一致：
+    </p>
+    <p>
+      https://devzone.nordicsemi.com/f/nordic-q-a/58136/error-nrf9160_gps-gps_thread-invalid-pvt-frame-and-gps-stop
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      具体的原因可能是下面这个post里面描述的，因为移动网络运营商没有开PSM模式。
+    </p>
+    <p>
+      参考下面的这个post：
+    </p>
+    <p>
+      https://devzone.nordicsemi.com/f/nordic-q-a/63081/not-able-to-enable-psm/257401#257401
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>

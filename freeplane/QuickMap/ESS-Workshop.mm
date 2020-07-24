@@ -3,7 +3,7 @@
 <node TEXT="ESS-Workshop" FOLDED="false" ID="ID_1794266794" CREATED="1594260268558" MODIFIED="1594260279256" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="DL Arbitrator" POSITION="right" ID="ID_1779124447" CREATED="1594260954615" MODIFIED="1594262425877">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
@@ -78,8 +78,15 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
+<node TEXT="物理层" POSITION="left" ID="ID_1125793141" CREATED="1594865010721" MODIFIED="1594865015813">
+<edge COLOR="#0000ff"/>
+<node TEXT="NR参考信号" ID="ID_945819254" CREATED="1594867607981" MODIFIED="1594867613096">
+<node TEXT="TRS" ID="ID_1932113166" CREATED="1594867614413" MODIFIED="1594867616111"/>
+<node TEXT="CSI-RS" ID="ID_913656106" CREATED="1594867616757" MODIFIED="1594867620825"/>
+<node TEXT="DMRS" ID="ID_690652364" CREATED="1594867621053" MODIFIED="1594867622431"/>
+</node>
 </node>
 </node>
 </map>
