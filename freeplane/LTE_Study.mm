@@ -7858,8 +7858,8 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -9133,8 +9133,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
@@ -18426,7 +18426,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ESS Band" ID="ID_627040198" CREATED="1595484379967" MODIFIED="1595484877462"><richcontent TYPE="NOTE">
 
@@ -18493,7 +18492,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Step6.Resrouce allocation for K2=4 and K2=2" ID="ID_1354547488" CREATED="1595485152769" MODIFIED="1595515600320">
@@ -18531,7 +18529,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Step7.Resrouce allocation for K2=2" ID="ID_1691672751" CREATED="1595485163314" MODIFIED="1595485213141">
@@ -18571,7 +18568,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="LteRequiredUlPrbs(b,n,n+9)" ID="ID_232147383" CREATED="1595512514389" MODIFIED="1595557845846"><richcontent TYPE="NOTE">
 
@@ -18603,7 +18599,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteAllocatedUlPrbs(n-9, n-1)" ID="ID_1490350408" CREATED="1595514907757" MODIFIED="1595557931763"><richcontent TYPE="NOTE">
@@ -18639,7 +18634,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="nrRequiredUlPrbs(b,n,n+7)" ID="ID_1576354686" CREATED="1595558012411" MODIFIED="1595558085708"><richcontent TYPE="NOTE">
@@ -18660,7 +18654,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18683,7 +18676,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LteAssignedUlPrbsRetx(n+9)" ID="ID_66214488" CREATED="1595515664326" MODIFIED="1595517077580"><richcontent TYPE="NOTE">
@@ -18704,7 +18696,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="nrAssignedUlPrbs(n+9)" ID="ID_1756865293" CREATED="1595515690283" MODIFIED="1595516106733"><richcontent TYPE="NOTE">
@@ -18725,7 +18716,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18748,7 +18738,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Pdcch_ul_Feedback" ID="ID_1309555448" CREATED="1595559144322" MODIFIED="1595559650420"><richcontent TYPE="NOTE">
@@ -18763,7 +18752,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Pdcch_dl_Feedback" ID="ID_283583114" CREATED="1595559209192" MODIFIED="1595559670849"><richcontent TYPE="NOTE">
@@ -18778,7 +18766,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pusch Allocation" ID="ID_1806959157" CREATED="1595560032996" MODIFIED="1595560097755"><richcontent TYPE="NOTE">
@@ -18793,7 +18780,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="nr_Feedback" ID="ID_404640264" CREATED="1595559167274" MODIFIED="1595559173299"/>
@@ -18809,7 +18795,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18828,7 +18813,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lteCfiMax(n+3)" ID="ID_1446249408" CREATED="1595559937804" MODIFIED="1595559972828"><richcontent TYPE="NOTE">
@@ -18843,7 +18827,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18880,7 +18863,37 @@
 </node>
 </node>
 </node>
-<node TEXT="EN-DC" ID="ID_486034073" CREATED="1594086614115" MODIFIED="1594086617036"/>
+<node TEXT="EN-DC" ID="ID_486034073" CREATED="1594086614115" MODIFIED="1594086617036">
+<node TEXT="系列培训" ID="ID_1773469986" CREATED="1596014934511" MODIFIED="1596014944735">
+<node TEXT="Session1" ID="ID_1163821977" CREATED="1596014946404" MODIFIED="1596014991474"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      录频地址：
+    </p>
+    <p>
+      https://web.microsoftstream.com/video/5b0fbf42-830f-4678-bfca-3f20a8502bd4
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PPT地址:
+    </p>
+    <p>
+      https://ericsson.sharepoint.com/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2Fradio%5F01%2Fsystems%2FEarly%5FPhase%5FPrograms%2FLRAN%2FCA%5FMBB%2FShared%20Documents%2FLMBB%20CA%2F03%20LMBB%20Feature%20Parity%20Analysis%2F02%20EN%2DDC%20Feature%20Parity%2Ftraining%20material%28prepare%20ongoing%29&amp;viewid=fc5c6263%2D5fa4%2D4923%2Da2b6%2Dc6fd70417c8c
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 <node TEXT="资料库" ID="ID_1830796088" CREATED="1594087735083" MODIFIED="1594087738388">
 <node TEXT="GeneralSelfLearningMaterials" ID="ID_424540999" CREATED="1594087847004" MODIFIED="1594087920904" LINK="../attachment/G3ENDCESSAAS%20feature%20parity%20materials%20for%20self%20reading.msg"/>
 </node>

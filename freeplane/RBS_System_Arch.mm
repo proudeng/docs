@@ -2895,7 +2895,7 @@
 </node>
 <node TEXT="【LTE-DL】RRM培训" FOLDED="true" POSITION="right" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1578295234264">
 <edge COLOR="#ff00ff"/>
-<node TEXT="下行调度算法" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
+<node TEXT="下行调度算法" FOLDED="true" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
 <node TEXT="QOS Framework" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
 <node TEXT="QCI" ID="ID_198970372" CREATED="1549868306011" MODIFIED="1573451774082"><richcontent TYPE="NOTE">
 
@@ -3491,7 +3491,7 @@
 </node>
 <node TEXT="Ericsson Realization" ID="ID_641481509" CREATED="1573202280719" MODIFIED="1573202285697"/>
 </node>
-<node TEXT="DL Scheduling Engine" ID="ID_653518968" CREATED="1573526083090" MODIFIED="1573526100523">
+<node TEXT="DL Scheduling Engine" FOLDED="true" ID="ID_653518968" CREATED="1573526083090" MODIFIED="1573526100523">
 <node TEXT="PDSCH" FOLDED="true" ID="ID_185284056" CREATED="1573526962900" MODIFIED="1573526965526">
 <node TEXT="Transmission flow" ID="ID_1324822730" CREATED="1573526148271" MODIFIED="1573526974490">
 <node TEXT="eNB发送DCI" ID="ID_1611044738" CREATED="1573527033815" MODIFIED="1573527047330"/>
