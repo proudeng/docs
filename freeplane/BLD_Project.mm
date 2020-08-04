@@ -1242,7 +1242,7 @@
 </node>
 <node TEXT="nRF SDK Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
 <node TEXT="User Guides" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
-<node TEXT="Application Development" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
+<node TEXT="Application Development" FOLDED="true" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
 <node TEXT="build&amp;config system" ID="ID_771765127" CREATED="1591601073709" MODIFIED="1591601083153">
 <node TEXT="CMake" ID="ID_1983482324" CREATED="1591601113758" MODIFIED="1591601175470" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#cmake-details"/>
 <node TEXT="Kconfig" ID="ID_395705266" CREATED="1591601116484" MODIFIED="1591601183146" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application-kconfig"/>
@@ -1754,7 +1754,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1594825905713"><richcontent TYPE="NOTE">
 
@@ -1771,7 +1770,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1594825918458"><richcontent TYPE="NOTE">
 
@@ -1797,7 +1795,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1873,7 +1870,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="SUPL client" ID="ID_244938073" CREATED="1592799611886" MODIFIED="1592799613250">
 <node TEXT="可能的问题" ID="ID_1412395199" CREATED="1592802466194" MODIFIED="1592802818750">
@@ -3431,7 +3427,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

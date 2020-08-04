@@ -108,94 +108,9 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_1971927286" CREATED="1519363544104" MODIFIED="1526452447984">
-<icon BUILTIN="info"/>
-<richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666">Check DNEW Advisor application</font>
-    </p>
-  </body>
-</html>
-</richcontent>
+<node TEXT="好玩的东西" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1550713356610">
 <font NAME="SansSerif"/>
-</node>
-<node ID="ID_1509537323" CREATED="1519363999577" MODIFIED="1526452473558">
-<icon BUILTIN="info"/>
-<richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666">Check howto merge PC-BTS with GRAT</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif"/>
-</node>
-<node ID="ID_1213239594" CREATED="1520988941155" MODIFIED="1526452485841">
-<icon BUILTIN="info"/>
-<richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666">3/24&#26477;&#24030;</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif"/>
-</node>
-<node ID="ID_1900880631" CREATED="1519438830052" MODIFIED="1526452495580">
-<icon BUILTIN="info"/>
-<richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666">&#26368;&#32456;&#23450;&#19979;&#26469;ABIS IWD&#26356;&#26032;&#30340;WOW</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif"/>
-</node>
-<node ID="ID_783013751" CREATED="1519365982004" MODIFIED="1526452505713">
-<icon BUILTIN="info"/>
-<richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666">Check howto state feature restriction</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif"/>
-</node>
-<node TEXT="好玩的东西" FOLDED="true" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1550713356610">
-<font NAME="SansSerif"/>
-<node TEXT="Seleium &amp; Katalon" ID="ID_367235526" CREATED="1528075797595" MODIFIED="1539224700294" LINK="#ID_177688827"><richcontent TYPE="NOTE">
+<node TEXT="Seleium &amp; Katalon" ID="ID_367235526" CREATED="1528075797595" MODIFIED="1539224700294"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -319,32 +234,172 @@
 </html>
 </richcontent>
 </node>
-</node>
-<node TEXT="System Improvements" ID="ID_342826043" CREATED="1554103109085" MODIFIED="1554103115835">
-<node TEXT="Release Flow相关流程的优化" ID="ID_1473383405" CREATED="1537927219797" MODIFIED="1537929065455">
-<icon BUILTIN="bookmark"/>
-<font NAME="SansSerif"/>
-</node>
-</node>
-<node TEXT="Other" ID="ID_989884856" CREATED="1554103628173" MODIFIED="1554103630016">
-<node TEXT="关注TIP项目" ID="ID_1820863658" CREATED="1540199707344" MODIFIED="1540199725760">
+<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1585036465461">
 <icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      了解一下如何获取ipv6地址
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node TEXT="Training&amp;Learning" ID="ID_1843668881" CREATED="1554103649916" MODIFIED="1554103657614"/>
-<node TEXT="健康险小研究" ID="ID_1749219368" CREATED="1539245420511" MODIFIED="1539245445010">
-<icon BUILTIN="info"/>
+<node TEXT="NBIoT RRM算法研究" ID="ID_193866899" CREATED="1582695620638" MODIFIED="1582696006366">
+<icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-</node>
-<node TEXT="Ericsson Automation Project" FOLDED="true" ID="ID_1927881180" CREATED="1537928880440" MODIFIED="1557193143327">
+<node TEXT="下行相关的特殊的子帧的复习" ID="ID_854422494" CREATED="1582695653840" MODIFIED="1582696190414" LINK="NB-IoT%20RRM.mm#ID_538044059">
+<icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
-<node TEXT="Selenium &amp; Katalon Recoder研究" ID="ID_177688827" CREATED="1539224644050" MODIFIED="1557193160991">
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NPSS&#65292;NSSS&#65292;MIB&#65292;SIB1&#65292;SI&#20986;&#29616;&#30340;&#20301;&#32622;&#21644;&#39057;&#29575;&#65292;DL Gap&#20986;&#29616;&#30340;&#26102;&#26426;&#21644;&#25345;&#32493;&#30340;&#38271;&#24230;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="澄清检查NPDCCH是否在SS里面的原则" ID="ID_199458749" CREATED="1583389052585" MODIFIED="1583389251196">
+<icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;&#31639;&#27861;&#25991;&#26723;&#26469;&#30475;&#65292;&#20284;&#20046;&#22914;&#26524;&#24403;&#21069;&#35843;&#24230;&#30340;&#23376;&#24103;&#26159;&#22312;Search Space&#30340;&#24320;&#22836;&#65292;&#37027;&#20040;&#36825;&#20010;&#26102;&#38388;&#28857;&#26159;&#21512;&#36866;&#35843;&#24230;NPDCCH&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;Search Space&#37324;&#38754;&#26377;&#22909;&#20960;&#20010;&#21487;&#33021;&#23384;&#25918;NPDCCH&#30340;&#20301;&#32622;&#65292;&#19968;&#23450;&#35201;&#22312;Search Space&#30340;&#24320;&#22836;&#25165;&#31639;&#26159;valide&#30340;&#21527;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="澄清一下当前子帧上的调度操作是调度的具体哪个子帧" ID="ID_1692177340" CREATED="1583389263097" MODIFIED="1591172002419">
+<icon BUILTIN="yes"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      根据Xu Li提供的信息，在Redhawk中的调度也是提前调度的，并非在当前子帧直接调度当前子帧的传输。
+    </p>
+    <p>
+      这个需要跟Qi Qin再再次确认一下。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="确认一下计算上行Gain的场景" ID="ID_1809770746" CREATED="1585632046018" MODIFIED="1585632153844">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Msg3和NPUSCH Foramt2是肯定会用于计算并更新上行Gain的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么NPUSCH Format2呢？是否也会被eNB用于计算上行Gain?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="RedHawk学习" ID="ID_1768383805" CREATED="1583746046595" MODIFIED="1583746058687">
+<icon BUILTIN="list"/>
+<node TEXT="了解一下flow和flowpoint的概念" ID="ID_1502719039" CREATED="1583746067467" MODIFIED="1583827169407">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Redhawk&#20013;&#23384;&#22312;&#19968;&#20010;mainloop&#29992;&#25143;&#24490;&#29615;event queue,&#30452;&#33267;&#20223;&#30495;&#26102;&#38388;&#36229;&#36807;&#39044;&#35774;&#32622;&#30340;&#26102;&#38388;&#12290;
+    </p>
+    <p>
+      &#32780;&#22312;event queue&#20013;&#21448;&#23884;&#22871;&#20102;&#19968;&#20010;periodtask&#65292;&#36825;&#20010;task&#26159;&#27599;&#20010;TTI&#36229;&#26102;&#19968;&#27425;&#65292;&#36229;&#26102;&#20043;&#21518;&#36827;&#34892;&#29289;&#29702;&#20449;&#36947;&#30340;&#25509;&#25910;&#65292;&#29992;&#25143;&#30340;&#35843;&#24230;&#21644;&#29289;&#29702;&#20449;&#36947;&#30340;&#21457;&#36865;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#20010;&#32467;&#26500;&#26159;&#20160;&#20040;&#26679;&#30340;&#65292;&#36825;&#20010;periodtask&#26159;&#22914;&#20309;&#21608;&#26399;&#24615;&#30340;&#23884;&#20837;&#21040;event queue&#20013;&#30340;&#21602;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="了解一下统计中的CDF和PDF概念" ID="ID_511661455" CREATED="1583746303171" MODIFIED="1583746336924">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;Redhawk&#30340;&#21518;&#22788;&#29702;&#30011;&#22270;&#20013;&#20250;&#20986;&#29616;&#36825;&#20123;&#32479;&#35745;&#20998;&#24067;&#65292;&#38656;&#35201;&#20102;&#35299;&#19968;&#19979;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="了解一下Redhawk中的mainloop结构" ID="ID_1342779987" CREATED="1583827001974" MODIFIED="1583827027793">
+<icon BUILTIN="yes"/>
+</node>
+<node TEXT="了解一下debug的技巧" ID="ID_1723921092" CREATED="1585466642777" MODIFIED="1591164399519">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk的执行过程比较的复杂，需要找到一些好的技巧来更好的梳理redhawk的执行过程
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node TEXT="=textUtils.getText(&apos;freeplaneGTD.config.archiveDirName&apos;)" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1068479685" CREATED="1427225933330" MODIFIED="1528075750482">
+<node TEXT="=textUtils.getText(&apos;freeplaneGTD.config.archiveDirName&apos;)" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1068479685" CREATED="1427225933330" MODIFIED="1596506187140">
 <icon BUILTIN="folder"/>
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -1898,6 +1953,48 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="Msg2的TBS选择" ID="ID_638437271" CREATED="1586834246265" MODIFIED="1596506521709">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_70996630" STARTINCLINATION="500;0;" ENDINCLINATION="500;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      feature实现的过程中的逻辑是这样的：
+    </p>
+    <ol>
+      <li>
+        判断SC2594取值，如果取值为-1，则Msg2的MCS/SF使用LA方式来确定
+      </li>
+      <li>
+        如果SC2594取值非-1，则忽略它的实际取值，代码中hardcode 目标的MCS/SF值。
+      </li>
+      <li>
+        判断如果MR7798打开的话，那么使用新的MCS/SF参数组合，如果MR7798没有打开的话，沿用legacy的MCS/SF组合。
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      但是实现的时候有一个小的降低空口资源利用率的点没有考虑到:
+    </p>
+    <p>
+      如果判断MR7798打开的场合，实际上在某一个随机接入机会上并不需要发送BI值的时候，使用的TBS依然是和发送BI值的TBS一样的，这显然占据了其他下行信道的资源。
+    </p>
+    <p>
+      可以在代码中增加一个开关。在实际没有BI发送的情况下，Msg2的TBS还是回退到legacy的值。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-08-04" OBJECT="org.freeplane.features.format.FormattedDate|2020-08-04T10:02+0800|yyyy-MM-dd"/>
+</node>
 </node>
 <node TEXT="EBU产品优化" FOLDED="true" ID="ID_1607343060" CREATED="1531793219061" MODIFIED="1531793237191">
 <icon BUILTIN="list"/>
@@ -2239,7 +2336,7 @@
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="EBU系统改进申请Instant Award" FOLDED="true" ID="ID_1977903649" CREATED="1537942379641" MODIFIED="1557193205050">
+<node TEXT="EBU系统改进申请Instant Award" ID="ID_1977903649" CREATED="1537942379641" MODIFIED="1557193205050">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
@@ -2265,7 +2362,7 @@
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="【NPI】改进BTS对Radio Product Name的支持" ID="ID_1100971340" CREATED="1536548454857" MODIFIED="1557193206537">
+<node TEXT="【NPI】改进BTS对Radio Product Name的支持" ID="ID_1100971340" CREATED="1536548454857" MODIFIED="1596506187139">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="idea"/>
 <icon BUILTIN="button_ok"/>
@@ -2685,17 +2782,17 @@
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
 </node>
 </node>
-<node TEXT="NBIoT RRM算法研究" ID="ID_1653680626" CREATED="1582695620638" MODIFIED="1582696006366">
+<node TEXT="NBIoT RRM算法研究" FOLDED="true" ID="ID_1653680626" CREATED="1582695620638" MODIFIED="1582696006366">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="在NB-IoT RRM脑图里面整理一下计算NPRACH周期的算法" ID="ID_1706402300" CREATED="1583741044971" MODIFIED="1591172068229">
+<node TEXT="在NB-IoT RRM脑图里面整理一下计算NPRACH周期的算法" FOLDED="true" ID="ID_1706402300" CREATED="1583741044971" MODIFIED="1591172068229">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="75%"/>
 <icon BUILTIN="button_ok"/>
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T16:14+0800|yyyy-MM-dd"/>
 <node TEXT="未完成部分链接" ID="ID_1153964138" CREATED="1584005991346" MODIFIED="1584006005239" LINK="NB-IoT%20RRM.mm#ID_416994960"/>
 </node>
-<node TEXT="了解一下NB-IoT随机接入的多种场景" ID="ID_176141259" CREATED="1584002888834" MODIFIED="1591164572650">
+<node TEXT="了解一下NB-IoT随机接入的多种场景" FOLDED="true" ID="ID_176141259" CREATED="1584002888834" MODIFIED="1591164572650">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <richcontent TYPE="NOTE">
@@ -2719,7 +2816,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" POSITION="left" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1539668056662" LINK="#ID_867421423">
+<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="left" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1539668056662" LINK="#ID_867421423">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -2801,7 +2898,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
+<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
 <icon BUILTIN="edit"/>
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -3377,7 +3474,7 @@
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="改进收集Release内容的方式" ID="ID_573426668" CREATED="1519438572249" MODIFIED="1537929014499" LINK="#ID_1473383405">
+<node TEXT="改进收集Release内容的方式" ID="ID_573426668" CREATED="1519438572249" MODIFIED="1537929014499">
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
 </node>
@@ -3447,152 +3544,6 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="NBIoT RRM算法研究" ID="ID_193866899" CREATED="1582695620638" MODIFIED="1582696006366">
-<icon BUILTIN="list"/>
-<font NAME="SansSerif"/>
-<node TEXT="下行相关的特殊的子帧的复习" ID="ID_854422494" CREATED="1582695653840" MODIFIED="1582696190414" LINK="NB-IoT%20RRM.mm#ID_538044059">
-<icon BUILTIN="yes"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      NPSS&#65292;NSSS&#65292;MIB&#65292;SIB1&#65292;SI&#20986;&#29616;&#30340;&#20301;&#32622;&#21644;&#39057;&#29575;&#65292;DL Gap&#20986;&#29616;&#30340;&#26102;&#26426;&#21644;&#25345;&#32493;&#30340;&#38271;&#24230;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="澄清检查NPDCCH是否在SS里面的原则" ID="ID_199458749" CREATED="1583389052585" MODIFIED="1583389251196">
-<icon BUILTIN="yes"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#20174;&#31639;&#27861;&#25991;&#26723;&#26469;&#30475;&#65292;&#20284;&#20046;&#22914;&#26524;&#24403;&#21069;&#35843;&#24230;&#30340;&#23376;&#24103;&#26159;&#22312;Search Space&#30340;&#24320;&#22836;&#65292;&#37027;&#20040;&#36825;&#20010;&#26102;&#38388;&#28857;&#26159;&#21512;&#36866;&#35843;&#24230;NPDCCH&#12290;
-    </p>
-    <p>
-      &#20294;&#26159;Search Space&#37324;&#38754;&#26377;&#22909;&#20960;&#20010;&#21487;&#33021;&#23384;&#25918;NPDCCH&#30340;&#20301;&#32622;&#65292;&#19968;&#23450;&#35201;&#22312;Search Space&#30340;&#24320;&#22836;&#25165;&#31639;&#26159;valide&#30340;&#21527;&#65311;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="澄清一下当前子帧上的调度操作是调度的具体哪个子帧" ID="ID_1692177340" CREATED="1583389263097" MODIFIED="1591172002419">
-<icon BUILTIN="yes"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      根据Xu Li提供的信息，在Redhawk中的调度也是提前调度的，并非在当前子帧直接调度当前子帧的传输。
-    </p>
-    <p>
-      这个需要跟Qi Qin再再次确认一下。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="确认一下计算上行Gain的场景" ID="ID_1809770746" CREATED="1585632046018" MODIFIED="1585632153844">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Msg3和NPUSCH Foramt2是肯定会用于计算并更新上行Gain的。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      那么NPUSCH Format2呢？是否也会被eNB用于计算上行Gain?
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="RedHawk学习" ID="ID_1768383805" CREATED="1583746046595" MODIFIED="1583746058687">
-<icon BUILTIN="list"/>
-<node TEXT="了解一下flow和flowpoint的概念" ID="ID_1502719039" CREATED="1583746067467" MODIFIED="1583827169407">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Redhawk&#20013;&#23384;&#22312;&#19968;&#20010;mainloop&#29992;&#25143;&#24490;&#29615;event queue,&#30452;&#33267;&#20223;&#30495;&#26102;&#38388;&#36229;&#36807;&#39044;&#35774;&#32622;&#30340;&#26102;&#38388;&#12290;
-    </p>
-    <p>
-      &#32780;&#22312;event queue&#20013;&#21448;&#23884;&#22871;&#20102;&#19968;&#20010;periodtask&#65292;&#36825;&#20010;task&#26159;&#27599;&#20010;TTI&#36229;&#26102;&#19968;&#27425;&#65292;&#36229;&#26102;&#20043;&#21518;&#36827;&#34892;&#29289;&#29702;&#20449;&#36947;&#30340;&#25509;&#25910;&#65292;&#29992;&#25143;&#30340;&#35843;&#24230;&#21644;&#29289;&#29702;&#20449;&#36947;&#30340;&#21457;&#36865;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#36825;&#20010;&#32467;&#26500;&#26159;&#20160;&#20040;&#26679;&#30340;&#65292;&#36825;&#20010;periodtask&#26159;&#22914;&#20309;&#21608;&#26399;&#24615;&#30340;&#23884;&#20837;&#21040;event queue&#20013;&#30340;&#21602;&#65311;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="了解一下统计中的CDF和PDF概念" ID="ID_511661455" CREATED="1583746303171" MODIFIED="1583746336924">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#22312;Redhawk&#30340;&#21518;&#22788;&#29702;&#30011;&#22270;&#20013;&#20250;&#20986;&#29616;&#36825;&#20123;&#32479;&#35745;&#20998;&#24067;&#65292;&#38656;&#35201;&#20102;&#35299;&#19968;&#19979;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="了解一下Redhawk中的mainloop结构" ID="ID_1342779987" CREATED="1583827001974" MODIFIED="1583827027793">
-<icon BUILTIN="yes"/>
-</node>
-<node TEXT="了解一下debug的技巧" ID="ID_1723921092" CREATED="1585466642777" MODIFIED="1591164399519">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      redhawk的执行过程比较的复杂，需要找到一些好的技巧来更好的梳理redhawk的执行过程
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
 <node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
@@ -3749,15 +3700,24 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="ESS Workshop过完" ID="ID_1412617310" CREATED="1596505798010" MODIFIED="1596505832554">
+<icon BUILTIN="yes"/>
+<attribute NAME="When" VALUE="this week"/>
+</node>
+<node TEXT="CA的PPT过完" ID="ID_502875147" CREATED="1596505847129" MODIFIED="1596505864382">
+<icon BUILTIN="yes"/>
+<attribute NAME="When" VALUE="this week"/>
+</node>
+<node TEXT="更新5G培训的小结到Anki中" ID="ID_897964262" CREATED="1596506285515" MODIFIED="1596506336050">
+<icon BUILTIN="yes"/>
+<attribute NAME="When" VALUE="this week"/>
+</node>
 </node>
 <node TEXT="BLD项目" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
 <icon BUILTIN="list"/>
-</node>
-<node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
-<icon BUILTIN="list"/>
-<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1585036465461">
+<node TEXT="编译系统" ID="ID_1526691709" CREATED="1596505674431" MODIFIED="1596505677476">
+<node TEXT="研究一下menuconfig机制" ID="ID_654729734" CREATED="1596505515478" MODIFIED="1596505670386">
 <icon BUILTIN="yes"/>
-<font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -3766,12 +3726,29 @@
   </head>
   <body>
     <p>
-      了解一下如何获取ipv6地址
+      在BLD中想使用cJSON库来做数据的编解码。发现需要在menuconfig中选中cJSON库。
+    </p>
+    <p>
+      但是即使选中了这个库，依然在链接的时候找不到cJSON库，同时也找不到头文件。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要了解 一下，使用menuconfig添加一些配置参数的时候，如何需要如何特定的函数库的地址以及头文件的地址的。
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
+<node TEXT="研究一下CMAKE机制" ID="ID_573359454" CREATED="1596505682235" MODIFIED="1596505691740">
+<icon BUILTIN="yes"/>
+</node>
+</node>
+</node>
+<node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
+<icon BUILTIN="list"/>
 <node TEXT="relative/absolute hyperlink之间互相转换的脚本" ID="ID_698348921" CREATED="1585036466863" MODIFIED="1591164399530">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -3831,46 +3808,6 @@
   <body>
     <p>
       NB-IoT&#30340;&#23454;&#29616;&#20013;&#65292;&#36719;&#21512;&#24182;&#30340;&#26041;&#26696;&#26159;&#30452;&#25509;&#21472;&#21152;&#12290;&#26159;&#21542;&#26377;&#22909;&#30340;&#26041;&#26696;&#33021;&#22815;&#20248;&#21270;&#36825;&#20010;&#36807;&#31243;&#65292;&#25552;&#39640;&#35299;&#30721;&#30340;&#25104;&#21151;&#29575;&#65311;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Msg2的TBS选择" ID="ID_638437271" CREATED="1586834246265" MODIFIED="1586834868115">
-<icon BUILTIN="yes"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_70996630" STARTINCLINATION="500;0;" ENDINCLINATION="500;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      feature实现的过程中的逻辑是这样的：
-    </p>
-    <ol>
-      <li>
-        判断SC2594取值，如果取值为-1，则Msg2的MCS/SF使用LA方式来确定
-      </li>
-      <li>
-        如果SC2594取值非-1，则忽略它的实际取值，代码中hardcode 目标的MCS/SF值。
-      </li>
-      <li>
-        判断如果MR7798打开的话，那么使用新的MCS/SF参数组合，如果MR7798没有打开的话，沿用legacy的MCS/SF组合。
-      </li>
-    </ol>
-    <p>
-      
-    </p>
-    <p>
-      但是实现的时候有一个小的降低空口资源利用率的点没有考虑到:
-    </p>
-    <p>
-      如果判断MR7798打开的场合，实际上在某一个随机接入机会上并不需要发送BI值的时候，使用的TBS依然是和发送BI值的TBS一样的，这显然占据了其他下行信道的资源。
-    </p>
-    <p>
-      可以在代码中增加一个开关。在实际没有BI发送的情况下，Msg2的TBS还是回退到legacy的值。
     </p>
   </body>
 </html>

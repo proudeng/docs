@@ -4173,6 +4173,694 @@
 </node>
 <node TEXT="UE是如何能够区分开来混杂在一起的多层的数据的？" ID="ID_389043092" CREATED="1550713534695" MODIFIED="1550713559703"/>
 </node>
+<node TEXT="FeatureParity" POSITION="right" ID="ID_1599112579" CREATED="1594086580790" MODIFIED="1594087420467">
+<edge COLOR="#7c007c"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LTE的feature开发的时候，需要做一些与其他的相关产品的交互的分析，这些产品包括AAS(TDD和FDD)，ESS，EN-DC，还有G3平台。
+    </p>
+    <p>
+      这些交互分析的工作会落在4G CA的头上，所以需要提前对这些产品做一些了解。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="AAS" ID="ID_884710953" CREATED="1594086595259" MODIFIED="1594086598246">
+<node TEXT="TDD" ID="ID_1369445364" CREATED="1594087014354" MODIFIED="1594087016003">
+<node TEXT="sharepoint" ID="ID_1414356724" CREATED="1594087047866" MODIFIED="1594087114923" LINK="https://ericsson.sharepoint.com/:p:/r/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared%20Documents/LMBB%20CA/03%20LMBB%20Feature%20Parity%20Analysis/05%20AAS%20Feature%20Parity/LTE%20TDD%20AAS%20Learning%20List%20-%20for%20knowledge%20sharing.pptx?d=wfecf7960777848d095379df54f4db92d&amp;csf=1&amp;web=1&amp;e=q6GxzT"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      some guideline for this slide:
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;Page 2-5: just overall for AAS TDD concept and SW structure
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;Page-6: journey of AAS TDD features/MR/SPs, of course several features are for configuration, like 6468/6488/3239 LTE supporting; existed feature parity like 256QAM and regular feature parity analysis, and new configuration like split mode etc
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;Page-7 for feature dependency, while better to see Page-8 which is for basic AAS TDD features.
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;Page-9 for basic AAS concept, better to learn more from other sources, it’s easy to search more in Google or Ericsson play etc
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;You can also get all features from Wiki in page-9
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;Better to study NDSs list in page-10. Generally it’s enough for feature interaction analysis.
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;Algorithm is also useful, while this needs to long time to understand all algorithm. while if you are already familiar with LTE algorithm, then it’s easy since no big different with legacy LTE.
+    </p>
+    <p>
+      -&nbsp;&nbsp;&nbsp;&nbsp;Page-12 is feature parity/interaction guideline. May this is main interesting for all.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="FDD" ID="ID_1263385862" CREATED="1594087016371" MODIFIED="1594087017843">
+<node TEXT="sharepoint" ID="ID_1889400679" CREATED="1594087054083" MODIFIED="1594087125537" LINK="https://ericsson.sharepoint.com/sites/FDDAASCA/Shared%20Documents/Forms/AllItems.aspx?viewid=c90d7842%252Ddf77%252D4eeb%252D814d%252D4fa69c120c69&amp;id=%252Fsites%252FFDDAASCA%252FShared%2520Documents%252FLTE%2520FDD%2520AAS%2520Knowledge%2520Transfer"/>
+</node>
+<node TEXT="入门介绍" ID="ID_875140041" CREATED="1594087262033" MODIFIED="1594087266820">
+<node TEXT="Introduction" ID="ID_1866168354" CREATED="1594087176602" MODIFIED="1594087186447" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;e=NuJTZ2&amp;cid=e430b498%252D32cc%252D4a4a%252Dbb7e%252D20c52aaf15e6&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FAAS%252F0%2520%252D%2520AAS%2520Common%252FAAS%2520TDD%2520introduction%2520and%2520roadmap%252D2019"/>
+<node TEXT="ConceptStudyReport" ID="ID_1292804451" CREATED="1594087277009" MODIFIED="1594087297591" LINK="https://ericsson.sharepoint.com/:w:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/System/Massive%20MIMO/5G%20technical%20descriptionwhite%20paper.docx?d=w3a579d37aafb419aaee68f914332deb9&amp;csf=1&amp;web=1&amp;e=pKc2KE"/>
+</node>
+<node TEXT="DiscussionBoard" ID="ID_286621792" CREATED="1594087213210" MODIFIED="1594087230092" LINK="https://ericsson.sharepoint.com/:p:/r/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared%20Documents/LMBB%20CA/03%20LMBB%20Feature%20Parity%20Analysis/Discussion%20Board%20in%20CA%20MBB%20SharePoint.pptx?d=w910d811018ac4e24b2ad5641da9de25a&amp;csf=1&amp;web=1&amp;e=ACtM1P"/>
+</node>
+<node TEXT="ESS" ID="ID_1065708844" CREATED="1594086598531" MODIFIED="1594086601478">
+<node TEXT="ESS CPI" ID="ID_1761035173" CREATED="1594087608244" MODIFIED="1594087622943" LINK="http://cpistore.internal.ericsson.com/elex?LI=EN/LZN7931065R2J"/>
+<node TEXT="Training PPT&amp;Video" ID="ID_408179379" CREATED="1594088323226" MODIFIED="1594707209762" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;web=1&amp;e=la0XAO&amp;cid=9e5812bd%2Dec43%2D42a7%2Db70b%2D36dd3669733e&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FESS%2F2020%20Training%20Series&amp;viewid=1495d840%2Dbff8%2D4802%2D9a66%2D3c7720997037"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      目前支持的ESS只限于FDD和EN-DC条件下的频谱共享。TDD的ESS还在研究，SA NR与LTE的ESS也还在研究阶段。ESS功能目前还不支持AAS
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="UL Scheduling" ID="ID_1957917312" CREATED="1595477610915" MODIFIED="1595477615672">
+<node TEXT="Status" ID="ID_294072098" CREATED="1595478241251" MODIFIED="1595478421266"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1，
+    </p>
+    <p>
+      支持的天线个数目前只是2TX和4TX天线
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      支持的带宽是10，15，20M带宽
+    </p>
+    <p>
+      3，
+    </p>
+    <p>
+      NR的UE需要是R15.4以上的UE，这些UE能够识别LTE的参考信号的位置，传输数据的时候做Rate Matching的时候会绕开这些RE，同时UE在解的时候也能绕开这些RE
+    </p>
+    <p>
+      4，
+    </p>
+    <p>
+      只支持小区是single sector carrier的配置。
+    </p>
+    <p>
+      5，
+    </p>
+    <p>
+      目前只支持NSA组网，SA的组网还在研究中。
+    </p>
+    <p>
+      6，
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="不支持的特性" ID="ID_351723136" CREATED="1595478423003" MODIFIED="1595478461962"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TDD
+    </p>
+    <p>
+      RDS
+    </p>
+    <p>
+      LAA
+    </p>
+    <p>
+      AAS
+    </p>
+    <p>
+      Cat-M
+    </p>
+    <p>
+      NB-IoT
+    </p>
+    <p>
+      eMBMS
+    </p>
+    <p>
+      energy saving
+    </p>
+    <p>
+      SRS
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="E5隧道" ID="ID_1579904312" CREATED="1595480344307" MODIFIED="1595480546603"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      目前ESS这个feature需要工作在特定的同一个DU上，2个EMCA给LTE用，2个EMCA给NR用。ESS这个feature是在这同一个DU上的不同的EMCA之间建立的Pair
+    </p>
+    <p>
+      目前一个DU上最多支持建立4个ESS Pair
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      NR和LTE之间需要交互各自的系统配置。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Resource Reservation/Feedback" ID="ID_1039032739" CREATED="1595480527939" MODIFIED="1595512499508"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在LTE的BB中实现了一个叫做Arbitrator的新模块，这个模块每个TTI会从NR和LTE的调度器中获取调度的SR(Schedulign Request)个数。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="ESS Band" ID="ID_627040198" CREATED="1595484379967" MODIFIED="1595484877462"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      为了在同时调度LTE和NR时，能够相对公平的进行调度。使用了这个ESS band的概念。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所谓ESS band，其实就是将LTE和NR中的所有的SE，分为了几类。优先级最高的那些SE被归为了band 1.依次类推。
+    </p>
+    <p>
+      在Arbitrator分配带宽的时候，优先为在band1中的SE分配资源。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      最先的时候系统中有四个band，后来为了NR的功能不受LTE太大的影响，将band1拆分为了三个band，得到了总共的6个band
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Arbitrator" ID="ID_1686879862" CREATED="1595485032626" MODIFIED="1595485035906">
+<node TEXT="每个TTI操作" ID="ID_1693376058" CREATED="1595485291091" MODIFIED="1595485296995">
+<node TEXT="Step1.Check Sfn/TTI index" ID="ID_1343397432" CREATED="1595485051185" MODIFIED="1595485196011">
+<icon BUILTIN="full-1"/>
+</node>
+<node TEXT="Step2.Reserve Resources for periodic and synchronous signals" ID="ID_197133560" CREATED="1595485064473" MODIFIED="1595485199642">
+<icon BUILTIN="full-2"/>
+<node TEXT="default PRACH config" ID="ID_1573922668" CREATED="1595485732634" MODIFIED="1595485737836"/>
+<node TEXT="Non-default PRACH config" ID="ID_1574089955" CREATED="1595485738203" MODIFIED="1595485744232"/>
+</node>
+<node TEXT="Step3.Feedback signal from LTE and NR schedulers" ID="ID_1285869953" CREATED="1595485100929" MODIFIED="1595485202194">
+<icon BUILTIN="full-3"/>
+</node>
+<node TEXT="Step4.Check LTE CFI requirements" ID="ID_1600341671" CREATED="1595485119801" MODIFIED="1595485204582">
+<icon BUILTIN="full-4"/>
+</node>
+<node TEXT="Step5.Resource allocation fro K2=6" ID="ID_168089945" CREATED="1595485137073" MODIFIED="1595512894022">
+<icon BUILTIN="full-5"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      K2=6只给LTE的Msg3使用,而且对于Msg3来说，分配的PRB是固定位置的三个PRB，这三个PRB如果在某时刻不用于传输Msg3的时候，那么可以给NR的PUSCH使用。
+    </p>
+    <p>
+      K2=4是LTE的normal PUSCH使用，以及NR的Msg3
+    </p>
+    <p>
+      K2=2是NR的normal PUSCH
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Step6.Resrouce allocation for K2=4 and K2=2" ID="ID_1354547488" CREATED="1595485152769" MODIFIED="1595515600320">
+<icon BUILTIN="full-6"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里所做的操作时分配LTE的K2=4的PUSCH，以及NR的K2=4加上K2=2的PUSCH分配。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的是，这里是如何同时处理NR的K2=2和K2=4的？
+    </p>
+    <p>
+      如果Arb的操作的TTI是N，
+    </p>
+    <p>
+      那么NR的K2=4的PDCCH是在<font color="#ff0000"><b>N+3</b></font>，它的PUSCH是出现在<font color="#ff0000"><b>N+7</b></font>
+    </p>
+    <p>
+      那么NR的K2=2的PDCCH是出现在<font color="#ff0000"><b>K+5</b></font>，它的PUSCH是出现在<font color="#ff0000"><b>N+7 </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      可知，处理的方法是将PUSCH放置在同一个TTI中，而移动PDCCH的位置。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Step7.Resrouce allocation for K2=2" ID="ID_1691672751" CREATED="1595485163314" MODIFIED="1595485213141">
+<icon BUILTIN="full-7"/>
+</node>
+</node>
+<node TEXT="DL Frame Periodicity" ID="ID_1890565264" CREATED="1595485351986" MODIFIED="1595485575684"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在NSA组网情况下，每40ms会有三个子帧被配置为MBSFN，分配方式是2子帧+1子帧，其中后面的一个子帧距离前面的两个子帧20ms，在这三个子帧中LTE不会传任何信号，这三个子帧能够用于传递NR的SSB（一般NR的SSB周期就是配置为20ms，所以这个三个MBSFN结构恰好能够用于周期性的传输SSB）
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="一些消息" ID="ID_218419330" CREATED="1595512503714" MODIFIED="1595512506394">
+<node TEXT="Arbitrator接收的消息" ID="ID_798206585" CREATED="1595513906951" MODIFIED="1595555391539"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arbitriutor需要从调度器得到的反馈实际上主要是在当前TTI之前被分配的资源以及PUSCH的接收ACK/NACK结果。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ACK/NACK会影响资源的分配主要是由于非自适应重传的存在，在这种模式下，重传的PUSCH必须占用与之前初传的PUSCH同样的时频域资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="LteRequiredUlPrbs(b,n,n+9)" ID="ID_232147383" CREATED="1595512514389" MODIFIED="1595557845846"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个信息是调度器告诉Arb，要求分配多少个PRB
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      调度器是怎么计算需要多少个PRB的？
+    </p>
+    <p>
+      实际上计算的规则也很简单，就是根据当前BSR的比特数，然后根据信道质量计算出来每个RE上能够传输的比特数，再除以每个PRB包含的RE数。
+    </p>
+    <p>
+      这样子的话，就能够粗略的估计出需要多少个PRB，发送给Arb。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个requirement是分band的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="LteAllocatedUlPrbs(n-9, n-1)" ID="ID_1490350408" CREATED="1595514907757" MODIFIED="1595557931763"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个消息传递的是在TTI N的Arbitrator工作时，TTI N之前已经被分配的PUSCH的信息。
+    </p>
+    <p>
+      这些消息主要是用于预留非自适应重传的那些PRB。
+    </p>
+    <p>
+      在某个TTI的Arbitrator工作时，需要参考此TTI之前被调度的PUSCH，因为这些PUSCH可能会接收失败，从而导致重传。
+    </p>
+    <p>
+      如果重传是非自适应重传的话，那么重传时的PRB必须使用跟初传一样的PRB，这就会有可能引入冲突，因为新的PUSCH调度并不是随意的，必须把这个非自适应重传的PRBs给避开。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这里的参数需要注意，比如说这里的n-9和n-1分别表示的是在n-9这个TTI调度的在TTI n-1时刻传输的PUSCH
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="nrRequiredUlPrbs(b,n,n+7)" ID="ID_1576354686" CREATED="1595558012411" MODIFIED="1595558085708"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个消息表示nr预估的K2=4的PUSCH需要的PRB资源。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个消息也是分band的
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Arbitrator输出消息" ID="ID_1724164416" CREATED="1595513918936" MODIFIED="1595513924225">
+<node TEXT="LteAssignedUlPrbsGeneral(n+9)" ID="ID_1516175943" CREATED="1595513975390" MODIFIED="1595517068383"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这表示Arb给TTI n+9分配的带宽大小，表示LTE<font color="#ff0000">新传</font>数据分配的带宽大小。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      它是一个表征PRB集的bitmap
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="LteAssignedUlPrbsRetx(n+9)" ID="ID_66214488" CREATED="1595515664326" MODIFIED="1595517077580"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这表示给LTE<font color="#ff0000">非自适应重传</font>在TTI n+9预留的带宽大小。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      它是一个表征PRB集的bitmap
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="nrAssignedUlPrbs(n+9)" ID="ID_1756865293" CREATED="1595515690283" MODIFIED="1595516106733"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      表示给NR在TTI n+9分配的带宽大小。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      它是一个表征PRB集的Bitmap
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="DL Scheduling" ID="ID_986835458" CREATED="1595477684136" MODIFIED="1595477688195">
+<node TEXT="Arb与调度器之间的交互" ID="ID_693469193" CREATED="1595559098946" MODIFIED="1595559109878">
+<node TEXT="Arbitrator接收的消息" ID="ID_178960256" CREATED="1595559129962" MODIFIED="1595559131644">
+<node TEXT="Pdsch_Feedback" ID="ID_1998046499" CREATED="1595559135714" MODIFIED="1595559556681"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里表示的是，调度器告诉Abr此时等待被调度的DLSR所需要的PRB的个数。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Pdcch_ul_Feedback" ID="ID_1309555448" CREATED="1595559144322" MODIFIED="1595559650420"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      表示因为PDCCH短缺从而PUSCH调度失败的ULSR个数。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Pdcch_dl_Feedback" ID="ID_283583114" CREATED="1595559209192" MODIFIED="1595559670849"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      表示由于PDCCH短缺导致DLSR调度失败的个数。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="pusch Allocation" ID="ID_1806959157" CREATED="1595560032996" MODIFIED="1595560097755"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LTE的调度器通过这个消息告诉Arb，pusch的调度是否使用率足够高。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="nr_Feedback" ID="ID_404640264" CREATED="1595559167274" MODIFIED="1595559173299"/>
+<node TEXT="Release Resrouce" ID="ID_766848327" CREATED="1595559355888" MODIFIED="1595559457128"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NR和LTE的调度器结束的时间点是不一样的，NR在TTI N中调度完成之后，可能会发现分配给自己的资源不需要用完，这时候，如果LTE的调度还没有结束的话，那么可以通过这个消息将资源释放给LTE，如果这个消息足够及时的话，那么LTE的调度器还能够再次使用这些被释放的资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Arbitrator发送出去的消息" ID="ID_249710938" CREATED="1595559762734" MODIFIED="1595559770527">
+<node TEXT="LteAssignedDlPrb()" ID="ID_542572677" CREATED="1595559816422" MODIFIED="1595559829590"/>
+<node TEXT="nrAssignedDlPrb()" ID="ID_434924715" CREATED="1595559835980" MODIFIED="1595559843471"/>
+<node TEXT="releasedDlPrbs(n)" ID="ID_144827292" CREATED="1595559914189" MODIFIED="1595560218607"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      发送给LTE，表示NR它release出来的不用的资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="lteCfiMax(n+3)" ID="ID_1446249408" CREATED="1595559937804" MODIFIED="1595559972828"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      决定在 TTI N+3 的时候的CFI的值
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="PHY" ID="ID_1040843535" CREATED="1595477688447" MODIFIED="1595477689634"/>
+</node>
+</node>
+<node TEXT="G3" ID="ID_329609482" CREATED="1594086601851" MODIFIED="1594086606764">
+<node TEXT="资料库" ID="ID_1914014803" CREATED="1594088283125" MODIFIED="1594088291501">
+<node TEXT="G3ParityRampUp" ID="ID_620209290" CREATED="1594087740860" MODIFIED="1594087832638" LINK="../attachment/G3%20feature%20parity%20ramp%20up.msg"/>
+<node TEXT="workshop" ID="ID_1998368708" CREATED="1594365299047" MODIFIED="1594365303808">
+<node TEXT="session1" ID="ID_784184351" CREATED="1594365306144" MODIFIED="1594365353711"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Here is the material <u><span style="color: #0563C1"><font color="#0563C1"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc3f8b8f2?docno=BNEW-20:005314Uen&amp;action=current&amp;format=msw12">G3 MBB Guideline </a></font></span></u>.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &nbsp;</o>
+    </p>
+    <p class="MsoNormal">
+      And Video has been upload to <a href="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;web=1&amp;e=la0XAO&amp;cid=9e5812bd%2Dec43%2D42a7%2Db70b%2D36dd3669733e&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;viewid=1495d840%2Dbff8%2D4802%2D9a66%2D3c7720997037&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FG3">this folder</a>. <o p="#DEFAULT"></o>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="EN-DC" ID="ID_486034073" CREATED="1594086614115" MODIFIED="1594086617036">
+<node TEXT="系列培训" ID="ID_1773469986" CREATED="1596014934511" MODIFIED="1596014944735">
+<node TEXT="Session1" ID="ID_1163821977" CREATED="1596014946404" MODIFIED="1596014991474"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      录频地址：
+    </p>
+    <p>
+      https://web.microsoftstream.com/video/5b0fbf42-830f-4678-bfca-3f20a8502bd4
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PPT地址:
+    </p>
+    <p>
+      https://ericsson.sharepoint.com/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2Fradio%5F01%2Fsystems%2FEarly%5FPhase%5FPrograms%2FLRAN%2FCA%5FMBB%2FShared%20Documents%2FLMBB%20CA%2F03%20LMBB%20Feature%20Parity%20Analysis%2F02%20EN%2DDC%20Feature%20Parity%2Ftraining%20material%28prepare%20ongoing%29&amp;viewid=fc5c6263%2D5fa4%2D4923%2Da2b6%2Dc6fd70417c8c
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Carrier Aggregation" ID="ID_1311593556" CREATED="1596525260131" MODIFIED="1596525304910"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LTE载波聚合，有时候分析feature的影响的时候，也需要考虑对载波聚合的影响。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="载波聚合介绍PPT" ID="ID_1894658066" CREATED="1596525309960" MODIFIED="1596525375350" LINK="../../../Users/edenjun/Desktop/LTE/Carrier_Aggregation_PA3.ppt"/>
+</node>
+<node TEXT="资料库" ID="ID_1830796088" CREATED="1594087735083" MODIFIED="1594087738388">
+<node TEXT="GeneralSelfLearningMaterials" ID="ID_424540999" CREATED="1594087847004" MODIFIED="1594087920904" LINK="../attachment/G3ENDCESSAAS%20feature%20parity%20materials%20for%20self%20reading.msg"/>
+</node>
+</node>
 <node TEXT="开发任务" POSITION="right" ID="ID_1493467292" CREATED="1551062440300" MODIFIED="1594800902800">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
@@ -7031,7 +7719,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Template" ID="ID_1701234495" CREATED="1594793734853" MODIFIED="1594793855524"><richcontent TYPE="NOTE">
+<node TEXT="Template" ID="ID_1701234495" CREATED="1594793734853" MODIFIED="1596419943206"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7094,9 +7782,6 @@
     </p>
     <p class="MsoNormal">
       https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc3cded70?docno=BNEW-20:003065Uen&amp;action=approved&amp;format=ppt12
-    </p>
-    <p class="MsoNormal">
-      
     </p>
   </body>
 </html>
@@ -7858,12 +8543,12 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -9133,8 +9818,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
@@ -13094,7 +13779,7 @@
 <node TEXT="ULMA VS Hermes" ID="ID_1342429802" CREATED="1546514201440" MODIFIED="1546514285565" LINK="../attachment/ULMAVSHermes_1546514236715.png"/>
 </node>
 </node>
-<node TEXT="BB OS LPP" FOLDED="true" ID="ID_1305979188" CREATED="1547087517962" MODIFIED="1547090100923">
+<node TEXT="BB OS LPP" FOLDED="true" ID="ID_1305979188" CREATED="1547087517962" MODIFIED="1596530915349">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -13110,12 +13795,13 @@
       
     </p>
     <p>
-      &#38750;&#24120;&#31867;&#20284;&#20110;OSE
+      非常类似于OSE
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="支持硬件" FOLDED="true" ID="ID_1388012188" CREATED="1547087801355" MODIFIED="1547088598164"><richcontent TYPE="NOTE">
+<node TEXT="支持硬件" FOLDED="true" ID="ID_1388012188" CREATED="1547087801355" MODIFIED="1596530920865"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -13123,10 +13809,11 @@
   </head>
   <body>
     <p>
-      &#27599;&#20010;ASIC&#37324;&#38754;&#30340;DSP&#20998;&#22823;&#23567;DSP&#65292; &#21306;&#21035;&#26159;LDM&#21644;LPM&#30340;&#22823;&#23567;&#19981;&#19968;&#26679;
+      每个ASIC里面的DSP分大小DSP， 区别是LDM和LPM的大小不一样
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="ASIC" ID="ID_735516436" CREATED="1547089481012" MODIFIED="1547089484901">
 <node TEXT="ULMA" ID="ID_1207234338" CREATED="1547088599894" MODIFIED="1547088603041"/>
@@ -18223,679 +18910,6 @@
 <node TEXT="\latex ${\frac{a}{b}}" ID="ID_371153445" CREATED="1573464851577" MODIFIED="1573464891743">
 <font SIZE="14"/>
 </node>
-</node>
-</node>
-<node TEXT="FeatureParity" POSITION="right" ID="ID_1599112579" CREATED="1594086580790" MODIFIED="1594087420467">
-<edge COLOR="#7c007c"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      LTE的feature开发的时候，需要做一些与其他的相关产品的交互的分析，这些产品包括AAS(TDD和FDD)，ESS，EN-DC，还有G3平台。
-    </p>
-    <p>
-      这些交互分析的工作会落在4G CA的头上，所以需要提前对这些产品做一些了解。
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="AAS" ID="ID_884710953" CREATED="1594086595259" MODIFIED="1594086598246">
-<node TEXT="TDD" ID="ID_1369445364" CREATED="1594087014354" MODIFIED="1594087016003">
-<node TEXT="sharepoint" ID="ID_1414356724" CREATED="1594087047866" MODIFIED="1594087114923" LINK="https://ericsson.sharepoint.com/:p:/r/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared%20Documents/LMBB%20CA/03%20LMBB%20Feature%20Parity%20Analysis/05%20AAS%20Feature%20Parity/LTE%20TDD%20AAS%20Learning%20List%20-%20for%20knowledge%20sharing.pptx?d=wfecf7960777848d095379df54f4db92d&amp;csf=1&amp;web=1&amp;e=q6GxzT"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      some guideline for this slide:
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;Page 2-5: just overall for AAS TDD concept and SW structure
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;Page-6: journey of AAS TDD features/MR/SPs, of course several features are for configuration, like 6468/6488/3239 LTE supporting; existed feature parity like 256QAM and regular feature parity analysis, and new configuration like split mode etc
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;Page-7 for feature dependency, while better to see Page-8 which is for basic AAS TDD features.
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;Page-9 for basic AAS concept, better to learn more from other sources, it’s easy to search more in Google or Ericsson play etc
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;You can also get all features from Wiki in page-9
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;Better to study NDSs list in page-10. Generally it’s enough for feature interaction analysis.
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;Algorithm is also useful, while this needs to long time to understand all algorithm. while if you are already familiar with LTE algorithm, then it’s easy since no big different with legacy LTE.
-    </p>
-    <p>
-      -&nbsp;&nbsp;&nbsp;&nbsp;Page-12 is feature parity/interaction guideline. May this is main interesting for all.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="FDD" ID="ID_1263385862" CREATED="1594087016371" MODIFIED="1594087017843">
-<node TEXT="sharepoint" ID="ID_1889400679" CREATED="1594087054083" MODIFIED="1594087125537" LINK="https://ericsson.sharepoint.com/sites/FDDAASCA/Shared%20Documents/Forms/AllItems.aspx?viewid=c90d7842%252Ddf77%252D4eeb%252D814d%252D4fa69c120c69&amp;id=%252Fsites%252FFDDAASCA%252FShared%2520Documents%252FLTE%2520FDD%2520AAS%2520Knowledge%2520Transfer"/>
-</node>
-<node TEXT="入门介绍" ID="ID_875140041" CREATED="1594087262033" MODIFIED="1594087266820">
-<node TEXT="Introduction" ID="ID_1866168354" CREATED="1594087176602" MODIFIED="1594087186447" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;e=NuJTZ2&amp;cid=e430b498%252D32cc%252D4a4a%252Dbb7e%252D20c52aaf15e6&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FAAS%252F0%2520%252D%2520AAS%2520Common%252FAAS%2520TDD%2520introduction%2520and%2520roadmap%252D2019"/>
-<node TEXT="ConceptStudyReport" ID="ID_1292804451" CREATED="1594087277009" MODIFIED="1594087297591" LINK="https://ericsson.sharepoint.com/:w:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/System/Massive%20MIMO/5G%20technical%20descriptionwhite%20paper.docx?d=w3a579d37aafb419aaee68f914332deb9&amp;csf=1&amp;web=1&amp;e=pKc2KE"/>
-</node>
-<node TEXT="DiscussionBoard" ID="ID_286621792" CREATED="1594087213210" MODIFIED="1594087230092" LINK="https://ericsson.sharepoint.com/:p:/r/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared%20Documents/LMBB%20CA/03%20LMBB%20Feature%20Parity%20Analysis/Discussion%20Board%20in%20CA%20MBB%20SharePoint.pptx?d=w910d811018ac4e24b2ad5641da9de25a&amp;csf=1&amp;web=1&amp;e=ACtM1P"/>
-</node>
-<node TEXT="ESS" ID="ID_1065708844" CREATED="1594086598531" MODIFIED="1594086601478">
-<node TEXT="ESS CPI" ID="ID_1761035173" CREATED="1594087608244" MODIFIED="1594087622943" LINK="http://cpistore.internal.ericsson.com/elex?LI=EN/LZN7931065R2J"/>
-<node TEXT="Training PPT&amp;Video" ID="ID_408179379" CREATED="1594088323226" MODIFIED="1594707209762" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;web=1&amp;e=la0XAO&amp;cid=9e5812bd%2Dec43%2D42a7%2Db70b%2D36dd3669733e&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FESS%2F2020%20Training%20Series&amp;viewid=1495d840%2Dbff8%2D4802%2D9a66%2D3c7720997037"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      目前支持的ESS只限于FDD和EN-DC条件下的频谱共享。TDD的ESS还在研究，SA NR与LTE的ESS也还在研究阶段。ESS功能目前还不支持AAS
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="UL Scheduling" ID="ID_1957917312" CREATED="1595477610915" MODIFIED="1595477615672">
-<node TEXT="Status" ID="ID_294072098" CREATED="1595478241251" MODIFIED="1595478421266"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      1，
-    </p>
-    <p>
-      支持的天线个数目前只是2TX和4TX天线
-    </p>
-    <p>
-      2，
-    </p>
-    <p>
-      支持的带宽是10，15，20M带宽
-    </p>
-    <p>
-      3，
-    </p>
-    <p>
-      NR的UE需要是R15.4以上的UE，这些UE能够识别LTE的参考信号的位置，传输数据的时候做Rate Matching的时候会绕开这些RE，同时UE在解的时候也能绕开这些RE
-    </p>
-    <p>
-      4，
-    </p>
-    <p>
-      只支持小区是single sector carrier的配置。
-    </p>
-    <p>
-      5，
-    </p>
-    <p>
-      目前只支持NSA组网，SA的组网还在研究中。
-    </p>
-    <p>
-      6，
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="不支持的特性" ID="ID_351723136" CREATED="1595478423003" MODIFIED="1595478461962"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      TDD
-    </p>
-    <p>
-      RDS
-    </p>
-    <p>
-      LAA
-    </p>
-    <p>
-      AAS
-    </p>
-    <p>
-      Cat-M
-    </p>
-    <p>
-      NB-IoT
-    </p>
-    <p>
-      eMBMS
-    </p>
-    <p>
-      energy saving
-    </p>
-    <p>
-      SRS
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="E5隧道" ID="ID_1579904312" CREATED="1595480344307" MODIFIED="1595480546603"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      目前ESS这个feature需要工作在特定的同一个DU上，2个EMCA给LTE用，2个EMCA给NR用。ESS这个feature是在这同一个DU上的不同的EMCA之间建立的Pair
-    </p>
-    <p>
-      目前一个DU上最多支持建立4个ESS Pair
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      NR和LTE之间需要交互各自的系统配置。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Resource Reservation/Feedback" ID="ID_1039032739" CREATED="1595480527939" MODIFIED="1595512499508"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      在LTE的BB中实现了一个叫做Arbitrator的新模块，这个模块每个TTI会从NR和LTE的调度器中获取调度的SR(Schedulign Request)个数。
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="ESS Band" ID="ID_627040198" CREATED="1595484379967" MODIFIED="1595484877462"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      为了在同时调度LTE和NR时，能够相对公平的进行调度。使用了这个ESS band的概念。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      所谓ESS band，其实就是将LTE和NR中的所有的SE，分为了几类。优先级最高的那些SE被归为了band 1.依次类推。
-    </p>
-    <p>
-      在Arbitrator分配带宽的时候，优先为在band1中的SE分配资源。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      最先的时候系统中有四个band，后来为了NR的功能不受LTE太大的影响，将band1拆分为了三个band，得到了总共的6个band
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Arbitrator" ID="ID_1686879862" CREATED="1595485032626" MODIFIED="1595485035906">
-<node TEXT="每个TTI操作" ID="ID_1693376058" CREATED="1595485291091" MODIFIED="1595485296995">
-<node TEXT="Step1.Check Sfn/TTI index" ID="ID_1343397432" CREATED="1595485051185" MODIFIED="1595485196011">
-<icon BUILTIN="full-1"/>
-</node>
-<node TEXT="Step2.Reserve Resources for periodic and synchronous signals" ID="ID_197133560" CREATED="1595485064473" MODIFIED="1595485199642">
-<icon BUILTIN="full-2"/>
-<node TEXT="default PRACH config" ID="ID_1573922668" CREATED="1595485732634" MODIFIED="1595485737836"/>
-<node TEXT="Non-default PRACH config" ID="ID_1574089955" CREATED="1595485738203" MODIFIED="1595485744232"/>
-</node>
-<node TEXT="Step3.Feedback signal from LTE and NR schedulers" ID="ID_1285869953" CREATED="1595485100929" MODIFIED="1595485202194">
-<icon BUILTIN="full-3"/>
-</node>
-<node TEXT="Step4.Check LTE CFI requirements" ID="ID_1600341671" CREATED="1595485119801" MODIFIED="1595485204582">
-<icon BUILTIN="full-4"/>
-</node>
-<node TEXT="Step5.Resource allocation fro K2=6" ID="ID_168089945" CREATED="1595485137073" MODIFIED="1595512894022">
-<icon BUILTIN="full-5"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      K2=6只给LTE的Msg3使用,而且对于Msg3来说，分配的PRB是固定位置的三个PRB，这三个PRB如果在某时刻不用于传输Msg3的时候，那么可以给NR的PUSCH使用。
-    </p>
-    <p>
-      K2=4是LTE的normal PUSCH使用，以及NR的Msg3
-    </p>
-    <p>
-      K2=2是NR的normal PUSCH
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Step6.Resrouce allocation for K2=4 and K2=2" ID="ID_1354547488" CREATED="1595485152769" MODIFIED="1595515600320">
-<icon BUILTIN="full-6"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      这里所做的操作时分配LTE的K2=4的PUSCH，以及NR的K2=4加上K2=2的PUSCH分配。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      需要注意的是，这里是如何同时处理NR的K2=2和K2=4的？
-    </p>
-    <p>
-      如果Arb的操作的TTI是N，
-    </p>
-    <p>
-      那么NR的K2=4的PDCCH是在<font color="#ff0000"><b>N+3</b></font>，它的PUSCH是出现在<font color="#ff0000"><b>N+7</b></font>
-    </p>
-    <p>
-      那么NR的K2=2的PDCCH是出现在<font color="#ff0000"><b>K+5</b></font>，它的PUSCH是出现在<font color="#ff0000"><b>N+7 </b></font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      可知，处理的方法是将PUSCH放置在同一个TTI中，而移动PDCCH的位置。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Step7.Resrouce allocation for K2=2" ID="ID_1691672751" CREATED="1595485163314" MODIFIED="1595485213141">
-<icon BUILTIN="full-7"/>
-</node>
-</node>
-<node TEXT="DL Frame Periodicity" ID="ID_1890565264" CREATED="1595485351986" MODIFIED="1595485575684"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      在NSA组网情况下，每40ms会有三个子帧被配置为MBSFN，分配方式是2子帧+1子帧，其中后面的一个子帧距离前面的两个子帧20ms，在这三个子帧中LTE不会传任何信号，这三个子帧能够用于传递NR的SSB（一般NR的SSB周期就是配置为20ms，所以这个三个MBSFN结构恰好能够用于周期性的传输SSB）
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="一些消息" ID="ID_218419330" CREATED="1595512503714" MODIFIED="1595512506394">
-<node TEXT="Arbitrator接收的消息" ID="ID_798206585" CREATED="1595513906951" MODIFIED="1595555391539"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Arbitriutor需要从调度器得到的反馈实际上主要是在当前TTI之前被分配的资源以及PUSCH的接收ACK/NACK结果。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      ACK/NACK会影响资源的分配主要是由于非自适应重传的存在，在这种模式下，重传的PUSCH必须占用与之前初传的PUSCH同样的时频域资源。
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="LteRequiredUlPrbs(b,n,n+9)" ID="ID_232147383" CREATED="1595512514389" MODIFIED="1595557845846"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      这个信息是调度器告诉Arb，要求分配多少个PRB
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      调度器是怎么计算需要多少个PRB的？
-    </p>
-    <p>
-      实际上计算的规则也很简单，就是根据当前BSR的比特数，然后根据信道质量计算出来每个RE上能够传输的比特数，再除以每个PRB包含的RE数。
-    </p>
-    <p>
-      这样子的话，就能够粗略的估计出需要多少个PRB，发送给Arb。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      这个requirement是分band的。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="LteAllocatedUlPrbs(n-9, n-1)" ID="ID_1490350408" CREATED="1595514907757" MODIFIED="1595557931763"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      这个消息传递的是在TTI N的Arbitrator工作时，TTI N之前已经被分配的PUSCH的信息。
-    </p>
-    <p>
-      这些消息主要是用于预留非自适应重传的那些PRB。
-    </p>
-    <p>
-      在某个TTI的Arbitrator工作时，需要参考此TTI之前被调度的PUSCH，因为这些PUSCH可能会接收失败，从而导致重传。
-    </p>
-    <p>
-      如果重传是非自适应重传的话，那么重传时的PRB必须使用跟初传一样的PRB，这就会有可能引入冲突，因为新的PUSCH调度并不是随意的，必须把这个非自适应重传的PRBs给避开。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      这里的参数需要注意，比如说这里的n-9和n-1分别表示的是在n-9这个TTI调度的在TTI n-1时刻传输的PUSCH
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="nrRequiredUlPrbs(b,n,n+7)" ID="ID_1576354686" CREATED="1595558012411" MODIFIED="1595558085708"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      这个消息表示nr预估的K2=4的PUSCH需要的PRB资源。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      这个消息也是分band的
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Arbitrator输出消息" ID="ID_1724164416" CREATED="1595513918936" MODIFIED="1595513924225">
-<node TEXT="LteAssignedUlPrbsGeneral(n+9)" ID="ID_1516175943" CREATED="1595513975390" MODIFIED="1595517068383"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      这表示Arb给TTI n+9分配的带宽大小，表示LTE<font color="#ff0000">新传</font>数据分配的带宽大小。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      它是一个表征PRB集的bitmap
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="LteAssignedUlPrbsRetx(n+9)" ID="ID_66214488" CREATED="1595515664326" MODIFIED="1595517077580"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      这表示给LTE<font color="#ff0000">非自适应重传</font>在TTI n+9预留的带宽大小。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      它是一个表征PRB集的bitmap
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="nrAssignedUlPrbs(n+9)" ID="ID_1756865293" CREATED="1595515690283" MODIFIED="1595516106733"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      表示给NR在TTI n+9分配的带宽大小。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      它是一个表征PRB集的Bitmap
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="DL Scheduling" ID="ID_986835458" CREATED="1595477684136" MODIFIED="1595477688195">
-<node TEXT="Arb与调度器之间的交互" ID="ID_693469193" CREATED="1595559098946" MODIFIED="1595559109878">
-<node TEXT="Arbitrator接收的消息" ID="ID_178960256" CREATED="1595559129962" MODIFIED="1595559131644">
-<node TEXT="Pdsch_Feedback" ID="ID_1998046499" CREATED="1595559135714" MODIFIED="1595559556681"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      这里表示的是，调度器告诉Abr此时等待被调度的DLSR所需要的PRB的个数。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Pdcch_ul_Feedback" ID="ID_1309555448" CREATED="1595559144322" MODIFIED="1595559650420"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      表示因为PDCCH短缺从而PUSCH调度失败的ULSR个数。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Pdcch_dl_Feedback" ID="ID_283583114" CREATED="1595559209192" MODIFIED="1595559670849"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      表示由于PDCCH短缺导致DLSR调度失败的个数。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="pusch Allocation" ID="ID_1806959157" CREATED="1595560032996" MODIFIED="1595560097755"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      LTE的调度器通过这个消息告诉Arb，pusch的调度是否使用率足够高。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="nr_Feedback" ID="ID_404640264" CREATED="1595559167274" MODIFIED="1595559173299"/>
-<node TEXT="Release Resrouce" ID="ID_766848327" CREATED="1595559355888" MODIFIED="1595559457128"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      NR和LTE的调度器结束的时间点是不一样的，NR在TTI N中调度完成之后，可能会发现分配给自己的资源不需要用完，这时候，如果LTE的调度还没有结束的话，那么可以通过这个消息将资源释放给LTE，如果这个消息足够及时的话，那么LTE的调度器还能够再次使用这些被释放的资源。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Arbitrator发送出去的消息" ID="ID_249710938" CREATED="1595559762734" MODIFIED="1595559770527">
-<node TEXT="LteAssignedDlPrb()" ID="ID_542572677" CREATED="1595559816422" MODIFIED="1595559829590"/>
-<node TEXT="nrAssignedDlPrb()" ID="ID_434924715" CREATED="1595559835980" MODIFIED="1595559843471"/>
-<node TEXT="releasedDlPrbs(n)" ID="ID_144827292" CREATED="1595559914189" MODIFIED="1595560218607"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      发送给LTE，表示NR它release出来的不用的资源。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="lteCfiMax(n+3)" ID="ID_1446249408" CREATED="1595559937804" MODIFIED="1595559972828"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      决定在 TTI N+3 的时候的CFI的值
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="PHY" ID="ID_1040843535" CREATED="1595477688447" MODIFIED="1595477689634"/>
-</node>
-</node>
-<node TEXT="G3" ID="ID_329609482" CREATED="1594086601851" MODIFIED="1594086606764">
-<node TEXT="资料库" ID="ID_1914014803" CREATED="1594088283125" MODIFIED="1594088291501">
-<node TEXT="G3ParityRampUp" ID="ID_620209290" CREATED="1594087740860" MODIFIED="1594087832638" LINK="../attachment/G3%20feature%20parity%20ramp%20up.msg"/>
-<node TEXT="workshop" ID="ID_1998368708" CREATED="1594365299047" MODIFIED="1594365303808">
-<node TEXT="session1" ID="ID_784184351" CREATED="1594365306144" MODIFIED="1594365353711"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p class="MsoNormal">
-      Here is the material <u><span style="color: #0563C1"><font color="#0563C1"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc3f8b8f2?docno=BNEW-20:005314Uen&amp;action=current&amp;format=msw12">G3 MBB Guideline </a></font></span></u>.<o p="#DEFAULT"></o>
-    </p>
-    <p class="MsoNormal">
-      <o p="#DEFAULT">
-      &nbsp;</o>
-    </p>
-    <p class="MsoNormal">
-      And Video has been upload to <a href="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;web=1&amp;e=la0XAO&amp;cid=9e5812bd%2Dec43%2D42a7%2Db70b%2D36dd3669733e&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;viewid=1495d840%2Dbff8%2D4802%2D9a66%2D3c7720997037&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FG3">this folder</a>. <o p="#DEFAULT"></o>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="EN-DC" ID="ID_486034073" CREATED="1594086614115" MODIFIED="1594086617036">
-<node TEXT="系列培训" ID="ID_1773469986" CREATED="1596014934511" MODIFIED="1596014944735">
-<node TEXT="Session1" ID="ID_1163821977" CREATED="1596014946404" MODIFIED="1596014991474"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      录频地址：
-    </p>
-    <p>
-      https://web.microsoftstream.com/video/5b0fbf42-830f-4678-bfca-3f20a8502bd4
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      PPT地址:
-    </p>
-    <p>
-      https://ericsson.sharepoint.com/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2Fradio%5F01%2Fsystems%2FEarly%5FPhase%5FPrograms%2FLRAN%2FCA%5FMBB%2FShared%20Documents%2FLMBB%20CA%2F03%20LMBB%20Feature%20Parity%20Analysis%2F02%20EN%2DDC%20Feature%20Parity%2Ftraining%20material%28prepare%20ongoing%29&amp;viewid=fc5c6263%2D5fa4%2D4923%2Da2b6%2Dc6fd70417c8c
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="资料库" ID="ID_1830796088" CREATED="1594087735083" MODIFIED="1594087738388">
-<node TEXT="GeneralSelfLearningMaterials" ID="ID_424540999" CREATED="1594087847004" MODIFIED="1594087920904" LINK="../attachment/G3ENDCESSAAS%20feature%20parity%20materials%20for%20self%20reading.msg"/>
 </node>
 </node>
 </node>
