@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -4853,7 +4853,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="载波聚合介绍PPT" ID="ID_1894658066" CREATED="1596525309960" MODIFIED="1596525375350" LINK="../../../Users/edenjun/Desktop/LTE/Carrier_Aggregation_PA3.ppt"/>
 </node>
@@ -7719,7 +7718,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Template" ID="ID_1701234495" CREATED="1594793734853" MODIFIED="1596419943206"><richcontent TYPE="NOTE">
+<node TEXT="Template" ID="ID_1701234495" CREATED="1594793734853" MODIFIED="1597042542410"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7785,6 +7784,22 @@
     </p>
   </body>
 </html>
+
+</richcontent>
+</node>
+<node TEXT="OA Report" ID="ID_1097713061" CREATED="1597042517196" MODIFIED="1597042540622"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc4fc2e19?docno=&amp;action=current&amp;format=ppt12
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -13799,7 +13814,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="支持硬件" FOLDED="true" ID="ID_1388012188" CREATED="1547087801355" MODIFIED="1596530920865"><richcontent TYPE="NOTE">
 
@@ -13813,7 +13827,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ASIC" ID="ID_735516436" CREATED="1547089481012" MODIFIED="1547089484901">
 <node TEXT="ULMA" ID="ID_1207234338" CREATED="1547088599894" MODIFIED="1547088603041"/>
