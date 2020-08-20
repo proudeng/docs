@@ -3739,7 +3739,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="研究一下CMAKE机制" ID="ID_573359454" CREATED="1596505682235" MODIFIED="1596505691740">
@@ -3811,6 +3810,23 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="研究Hackthon的Idea" ID="ID_1248529441" CREATED="1597889263034" MODIFIED="1597889362608">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      手头上有IoT的设备，近期公司有Hackthon的比赛，研究一下如何使用这些设备捣鼓出一些看起来好玩的idea
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
