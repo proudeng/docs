@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7718,7 +7718,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Template" ID="ID_1701234495" CREATED="1594793734853" MODIFIED="1597042542410"><richcontent TYPE="NOTE">
+<node TEXT="文档Template" ID="ID_1701234495" CREATED="1594793734853" MODIFIED="1598237062534"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7784,10 +7784,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="OA Report" ID="ID_1097713061" CREATED="1597042517196" MODIFIED="1597042540622"><richcontent TYPE="NOTE">
+<node TEXT="OA Report" ID="ID_1097713061" CREATED="1597042517196" MODIFIED="1598235513262" LINK="https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc4fc2e19?docno=&amp;action=current&amp;format=ppt12">
+<node TEXT="Feature Interaction" ID="ID_1331465496" CREATED="1598235527611" MODIFIED="1598235533355">
+<node TEXT="载波聚合" ID="ID_483841338" CREATED="1598235538403" MODIFIED="1598235540666">
+<node TEXT="载波聚合相关feature" ID="ID_1874411446" CREATED="1598235478576" MODIFIED="1598235485939">
+<node TEXT="MR1885 Carrier Aggregation Improvements" ID="ID_420534639" CREATED="1598238286651" MODIFIED="1598239229762" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/System/Pre-study/Carrier_Aggregation_Improvements_MR1885"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7795,12 +7798,79 @@
   </head>
   <body>
     <p>
-      https://erilink.ericsson.se/eridoc/erl/objectId/09004cffc4fc2e19?docno=&amp;action=current&amp;format=ppt12
+      这个是一个enhancement
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在enhanced PDCCH这个feature开启的时候，能够让VoLTE和
+    </p>
+    <p>
+      
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
+<node TEXT="MR3030 Downlink 4CC CA Development" ID="ID_45893926" CREATED="1598239210567" MODIFIED="1598239293067" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/MR3030_-_DL_4C_Carrier_Aggregation"/>
+<node TEXT="MR2724 Downlink 5CC CA Development" ID="ID_1870726620" CREATED="1598239247664" MODIFIED="1598239281841" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/Prestudy_5CC_MR2724"/>
+</node>
+</node>
+<node TEXT="MCPTT" ID="ID_1082091485" CREATED="1598235540928" MODIFIED="1598236922621"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MCPTT这个业务跟VoLTE非常之像。但是行为上跟全双工的VoLTE比较的话，是一种“半双工”的工作方式，按下按钮才说话，放下按钮就表示不说话了，这也就表示上下行语音不会同时传输，所以在MCPTT中，不存在SID帧这样的机制。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      MCPTT的业务跟VoLTE非常的相像，实现上来说，主要在RAN这一侧也是通过识别QCI=65/66的这两个特殊的承载来实现的，根据feature description的描述来看，很多VoLTE的新feature都会有计划适配到MCPTT上面来。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="MCPTT相关feature" ID="ID_1423296264" CREATED="1598235486175" MODIFIED="1598235492566">
+<node TEXT="MR4504介绍以及路线图" ID="ID_1256057442" CREATED="1598237754180" MODIFIED="1598237766582"/>
+<node TEXT="MR4504 SP1" ID="ID_1050216228" CREATED="1598236602874" MODIFIED="1598236972904"/>
+<node TEXT="MR4504 SP2" ID="ID_1126868224" CREATED="1598236941962" MODIFIED="1598236975877"/>
+<node TEXT="MR4504 SP3" ID="ID_1987199432" CREATED="1598236947122" MODIFIED="1598239483369"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/Troubleshooting_MR4504_Optimized_Mission_Critical_Push-to-Talk_Support#SABE_for_PTT
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="z" ID="ID_900262415" CREATED="1598321109126" MODIFIED="1598421222021" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/Team:Cyan/CatM"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CAT-M也支持voice业务，可能需要分析一下需不需要在CAT-M网络上支持这个feature。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -8558,8 +8628,8 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>

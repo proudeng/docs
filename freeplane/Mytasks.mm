@@ -185,7 +185,7 @@
 <node TEXT="手机群控研究" ID="ID_1827638136" CREATED="1532656503759" MODIFIED="1532656514301">
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="perf&amp;Cache研究" FOLDED="true" ID="ID_504645044" CREATED="1533266654857" MODIFIED="1534146541441">
+<node TEXT="perf&amp;Cache研究" ID="ID_504645044" CREATED="1533266654857" MODIFIED="1534146541441">
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -3764,8 +3764,52 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="研究一下多Wifi之间的协调" ID="ID_1025985208" CREATED="1598246409395" MODIFIED="1598246975822">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      家庭环境下的多个wifi之间是可以做到类似于协同组网的效果的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是在不同的家庭之间，比如说隔壁邻居和上下楼层之间，多个wifi之间并没有任何的交互。
+    </p>
+    <p>
+      这样的结果是，随着wifi在家庭中的越来越普及，以及家庭中的多wifi设备的布置越来越普遍，wifi路由器之间的干扰也越来越大。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      是否能够开发出这样的一套软件系统：
+    </p>
+    <p>
+      不同的wifi之间，能够互相感知一些信息，比如说频点，如果在重复覆盖的区域中多个wifi使用的频点之间是互相干扰的，那么可以侦测到这个干扰，并且自适应调整，达到一个类似于商业网络这样合理布网，避免互相干扰的情况。
+    </p>
+    <p>
+      甚至如果多个wifi节点之间能够互相沟通的话，那么在某一个家庭中，甚至可以利用其他的家庭的wifi节点做一些类似于载波聚合之类的操作。增强本身的数据传输率。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这样的一套系统，需要在各个家庭分立，互相没有连接的wifi节点上，建立一个虚拟的网络，将其连接起来。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="System Improvements" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
+</node>
+<node TEXT="System Improvements" FOLDED="true" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="【NII】开发自动填报工时工具" ID="ID_811419261" CREATED="1537927628558" MODIFIED="1563177025780" LINK="QuickMap/auto_time_report.mm#ID_611689550">
@@ -3826,7 +3870,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
