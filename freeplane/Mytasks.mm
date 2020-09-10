@@ -3805,6 +3805,22 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="调查便利店相关内容" ID="ID_248403136" CREATED="1599119511964" MODIFIED="1599119569072">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      便利店模式。
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>

@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -4854,7 +4854,210 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="载波聚合介绍PPT" ID="ID_1894658066" CREATED="1596525309960" MODIFIED="1596525375350" LINK="../../../Users/edenjun/Desktop/LTE/Carrier_Aggregation_PA3.ppt"/>
+<node TEXT="载波聚合介绍PPT" ID="ID_1894658066" CREATED="1596525309960" MODIFIED="1599121219107" LINK="../../../Users/edenjun/Desktop/LTE/Carrier_Aggregation_PA3.ppt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个材料是一个比较好的材料。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="协议对载波聚合的规定" ID="ID_765460505" CREATED="1599121287355" MODIFIED="1599121295808"/>
+<node TEXT="爱立信支持载波聚合的feature演化" ID="ID_416371263" CREATED="1599121296180" MODIFIED="1599121342192"/>
+<node TEXT="载波聚合配置" ID="ID_1607955140" CREATED="1599121459875" MODIFIED="1599121593949"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      针对某个特定的UE来说，载波聚合的配置是在RRC级别来操作的。
+    </p>
+    <p>
+      但是，
+    </p>
+    <p>
+      SCell的激活和去激活操作，是在MAC层来完成的。
+    </p>
+    <p>
+      MAC层通过专门用于激活/去激活 载波的MAC CE通知UE激活还是去激活某个辅载波。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="特殊的行为" ID="ID_665592909" CREATED="1599121638176" MODIFIED="1599458442845"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      Ready to receive data transfer on the SCell (DL assignments sent on SCell, HARQ ACKs are sent to eNB via PCell)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CSI reports of the SCell is being performed (sent to eNB via PCell)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SCell的配置" ID="ID_1328046978" CREATED="1599458438408" MODIFIED="1599458579962"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SCell的配置是通过RRCReconfiguration消息配置的，这条消息告诉UE给其配置了哪些Serving Cell.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以，如果eNB给UE配置的Serving Cell的个数和cell发生变化的时候，需要通过一条新的RRCReconfiguration消息来通知UE。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SCell的激活和去激活" ID="ID_868022096" CREATED="1599458444079" MODIFIED="1599458705290"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SCell的激活和去激活是在MAC层面操作的，而不是在RRC级别。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      通过专门用于Active/Deactivate CC的MAC CE ，eNB能够迅速的给UE激活和去激活先前配置的Serving Cell。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Activate判决" ID="ID_1994125942" CREATED="1599458919362" MODIFIED="1599459010964"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果prohibit timer已经超时，并且需要传输的数据量大于门限值，那么就通过MAC CE激活新的CC
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Deactivate判决" ID="ID_1280712121" CREATED="1599458931880" MODIFIED="1599459291211"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      去激活的场景就比较多了：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      除了跟激活CC的逻辑相对应，有一个场景，就是在prohibit timer超时后，并且需要传输的数据小于门限值，这种情况下可以把CC给deactivate掉。
+    </p>
+    <p>
+      还有许多其他的场景，比如：
+    </p>
+    <p>
+      CC的CQI或者信道质量已经很差了，不适合作为CC来使用，这时候如果也过了prohibit timer规定的时间，那么也可以把这个CC给deactivate掉。
+    </p>
+    <p>
+      同时如果小区被lock了，那么当然也需要把它给从CC给deactivate掉。
+    </p>
+    <p>
+      还有发生了HARQ Failure之后，也需要把这个CC给deactivate掉。 ？？
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="载波聚合的移动性" ID="ID_1006078829" CREATED="1599458452958" MODIFIED="1599459748721"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      载波聚合的移动性，体现在PCell上. 也就是说，总是因为PCell发生了切换，才导致相应的SCell也跟着发生了变化。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      切换的时候，SCell的变化是通过下面的流程来实现的：
+    </p>
+    <p>
+      因为切换是切换PCell,所以在PCell切换过程中，源PCell会准备好目标PCell中可以使用的CC载波的信息。
+    </p>
+    <p>
+      这个信息通过用于HO的RRCReconfiguration消息一起带给UE，起到的作用是，在这个用于HO的消息中，首先将源PCell的那些CC给deconfigure掉，然后又重新configure了一些用于新的PCell的CC。
+    </p>
+    <p>
+      这些新的CC，在UE完成PCell的切换之后，就可以被activate了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="载波聚合的调度" ID="ID_1652624617" CREATED="1599460125913" MODIFIED="1599460209090"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      载波聚合调度可以基于不同载波间sinr比例公平的法则。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="资料库" ID="ID_1830796088" CREATED="1594087735083" MODIFIED="1594087738388">
 <node TEXT="GeneralSelfLearningMaterials" ID="ID_424540999" CREATED="1594087847004" MODIFIED="1594087920904" LINK="../attachment/G3ENDCESSAAS%20feature%20parity%20materials%20for%20self%20reading.msg"/>
@@ -8632,8 +8835,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
