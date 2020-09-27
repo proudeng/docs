@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -4971,7 +4971,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Deactivate判决" ID="ID_1280712121" CREATED="1599458931880" MODIFIED="1599459291211"><richcontent TYPE="NOTE">
@@ -5004,7 +5003,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5038,7 +5036,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="载波聚合的调度" ID="ID_1652624617" CREATED="1599460125913" MODIFIED="1599460209090"><richcontent TYPE="NOTE">
@@ -5053,7 +5050,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8020,7 +8016,7 @@
 <node TEXT="MR2724 Downlink 5CC CA Development" ID="ID_1870726620" CREATED="1598239247664" MODIFIED="1598239281841" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/Prestudy_5CC_MR2724"/>
 </node>
 </node>
-<node TEXT="MCPTT" ID="ID_1082091485" CREATED="1598235540928" MODIFIED="1598236922621"><richcontent TYPE="NOTE">
+<node TEXT="MCPTT" ID="ID_1082091485" CREATED="1598235540928" MODIFIED="1600408000038"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8038,6 +8034,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="MCPTT相关feature" ID="ID_1423296264" CREATED="1598235486175" MODIFIED="1598235492566">
 <node TEXT="MR4504介绍以及路线图" ID="ID_1256057442" CREATED="1598237754180" MODIFIED="1598237766582"/>
@@ -8059,7 +8056,7 @@
 </node>
 </node>
 </node>
-<node TEXT="z" ID="ID_900262415" CREATED="1598321109126" MODIFIED="1598421222021" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/Team:Cyan/CatM"><richcontent TYPE="NOTE">
+<node TEXT="CAT-M" ID="ID_900262415" CREATED="1598321109126" MODIFIED="1600407984215" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/Team:Cyan/CatM"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8072,6 +8069,133 @@
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="Carrier Aggration 和 Volte" ID="ID_966522051" CREATED="1600407984558" MODIFIED="1600407998635">
+<node TEXT="最初的行为" ID="ID_1270784666" CREATED="1600408067878" MODIFIED="1600408298656"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在只有Voice业务的时候，实际上是不会触发给UE建立SCell的，因为volte的业务量比较小，不需要创建Scell来增加容量。
+    </p>
+    <p>
+      但是，
+    </p>
+    <p>
+      有可能同时存在数据业务和voice业务，总业务量可能会超过创建Scell的门限值，所以这种情况下volte和CA共存的情况是可能的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这时候的逻辑是，volte业务可以在PCell上也可以在Scell上，没有限制，只要选择CQI质量高的那个，但是一旦选择了一个载波就会一直在这个载波上进行业务。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="改进" ID="ID_811168262" CREATED="1600408396407" MODIFIED="1600408399905">
+<node TEXT="【MR5224】VoLTE Optimized Carrier Aggregation" ID="ID_516912058" CREATED="1600408402153" MODIFIED="1600408590539">
+<node TEXT="KEEP_SCELLS" ID="ID_1033402408" CREATED="1600408450039" MODIFIED="1600408523865"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个是默认的行为
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DECONF_SCELLS" ID="ID_1000642512" CREATED="1600408459799" MODIFIED="1600408540090"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">MR5224 SP1</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DECONF_UL_SUPPRESS_DL_SCELLS" ID="ID_615379844" CREATED="1600408469304" MODIFIED="1600408553002"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">MR4286 SP1</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DECONF_UL_SCELLS" ID="ID_835451997" CREATED="1600408477472" MODIFIED="1600408562171"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">MR5224 SP2</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="【MR4286】" ID="ID_1641897385" CREATED="1600408594711" MODIFIED="1600408628579"/>
+<node TEXT="【MR1885】WP4980 Enable CA with VoLTE and PDCCH enhanced LA" ID="ID_1025573662" CREATED="1600409275481" MODIFIED="1600419810686"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature跟前面讨论的是两个事情。 这个feature主要是针对enhanced PDCCH的。
+    </p>
+    <p>
+      legacy的enhanced PDCCH在CA和VoLTE的场景下，要求下行SCELL要被release掉。这样enhanced PDCCH才能够正确的工作。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在enhanced PDCCH这个feature开启的时候，CA场景下的volte的行为之前是有限制的。
+    </p>
+    <p>
+      在载波聚合的场景下，如果打起了volte的电话，那么volte将在PCELL上进行传输，所有的SCELL的下行传输将被抑制。
+    </p>
+    <p>
+      只有在QCI=1的这个bearer结束了之后，才会重新在SCELL上调度下行的数据。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -8831,12 +8955,12 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
