@@ -252,152 +252,6 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="NBIoT RRM算法研究" ID="ID_193866899" CREATED="1582695620638" MODIFIED="1582696006366">
-<icon BUILTIN="list"/>
-<font NAME="SansSerif"/>
-<node TEXT="下行相关的特殊的子帧的复习" ID="ID_854422494" CREATED="1582695653840" MODIFIED="1582696190414" LINK="NB-IoT%20RRM.mm#ID_538044059">
-<icon BUILTIN="yes"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      NPSS&#65292;NSSS&#65292;MIB&#65292;SIB1&#65292;SI&#20986;&#29616;&#30340;&#20301;&#32622;&#21644;&#39057;&#29575;&#65292;DL Gap&#20986;&#29616;&#30340;&#26102;&#26426;&#21644;&#25345;&#32493;&#30340;&#38271;&#24230;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="澄清检查NPDCCH是否在SS里面的原则" ID="ID_199458749" CREATED="1583389052585" MODIFIED="1583389251196">
-<icon BUILTIN="yes"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#20174;&#31639;&#27861;&#25991;&#26723;&#26469;&#30475;&#65292;&#20284;&#20046;&#22914;&#26524;&#24403;&#21069;&#35843;&#24230;&#30340;&#23376;&#24103;&#26159;&#22312;Search Space&#30340;&#24320;&#22836;&#65292;&#37027;&#20040;&#36825;&#20010;&#26102;&#38388;&#28857;&#26159;&#21512;&#36866;&#35843;&#24230;NPDCCH&#12290;
-    </p>
-    <p>
-      &#20294;&#26159;Search Space&#37324;&#38754;&#26377;&#22909;&#20960;&#20010;&#21487;&#33021;&#23384;&#25918;NPDCCH&#30340;&#20301;&#32622;&#65292;&#19968;&#23450;&#35201;&#22312;Search Space&#30340;&#24320;&#22836;&#25165;&#31639;&#26159;valide&#30340;&#21527;&#65311;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="澄清一下当前子帧上的调度操作是调度的具体哪个子帧" ID="ID_1692177340" CREATED="1583389263097" MODIFIED="1591172002419">
-<icon BUILTIN="yes"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      根据Xu Li提供的信息，在Redhawk中的调度也是提前调度的，并非在当前子帧直接调度当前子帧的传输。
-    </p>
-    <p>
-      这个需要跟Qi Qin再再次确认一下。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="确认一下计算上行Gain的场景" ID="ID_1809770746" CREATED="1585632046018" MODIFIED="1585632153844">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Msg3和NPUSCH Foramt2是肯定会用于计算并更新上行Gain的。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      那么NPUSCH Format2呢？是否也会被eNB用于计算上行Gain?
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="RedHawk学习" ID="ID_1768383805" CREATED="1583746046595" MODIFIED="1583746058687">
-<icon BUILTIN="list"/>
-<node TEXT="了解一下flow和flowpoint的概念" ID="ID_1502719039" CREATED="1583746067467" MODIFIED="1583827169407">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Redhawk&#20013;&#23384;&#22312;&#19968;&#20010;mainloop&#29992;&#25143;&#24490;&#29615;event queue,&#30452;&#33267;&#20223;&#30495;&#26102;&#38388;&#36229;&#36807;&#39044;&#35774;&#32622;&#30340;&#26102;&#38388;&#12290;
-    </p>
-    <p>
-      &#32780;&#22312;event queue&#20013;&#21448;&#23884;&#22871;&#20102;&#19968;&#20010;periodtask&#65292;&#36825;&#20010;task&#26159;&#27599;&#20010;TTI&#36229;&#26102;&#19968;&#27425;&#65292;&#36229;&#26102;&#20043;&#21518;&#36827;&#34892;&#29289;&#29702;&#20449;&#36947;&#30340;&#25509;&#25910;&#65292;&#29992;&#25143;&#30340;&#35843;&#24230;&#21644;&#29289;&#29702;&#20449;&#36947;&#30340;&#21457;&#36865;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#36825;&#20010;&#32467;&#26500;&#26159;&#20160;&#20040;&#26679;&#30340;&#65292;&#36825;&#20010;periodtask&#26159;&#22914;&#20309;&#21608;&#26399;&#24615;&#30340;&#23884;&#20837;&#21040;event queue&#20013;&#30340;&#21602;&#65311;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="了解一下统计中的CDF和PDF概念" ID="ID_511661455" CREATED="1583746303171" MODIFIED="1583746336924">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#22312;Redhawk&#30340;&#21518;&#22788;&#29702;&#30011;&#22270;&#20013;&#20250;&#20986;&#29616;&#36825;&#20123;&#32479;&#35745;&#20998;&#24067;&#65292;&#38656;&#35201;&#20102;&#35299;&#19968;&#19979;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="了解一下Redhawk中的mainloop结构" ID="ID_1342779987" CREATED="1583827001974" MODIFIED="1583827027793">
-<icon BUILTIN="yes"/>
-</node>
-<node TEXT="了解一下debug的技巧" ID="ID_1723921092" CREATED="1585466642777" MODIFIED="1591164399519">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      redhawk的执行过程比较的复杂，需要找到一些好的技巧来更好的梳理redhawk的执行过程
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
 </node>
 <node TEXT="=textUtils.getText(&apos;freeplaneGTD.config.archiveDirName&apos;)" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1068479685" CREATED="1427225933330" MODIFIED="1596506187140">
 <icon BUILTIN="folder"/>
@@ -2098,6 +1952,24 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="ESS Workshop过完" ID="ID_1412617310" CREATED="1596505798010" MODIFIED="1606105485544">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="When" VALUE="this week"/>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:24+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="CA的PPT过完" ID="ID_502875147" CREATED="1596505847129" MODIFIED="1606105486860">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="When" VALUE="this week"/>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:24+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="更新5G培训的小结到Anki中" ID="ID_897964262" CREATED="1596506285515" MODIFIED="1606105491209">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="When" VALUE="this week"/>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:24+0800|yyyy-MM-dd"/>
+</node>
 </node>
 <node TEXT="Vocation Plan" FOLDED="true" ID="ID_271718975" CREATED="1533526028553" MODIFIED="1533526044845">
 <icon BUILTIN="list"/>
@@ -2563,6 +2435,24 @@
 </richcontent>
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
 </node>
+<node TEXT="relative/absolute hyperlink之间互相转换的脚本" ID="ID_698348921" CREATED="1585036466863" MODIFIED="1606105473016">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      有时候需要将freeplane文件和其附件拷贝到其他地方使用，但是freeplane中已经有了大量的保存为绝对路径的链接。这时候如果能够将这些链接转变为相对路径，那么将freeplane和附件拷贝到其他地方之后，也能够完全无障碍的使用。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:24+0800|yyyy-MM-dd"/>
+</node>
 </node>
 <node TEXT="增强Release Confluence Page" ID="ID_1316714709" CREATED="1537927351630" MODIFIED="1575945676343">
 <icon BUILTIN="yes"/>
@@ -2813,6 +2703,164 @@
 </richcontent>
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:09+0800|yyyy-MM-dd"/>
 <node TEXT="了解协议中多次描述的MAC Control Element概念" ID="ID_660574504" CREATED="1584068633479" MODIFIED="1584068652857"/>
+</node>
+<node TEXT="下行相关的特殊的子帧的复习" ID="ID_854422494" CREATED="1582695653840" MODIFIED="1606105511880" LINK="NB-IoT%20RRM.mm#ID_538044059">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NPSS&#65292;NSSS&#65292;MIB&#65292;SIB1&#65292;SI&#20986;&#29616;&#30340;&#20301;&#32622;&#21644;&#39057;&#29575;&#65292;DL Gap&#20986;&#29616;&#30340;&#26102;&#26426;&#21644;&#25345;&#32493;&#30340;&#38271;&#24230;
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="澄清检查NPDCCH是否在SS里面的原则" ID="ID_199458749" CREATED="1583389052585" MODIFIED="1606105512410">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;&#31639;&#27861;&#25991;&#26723;&#26469;&#30475;&#65292;&#20284;&#20046;&#22914;&#26524;&#24403;&#21069;&#35843;&#24230;&#30340;&#23376;&#24103;&#26159;&#22312;Search Space&#30340;&#24320;&#22836;&#65292;&#37027;&#20040;&#36825;&#20010;&#26102;&#38388;&#28857;&#26159;&#21512;&#36866;&#35843;&#24230;NPDCCH&#12290;
+    </p>
+    <p>
+      &#20294;&#26159;Search Space&#37324;&#38754;&#26377;&#22909;&#20960;&#20010;&#21487;&#33021;&#23384;&#25918;NPDCCH&#30340;&#20301;&#32622;&#65292;&#19968;&#23450;&#35201;&#22312;Search Space&#30340;&#24320;&#22836;&#25165;&#31639;&#26159;valide&#30340;&#21527;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="澄清一下当前子帧上的调度操作是调度的具体哪个子帧" ID="ID_1692177340" CREATED="1583389263097" MODIFIED="1606105512948">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      根据Xu Li提供的信息，在Redhawk中的调度也是提前调度的，并非在当前子帧直接调度当前子帧的传输。
+    </p>
+    <p>
+      这个需要跟Qi Qin再再次确认一下。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="确认一下计算上行Gain的场景" ID="ID_1809770746" CREATED="1585632046018" MODIFIED="1606105513461">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Msg3和NPUSCH Foramt2是肯定会用于计算并更新上行Gain的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么NPUSCH Format2呢？是否也会被eNB用于计算上行Gain?
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
+</node>
+</node>
+<node TEXT="RedHawk学习" ID="ID_1689165043" CREATED="1583746046595" MODIFIED="1583746058687">
+<icon BUILTIN="list"/>
+<node TEXT="了解一下flow和flowpoint的概念" ID="ID_1502719039" CREATED="1583746067467" MODIFIED="1606105521109">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Redhawk&#20013;&#23384;&#22312;&#19968;&#20010;mainloop&#29992;&#25143;&#24490;&#29615;event queue,&#30452;&#33267;&#20223;&#30495;&#26102;&#38388;&#36229;&#36807;&#39044;&#35774;&#32622;&#30340;&#26102;&#38388;&#12290;
+    </p>
+    <p>
+      &#32780;&#22312;event queue&#20013;&#21448;&#23884;&#22871;&#20102;&#19968;&#20010;periodtask&#65292;&#36825;&#20010;task&#26159;&#27599;&#20010;TTI&#36229;&#26102;&#19968;&#27425;&#65292;&#36229;&#26102;&#20043;&#21518;&#36827;&#34892;&#29289;&#29702;&#20449;&#36947;&#30340;&#25509;&#25910;&#65292;&#29992;&#25143;&#30340;&#35843;&#24230;&#21644;&#29289;&#29702;&#20449;&#36947;&#30340;&#21457;&#36865;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#20010;&#32467;&#26500;&#26159;&#20160;&#20040;&#26679;&#30340;&#65292;&#36825;&#20010;periodtask&#26159;&#22914;&#20309;&#21608;&#26399;&#24615;&#30340;&#23884;&#20837;&#21040;event queue&#20013;&#30340;&#21602;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="了解一下统计中的CDF和PDF概念" ID="ID_511661455" CREATED="1583746303171" MODIFIED="1606105521796">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;Redhawk&#30340;&#21518;&#22788;&#29702;&#30011;&#22270;&#20013;&#20250;&#20986;&#29616;&#36825;&#20123;&#32479;&#35745;&#20998;&#24067;&#65292;&#38656;&#35201;&#20102;&#35299;&#19968;&#19979;
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="了解一下Redhawk中的mainloop结构" ID="ID_1342779987" CREATED="1583827001974" MODIFIED="1606105522284">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="了解一下debug的技巧" ID="ID_1723921092" CREATED="1585466642777" MODIFIED="1606105522749">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      redhawk的执行过程比较的复杂，需要找到一些好的技巧来更好的梳理redhawk的执行过程
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 </node>
 </node>
@@ -3547,7 +3595,7 @@
 <node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="Linux Course" FOLDED="true" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
+<node TEXT="Linux Course" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="学习开源课程" FOLDED="true" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1563177025787" TEXT_SHORTENED="true">
@@ -3700,18 +3748,6 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="ESS Workshop过完" ID="ID_1412617310" CREATED="1596505798010" MODIFIED="1596505832554">
-<icon BUILTIN="yes"/>
-<attribute NAME="When" VALUE="this week"/>
-</node>
-<node TEXT="CA的PPT过完" ID="ID_502875147" CREATED="1596505847129" MODIFIED="1596505864382">
-<icon BUILTIN="yes"/>
-<attribute NAME="When" VALUE="this week"/>
-</node>
-<node TEXT="更新5G培训的小结到Anki中" ID="ID_897964262" CREATED="1596506285515" MODIFIED="1596506336050">
-<icon BUILTIN="yes"/>
-<attribute NAME="When" VALUE="this week"/>
-</node>
 </node>
 <node TEXT="BLD项目" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
 <icon BUILTIN="list"/>
@@ -3748,22 +3784,6 @@
 </node>
 <node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
 <icon BUILTIN="list"/>
-<node TEXT="relative/absolute hyperlink之间互相转换的脚本" ID="ID_698348921" CREATED="1585036466863" MODIFIED="1591164399530">
-<icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      有时候需要将freeplane文件和其附件拷贝到其他地方使用，但是freeplane中已经有了大量的保存为绝对路径的链接。这时候如果能够将这些链接转变为相对路径，那么将freeplane和附件拷贝到其他地方之后，也能够完全无障碍的使用。
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
 <node TEXT="研究一下多Wifi之间的协调" ID="ID_1025985208" CREATED="1598246409395" MODIFIED="1598246975822">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -3821,11 +3841,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="System Improvements" FOLDED="true" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
+<node TEXT="System Improvements" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="【NII】开发自动填报工时工具" ID="ID_811419261" CREATED="1537927628558" MODIFIED="1563177025780" LINK="QuickMap/auto_time_report.mm#ID_611689550">
@@ -3872,7 +3891,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="研究Hackthon的Idea" ID="ID_1248529441" CREATED="1597889263034" MODIFIED="1597889362608">
+<node TEXT="研究Hackthon的Idea" ID="ID_1248529441" CREATED="1597889263034" MODIFIED="1606106099902" LINK="BLD_Project.mm#ID_688215932">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
 
@@ -3882,10 +3901,17 @@
   </head>
   <body>
     <p>
-      手头上有IoT的设备，近期公司有Hackthon的比赛，研究一下如何使用这些设备捣鼓出一些看起来好玩的idea
+      手头上有IoT的设备，近期公司有Hackthon的比赛，研究一下如何使用这些设备捣鼓出一些看起来好玩的idea。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      准备demo一个用iot设备来监控车祸/轮船倾覆以及泥石流检测的平台。
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>

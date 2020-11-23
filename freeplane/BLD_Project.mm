@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -2923,7 +2923,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Cortex-M33" FOLDED="true" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
+<node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
 <edge COLOR="#7c0000"/>
 <node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE">
 
@@ -3430,6 +3430,38 @@
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="Hackathon" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
+<edge COLOR="#7c007c"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      黑客松项目:
+    </p>
+    <p>
+      使用nrf9160板子来做两类场景的检测和报告：
+    </p>
+    <p>
+      1，汽车和轮船发生了撞击或者倾覆了之后，自动检测并上报这个事件。
+    </p>
+    <p>
+      2，在山体滑坡的监控中，如果发生了山体滑坡，自动检测到这个事件并且上报。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这两种场景下，使用的方案其实与BLD项目的方案能够做到完全一致。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </map>
