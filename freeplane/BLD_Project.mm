@@ -2920,6 +2920,7 @@
 <node TEXT="配置选项" ID="ID_1526940872" CREATED="1594027839293" MODIFIED="1594028322222" LINK="../attachment/LteLinkControl.png"/>
 </node>
 </node>
+<node TEXT="lwm2m" ID="ID_1726154912" CREATED="1606267894995" MODIFIED="1606267907507"/>
 </node>
 </node>
 </node>
@@ -3316,7 +3317,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Bld开发" POSITION="right" ID="ID_690499500" CREATED="1594620535285" MODIFIED="1594765109671">
+<node TEXT="Bld开发" POSITION="right" ID="ID_690499500" CREATED="1594620535285" MODIFIED="1606267690548">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -3345,6 +3346,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Demo1版本" ID="ID_1294354754" CREATED="1594765111697" MODIFIED="1594765521451"><richcontent TYPE="NOTE">
 
@@ -3460,8 +3462,46 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="遇到的问题" ID="ID_1401764076" CREATED="1606267692521" MODIFIED="1606267860189"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前需要录制一个hackathon的demo，但是问题是，目前没有sim卡，NB-IoT的网络没法使用。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      如果让整个demo调通而不经过NB网络？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1，
+    </p>
+    <p>
+      可能得需要通过串口来获取device的状态。然后在串口端进行MQTT的上报。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      或者可以通过蓝牙协议来接入到其他的电脑中，通过其他的电脑来上传设备的信息。
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
 </node>
 </node>
 </map>
