@@ -812,7 +812,7 @@
 </node>
 </node>
 <node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1591348922695" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-2-1478313418">
-<node TEXT="ncs中的一些概念" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE">
+<node TEXT="ncs中的一些概念" FOLDED="true" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1067,7 +1067,7 @@
 </node>
 </node>
 <node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1591348932419" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-3-temporary">
-<node TEXT="Zephyr Sensor Subsystem" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE">
+<node TEXT="Zephyr Sensor Subsystem" FOLDED="true" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1139,7 +1139,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="板子相关的文件" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
+<node TEXT="板子相关的文件" FOLDED="true" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
 <node TEXT="DTS文件" ID="ID_535798250" CREATED="1591343048079" MODIFIED="1591343349337"><richcontent TYPE="NOTE">
 
 <html>
@@ -1283,7 +1283,7 @@
 <node TEXT="Board Porting Guide" ID="ID_544802748" CREATED="1591602389341" MODIFIED="1591602400879" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/porting/board_porting.html#board-porting-guide"/>
 </node>
 </node>
-<node TEXT="Working with nRF9160" ID="ID_966196066" CREATED="1591602955622" MODIFIED="1591602979422">
+<node TEXT="Working with nRF9160" FOLDED="true" ID="ID_966196066" CREATED="1591602955622" MODIFIED="1591602979422">
 <node TEXT="Application MCU" ID="ID_889891090" CREATED="1591609354260" MODIFIED="1591609393241"><richcontent TYPE="NOTE">
 
 <html>
@@ -1601,7 +1601,7 @@
 <node TEXT="FOTA upgrades" ID="ID_505906595" CREATED="1591610219430" MODIFIED="1591610223224"/>
 <node TEXT="Samples" ID="ID_671364008" CREATED="1591610281221" MODIFIED="1591610285665" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples.html#nrf9160-samples"/>
 </node>
-<node TEXT="Working with Thingy:91" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020">
+<node TEXT="Working with Thingy:91" FOLDED="true" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020">
 <node TEXT="烧写软件" ID="ID_873505696" CREATED="1594463635556" MODIFIED="1594478915524"><richcontent TYPE="NOTE">
 
 <html>
@@ -1732,7 +1732,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="依赖的库" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
+<node TEXT="依赖的库" FOLDED="true" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
 <node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1594825894919"><richcontent TYPE="NOTE">
 
 <html>
@@ -1937,7 +1937,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="使用的库" ID="ID_732475382" CREATED="1592809968522" MODIFIED="1592809973679">
+<node TEXT="使用的库" FOLDED="true" ID="ID_732475382" CREATED="1592809968522" MODIFIED="1592809973679">
 <node TEXT="LTE Link Control" ID="ID_383268992" CREATED="1592809974771" MODIFIED="1592816898738"><richcontent TYPE="NOTE">
 
 <html>
@@ -2097,7 +2097,7 @@
 </node>
 </node>
 <node TEXT="Cloud Client" ID="ID_1879742012" CREATED="1592893402601" MODIFIED="1592893408482"/>
-<node TEXT="Asset Tracker Demo" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1594024118156">
+<node TEXT="Asset Tracker Demo" FOLDED="true" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1594024118156">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -3346,7 +3346,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Demo1版本" ID="ID_1294354754" CREATED="1594765111697" MODIFIED="1594765521451"><richcontent TYPE="NOTE">
 
@@ -3431,6 +3430,122 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="需要改进的问题" ID="ID_327284091" CREATED="1606792926350" MODIFIED="1606792931452">
+<node TEXT="静止时的三轴坐标只在系统初始话的时候确定一次" ID="ID_234417052" CREATED="1606792884931" MODIFIED="1606796707152"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这可能会导致问题，因为：
+    </p>
+    <p>
+      三轴传感器的测量只在启动的时候测量一次，有可能这一次的测量结果并非非常的精确，但是后续已经没有机会去修正这个值了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      后续可以考虑这样来改进：
+    </p>
+    <p>
+      使用简单的加权滤波的算法，在每次静止检测时，如果发现物体的位置跟初始位置没有发生变化，那么这次静止状态下测量到的三轴加速度值就可以和历史上储存下来的值做加权平均。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="冲击检测时的参考值更新比较的慢" ID="ID_1157153190" CREATED="1606792942358" MODIFIED="1606796414248"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前是使用500ms的定时器去轮询362的状态，这个时间可能偏长。而一般比较猛烈的冲击有可能持续时间可能在10-20ms时间。
+    </p>
+    <p>
+      这样，就有可能因为轮询时间设置过长，导致冲击被漏检。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="冲击检测的算法过于简陋" ID="ID_1515796486" CREATED="1606796756384" MODIFIED="1606797300065"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前冲击检测的算法过于简陋：
+    </p>
+    <p>
+      1，
+    </p>
+    <p>
+      比较算法是x/y/z三个轴分别比较，只要有一个轴上的加速度变化超过了门限值就认为检测到冲击。但是这个逻辑是不准确的。
+    </p>
+    <p>
+      比较准确的计算方法应该是使用最终合成的加速度，也就是三个轴上的矢量和的幅值是否超过门限值。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      比较的算法是在检测到物体运动之后，监控后续是否有撞击存在。
+    </p>
+    <p>
+      对象是上次静止时采样得到的加速度值和以500ms为周期采样到的三轴加速度值之间的比较。这个比较也是不合适的，因为在检测到运动之后，
+    </p>
+    <p>
+      合适的比较应该是每500ms周期采样到的加速度值之间的比较。500ms定时器第一次的三轴传感器的值可以和静止时保存的三轴传感器的值进行比较，后续的500ms周期中发生的比较就应该时前一次采样和后一次采样之间的比较了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      什么东西都能搞定的话，我们也不能搞出这么多的内容了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="冲击检测的软件框架可以优调" ID="ID_933670862" CREATED="1606883844339" MODIFIED="1606892499106"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前冲击检测框架我们使用的是adxl362传感器。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Hackathon" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
@@ -3499,7 +3614,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
