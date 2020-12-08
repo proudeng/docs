@@ -3458,7 +3458,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="改进" ID="ID_1514933465" CREATED="1606973899970" MODIFIED="1606973983367"><richcontent TYPE="NOTE">
 
@@ -3478,7 +3477,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3587,7 +3585,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="翻转检测的局限性" ID="ID_1832103892" CREATED="1606974360566" MODIFIED="1606974592308"><richcontent TYPE="NOTE">
@@ -3614,7 +3611,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="快速翻倒的时候有时候不能够检测到震动" ID="ID_1347899214" CREATED="1606977554652" MODIFIED="1606977569277"/>
@@ -3642,6 +3638,40 @@
     </p>
     <p>
       可以使用FIFO来记录多个先后发生的事件，然后使用多线程来单独处理网络连接和GPS位置获取的任务，等到网络连接成功了或者GPS位置获取成功了，从FIFO buffer中获取存好的数据进行上报。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="可能的系统级改进" ID="ID_197221239" CREATED="1607409703711" MODIFIED="1607409716290">
+<node TEXT="增加一个网关设备" ID="ID_553971912" CREATED="1607409718633" MODIFIED="1607409866036"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于需要密集安装的设备，每一个设备都需要跟网络进行通信，这当然可以，但是比较浪费，成本也比较高而且比较费电。
+    </p>
+    <p>
+      因为设备上是具有蓝牙的能力的，我们可以增加一个蓝牙网关，通过蓝牙连接网关，然后可以通过网关上的NB网络连接外部网络，或者甚至是通过手机作为蓝牙网关，使用手机网络来跟外界通信。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="增加手机网关" ID="ID_1575717509" CREATED="1607410503672" MODIFIED="1607410584050"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在密集部署的时候，可以使用手机来作为网关设备，所有的设备都连接到手机上，通过手机和外界联系。包括获取位置信息，上报数据，获取指令这些内容。
     </p>
   </body>
 </html>
