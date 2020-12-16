@@ -77,7 +77,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="【Platform】Thingy:91" POSITION="right" ID="ID_232176577" CREATED="1583287393218" MODIFIED="1583287421097">
+<node TEXT="【Platform】Thingy:91" FOLDED="true" POSITION="right" ID="ID_232176577" CREATED="1583287393218" MODIFIED="1583287421097">
 <edge COLOR="#0000ff"/>
 <node TEXT="硬件组成" ID="ID_1864208304" CREATED="1583287582672" MODIFIED="1583287668745">
 <node TEXT="nRF9160 SiP" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1637993052" CREATED="1583287597824" MODIFIED="1583291183558"><richcontent TYPE="NOTE">
@@ -3674,7 +3674,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="网关设备和节点设备分离" ID="ID_943840539" CREATED="1608080289556" MODIFIED="1608080373239"><richcontent TYPE="NOTE">
 
@@ -3694,7 +3693,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3715,7 +3713,7 @@
 <node TEXT="使用LWM2M协议联网" ID="ID_1284208" CREATED="1608080255035" MODIFIED="1608080268537"/>
 </node>
 </node>
-<node TEXT="Hackathon" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
+<node TEXT="Hackathon" FOLDED="true" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
