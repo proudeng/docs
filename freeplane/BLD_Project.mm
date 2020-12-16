@@ -128,7 +128,7 @@
 </html>
 </richcontent>
 <node TEXT="支持无线协议" ID="ID_1005051496" CREATED="1583288881585" MODIFIED="1583288884701">
-<node TEXT="低功耗蓝牙" ID="ID_1683380729" CREATED="1583288885757" MODIFIED="1583291208100"><richcontent TYPE="NOTE">
+<node TEXT="低功耗蓝牙BLE5" ID="ID_1683380729" CREATED="1583288885757" MODIFIED="1608097596447"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -142,6 +142,12 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="BLE mesh" ID="ID_619969560" CREATED="1608097610979" MODIFIED="1608097616266"/>
+<node TEXT="802.15.4" ID="ID_164356994" CREATED="1608097644343" MODIFIED="1608097649309">
+<node TEXT="Thread" ID="ID_737532957" CREATED="1608097661399" MODIFIED="1608097666621"/>
+<node TEXT="Zigbee" ID="ID_1405708969" CREATED="1608097666882" MODIFIED="1608097670211"/>
+</node>
+<node TEXT="Thread" ID="ID_254121465" CREATED="1608097597978" MODIFIED="1608097604357"/>
 <node TEXT="NFC" ID="ID_1117737745" CREATED="1583288894037" MODIFIED="1583288895751"/>
 </node>
 <node TEXT="硬件组件" ID="ID_21663691" CREATED="1583290905507" MODIFIED="1583290917492">
@@ -3642,10 +3648,12 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="再次尝试GPS和NB网络共存的模式" ID="ID_621301384" CREATED="1608080509827" MODIFIED="1608080522110"/>
+</node>
 </node>
 </node>
 <node TEXT="可能的系统级改进" ID="ID_197221239" CREATED="1607409703711" MODIFIED="1607409716290">
-<node TEXT="增加一个网关设备" ID="ID_553971912" CREATED="1607409718633" MODIFIED="1607409866036"><richcontent TYPE="NOTE">
+<node TEXT="增加一个网关设备" ID="ID_553971912" CREATED="1607409718633" MODIFIED="1608108732057"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3658,10 +3666,37 @@
     <p>
       因为设备上是具有蓝牙的能力的，我们可以增加一个蓝牙网关，通过蓝牙连接网关，然后可以通过网关上的NB网络连接外部网络，或者甚至是通过手机作为蓝牙网关，使用手机网络来跟外界通信。
     </p>
+    <p>
+      
+    </p>
+    <p>
+      也可以不使用蓝牙协议，在nRF52840这个芯片上，除了蓝牙协议之外，还支持zigbee协议，这个协议有可能能耗更加的低。可以调查一下是否可以使用zigbee协议来组成这种网关和节点的连接。
+    </p>
   </body>
 </html>
 
 </richcontent>
+<node TEXT="网关设备和节点设备分离" ID="ID_943840539" CREATED="1608080289556" MODIFIED="1608080373239"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      节点设备不具备联网和定位功能，只有监测功能以及连接蓝牙网关功能。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      网关设备具有联网功能，以及定位功能，同时通过蓝牙连接多个节点设备。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="增加手机网关" ID="ID_1575717509" CREATED="1607410503672" MODIFIED="1607410584050"><richcontent TYPE="NOTE">
 
@@ -3675,10 +3710,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-</node>
+<node TEXT="使用LWM2M协议联网" ID="ID_1284208" CREATED="1608080255035" MODIFIED="1608080268537"/>
 </node>
 </node>
 <node TEXT="Hackathon" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">

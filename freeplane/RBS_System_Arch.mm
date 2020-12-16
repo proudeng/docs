@@ -6508,7 +6508,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="LTE定位" ID="ID_363271025" CREATED="1607413904414" MODIFIED="1607414019497"><richcontent TYPE="NOTE">
@@ -6523,7 +6522,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="可选方法" ID="ID_1801047142" CREATED="1607417540081" MODIFIED="1607417544096">
 <node TEXT="A-GNSS" ID="ID_1206873670" CREATED="1607413896830" MODIFIED="1607413904079"/>
@@ -6540,7 +6538,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="小区站址位置" ID="ID_1349979335" CREATED="1607414114180" MODIFIED="1607414129903"/>
 <node TEXT="参考信号的RSRP值" ID="ID_417320467" CREATED="1607414131327" MODIFIED="1607414141511"/>
@@ -6565,7 +6562,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6583,7 +6579,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="NPRS" ID="ID_859665465" CREATED="1607417633433" MODIFIED="1607418322435"><richcontent TYPE="NOTE">
 
@@ -6609,7 +6604,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Inband" ID="ID_1691248333" CREATED="1607418159719" MODIFIED="1607418446931"><richcontent TYPE="NOTE">
 
@@ -6626,7 +6620,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="PartA配置或者PartA+PartB配置" ID="ID_1826710747" CREATED="1607418343073" MODIFIED="1607420031109"><richcontent TYPE="NOTE">
 
@@ -6640,7 +6633,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="PartB配置" ID="ID_1905753526" CREATED="1607418360809" MODIFIED="1607420096701"><richcontent TYPE="NOTE">
@@ -6655,7 +6647,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6689,7 +6680,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Part B" ID="ID_1362815131" CREATED="1607417646809" MODIFIED="1607417863278"><richcontent TYPE="NOTE">
@@ -6704,7 +6694,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="PartA + PartB" ID="ID_1437469760" CREATED="1607417866366" MODIFIED="1607418138856"><richcontent TYPE="NOTE">
@@ -6725,9 +6714,23 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="爱立信的实现" ID="ID_308053544" CREATED="1607564537342" MODIFIED="1607564609062"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      有一个feature MR4152，实现了NB-IoT的基于ECID的定位技术。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
