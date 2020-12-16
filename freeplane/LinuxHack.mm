@@ -1598,7 +1598,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="解决中文乱码问题" ID="ID_1287103330" CREATED="1346422399153" MODIFIED="1346422822729"><richcontent TYPE="NOTE">
 
@@ -3755,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7服务器" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1584615673801"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7服务器" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1584615673801"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3834,7 +3833,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="使用UnixBench测试VPS性能" FOLDED="true" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
 <node TEXT="安装和执行命令" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
@@ -4029,7 +4027,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="web服务器的安装" FOLDED="true" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1584615679754"><richcontent TYPE="NOTE">
+<node TEXT="web服务器的安装" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1584615679754"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4052,7 +4050,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="lighttpd安装" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1519275513211"><richcontent TYPE="NOTE">
 
@@ -4969,7 +4966,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="安装好的工具的地址" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1385451787843"><richcontent TYPE="NOTE">
+<node TEXT="安装好的工具的地址" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1604203312942"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4977,7 +4974,7 @@
   </head>
   <body>
     <p>
-      &#23433;&#35013;&#22909;&#21518;,&#20351;&#29992;&#19979;&#38754;&#30340;&#22320;&#22336;&#35775;&#38382;:
+      安装好后,使用下面的地址访问:
     </p>
     <p>
       
@@ -4989,12 +4986,13 @@
       
     </p>
     <p>
-      &#20854;&#20013;&#29992;&#25143;&#21517;&#21644;&#23494;&#30721;&#23601;&#26159;mysql&#30340;root&#21644;root&#30340;&#23494;&#30721;.
+      其中用户名和密码就是mysql的root和root的密码.
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="ultravps的登录用户名和密码" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1536911979654"><richcontent TYPE="NOTE">
+<node TEXT="ultravps的登录用户名和密码" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1604203333247"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5002,15 +5000,16 @@
   </head>
   <body>
     <p>
-      &#22240;&#20026;&#26032;&#30340;mysql5.7&#26356;&#25913;&#20102;&#31574;&#30053;&#65292;root&#29992;&#25143;&#19981;&#33021;&#22815;&#30331;&#38470;&#20102;&#12290;&#25152;&#20197;&#25105;&#20204;&#21019;&#24314;&#20102;&#19968;&#20010;&#26032;&#30340;&#29992;&#25143;&#29992;&#20110;&#30331;&#38470;phpmyadmin
+      因为新的mysql5.7更改了策略，root用户不能够登陆了。所以我们创建了一个新的用户用于登陆phpmyadmin
     </p>
     <p>
-      &#30331;&#24405;&#29992;&#25143;&#21517;&#20026;admin.&#23494;&#30721;&#20026;luckyxiaoshe
+      登录用户名为admin.密码为luckyxiaoshe
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="创建用于登陆phpmyadmin的用户" ID="ID_946229541" CREATED="1535986166020" MODIFIED="1536910220116"><richcontent TYPE="NOTE">
+<node TEXT="创建用于登陆phpmyadmin的用户" ID="ID_946229541" CREATED="1535986166020" MODIFIED="1604203320812"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5018,7 +5017,7 @@
   </head>
   <body>
     <p>
-      &#39318;&#20808;&#20351;&#29992;mysql -uroot -p&#30331;&#38470;mySQL&#65292;&#28982;&#21518;&#38190;&#20837;&#20197;&#19979;&#21629;&#20196;&#65306;
+      首先使用mysql -uroot -p登陆mySQL，然后键入以下命令：
     </p>
     <p>
       
@@ -5034,6 +5033,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -5369,7 +5369,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="创建一个新的单独的数据库" FOLDED="true" ID="ID_1735498120" CREATED="1392007125532" MODIFIED="1392008797038" LINK="#ID_1041863536">
 <icon BUILTIN="full-1"/>
@@ -5908,7 +5907,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Android Linux Deploy" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
+<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -8029,7 +8028,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="编译后lighttpd不能启动的问题" ID="ID_606655900" CREATED="1326509303364" MODIFIED="1326509555161"><richcontent TYPE="NOTE">
 
@@ -8413,8 +8411,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
@@ -8901,8 +8899,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html>
 </richcontent>
 <node TEXT="域名绑定" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9246,7 +9244,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="修改url rewrite规则" ID="ID_103123836" CREATED="1337111156489" MODIFIED="1337111251773"><richcontent TYPE="NOTE">
 
