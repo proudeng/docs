@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="25" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="System_Arch(Layer3)" FOLDED="true" POSITION="right" ID="ID_887781037" CREATED="1545036480637" MODIFIED="1545717104452">
+<hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="System_Arch(Layer3)" POSITION="right" ID="ID_887781037" CREATED="1545036480637" MODIFIED="1545717104452">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -1207,7 +1207,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="FO" ID="ID_1992631811" CREATED="1546517437653" MODIFIED="1546517897687" LINK="../attachment/GSP_1546517654785.png"><richcontent TYPE="NOTE">
 
@@ -1400,7 +1399,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="BB Timing Overview" FOLDED="true" POSITION="right" ID="ID_377489371" CREATED="1545615414789" MODIFIED="1545615425401">
+<node TEXT="BB Timing Overview" POSITION="right" ID="ID_377489371" CREATED="1545615414789" MODIFIED="1545615425401">
 <edge COLOR="#7c7c00"/>
 <node TEXT="BFN &amp; Hardware Timing Distribution-XIO" ID="ID_1223168316" CREATED="1545615441675" MODIFIED="1545615456772">
 <node TEXT="BFN概念" ID="ID_243170775" CREATED="1545615546053" MODIFIED="1547174586276"><richcontent TYPE="NOTE">
@@ -1853,7 +1852,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="不同的DSP架构思路" ID="ID_387056096" CREATED="1546482892173" MODIFIED="1546511873132">
 <node TEXT="Complex cached DSP" ID="ID_1286926622" CREATED="1546483178319" MODIFIED="1546511678808"><richcontent TYPE="NOTE">
@@ -6342,7 +6340,7 @@
 </node>
 <node TEXT="WoW" POSITION="left" ID="ID_84792947" CREATED="1553657470859" MODIFIED="1553657473787">
 <edge COLOR="#ff0000"/>
-<node TEXT="WoW培训" ID="ID_1590502305" CREATED="1551749262798" MODIFIED="1553657497003" LINK="https://ericsson.sharepoint.com/:f:/r/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared%20Documents/02%20CA%20MBB%20WoW/CA%20WoW%20Training%202019%20in%20Chinese?csf=1&amp;e=BwvGKw">
+<node TEXT="WoW培训" FOLDED="true" ID="ID_1590502305" CREATED="1551749262798" MODIFIED="1553657497003" LINK="https://ericsson.sharepoint.com/:f:/r/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared%20Documents/02%20CA%20MBB%20WoW/CA%20WoW%20Training%202019%20in%20Chinese?csf=1&amp;e=BwvGKw">
 <node TEXT="MOM" ID="ID_1789220254" CREATED="1551954652584" MODIFIED="1551954743270">
 <icon BUILTIN="full-1"/>
 <node TEXT="Slides" ID="ID_301568543" CREATED="1551954656023" MODIFIED="1551954673995" LINK="https://ericsson.sharepoint.com/:p:/r/sites/radio_01/systems/Early_Phase_Programs/LRAN/CA_MBB/Shared%20Documents/02%20CA%20MBB%20WoW/CA%20WoW%20Training%202019%20in%20Chinese/CA%20WoW%20Training%20Session%201%20%E2%80%93%20MOM.pptx?d=w5187261ae7c64d188184da985175d2b9&amp;csf=1&amp;e=SlGqlI"/>
@@ -6493,6 +6491,248 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+<node TEXT="LTE定位" POSITION="right" ID="ID_1277506118" CREATED="1607413870718" MODIFIED="1607413883409">
+<edge COLOR="#ff00ff"/>
+<node TEXT="定位技术" ID="ID_1496197445" CREATED="1607413888562" MODIFIED="1607413890992">
+<node TEXT="GNSS" ID="ID_1335702838" CREATED="1607413891854" MODIFIED="1607414006945"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基于导航卫星来定位的技术
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="LTE定位" ID="ID_363271025" CREATED="1607413904414" MODIFIED="1607414019497"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用LTE网络来定位的技术
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="可选方法" ID="ID_1801047142" CREATED="1607417540081" MODIFIED="1607417544096">
+<node TEXT="A-GNSS" ID="ID_1206873670" CREATED="1607413896830" MODIFIED="1607413904079"/>
+<node TEXT="OTDOA" ID="ID_247649933" CREATED="1607413913362" MODIFIED="1607413936744"/>
+<node TEXT="ECID" ID="ID_1908275201" CREATED="1607413937103" MODIFIED="1607414110863"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enhanced Cell ID
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="小区站址位置" ID="ID_1349979335" CREATED="1607414114180" MODIFIED="1607414129903"/>
+<node TEXT="参考信号的RSRP值" ID="ID_417320467" CREATED="1607414131327" MODIFIED="1607414141511"/>
+<node TEXT="TA值" ID="ID_742724512" CREATED="1607414141846" MODIFIED="1607414162416"/>
+<node TEXT="来波方向" ID="ID_609394102" CREATED="1607414163005" MODIFIED="1607414179080"/>
+</node>
+</node>
+<node TEXT="协议" ID="ID_1793539331" CREATED="1607417551513" MODIFIED="1607417552986">
+<node TEXT="基于控制面" ID="ID_1334223209" CREATED="1607417554225" MODIFIED="1607417570356">
+<node TEXT="LPP" ID="ID_390350799" CREATED="1607417571218" MODIFIED="1607417572738"/>
+</node>
+<node TEXT="基于用户面" ID="ID_1047228059" CREATED="1607417573649" MODIFIED="1607417576269">
+<node TEXT="SUPL" ID="ID_1927131873" CREATED="1607417577420" MODIFIED="1607417611395"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SUPL里面承载的数据还是LPP协议本身
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="NB-IoT定位" ID="ID_1488537312" CREATED="1607414373774" MODIFIED="1607417520000"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OTDOA
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="NPRS" ID="ID_859665465" CREATED="1607417633433" MODIFIED="1607418322435"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NPRS是使用的伪随机序列。
+    </p>
+    <p>
+      在频域上，每个NPRS的RE相隔6个子载波间隔。也就是说在一个symbol上，只有两个RE用于传输NPRS
+    </p>
+    <p>
+      在时域上，连续symbol上的RE是递减的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也就是说达成的效果是，NPRS在RB上的排列是一种对角行的排序。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Inband" ID="ID_1691248333" CREATED="1607418159719" MODIFIED="1607418446931"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Inband主要考虑要避开LTE的前三个symbol以及CRS占用的symbol，也就是每个Slot的第一个以及第五个symbol
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="PartA配置或者PartA+PartB配置" ID="ID_1826710747" CREATED="1607418343073" MODIFIED="1607420031109"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果有PartA的配置的话，那么所有的NPRS的子帧都是invalid的子帧，不会传输NRS信号。所以所有的符号都可以用来承载NPRS数据
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="PartB配置" ID="ID_1905753526" CREATED="1607418360809" MODIFIED="1607420096701"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果是PartB only的配置，那么使用的子帧并不是invalid的子帧，这时候传输NPRS的子帧上是由NRS信号的，所以为了避免干扰，NPRS留出了一个slot里面最后的两个symbol，不传NPRS
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Guard/StandAlone" ID="ID_1652916259" CREATED="1607418164168" MODIFIED="1607418171249"/>
+</node>
+<node TEXT="配置" ID="ID_862001493" CREATED="1607417637330" MODIFIED="1607417642493">
+<node TEXT="Part A" ID="ID_277673053" CREATED="1607417643339" MODIFIED="1607418058354"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      以10ms为周期，定义周期中哪些子帧传输NPRS。这个配置下，是没有occation概念的，每一个10ms周期中的固定子帧都会用来传输NPRS
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      需要定义两个bitmap:
+    </p>
+    <p>
+      一个bitmap定义哪些子帧是invalid的，不能用于下行传输
+    </p>
+    <p>
+      一个bitmap定义哪些子帧是用于传输NPRS的
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Part B" ID="ID_1362815131" CREATED="1607417646809" MODIFIED="1607417863278"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PartB的配置跟LTE和Cat-M类似，也就是定义一组参数，表明NPRS多长出现一次，并且出现一次的时候持续的子帧长度是多少，而且起始子帧的位置在哪里。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="PartA + PartB" ID="ID_1437469760" CREATED="1607417866366" MODIFIED="1607418138856"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      同时配置PartA和PartB，实现的效果是，只有当PartA和PartB的配置都满足的时候，这个子帧才会用于传输NPRS
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也就是说，这样的作法是给PartA的那种无限循环的配置方法，加上了一个周期性出现的条件。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="爱立信的实现" ID="ID_308053544" CREATED="1607564537342" MODIFIED="1607564609062"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      有一个feature MR4152，实现了NB-IoT的基于ECID的定位技术。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

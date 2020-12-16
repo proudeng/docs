@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -128,7 +128,7 @@
 </html>
 </richcontent>
 <node TEXT="支持无线协议" ID="ID_1005051496" CREATED="1583288881585" MODIFIED="1583288884701">
-<node TEXT="低功耗蓝牙" ID="ID_1683380729" CREATED="1583288885757" MODIFIED="1583291208100"><richcontent TYPE="NOTE">
+<node TEXT="低功耗蓝牙BLE5" ID="ID_1683380729" CREATED="1583288885757" MODIFIED="1608097596447"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -142,6 +142,12 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="BLE mesh" ID="ID_619969560" CREATED="1608097610979" MODIFIED="1608097616266"/>
+<node TEXT="802.15.4" ID="ID_164356994" CREATED="1608097644343" MODIFIED="1608097649309">
+<node TEXT="Thread" ID="ID_737532957" CREATED="1608097661399" MODIFIED="1608097666621"/>
+<node TEXT="Zigbee" ID="ID_1405708969" CREATED="1608097666882" MODIFIED="1608097670211"/>
+</node>
+<node TEXT="Thread" ID="ID_254121465" CREATED="1608097597978" MODIFIED="1608097604357"/>
 <node TEXT="NFC" ID="ID_1117737745" CREATED="1583288894037" MODIFIED="1583288895751"/>
 </node>
 <node TEXT="硬件组件" ID="ID_21663691" CREATED="1583290905507" MODIFIED="1583290917492">
@@ -812,7 +818,7 @@
 </node>
 </node>
 <node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1591348922695" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-2-1478313418">
-<node TEXT="ncs中的一些概念" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE">
+<node TEXT="ncs中的一些概念" FOLDED="true" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1067,7 +1073,7 @@
 </node>
 </node>
 <node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1591348932419" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-3-temporary">
-<node TEXT="Zephyr Sensor Subsystem" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE">
+<node TEXT="Zephyr Sensor Subsystem" FOLDED="true" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1139,7 +1145,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="板子相关的文件" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
+<node TEXT="板子相关的文件" FOLDED="true" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
 <node TEXT="DTS文件" ID="ID_535798250" CREATED="1591343048079" MODIFIED="1591343349337"><richcontent TYPE="NOTE">
 
 <html>
@@ -1283,7 +1289,7 @@
 <node TEXT="Board Porting Guide" ID="ID_544802748" CREATED="1591602389341" MODIFIED="1591602400879" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/porting/board_porting.html#board-porting-guide"/>
 </node>
 </node>
-<node TEXT="Working with nRF9160" ID="ID_966196066" CREATED="1591602955622" MODIFIED="1591602979422">
+<node TEXT="Working with nRF9160" FOLDED="true" ID="ID_966196066" CREATED="1591602955622" MODIFIED="1591602979422">
 <node TEXT="Application MCU" ID="ID_889891090" CREATED="1591609354260" MODIFIED="1591609393241"><richcontent TYPE="NOTE">
 
 <html>
@@ -1601,7 +1607,7 @@
 <node TEXT="FOTA upgrades" ID="ID_505906595" CREATED="1591610219430" MODIFIED="1591610223224"/>
 <node TEXT="Samples" ID="ID_671364008" CREATED="1591610281221" MODIFIED="1591610285665" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples.html#nrf9160-samples"/>
 </node>
-<node TEXT="Working with Thingy:91" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020">
+<node TEXT="Working with Thingy:91" FOLDED="true" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020">
 <node TEXT="烧写软件" ID="ID_873505696" CREATED="1594463635556" MODIFIED="1594478915524"><richcontent TYPE="NOTE">
 
 <html>
@@ -1732,7 +1738,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="依赖的库" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
+<node TEXT="依赖的库" FOLDED="true" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
 <node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1594825894919"><richcontent TYPE="NOTE">
 
 <html>
@@ -1937,7 +1943,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="使用的库" ID="ID_732475382" CREATED="1592809968522" MODIFIED="1592809973679">
+<node TEXT="使用的库" FOLDED="true" ID="ID_732475382" CREATED="1592809968522" MODIFIED="1592809973679">
 <node TEXT="LTE Link Control" ID="ID_383268992" CREATED="1592809974771" MODIFIED="1592816898738"><richcontent TYPE="NOTE">
 
 <html>
@@ -2097,7 +2103,7 @@
 </node>
 </node>
 <node TEXT="Cloud Client" ID="ID_1879742012" CREATED="1592893402601" MODIFIED="1592893408482"/>
-<node TEXT="Asset Tracker Demo" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1594024118156">
+<node TEXT="Asset Tracker Demo" FOLDED="true" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1594024118156">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -2920,10 +2926,11 @@
 <node TEXT="配置选项" ID="ID_1526940872" CREATED="1594027839293" MODIFIED="1594028322222" LINK="../attachment/LteLinkControl.png"/>
 </node>
 </node>
+<node TEXT="lwm2m" ID="ID_1726154912" CREATED="1606267894995" MODIFIED="1606267907507"/>
 </node>
 </node>
 </node>
-<node TEXT="Cortex-M33" FOLDED="true" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
+<node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
 <edge COLOR="#7c0000"/>
 <node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE">
 
@@ -3316,7 +3323,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Bld开发" POSITION="right" ID="ID_690499500" CREATED="1594620535285" MODIFIED="1594765109671">
+<node TEXT="Bld开发" POSITION="right" ID="ID_690499500" CREATED="1594620535285" MODIFIED="1606267690548">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -3429,6 +3436,352 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="需要改进的问题" ID="ID_327284091" CREATED="1606792926350" MODIFIED="1606792931452">
+<node TEXT="静止时的三轴坐标只在系统初始话的时候确定一次" ID="ID_234417052" CREATED="1606792884931" MODIFIED="1606969911893"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这可能会导致问题，因为：
+    </p>
+    <p>
+      三轴传感器的测量只在启动的时候测量一次，有可能这一次的测量结果并非非常的精确，但是后续已经没有机会去修正这个值了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      后续可以考虑这样来改进：
+    </p>
+    <p>
+      使用简单的加权滤波的算法，在每次静止检测时，如果发现物体的位置跟初始位置没有发生变化，那么这次静止状态下测量到的三轴加速度值就可以和历史上储存下来的值做<b><font color="#ff0033">加权</font></b>平均。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="改进" ID="ID_1514933465" CREATED="1606973899970" MODIFIED="1606973983367"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用了一个简单的alpha滤波器，滤波系数为0.8.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在检测到物体处于静止状态时，同时判断物体的姿态相对于初始姿态而言没有发生改变，那么就将最初姿态的值做加权平均。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="冲击检测时的参考值更新比较的慢" ID="ID_1157153190" CREATED="1606792942358" MODIFIED="1606796414248"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前是使用500ms的定时器去轮询362的状态，这个时间可能偏长。而一般比较猛烈的冲击有可能持续时间可能在10-20ms时间。
+    </p>
+    <p>
+      这样，就有可能因为轮询时间设置过长，导致冲击被漏检。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="冲击检测的算法过于简陋" ID="ID_1515796486" CREATED="1606796756384" MODIFIED="1606797300065"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前冲击检测的算法过于简陋：
+    </p>
+    <p>
+      1，
+    </p>
+    <p>
+      比较算法是x/y/z三个轴分别比较，只要有一个轴上的加速度变化超过了门限值就认为检测到冲击。但是这个逻辑是不准确的。
+    </p>
+    <p>
+      比较准确的计算方法应该是使用最终合成的加速度，也就是三个轴上的矢量和的幅值是否超过门限值。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      比较的算法是在检测到物体运动之后，监控后续是否有撞击存在。
+    </p>
+    <p>
+      对象是上次静止时采样得到的加速度值和以500ms为周期采样到的三轴加速度值之间的比较。这个比较也是不合适的，因为在检测到运动之后，
+    </p>
+    <p>
+      合适的比较应该是每500ms周期采样到的加速度值之间的比较。500ms定时器第一次的三轴传感器的值可以和静止时保存的三轴传感器的值进行比较，后续的500ms周期中发生的比较就应该时前一次采样和后一次采样之间的比较了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      什么东西都能搞定的话，我们也不能搞出这么多的内容了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="冲击检测的软件框架可以优调" ID="ID_933670862" CREATED="1606883844339" MODIFIED="1606892499106"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前冲击检测框架我们使用的是adxl362传感器。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="软件启动的控制" ID="ID_746450888" CREATED="1606973990059" MODIFIED="1606974179884"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前软件是上电就运行了。这样的话会有一点问题。
+    </p>
+    <p>
+      就是说上电后，可能设备还处于没有完全安装的状态，那么这个时候可能会不断的在动。这样会影响设备测量初始姿态的三轴传感器的数值。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      最好需要有一个开关控制。比如使用设备上的按键来触发软件运行，也就是说设备上电后处于卡死状态，等到安装完毕处于静止状态之后，再按下设备上的按键，然后设备上的代码才开始运行。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="翻转检测的局限性" ID="ID_1832103892" CREATED="1606974360566" MODIFIED="1606974592308"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在当前的翻转检测算法中，是很粗糙的一个实现。我们假设Z轴是朝下的，也就是假设设备必须是平放的，然后基于这个假设来检测运动过后的设备的位置。
+    </p>
+    <p>
+      但是实际的设备安装姿态不一定是这样。有可能会不是这样。需要做一个灵活的算法，能够自适应设备的各种安装的姿态。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      一个可行的方式是在上电状态检测，有哪个轴上的加速度值接近9.8G或者-9.8G，那么这个轴就是我们的基准轴。这同样需要做一个假设，就是设备要么是平方，要么是侧着放，不能斜着放。不过这个假设条件比现在的假设条件已经要宽容很多了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="快速翻倒的时候有时候不能够检测到震动" ID="ID_1347899214" CREATED="1606977554652" MODIFIED="1606977569277"/>
+<node TEXT="网络连接/GPS获取需要长时间" ID="ID_953995090" CREATED="1606977589838" MODIFIED="1606977791125"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      网络连接过程以及GPS位置获取过程有时候需要很长的时间，能够以分钟为单位度量。
+    </p>
+    <p>
+      在这个过程中，实际上依然是能够发生各种事件的。
+    </p>
+    <p>
+      目前的代码实现上，并没有考虑这个实际的场景，导致了在网络连接过程中或者GPS位置获取过程中发生的事件就被忽视了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      可以使用FIFO来记录多个先后发生的事件，然后使用多线程来单独处理网络连接和GPS位置获取的任务，等到网络连接成功了或者GPS位置获取成功了，从FIFO buffer中获取存好的数据进行上报。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="再次尝试GPS和NB网络共存的模式" ID="ID_621301384" CREATED="1608080509827" MODIFIED="1608080522110"/>
+</node>
+</node>
+</node>
+<node TEXT="可能的系统级改进" ID="ID_197221239" CREATED="1607409703711" MODIFIED="1607409716290">
+<node TEXT="增加一个网关设备" ID="ID_553971912" CREATED="1607409718633" MODIFIED="1608108732057"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于需要密集安装的设备，每一个设备都需要跟网络进行通信，这当然可以，但是比较浪费，成本也比较高而且比较费电。
+    </p>
+    <p>
+      因为设备上是具有蓝牙的能力的，我们可以增加一个蓝牙网关，通过蓝牙连接网关，然后可以通过网关上的NB网络连接外部网络，或者甚至是通过手机作为蓝牙网关，使用手机网络来跟外界通信。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也可以不使用蓝牙协议，在nRF52840这个芯片上，除了蓝牙协议之外，还支持zigbee协议，这个协议有可能能耗更加的低。可以调查一下是否可以使用zigbee协议来组成这种网关和节点的连接。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="网关设备和节点设备分离" ID="ID_943840539" CREATED="1608080289556" MODIFIED="1608080373239"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      节点设备不具备联网和定位功能，只有监测功能以及连接蓝牙网关功能。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      网关设备具有联网功能，以及定位功能，同时通过蓝牙连接多个节点设备。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="增加手机网关" ID="ID_1575717509" CREATED="1607410503672" MODIFIED="1607410584050"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在密集部署的时候，可以使用手机来作为网关设备，所有的设备都连接到手机上，通过手机和外界联系。包括获取位置信息，上报数据，获取指令这些内容。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="使用LWM2M协议联网" ID="ID_1284208" CREATED="1608080255035" MODIFIED="1608080268537"/>
+</node>
+</node>
+<node TEXT="Hackathon" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
+<edge COLOR="#7c007c"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      黑客松项目:
+    </p>
+    <p>
+      使用nrf9160板子来做两类场景的检测和报告：
+    </p>
+    <p>
+      1，汽车和轮船发生了撞击或者倾覆了之后，自动检测并上报这个事件。
+    </p>
+    <p>
+      2，在山体滑坡的监控中，如果发生了山体滑坡，自动检测到这个事件并且上报。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这两种场景下，使用的方案其实与BLD项目的方案能够做到完全一致。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="遇到的问题" ID="ID_1401764076" CREATED="1606267692521" MODIFIED="1606267860189"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前需要录制一个hackathon的demo，但是问题是，目前没有sim卡，NB-IoT的网络没法使用。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      如果让整个demo调通而不经过NB网络？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1，
+    </p>
+    <p>
+      可能得需要通过串口来获取device的状态。然后在串口端进行MQTT的上报。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      或者可以通过蓝牙协议来接入到其他的电脑中，通过其他的电脑来上传设备的信息。
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
