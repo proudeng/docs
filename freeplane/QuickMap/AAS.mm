@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="AAS" FOLDED="false" ID="ID_1549553046" CREATED="1606269251860" MODIFIED="1606269266249" STYLE="oval">
+<node TEXT="AAS" FOLDED="false" ID="ID_1549553046" CREATED="1606269251860" MODIFIED="1608189300242" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,6 +64,20 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个资料是非常好的介绍AAS基本概念的文档。一开始的话，结合一些PPT和这个文档，可以来了解一下AAS的基本的概念。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="AAS 基本知识" POSITION="right" ID="ID_60783938" CREATED="1606269317007" MODIFIED="1606269386345">
 <edge COLOR="#ff0000"/>
 <node TEXT="LTE AAS Coverage and Capacity Dimensioning" ID="ID_618895062" CREATED="1607994367068" MODIFIED="1607994461305" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/LTE%20AAS%20Coverage%20and%20Capacity%20Dimensioning.pdf"/>
