@@ -3665,7 +3665,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="增加一个网关设备" ID="ID_553971912" CREATED="1607409718633" MODIFIED="1608108732057"><richcontent TYPE="NOTE">
@@ -3767,8 +3766,27 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="配对设备可以是任意设备" ID="ID_1894913822" CREATED="1608524580182" MODIFIED="1608524737055">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实，从最终的效果来看，用于配对作用的设备可以是任意的设备。
+    </p>
+    <p>
+      这个设备可以是一个跟批量iot设备在一起的一个手机，或者是一个被烧写了不同软件功能的iot设备，只要它能够得到需要的信息就行。
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
 </node>
 </node>
 </node>

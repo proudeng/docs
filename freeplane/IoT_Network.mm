@@ -3,7 +3,7 @@
 <node TEXT="IoT_Network" FOLDED="false" ID="ID_437009040" CREATED="1608122447965" MODIFIED="1608122458369" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="IoT协议" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
 <edge COLOR="#ff0000"/>
 <node TEXT="应用层" ID="ID_555749467" CREATED="1608122495335" MODIFIED="1608122500615">
@@ -137,7 +137,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Zigbee" ID="ID_1634652426" CREATED="1608122623085" MODIFIED="1608128918554"><richcontent TYPE="NOTE">
@@ -221,7 +220,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -361,7 +359,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="eMTC" ID="ID_900983469" CREATED="1608122655877" MODIFIED="1608128935351"><richcontent TYPE="NOTE">
@@ -404,7 +401,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -517,7 +513,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="SigFox" ID="ID_738747004" CREATED="1608122663166" MODIFIED="1608128945830"><richcontent TYPE="NOTE">
@@ -598,10 +593,78 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Patent Idea" POSITION="left" ID="ID_1570999189" CREATED="1608533820021" MODIFIED="1608533853562">
+<edge COLOR="#0000ff"/>
+<node TEXT="基于IoT的定位平台" ID="ID_1568606325" CREATED="1608533855339" MODIFIED="1608535283616"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于IoT方案来说，定位一直是一个非常大的需求。
+    </p>
+    <p>
+      而IoT设备的定位方案有多种，各有各的优缺点。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      如果能够设计一套能够利用多种定位技术，专门用于实现灵活的定位需求的终端的话，
+    </p>
+    <p>
+      这对于IoT的定位需求来说能够起到非常大的帮助。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="分布式的IoT系统" ID="ID_1426849094" CREATED="1608533865956" MODIFIED="1608535092214"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在一个分布式系统中，定义不同的角色，不同的角色能够提供不同的服务能力。
+    </p>
+    <p>
+      在这么一个分布式系统中，各个角色一起协同工作，从而使得整个系统中的不同的角色都能够得到完整的所有的服务能力。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这样的一个系统整合起来能够降低整个系统的cost，不需要每个设备都具有所有的功能。
+    </p>
+    <p>
+      大量的基本设备结点只需要具有最低限的功能，而不需要具备比如NB-IoT通信，GPS位置获取这样的额外，而这些额外的功能是通过在系统中部署的少量节点设备或者单点设备来额外提供的。
+    </p>
+    <p>
+      这种方式能够在大大降低设备成本的情况下，达到整个系统看起来似乎每个设备都具有所有的功能。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以这个方案的主要思想就是：
+    </p>
+    <p>
+      使用复杂的组网方案，降低整个系统的cost
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
