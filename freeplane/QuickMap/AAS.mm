@@ -91,9 +91,24 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="强烈推荐基础知识" ID="ID_1800580812" CREATED="1609383780929" MODIFIED="1609384271554" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/FDD%20AAS%20Digital%20Sectorization%20and%20Common%20Beam%20Weights.pptx"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      了解FDD BF的一个简单的PPT，解释的深入浅出，受益很多。
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
+<node TEXT="AAS Port2Antenna mapping" ID="ID_722772368" CREATED="1609384678392" MODIFIED="1609385193175" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx"/>
 </node>
 <node TEXT="产品" POSITION="left" ID="ID_542712313" CREATED="1606269366899" MODIFIED="1606269399219">
 <edge COLOR="#ff00ff"/>
@@ -118,11 +133,14 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="MR2815" ID="ID_1500069087" CREATED="1607914468206" MODIFIED="1607914474783">
-<node TEXT="SP533-Common Beamforming" ID="ID_909081486" CREATED="1607914477596" MODIFIED="1607914564945"/>
-<node TEXT="SP534-SU-MIMO SRS-based RAT DL BF 64TRX" ID="ID_830814112" CREATED="1607914480819" MODIFIED="1607914592204"/>
+<node TEXT="SP533-Common Beamforming" ID="ID_909081486" CREATED="1607914477596" MODIFIED="1609380117848">
+<icon BUILTIN="bookmark"/>
+</node>
+<node TEXT="SP534-SU-MIMO SRS-based RAT DL BF 64TRX" ID="ID_830814112" CREATED="1607914480819" MODIFIED="1609380125011">
+<icon BUILTIN="bookmark"/>
+</node>
 <node TEXT="SP372-MU-MIMO SRS-based RAT DL BF 64TRX" ID="ID_223771595" CREATED="1607914497995" MODIFIED="1607914618536"/>
 <node TEXT="SP373-UL MU-MIMO BF 64TRX" ID="ID_1610773447" CREATED="1607914500848" MODIFIED="1607914640432"/>
 </node>
@@ -132,7 +150,76 @@
 </node>
 <node TEXT="MR5050-16-layer DL MU-MIMO" ID="ID_26206491" CREATED="1607914549669" MODIFIED="1607914726526"/>
 </node>
-<node TEXT="FDD AAS" ID="ID_979336888" CREATED="1606269345064" MODIFIED="1606269379775"/>
+<node TEXT="FDD AAS" ID="ID_979336888" CREATED="1606269345064" MODIFIED="1606269379775">
+<node TEXT="MR4361" ID="ID_1172253547" CREATED="1609380032558" MODIFIED="1609382732913" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/LMR%20NDS%2032TR.pdf">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      32TR SU-MIMO on AIR3246
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="base" ID="ID_1294007969" CREATED="1609382326392" MODIFIED="1609382327679">
+<node TEXT="MR3452" ID="ID_409756082" CREATED="1609382309778" MODIFIED="1609382313196"/>
+<node TEXT="MR4031" ID="ID_1799609369" CREATED="1609382323099" MODIFIED="1609382324045"/>
+</node>
+</node>
+<node TEXT="MR4481" ID="ID_48250905" CREATED="1609380143988" MODIFIED="1609380190997"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IODT for R13/R14 ClassA TM9
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="MR6132" ID="ID_1281415345" CREATED="1609380152808" MODIFIED="1609383770629" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/NDS%20MR6132%20FDD%20AAS%20Digital%20Sectorization.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FDD AAS Digital Sectorization
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="参考-DS原理" ID="ID_951205588" CREATED="1609383835076" MODIFIED="1609385351504" LINK="#ID_1800580812"/>
+<node TEXT="参考-P2A映射" ID="ID_1739289352" CREATED="1609385352658" MODIFIED="1609385371768" LINK="#ID_722772368"/>
+</node>
+<node TEXT="MR5667" ID="ID_1986480731" CREATED="1609380225689" MODIFIED="1609384322857" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/NDS%20MR5667%20AIR1641%20BB%20support.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AIR1641 Baseband support
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>

@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -4243,7 +4243,7 @@
 </node>
 <node TEXT="ESS" ID="ID_1065708844" CREATED="1594086598531" MODIFIED="1594086601478">
 <node TEXT="ESS CPI" ID="ID_1761035173" CREATED="1594087608244" MODIFIED="1594087622943" LINK="http://cpistore.internal.ericsson.com/elex?LI=EN/LZN7931065R2J"/>
-<node TEXT="Training PPT&amp;Video" FOLDED="true" ID="ID_408179379" CREATED="1594088323226" MODIFIED="1594707209762" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;web=1&amp;e=la0XAO&amp;cid=9e5812bd%2Dec43%2D42a7%2Db70b%2D36dd3669733e&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FESS%2F2020%20Training%20Series&amp;viewid=1495d840%2Dbff8%2D4802%2D9a66%2D3c7720997037"><richcontent TYPE="NOTE">
+<node TEXT="Training PPT&amp;Video" FOLDED="true" ID="ID_408179379" CREATED="1594088323226" MODIFIED="1609729788536" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp;web=1&amp;e=la0XAO&amp;cid=9e5812bd%2Dec43%2D42a7%2Db70b%2D36dd3669733e&amp;FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FESS%2F2020%20Training%20Series&amp;viewid=1495d840%2Dbff8%2D4802%2D9a66%2D3c7720997037"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4255,6 +4255,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="UL Scheduling" ID="ID_1957917312" CREATED="1595477610915" MODIFIED="1595477615672">
 <node TEXT="Status" ID="ID_294072098" CREATED="1595478241251" MODIFIED="1595478421266"><richcontent TYPE="NOTE">
@@ -5077,7 +5078,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="【MR5634】Combined Cell Enhancement" FOLDED="true" ID="ID_1452041644" CREATED="1551062537730" MODIFIED="1584349826291"><richcontent TYPE="NOTE">
+<node TEXT="【MR5634】Combined Cell Enhancement" FOLDED="true" ID="ID_1452041644" CREATED="1551062537730" MODIFIED="1609729790886"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5098,6 +5099,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Combined Cell背景知识" FOLDED="true" ID="ID_1058614216" CREATED="1551167191991" MODIFIED="1551167219409">
 <node TEXT="Conbined Cell Evolution" FOLDED="true" ID="ID_1800079259" CREATED="1551167224072" MODIFIED="1551167533045"><richcontent TYPE="NOTE">
@@ -8193,8 +8195,207 @@
 </node>
 </node>
 </node>
+<node TEXT="【MR5621-5】" ID="ID_1478591533" CREATED="1609729677034" MODIFIED="1609729710591"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      大气波导在AAS 产品上的适配。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="TDD相关的基础知识" ID="ID_1704376609" CREATED="1609729869732" MODIFIED="1609730010297"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TDD因为上下行复用同一个频点，所以需要配置上下行分别占用的资源的比例，同时上下行切换的时候需要时间，所以特殊子帧中也存在一些不同的配置。总结起来就是两种配置：
+    </p>
+    <p>
+      1，上下行子帧配比
+    </p>
+    <p>
+      2，特殊子帧的配比
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="特殊子帧配比" ID="ID_545915000" CREATED="1609730073595" MODIFIED="1609730077704">
+<node TEXT="5" OBJECT="java.lang.Long|5" ID="ID_757397106" CREATED="1609730086573" MODIFIED="1609730240220"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DwPTS占用3个符号，GP占用9个符号，UpPTS占用2个符号
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="LTE物理层" FOLDED="true" POSITION="left" ID="ID_1217522266" CREATED="1542447751412" MODIFIED="1594086468990" LINK="../attachment/ppt/chapter%204%20LTE%20physical%20layer.pdf">
+<node TEXT="6" OBJECT="java.lang.Long|6" ID="ID_768252441" CREATED="1609730088953" MODIFIED="1609730246828"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DwPTS占用9个符号，GP占用3个符号，UpPTS占用2个符号
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="7" OBJECT="java.lang.Long|7" ID="ID_372948402" CREATED="1609730091693" MODIFIED="1609730215127"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DwPTS占用10个符号，GP占用2个符号，UpPTS占用2个符号
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="上下行子帧配比" ID="ID_1519729014" CREATED="1609730255787" MODIFIED="1609737462313"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      从Feature的FP中看到，目前只支持上下行配比2？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      不支持其他的配比？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      上下行配比方式1： <b><font color="#0000cc">DD</font><font color="#ff0000">S</font><font color="#009933">UU</font><font color="#0000cc">DD</font><font color="#ff3300">S</font><font color="#009933">UU</font></b>
+    </p>
+    <p>
+      这种方式是上下行资源配置对等的配置
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      上下行配比方式2：<b><font color="#0000cc">DDD</font><font color="#ff3300">S</font><font color="#009933">U</font><font color="#0000cc">DDD</font><font color="#ff3300">S</font><font color="#009933">U</font><font color="#0000cc">DDD</font></b>
+    </p>
+    <p>
+      这种方式是上下行资源配置是1比3的方式配置。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="特殊子帧的作用" ID="ID_173205366" CREATED="1609737469380" MODIFIED="1609738058548">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      特殊子帧是在下行到上行转换的边界上，插入一个子帧，叫做特殊子帧，这个子帧之前的传输是下行传输，这个子帧之后的传输是上行传输。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      为什么在下行传输和上行传输切换的时间节点上需要加入一个特殊子帧？这主要是因为上行传输有TA，也就是说UE需要提前将上行子帧发送出来，这样保证在eNB接收到的上行子帧正好是在规定的时间上。
+    </p>
+    <p>
+      所以这就导致了如果下行传输完了之后，不加上特殊子帧的话，那么第一个上行子帧和最后一个下行子帧的信号会在空中相遇混合，从而造成干扰。所以要插入一个特殊子帧。
+    </p>
+    <p>
+      特殊子帧中的GP就是用来容忍TA的，只要UE的TA值不超过GP的大小，那么上下行的切换操作就不会产生干扰。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的是，特殊子帧只在下行转上行的那个时间点插入，在上行转下行的时间点，并不需要插入特殊子帧。
+    </p>
+    <p>
+      原因还是由于TA的存在，eNB会在准确的子帧timing下接收到UE的上行数据，之后才会发送下行子帧的数据，因为两者在空中不存在混合。所以不需要加GP。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="UE的接收和发送时间点" ID="ID_649296051" CREATED="1609739322373" MODIFIED="1609739588568"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于eNB来说，它的下行发送是在准确的子帧的起始时间点开始发送的，而且它也要求UE在发射的时候，也需要满足到达eNB的时间点，也是是准确的子开始的时间。
+    </p>
+    <p>
+      这个要求从eNB的角度来说很合理，因为eNB需要同时和很多的UE并行的进行通信，最简单也是干扰最小的方式就是同时发射，一起接收。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是这个要求对于每个UE来说，就导致UE不光需要发射的时候需要提前量TA，而且UE接收到的下行的时间点也并不是eNB端的子帧的起始时间，而是延迟了一段之间。
+    </p>
+    <p>
+      从而UE端必须要处理这两个方面的时延。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="LTE物理层" FOLDED="true" POSITION="left" ID="ID_1217522266" CREATED="1542447751412" MODIFIED="1609729812604" LINK="../attachment/ppt/chapter%204%20LTE%20physical%20layer.pdf">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -8204,13 +8405,14 @@
   </head>
   <body>
     <p>
-      &#22810;&#22336;&#26041;&#24335;&#20026;&#19979;&#34892;&#20351;&#29992;OFDMA&#65292;&#19978;&#34892;&#20351;&#29992;SC-FDMA
+      多址方式为下行使用OFDMA，上行使用SC-FDMA
     </p>
     <p>
-      &#31526;&#21495;&#38388;&#38548;(Guard Interval)&#20351;&#29992;&#24490;&#29615;&#21069;&#32512;(Cyclic Prefix)
+      符号间隔(Guard Interval)使用循环前缀(Cyclic Prefix)
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="功能" ID="ID_905442306" CREATED="1542447789899" MODIFIED="1542447803852"><richcontent TYPE="NOTE">
 
@@ -8952,8 +9154,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -9017,7 +9219,7 @@
 </node>
 </node>
 </node>
-<node TEXT="辅同步信号S-SS" FOLDED="true" ID="ID_1306874950" CREATED="1544163555527" MODIFIED="1544167197133"><richcontent TYPE="NOTE">
+<node TEXT="辅同步信号S-SS" FOLDED="true" ID="ID_1306874950" CREATED="1544163555527" MODIFIED="1609729812530"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9025,10 +9227,11 @@
   </head>
   <body>
     <p>
-      &#24490;&#29615;&#21608;&#26399;&#26159;5ms
+      循环周期是5ms
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="TDD" ID="ID_624445235" CREATED="1544167377902" MODIFIED="1544167384990"><richcontent TYPE="NOTE">
 
@@ -10223,8 +10426,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>

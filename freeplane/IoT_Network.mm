@@ -624,7 +624,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="分布式的IoT系统" ID="ID_1426849094" CREATED="1608533865956" MODIFIED="1608535092214"><richcontent TYPE="NOTE">
@@ -660,6 +659,26 @@
     </p>
     <p>
       使用复杂的组网方案，降低整个系统的cost
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NB-IoT网关" ID="ID_907959152" CREATED="1609120367795" MODIFIED="1609120534292"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用蓝牙协议，zigbee协议或者thread协议将不具备连接到外网的设备连接到NB-IoT网关上。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      NB-IoT网关不光能够提供网络连接，还可以合理的挑选位置，提供蓝牙设备不具备的能力，比如定位能力
     </p>
   </body>
 </html>
