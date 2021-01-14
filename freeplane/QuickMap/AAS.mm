@@ -93,7 +93,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="强烈推荐基础知识" ID="ID_1800580812" CREATED="1609383780929" MODIFIED="1609384271554" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/FDD%20AAS%20Digital%20Sectorization%20and%20Common%20Beam%20Weights.pptx"><richcontent TYPE="NOTE">
+<node TEXT="强烈推荐基础知识" ID="ID_1800580812" CREATED="1609383780929" MODIFIED="1610588726058" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/FDD%20AAS%20Digital%20Sectorization%20and%20Common%20Beam%20Weights.pptx"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -103,16 +103,37 @@
     <p>
       了解FDD BF的一个简单的PPT，解释的深入浅出，受益很多。
     </p>
+    <p>
+      
+    </p>
+    <p>
+      其中有一段matlab的代码，非常简单的描述和展示了beam forming的基本原理
+    </p>
   </body>
 </html>
 
 </richcontent>
 </node>
 <node TEXT="AAS Port2Antenna mapping" ID="ID_722772368" CREATED="1609384678392" MODIFIED="1609385193175" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx"/>
+<node TEXT="Beam weights optimization" ID="ID_1906780264" CREATED="1610589349130" MODIFIED="1610589493225" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/Beam%20weights%20optimization%20L18A.pptx"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个文档也是一个非常好的文档，讲的是BF weight的设计的
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="产品" POSITION="left" ID="ID_542712313" CREATED="1606269366899" MODIFIED="1606269399219">
 <edge COLOR="#ff00ff"/>
-<node TEXT="TDD AAS" ID="ID_1693279247" CREATED="1606269334303" MODIFIED="1608529620834"><richcontent TYPE="NOTE">
+<node TEXT="TDD AAS" ID="ID_1693279247" CREATED="1606269334303" MODIFIED="1610507245216" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/LTE_TDD_AAS_Feature_List"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -130,6 +151,12 @@
     </p>
     <p>
       基于DMRS来实现的话，下行能够实现的波形是有限个的，也就是只能在一些固定的网格beam pattern中选择。这种方法叫做基于GoB的BF。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      LTE的Wiki上面有LTE AAS相关的所有的feature列表，可以查看。
     </p>
   </body>
 </html>
@@ -165,7 +192,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="base" ID="ID_1294007969" CREATED="1609382326392" MODIFIED="1609382327679">
 <node TEXT="MR3452" ID="ID_409756082" CREATED="1609382309778" MODIFIED="1609382313196"/>
@@ -184,7 +210,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="MR6132" ID="ID_1281415345" CREATED="1609380152808" MODIFIED="1609383770629" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/NDS%20MR6132%20FDD%20AAS%20Digital%20Sectorization.pdf"><richcontent TYPE="NOTE">
@@ -199,7 +224,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="参考-DS原理" ID="ID_951205588" CREATED="1609383835076" MODIFIED="1609385351504" LINK="#ID_1800580812"/>
 <node TEXT="参考-P2A映射" ID="ID_1739289352" CREATED="1609385352658" MODIFIED="1609385371768" LINK="#ID_722772368"/>
@@ -216,7 +240,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -234,8 +234,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1585036465461">
+<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1610589170610">
 <icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -250,6 +251,7 @@
   </body>
 </html>
 </richcontent>
+<attribute NAME="WhenDone" VALUE="2021-01-14" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-14T09:52+0800|yyyy-MM-dd"/>
 </node>
 </node>
 </node>
@@ -1849,6 +1851,30 @@
 </richcontent>
 <attribute NAME="WhenDone" VALUE="2020-08-04" OBJECT="org.freeplane.features.format.FormattedDate|2020-08-04T10:02+0800|yyyy-MM-dd"/>
 </node>
+<node TEXT="研究Hackthon的Idea" ID="ID_1248529441" CREATED="1597889263034" MODIFIED="1610504646406" LINK="BLD_Project.mm#ID_688215932">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      手头上有IoT的设备，近期公司有Hackthon的比赛，研究一下如何使用这些设备捣鼓出一些看起来好玩的idea。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      准备demo一个用iot设备来监控车祸/轮船倾覆以及泥石流检测的平台。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2021-01-13" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-13T10:24+0800|yyyy-MM-dd"/>
+</node>
 </node>
 <node TEXT="EBU产品优化" FOLDED="true" ID="ID_1607343060" CREATED="1531793219061" MODIFIED="1531793237191">
 <icon BUILTIN="list"/>
@@ -2453,6 +2479,11 @@
 </richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:24+0800|yyyy-MM-dd"/>
 </node>
+<node TEXT="黑五的VPS研究" ID="ID_680498849" CREATED="1606268264442" MODIFIED="1610588933132">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="WhenDone" VALUE="2021-01-14" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-14T09:48+0800|yyyy-MM-dd"/>
+</node>
 </node>
 <node TEXT="增强Release Confluence Page" ID="ID_1316714709" CREATED="1537927351630" MODIFIED="1575945676343">
 <icon BUILTIN="yes"/>
@@ -2946,7 +2977,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
+<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
 <icon BUILTIN="edit"/>
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -3843,8 +3874,25 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="黑五的VPS研究" ID="ID_680498849" CREATED="1606268264442" MODIFIED="1606268282766">
+<node TEXT="IP v6 小研究" ID="ID_1388108524" CREATED="1610589174318" MODIFIED="1610589251036">
 <icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      家中宽带似乎已经分配了ipv6的地址。
+    </p>
+    <p>
+      小研究一下，看看是否有类似内网穿透的可能性
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="System Improvements" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
@@ -3894,27 +3942,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="研究Hackthon的Idea" ID="ID_1248529441" CREATED="1597889263034" MODIFIED="1606106099902" LINK="BLD_Project.mm#ID_688215932">
+<node TEXT="NB-IoT的PHR精确估计改进" ID="ID_895591776" CREATED="1610588912226" MODIFIED="1610589126677">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      手头上有IoT的设备，近期公司有Hackthon的比赛，研究一下如何使用这些设备捣鼓出一些看起来好玩的idea。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      准备demo一个用iot设备来监控车祸/轮船倾覆以及泥石流检测的平台。
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
 </node>
 </node>

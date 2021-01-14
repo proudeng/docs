@@ -8385,6 +8385,85 @@
 <node TEXT="发射分级相关内容了解" ID="ID_1871016199" CREATED="1609808005741" MODIFIED="1609808029254"/>
 </node>
 <node TEXT="Feature Parity分析" ID="ID_134642234" CREATED="1610354188228" MODIFIED="1610354204931"/>
+<node TEXT="系统改进" ID="ID_1656979756" CREATED="1610504705305" MODIFIED="1610504708081">
+<node TEXT="序列的发送改进？" ID="ID_514039229" CREATED="1610504722921" MODIFIED="1610505874219">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当前的系统方案中，特征序列的发送逻辑其实有一些奇怪：
+    </p>
+    <p>
+      当一个node A检测到了干扰之后，这时候它自己会发送特征序列，期望其他的远方的某个node B能够检测出自己的特征序列。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      而且SSP切换的逻辑似乎也有一些奇怪：
+    </p>
+    <p>
+      当node A持续的检测到了干扰之后，经过半个小时，nodeA根据TDD互异性特性，认为自己也会对别人产生干扰，从而nodeA会将自己的的SSP切换为SSP5，期望降低对其他的nodeA的干扰。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="奇怪的地方" ID="ID_1663000142" CREATED="1610505911570" MODIFIED="1610506618506"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      奇怪的地方是，这个整个方案中其实没有一个协调的过程，完全是各个node自己单独的操作。
+    </p>
+    <p>
+      而node的行为，也没有和其他node或者网络端来协调，而是自己对互异性的假设。
+    </p>
+    <p>
+      没有协调者的角色，导致方案的整个行为都是跟正常逻辑相反的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      感觉上，整个方案中需要一个协调的角色。
+    </p>
+    <p>
+      比如说，nodeA检测到了有干扰，可以上报给网络，网络让可疑的remote B发送特征序列，A接着检测，如果监测到了特征序列，那么就确认了nodeA和nodeB之间的干扰存在。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      比如说，如果有协调者的话，那么所有监测到干扰的node都可以上报给协调者，这样协调者能够有一个全局的数据，能够判断出来哪些node之间可能存在干扰，从而优化特征序列发送的行为和SSP切换的行为。这两个行为其实对于网络性能还是有负面的影响的。
+    </p>
+    <p>
+      协调者可以根据监测到的干扰的信息做一些预处理，甚至都不需要采用发送特征序列的行为就能够直接切换SSP。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="LTE物理层" POSITION="left" ID="ID_1217522266" CREATED="1542447751412" MODIFIED="1609729812604" LINK="../attachment/ppt/chapter%204%20LTE%20physical%20layer.pdf">
@@ -9145,8 +9224,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
