@@ -144,7 +144,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Intel汇编相关知识汇总" FOLDED="true" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
+<node TEXT="Intel汇编相关知识汇总" POSITION="left" ID="ID_1006976814" CREATED="1381242901463" MODIFIED="1521770186608">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -5480,7 +5480,6 @@ END</pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="第六章-信号的矢量空间分析" ID="ID_939311556" CREATED="1586502533736" MODIFIED="1586502541977"/>
 </node>
@@ -5589,9 +5588,9 @@ END</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="无线通信" FOLDED="true" ID="ID_270501259" CREATED="1568690443575" MODIFIED="1568690448370">
+<node TEXT="无线通信" ID="ID_270501259" CREATED="1568690443575" MODIFIED="1568690448370">
 <node TEXT="WirelessCom" ID="ID_540553525" CREATED="1568690458960" MODIFIED="1568709369125" LINK="../attachment/Communication/移动通信/wirelessCom/"/>
-<node TEXT="Wireless Communication" FOLDED="true" ID="ID_1422176627" CREATED="1568690521680" MODIFIED="1569202971853" LINK="../attachment/数学和通信基础/移动通信/无线通信_Goldsmith.pdf">
+<node TEXT="Wireless Communication" ID="ID_1422176627" CREATED="1568690521680" MODIFIED="1569202971853" LINK="../attachment/数学和通信基础/移动通信/无线通信_Goldsmith.pdf">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="DETAILS">
 
@@ -5607,7 +5606,7 @@ END</pre>
 </html>
 </richcontent>
 <node TEXT="第二章-路损和阴影" ID="ID_693458560" CREATED="1569202983495" MODIFIED="1569202998127"/>
-<node TEXT="第六章-数字调制和解调" ID="ID_1037007253" CREATED="1569202999619" MODIFIED="1569203008341">
+<node TEXT="第六章-数字调制和解调" FOLDED="true" ID="ID_1037007253" CREATED="1569202999619" MODIFIED="1569203008341">
 <node TEXT="信号空间分析" ID="ID_158669292" CREATED="1569381319869" MODIFIED="1569404632983"><richcontent TYPE="NOTE">
 
 <html>

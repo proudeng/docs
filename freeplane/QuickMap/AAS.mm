@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -111,7 +111,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="AAS Port2Antenna mapping" ID="ID_722772368" CREATED="1609384678392" MODIFIED="1609385193175" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx"/>
@@ -127,8 +126,117 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="LTE TM Mode and BeamForming" ID="ID_858510398" CREATED="1611223441583" MODIFIED="1611223526669" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/LTE_TMs_and_beamforming.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是非常好的一个介绍LTE的预编码和传输模式的文章
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
+</node>
+<node TEXT="P2A" POSITION="right" ID="ID_373868327" CREATED="1610952069202" MODIFIED="1610952558499" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx">
+<edge COLOR="#7c0000"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      P2A(Port to Antenna mapping)是AAS中非常重要的一个概念。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也就是如何把天线端口(CRS,CSI-RS)映射到物理的天线上去。
+    </p>
+    <p>
+      在legacy的非AAS系统中，不怎么碰到P2A，这是因为对于2天线系统和4天线系统，天线端口和物理天线默认是一一对应。
+    </p>
+    <p>
+      但是在AAS系统中，大量的物理天线出现了，而天线端口还是没有改变(CRS和CSI-RS)，两者之间的数量严重的不匹配，所以P2A的重要性就显现出来了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="LTE多天线技术" POSITION="right" ID="ID_968860121" CREATED="1611223265594" MODIFIED="1611223285267">
+<edge COLOR="#00007c"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LTE系统从设计之初就是一个多天线的系统，也就是从一开始就使用了MIMO技术。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="多天线使用方式" ID="ID_1126133429" CREATED="1611223428852" MODIFIED="1611223433966">
+<node TEXT="发射分集" ID="ID_1039004868" CREATED="1611223308327" MODIFIED="1611223313597"/>
+<node TEXT="波束赋形" ID="ID_1956689108" CREATED="1611223318202" MODIFIED="1611223335585"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其中空分复用和波束赋形对于多天线的要求是冲突的：
+    </p>
+    <p>
+      空分复用要求多天线之间的距离要足够远，这样天线之间是不相关的，每个天线有相对独立的传输信道。
+    </p>
+    <p>
+      而波束赋形要求多天线之间的距离要足够的近，这样利用天线之间的相关性，能够调整整体上多天线发射的综合的波形方向。
+    </p>
+    <p>
+      一般如果天线间距小于1/2的波长，那么这样的多天线系统适合做波束赋形，反之，这样的多天线系统适合做空分复用。
+    </p>
+    <p>
+      如果想使用空分复用，除了增大天线间距这个方法之外，还有一种通用的方法是使用双极化天线，这样，天线的尺寸不用太大，同时因为双极化天线之间是正交的，就满足空分复用对天线的要求。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      多天线的使用方式大致有下面的几种：
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;• 发射分集
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;• 空分复用
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;• 波束赋形
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这同时也说明了，在AAS系统中，不同极化方向的天线是不能用来做波束赋形的，能够一起做波束赋形的天线一定是那些极化方向一样的天线。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="空分复用" ID="ID_1017377640" CREATED="1611223314335" MODIFIED="1611223317425"/>
 </node>
 </node>
 <node TEXT="产品" POSITION="left" ID="ID_542712313" CREATED="1606269366899" MODIFIED="1606269399219">
