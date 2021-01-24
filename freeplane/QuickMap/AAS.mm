@@ -77,8 +77,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="AAS 基本知识" POSITION="right" ID="ID_60783938" CREATED="1606269317007" MODIFIED="1606269386345">
+<node TEXT="AAS 基本知识" POSITION="right" ID="ID_60783938" CREATED="1606269317007" MODIFIED="1611476254329">
 <edge COLOR="#ff0000"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      要了解AAS，首先需要了解的就是LTE的Pre-Coding
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="LTE AAS Coverage and Capacity Dimensioning" ID="ID_618895062" CREATED="1607994367068" MODIFIED="1608524815763" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/LTE%20AAS%20Coverage%20and%20Capacity%20Dimensioning.pdf"><richcontent TYPE="NOTE">
 
 <html>
@@ -105,7 +119,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="AAS Port2Antenna mapping" ID="ID_722772368" CREATED="1609384678392" MODIFIED="1609385193175" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx"/>
@@ -165,7 +178,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="base" ID="ID_1294007969" CREATED="1609382326392" MODIFIED="1609382327679">
 <node TEXT="MR3452" ID="ID_409756082" CREATED="1609382309778" MODIFIED="1609382313196"/>
@@ -184,7 +196,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="MR6132" ID="ID_1281415345" CREATED="1609380152808" MODIFIED="1609383770629" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/NDS%20MR6132%20FDD%20AAS%20Digital%20Sectorization.pdf"><richcontent TYPE="NOTE">
@@ -199,7 +210,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="参考-DS原理" ID="ID_951205588" CREATED="1609383835076" MODIFIED="1609385351504" LINK="#ID_1800580812"/>
 <node TEXT="参考-P2A映射" ID="ID_1739289352" CREATED="1609385352658" MODIFIED="1609385371768" LINK="#ID_722772368"/>
@@ -216,7 +226,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
