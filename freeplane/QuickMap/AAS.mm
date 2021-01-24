@@ -77,8 +77,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="AAS 基本知识" POSITION="right" ID="ID_60783938" CREATED="1606269317007" MODIFIED="1606269386345">
+<node TEXT="AAS 基本知识" POSITION="right" ID="ID_60783938" CREATED="1606269317007" MODIFIED="1611476254329">
 <edge COLOR="#ff0000"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      要了解AAS，首先需要了解的就是LTE的Pre-Coding
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="LTE AAS Coverage and Capacity Dimensioning" ID="ID_618895062" CREATED="1607994367068" MODIFIED="1608524815763" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/LTE%20AAS%20Coverage%20and%20Capacity%20Dimensioning.pdf"><richcontent TYPE="NOTE">
 
 <html>
