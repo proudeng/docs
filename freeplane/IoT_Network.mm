@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="IoT协议" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
 <edge COLOR="#ff0000"/>
 <node TEXT="应用层" ID="ID_555749467" CREATED="1608122495335" MODIFIED="1608122500615">
@@ -679,6 +679,126 @@
     </p>
     <p>
       NB-IoT网关不光能够提供网络连接，还可以合理的挑选位置，提供蓝牙设备不具备的能力，比如定位能力
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="蓝牙定位的研究" POSITION="left" ID="ID_1206902806" CREATED="1611539936941" MODIFIED="1611539995775">
+<edge COLOR="#00ff00"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用蓝牙技术可以实现室内定位的功能。
+    </p>
+    <p>
+      传统的蓝牙和蓝牙5.1上对实现室内定位功能的思路是不一样的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="基于传统蓝牙技术" ID="ID_293833552" CREATED="1611540001262" MODIFIED="1611542464859"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基于传统的蓝牙技术而言，需要布站。 网络中需要有两种设备，<font color="#000000">一种设备</font><font color="#0000ff">负责发送beacon信号</font>，一种设备负责<font color="#009900">接收和解析beacon信号</font>。
+    </p>
+    <p>
+      其室内定位的实现是通过测量RSSI来实现的。beacon设备不断的发送beacon帧，接收设备中接收到这个beacon帧之后，可以解析出beacon信号的RSSI强度，也就是信号接收强度。
+    </p>
+    <p>
+      根据RSSI值可以估计接收设备距离beacon设备的距离。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      基于这个原理，在实际的网络布网中，可以有两种不同的实现思路，适用于不同的应用场景。
+    </p>
+    <ul>
+      <li>
+        基于设备的定位。
+      </li>
+      <li>
+        基于基站的定位。
+      </li>
+    </ul>
+    <p>
+      终端侧定位一般用于<font color="#0000ff">室内定位导航</font>，<font color="#0000ff">精准位置营销</font>等用户终端；而网络侧定位主要用于<font color="#009900">人员跟踪定位</font>，<font color="#009900">资产定位及客流分析</font>等情境之中
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="基于设备的定位" ID="ID_1926324649" CREATED="1611540914779" MODIFIED="1611542514486"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种方式下，并将其包含在发送的beacon帧里面，设备负责接收beacon帧并且计算beacon帧的RSSI强度值。
+    </p>
+    <p>
+      然后在终端上就能够自己计算出相对于基站的位置。或者终端可以通过网络将计算出的RSSI强度值传输到后台的服务器上，服务器端有完整的基站的列表和位置信息，在服务器端计算出设备的位置。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="基于基站的定位" ID="ID_198666577" CREATED="1611540921231" MODIFIED="1611542541271"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种实现思路中，设备负责发送beacon帧，而基站则负责接收和解码beacon数据以及计算beacon数据的RSSI指标。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在基站获取了设备的RSSI指标之后，同样的就可以根据其估算设备的位置了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="基于蓝牙5.1技术" ID="ID_69457844" CREATED="1611540014015" MODIFIED="1611542759716"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      蓝牙5.1使用了多天线技术，这样能够大幅的提高定位的精确度，使用的方法是通用的<b><font color="#ff3300">AoA</font></b>和<b><font color="#ff3300">AoD</font></b>技术。也就是到达角和接收角的方向。
+    </p>
+    <p>
+      根据这些信息能够精确的计算设备的位置，大幅提高定位的精度。
+    </p>
+    <p>
+      不过这个方案要求有多天线技术，也就是要么是接收天线，要么是发送天线需要使用天线阵列，这样才能够估计AoA或者AoD。
+    </p>
+    <p>
+      
     </p>
   </body>
 </html>
