@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -187,7 +187,7 @@
 <node TEXT="Cell Shaping" ID="ID_149152246" CREATED="1612160809202" MODIFIED="1612160813402"/>
 <node TEXT="UE Specific Beam" ID="ID_153835878" CREATED="1612160814015" MODIFIED="1612160821597"/>
 </node>
-<node TEXT="BF中多天线组合方式" ID="ID_316444118" CREATED="1612160898814" MODIFIED="1612162040549"><richcontent TYPE="NOTE">
+<node TEXT="BF中多天线组合方式" ID="ID_316444118" CREATED="1612160898814" MODIFIED="1613629274645"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -198,7 +198,7 @@
       所谓Beam Forming，其实基本上完成的事情就是：
     </p>
     <p>
-      选取一组天线，在这组天线上传输相同的内容，然后通过调整不同天线上发射的相位和幅度来达到调整发射防线的目的。
+      选取一组天线，在这组天线上传输相同的内容，然后通过调整不同天线上发射的相位和幅度来达到调整发射方向的目的。
     </p>
     <p>
       
@@ -211,7 +211,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="单天线传输" ID="ID_1501439283" CREATED="1612160912824" MODIFIED="1612161433313"><richcontent TYPE="NOTE">
 
@@ -231,7 +230,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -245,7 +243,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="宽波形" ID="ID_1127112018" CREATED="1612161709926" MODIFIED="1612161717909"/>
 <node TEXT="低增益" ID="ID_816548287" CREATED="1612161725653" MODIFIED="1612161729367"/>
@@ -262,7 +259,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_143218922" CREATED="1612161747293" MODIFIED="1612161852846"><richcontent TYPE="NODE">
 
@@ -276,7 +272,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1360403219" CREATED="1612161750373" MODIFIED="1612161873316"><richcontent TYPE="NODE">
@@ -291,7 +286,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="PA利用率高" ID="ID_1984144395" CREATED="1612161757218" MODIFIED="1612161763626"/>
@@ -308,7 +302,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_812957084" CREATED="1612161765411" MODIFIED="1612161887638"><richcontent TYPE="NODE">
 
@@ -322,7 +315,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1216104875" CREATED="1612161769371" MODIFIED="1612161862599"><richcontent TYPE="NODE">
@@ -337,7 +329,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="PA利用率高" ID="ID_1108077082" CREATED="1612161830039" MODIFIED="1612161833610"/>
@@ -357,7 +348,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -377,7 +367,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="基于天线空间做端口映射" ID="ID_238907441" CREATED="1612162482622" MODIFIED="1612163213404">
 <icon BUILTIN="help"/>
@@ -393,7 +382,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="基于波束空间做端口映射" ID="ID_216123207" CREATED="1612162501129" MODIFIED="1612163218003">
@@ -410,7 +398,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="上述两者的集合" ID="ID_393432533" CREATED="1612162529191" MODIFIED="1612163227689">
@@ -436,7 +423,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -605,6 +591,11 @@
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="LTE的均衡技术" POSITION="right" ID="ID_237634496" CREATED="1613624747507" MODIFIED="1613624751569">
+<edge COLOR="#007c00"/>
+<node TEXT="Zero-Forcing" ID="ID_237385337" CREATED="1613715848450" MODIFIED="1613974267808"/>
+<node TEXT="MMSE" ID="ID_1968847245" CREATED="1613715858370" MODIFIED="1613974273667"/>
 </node>
 <node TEXT="产品" POSITION="left" ID="ID_542712313" CREATED="1606269366899" MODIFIED="1606269399219">
 <edge COLOR="#ff00ff"/>
@@ -817,8 +808,123 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="Commom Beam 构成" ID="ID_1355533896" CREATED="1613631199938" MODIFIED="1613633270155"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一些前提情况：
+    </p>
+    <ul>
+      <li>
+        TDD AAS只支持两端口配置，CRS0和CRS1
+      </li>
+      <li>
+        AAS的Radio都是采用双极化天线的配置
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="2D BeamWeight" ID="ID_297956176" CREATED="1613634782413" MODIFIED="1613634790263">
+<node TEXT="Port CRS0" ID="ID_1891631111" CREATED="1613634799473" MODIFIED="1613634809544">
+<node TEXT="H Weight" ID="ID_1211939533" CREATED="1613634913394" MODIFIED="1613634918314"/>
+<node TEXT="V Weight" ID="ID_1968812907" CREATED="1613634918767" MODIFIED="1613634923578"/>
 </node>
-<node TEXT="SP534-SU-MIMO SRS-based RAT DL BF 64TRX" ID="ID_830814112" CREATED="1607914480819" MODIFIED="1611625620524">
+<node TEXT="Port CRS1" ID="ID_1773499139" CREATED="1613634810338" MODIFIED="1613634893428"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一旦Port0的BF weight决定好了，那么CRS1的BF weight就能够根据CRS0的计算出来。
+    </p>
+    <p>
+      计算的准则就是Alamoti Code准则。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Common Beam类型" ID="ID_849690014" CREATED="1613713434353" MODIFIED="1613713442098">
+<node TEXT="MACRO" ID="ID_107815868" CREATED="1613713452010" MODIFIED="1613713455752"/>
+<node TEXT="HIGH-RISE" ID="ID_203025744" CREATED="1613713456286" MODIFIED="1613713463224"/>
+<node TEXT="HOTSPOT" ID="ID_757090054" CREATED="1613713463953" MODIFIED="1613713467433"/>
+</node>
+<node TEXT="PRACH接收" ID="ID_1383790798" CREATED="1613713473728" MODIFIED="1613713477451"/>
+<node TEXT="PUCCH接收" ID="ID_1638896962" CREATED="1613713477944" MODIFIED="1613713481819"/>
+<node TEXT="SRS配置" ID="ID_913259029" CREATED="1613960324822" MODIFIED="1613960334316"/>
+<node TEXT="SDFT" ID="ID_257888365" CREATED="1613960334918" MODIFIED="1613960339785">
+<node TEXT="SDFT的结果是什么？" ID="ID_194081771" CREATED="1613960539159" MODIFIED="1613960869468"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对物理天线上接收的信号做SDFT变换之后，得到的是Beam域的同样数量的信号。
+    </p>
+    <p>
+      物理天线上的信号的含义非常的明确，代表的是接收到的信号，在每个天线上接收的分量。或者说分量不合适，其实应该说是接收到的信号在不同天线上的值的分布。
+    </p>
+    <p>
+      那么在beam域上的同样个数的这些信号的明确含义是什么呢？:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      按照一些文档的描述，beam域上的信号代表的是，<font color="#0000cc">接收到的信号，不同角度上的值的分布</font>。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="傅里叶变换对" ID="ID_647755618" CREATED="1613960903111" MODIFIED="1613961248673"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里牵涉到一个讨论:
+    </p>
+    <p>
+      对某个信号做傅里叶变换，那么，变换后的信号的物理含义是什么？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      比如，在这里的SDFT的例子中，天线域上的信号和beam域上的信号是一对<font color="#0000cc">傅里叶变换对</font>。
+    </p>
+    <p>
+      天线域上的信号可以看作是在<font color="#0000cc">空间域上对接收到的信号做采样</font>，
+    </p>
+    <p>
+      而beam域上的信号可以看作是对接收信号在<font color="#0000cc">不同角度方向上做采样</font>。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="SP534-SU-MIMO SRS-based RAT DL BF 64TRX" ID="ID_830814112" CREATED="1607914480819" MODIFIED="1613961248683">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -847,6 +953,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="新增BFC模块" ID="ID_971345118" CREATED="1611625698756" MODIFIED="1611625707620">
 <node TEXT="主要功能" ID="ID_1021320893" CREATED="1611625717539" MODIFIED="1611625811063"><richcontent TYPE="NOTE">
@@ -869,6 +976,239 @@
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="基于SRS的信道估计" ID="ID_1804109807" CREATED="1613961259743" MODIFIED="1613963614894"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基于SRS的信道估计，legacy已经实现了，在beam域上的SRS来做信道估计改动的不多。
+    </p>
+    <p>
+      在NDS里面描述了一些主要的区别:
+    </p>
+    <ol>
+      <li>
+        zero-length optimum channel 需要被允许
+      </li>
+      <li>
+        信道估计的粒度从子载波级别降低到SCG的粒度
+      </li>
+      <li>
+        PUCCH的频域上并没有SRS覆盖，所以这部分频点上的信道估计需要盲估
+      </li>
+      <li>
+        如果UE不支持AS的话，UE只能使用一根天线来传输SRS，那么eNB需要通过估计的方式得到另一根天线上的信道响应。实际的操作是假设UE使用了双极化天线，将一根天线上得到的信道估计，做正交化之后当作另一根天线的信道估计的近似值。
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="基于SRS的BF Weight" ID="ID_1562081317" CREATED="1613971238457" MODIFIED="1613972674118">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实基于SRS的BF weight的计算，其实还是算出H矩阵，然后在eNB端在发射信号的时候，做类似于均衡的操作。
+    </p>
+    <p>
+      只不过，在普通的H矩阵预测中，针对的是antenna port来做的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      其实它的本质还是一样的做均衡操作，只不过跟普通的均衡是针对port口来做的不一样，这
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Rank2" ID="ID_1158839923" CREATED="1613971255385" MODIFIED="1613973156004"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果是Rank2的BF weight，其实是使用的H矩阵做inverse的方式来得到BF weight的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的是，这个的H矩阵是针对Beam域来说的，也就是说如果接收端设计了M个Beam，而发射端UE一般是两个天线，那么这个H矩阵就是2 x M的矩阵。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      如果eNB是利用互异性通过SRS来计算下行H的话，那么其实首先eNB是做的上行的信道估计。
+    </p>
+    <p>
+      针对上行来说，UE的发射天线是2个，如果eNB设计了M个接收beam的话，那么估计的上行的信道矩阵H就是M x 2 维度。
+    </p>
+    <p>
+      而下行的信道矩阵就是将这个H做一个inverse，得到一个2 x M的矩阵。
+    </p>
+    <p>
+      <font color="#ff0033">而BF weight，就是针对这个H的inverse矩阵做均衡</font>。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在SP534的NDS中，使用的是<font color="#ff0033"><b>Zero-Forcing</b></font>的方式做的均衡，得出的结果就是<font color="#ff0033">beam域的BF weight</font>。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Rank1" ID="ID_833771521" CREATED="1613971258352" MODIFIED="1613973106027"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果是rank1的调度，那么BF weight的计算同样也和信道矩阵H有关。
+    </p>
+    <p>
+      道理实际上跟rank2是一样的，只是在rank2场景下，需要同时使用H的两列，
+    </p>
+    <p>
+      但是在rank1场景下，eNB只要选取H矩阵的一列来做inverse就可以了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      基于这个选取的H来做的均衡，得到的结果就是使得UE端某一个天线上的接收的效果最好。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="如何选择antenna" ID="ID_474046439" CREATED="1613973182177" MODIFIED="1613973842825"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在rank1的BF weight的计算中，需要选择antenna，
+    </p>
+    <p>
+      选择方式跟UE是否使用AS有关系:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      如果UE没有使用AS，那么直接选择第一个天线。
+    </p>
+    <p>
+      如果UE使用了AS，那么
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="weight归一化" ID="ID_74269701" CREATED="1613973883106" MODIFIED="1613974250893"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      直接均衡出来的BF weight，可能是任意值，这会导致改变eNB发射信号的能量，可能会很大或者很小。
+    </p>
+    <p>
+      我们需要做归一化让其的能量为1，也就是说，我们需要在做完BF之后，不改变发射信号的能量。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么对于rank1的UE来说，只要算出BF weight中的各项的平均功率，然后每个weight项都除以这一项，就能满足所有的weight的能量和为1.
+    </p>
+    <p>
+      对于rank2的UE来说，每一列单独做归一化，但是每个weight除以平均功率之后，再乘以一个1/根号2，这样就保证了每一列的总功率为0.5，两列一起的总功率为1.满足了功率的归一化要求。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="下行的BF Weight转化" ID="ID_1824538179" CREATED="1613975920510" MODIFIED="1613977771035"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在基于SRS和上下行互异性来做下行BF的时候，例如64天线的系统，基于接收到的SRS可以通过SDFT变换，可以得到64个Beam。
+    </p>
+    <p>
+      这64个beam是分别在水平和垂直方向等角度划分的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在下行的BF weight计算的过程中，某个UE的某一个特定的layer都需要分别做beam forming,
+    </p>
+    <p>
+      这实际上跟legacy场景下做预编码的情况是一样的(<font color="#0000cc">在legacy LTE的场景下，预编码做的事情，其实就是对UE的每一层分别做均衡，也就是给每一层打出不同的波形，这其实是一种最简陋的BF，每一层可选的波束形状就是预编码矩阵中规定的那集中。</font>)
+    </p>
+    <p>
+      那么在BF的场景下，可以自由的选择“预编码矩阵”了，这个矩阵实际上就是我们这里说的BF weight.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在实际的操作当中，根据上面描述的rank1和rank2的BF weight计算，得到的是beam域上的weight，这些个weight是不能直接使用的，需要转换为antenna域上的weight才能实际的加载到每个物理天线上去。
+    </p>
+    <p>
+      那么是如何转化的呢？实际上也很简单，<font color="#0000cc">就是做一个反向的SDFT</font>，就可以将beam域的weight转换为天线域的weight了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="下行功率scaling" ID="ID_516585612" CREATED="1613978093879" MODIFIED="1613978099332"/>
 </node>
 </node>
 <node TEXT="SP372-MU-MIMO SRS-based RAT DL BF 64TRX" ID="ID_223771595" CREATED="1607914497995" MODIFIED="1607914618536"/>

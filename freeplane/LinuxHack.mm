@@ -3754,7 +3754,7 @@
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7服务器" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1584615673801"><richcontent TYPE="NOTE">
+<node TEXT="[virpus.proudj.com@Virpus]Debian7服务器" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1584615673801"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4990,7 +4990,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ultravps的登录用户名和密码" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1604203333247"><richcontent TYPE="NOTE">
 
@@ -5007,7 +5006,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="创建用于登陆phpmyadmin的用户" ID="ID_946229541" CREATED="1535986166020" MODIFIED="1604203320812"><richcontent TYPE="NOTE">
 
@@ -5033,7 +5031,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5907,7 +5904,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
+<node TEXT="Android Linux Deploy" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5947,11 +5944,11 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="设备" ID="ID_731780486" CREATED="1534582539581" MODIFIED="1534582542623">
+<node TEXT="设备" FOLDED="true" ID="ID_731780486" CREATED="1534582539581" MODIFIED="1534582542623">
 <node TEXT="红米2高配版" ID="ID_161813112" CREATED="1534582545574" MODIFIED="1534582553479"/>
 <node TEXT="华为荣耀6" ID="ID_1341118826" CREATED="1534582553853" MODIFIED="1534582557862"/>
 </node>
-<node TEXT="服务器安装" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
+<node TEXT="服务器安装" FOLDED="true" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
 <node TEXT="web服务器" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
@@ -6087,7 +6084,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="配置lighttpd支持php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1569499350618"><richcontent TYPE="NOTE">
@@ -6187,7 +6183,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="/var/log/lighttpd/error.log" ID="ID_1194909261" CREATED="1519276999473" MODIFIED="1606815810032"><richcontent TYPE="NOTE">
 
@@ -6255,7 +6250,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6323,7 +6317,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="缺失extension的表现" ID="ID_1058492235" CREATED="1519460133491" MODIFIED="1560522982207"><richcontent TYPE="NOTE">
 
@@ -6751,7 +6744,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="通过USB线访问Linux Deploy" ID="ID_199779670" CREATED="1534583019404" MODIFIED="1534585261168">
+<node TEXT="通过USB线访问Linux Deploy" FOLDED="true" ID="ID_199779670" CREATED="1534583019404" MODIFIED="1534585261168">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -6842,7 +6835,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="【旧方法】荣耀六Reverse Tethering配置" ID="ID_376126602" CREATED="1534585040286" MODIFIED="1534587036843"><richcontent TYPE="NOTE">
+<node TEXT="【旧方法】荣耀六Reverse Tethering配置" FOLDED="true" ID="ID_376126602" CREATED="1534585040286" MODIFIED="1534587036843"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6945,7 +6938,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="红米2和荣耀6的通用方法" ID="ID_539855173" CREATED="1534585419971" MODIFIED="1534816801784" LINK="https://forum.xda-developers.com/showpost.php?p=57490025&amp;postcount=205">
+<node TEXT="红米2和荣耀6的通用方法" FOLDED="true" ID="ID_539855173" CREATED="1534585419971" MODIFIED="1534816801784" LINK="https://forum.xda-developers.com/showpost.php?p=57490025&amp;postcount=205">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -7487,6 +7480,130 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 <node TEXT="流媒体服务器" ID="ID_690404364" CREATED="1573609121528" MODIFIED="1573609131115">
 <node TEXT="nginx服务器" ID="ID_1321807179" CREATED="1573609139472" MODIFIED="1573609148781"/>
 </node>
+</node>
+<node TEXT="命令行使用SS代理" ID="ID_1218946962" CREATED="1613714504305" MODIFIED="1613960272908">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在VPS上搭建了SS服务器，终端可以使用SS代理访问外网。
+    </p>
+    <p>
+      但是有时候需要做脱机下载这样的操作，或者命令行下访问一些被墙的网站，这时候就没法使用SS代理，导致无法访问或者访问速度非常的慢。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="安装shadowsocks客户端" ID="ID_754576653" CREATED="1613714732479" MODIFIED="1613714870901"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      首先安装并启动shadowsocks客户端:
+    </p>
+    <p>
+      1.ss-local -c <font color="#ff0000">/etc/xxx.config</font>&nbsp;&amp;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      配置参数按照VPS上的SS 服务器端的配置来，ss-local执行了之后，就已经建立起了一个sock5的代理，我们这里假设端口是1080.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="安装proxychains" ID="ID_122761670" CREATED="1613714660973" MODIFIED="1613714961251"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      安装proxychains:
+    </p>
+    <p>
+      1.aptitude install proxychains
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      配置:
+    </p>
+    <p>
+      将/etc/proxychains.conf里面的最后一行改为系统中的socks5代理:
+    </p>
+    <p>
+      socks5 127.0.0.1 1080
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="使用SS代理" ID="ID_1755270867" CREATED="1613714964282" MODIFIED="1613715073148"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当需要使用SS代理的时候，命令行可以使用下面的格式来:
+    </p>
+    <p>
+      proxychains wget http://www.google.com
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这样的话wget就是走的SS代理的通路访问网络的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也可以这样:
+    </p>
+    <p>
+      proxychains bash
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这样就启动了一个新的bash shell，在这个shell中的所有的网络访问都是走的socks5的代理
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="IPV6 DDNS" ID="ID_1002439468" CREATED="1613714597666" MODIFIED="1613714602281"/>
+<node TEXT="WOL" ID="ID_909951503" CREATED="1613715087704" MODIFIED="1613715103628"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Wake On LAN:
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -8409,9 +8526,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10349,8 +10466,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="挂载数据盘的fstab的配置信息" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -12711,7 +12828,7 @@ root@OpenWrt:~# wifi</pre>
 <node TEXT="参考onenote操作图解" ID="ID_217129351" CREATED="1534589134659" MODIFIED="1534589167492" LINK="../OneNote/WR720N做二级路由-配置成交换机.one"/>
 </node>
 </node>
-<node TEXT="Youhua的WR1200JS配置" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
+<node TEXT="Youhua的WR1200JS配置" FOLDED="true" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
 <node TEXT="官方固件开始刷机" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
 
 <html>
@@ -14222,7 +14339,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 </node>
-<node TEXT="CubieBoard2双卡版配置" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
+<node TEXT="CubieBoard2双卡版配置" FOLDED="true" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
 <node TEXT="似乎是双卡的一个问题" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE">
 
 <html>
