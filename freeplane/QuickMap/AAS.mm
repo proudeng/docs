@@ -599,7 +599,7 @@
 </node>
 <node TEXT="产品" POSITION="left" ID="ID_542712313" CREATED="1606269366899" MODIFIED="1606269399219">
 <edge COLOR="#ff00ff"/>
-<node TEXT="TDD AAS" ID="ID_1693279247" CREATED="1606269334303" MODIFIED="1610507245216" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/LTE_TDD_AAS_Feature_List"><richcontent TYPE="NOTE">
+<node TEXT="TDD AAS" ID="ID_1693279247" CREATED="1606269334303" MODIFIED="1614325509136" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/LTE_TDD_AAS_Feature_List"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -626,6 +626,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="MR2815" ID="ID_1500069087" CREATED="1607914468206" MODIFIED="1607914474783">
 <node TEXT="SP533-Common Beamforming" ID="ID_909081486" CREATED="1607914477596" MODIFIED="1611625230379">
@@ -889,7 +890,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="傅里叶变换对" ID="ID_647755618" CREATED="1613960903111" MODIFIED="1613961248673"><richcontent TYPE="NOTE">
 
@@ -918,7 +918,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -953,7 +952,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="新增BFC模块" ID="ID_971345118" CREATED="1611625698756" MODIFIED="1611625707620">
 <node TEXT="主要功能" ID="ID_1021320893" CREATED="1611625717539" MODIFIED="1611625811063"><richcontent TYPE="NOTE">
@@ -1006,7 +1004,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="基于SRS的BF Weight" ID="ID_1562081317" CREATED="1613971238457" MODIFIED="1613972674118">
@@ -1035,7 +1032,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Rank2" ID="ID_1158839923" CREATED="1613971255385" MODIFIED="1613973156004"><richcontent TYPE="NOTE">
 
@@ -1079,7 +1075,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Rank1" ID="ID_833771521" CREATED="1613971258352" MODIFIED="1613973106027"><richcontent TYPE="NOTE">
@@ -1106,7 +1101,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="如何选择antenna" ID="ID_474046439" CREATED="1613973182177" MODIFIED="1613973842825"><richcontent TYPE="NOTE">
 
@@ -1132,7 +1126,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1160,7 +1153,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="下行的BF Weight转化" ID="ID_1824538179" CREATED="1613975920510" MODIFIED="1613977771035"><richcontent TYPE="NOTE">
@@ -1205,10 +1197,138 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="下行功率scaling" ID="ID_516585612" CREATED="1613978093879" MODIFIED="1613978099332"/>
+<node TEXT="下行功率scaling" ID="ID_516585612" CREATED="1613978093879" MODIFIED="1614147862481"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      举个例子，一个64天线的AAS Radio，如果总功率为120瓦，并且每个天线上的功率不超过2瓦。那么实际传输信号的时候，要求最终每根天线上的功率都应该不超过2瓦。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在实际中，下面的两个特点显然是成立的：
+    </p>
+    <ol>
+      <li>
+        1，在相同的RB上，不同的天线上的weight是不一样的。这是因为BF Weight本来就是要在不同的天线上选择不同的weight
+      </li>
+      <li>
+        2，在相同的天线上，不同的RB上的weight也是不一样的。这是因为BF Weight的计算，是在SCG的粒度上计算的，不同的SCG上计算出来的BF weight一般来说肯定是不一样的。
+      </li>
+    </ol>
+    <p>
+      因为上面的两个特点，所以BF weight在不同的RB上叠加的结果，会导致每一根天线上的总功率肯定是有大有小的。有一些可能超过了branch的最大功率2瓦，有一些天线可能不用完天线的总功率2瓦，
+    </p>
+    <p>
+      然后实际上每一根天线上的总功率都是不能超过2瓦的。那么就需要做power scaling，将超过最大发射功率的那些天线的功率往下拉一拉，把不能充分利用天线发射功率的那些天线的发射功率往上拉一拉。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Total Power Scaling" ID="ID_1078590932" CREATED="1614147887111" MODIFIED="1614148195536"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基准
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种scaling的方式只考虑AAS Radio的总功率。
+    </p>
+    <p>
+      也就是说，将经过BF Weight后的所有天线上的功率加起来。
+    </p>
+    <p>
+      如果使用的总功率不超过AAS Radio的最大总功率，那么将每根天线提高相同的比例，使得使用的总功率达到AAS Radio的最大功率。
+    </p>
+    <p>
+      如果使用的总功率超过了AAS Radio允许的最大总功率，那么将每根天线降低相同的比例，使得使用的总功率降到AAS Radio的最大功率。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这种方式在实际中是没法使用的，因为很显然，可能有一些天线上的功率超过了per branch的功率，而这是不允许的。
+    </p>
+    <p>
+      所以这种方式只是作为一个参考基准来对比其他的Power Scaling方式。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Linear Power Scaling" ID="ID_1870132695" CREATED="1614147906118" MODIFIED="1614148290337"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种power Scaling方式应用到所有的天线上，它的缩放原则非常的简单，就是找出<font color="#ff0033"><b>功率最大</b></font>的那根天线，计算出将这个天线scale到per branch最大发射功率的系数是多少。
+    </p>
+    <p>
+      然后在所有的天线上应用这个系数。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Equal Antenna Power Scaling" ID="ID_53653992" CREATED="1614147917150" MODIFIED="1614148396935"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种方式是使得所有的天线上的功率一样。
+    </p>
+    <p>
+      算出per branch的平均功率，然后将那些比平均功率低的天线上的功率提高，将那些比平均功率高的天线上的功率降低。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Clipping Power Scanling" ID="ID_308216204" CREATED="1614147930750" MODIFIED="1614148514038"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种方式跟上面的equal antenna power scaling方式其实很类似的。它是将超过平均功率0.0156的那些天线上的发射功率拉低到平均发射功率。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="SP372-MU-MIMO SRS-based RAT DL BF 64TRX" ID="ID_223771595" CREATED="1607914497995" MODIFIED="1607914618536"/>
@@ -1236,9 +1356,107 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="SP627" ID="ID_1500880598" CREATED="1614152835721" MODIFIED="1614324521612"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个SP主要做的事情是做下行的小区赋形。
+    </p>
+    <p>
+      小区赋形的话，因为FDD AAS主要支持TM4和TM9这两种传输模式，所以需要针对这两种传输模式分别设计方案。
+    </p>
+    <p>
+      在之前的开发中，实际上有两个demo版本的MR，MR3452和MR4031，分别就是做的TM4和TM9的小区赋形方案。
+    </p>
+    <p>
+      在本MR里面，所作的事情是将其适配到AIR3246上面。这款AAS Radio是32天线的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在MR3452的NDS里面，详细描述了FDD P2A的算法，这是理解FDD小区赋形的关键。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="base" ID="ID_1294007969" CREATED="1609382326392" MODIFIED="1609382327679">
-<node TEXT="MR3452" ID="ID_409756082" CREATED="1609382309778" MODIFIED="1609382313196"/>
+<node TEXT="MR3452" ID="ID_409756082" CREATED="1609382309778" MODIFIED="1614325121629" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/LMR%20NDS%2016TR.pdf">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个MR具体描述了FDD AAS中小区赋形中的<font color="#ff0000">Micro2Lobe</font>这种覆盖的技术原理。
+    </p>
+    <p>
+      这个是基于TM4的小区赋形方案。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="MR4031" ID="ID_1799609369" CREATED="1609382323099" MODIFIED="1609382324045"/>
+</node>
+</node>
+<node TEXT="SP628A" ID="ID_141367097" CREATED="1614152845881" MODIFIED="1614153925803"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      32 RX Combining
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Hybrid MRC/IRC
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SP628B" ID="ID_1722018645" CREATED="1614152862822" MODIFIED="1614153918450"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      32 RX Combining:
+    </p>
+    <p>
+      Full IRC
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="MR4481" ID="ID_48250905" CREATED="1609380143988" MODIFIED="1609380190997"><richcontent TYPE="NOTE">
