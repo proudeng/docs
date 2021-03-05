@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -3849,7 +3849,7 @@
 <node TEXT="信道估计和信道均衡" ID="ID_1426282600" CREATED="1573104615555" MODIFIED="1573104622475"/>
 <node TEXT="合并接收" ID="ID_1133105880" CREATED="1573104622993" MODIFIED="1573104630034"/>
 </node>
-<node TEXT="问题" POSITION="right" ID="ID_1822078911" CREATED="1550713509963" MODIFIED="1550713519181">
+<node TEXT="问题" FOLDED="true" POSITION="right" ID="ID_1822078911" CREATED="1550713509963" MODIFIED="1550713519181">
 <icon BUILTIN="help"/>
 <edge COLOR="#00ff00"/>
 <node TEXT="什么叫做信道估计和信道均衡？" ID="ID_1217908674" CREATED="1550713520803" MODIFIED="1568084984493"><richcontent TYPE="NOTE">
@@ -5817,8 +5817,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -7535,7 +7535,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="NB-IoT的特点" ID="ID_737265316" CREATED="1554702873588" MODIFIED="1554707063467">
 <node TEXT="强覆盖" FOLDED="true" ID="ID_1665076441" CREATED="1554702878267" MODIFIED="1554702881285">
@@ -9660,7 +9659,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="BB Timing Overview" FOLDED="true" ID="ID_377489371" CREATED="1545615414789" MODIFIED="1545615425401">
 <edge COLOR="#7c7c00"/>
@@ -10098,7 +10096,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Class" ID="ID_804450563" CREATED="1545188843582" MODIFIED="1545188869412"><richcontent TYPE="NOTE">
 
@@ -10378,6 +10375,52 @@
 <node TEXT="Core" ID="ID_360366157" CREATED="1546913674306" MODIFIED="1546913751431"/>
 </node>
 </node>
+<node TEXT="L2知识体系" FOLDED="true" ID="ID_1873012741" CREATED="1583643459367" MODIFIED="1614748779231">
+<node TEXT="Overview" FOLDED="true" ID="ID_1932228103" CREATED="1583643485361" MODIFIED="1583643495971">
+<node TEXT="Introduction to LTE bb sw arch" ID="ID_1773063709" CREATED="1583643500611" MODIFIED="1583643570664" LINK="https://ericsson.sharepoint.com/:v:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/New%20comer/BB%20Common/Videos/Introduction%20to%20LTE%20BB%20SW%20Arch.mp4?csf=1&amp;e=uNCs7W"/>
+<node TEXT="UCR, Class specification and RRM" ID="ID_1013649355" CREATED="1583643525752" MODIFIED="1583643594175" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FOn%252Dboarding%252FVideos%252FXE%2520onboard%2520training%2520%25209%2520%2520UCR%252C%2520Class%2520specification%2520and%2520RRM%252C%2520July%252018%252C%25202016%252010%252E08%252E20%2520AM%252Emp4&amp;parent=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FOn%252Dboarding%252FVideos"/>
+<node TEXT="LTE UCR Overview" ID="ID_1214085936" CREATED="1583643532847" MODIFIED="1583643606280" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FBB%2520Common%252FVideos%252FLTE%2520UCR%2520Overview%2520%252D%2520Tuesday%252C%2520June%252014%252C%25202016%25209%252E33%252E00%2520AM%252Emp4&amp;parent=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FBB%2520Common%252FVideos"/>
+</node>
+<node TEXT="RRM AS" FOLDED="true" ID="ID_198414430" CREATED="1583643610719" MODIFIED="1583643613295">
+<node TEXT="Document" ID="ID_1263339881" CREATED="1583643623084" MODIFIED="1583643625743">
+<node TEXT="RRM AS DL: 71/1551-CSH 103 704" ID="ID_1567381896" CREATED="1583643626828" MODIFIED="1583643628265"/>
+<node TEXT="RRM AS UL: 72/1551-CSH 103 704" ID="ID_315405066" CREATED="1583643634026" MODIFIED="1583643635376"/>
+</node>
+<node TEXT="Training Video" ID="ID_619501113" CREATED="1583643651538" MODIFIED="1583643675760" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining&amp;listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents"/>
+</node>
+<node TEXT="RedHawk Simulator" FOLDED="true" ID="ID_1059124376" CREATED="1583643700159" MODIFIED="1583643704651">
+<node TEXT="Getting Started with Redhawk in PDU LMR" ID="ID_779910476" CREATED="1583643712945" MODIFIED="1583643773907" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/RhCommonEnv/Getting_Started_with_Redhawk_in_PDU_LMR/Get_Access"/>
+<node TEXT="CourseSelfStudy Guide" ID="ID_1173940170" CREATED="1583643781341" MODIFIED="1583643790152" LINK="https://openalm.lmera.ericsson.se/plugins/mediawiki/wiki/redhawk2/index.php?title=CourseSelfStudy"/>
+<node TEXT="Training Videos" ID="ID_713915823" CREATED="1583643801125" MODIFIED="1583643810608" LINK="https://openalm.lmera.ericsson.se/plugins/docman/?group_id=5469&amp;action=show&amp;id=201355"/>
+<node TEXT="Latest Training by Beijing" ID="ID_1211749774" CREATED="1583643817412" MODIFIED="1583643837792" LINK="smb://bjg.cn.ao.ericsson.se/X$/XE/Technical/01-Training/03_CA_Common_Training_2019/Redhawk_Training_NJ_2019_NR"/>
+</node>
+<node TEXT="NB-IoT Training" FOLDED="true" ID="ID_1799698164" CREATED="1583643854754" MODIFIED="1614748804140">
+<node TEXT="Training Video" ID="ID_123227326" CREATED="1583643876352" MODIFIED="1614748804140" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FNBIoT&amp;listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents"/>
+</node>
+<node TEXT="Product Related" FOLDED="true" ID="ID_1513682719" CREATED="1583643894484" MODIFIED="1583643900872">
+<node TEXT="UPC DL" ID="ID_1180398945" CREATED="1583643905168" MODIFIED="1583643907810">
+<node TEXT="UPCDL Overview" ID="ID_612128078" CREATED="1583643938171" MODIFIED="1583643950567" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20Overview/UPC%20DL%20Overview.fbr?csf=1&amp;e=UOZyCb"/>
+<node TEXT="UPCDL Validator" ID="ID_609695368" CREATED="1583643981944" MODIFIED="1583644007814" LINK="https://ericsson.sharepoint.com/:p:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20Validator/UPCDL%20Validator.ppt?d=wf990398612dc4d858d0a11f7e4c51018&amp;csf=1&amp;e=SSk1LD"/>
+<node TEXT="UPCDL Scheduler" ID="ID_1555979700" CREATED="1583644019394" MODIFIED="1583644030156" LINK="https://ericsson.sharepoint.com/:p:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20Sched/DL_Scheduler_overview.ppt?d=w9cedaa91ae424545bc6dd99377b13746&amp;csf=1&amp;e=GOyWDr"/>
+<node TEXT="UPCDL Link Adaptation" ID="ID_1589030205" CREATED="1583644036275" MODIFIED="1583644046995" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20LA/DL%20LA%20sharing.fbr?csf=1&amp;e=WW1hPC"/>
+</node>
+<node TEXT="UPC UL" ID="ID_438313437" CREATED="1583643908120" MODIFIED="1583643913496">
+<node TEXT="UPCUL Overview" ID="ID_1155603334" CREATED="1583644054252" MODIFIED="1583644065003" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Overview/ulupc%20overview.fbr?csf=1&amp;e=bAPXlJ"/>
+<node TEXT="UPCUL Validation" ID="ID_855139670" CREATED="1583644070104" MODIFIED="1583644081186" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulMacCe/validation/ulvalidation.fbr?csf=1&amp;e=0i8pIq"/>
+<node TEXT="UPCUL Scheduler" ID="ID_1938583145" CREATED="1583644086656" MODIFIED="1583644095757" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulMacCe/pusch%20schedule%20cluster/ulscheduler%20training.fbr?csf=1&amp;e=aAycDh"/>
+<node TEXT="UPCUL Link Adaptation" ID="ID_1438433549" CREATED="1583644101630" MODIFIED="1583644113081" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulMacCe/pusch%20schedule%20cluster/ulLa.fbr?csf=1&amp;e=zuiEt6"/>
+<node TEXT="UPCUL ulCellCe" ID="ID_795053018" CREATED="1583644118328" MODIFIED="1583644127461" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulCellCe/ulcellce%20sharing.fbr?csf=1&amp;e=tBsNGr"/>
+</node>
+<node TEXT="UPL2" ID="ID_855700753" CREATED="1583643921808" MODIFIED="1583643925431">
+<node TEXT="MacPe" ID="ID_1871369748" CREATED="1583644140446" MODIFIED="1583644152561" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FLBB%252FMacPe"/>
+</node>
+</node>
+<node TEXT="3GPP Related" FOLDED="true" ID="ID_50784578" CREATED="1583644154421" MODIFIED="1583644158626">
+<node TEXT="36.213" OBJECT="java.lang.Double|36.213" ID="ID_1509546062" CREATED="1583644167036" MODIFIED="1583644168510"/>
+<node TEXT="36.321" OBJECT="java.lang.Double|36.321" ID="ID_1571837831" CREATED="1583644171187" MODIFIED="1583644174024"/>
+<node TEXT="36.331" OBJECT="java.lang.Double|36.331" ID="ID_1777273529" CREATED="1583644175718" MODIFIED="1583644177889"/>
+</node>
+</node>
 </node>
 <node TEXT="仿真环境" POSITION="right" ID="ID_806775551" CREATED="1614737835166" MODIFIED="1614737840439">
 <edge COLOR="#7c7c00"/>
@@ -10397,7 +10440,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10453,9 +10495,9 @@
 </node>
 <node TEXT="RRM Alg" POSITION="right" ID="ID_1441399205" CREATED="1614738241804" MODIFIED="1614738506172">
 <edge COLOR="#ff0000"/>
-<node TEXT="培训" FOLDED="true" ID="ID_264121083" CREATED="1614748708324" MODIFIED="1614748721038">
-<node TEXT="【LTE-DL】RRM培训" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1614738284469">
-<node TEXT="下行调度算法" FOLDED="true" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
+<node TEXT="Workshop" ID="ID_264121083" CREATED="1614748708324" MODIFIED="1614749082932">
+<node TEXT="【LTE-DL】RRM培训" FOLDED="true" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1614738284469">
+<node TEXT="下行调度算法" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
 <node TEXT="QOS Framework" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
 <node TEXT="QCI" ID="ID_198970372" CREATED="1549868306011" MODIFIED="1573451774082"><richcontent TYPE="NOTE">
 
@@ -12383,7 +12425,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="LA的输入" ID="ID_1619142773" CREATED="1578295664088" MODIFIED="1578295668340">
 <node TEXT="Calculate Path Loss" ID="ID_464354615" CREATED="1578295669168" MODIFIED="1578295981026"><richcontent TYPE="NOTE">
@@ -13495,60 +13536,27 @@
 </node>
 </node>
 </node>
-<node TEXT="【NB-IoT】RRM" ID="ID_307282526" CREATED="1614748594506" MODIFIED="1614748652167" LINK="NB-IoT_RRM.mm">
+<node TEXT="【NB-IoT】RRM所有算法分析" ID="ID_307282526" CREATED="1614748594506" MODIFIED="1614749405413" LINK="NB-IoT_RRM.mm">
 <icon BUILTIN="bee"/>
-</node>
-<node TEXT="L2知识体系" ID="ID_1873012741" CREATED="1583643459367" MODIFIED="1614748779231">
-<node TEXT="Overview" FOLDED="true" ID="ID_1932228103" CREATED="1583643485361" MODIFIED="1583643495971">
-<node TEXT="Introduction to LTE bb sw arch" ID="ID_1773063709" CREATED="1583643500611" MODIFIED="1583643570664" LINK="https://ericsson.sharepoint.com/:v:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/New%20comer/BB%20Common/Videos/Introduction%20to%20LTE%20BB%20SW%20Arch.mp4?csf=1&amp;e=uNCs7W"/>
-<node TEXT="UCR, Class specification and RRM" ID="ID_1013649355" CREATED="1583643525752" MODIFIED="1583643594175" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FOn%252Dboarding%252FVideos%252FXE%2520onboard%2520training%2520%25209%2520%2520UCR%252C%2520Class%2520specification%2520and%2520RRM%252C%2520July%252018%252C%25202016%252010%252E08%252E20%2520AM%252Emp4&amp;parent=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FOn%252Dboarding%252FVideos"/>
-<node TEXT="LTE UCR Overview" ID="ID_1214085936" CREATED="1583643532847" MODIFIED="1583643606280" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200067379D7FA947E84985B506B54A21FF4F&amp;id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FBB%2520Common%252FVideos%252FLTE%2520UCR%2520Overview%2520%252D%2520Tuesday%252C%2520June%252014%252C%25202016%25209%252E33%252E00%2520AM%252Emp4&amp;parent=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FNew%2520comer%252FBB%2520Common%252FVideos"/>
-</node>
-<node TEXT="RRM AS" FOLDED="true" ID="ID_198414430" CREATED="1583643610719" MODIFIED="1583643613295">
-<node TEXT="Document" ID="ID_1263339881" CREATED="1583643623084" MODIFIED="1583643625743">
-<node TEXT="RRM AS DL: 71/1551-CSH 103 704" ID="ID_1567381896" CREATED="1583643626828" MODIFIED="1583643628265"/>
-<node TEXT="RRM AS UL: 72/1551-CSH 103 704" ID="ID_315405066" CREATED="1583643634026" MODIFIED="1583643635376"/>
-</node>
-<node TEXT="Training Video" ID="ID_619501113" CREATED="1583643651538" MODIFIED="1583643675760" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining&amp;listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents"/>
-</node>
-<node TEXT="RedHawk Simulator" FOLDED="true" ID="ID_1059124376" CREATED="1583643700159" MODIFIED="1583643704651">
-<node TEXT="Getting Started with Redhawk in PDU LMR" ID="ID_779910476" CREATED="1583643712945" MODIFIED="1583643773907" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/RhCommonEnv/Getting_Started_with_Redhawk_in_PDU_LMR/Get_Access"/>
-<node TEXT="CourseSelfStudy Guide" ID="ID_1173940170" CREATED="1583643781341" MODIFIED="1583643790152" LINK="https://openalm.lmera.ericsson.se/plugins/mediawiki/wiki/redhawk2/index.php?title=CourseSelfStudy"/>
-<node TEXT="Training Videos" ID="ID_713915823" CREATED="1583643801125" MODIFIED="1583643810608" LINK="https://openalm.lmera.ericsson.se/plugins/docman/?group_id=5469&amp;action=show&amp;id=201355"/>
-<node TEXT="Latest Training by Beijing" ID="ID_1211749774" CREATED="1583643817412" MODIFIED="1583643837792" LINK="smb://bjg.cn.ao.ericsson.se/X$/XE/Technical/01-Training/03_CA_Common_Training_2019/Redhawk_Training_NJ_2019_NR"/>
-</node>
-<node TEXT="NB-IoT Training" FOLDED="true" ID="ID_1799698164" CREATED="1583643854754" MODIFIED="1614748804140">
-<node TEXT="Training Video" ID="ID_123227326" CREATED="1583643876352" MODIFIED="1614748804140" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2FNBIoT&amp;listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents"/>
-</node>
-<node TEXT="Product Related" FOLDED="true" ID="ID_1513682719" CREATED="1583643894484" MODIFIED="1583643900872">
-<node TEXT="UPC DL" ID="ID_1180398945" CREATED="1583643905168" MODIFIED="1583643907810">
-<node TEXT="UPCDL Overview" ID="ID_612128078" CREATED="1583643938171" MODIFIED="1583643950567" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20Overview/UPC%20DL%20Overview.fbr?csf=1&amp;e=UOZyCb"/>
-<node TEXT="UPCDL Validator" ID="ID_609695368" CREATED="1583643981944" MODIFIED="1583644007814" LINK="https://ericsson.sharepoint.com/:p:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20Validator/UPCDL%20Validator.ppt?d=wf990398612dc4d858d0a11f7e4c51018&amp;csf=1&amp;e=SSk1LD"/>
-<node TEXT="UPCDL Scheduler" ID="ID_1555979700" CREATED="1583644019394" MODIFIED="1583644030156" LINK="https://ericsson.sharepoint.com/:p:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20Sched/DL_Scheduler_overview.ppt?d=w9cedaa91ae424545bc6dd99377b13746&amp;csf=1&amp;e=GOyWDr"/>
-<node TEXT="UPCDL Link Adaptation" ID="ID_1589030205" CREATED="1583644036275" MODIFIED="1583644046995" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20DL/Good%20place%20to%20start/DL%20LA/DL%20LA%20sharing.fbr?csf=1&amp;e=WW1hPC"/>
-</node>
-<node TEXT="UPC UL" ID="ID_438313437" CREATED="1583643908120" MODIFIED="1583643913496">
-<node TEXT="UPCUL Overview" ID="ID_1155603334" CREATED="1583644054252" MODIFIED="1583644065003" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Overview/ulupc%20overview.fbr?csf=1&amp;e=bAPXlJ"/>
-<node TEXT="UPCUL Validation" ID="ID_855139670" CREATED="1583644070104" MODIFIED="1583644081186" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulMacCe/validation/ulvalidation.fbr?csf=1&amp;e=0i8pIq"/>
-<node TEXT="UPCUL Scheduler" ID="ID_1938583145" CREATED="1583644086656" MODIFIED="1583644095757" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulMacCe/pusch%20schedule%20cluster/ulscheduler%20training.fbr?csf=1&amp;e=aAycDh"/>
-<node TEXT="UPCUL Link Adaptation" ID="ID_1438433549" CREATED="1583644101630" MODIFIED="1583644113081" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulMacCe/pusch%20schedule%20cluster/ulLa.fbr?csf=1&amp;e=zuiEt6"/>
-<node TEXT="UPCUL ulCellCe" ID="ID_795053018" CREATED="1583644118328" MODIFIED="1583644127461" LINK="https://ericsson.sharepoint.com/:u:/r/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/LBB/UPC%20UL/Implementation%20framework/Components/ulCellCe/ulcellce%20sharing.fbr?csf=1&amp;e=tBsNGr"/>
-</node>
-<node TEXT="UPL2" ID="ID_855700753" CREATED="1583643921808" MODIFIED="1583643925431">
-<node TEXT="MacPe" ID="ID_1871369748" CREATED="1583644140446" MODIFIED="1583644152561" LINK="https://ericsson.sharepoint.com/sites/PDU4G5GPB4RSMCompetencePortal/Shared%20Documents/Forms/AllItems.aspx?id=%252Fsites%252FPDU4G5GPB4RSMCompetencePortal%252FShared%2520Documents%252FLBB%252FMacPe"/>
-</node>
-</node>
-<node TEXT="3GPP Related" FOLDED="true" ID="ID_50784578" CREATED="1583644154421" MODIFIED="1583644158626">
-<node TEXT="36.213" OBJECT="java.lang.Double|36.213" ID="ID_1509546062" CREATED="1583644167036" MODIFIED="1583644168510"/>
-<node TEXT="36.321" OBJECT="java.lang.Double|36.321" ID="ID_1571837831" CREATED="1583644171187" MODIFIED="1583644174024"/>
-<node TEXT="36.331" OBJECT="java.lang.Double|36.331" ID="ID_1777273529" CREATED="1583644175718" MODIFIED="1583644177889"/>
-</node>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在这个MM文件中，概括了所有的NB-IoT的RRM算法，是当时走读NB的RRM算法的时候做的总结，简要的介绍了每个RRM算法的功能，并且按照它们之间的调用关系分了类。
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="L1 AS Alg" POSITION="right" ID="ID_316793133" CREATED="1614738506851" MODIFIED="1614738513021">
 <edge COLOR="#00ff00"/>
 </node>
-<node TEXT="开发任务" FOLDED="true" POSITION="right" ID="ID_1493467292" CREATED="1551062440300" MODIFIED="1594800902800">
+<node TEXT="开发任务" POSITION="right" ID="ID_1493467292" CREATED="1551062440300" MODIFIED="1594800902800">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -16342,7 +16350,7 @@
 </node>
 </node>
 </node>
-<node TEXT="【MR8475】" ID="ID_1635586012" CREATED="1594793647503" MODIFIED="1594793705806"><richcontent TYPE="NOTE">
+<node TEXT="【MR8475】" FOLDED="true" ID="ID_1635586012" CREATED="1594793647503" MODIFIED="1594793705806"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -16682,7 +16690,7 @@
 </node>
 </node>
 </node>
-<node TEXT="【MR5621-5】" ID="ID_1478591533" CREATED="1609729677034" MODIFIED="1609729710591"><richcontent TYPE="NOTE">
+<node TEXT="【MR5621-5】" FOLDED="true" ID="ID_1478591533" CREATED="1609729677034" MODIFIED="1609729710591"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -16952,6 +16960,116 @@
 </node>
 </node>
 </node>
+<node TEXT="【MR6245】" ID="ID_500212451" CREATED="1614753714491" MODIFIED="1614753722586">
+<node TEXT="依赖的Feature" ID="ID_1427156241" CREATED="1614753734479" MODIFIED="1614759545354">
+<node TEXT="【MR792】RRP" ID="ID_1352211281" CREATED="1614753741600" MODIFIED="1614764680261"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature就是做的RRP功能.RRP的特点：
+    </p>
+    <ol>
+      <li>
+        一个cell划分为多个Radio Resource Group。每个UE根据其SPID或者PLMN被归到一个特定的group里面去。
+      </li>
+      <li>
+        每一个Resource group会配置一个share(PRB/SE)，这个share(60%)并不表示UE最多能够使用60%的资源，如果某个groupA需要的资源比较多，但是其他的group并没有占满其他所有的资源，那么这个groupA就可以使用其他group的资源。但是，如果几个group都需要很多的资源，资源发生了争抢，那么每个group如何分配资源就要按照这个share来分配了。
+      </li>
+      <li>
+        一个小区中最多有6个group，各个group的share加在一起是可以超过100%的
+      </li>
+      <li>
+        一个小区中还可以预留一部分的share给GBR的bearer使用，GBR的bearer是不分group的，所有group中的UE都可以一起使用GBR区域的资源。
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node TEXT="适用的场景" ID="ID_991608326" CREATED="1614763890906" MODIFIED="1614763897988">
+<node TEXT="Shared LTE RAN(MOCN)" ID="ID_785249503" CREATED="1614759502430" MODIFIED="1614763929620"/>
+<node TEXT="Subscriber Triggered Mobility" ID="ID_950273392" CREATED="1614759512567" MODIFIED="1614759534055"/>
+</node>
+<node TEXT="MOM配置" ID="ID_828251957" CREATED="1614764723611" MODIFIED="1614825431748" LINK="onenote:https://ericsson-my.sharepoint.com/personal/jun_a_deng_ericsson_com/Documents/OneNote/Personal/Ericsson.one#LTE%2520Carrier%2520Aggregation&amp;section-id=%7B01D1C75B-0B95-46D0-9162-0F4140EA1A24%7D&amp;page-id=%7BA4A04E1F-CACF-4B16-BE0A-7A3BE5A6CA28%7D&amp;end"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基本上来说，配置是这样的：
+    </p>
+    <ul>
+      <li>
+        一个eNodeB中，会定义最多24 resource partition
+      </li>
+      <li>
+        一个eNodeB中，也会定义最多24个resource group，每个resource group中会包含若干个resource partition，同时每个resource partition上关联一个share参数，表示资源的配比。
+      </li>
+      <li>
+        每一个cell中，会关联一个resource group id，每个resource group id 就对应于eNodeB下的一个resource group，每个group中会包含若干个resource partition，最多不超过6个。这个group中定义的resource partition就定义了这个cell的资源分配的配置
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="GBR的资源的分配是如何体现的？" ID="ID_595416392" CREATED="1614822656701" MODIFIED="1614912446260">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在MOM的配置里面，似乎只体现了非GBR的resource partition的分配比例。同时在FP里面介绍过了GBR的bearer是多个group共享的，这些共享的资源是通过什么样的配置信息来指定预留的资源的大小的？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Aanswer：
+    </p>
+    <p>
+      在NDS里面提到了，实际上所有的Resource partition 不仅仅是用户可见的可配的那6个resource partition。
+    </p>
+    <p>
+      除了这些partition之外，系统里面还有两个partition：
+    </p>
+    <ul>
+      <li>
+        base partition
+      </li>
+      <li>
+        residual partition
+      </li>
+    </ul>
+    <p>
+      base partition的作用是共享那些优先级比较高的bearer，比如GBR的业务和SRB这样的信息。
+    </p>
+    <p>
+      而residual partition的作用是共享那些优先级比较低的信令bearer。这个partition也和base一样，是所有的UE共享的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="WoW和组织架构" FOLDED="true" POSITION="left" ID="ID_987143871" CREATED="1614738597561" MODIFIED="1614738608731">
 <edge COLOR="#ff00ff"/>
@@ -17074,7 +17192,7 @@
 </node>
 </node>
 </node>
-<node TEXT="EMCA软硬件架构" FOLDED="true" POSITION="left" ID="ID_943964773" CREATED="1614738670873" MODIFIED="1614741315484">
+<node TEXT="EMCA软硬件架构" POSITION="left" ID="ID_943964773" CREATED="1614738670873" MODIFIED="1614741315484">
 <edge COLOR="#00ffff"/>
 <node TEXT="HW_Arch" FOLDED="true" ID="ID_1289326594" CREATED="1545036506615" MODIFIED="1614738716667">
 <node TEXT="DUL20 HW" ID="ID_1881493735" CREATED="1545037100900" MODIFIED="1545791548575" LINK="../attachment/DUL20HW_1545791508925.png"><richcontent TYPE="NOTE">
@@ -17615,7 +17733,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Digital HW func mapping" ID="ID_140204434" CREATED="1545020281015" MODIFIED="1545717835151"><richcontent TYPE="NOTE">
+<node TEXT="Digital HW func mapping" FOLDED="true" ID="ID_140204434" CREATED="1545020281015" MODIFIED="1545717835151"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -19649,69 +19767,6 @@
 </node>
 </node>
 </node>
-<node TEXT="一些特殊符号" POSITION="left" ID="ID_265348424" CREATED="1553429539752" MODIFIED="1553429545384">
-<edge COLOR="#7c0000"/>
-<node TEXT="∆" ID="ID_17488884" CREATED="1553429548473" MODIFIED="1553429552311"/>
-<node TEXT="Latex语法实例" FOLDED="true" ID="ID_734102705" CREATED="1569390034947" MODIFIED="1573455119340" LINK="http://mohu.org/info/symbols/symbols.htm"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#20351;&#29992;&#26041;&#27861;1&#65306;
-    </p>
-    <p>
-      \latex $&#20844;&#24335;$
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#20351;&#29992;&#26041;&#27861;2&#65306;
-    </p>
-    <p>
-      \latex \[&#20844;&#24335;\]
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="\latex $\sum_{k =1}^{N}a[k]$" ID="ID_1525260375" CREATED="1569390048523" MODIFIED="1573464891731">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $\int_{a}^{b}f(x)$" ID="ID_303262801" CREATED="1569390121161" MODIFIED="1573464891735">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $\prod_{a}^{b}N(i)$" ID="ID_192633349" CREATED="1569390202165" MODIFIED="1573464891736">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $\frac{\mathrm{d} f(x)}{\mathrm{d} x}$" ID="ID_1570391668" CREATED="1569390308443" MODIFIED="1573464891738">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $\frac{\partial f(x,y)}{\partial x}$" ID="ID_63505329" CREATED="1569390409436" MODIFIED="1573464891739">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $\lim_{n \to 0}$" ID="ID_1469175322" CREATED="1569390722771" MODIFIED="1573464891740">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $x^{a}$" ID="ID_897567986" CREATED="1569391019698" MODIFIED="1573464891741">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $x_{a}$" ID="ID_705323393" CREATED="1569391117145" MODIFIED="1573464891741">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $ \Delta$" ID="ID_275677399" CREATED="1571900656385" MODIFIED="1573464891742">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex $ \delta$" ID="ID_1096041432" CREATED="1571900672026" MODIFIED="1573464891743">
-<font SIZE="14"/>
-</node>
-<node TEXT="\latex ${\frac{a}{b}}" ID="ID_371153445" CREATED="1573464851577" MODIFIED="1573464891743">
-<font SIZE="14"/>
-</node>
-</node>
-</node>
 <node TEXT="LTE专题应用" POSITION="left" ID="ID_1924541397" CREATED="1614741252098" MODIFIED="1614741258596">
 <edge COLOR="#7c0000"/>
 <node TEXT="LTE定位" FOLDED="true" ID="ID_1277506118" CREATED="1607413870718" MODIFIED="1614741264779">
@@ -19952,6 +20007,158 @@
 </richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="一些特殊符号和技巧" POSITION="left" ID="ID_265348424" CREATED="1553429539752" MODIFIED="1614824395729">
+<edge COLOR="#7c0000"/>
+<node TEXT="∆" ID="ID_17488884" CREATED="1553429548473" MODIFIED="1553429552311"/>
+<node TEXT="Latex语法实例" FOLDED="true" ID="ID_734102705" CREATED="1569390034947" MODIFIED="1573455119340" LINK="http://mohu.org/info/symbols/symbols.htm"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;&#26041;&#27861;1&#65306;
+    </p>
+    <p>
+      \latex $&#20844;&#24335;$
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;&#26041;&#27861;2&#65306;
+    </p>
+    <p>
+      \latex \[&#20844;&#24335;\]
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex $\sum_{k =1}^{N}a[k]$" ID="ID_1525260375" CREATED="1569390048523" MODIFIED="1573464891731">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $\int_{a}^{b}f(x)$" ID="ID_303262801" CREATED="1569390121161" MODIFIED="1573464891735">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $\prod_{a}^{b}N(i)$" ID="ID_192633349" CREATED="1569390202165" MODIFIED="1573464891736">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $\frac{\mathrm{d} f(x)}{\mathrm{d} x}$" ID="ID_1570391668" CREATED="1569390308443" MODIFIED="1573464891738">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $\frac{\partial f(x,y)}{\partial x}$" ID="ID_63505329" CREATED="1569390409436" MODIFIED="1573464891739">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $\lim_{n \to 0}$" ID="ID_1469175322" CREATED="1569390722771" MODIFIED="1573464891740">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $x^{a}$" ID="ID_897567986" CREATED="1569391019698" MODIFIED="1573464891741">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $x_{a}$" ID="ID_705323393" CREATED="1569391117145" MODIFIED="1573464891741">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $ \Delta$" ID="ID_275677399" CREATED="1571900656385" MODIFIED="1573464891742">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex $ \delta$" ID="ID_1096041432" CREATED="1571900672026" MODIFIED="1573464891743">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex ${\frac{a}{b}}" ID="ID_371153445" CREATED="1573464851577" MODIFIED="1573464891743">
+<font SIZE="14"/>
+</node>
+</node>
+<node TEXT="如何插入onenote页面链接" ID="ID_580131786" CREATED="1614824398718" MODIFIED="1614825326892">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      期望实现的功能是：
+    </p>
+    <p>
+      在freeplane中插入指向onenote页面的链接，当在freeplane中点击这个链接的时候，会自动的打开onenote的应用，并跳转到对应的笔记本的指定的页面。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      如何实现：
+    </p>
+    <p>
+      在onenote上的目标页面上右击，然后选择copy link to page选项。这时候这个页面的link就被拷贝到剪贴板上了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      需要注意的是，拷贝到粘贴板上的链接不是一个链接，而是两个。分别用于web端访问和app端访问。一个例子可以参考子节点。
+    </p>
+    <p>
+      对应于不同的需求，可以选择对应的链接插入使用。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="onenote链接格式" ID="ID_1383679318" CREATED="1614824856736" MODIFIED="1614825220923"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在我的电脑上，实际上拷贝的onenote的链接包含了两个链接，分别是web端的链接和app端的链接，一个例子如下:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000cc">https://ericsson-my.sharepoint.com/personal/jun_a_deng_ericsson_com/_layouts/OneNote.aspx?id=%2Fpersonal%2Fjun_a_deng_ericsson_com%2FDocuments%2FOneNote%2FPersonal&amp;wd=target%28Ericsson.one%7C01D1C75B-0B95-46D0-9162-0F4140EA1A24%2FLTE%20Carrier%20Aggregation%7CA4A04E1F-CACF-4B16-BE0A-7A3BE5A6CA28%2F%29</font>
+    </p>
+    <p>
+      <font color="#009933">onenote:https://ericsson-my.sharepoint.com/personal/jun_a_deng_ericsson_com/Documents/OneNote/Personal/Ericsson.one#LTE%20Carrier%20Aggregation&amp;section-id={01D1C75B-0B95-46D0-9162-0F4140EA1A24}&amp;page-id={A4A04E1F-CACF-4B16-BE0A-7A3BE5A6CA28}&amp;end </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      可能不同的电脑对应的链接的格式会不一样，因为我的这个电脑中的onenote是保存在sharepoint上面的，所以网页端的链接就是一个sharepoint的链接。估计如果对于正常的onedrive用户的话，onenote的web端链接应该是跳转到onedrive上的onenote页面。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="电脑端指定默认的onenote应用" ID="ID_1185203900" CREATED="1614825079689" MODIFIED="1614825219279"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在使用app端的链接的时候，电脑会使用默认的onenote app来打开对应的页面。
+    </p>
+    <p>
+      在我的电脑上，安装了两个版本的onenote，一个是onenote for win10，一个是office上的套件。default是使用onenote for win10这个版本来打开app的，但是我希望使用更加专业的office套件的onenote版本，这时可以使用win10来更改默认的onenote应用。
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
