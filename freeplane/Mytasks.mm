@@ -108,7 +108,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="好玩的东西" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1550713356610">
+<node TEXT="好玩的东西" FOLDED="true" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1550713356610">
 <font NAME="SansSerif"/>
 <node TEXT="Seleium &amp; Katalon" ID="ID_367235526" CREATED="1528075797595" MODIFIED="1539224700294"><richcontent TYPE="NOTE">
 
@@ -3626,10 +3626,10 @@
 <node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="Linux Course" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
+<node TEXT="Linux Course" FOLDED="true" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="学习开源课程" FOLDED="true" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1563177025787" TEXT_SHORTENED="true">
+<node TEXT="学习开源课程" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1563177025787" TEXT_SHORTENED="true">
 <icon BUILTIN="yes"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <font NAME="SansSerif"/>
@@ -3779,6 +3779,69 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="线性代数" ID="ID_119152989" CREATED="1615251940300" MODIFIED="1615251950571">
+<node TEXT="MIT线性代数视频课程" ID="ID_646266717" CREATED="1615251954035" MODIFIED="1615255636552">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      了解一下之前学习到了什么进度，将之前放下的给补起来，然后完成剩余的内容，并且补完Anki卡片。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;&lt;线性代数应该这么学&gt;&gt;" ID="ID_543268500" CREATED="1615251963846" MODIFIED="1615252029286">
+<icon BUILTIN="yes"/>
+</node>
+</node>
+<node TEXT="&lt;&lt;中国简史&gt;&gt;" ID="ID_540698170" CREATED="1615252001931" MODIFIED="1615252149771">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      回顾总结一下学习的内容。生成Anki卡片。最好能够完成一篇读后感。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="AAS学习" ID="ID_5463576" CREATED="1615255655019" MODIFIED="1615256137279"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AAS就要做一个分享了，希望在分享之前把PPT的内容再完善一下，并且把FDD AAS的基础内容看完。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      主要是FDD AAS的P2A的内容是难点，这个点过了其实就没有什么复杂的内容了，因为FDD只有小区赋形的common beamforming，除此之外接收方法也跟TDD非常的相似了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="FDD AAS的基础知识学完" ID="ID_421973552" CREATED="1615255846082" MODIFIED="1615255868567">
+<icon BUILTIN="yes"/>
+</node>
+<node TEXT="AAS的PPT完成" ID="ID_932175624" CREATED="1615255671037" MODIFIED="1615255872814">
+<icon BUILTIN="yes"/>
+</node>
+</node>
 </node>
 <node TEXT="BLD项目" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
 <icon BUILTIN="list"/>
@@ -3811,6 +3874,96 @@
 <node TEXT="研究一下CMAKE机制" ID="ID_573359454" CREATED="1596505682235" MODIFIED="1596505691740">
 <icon BUILTIN="yes"/>
 </node>
+</node>
+</node>
+<node TEXT="LTE RRP" ID="ID_1182137075" CREATED="1615338492560" MODIFIED="1615338546906">
+<icon BUILTIN="list"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      了解LTE的RRP功能，给予项目上的支持。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="完成MR792功能的了解" ID="ID_1503100805" CREATED="1615338571377" MODIFIED="1615338656119">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="75%"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FP和NDS都已经过完了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="完成MR6245功能的了解" ID="ID_313411427" CREATED="1615338582184" MODIFIED="1615338907864">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FP的内容还没有看完
+    </p>
+    <p>
+      NDS的内容还没有看完
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="SP1" ID="ID_1076465999" CREATED="1615338975199" MODIFIED="1615339017335"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Static Resource Sharing
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SP2" ID="ID_1975003326" CREATED="1615338978464" MODIFIED="1615339032071"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GBR Partitioning
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SP3" ID="ID_1104892376" CREATED="1615338980574" MODIFIED="1615338982261"/>
+<node TEXT="SP6" ID="ID_1024159034" CREATED="1615338982471" MODIFIED="1615338984606"/>
+</node>
+<node TEXT="完成RRM文档中RRP相关功能的了解" ID="ID_272046590" CREATED="1615338656885" MODIFIED="1615338673714">
+<icon BUILTIN="yes"/>
 </node>
 </node>
 <node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
@@ -3894,7 +4047,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="System Improvements" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
+<node TEXT="System Improvements" FOLDED="true" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="【NII】开发自动填报工时工具" ID="ID_811419261" CREATED="1537927628558" MODIFIED="1563177025780" LINK="QuickMap/auto_time_report.mm#ID_611689550">

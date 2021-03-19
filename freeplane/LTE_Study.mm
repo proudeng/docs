@@ -5817,8 +5817,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -10496,7 +10496,7 @@
 <node TEXT="RRM Alg" POSITION="right" ID="ID_1441399205" CREATED="1614738241804" MODIFIED="1614738506172">
 <edge COLOR="#ff0000"/>
 <node TEXT="Workshop" ID="ID_264121083" CREATED="1614748708324" MODIFIED="1614749082932">
-<node TEXT="【LTE-DL】RRM培训" FOLDED="true" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1614738284469">
+<node TEXT="【LTE-DL】RRM培训" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1614738284469">
 <node TEXT="下行调度算法" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
 <node TEXT="QOS Framework" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
 <node TEXT="QCI" ID="ID_198970372" CREATED="1549868306011" MODIFIED="1573451774082"><richcontent TYPE="NOTE">
@@ -10657,7 +10657,7 @@
 <node TEXT="priorityShift" ID="ID_1084398585" CREATED="1573452494731" MODIFIED="1573452499947"/>
 </node>
 </node>
-<node TEXT="计算weight的通用架构" ID="ID_423499635" CREATED="1576649154822" MODIFIED="1576650611850">
+<node TEXT="计算weight的通用架构" ID="ID_423499635" CREATED="1576649154822" MODIFIED="1615173151676">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -10667,13 +10667,13 @@
   </head>
   <body>
     <p>
-      weight&#26159;&#29992;&#26469;&#34913;&#37327;&#19981;&#21516;&#30340;PQ&#20043;&#38388;&#35843;&#24230;&#20248;&#20808;&#32423;&#30340;&#25351;&#26631;&#12290;weight&#20540;&#36234;&#39640;&#65292;&#34920;&#26126;&#36825;&#20010;PQ&#30340;&#35843;&#24230;&#20248;&#20808;&#32423;&#36234;&#39640;&#12290;weight&#30340;&#35745;&#31639;&#21644;&#22909;&#22810;&#30340;&#21442;&#25968;&#26377;&#20851;&#65292;&#32780;&#19988;&#36824;&#20250;&#38543;&#30528;&#21508;&#20010;&#21442;&#32771;&#25351;&#26631;&#30340;&#21464;&#21270;weight&#30340;&#20540;&#20063;&#20250;&#21457;&#29983;&#21464;&#21270;&#12290;
+      weight是用来衡量不同的PQ之间调度优先级的指标。weight值越高，表明这个PQ的调度优先级越高。weight的计算和好多的参数有关，而且还会随着各个参考指标的变化weight的值也会发生变化。
     </p>
     <p>
-      &#20294;&#26159;&#65292;weight&#30340;&#21021;&#22987;&#20540;&#19968;&#33324;&#26159;&#20351;&#29992;&#31867;&#20284;&#20110;&#19979;&#38754;&#30340;&#20844;&#24335;&#35745;&#31639;&#24471;&#21040;&#30340;&#65306;
+      但是，weight的初始值一般是使用类似于下面的公式计算得到的：
     </p>
     <p>
-      <b>weight_initial = (<font color="#0000ff">minPriority</font>&#160;- <font color="#ff6600">priority</font>) * <font color="#0000ff">priorityWeightResolution</font></b>
+      <b>weight_initial = (<font color="#0000ff">minPriority</font>&nbsp;- <font color="#ff6600">priority</font>) * <font color="#0000ff">priorityWeightResolution</font></b>
     </p>
   </body>
 </html>
@@ -11093,7 +11093,7 @@
 </node>
 <node TEXT="Ericsson Realization" ID="ID_641481509" CREATED="1573202280719" MODIFIED="1573202285697"/>
 </node>
-<node TEXT="DL Scheduling Engine" FOLDED="true" ID="ID_653518968" CREATED="1573526083090" MODIFIED="1573526100523">
+<node TEXT="DL Scheduling Engine" ID="ID_653518968" CREATED="1573526083090" MODIFIED="1573526100523">
 <node TEXT="PDSCH" FOLDED="true" ID="ID_185284056" CREATED="1573526962900" MODIFIED="1573526965526">
 <node TEXT="Transmission flow" ID="ID_1324822730" CREATED="1573526148271" MODIFIED="1573526974490">
 <node TEXT="eNB发送DCI" ID="ID_1611044738" CREATED="1573527033815" MODIFIED="1573527047330"/>
@@ -11138,11 +11138,11 @@
 <node TEXT="MCS" ID="ID_1699175398" CREATED="1573527266534" MODIFIED="1573527276248"/>
 </node>
 </node>
-<node TEXT="LTE downlink scheduler" FOLDED="true" ID="ID_675047445" CREATED="1573527655362" MODIFIED="1573527664563">
+<node TEXT="LTE downlink scheduler" ID="ID_675047445" CREATED="1573527655362" MODIFIED="1573527664563">
 <node TEXT="Buffer&lt;-&gt; Scheduler&lt;-&gt;Phy" ID="ID_1321353857" CREATED="1573528892639" MODIFIED="1576655602960"/>
 <node TEXT="PHY" ID="ID_1319177937" CREATED="1573528914557" MODIFIED="1573614530735"/>
 </node>
-<node TEXT="Scheduling Engine" FOLDED="true" ID="ID_953709854" CREATED="1573534144483" MODIFIED="1573534153347">
+<node TEXT="Scheduling Engine" ID="ID_953709854" CREATED="1573534144483" MODIFIED="1573534153347">
 <node TEXT="structure" ID="ID_1179468542" CREATED="1573542042748" MODIFIED="1573542045962">
 <node TEXT="one scheduler per BBM" ID="ID_1628083658" CREATED="1573542188748" MODIFIED="1573542199094"/>
 <node TEXT="use tree structure" ID="ID_1932918712" CREATED="1573542202979" MODIFIED="1573542238759"/>
@@ -11270,7 +11270,7 @@
 <node TEXT="Number of transmission attempts" ID="ID_1745541331" CREATED="1576656318702" MODIFIED="1576656326225"/>
 </node>
 </node>
-<node TEXT="Scheduling Flow" FOLDED="true" ID="ID_78645603" CREATED="1576734029471" MODIFIED="1576734043507">
+<node TEXT="Scheduling Flow" ID="ID_78645603" CREATED="1576734029471" MODIFIED="1576734043507">
 <node TEXT="RANK=1" ID="ID_1855744017" CREATED="1573543093314" MODIFIED="1576734063831">
 <node TEXT="Validation&amp;Prioritization" ID="ID_523918898" CREATED="1573543120008" MODIFIED="1573544118962"><richcontent TYPE="NOTE">
 
@@ -11354,7 +11354,7 @@
 </node>
 <node TEXT="Resrouce Allocation" ID="ID_1970930676" CREATED="1573610217237" MODIFIED="1573610231497"/>
 <node TEXT="seSelector" ID="ID_38958843" CREATED="1573611673006" MODIFIED="1573611679061">
-<node TEXT="每个Cell中每次TTI允许的最大PDCCH个数" ID="ID_1721649932" CREATED="1573611690108" MODIFIED="1573611936066"><richcontent TYPE="NOTE">
+<node TEXT="每个Cell中每次TTI允许的最大PDCCH个数" ID="ID_1721649932" CREATED="1573611690108" MODIFIED="1615184740800"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11362,7 +11362,7 @@
   </head>
   <body>
     <p>
-      &#36890;&#36807;&#31995;&#32479;&#24120;&#37327;&#37197;&#32622;&#19968;&#20010;Cell&#20013;&#27599;&#19968;&#27425;&#35843;&#24230;&#20013;&#20801;&#35768;&#30340;&#26368;&#22810;&#30340;PDCCH&#25968;&#37327;
+      通过系统常量配置一个Cell中每一次调度中允许的最多的PDCCH数量
     </p>
     <p>
       dlMaxNrofSePerTtiAndCell = 6
@@ -11371,7 +11371,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="每个BBM中每次TTI允许的最大PDCCH个数" ID="ID_1483389880" CREATED="1573611890210" MODIFIED="1573612026302"><richcontent TYPE="NOTE">
+<node TEXT="每个BBM中每次TTI允许的最大PDCCH个数" ID="ID_1483389880" CREATED="1573611890210" MODIFIED="1615173276536"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -11379,10 +11379,10 @@
   </head>
   <body>
     <p>
-      &#36890;&#36807;&#31995;&#32479;&#24120;&#37327;&#26469;&#38480;&#21046;&#19968;&#20010;BBM&#37324;&#38754;&#35201;&#32473;TTI&#20801;&#35768;&#30340;PDCCH&#20010;&#25968;
+      通过系统常量来限制一个BBM里面要给TTI允许的PDCCH个数
     </p>
     <p>
-      dlMaxNrofSePerTtiAndBbm&#160;= 12
+      dlMaxNrofSePerTtiAndBbm&nbsp;= 12
     </p>
   </body>
 </html>
@@ -16962,7 +16962,7 @@
 </node>
 <node TEXT="【MR6245】" ID="ID_500212451" CREATED="1614753714491" MODIFIED="1614753722586">
 <node TEXT="依赖的Feature" ID="ID_1427156241" CREATED="1614753734479" MODIFIED="1614759545354">
-<node TEXT="【MR792】RRP" ID="ID_1352211281" CREATED="1614753741600" MODIFIED="1614764680261"><richcontent TYPE="NOTE">
+<node TEXT="【MR792】RRP" ID="ID_1352211281" CREATED="1614753741600" MODIFIED="1616120402982"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -16988,12 +16988,72 @@
     </ol>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="适用的场景" ID="ID_991608326" CREATED="1614763890906" MODIFIED="1614763897988">
 <node TEXT="Shared LTE RAN(MOCN)" ID="ID_785249503" CREATED="1614759502430" MODIFIED="1614763929620"/>
 <node TEXT="Subscriber Triggered Mobility" ID="ID_950273392" CREATED="1614759512567" MODIFIED="1614759534055"/>
 </node>
-<node TEXT="MOM配置" ID="ID_828251957" CREATED="1614764723611" MODIFIED="1614825431748" LINK="onenote:https://ericsson-my.sharepoint.com/personal/jun_a_deng_ericsson_com/Documents/OneNote/Personal/Ericsson.one#LTE%2520Carrier%2520Aggregation&amp;section-id=%7B01D1C75B-0B95-46D0-9162-0F4140EA1A24%7D&amp;page-id=%7BA4A04E1F-CACF-4B16-BE0A-7A3BE5A6CA28%7D&amp;end"><richcontent TYPE="NOTE">
+<node TEXT="SP的划分" ID="ID_1589050107" CREATED="1615168528915" MODIFIED="1615169189341"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基本的RRP的feature是基于PLMN和SPID来标记Partition的。同时需要处理很多的feature interaction。
+    </p>
+    <p>
+      所以分为了三个SP来处理。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="WP5269" ID="ID_1528577361" CREATED="1615168540633" MODIFIED="1615168581965"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基于PLMN的RRP
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="WP5461" ID="ID_799206616" CREATED="1615168549755" MODIFIED="1615168592959"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基于SPID的RRP
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="WP5462" ID="ID_344099585" CREATED="1615168556599" MODIFIED="1615168605050"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      feature interaction
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="MOM配置" ID="ID_828251957" CREATED="1614764723611" MODIFIED="1615171201761" LINK="onenote:https://ericsson-my.sharepoint.com/personal/jun_a_deng_ericsson_com/Documents/OneNote/Personal/Ericsson.one#LTE%2520Carrier%2520Aggregation&amp;section-id=%7B01D1C75B-0B95-46D0-9162-0F4140EA1A24%7D&amp;page-id=%7BA4A04E1F-CACF-4B16-BE0A-7A3BE5A6CA28%7D&amp;end"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17014,13 +17074,10 @@
         每一个cell中，会关联一个resource group id，每个resource group id 就对应于eNodeB下的一个resource group，每个group中会包含若干个resource partition，最多不超过6个。这个group中定义的resource partition就定义了这个cell的资源分配的配置
       </li>
     </ul>
-    <p>
-      
-    </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="GBR的资源的分配是如何体现的？" ID="ID_595416392" CREATED="1614822656701" MODIFIED="1614912446260">
+<node TEXT="GBR的资源的分配是如何体现的？" ID="ID_595416392" CREATED="1614822656701" MODIFIED="1615169193110">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE">
 
@@ -17063,10 +17120,806 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="base partition" ID="ID_960759495" CREATED="1615169205031" MODIFIED="1615169307415"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      base partition是系统创立的，它的share是固定为<b><font color="#ff0000">100%</font></b>的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="residual partition" ID="ID_1145560835" CREATED="1615169212090" MODIFIED="1615169318530"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      residual partiion的share是系统创立的，share为<font color="#ff0000"><b>0</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="custom partition" ID="ID_298846431" CREATED="1615169403918" MODIFIED="1615340995966"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      除了上面提到了两个partion之外，系统中可以由用户配置的partition总共由24个，它们就是通过MOM参数来动态调整的resource partition。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="如何生效" ID="ID_364090159" CREATED="1615169664365" MODIFIED="1615170875957">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MoM能够控制的就是这些custom的partition。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在小区配置层面，RAC在cellConfigReq消息中，将cell关联的partition group的信息告知UPC。
+    </p>
+    <p>
+      这样做的目的是，这样UPC就能够知道小区中所有的partition有多少，然后每个partition的share是多少。
+    </p>
+    <p>
+      这个信息在UPC执行调度的时候能够帮助它来合理的判断应该如何分配资源。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      然后在每个bearer的radio bearer request消息的时候，UEH会给这个bearer关联一个partition Id告诉UPC：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      对于GBR的bearer，UEH会将这个bearer关联到base bearer上面去
+    </p>
+    <p>
+      对于non-GBR的bearer，UEH会根据UE的PLMN和SPID的信息，给这个bearer分配一个符合配置的partition
+    </p>
+    <p>
+      对于IMS-signaling的bearer，RAC也会将其分配到base partition中去。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      对于SRB0和SRB1，以及paging和RA的bearer，也应该是在base partition中处理的，但是这些是UPC内部处理的，不需要RAC来分配partition id。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="UPC相关新增概念" ID="ID_994934723" CREATED="1615171208960" MODIFIED="1615178756657"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      由于这个实际占用资源跟分配的share之间的不匹配，所以UPC需要在调度器中去动态的去调整。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在RRP这个feature中，调度器的实现是使用了一个最简单的方法，引入了一个bit，来表征是否需要将某个PQ的优先级降低。
+    </p>
+    <p>
+      这种间接的操作，对legacy调度器的功能改动比较小。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      一个cell里面，UPC处理8个partition，1~6是用户定义的partition，0是base partition，7是residual partition
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Share" ID="ID_900291193" CREATED="1615171352770" MODIFIED="1615171501418"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      每一个partition会跟随一个静态配置的share参数，这个参数表征这个partition能够占据的资源最大能有多少。
+    </p>
+    <p>
+      这里所指的资源包括下面的几项：
+    </p>
+    <ul>
+      <li>
+        DL PRB
+      </li>
+      <li>
+        UL PRB
+      </li>
+      <li>
+        SE
+      </li>
+    </ul>
+    <p>
+      配置的share参数起作用的逻辑是，表示上面的三种资源<font color="#ff0000"><b>任意一种</b></font>都不能超过最大的资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Resource Utilization" ID="ID_1464507933" CREATED="1615171244318" MODIFIED="1615171640716"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个参数表征某个partition在实际运行过程当中使用的系统资源的占比，它的计算公式如下：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><b>Resource usage</b></font><b>&nbsp;/ <font color="#0000ff">Maximum available resources</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Adjusted Share" ID="ID_1839286361" CREATED="1615171257924" MODIFIED="1615172032651"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个参数是表征在实际运行过程中，某一个partition在某一个时刻实际占用的share相比它最大应该分配的share，偏差是多大。
+    </p>
+    <p>
+      它的计算公式也很简单，就是使用<font color="#0000ff">静态配置的share值</font>，减去<font color="#0000ff">resource utilization的值，</font>得到的这个偏差值能够表征某个partition在动态运行的过程中是否使用了太多的资源，或者使用的资源没有达到它应得的份额。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      从而就有了下面的node里面说的flag变量-&gt;over-utilization这个参数。这个参数就是表征这个状态
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Over-Utilization" ID="ID_324295129" CREATED="1615171307838" MODIFIED="1615172124076"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在adjusted share的值大于零的话，那么表示这个partition实际使用的资源还没有达到它的上限值，那么这个状态就并非over-utilization.
+    </p>
+    <p>
+      相反，如果adjusted share为负的话，那么表示这个partition实际使用的资源已经超过了它应该得到的，那么这个partition就处于over-utilization状态了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="影响" ID="ID_381154948" CREATED="1615172558495" MODIFIED="1615178962671"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UPC需要根据每个partition实际的资源使用量调整每个partition中的PQ的优先级，使用这种方法来动态的改变资源在partition之间的分配状况。
+    </p>
+    <p>
+      而UPC的依据就是这个over-utilization的flag。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      实际的实现也比较的简单，在每个PQ上增加了一个bit，用于表征这个PQ是否还是具有normal priority：
+    </p>
+    <ul>
+      <li>
+        如果Dynamic priority bit 为1，表明这个PQ还是具有normal的legacy的priority.
+      </li>
+      <li>
+        如果Dynamic priority bit 为0，则表明这个PQ在调度器中不能具有legacy的priority，需要被down prioritize.
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      特殊的情况：
+    </p>
+    <p>
+      对于base partition来说，它的share固定为<font color="#ff0000"><b>100</b></font>，这表明它的priority bit一直是<font color="#ff0000"><b>1</b></font>
+    </p>
+    <p>
+      对于residual&nbsp;partition来说，它的share固定为<font color="#ff0000"><b>0</b></font>，这表明它的priority bit一直是<font color="#ff0000"><b>0</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这是按照
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="dynamic share priority bit" ID="ID_399760030" CREATED="1615181161146" MODIFIED="1615182398316"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在调度器完成调度的过程中，是不会感知到partition的概念的。partition的划分以及partition的资源占用量的计算已经在UPC内部计算。
+    </p>
+    <p>
+      最终在调度的过程中体现RRP的地方只有这个dynamic share priority bit这么一个新参数了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是这个新参数的加入，也对legacy的调度器的运行产生了比较大的影响。调度器的调度过程直接受到了这个bit的影响。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      看NDS里面的描述，调度器使用这个dynamic share priority bit的时候，是非常的粗暴的：
+    </p>
+    <p>
+      legacy的调度器在选择SE的时候，完全是按照SE的weight来排列候选项，
+    </p>
+    <p>
+      但是，在dynamic priority bit这个参数加入之后，调度器在排列SE candidate的时候，逻辑变为了：<br/>首先将SE分组，priority=1的那些SE的优先级完全高于priority=0的那些SE，
+    </p>
+    <p>
+      然后第二部，是在组内通过priority来确定调度的优先级，也就是说，在priority=1的这个组内，按照weight来排列先后调度的顺序，
+    </p>
+    <p>
+      但是在priority=0的组内，即使有SE的weight非常的高，它也得等待priority=1的组内的所有的SE调度完了之后才能够被调度到。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这就是对调度器的影响，这个行为产生的影响应该还满大的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="SP1" ID="ID_543646000" CREATED="1615344521083" MODIFIED="1615344797726"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Static Resource Sharing
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在legacy的RRP feature里面，资源的分配是动态的，也就是说，虽然设置了每个partition的share，但是只要不发生partition之间争抢资源的情况，那么一个partition就可以使用超过自己share的资源。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，这种行为，虽然从功能上来说更加的不浪费资源，但是从商业上来说，确实有问题。不同运营商共享资源的情况下，正常的逻辑就是，虽然我这个时刻用不满分配给我的资源，但是我也不希望这个时刻我的资源被别的运营商的用户占用。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="新增MoM配置" ID="ID_1400339409" CREATED="1615344846655" MODIFIED="1615357970199"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#00cc33">ResourcePartitionGroup</font>::<font color="#0000ff">resourceSharingType </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      新增的这个mom参数，是配置在partition group上面的，resourceSharingType可选则值为STATIC或者DYNAMIC两种，代表两种不同的策略。
+    </p>
+    <p>
+      如果是dynamic的话，那么就跟legacy的行为没有区别，如果是static的话，那么每个partition中的用户能使用的资源的上限就是分配给自己的share。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="STATIC模式的实现" ID="ID_1167521205" CREATED="1615360580674" MODIFIED="1615368235971"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在legacy的RRP实现中，只是通过一个over-utilization的bit来做判断。这导致的结果是，调度器先调度那些没有over-utilization的SE，然后调度那些over-utilization的SE。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      而如果在调度完所有的non-over-utilization的SE之后，系统的资源并没有被使用完的情况下，那些over-utilization的SE还有机会被调度，而且它能使用的资源取决于系统中还剩下多少资源。
+    </p>
+    <p>
+      这种模式叫做Dynamic模式。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      与之相对应的是STATIC模式，这个模式严格限制了一个partition中的UE能够使用的最大的资源不能超过它的share，即使其他的partition在同一时刻并没有使用完所有的资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="pre-scheduling phase" ID="ID_16633668" CREATED="1615361099357" MODIFIED="1615366795024"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在调度器实际分配资源之前，新增了两件事情：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1，计算当前TTI系统最大能够使用的资源是多少(RB)。这个资源需要将带宽资源减去重传的资源，还有NB-IoT，以及PRACH和PUCCH的资源
+    </p>
+    <p>
+      2，根据当前系统中最大的资源，以及每个partition的share值，计算每个partition中的PRB和SE应该分到几个。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="post-scheduling phase" ID="ID_4243964" CREATED="1615361104928" MODIFIED="1615369171263"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在这个阶段调度工作已经完成，这时更新一个指数滤波的实际的resource utilization值。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      每一个partition都需要计算更新一遍，这个值会决定在下一个TTI调度分配资源的时候，需要不需要给这个partition多分配<font color="#ff0000"><b>一个</b></font>RBG。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="SP2" ID="ID_606185144" CREATED="1615344533533" MODIFIED="1616047188008"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GBR Partitioning
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在RRP最开始的设计中，GBR和IMS/MC signaling的bearer都不会被partitioning，这是为了保证这些高优先级bearer的调度成功率。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，当volte和PTT的业务越来越多的时候，这部分的业务一直不被partition的话，那么产生的后果跟non-GBR的业务不分区是一样的。
+    </p>
+    <p>
+      当网络中volte或者PTT这样的GBR的业务越来越多时，不同的运营商共享网络的时候，预先分配的share并不能够被应用到这些bearer上面。
+    </p>
+    <p>
+      那么不同运营商之间的分享的份额跟静态定义的share就不能匹配上了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      很重要的一点是，SP1和SP2一起工作的时候，SP1的参数必须配置成Dynamic模式，也就是说，<font color="#ff0000"><b>不支持STATIC模式下的GBR的partitioning</b></font>。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这主要是因为没有基于per partition的流控策略。如果使用STATIC的模式，同时GBR的bearer也支持partitioning，那么导致的后果就是GBR的bearer的QoS不一定能够被保障。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="新增的MoM配置" ID="ID_578635376" CREATED="1615358024922" MODIFIED="1615358491222"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#00cc33">ResourcePartitions</font>::<font color="#0000ff">gbrPartitioning </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个参数指定了node里面是不是需要将GBR的业务也进行partition的划分。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#00cc33">QciProfilePredefined</font>::<font color="#0000ff">paPartitionOverride</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个参数指定是否需要将PA的bearer进行partition化，如果为true的话，那么PA的bearer也会进入到partition里面去。
+    </p>
+    <p>
+      如果这个参数为false的话，那么PA的bearer将会进入base Partition.
+    </p>
+    <p>
+      这个配置主要是为了保证紧急呼叫或者其他的高优先级bearer确保能够拿到资源。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="SP3" ID="ID_1705896700" CREATED="1615359315846" MODIFIED="1616045896577"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      BB capacity as limiting factor implementation and RRP enhancement feature interaction test execution.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个SP主要的功能是为了测试feature interaction的，因为SP1/2的改动给legacy的RRM的影响还是比较大的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的是：SP3是基于SP6的实现来做feature interaction的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SP6" ID="ID_472334862" CREATED="1615429379062" MODIFIED="1616117789825"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SP name:
+    </p>
+    <p>
+      Flexible Resource Sharing and Dynamic GBR Admission Control on a Partition Level
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个SP的功能是同时支持动态和静态的RRP资源分配方式。
+    </p>
+    <p>
+      需要在小区范围内支持不同的partition可以配置成静态的资源使用方式，也可以配置成动态的资源使用方式。
+    </p>
+    <p>
+      同时，还需要支持在一个partition内部支持静态和动态的资源使用方式。
+    </p>
+    <p>
+      同时，SP6还需要支持基于Partition的Admission Control
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="MoM" ID="ID_230212031" CREATED="1616051213628" MODIFIED="1616051216077">
+<node TEXT="新MoM" ID="ID_1381251859" CREATED="1616045898658" MODIFIED="1616054287266">
+<node TEXT="Partition相关" ID="ID_1401391327" CREATED="1616054226703" MODIFIED="1616054258468"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      为了实现各种静态和动态的组合情况，在SP6中引入了两个新的参数
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033cc">resourcePartitionShare</font>：
+    </p>
+    <p>
+      这个参数表示这个partition肯定能够分配到的资源，这个参数主要是用于资源处于<font color="#ff0033">竞争</font>的状态的时候，规定一个分区能够分得的资源最多不能够超过这个比例。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033cc">resourcePartitionMaxShare</font>：
+    </p>
+    <p>
+      这个参数表示这个partition最多能够分配到的资源，这个参数主要是用于资源处于<font color="#ff0033">非竞争</font>的状态的时候，限制一个partition，使其不能够任意的使用系统的资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="参数组合" ID="ID_1442629028" CREATED="1616047090117" MODIFIED="1616047630079"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      新引入的这两个参数的不同配置组合，能够完美的实现MR792中的Dynamic RRP功能，也能够实现MR6245的SP1，SP2引入的Static RRP功能。同时也能解除GBR的bearer分区的时候只能配置Static RRP的限制
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="AdmCtrl相关" ID="ID_1179535245" CREATED="1616054290730" MODIFIED="1616122239032"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033cc">gbrAdmCtrlPerPartition</font>
+    </p>
+    <p>
+      在GBR partition功能开启的时候，如果Dynamic GBR Admission Control这个feature开启了，在这个MoM为True的时候，就会执行per partition的Admission Control
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033cc">rrpAdmCtrlRejPaReqOvlGbr</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个MoM指示，在小区里面的某个Partition的load已经超过overload的门限值之后，是否会在admission control阶段block掉GBR PA bearer的建立请求。
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
+<node TEXT="删掉的MoM" ID="ID_1201906844" CREATED="1616051206503" MODIFIED="1616117871012"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      resourceSharingType
+    </p>
+    <p>
+      这个表示partition是静态分配还是动态分配的MoM参数不再被使用了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，对于将GBR Bearer划入非base Partition时，resourceSharingType 只能是Dynamic的限制也给取消了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="实现功能" ID="ID_850770519" CREATED="1616117876272" MODIFIED="1616117886869">
+<node TEXT="一个partition两个门限值" ID="ID_1537716137" CREATED="1616117890231" MODIFIED="1616118070118"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在一个partition的配置上，配置两个门限值。一个门限值表明partition在没有冲突的情况下，能够使用的最大的share，还有一个门限值表示一个partition在冲突状态下能够分配到的门限值。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这两个门限值的不同取值组合，能够实现之前的RRP的所有的功能。同时两个门限值的取值组合情况，还能够扩展出其他的灵活的配置。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="GBRPartition不一定限制动态策略" ID="ID_1731489178" CREATED="1616118072678" MODIFIED="1616123834432"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在legacy的RRP实现中，GBR bearer的分区功能在引入了之后，在使能的时候，要求小区中的partition配置需要是Dynamic配置的，不能够是静态配置。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个限制的主要原因应该是想保证GBR的bearer不会因为静态配置的partition的share太小从而不能得到足够的调度，从而影响GBR bearer的服务质量。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个限制在SP6里面被去除了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的是，SRB bearer并没有被划分到partition中来，它们仍然在base partition中占用高优先级执行，确保它们在任何时刻都有足够高的优先级。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="SP6如何保证GBR服务质量" ID="ID_1654630297" CREATED="1616118704487" MODIFIED="1616120950868">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      根据FP的描述来看，这个是通过改进Dynamic GBR Admission Control这个feature来实现的。
+    </p>
+    <p>
+      在SP6中，将Dynamic GBR Admission Control 的功能扩展到了在Partition level 做Admission Control.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      为什么这样子就可以在静态的partition上支持GBR的partition了呢？
+    </p>
+    <p>
+      似乎可能的解释是，在做Admission Control的时候，如果发现Partition里面的资源已经不支持建立新的GBR Bearer了，那么就会在建立的阶段把这个Bearer给拒绝掉。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Admission Control" ID="ID_1997449471" CREATED="1616117906983" MODIFIED="1616117911803"/>
 </node>
 </node>
 </node>
