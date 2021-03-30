@@ -126,7 +126,35 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="AAS Port2Antenna mapping" ID="ID_722772368" CREATED="1609384678392" MODIFIED="1609385193175" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx"/>
+<node TEXT="AAS Port2Antenna mapping" ID="ID_722772368" CREATED="1609384678392" MODIFIED="1616388233314" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_373868327" STARTINCLINATION="347;0;" ENDINCLINATION="347;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_619920782" STARTINCLINATION="66;0;" ENDINCLINATION="66;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AAS的P2A的概念是整个系统里面非常关键的一个概念，同时也是非常让人混淆和感到困惑的一个概念。
+    </p>
+    <p>
+      这个文档其实非常的好，非常完整和系统的介绍了爱立信LTE系统中各种P2A的设计。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，要读懂这个PPT的话，需要先了解<b>DPBF</b>，也就是双极化波束赋形这个概念。这个概念的含义其实并不像它的名字所显示的那样，可以参考子节点指向的链接。
+    </p>
+    <p>
+      参考链接指向的参考文档。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="Beam weights optimization" ID="ID_1906780264" CREATED="1610589349130" MODIFIED="1610589493225" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/Beam%20weights%20optimization%20L18A.pptx"><richcontent TYPE="NOTE">
 
 <html>
@@ -155,8 +183,26 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="Dual Polarized Beam Forming" ID="ID_619920782" CREATED="1616377310691" MODIFIED="1616378117595" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/ASI%20beamforming%20for%20linear%20arrays%20of%20arbitrary%20size.pdf"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      讲解DPBF概念的一个文档，如果要了解爱立信AAS产品的P2A映射的话，这个文档是必须要了解的。
+    </p>
+    <p>
+      不过这个文档的内容比较的丰富，如果只是想了解DPBF的话，其实只要阅读一下这个文档的前几章就足够了。
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="P2A" POSITION="right" ID="ID_373868327" CREATED="1610952069202" MODIFIED="1610952558499" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx">
+</node>
+<node TEXT="P2A" POSITION="right" ID="ID_373868327" CREATED="1610952069202" MODIFIED="1616388217444" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/UL-DL%20port%20mappings%20for%20LTE%20AAS.pptx">
+<icon BUILTIN="bookmark"/>
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -187,7 +233,7 @@
 <node TEXT="Cell Shaping" ID="ID_149152246" CREATED="1612160809202" MODIFIED="1612160813402"/>
 <node TEXT="UE Specific Beam" ID="ID_153835878" CREATED="1612160814015" MODIFIED="1612160821597"/>
 </node>
-<node TEXT="BF中多天线组合方式" ID="ID_316444118" CREATED="1612160898814" MODIFIED="1613629274645"><richcontent TYPE="NOTE">
+<node TEXT="BF中多天线组合方式" ID="ID_316444118" CREATED="1612160898814" MODIFIED="1616568566890"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -207,7 +253,34 @@
       一般的天线系统是使用的双极化天线，在选取天线做组合的时候，选择同样极化方向的天线做组合，或者使用不同极化方向的天线做组合，得到的特性是不一样的。
     </p>
     <p>
-      从而诞生了两种不同的BF方式，
+      从而诞生了两种不同的BF方式，SPBF和DPBF。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      <font color="#ff0000">这里需要提到的是，在LTE的系统中，因为UE只能够感知到不同的天线端口，所以在下行的方向，是使用天线端口这个虚拟的天线来表示实际的传输的天线的。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">有多少个天线端口就代表能够传输多少路不同的并行数据，这些数据可以是相同的，也可以是不同的。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">实际上在rank=1的下行传输中，多个天线端口上(2 port 或者 4 port)传输的就是同样的信号。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">Rank1的PDSCH传输，实质上就是把不同的天线端口当作物理天线，然后使用beam forming的方式把数据传输到特定的方向上面去，使用的方法是预编码。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">预编码向量的实质上就是天线端口之间的Beam Forming Weight</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
     </p>
   </body>
 </html>
@@ -247,7 +320,7 @@
 <node TEXT="宽波形" ID="ID_1127112018" CREATED="1612161709926" MODIFIED="1612161717909"/>
 <node TEXT="低增益" ID="ID_816548287" CREATED="1612161725653" MODIFIED="1612161729367"/>
 </node>
-<node TEXT="同样极化方向的天线组合在一起" ID="ID_47613740" CREATED="1612160919390" MODIFIED="1612161592011"><richcontent TYPE="DETAILS">
+<node TEXT="同样极化方向的天线组合在一起" ID="ID_47613740" CREATED="1612160919390" MODIFIED="1616568016632"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -256,6 +329,22 @@
   <body>
     <p>
       <font color="#ff3300">SPBF</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      同样的，跟DPBF的含义一样，这里的SPBF的含义应该是，只在同极化方向的天线上传输一个port端口的数据。
+    </p>
+    <p>
+      这样的话，不同天线上传输同一个天线端口的数据，就可以形成波束赋形的效果。
     </p>
   </body>
 </html>
@@ -290,7 +379,9 @@
 </node>
 <node TEXT="PA利用率高" ID="ID_1984144395" CREATED="1612161757218" MODIFIED="1612161763626"/>
 </node>
-<node TEXT="不同极化方向的天线组合在一起" ID="ID_1421225466" CREATED="1612160930973" MODIFIED="1612161594512"><richcontent TYPE="DETAILS">
+<node TEXT="不同极化方向的天线组合在一起" ID="ID_1421225466" CREATED="1612160930973" MODIFIED="1616742977677">
+<icon BUILTIN="help"/>
+<richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -302,6 +393,62 @@
     </p>
   </body>
 </html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      我想这里的含义其实并不是指双极化方向的天线放在一起做波束赋形。因为在互相正交的极化方向上发射相同的数据，并不能够形成波束赋形的效果。
+    </p>
+    <p>
+      这里的实际含义应该是一个port口的数据会在多个极化方向的天线上传输。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      DPBF的实质其实是：
+    </p>
+    <p>
+      假设我们有一个双极化的sub array，如果我们设计了一个weight之后。这时候，我们再这个双极化的sub array旁边再增加一个subarray的话，那么我们使用DPBF的技术，可以设计出新的subarray的weight。
+    </p>
+    <p>
+      这个weight会导致
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      其实有一点到目前来说还没有特别的搞清楚：
+    </p>
+    <p>
+      <font color="#ff0000">DPBF起到的作用到底是什么，它的意义究竟在哪里？ </font>
+    </p>
+    <p>
+      <font color="#ff0000">从ASI的文档来看，似乎是针对一个天线阵列来说，因为随着天线增多，会有BF的效果，这个效果在聚焦了特定方向的能量的同时，也降低了覆盖的角度范围。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">使用DPBF方式，就是在增加天线数量的同时，同时也可以保持覆盖角度范围不变的一个技术。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">那么问题来了，在使用了DPBF之后，覆盖的角度相对于单天线传输还是保持不变的同时，什么发生了改变？增益在哪里？ </font>
+    </p>
+    <p>
+      <font color="#ff0000">是所有覆盖角度上的下行信号的能量都增加了吗？</font>
+    </p>
+  </body>
+</html>
+
 </richcontent>
 <node ID="ID_812957084" CREATED="1612161765411" MODIFIED="1612161887638"><richcontent TYPE="NODE">
 
@@ -404,8 +551,58 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node TEXT="P2A中的功率归一化设计" ID="ID_34052456" CREATED="1612164007931" MODIFIED="1612164025428"/>
-<node TEXT="水平角度和垂直角度的处理分离" ID="ID_758804348" CREATED="1612164043310" MODIFIED="1612164232351"><richcontent TYPE="NOTE">
+<node TEXT="P2A中的功率归一化设计" ID="ID_34052456" CREATED="1612164007931" MODIFIED="1616572942778"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      首先，P2A矩阵首先体现的是天线端口和物理天线之间的关系。
+    </p>
+    <p>
+      所以P2A矩阵中的每一行就是代表一个物理天线上的weight。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这里的功率归一化的意思是，不管有多少个天线端口在这个物理天线上发射数据，<font color="#ff0000"><b>每根物理天线上的总功率不能超过1</b>。 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这其实是硬件的要求。每一个物理天线的发射功率是有上限的。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="非离散天线映射的风险" ID="ID_1328812927" CREATED="1616571374756" MODIFIED="1616572015667">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      所谓离散映射(Disjunct Port Mapping)，代表的含义是每一个物理天线上最多传输一个天线端口的数据。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      非离散隐射，就是说一跟物理天线上可能传输了超过一个天线端口的数据。这种传输方式是有风险的，有可能会导致物理天线上需要的发射功率超过物理天线的最大功率。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="水平角度和垂直角度的处理分离" ID="ID_758804348" CREATED="1612164043310" MODIFIED="1616572499796"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -416,17 +613,371 @@
       FD-MIMO支持水平方向的BF，同时也支持垂直方向的BF，不过在很多的场景下，垂直方向的BF很大程度上看起来就跟调整下倾角很相似。
     </p>
     <p>
+      所以在建模的时候，使用一个克罗内克积来将水平方向的BF和垂直方向的BF给解耦，这样能够降低系统难度，针对水平方向和垂直方向的BF weight可以分别处理，分别优化。
+    </p>
+    <p>
+      其中分离的主要好处是可以侧重关注在水平方向的BF Weight。水平方向的BF Weight是我们需要着重关注的方面。
+    </p>
+    <p>
       
     </p>
     <p>
-      所以在建模的时候，使用一个克罗内克积来将水平方向的BF和垂直方向的BF给解耦，这样能够降低系统难度，针对水平方向和垂直方向的BF weight可以分别处理，分别优化
+      而将垂直的BF Weight简单的处理成DFT的BF Weight，而基于DFT的BF Weight，实际上就是调整垂直下倾角，而不能实现垂直方向的波束的动态调整。
+    </p>
+    <p>
+      PPT中也说了，这样的简化并不是最优的，如果UE分布于垂直方向的各个角度的时候，那么这样的简化就会导致覆盖不足。
+    </p>
+    <p>
+      但是大多数情况下，小区的覆盖UE分布在垂直角度上都不会差别很大。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="PSS/SSS的P2A映射" ID="ID_1842903717" CREATED="1616572944222" MODIFIED="1616573023427"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基本上，PSS/SSS的P2A映射复用CRS0/1的映射是合理的。毕竟覆盖范围之内都需要CRS和PSS/SSS。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="CRS的P2A" ID="ID_1847545003" CREATED="1616573024572" MODIFIED="1616573565158"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于TDD AAS来说，使用了两个小区特定的参考信号，分别为CRS port，CRS0和CRS1
+    </p>
+    <p>
+      对于FDD AAS来说，使用了四个小区特定的参考信号，分别为CRS port，CRS0,CRS1,CRS2和CRS3
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CRS的P2A映射的原则是：
+    </p>
+    <p>
+      1，保证CRS0的覆盖
+    </p>
+    <p>
+      2，保证经过预编码之后的PDSCH Beam性能优秀。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="2CRS的P2A" ID="ID_334066051" CREATED="1616573615345" MODIFIED="1616573646525">
+<node TEXT="两端口P2A原则" ID="ID_1709803868" CREATED="1616574045789" MODIFIED="1616574056168">
+<node TEXT="Disjunct P2A" ID="ID_1021204153" CREATED="1616574058603" MODIFIED="1616574632335"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对两端口的P2A映射来说，这个原则似乎是被遵循的，也就是说不管怎么设计P2A，设计出来的P2A的矩阵都是一个物理天线上只传输一个天线端口的数据。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      不会出现一个物理天线会传输超过一个天线端口数据的情况。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Rank2-friendly P2A" ID="ID_660005079" CREATED="1616574067232" MODIFIED="1616724374533"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个原则是，生成两个形状相同的beam，它们代表两个不同的天线端口，但是这两个beam的极化方向是相反的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Single Polarized P2A" ID="ID_1739543919" CREATED="1616574654638" MODIFIED="1616574664184"/>
+<node TEXT="使用DPBF保证覆盖" ID="ID_987351685" CREATED="1616574096527" MODIFIED="1616574110458"/>
+</node>
+</node>
+<node TEXT="4CRS的P2A" ID="ID_516304536" CREATED="1616573646925" MODIFIED="1616573652312">
+<node TEXT="四端口P2A策略" ID="ID_1102355606" CREATED="1616641616088" MODIFIED="1616641630492">
+<node TEXT="离散映射" ID="ID_130114692" CREATED="1616642369442" MODIFIED="1616642374726">
+<node TEXT="Narrow Beam Port Mapping" ID="ID_1648366726" CREATED="1616641634570" MODIFIED="1616642336676"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      所谓Narrow Beam，实际上就是说在做port mapping的时候，采用了将一个天线端口映射到多个同极化的天线上的策略。
+    </p>
+    <p>
+      这种做法产生的结果是，多个同极化的物理天线之间又beam forming效果，导致增益变大，但是同时因为功率更加的集中所以覆盖范围变小，所以叫做Narrow Beam mapping.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这种天线映射的方式是最简单的一种方式，如果物理天线有八根的话(4个双极化的subarray)，那么系统中的四个天线端口，每个天线端口会映射到两个连续的物理天线上。
+    </p>
+    <p>
+      这种方式也就是最简单的天线映射的方式，没有过多的复杂和困惑的优化的考量。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="半功率角" ID="ID_447647872" CREATED="1616651143220" MODIFIED="1616651186380"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于Narrow Beam Port Mapping来说，它的半功率角的大小为<font color="#ff0000"><b>50度</b></font>。
     </p>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node TEXT="LTE多天线技术" POSITION="right" ID="ID_968860121" CREATED="1611223265594" MODIFIED="1611223285267">
+<node TEXT="Fixed Polarization port mapping" ID="ID_1533232240" CREATED="1616650650484" MODIFIED="1616650966000"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个port mapping的方法也是很简单的一个。
+    </p>
+    <p>
+      举例来说，如果水平方向有四列双极化的天线阵列，那么映射4个CRS天线端口到物理天线的时候，每列天线阵列对应一个天线端口。
+    </p>
+    <p>
+      所以一个天线端口是在同一列的两个极化方向互相正交天线上传输的。
+    </p>
+    <p>
+      这种方法的好处是，同一个天线端口在两个极化方向上都是同样的覆盖范围。
+    </p>
+    <p>
+      那么同时它的缺点也就是，在同一个beam中，无法实现极化方向正交的rank2的传输。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="半功率角" ID="ID_1111288711" CREATED="1616651189848" MODIFIED="1616651222463"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种P2A的半功率角为<font color="#ff0000"><b>90度</b></font>。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Broad Disjunct Beam Port Mapping" ID="ID_1589249210" CREATED="1616641643335" MODIFIED="1616651308951"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里会列举几种broad beam P2A的映射，这几种P2A映射的半功率角大小都是<font color="#ff0000"><b>90度</b></font>。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="AAS Broad Beams" ID="ID_548443633" CREATED="1616651308949" MODIFIED="1616659649565"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种映射的方式跟fixed polarization port mapping的操作不太一样。
+    </p>
+    <p>
+      在fixed polarization port mapping中，所有的port都是映射到一个单独的天线列上，所以其实多个端口打出的波束的形状是一样的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，在AAS broad beam port mapping这个方式上，
+    </p>
+    <p>
+      <font color="#ff0000">CRS0和CRS1之间，其实他们的beam形状和方向是相同的，但是它们的极化方向是完全相反的。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">同时，CRS2和CRS3之间，也是同样的关系。覆盖完全相同，但是极化方向完全相反</font>。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="AAS Signed and Flipped" ID="ID_1364067564" CREATED="1616651317349" MODIFIED="1616659771453"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于这种映射方式来说，CRS0和CRS2的beam它们之间的关系是，beam的形状是相同的，但是它们的覆盖范围完全对称。
+    </p>
+    <p>
+      同样的，CRS1和CRS3之间也是这样的关系，beam的形状是一样的，但是覆盖的的范围是完全对称的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="AAS Unsigned and Flipped" ID="ID_391568395" CREATED="1616651343517" MODIFIED="1616660074123"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个映射的方式其实跟上面的Signed and Flipped的映射方式是一样的，只是weight的取值不一样。
+    </p>
+    <p>
+      在上面的方式中，基本的weight是<font color="#ff0000"><b>[1 -j]</b></font>，而在这个映射方式中，基本的weight变为了<font color="#ff0000"><b>[1 1]</b></font>这样的对称的覆盖方式。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Double CRS to Antenna Port Mapping" ID="ID_1532034440" CREATED="1616641665351" MODIFIED="1616661672531"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种P2A的方式就不是Disjunct的映射方式了，因为在一个物理天线上对应了两个天线端口的数据。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这种P2A的映射方式下，一个物理天线阵列上会传输多个天线端口的数据，同时，一个天线端口的的数据也会同时在多个物理天线阵列上传输。
+    </p>
+    <p>
+      具体的来说，是CRS0和CRS2使用相同的物理天线去传输，而CRS1和CRS3也使用相同的天线去传输。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在这个映射方式里面，其实也利用了DPBF的原理。
+    </p>
+    <p>
+      因为<font color="#ff0000">CRS0</font>和<font color="#ff0000">CRS2</font>使用相同的物理天线去传输，而<font color="#ff0000">CRS0</font>和<font color="#ff0000">CRS2</font>的weight之间的关系恰恰就是满足DPBF的要求的。
+    </p>
+    <p>
+      也就是说，CRS0和CRS2并不是同覆盖，但是它们俩的beam波形，在任何时候的极化方向都是正交的。它们是一个互补的覆盖的方式，只不过它们传输的是不同天线端口的数据而已。
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">DPBF</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Large Lambda" ID="ID_271964088" CREATED="1616661270114" MODIFIED="1616661283805"/>
+<node TEXT="Small Lambda" ID="ID_1267597992" CREATED="1616661284130" MODIFIED="1616661291027"/>
+</node>
+<node TEXT="Beam Selection Port Mapping" ID="ID_515377902" CREATED="1616641679351" MODIFIED="1616737577577"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种Port Mapping的方式是一种简化的Beam Forming方式。
+    </p>
+    <p>
+      这种beam选择性的Port Mapping的映射方式，应用于TM4这样的传输模式上，最终的结果就是，不论使用哪种预编码向量，最终能够形成的波束总共就几种。
+    </p>
+    <p>
+      所以，不同的预编码向量在这样的P2A的映射方式中的作用是，选择出某一个Beam。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在FDD的AAS系统中，使用TM4和TM9传输。
+    </p>
+    <p>
+      针对TM4的传输模式，一个比较复杂的一点是，实际的PDSCH的波束到底长什么样，不光是由common beam forming的weight来决定的，TM4的PDSCH传输的时候还得先做一个预编码。
+    </p>
+    <p>
+      一个传输层经过预编码和Common Beam Forming weight复合叠加之后，
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="LTE多天线技术" FOLDED="true" POSITION="right" ID="ID_968860121" CREATED="1611223265594" MODIFIED="1611223285267">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -441,7 +992,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="多天线使用方式" ID="ID_1126133429" CREATED="1611223428852" MODIFIED="1611223433966">
+<node TEXT="多天线使用方式" FOLDED="true" ID="ID_1126133429" CREATED="1611223428852" MODIFIED="1611223433966">
 <node TEXT="发射分集" ID="ID_1039004868" CREATED="1611223308327" MODIFIED="1611223313597"/>
 <node TEXT="波束赋形" ID="ID_1956689108" CREATED="1611223318202" MODIFIED="1611223335585"><richcontent TYPE="NOTE">
 
@@ -626,7 +1177,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="MR2815" ID="ID_1500069087" CREATED="1607914468206" MODIFIED="1607914474783">
 <node TEXT="SP533-Common Beamforming" ID="ID_909081486" CREATED="1607914477596" MODIFIED="1611625230379">
@@ -1383,7 +1933,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="base" ID="ID_1294007969" CREATED="1609382326392" MODIFIED="1609382327679">
 <node TEXT="MR3452" ID="ID_409756082" CREATED="1609382309778" MODIFIED="1614325121629" LINK="../../../../Users/edenjun/Desktop/LTE/AAS/LMR%20NDS%2016TR.pdf">
@@ -1415,7 +1964,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="MR4031" ID="ID_1799609369" CREATED="1609382323099" MODIFIED="1609382324045"/>
