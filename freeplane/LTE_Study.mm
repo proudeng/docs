@@ -5813,8 +5813,8 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -7154,8 +7154,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
@@ -17762,7 +17762,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="参数组合" ID="ID_1442629028" CREATED="1616047090117" MODIFIED="1616047630079"><richcontent TYPE="NOTE">
+<node TEXT="参数组合" ID="ID_1442629028" CREATED="1616047090117" MODIFIED="1617341445357"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17774,10 +17774,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
-<node TEXT="AdmCtrl相关" ID="ID_1179535245" CREATED="1616054290730" MODIFIED="1616122239032"><richcontent TYPE="NOTE">
+<node TEXT="AdmCtrl相关" ID="ID_1179535245" CREATED="1616054290730" MODIFIED="1617341653457"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17800,10 +17801,11 @@
       
     </p>
     <p>
-      这个MoM指示，在小区里面的某个Partition的load已经超过overload的门限值之后，是否会在admission control阶段block掉GBR PA bearer的建立请求。
+      这个MoM指示，在小区里面的某个Partition的load已经超过overload的门限值之后，是否会在admission control阶段block掉<font color="#ff0000">GBR PA bearer</font>的建立请求。
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -17852,7 +17854,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="GBRPartition不一定限制动态策略" ID="ID_1731489178" CREATED="1616118072678" MODIFIED="1616123834432"><richcontent TYPE="NOTE">
+<node TEXT="GBRPartition不一定限制动态策略" ID="ID_1731489178" CREATED="1616118072678" MODIFIED="1617341400665"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17882,8 +17884,9 @@
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="SP6如何保证GBR服务质量" ID="ID_1654630297" CREATED="1616118704487" MODIFIED="1616120950868">
+<node TEXT="SP6如何保证GBR服务质量" ID="ID_1654630297" CREATED="1616118704487" MODIFIED="1617332295371">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE">
 
@@ -17893,7 +17896,7 @@
   </head>
   <body>
     <p>
-      根据FP的描述来看，这个是通过改进Dynamic GBR Admission Control这个feature来实现的。
+      根据FP的描述来看，这个是通过改进<b><font color="#0000cc">Dynamic GBR Admission Control</font></b>这个feature来实现的。
     </p>
     <p>
       在SP6中，将Dynamic GBR Admission Control 的功能扩展到了在Partition level 做Admission Control.
@@ -17909,10 +17912,165 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
-<node TEXT="Admission Control" ID="ID_1997449471" CREATED="1616117906983" MODIFIED="1616117911803"/>
+<node TEXT="Admission Control" ID="ID_1997449471" CREATED="1616117906983" MODIFIED="1617341255254"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Admission Control里面主要有两个feature，参考子节点。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      其中Differentiate AC这个feature在enable了之后，就支持高优先级的bearer去抢占已经建立成功的低优先级的bearer的行为了。
+    </p>
+    <p>
+      如果没有这个feature的话，那么就没有抢占的机制，系统只会在接入的时候决定是接收还是拒绝接入。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Dynamic GBR Admission Control per Partition" ID="ID_477685544" CREATED="1617332310569" MODIFIED="1617333425716"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dynamic GBR Admission Control原先是建立在cell级别上做admission control的。
+    </p>
+    <p>
+      Legacy的RRP的策略是，GBR的业务是不做准入控制的，但是因为都放入了base partition里面，所以并不会出现什么问题。
+    </p>
+    <p>
+      后来出现了增强的RRP方案，允许GBR的bearer也放入普通的partition中，但是只允许配置Dynamic策略，不允许使用Static策略。
+    </p>
+    <p>
+      在SP6的方案里面，使用了两个share参数管控的方式，将legacy的dynamic和static这两个概念给取消掉了。
+    </p>
+    <p>
+      但是GBR的问题还是需要处理。
+    </p>
+    <p>
+      在SP6里面，是通过Admission Control的方式来处理的。
+    </p>
+    <p>
+      将这个feature给扩展为了per Partition上做admission control，这其实是一个非常合理的方式，实际上是将原来小区级别的机制给引入到partition级别来了。
+    </p>
+    <p>
+      使用partition级别的AC，行为就变为了，GBR的bearer可以放在普通的partition，但是，一旦partition的资源占用已经超过门限值，这时候系统不能够保证给GBR的业务相应的QoS的时候，
+    </p>
+    <p>
+      就会在接入阶段把这个bearer的请求给拒绝掉。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Differentiated Admission Control" ID="ID_703578514" CREATED="1617332612438" MODIFIED="1617344839180">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1843380713" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature其实主要的功能是针对不同的bearer类型做不同的接入控制。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以如果这个feature enable了之后，那么系统中接入控制的门限值就有两个。一个是针对普通GBR的bearer的(Differentiated)，还有一个是针对PA和HO的bearer的(Overload)。
+    </p>
+    <p>
+      对于正常的GBR的bearer来说，如果系统的负载已经到达了Differentiated这个门槛的话，那么后续的新请求接入的GBR的bearer就会被拒绝掉了。
+    </p>
+    <p>
+      但是对于PA和HO的bearer来说，门槛还要再高一点，只有系统的负载达到了Overload这个门限值的话，这两种bearer的接入请求才会被拒绝掉。
+    </p>
+    <p>
+      同时，这个是通过一个MoM参数来配置的。f
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="rrpAdmCtrlRejPaReqOvlGbr" ID="ID_1843380713" CREATED="1617341419075" MODIFIED="1617354509800"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个新的MoM参数，配置是否需要在系统负载overload的时候，将PA的bearer给reject掉。如果置为false，那么不管系统负载是什么情况，在接入控制阶段，都不会将这个bearer的接入请求给拒绝掉。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      注意这个参数只在Differentiate AC这个feature开启的时候起作用。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="抢占机制" ID="ID_202256262" CREATED="1617344840114" MODIFIED="1617354455394"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在Differentiated AC这个feature启动的时候，新增加了一个MoM参数用于配置PA的bearer会不会被reject掉。
+    </p>
+    <p>
+      在rrpAdmCtrlRejPaReqOvlGbr=true的时候，那么在系统的负载达到了overload的情况下，PA GBR bearer就会被reject掉。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在这时候，如果preempt打开的话，那么系统就有可能会挑选一个GBR的bearer，将它release掉之后，重新将这个PA GBR的bearer给accept进来。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是需要注意的是，preemption这个操作只在Differentiated AC启用的时候才会发生，<font color="#ff0000"><b>因为Differentiated AC没有启动的时候，或者legacy的软件上的时候，PA GBR bearer会被无条件的accept。</b></font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
