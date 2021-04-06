@@ -5904,7 +5904,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Android Linux Deploy" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
+<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7259,7 +7259,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 <node TEXT="Debian" ID="ID_769180834" CREATED="1572187186770" MODIFIED="1572187188868">
 <node TEXT="网关简单配置" ID="ID_1026225973" CREATED="1572187205354" MODIFIED="1572187212436">
 <node TEXT="配置网口ip" ID="ID_1247374838" CREATED="1572188084544" MODIFIED="1572188090267">
-<node TEXT="/etc/network/interfaces" ID="ID_1013386605" CREATED="1572187229098" MODIFIED="1572187271587"><richcontent TYPE="NOTE">
+<node TEXT="/etc/network/interfaces" ID="ID_1013386605" CREATED="1572187229098" MODIFIED="1617696811094"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7303,19 +7303,20 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       iface enp2s0 inet static
     </p>
     <p>
-      &#160;&#160;&#160;&#160;address 192.168.99.1
+      &nbsp;&nbsp;&nbsp;&nbsp;address 192.168.99.1
     </p>
     <p>
-      &#160;&#160;&#160;&#160;netmask 255.255.255.0
+      &nbsp;&nbsp;&nbsp;&nbsp;netmask 255.255.255.0
     </p>
     <p>
-      &#160;&#160;&#160;&#160;gateway 192.168.99.1
+      &nbsp;&nbsp;&nbsp;&nbsp;gateway 192.168.99.1
     </p>
     <p>
-      &#160;&#160;&#160;&#160;broadcast 192.168.99.255
+      &nbsp;&nbsp;&nbsp;&nbsp;broadcast 192.168.99.255
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="暂时只配了两个网口" ID="ID_1019561078" CREATED="1572187273929" MODIFIED="1572187292955"><richcontent TYPE="NOTE">
 
@@ -7587,6 +7588,141 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Systemd系统" ID="ID_896553454" CREATED="1617696496761" MODIFIED="1617698095719"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对于一些开机就希望执行的程序或者服务，可以使用systemd系统来管理这些服务。
+    </p>
+    <p>
+      有一些程序安装的时候就支持服务化操作，这时候使用service 命令就可以直接启动或者设置为开机自动启动这个服务了。
+    </p>
+    <p>
+      有一些程序没有服务化，我们也可以使用systemd系统，将这些程序转化为系统的服务。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在systemd中，使用下面的命令管理一个叫做a的service:
+    </p>
+    <p>
+      <b><font color="#0000cc">systemctl start a</font></b><font color="#0000cc">&nbsp;</font>&nbsp;--&gt;启动service a
+    </p>
+    <p>
+      <font color="#0000cc"><b>systemctl stop a</b></font>&nbsp;&nbsp;--&gt;关闭service a
+    </p>
+    <p>
+      <font color="#0000cc"><b>systemctl enable&nbsp;a</b></font>&nbsp;&nbsp;--&gt;将service a设置为开机自动启动
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      起作用的配置文件在<font color="#ff0000">/etc/system/</font>下面，这个目录下面的配置文件是系统中可以使用的service
+    </p>
+    <p>
+      配置文件库在<font color="#ff0000">/lib/systemd</font>下面，这个目录下面放置了很多的service配置文件，但是不一定在系统中启动，如果需要启用某一个service的话，需要把这个配置文件拷贝到<font color="#ff0000">/etc/systemd</font>下面去
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1617699832752"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      frp可执行文件下载下来的时候已经附带了frps的system配置文件了，只要将其复制到<font color="#ff0000">/lib/systemd/system</font>目录下就行了，然后将启动的命令行参数改为实际的参数即可。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1617699490480"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      我希望使用这个服务的目的是配合proxychains使用，使用ss-local搭建一个sock5代理，然后使用proxychains支持在命令行代码中使用这个sock5代理。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在安装shadowsocks-libev的时候，其实安装完毕之后系统中已经安装了一个服务，不过这个服务是ss-server服务。
+    </p>
+    <p>
+      ss-local服务的配置文件和ss-redir的配置文件也有，放在<font color="#ff0000">/lib/systemd/system/</font>下面，叫做<font color="#ff0000">shadowsocks-libev-local@.service</font>
+    </p>
+    <p>
+      可以使用下面的命令激活这个ss-local服务，激活之后，这个服务的配置文件就会被自动的拷贝到<font color="#ff0000">/etc/systemd/system</font>下面去:
+    </p>
+    <p>
+      <b><font color="#0000c0">systemctl start shadowsocks-libev-local@. </font></b>
+    </p>
+    <p>
+      然后使用下面的命令将这个服务加入到开机自启动的服务中去:
+    </p>
+    <p>
+      <b><font color="#0000c0">systemctl enable shadowsocks-libev-local@. </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的是，我们需要将<font color="#ff0000">shadowsocks-libev-local@.service</font>这个文件中的命令启动的命令改成我们实际的命令行参数:
+    </p>
+    <p>
+      我是这么改的：
+    </p>
+    <p>
+      ExecStart=/usr/bin/ss-local -c /etc/shadowsocks-libev/<font color="#ff0000">%i.json&nbsp; </font>--&gt; &nbsp;ExecStart=/usr/bin/ss-local -c /etc/shadowsocks-libev/<font color="#ff0000">config.json</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="frps服务" ID="ID_1687455863" CREATED="1617696693585" MODIFIED="1617699879126"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      frp可执行文件下载下来的时候已经附带了frps的system配置文件了，只要将其复制到<font color="#ff0000">/lib/systemd/system</font>目录下就行了，然后将启动的命令行参数改为实际的参数即可。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      我的改动是，将启动命令改为了下面的参数：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ExecStart=/home/proudeng/frp/frps -c /home/proudeng/frp/frps.ini
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -9014,8 +9150,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html>
 </richcontent>
 <node TEXT="域名绑定" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10466,8 +10602,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="挂载数据盘的fstab的配置信息" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -14677,7 +14813,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 <node TEXT="参考Linux Foundation 培训给出的一些具体例子" ID="ID_251441128" CREATED="1521195779030" MODIFIED="1527550746804"/>
 </node>
-<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1540735321564" LINK="#ID_867421423"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1617697918615" LINK="#ID_867421423"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -14723,11 +14859,12 @@ root@OpenWrt:~# wifi</pre>
       <font face="SansSerif">&lt;Shorthand Notation&gt; </font>
     </p>
     <p>
-      <font face="SansSerif">&#21487;&#20197;&#20351;&#29992;&#19979;&#38754;&#30340;&#26041;&#27861;&#24555;&#36895;&#30340;&#25351;&#23450;Next Action&#30340;&#21508;&#31181;&#23646;&#24615;</font>
+      <font face="SansSerif">可以使用下面的方法快速的指定Next Action的各种属性</font>
     </p>
-    <pre><font size="5" face="SansSerif" color="#ff0033">* Action name</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#0000ff">{when}</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#006666">@context</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#999900">[who]</font></pre>
+    <pre><font color="#ff0033" face="SansSerif" size="5">* Action name</font><font face="SansSerif" size="5"> </font><font color="#0000ff" face="SansSerif" size="5">{when}</font><font face="SansSerif" size="5"> </font><font color="#006666" face="SansSerif" size="5">@context</font><font face="SansSerif" size="5"> </font><font color="#999900" face="SansSerif" size="5">[who]</font></pre>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Icon: @Computer" ID="ID_1821210832" CREATED="1427226511560" MODIFIED="1427226607171">
 <icon BUILTIN="male1"/>
