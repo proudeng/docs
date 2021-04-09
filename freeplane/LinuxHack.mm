@@ -7316,7 +7316,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="暂时只配了两个网口" ID="ID_1019561078" CREATED="1572187273929" MODIFIED="1572187292955"><richcontent TYPE="NOTE">
 
@@ -7591,7 +7590,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </richcontent>
 </node>
 </node>
-<node TEXT="Systemd系统" ID="ID_896553454" CREATED="1617696496761" MODIFIED="1617698095719"><richcontent TYPE="NOTE">
+<node TEXT="Systemd系统" ID="ID_896553454" CREATED="1617696496761" MODIFIED="1617860281767"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7629,13 +7628,15 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       起作用的配置文件在<font color="#ff0000">/etc/system/</font>下面，这个目录下面的配置文件是系统中可以使用的service
     </p>
     <p>
-      配置文件库在<font color="#ff0000">/lib/systemd</font>下面，这个目录下面放置了很多的service配置文件，但是不一定在系统中启动，如果需要启用某一个service的话，需要把这个配置文件拷贝到<font color="#ff0000">/etc/systemd</font>下面去
+      配置文件库在<font color="#ff0000">/lib/systemd</font>下面，这个目录下面放置了很多的service配置文件，但是不一定在系统中启动。
+    </p>
+    <p>
+      如果需要启用某一个service的话，只要使用systemctl enable some_service 就可以将这个some_service设置为开机自启动过了，然后系统会自动的从<b><font color="#ff0000">/lib/systemd</font></b>目录下面将相应的服务的配置文件拷贝到<b><font color="#ff0000">/etc/systemd/</font></b>目录下面去。
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1617699832752"><richcontent TYPE="NOTE">
+<node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1617860141672"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7643,14 +7644,25 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
   </head>
   <body>
     <p>
-      frp可执行文件下载下来的时候已经附带了frps的system配置文件了，只要将其复制到<font color="#ff0000">/lib/systemd/system</font>目录下就行了，然后将启动的命令行参数改为实际的参数即可。
+      frp可执行文件下载下来的时候已经附带了frpc的system配置文件了，只要将其复制到<font color="#ff0000">/lib/systemd/system</font>目录下就行了，然后将启动的命令行参数改为实际的参数即可。
+    </p>
+    <p>
+      然后使用下面的命令将这个frps的服务加入到开机自启动服务中去：
+    </p>
+    <p>
+      <b><font color="#0000c0">systemctl enable frpc.service</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fdsa
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1617699490480"><richcontent TYPE="NOTE">
+<node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1617860056030"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7695,7 +7707,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="frps服务" ID="ID_1687455863" CREATED="1617696693585" MODIFIED="1617699879126"><richcontent TYPE="NOTE">
@@ -7722,11 +7733,101 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="IPV6 DDNS" ID="ID_1002439468" CREATED="1613714597666" MODIFIED="1617860415616"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      家里面的电信宽带最近支持了ipv6网络，实际观察到，家里面的每一个设备都同时获取了一个内网的ipv4的地址，以及一个ipv6的公网地址。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      由此想到，可以使用IPV6的 DDNS，来访问家中的内网设备。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="电信宽带+光猫拨号的坑" ID="ID_1006166592" CREATED="1617960280882" MODIFIED="1617961589390"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      江苏电信宽带现在提供了ipv6地址，所有家里面的网络设备上都能够发现被分配了一个ipv6的地址，而且查看外网的ipv6地址时，也发现跟设备上分配的ipv6地址一样，这就说明了经过电信的光猫之后，没有被NAT。
+    </p>
+    <p>
+      设备上获取的ipv6的地址就是公网的ipv6地址！
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，
+    </p>
+    <p>
+      比较诡异的是，从外网ping内网的ipv6地址，死活都ping不通，而且没有任何的反馈。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，
+    </p>
+    <p>
+      通过root用户进入电信光猫的管理网页，查看光猫上自己带的ipv6地址后，发现从外网是能够ping通的！
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这基本上确认了在光猫端，将所有的入口的数据包都给丢掉了。这就导致给设备分配ipv6地址是可以分配的，但是完全没办法从外网访问内网的设备。
+    </p>
+    <p>
+      网上有人说将光猫里面的防火墙关闭就可以访问内网设备了，实测不行。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="双网口操作" ID="ID_1805704395" CREATED="1617961592308" MODIFIED="1617961780678"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      两个网口都连光猫。在光猫端把ipv6给禁掉了，不能外部访问的ipv6地址要了有何用？
+    </p>
+    <p>
+      一个网络获取内网ipv4地址。
+    </p>
+    <p>
+      另外一个网口在光猫端配置成桥接模式，软路由自己做pppoe拨号上网，这样获取的ipv6地址就能够从外网访问没有任何问题了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这样子，内外网都能够访问软路由了！
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
-<node TEXT="IPV6 DDNS" ID="ID_1002439468" CREATED="1613714597666" MODIFIED="1613714602281"/>
 <node TEXT="WOL" ID="ID_909951503" CREATED="1613715087704" MODIFIED="1613715103628"><richcontent TYPE="NOTE">
 
 <html>
@@ -8662,9 +8763,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10602,8 +10703,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="挂载数据盘的fstab的配置信息" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -14813,7 +14914,7 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 <node TEXT="参考Linux Foundation 培训给出的一些具体例子" ID="ID_251441128" CREATED="1521195779030" MODIFIED="1527550746804"/>
 </node>
-<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1617697918615" LINK="#ID_867421423"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1617697918615" LINK="#ID_867421423"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -14864,7 +14965,6 @@ root@OpenWrt:~# wifi</pre>
     <pre><font color="#ff0033" face="SansSerif" size="5">* Action name</font><font face="SansSerif" size="5"> </font><font color="#0000ff" face="SansSerif" size="5">{when}</font><font face="SansSerif" size="5"> </font><font color="#006666" face="SansSerif" size="5">@context</font><font face="SansSerif" size="5"> </font><font color="#999900" face="SansSerif" size="5">[who]</font></pre>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Icon: @Computer" ID="ID_1821210832" CREATED="1427226511560" MODIFIED="1427226607171">
 <icon BUILTIN="male1"/>

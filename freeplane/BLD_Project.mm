@@ -3784,13 +3784,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Hackathon" FOLDED="true" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
+<node TEXT="Hackathon" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 

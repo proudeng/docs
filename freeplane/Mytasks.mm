@@ -72,7 +72,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1550713356611">
+<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1550713356611">
 <icon BUILTIN="calendar"/>
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -185,7 +185,7 @@
 <node TEXT="手机群控研究" ID="ID_1827638136" CREATED="1532656503759" MODIFIED="1532656514301">
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="perf&amp;Cache研究" ID="ID_504645044" CREATED="1533266654857" MODIFIED="1534146541441">
+<node TEXT="perf&amp;Cache研究" FOLDED="true" ID="ID_504645044" CREATED="1533266654857" MODIFIED="1534146541441">
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -2234,7 +2234,7 @@
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="EBU系统改进申请Instant Award" ID="ID_1977903649" CREATED="1537942379641" MODIFIED="1557193205050">
+<node TEXT="EBU系统改进申请Instant Award" FOLDED="true" ID="ID_1977903649" CREATED="1537942379641" MODIFIED="1557193205050">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
@@ -2823,7 +2823,7 @@
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 </node>
-<node TEXT="RedHawk学习" ID="ID_1689165043" CREATED="1583746046595" MODIFIED="1583746058687">
+<node TEXT="RedHawk学习" FOLDED="true" ID="ID_1689165043" CREATED="1583746046595" MODIFIED="1583746058687">
 <icon BUILTIN="list"/>
 <node TEXT="了解一下flow和flowpoint的概念" ID="ID_1502719039" CREATED="1583746067467" MODIFIED="1606105521109">
 <icon BUILTIN="yes"/>
@@ -2977,7 +2977,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
+<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
 <icon BUILTIN="edit"/>
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -3623,13 +3623,13 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
+<node TEXT="Training&amp;Learning" FOLDED="true" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="Linux Course" FOLDED="true" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="学习开源课程" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1563177025787" TEXT_SHORTENED="true">
+<node TEXT="学习开源课程" FOLDED="true" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1563177025787" TEXT_SHORTENED="true">
 <icon BUILTIN="yes"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <font NAME="SansSerif"/>
@@ -3779,7 +3779,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="线性代数" ID="ID_119152989" CREATED="1615251940300" MODIFIED="1615251950571">
+<node TEXT="线性代数" FOLDED="true" ID="ID_119152989" CREATED="1615251940300" MODIFIED="1615251950571">
 <node TEXT="MIT线性代数视频课程" ID="ID_646266717" CREATED="1615251954035" MODIFIED="1615255636552">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -3816,7 +3816,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="AAS学习" ID="ID_5463576" CREATED="1615255655019" MODIFIED="1615256137279"><richcontent TYPE="NOTE">
+<node TEXT="AAS学习" FOLDED="true" ID="ID_5463576" CREATED="1615255655019" MODIFIED="1615256137279"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3843,9 +3843,9 @@
 </node>
 </node>
 </node>
-<node TEXT="BLD项目" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
+<node TEXT="BLD项目" FOLDED="true" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
 <icon BUILTIN="list"/>
-<node TEXT="编译系统" ID="ID_1526691709" CREATED="1596505674431" MODIFIED="1596505677476">
+<node TEXT="编译系统" FOLDED="true" ID="ID_1526691709" CREATED="1596505674431" MODIFIED="1596505677476">
 <node TEXT="研究一下menuconfig机制" ID="ID_654729734" CREATED="1596505515478" MODIFIED="1596505670386">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -3890,11 +3890,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="完成MR792功能的了解" ID="ID_1503100805" CREATED="1615338571377" MODIFIED="1615338656119">
+<node TEXT="完成MR792功能的了解" ID="ID_1503100805" CREATED="1615338571377" MODIFIED="1617860461269">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="75%"/>
+<icon BUILTIN="button_ok"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -3907,8 +3907,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<attribute NAME="WhenDone" VALUE="2021-04-08" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-08T13:41+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="完成MR6245功能的了解" ID="ID_313411427" CREATED="1615338582184" MODIFIED="1615338907864">
 <icon BUILTIN="yes"/>
@@ -3927,9 +3927,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="SP1" ID="ID_1076465999" CREATED="1615338975199" MODIFIED="1615339017335"><richcontent TYPE="DETAILS">
+<node TEXT="SP1" ID="ID_1076465999" CREATED="1615338975199" MODIFIED="1617868362788">
+<icon BUILTIN="100%"/>
+<richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3941,10 +3942,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="SP2" ID="ID_1975003326" CREATED="1615338978464" MODIFIED="1615339032071"><richcontent TYPE="DETAILS">
+<node TEXT="SP2" ID="ID_1975003326" CREATED="1615338978464" MODIFIED="1617868365623">
+<icon BUILTIN="100%"/>
+<richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3956,17 +3958,23 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="SP3" ID="ID_1104892376" CREATED="1615338980574" MODIFIED="1615338982261"/>
-<node TEXT="SP6" ID="ID_1024159034" CREATED="1615338982471" MODIFIED="1615338984606"/>
+<node TEXT="SP3" ID="ID_1104892376" CREATED="1615338980574" MODIFIED="1615338982261">
+<node TEXT="7.2&amp;7.3章节完成" ID="ID_1446091077" CREATED="1617868423414" MODIFIED="1617868617304">
+<icon BUILTIN="yes"/>
+<attribute NAME="When" VALUE="2021-04-09" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-09T00:00+0800|yyyy-MM-dd"/>
+</node>
+</node>
+<node TEXT="SP6" ID="ID_1024159034" CREATED="1615338982471" MODIFIED="1617868368163">
+<icon BUILTIN="100%"/>
+</node>
 </node>
 <node TEXT="完成RRM文档中RRP相关功能的了解" ID="ID_272046590" CREATED="1615338656885" MODIFIED="1615338673714">
 <icon BUILTIN="yes"/>
 </node>
 </node>
-<node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
+<node TEXT="Personal Stuff" FOLDED="true" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
 <icon BUILTIN="list"/>
 <node TEXT="研究一下多Wifi之间的协调" ID="ID_1025985208" CREATED="1598246409395" MODIFIED="1598246975822">
 <icon BUILTIN="yes"/>
@@ -4027,7 +4035,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="IP v6 小研究" ID="ID_1388108524" CREATED="1610589174318" MODIFIED="1610589251036">
+<node TEXT="IP v6 小研究" FOLDED="true" ID="ID_1388108524" CREATED="1610589174318" MODIFIED="1617860491879">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
 
@@ -4040,11 +4048,121 @@
       家中宽带似乎已经分配了ipv6的地址。
     </p>
     <p>
-      小研究一下，看看是否有类似内网穿透的可能性
+      小研究一下，看看是否有类似内网穿透的可能性。
     </p>
   </body>
 </html>
+
 </richcontent>
+<node TEXT="外网无法访问内网ipv6设备" FOLDED="true" ID="ID_1372788998" CREATED="1617860495780" MODIFIED="1617860716224"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      电信宽带已经完成了ipv6的覆盖，家中接入的设备都会被分配到一个ipv6的公网地址。
+    </p>
+    <p>
+      看起来非常的有可能通过ipv6的ddns来访问家中的设备。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，实际的测试结果是，获取家中设备的ipv6地址之后，在外网无法ping通家中的设备。
+    </p>
+    <p>
+      但是家中的内网设备访问外部的ipv6网站倒是一点问题都没有。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      搜索了一下，发现有可能原因是在电信的光猫上，路由规则上将外部来的请求全部的给drop掉了。
+    </p>
+    <p>
+      这样的话，就无法从外部访问家中设备了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="软路由可能解决方案" ID="ID_510052699" CREATED="1617860736396" MODIFIED="1617862805772">
+<icon BUILTIN="idea"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      家中的软路由有两个网口，可以尝试这样的方法：
+    </p>
+    <p>
+      1，两个网口都连接光猫
+    </p>
+    <p>
+      2，其中一个网口A获取dhcp地址，连接到家中的内网
+    </p>
+    <p>
+      3，另外一个网口B设置为pppoe拨号模式，主动拨号连接到外网，获取ipv6地址
+    </p>
+    <p>
+      4，在光猫上，将B口连接的那一个网口设置为穿透模式，这样B口就能够自己拨号了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这种方式，内网设备访问家中软路由可以使用A口获取的内部地址，而外网访问软路由的时候，就可以使用B口获取的ipv6地址，因为这时候B口上的路由规则已经不是光猫管理的了，所以就无所谓了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="中介方案" ID="ID_1619905995" CREATED="1617860961243" MODIFIED="1617862797148">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      可以使用一个刷机后的android手机作为中介。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      使用一个刷机后的android手机，这个手机通过sim卡连接到运行商的外网，目前运营商的网络一般都下发了ipv6的地址了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      目前并不确定的一点是：手机上获取的ip地址应该也只有一个ipv6的公网地址，而没有ipv4的公网地址。所以这个公网地址能起什么作用还存疑。
+    </p>
+    <p>
+      所以如果可能的话，使用软路由本身来获取公网ipv6地址，同时避开光猫的路由规则是最为方便的一种方法。
+    </p>
+    <p>
+      可以尝试一下。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="System Improvements" FOLDED="true" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">

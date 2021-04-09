@@ -827,7 +827,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="HARQ" FOLDED="true" ID="ID_600370338" CREATED="1542427452513" MODIFIED="1542427514180"><richcontent TYPE="NOTE">
+<node TEXT="HARQ" FOLDED="true" ID="ID_600370338" CREATED="1542427452513" MODIFIED="1617774544484"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -835,7 +835,7 @@
   </head>
   <body>
     <p>
-      &#28151;&#21512;&#33258;&#21160;&#37325;&#20256;&#35831;&#27714;
+      混合自动重传请求
     </p>
   </body>
 </html>
@@ -5512,7 +5512,7 @@
 <node TEXT="物理控制格式指示信道PCFICH" ID="ID_488284960" CREATED="1542448234326" MODIFIED="1544188041867">
 <node TEXT="与phich的关系" ID="ID_1730756810" CREATED="1553518978222" MODIFIED="1553518995495" LINK="#ID_605701175"/>
 </node>
-<node TEXT="物理HARQ指示信道PHICH" FOLDED="true" ID="ID_1984912774" CREATED="1542448240604" MODIFIED="1553517968116"><richcontent TYPE="NOTE">
+<node TEXT="物理HARQ指示信道PHICH" FOLDED="true" ID="ID_1984912774" CREATED="1542448240604" MODIFIED="1617774576438"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5520,10 +5520,10 @@
   </head>
   <body>
     <p>
-      &#29992;&#20110;&#23545;&#19978;&#34892; PUSCH &#20256;&#36755;&#30340;&#25968;&#25454;&#22238;&#24212; HARQ ACK/NACK&#12290;
+      用于对上行 PUSCH 传输的数据回应 HARQ ACK/NACK。
     </p>
     <p>
-      &#27599;&#20010; TTI &#20013;&#30340;&#27599;&#20010;&#19978;&#34892; TB &#23545;&#24212;&#19968;&#20010; PHICH&#65292;&#20063;&#23601;&#26159;&#35828;&#65292;&#24403; UE &#22312;&#26576;&#23567;&#21306;&#37197;&#32622;&#20102;&#19978;&#34892;&#31354;&#20998;&#22797;&#29992;&#26102;&#65292;&#38656;&#35201; 2 &#20010; PHICH&#12290;
+      每个 TTI 中的每个上行 TB 对应一个 PHICH，也就是说，当 UE 在某小区配置了上行空分复用时，需要 2 个 PHICH。
     </p>
   </body>
 </html>
@@ -7154,8 +7154,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
@@ -9181,7 +9181,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Physical layer procedures" FOLDED="true" ID="ID_576774189" CREATED="1547022362620" MODIFIED="1549954981762" LINK="#ID_355527917" HGAP_QUANTITY="13.776594622115514 pt" VSHIFT_QUANTITY="-0.20744621221799764 pt"><richcontent TYPE="NOTE">
+<node TEXT="Physical layer procedures" FOLDED="true" ID="ID_576774189" CREATED="1547022362620" MODIFIED="1617774599595" LINK="#ID_355527917" HGAP_QUANTITY="13.776594622115514 pt" VSHIFT_QUANTITY="-0.20744621221799764 pt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12072,7 +12072,7 @@
 <node TEXT="GINR filtering" ID="ID_1568007650" CREATED="1575444660173" MODIFIED="1575444667097"/>
 <node TEXT="GINR processing" ID="ID_1722699687" CREATED="1575445811774" MODIFIED="1575445819649"/>
 </node>
-<node TEXT="DL Outer Loop Adjustment" FOLDED="true" ID="ID_978646792" CREATED="1575870921761" MODIFIED="1575872452868"><richcontent TYPE="NOTE">
+<node TEXT="DL Outer Loop Adjustment" FOLDED="true" ID="ID_978646792" CREATED="1575870921761" MODIFIED="1617774753195"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12080,16 +12080,16 @@
   </head>
   <body>
     <p>
-      &#22806;&#29615;&#25511;&#21046;&#12290;
+      外环控制。
     </p>
     <p>
-      &#22312;CQI&#21040;GINR&#30340;&#38544;&#23556;&#36807;&#31243;&#20013;&#65292;&#26144;&#23556;&#20851;&#31995;&#26159;&#36890;&#36807;&#20223;&#30495;&#24471;&#21040;&#30340;&#65292;&#30456;&#23545;&#20110;&#23454;&#38469;&#30340;&#24773;&#20917;&#20250;&#26377;&#19968;&#20123;&#35823;&#24046;&#12290;
+      在CQI到GINR的隐射过程中，映射关系是通过仿真得到的，相对于实际的情况会有一些误差。
     </p>
     <p>
-      &#21487;&#20197;&#21033;&#29992;HARQ&#30340;&#32467;&#26524;&#26469;&#39564;&#35777;&#20272;&#35745;&#30340;SINR&#20540;&#26159;&#20559;&#22823;&#20102;&#36824;&#26159;&#20559;&#23567;&#20102;&#65292;&#20174;&#32780;&#21487;&#20197;&#20570;&#20986;&#19968;&#20123;&#30456;&#24212;&#30340;&#35843;&#25972;&#65292;&#25552;&#39640;&#20272;&#35745;&#30340;&#31934;&#24230;&#12290;
+      可以利用HARQ的结果来验证估计的SINR值是偏大了还是偏小了，从而可以做出一些相应的调整，提高估计的精度。
     </p>
     <p>
-      &#31616;&#21333;&#30340;&#35828;&#65292;&#22914;&#26524;&#25910;&#21040;&#30340;&#26159;ACK&#65292;&#37027;&#20040;&#25105;&#20204;&#21487;&#20197;&#35748;&#20026;&#21487;&#20197;&#36866;&#24403;&#30340;&#25552;&#39640;SINR&#30340;&#20540;&#65292;&#22914;&#26524;&#25910;&#21040;&#30340;NACK&#65292;&#37027;&#20040;&#21487;&#20197;&#36866;&#24403;&#30340;&#38477;&#20302;SINR&#30340;&#20540;&#12290;
+      简单的说，如果收到的是ACK，那么我们可以认为可以适当的提高SINR的值，如果收到的NACK，那么可以适当的降低SINR的值。
     </p>
   </body>
 </html>
@@ -12124,7 +12124,7 @@
 </node>
 <node TEXT="Regular Outerloop Adjustment" ID="ID_699367824" CREATED="1575872277302" MODIFIED="1575872295069"/>
 </node>
-<node TEXT="DL Link Adaptation" FOLDED="true" ID="ID_1663726212" CREATED="1576137991871" MODIFIED="1576488069619"><richcontent TYPE="NOTE">
+<node TEXT="DL Link Adaptation" FOLDED="true" ID="ID_1663726212" CREATED="1576137991871" MODIFIED="1617774758568"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -12132,7 +12132,7 @@
   </head>
   <body>
     <p>
-      &#22522;&#20110;PDSCH&#20316;&#20026;&#19968;&#20010;&#23454;&#20363;&#26469;&#35762;&#36848;&#19979;&#34892;&#30340;&#35843;&#24230;&#31639;&#27861;
+      基于PDSCH作为一个实例来讲述下行的调度算法
     </p>
   </body>
 </html>
@@ -14869,7 +14869,7 @@
 <node TEXT="Ref PPS" ID="ID_1243754141" CREATED="1572920137962" MODIFIED="1572920256277" LINK="../../../C:/Users/edenjun/Desktop/LTE/Feature/NPRACH_Congestion_control/NPRACH%20congestion%20control.pptx"/>
 </node>
 </node>
-<node TEXT="【MR6267】" FOLDED="true" ID="ID_941994621" CREATED="1584335888502" MODIFIED="1594793732368" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/MR6267_Allow_TTI_bundling_parameters_to_be_changed_in_runtime(Global_Release)"><richcontent TYPE="NOTE">
+<node TEXT="【MR6267】" FOLDED="true" ID="ID_941994621" CREATED="1584335888502" MODIFIED="1617774766815" LINK="https://lte-wiki.rnd.ki.sw.ericsson.se/wiki/MR6267_Allow_TTI_bundling_parameters_to_be_changed_in_runtime(Global_Release)"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17571,7 +17571,7 @@
 </node>
 </node>
 </node>
-<node TEXT="SP2" ID="ID_606185144" CREATED="1615344533533" MODIFIED="1616047188008"><richcontent TYPE="DETAILS">
+<node TEXT="SP2" ID="ID_606185144" CREATED="1615344533533" MODIFIED="1617765550156"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -17697,8 +17697,634 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="文档" ID="ID_520494755" CREATED="1617765552312" MODIFIED="1617765559014">
+<node TEXT="NDS" ID="ID_1023909571" CREATED="1617765560217" MODIFIED="1617768591648" LINK="../../../Users/edenjun/Desktop/LTE/Feature/RRP/NDS_MR6245-SP3_Feature_Interaction_with_RRP.pdf"/>
+<node TEXT="SA" ID="ID_373328591" CREATED="1617765562941" MODIFIED="1617768628927" LINK="../../../Users/edenjun/Desktop/LTE/Feature/RRP/SA%20for%20MR6245%20SP3%20-%20Securing%20GBR%20and%20Radio%20Resource%20Partitioning%20-%20Feature%20interaction%20(1).pptx"/>
 </node>
-<node TEXT="SP6" ID="ID_472334862" CREATED="1615429379062" MODIFIED="1616117789825"><richcontent TYPE="NOTE">
+<node TEXT="Feature Interaction" ID="ID_601234404" CREATED="1617844371428" MODIFIED="1617948982272">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      初步分析了一下，目前来看，好多的feature跟RRP之间的interaction发生的原因是在于，这些feature本身是不感知RRP的存在的。
+    </p>
+    <p>
+      目前看到的发生冲突的地方在于，很多的feature会基于一些测量结果或者系统中的counter来决定系统的行为，比如像接入控制和负载均衡的操作。
+    </p>
+    <p>
+      但是，一般来说，这些测量结果或者counter都是小区级别的。
+    </p>
+    <p>
+      而在BB处理的阶段，是按照partition来处理的。
+    </p>
+    <p>
+      <b><font color="#ff0000">这两者在一起工作时，RRP的功能可能对其他feature需要的一些测量值产生影响， </font></b>
+    </p>
+    <p>
+      <b><font color="#ff0000">或者反过来，基于小区或者BBM级别的测量结果做出的一些逻辑判断，其实并不一定能够取得预期的效果，因为它一般是在偏高层处理的，没有考虑partition的实际情况。</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Admission Control" ID="ID_865312261" CREATED="1617844381727" MODIFIED="1617844387782">
+<node TEXT="MSR概念" ID="ID_1581523291" CREATED="1617845344074" MODIFIED="1617933985639"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      从PPT里面描述来看，MSR实际上指的就是系统中的资源使用率。一般来说其实也就是那么几种，比如下面的这几种其实已经算是满全面了：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033cc">UL/DL Physical Resource Blocks (PRB) utilization per cell </font>
+    </p>
+    <p>
+      <font color="#0033cc">UL/DL Physical Resource Blocks (PRB) utilization per BBM </font>
+    </p>
+    <p>
+      <font color="#0033cc">UL/DL Scheduled Entity per TTI&nbsp;&nbsp;(SE/TTI) utilization per cell </font>
+    </p>
+    <p>
+      <font color="#0033cc">UL/DL Scheduled Entity per TTI (SE/TTI) utilization per BBM </font>
+    </p>
+    <p>
+      <font color="#0033cc">UL/DL Baseband Capacity utilization per BBM (Layer 2 bits per second (throughput)) </font>
+    </p>
+    <p>
+      <font color="#0033cc">UL,DL and shared PDCCH Channel Control Element (CCE) utilization per cell</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="相关的feature" ID="ID_1897935200" CREATED="1617845350912" MODIFIED="1617845355581">
+<node TEXT="Basic Admission Control" ID="ID_429881497" CREATED="1617844398183" MODIFIED="1617844402044">
+<node TEXT="RRP相关性" ID="ID_9742231" CREATED="1617844962199" MODIFIED="1617847801342"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Basic Admission Control这个feature因为不感知partition，所以它的过滤都是<font color="#ff0000">小区级别</font>和<font color="#ff0000">BBM级别</font>的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以如果不同partition的实际负载和他们被分配的ratio是匹配的，那么Basic Admission Control的功能在RRP功能开启了之后也能够正常的完成。
+    </p>
+    <p>
+      相反，如果不同partition之间的负载情况和他们被分配的ratio之间不相匹配的话，那么Basic Admission Control可能就会导致不公平的资源分配，其原因还是在于Basic Admission Control它是不感知partition这个信息的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Dynamic UE Admission Control" ID="ID_807160676" CREATED="1617844416575" MODIFIED="1617844418970">
+<node TEXT="RRP相关性" ID="ID_276457985" CREATED="1617849768722" MODIFIED="1617850967646"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DUAC同样不感知Partition的存在，所以可能AC和BB的处理出现不匹配的情况:(主要的是：由于超过了partition的限制，BB已经开始限制某些Partition的资源使用，但是DUAC还是允许这个新的Partition中的新的UE接入请求)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Static RRP配置时" ID="ID_917254336" CREATED="1617850104851" MODIFIED="1617850329127"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      因为DUAC不了解partition的存在，那么在Static RRP的配置下，可能会发生下面的情况：
+    </p>
+    <p>
+      某一个partition分配的资源相对比较少，或者load比较高时，在已经达到这个partition上限的情况下，如果此时DUAC的门限值还没有达到，这时候DUAC在接收到这个partition中的RRC连接请求的时候还是会允许接入。
+    </p>
+    <p>
+      但是，UE接入进来之后，由于partition的资源已经饱和，在BB调度的时候，新UE的调度机会就会降低，或者说partition的整体的throughput会降低。服务质量也会降低。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Dynamic RRP配置时" ID="ID_762515010" CREATED="1617850114874" MODIFIED="1617850372670"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在Dynamic RRP配置下，Static RRP中描述的问题可能会缓解，但是在不同的场景下，这个问题还是会出现。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Differentiated Admission Control" ID="ID_313773520" CREATED="1617844431743" MODIFIED="1617863024342"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature基于ARP来做Admission Control的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个feature设置了两个门限值，一个叫做Differentiated threshhold，一个叫做overloaded threshold。
+    </p>
+    <p>
+      它的预期行为是这样的，对于non-PA的bearer：
+    </p>
+    <p>
+      如果这个bearer的ARP值<font color="#ff0000">大于</font>ARP Blocking Level的话，那么如果系统负载超过了<font color="#008000">Differentiated threshhold</font>，那么这个bearer就不会被admit
+    </p>
+    <p>
+      如果这个bearer的ARP值<font color="#ff0000">小于</font>ARP Blocking Level的话，那么如果系统负载超过了<font color="#008000">Overloaded&nbsp;threshhold</font>，那么这个bearer就不会被admit
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      对于PA的bearer来说，这个feature似乎不限制
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="ARP" ID="ID_1529599389" CREATED="1617851514765" MODIFIED="1617851653273"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allocation and Retention Policy
+    </p>
+    <p>
+      这个是每个bearer上面携带的一个参数，它的目的是用于小区处于拥挤场景下，某个bearer是否需要抢占另外一个bearer，或者某个bearer是否要被抢占给其他高ARP的bearer让路。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="SPID-based differentiate Admission Control" ID="ID_732142226" CREATED="1617867030767" MODIFIED="1617867564784"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature除了支持ARP-based differentiated AC，还将SPID这个信息也考虑在内了，作为Differentiated AC的一个补充。
+    </p>
+    <p>
+      形成了两层的过滤机制，经过了这个增强之后，在使用ARP来过滤UE之前，首先使用SPID，然后再使用ARP过滤。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也就是说，在做preemption的时候，首先使用SPID筛选出来需要做preemption的UE/bearer，然后如果还需要的话，再使用ARP作为过滤条件，落入到legacy的ARP-based的那种两个门限值的过滤机制。
+    </p>
+    <p>
+      什么w
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="RRP相关性" ID="ID_1189087941" CREATED="1617867582047" MODIFIED="1617867672375"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      主要的问题还是因为这个feature不感知partition的信息。所以有可能发生下面的情况：
+    </p>
+    <p>
+      一个partition还没有使用完分配给自己的资源，结果新建立的连接就被reject掉了，因为别的partition已经占用了太多的资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Dynamic GBR Admission Control" ID="ID_321249158" CREATED="1617844455135" MODIFIED="1617844457554"/>
+<node TEXT="Differentiated Admission Control" ID="ID_1803192206" CREATED="1617844470456" MODIFIED="1617844471882"/>
+</node>
+</node>
+<node TEXT="Load Management" ID="ID_1266322924" CREATED="1617847834893" MODIFIED="1617933982181"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Load Management相关的feature的主要目的是根据实际的用户分布和资源利用情况，在多个载波之间做负载均衡。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="相关feature" ID="ID_1621336958" CREATED="1617867737910" MODIFIED="1617867742922">
+<node TEXT="Inter-Frequency Load Balancing" ID="ID_272688513" CREATED="1617867744126" MODIFIED="1617867760792">
+<node TEXT="RRP相关性" ID="ID_1353837304" CREATED="1617934193444" MODIFIED="1617951202217">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IFLB的特点也是，它不感知partition，所以它并不知道partition以及每个partition的使用率的任何信息。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时IFLB在选择UE做HO的时候，是随机选择UE的，那么就会有下面的问题：
+    </p>
+    <p>
+      如果被选择做HO的UE正好属于target cell中负载超过门限的那个partition，这种情况下，要么这个UE的切换会失败(SP6里面做了Dynamic GBR Admission Control的话可能HO会被reject掉)，要么即使接入进去了，这个partition的throughput会下降。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      上面的这种情况，在static和dynamic的配置下都可能发生，如果是static的场景下，那么在load超过配置了就会发生这个问题，如果是dynamic的配置下，那么在系统整体负载比较高的时候就会发生这个问题。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在NDS里面，这个feature算做了是和RRP之间有conflicting关系。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Inter-Frequency Offload" ID="ID_158453528" CREATED="1617867768094" MODIFIED="1617937640422"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature感觉跟IFLB差别不大，也是在小区负载比较高的时候，将UE给HO到其他的小区去。
+    </p>
+    <p>
+      从描述里面来看，区别就是不同小区之间不沟通各自的负载情况吗？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      从PPT的描述中看来，IF Offload的主要应用场景是在不同的vendor之间做HO，这样的话，其实partition相关的问题就不那么的紧急了。
+    </p>
+    <p>
+      因为不同vendor上，RRP的实现是不一样的，或者有没有RRP功能都是个问题。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="UE throughput-aware IFLB" ID="ID_1563325608" CREATED="1617867784319" MODIFIED="1617938377066"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature是IFLB的一个增强版本，在IFLB中，选择UE做HO的时候，UE是随机选择的。
+    </p>
+    <p>
+      在TPLB中，考虑了UE在source和target小区中的可能的throughput做比较，然后给每一个UE排序做rank。
+    </p>
+    <p>
+      在选择UE做HO的时候，选择那些最有beinifit的UE去做HO。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP相关性" ID="ID_215937718" CREATED="1617938380816" MODIFIED="1617947323482">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature和RRP共存的本质问题还是它完全不知道partition相关的信息。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以在和RRP一起工作的时候，它计算出来的throughput其实是不准确的，因为它没有考虑partition的存在对UE的throughput的影响。而这个影响明显是很大的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以在分析中给出的评价是这个feature不能和RRP一起工作，他们是互相冲突的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Carrier Aggregation-aware IFLB" ID="ID_1443533989" CREATED="1617867804926" MODIFIED="1617947958170">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature的功能有点儿没搞清楚。暂时先存疑吧。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP相关性" ID="ID_489627495" CREATED="1617947923990" MODIFIED="1617947930497"/>
+</node>
+<node TEXT="Admission triggered offload" ID="ID_591138248" CREATED="1617867831877" MODIFIED="1617949146247"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature基于测量到的一些小区或者eNB级别的统计量，决定是否将负载offload到其他的eNB或者其他的网络制式上。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      然后这个feature设定了几个门限值。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP相关性" ID="ID_167827507" CREATED="1617949149917" MODIFIED="1617951365072">
+<icon BUILTIN="edit"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature和RRP之间的相关性，主要还是体现在门限值的不一致。
+    </p>
+    <p>
+      这个feature是不感知partition的信息的，它使用的门限值是eNB级别或者cell级别的门限值。
+    </p>
+    <p>
+      同样的，由于这种门限值的不一致就会导致下面的问题可能发生：
+    </p>
+    <p>
+      1，partition层面上，已经需要将负载给分担给其他的eNB了，但是因为在小区层面上的负载还没有达到门限值。导致负载不会分担。这样partition中的UE的体验就会下降，因为实际上partition层面上拥塞已经发生了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个feature相对来说和RRP之间也是conflicting的关系，但是NDS里面提了一下，或许也有可能描述为related的关系
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Preferential Traffic Management" ID="ID_564893582" CREATED="1617867854694" MODIFIED="1617950937217"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature的形态是使用多个frequency band来构建一个小区，然后尽量的使用一个单独的frequency band来统一的服务高优先级的UE。
+    </p>
+    <p>
+      实现上面来看，这个feature其实使用了下面列出来的各个feature的组合功能而拼出来的一个综合性的功能:
+    </p>
+    <p>
+      <font color="#0000c0">-Inter-Frequency Load Balancing (IFLB) </font>
+    </p>
+    <p>
+      <font color="#0000c0">-Inter-Frequency Offload (IFO) </font>
+    </p>
+    <p>
+      <font color="#0000c0">-Admission-Triggered Offload (ATO) </font>
+    </p>
+    <p>
+      <font color="#0000c0">-Subscriber Triggered Mobility (STM) </font>
+    </p>
+    <p>
+      <font color="#0000c0">-Shared LTE RAN </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="小区负载状态" ID="ID_769041348" CREATED="1617950939151" MODIFIED="1617950943546">
+<node TEXT="normal traffic load" ID="ID_984012787" CREATED="1617949995317" MODIFIED="1617950412304"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      只有普通的UE会做负载均衡。
+    </p>
+    <p>
+      高优先级的band服务高优先级的UE，低优先级的band服务普通的UE。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="high traffic load" ID="ID_234760514" CREATED="1617950016220" MODIFIED="1617950593760"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在高负载的情况下，系统的行为跟normal traffic load的时候是基本一样的，有一个明显区别的地方在于：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      高优先级的frequency band在自己小区负载超过某个门限值的时候会做一件事情，不允许其他的frequency band做负载均衡到自己的frequency band上面来。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="very high traffic load" ID="ID_1803704808" CREATED="1617950023741" MODIFIED="1617950947722"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在小区的负载达到非常高的门限值的时候，系统的行为会有一些新的变化：
+    </p>
+    <p>
+      PTM Enhancement:
+    </p>
+    <p>
+      Allowing the same cell as target cell for both IFLB and IFO
+    </p>
+    <p>
+      Decision on load balancing or offload action based on traffic load of entire cell (partition agnostic)
+    </p>
+    <p>
+      Inhibiting Idle Mode Prioritization (for priority UEs on priority bands)
+    </p>
+    <p>
+      Decision about signaling traffic load as “Inhibit idle mode prioritization” based on traffic load of entire cell (partition agnostic)
+    </p>
+    <p>
+      Blocking a cell for idle mode camping and incoming HO for non-priority UEs
+    </p>
+    <p>
+      PLMN IDs reserved due to sRatio or MSR usage
+    </p>
+    <p>
+      Blocked HO to cells reserved for operator use
+    </p>
+    <p>
+      Cell reserved for operator use based on traffic load of entire cell (partition agnostic)
+    </p>
+    <p>
+      Subscriber group-based UE selection for offload
+    </p>
+    <p>
+      offload of non-priority UEs is started before offload of priority UEs&nbsp;&nbsp;(partition agnostic)
+    </p>
+    <p>
+      Enabling/Disabling ATO per cell for UEs
+    </p>
+    <p>
+      Partition agnostic
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="RRP相关性" ID="ID_1546912085" CREATED="1617950951807" MODIFIED="1617950960263">
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Carrier Aggregation" ID="ID_382339363" CREATED="1617847843788" MODIFIED="1617847849052"/>
+<node TEXT="Load-Based CA SCell Handling" ID="ID_1953723612" CREATED="1617847866189" MODIFIED="1617847885232"/>
+<node TEXT="MIMO" ID="ID_850885356" CREATED="1617847890540" MODIFIED="1617847891832"/>
+<node TEXT="Shared LTE RAN" ID="ID_111969432" CREATED="1617847894837" MODIFIED="1617847898246"/>
+<node TEXT="Category-M Access" ID="ID_247210997" CREATED="1617847901244" MODIFIED="1617847913646"/>
+<node TEXT="Category-M Dynamic Access Sharing with LTE" ID="ID_1328685153" CREATED="1617847919780" MODIFIED="1617847933774"/>
+<node TEXT="NB-IoT Access" ID="ID_52136536" CREATED="1617847934420" MODIFIED="1617847944167"/>
+<node TEXT="TTI Bundling" ID="ID_988732974" CREATED="1617847947196" MODIFIED="1617847953862"/>
+<node TEXT="Volte Frequency Hopping" ID="ID_1611069390" CREATED="1617847958325" MODIFIED="1617847963191"/>
+<node TEXT="Flexible Channel bandwidth" ID="ID_797645653" CREATED="1617847968932" MODIFIED="1617847977311"/>
+<node TEXT="UE throughput-based mobility to Wi-Fi" ID="ID_1122954796" CREATED="1617847983676" MODIFIED="1617848002495"/>
+<node TEXT="Subscriber Triggered Mobility" ID="ID_1764364401" CREATED="1617848002788" MODIFIED="1617848388364"/>
+<node TEXT="Intra-LTE Handover" ID="ID_1136883817" CREATED="1617848015891" MODIFIED="1617848020750"/>
+<node TEXT="Cell Sleep Mode" ID="ID_1319688940" CREATED="1617848024388" MODIFIED="1617848027749"/>
+<node TEXT="LTE Broadcast" ID="ID_317915044" CREATED="1617848033221" MODIFIED="1617848038151"/>
+<node TEXT="MCPTT" ID="ID_1679296067" CREATED="1617848038540" MODIFIED="1617848046349"/>
+<node TEXT="Access Barring" ID="ID_1397541659" CREATED="1617848046652" MODIFIED="1617848064894"/>
+<node TEXT="Scheduling" ID="ID_908690131" CREATED="1617848069923" MODIFIED="1617848071927"/>
+<node TEXT="Dynamic UL Resource allocation" ID="ID_584746603" CREATED="1617848072436" MODIFIED="1617848084974"/>
+<node TEXT="Instant uplink Access" ID="ID_1409424062" CREATED="1617848094588" MODIFIED="1617848107871"/>
+<node TEXT="Prioritized SR scheduling" ID="ID_486105164" CREATED="1617848113548" MODIFIED="1617848126256"/>
+<node TEXT="Data-Aware Uplink Scheduling" ID="ID_1117350739" CREATED="1617848130515" MODIFIED="1617848142286"/>
+<node TEXT="Resource-Optimized Uplink Scheduling" ID="ID_13187638" CREATED="1617848150755" MODIFIED="1617848162366"/>
+<node TEXT="Baseband Resource Cell Prioritization" ID="ID_76027691" CREATED="1617848171435" MODIFIED="1617848184694"/>
+<node TEXT="Dynamic PUCCH" ID="ID_514076193" CREATED="1617848187395" MODIFIED="1617848191086"/>
+<node TEXT="Prescheduling and ASGH-based prescheduling" ID="ID_151453077" CREATED="1617848191332" MODIFIED="1617848218502"/>
+<node TEXT="Low Energy Scheduler solution" ID="ID_839483084" CREATED="1617848230372" MODIFIED="1617848256168"/>
+<node TEXT="System Information Modification" ID="ID_266838584" CREATED="1617848256564" MODIFIED="1617848266664"/>
+<node TEXT="Priority Paging" ID="ID_1272490772" CREATED="1617848272557" MODIFIED="1617848276495"/>
+<node TEXT="Uplink Coordinated Multi-point Reception" ID="ID_1282502358" CREATED="1617848276804" MODIFIED="1617848299214"/>
+</node>
+</node>
+<node TEXT="SP6" ID="ID_472334862" CREATED="1615429379062" MODIFIED="1617765540188"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17774,7 +18400,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -17805,7 +18430,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -17884,7 +18508,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="SP6如何保证GBR服务质量" ID="ID_1654630297" CREATED="1616118704487" MODIFIED="1617332295371">
 <icon BUILTIN="help"/>
@@ -17912,7 +18535,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -17937,7 +18559,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Dynamic GBR Admission Control per Partition" ID="ID_477685544" CREATED="1617332310569" MODIFIED="1617333425716"><richcontent TYPE="NOTE">
 
@@ -17975,7 +18596,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Differentiated Admission Control" ID="ID_703578514" CREATED="1617332612438" MODIFIED="1617344839180">
@@ -18007,7 +18627,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="rrpAdmCtrlRejPaReqOvlGbr" ID="ID_1843380713" CREATED="1617341419075" MODIFIED="1617354509800"><richcontent TYPE="NOTE">
@@ -18034,7 +18653,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="抢占机制" ID="ID_202256262" CREATED="1617344840114" MODIFIED="1617354455394"><richcontent TYPE="NOTE">
@@ -18067,7 +18685,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
