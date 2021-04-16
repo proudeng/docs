@@ -72,7 +72,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1550713356611">
+<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1618193853511">
 <icon BUILTIN="calendar"/>
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -108,7 +108,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="好玩的东西" FOLDED="true" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1550713356610">
+<node TEXT="好玩的东西" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1618193853510">
 <font NAME="SansSerif"/>
 <node TEXT="Seleium &amp; Katalon" ID="ID_367235526" CREATED="1528075797595" MODIFIED="1539224700294"><richcontent TYPE="NOTE">
 
@@ -233,25 +233,6 @@
   </body>
 </html>
 </richcontent>
-</node>
-<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1610589170610">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      了解一下如何获取ipv6地址
-    </p>
-  </body>
-</html>
-</richcontent>
-<attribute NAME="WhenDone" VALUE="2021-01-14" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-14T09:52+0800|yyyy-MM-dd"/>
 </node>
 </node>
 </node>
@@ -2484,6 +2465,135 @@
 <icon BUILTIN="button_ok"/>
 <attribute NAME="WhenDone" VALUE="2021-01-14" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-14T09:48+0800|yyyy-MM-dd"/>
 </node>
+<node TEXT="IP v6 小研究" ID="ID_1388108524" CREATED="1610589174318" MODIFIED="1618193466130">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      家中宽带似乎已经分配了ipv6的地址。
+    </p>
+    <p>
+      小研究一下，看看是否有类似内网穿透的可能性。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:11+0800|yyyy-MM-dd"/>
+<node TEXT="外网无法访问内网ipv6设备" ID="ID_1372788998" CREATED="1617860495780" MODIFIED="1618193455964">
+<icon BUILTIN="100%"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      电信宽带已经完成了ipv6的覆盖，家中接入的设备都会被分配到一个ipv6的公网地址。
+    </p>
+    <p>
+      看起来非常的有可能通过ipv6的ddns来访问家中的设备。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，实际的测试结果是，获取家中设备的ipv6地址之后，在外网无法ping通家中的设备。
+    </p>
+    <p>
+      但是家中的内网设备访问外部的ipv6网站倒是一点问题都没有。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      搜索了一下，发现有可能原因是在电信的光猫上，路由规则上将外部来的请求全部的给drop掉了。
+    </p>
+    <p>
+      这样的话，就无法从外部访问家中设备了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="软路由可能解决方案" ID="ID_510052699" CREATED="1617860736396" MODIFIED="1617862805772">
+<icon BUILTIN="idea"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      家中的软路由有两个网口，可以尝试这样的方法：
+    </p>
+    <p>
+      1，两个网口都连接光猫
+    </p>
+    <p>
+      2，其中一个网口A获取dhcp地址，连接到家中的内网
+    </p>
+    <p>
+      3，另外一个网口B设置为pppoe拨号模式，主动拨号连接到外网，获取ipv6地址
+    </p>
+    <p>
+      4，在光猫上，将B口连接的那一个网口设置为穿透模式，这样B口就能够自己拨号了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这种方式，内网设备访问家中软路由可以使用A口获取的内部地址，而外网访问软路由的时候，就可以使用B口获取的ipv6地址，因为这时候B口上的路由规则已经不是光猫管理的了，所以就无所谓了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="中介方案" ID="ID_1619905995" CREATED="1617860961243" MODIFIED="1617862797148">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      可以使用一个刷机后的android手机作为中介。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      使用一个刷机后的android手机，这个手机通过sim卡连接到运行商的外网，目前运营商的网络一般都下发了ipv6的地址了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      目前并不确定的一点是：手机上获取的ip地址应该也只有一个ipv6的公网地址，而没有ipv4的公网地址。所以这个公网地址能起什么作用还存疑。
+    </p>
+    <p>
+      所以如果可能的话，使用软路由本身来获取公网ipv6地址，同时避开光猫的路由规则是最为方便的一种方法。
+    </p>
+    <p>
+      可以尝试一下。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="增强Release Confluence Page" ID="ID_1316714709" CREATED="1537927351630" MODIFIED="1575945676343">
 <icon BUILTIN="yes"/>
@@ -2894,6 +3004,60 @@
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 </node>
+<node TEXT="研究一下IPV6下的内网穿透" ID="ID_1995858870" CREATED="1562133609828" MODIFIED="1610589170610">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      了解一下如何获取ipv6地址
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2021-01-14" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-14T09:52+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="LTE RRP" ID="ID_617758466" CREATED="1615338492560" MODIFIED="1615338546906">
+<icon BUILTIN="list"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      了解LTE的RRP功能，给予项目上的支持。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="完成MR792功能的了解" ID="ID_1503100805" CREATED="1615338571377" MODIFIED="1617860461269">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="75%"/>
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FP和NDS都已经过完了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute NAME="WhenDone" VALUE="2021-04-08" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-08T13:41+0800|yyyy-MM-dd"/>
+</node>
+</node>
 </node>
 <node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="left" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1539668056662" LINK="#ID_867421423">
 <edge COLOR="#7c0000"/>
@@ -2977,7 +3141,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
+<node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
 <icon BUILTIN="edit"/>
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
@@ -3010,7 +3174,7 @@
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="Freeplane和Anki的集成" ID="ID_1515571808" CREATED="1553518149477" MODIFIED="1553518300236">
+<node TEXT="Freeplane和Anki的集成" ID="ID_1515571808" CREATED="1553518149477" MODIFIED="1618195887100">
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
@@ -3021,38 +3185,22 @@
   </head>
   <body>
     <p>
-      &#20316;&#20026;&#31508;&#35760;&#36719;&#20214;&#65292;Freeplane&#33021;&#22815;&#24456;&#22909;&#30340;&#25972;&#29702;&#36164;&#26009;&#12290;&#20316;&#20026;&#35760;&#24518;&#36719;&#20214;&#65292;Anki&#33021;&#22815;&#24456;&#22909;&#30340;&#22238;&#39038;&#21644;&#24041;&#22266;&#35760;&#24518;&#28857;&#12290;
+      作为笔记软件，Freeplane能够很好的整理资料。作为记忆软件，Anki能够很好的回顾和巩固记忆点。
     </p>
     <p>
       
     </p>
     <p>
-      &#21487;&#20197;&#23558;&#20004;&#32773;&#32467;&#21512;&#36215;&#26469;&#21527;&#65311;&#19968;&#31181;&#24314;&#35758;&#30340;&#22330;&#26223;&#26159;&#65292;&#20351;&#29992;freeplane&#35760;&#24405;&#30340;&#31508;&#35760;&#65292;&#36890;&#36807;&#26576;&#31181;&#29305;&#27530;&#30340;tag&#26469;&#26631;&#35760;&#65292;&#24182;&#29983;&#25104;Anki&#30340;&#21345;&#29255;&#12290;
+      可以将两者结合起来吗？一种建议的场景是，使用freeplane记录的笔记，通过某种特殊的tag来标记，并生成Anki的卡片。
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="探讨Anki作为商业公司给新人培训的工具" ID="ID_1576647378" CREATED="1553518307434" MODIFIED="1553518331627">
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
-</node>
-<node TEXT="研究一下电信网络的IPV6" ID="ID_1690774945" CREATED="1559006760039" MODIFIED="1559006898176">
-<icon BUILTIN="info"/>
-<font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#23478;&#24237;&#32593;&#32476;&#37324;&#38754;&#22914;&#26524;&#33021;&#22815;&#33719;&#21462;&#21040;ipv6&#30340;&#22320;&#22336;&#30340;&#35805;&#65292;&#37027;&#20040;&#22806;&#32593;&#20351;&#29992;&#20869;&#32593;&#25645;&#24314;&#30340;&#26381;&#21153;&#22120;&#36895;&#24230;&#23601;&#24456;&#24555;&#20102;&#65292;&#19981;&#38656;&#35201;&#32463;&#36807;&#20013;&#38388;&#33410;&#28857;&#30340;&#36716;&#25509;&#65292;&#20063;&#19981;&#21463;&#21046;&#20110;&#20013;&#38388;&#33410;&#28857;&#30340;&#32593;&#36895;&#20102;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
 <node TEXT="了解一下如何在3gpp上找到足够多信息" ID="ID_213344527" CREATED="1563441549133" MODIFIED="1563441581357">
 <icon BUILTIN="info"/>
@@ -3119,6 +3267,66 @@
 </richcontent>
 <node TEXT="物理世界的内容如何导入到数字世界" ID="ID_1117609053" CREATED="1584596262847" MODIFIED="1584596312072"/>
 <node TEXT="数字世界的内容如何使用物理世界的方式操作" ID="ID_1431755283" CREATED="1584596275860" MODIFIED="1584596330166"/>
+</node>
+<node TEXT="Mytask中的task从其他map中抽取" ID="ID_1337981260" CREATED="1618193532615" MODIFIED="1618193797138">
+<icon BUILTIN="info"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      目前的task管理是通过一个单独的mytask这个freeplane文件来管理的。实际上是否有更加优化的一种方案呢？
+    </p>
+    <p>
+      比如说像下面这样的：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      每个mm文件中在相应的需要花时间调查或者研究的那些node节点上都可以设置task。
+    </p>
+    <p>
+      <b>然后这些task的信息汇总到mytask这个单独的mm文件中。 </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这样的操作的好处在哪里?
+    </p>
+    <p>
+      task的管理还是统一的汇总管理，优化的地方在于，task可以和具体的上下文结合的更加的紧密。
+    </p>
+    <p>
+      task的来原可以是mytask中创建的，也可以是来源于不同mm文件中具体的上下文中标了task的那些节点。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="了解OpenRAN相关的内容" ID="ID_600099472" CREATED="1618195209495" MODIFIED="1618195309156">
+<icon BUILTIN="info"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在无线领域，这个话题已经成为不可避免的一个话题了。
+    </p>
+    <p>
+      需要了解一下这个方向的技术背景和这个领域当前的发展状况。
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 <node TEXT="Assigned Input" FOLDED="true" ID="ID_1239004083" CREATED="1522138603142" MODIFIED="1572314203974">
 <font NAME="SansSerif"/>
@@ -3368,8 +3576,21 @@
 </richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="MR4975-Mini Air 4455" ID="ID_1749465377" CREATED="1525672360596" MODIFIED="1525672768539">
+<node ID="ID_1749465377" CREATED="1525672360596" MODIFIED="1618193905958">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">MR4975-Mini Air 4455</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node ID="ID_230825165" CREATED="1519361893822" MODIFIED="1522138639969" LINK="#ID_1103450065">
@@ -3402,8 +3623,21 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="友华WR1200JS" ID="ID_1434774121" CREATED="1522206175376" MODIFIED="1522206227008">
+<node ID="ID_1434774121" CREATED="1522206175376" MODIFIED="1618193915467">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">友华WR1200JS</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -3419,12 +3653,38 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="给Hugo提供system improvement idea的候选项" ID="ID_1951604427" CREATED="1525225866847" MODIFIED="1572314203973" LINK="#ID_852231417">
+<node ID="ID_1951604427" CREATED="1525225866847" MODIFIED="1618193923070" LINK="#ID_852231417">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">给Hugo提供system improvement idea的候选项</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="新CR系统的迁移" ID="ID_1280212185" CREATED="1524647059597" MODIFIED="1524703856144">
+<node ID="ID_1280212185" CREATED="1524647059597" MODIFIED="1618193930087">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">新CR系统的迁移</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node ID="ID_402967706" CREATED="1521001323558" MODIFIED="1525672820144">
@@ -3444,8 +3704,21 @@
 </richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="MR5288" ID="ID_1992397582" CREATED="1526375300701" MODIFIED="1526633960018">
+<node ID="ID_1992397582" CREATED="1526375300701" MODIFIED="1618193939462">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">MR5288</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node TEXT="六一儿童节礼物" ID="ID_1457029435" CREATED="1526366651175" MODIFIED="1526366689040">
@@ -3465,16 +3738,55 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Usability TR相关的任务" ID="ID_1482993125" CREATED="1526283417138" MODIFIED="1527561696595">
+<node ID="ID_1482993125" CREATED="1526283417138" MODIFIED="1618193958122">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">Usability TR相关的任务</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="5月北京" ID="ID_1897251463" CREATED="1520988970175" MODIFIED="1520988986768">
+<node ID="ID_1897251463" CREATED="1520988970175" MODIFIED="1618193969916">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">5月北京</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="年假安排和端午出行计划" ID="ID_22138211" CREATED="1526352510058" MODIFIED="1527737411829" LINK="#ID_1047386614">
+<node ID="ID_22138211" CREATED="1526352510058" MODIFIED="1618193976997" LINK="#ID_1047386614">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">年假安排和端午出行计划</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -3490,12 +3802,38 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="EBU产品优化项目" ID="ID_966923476" CREATED="1531793172513" MODIFIED="1531816081818">
+<node ID="ID_966923476" CREATED="1531793172513" MODIFIED="1618193986671">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">EBU产品优化项目</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="高级JAVA培训准备" ID="ID_266678282" CREATED="1532399379163" MODIFIED="1533525995742">
+<node ID="ID_266678282" CREATED="1532399379163" MODIFIED="1618193993717">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">高级JAVA培训准备</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -3511,8 +3849,21 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="暑假出行安排" ID="ID_1542293416" CREATED="1530515399256" MODIFIED="1531792680107">
+<node ID="ID_1542293416" CREATED="1530515399256" MODIFIED="1618194000252">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">暑假出行安排</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -3528,12 +3879,38 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="最佳排序比赛总结和研究" ID="ID_1285046697" CREATED="1534146137795" MODIFIED="1536547538408" LINK="#ID_1840510357">
+<node ID="ID_1285046697" CREATED="1534146137795" MODIFIED="1618194007388" LINK="#ID_1840510357">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">最佳排序比赛总结和研究</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="Oslo这个feature相关的信息汇总" ID="ID_1684888806" CREATED="1531791641584" MODIFIED="1531791695805">
+<node ID="ID_1684888806" CREATED="1531791641584" MODIFIED="1618194014704">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">Oslo这个feature相关的信息汇总</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -3549,16 +3926,55 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="UltraVPS系统更新" ID="ID_561131706" CREATED="1522393106428" MODIFIED="1524193978315">
+<node ID="ID_561131706" CREATED="1522393106428" MODIFIED="1618194020890">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">UltraVPS系统更新</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="改进收集Release内容的方式" ID="ID_573426668" CREATED="1519438572249" MODIFIED="1537929014499">
+<node ID="ID_573426668" CREATED="1519438572249" MODIFIED="1618194028496">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">改进收集Release内容的方式</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="办公室日常工作的自动化" ID="ID_1093447302" CREATED="1531100755353" MODIFIED="1531102281359">
+<node ID="ID_1093447302" CREATED="1531100755353" MODIFIED="1618194039444">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">办公室日常工作的自动化</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
 <richcontent TYPE="NOTE">
 
@@ -3588,9 +4004,52 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="查看一下交税情况" ID="ID_1062945270" CREATED="1559006902007" MODIFIED="1559006917556">
+<node ID="ID_1062945270" CREATED="1559006902007" MODIFIED="1618194045664">
 <icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">查看一下交税情况</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif"/>
+</node>
+<node ID="ID_1690774945" CREATED="1559006760039" MODIFIED="1618193881838">
+<icon BUILTIN="info"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cccccc">研究一下电信网络的IPV6</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23478;&#24237;&#32593;&#32476;&#37324;&#38754;&#22914;&#26524;&#33021;&#22815;&#33719;&#21462;&#21040;ipv6&#30340;&#22320;&#22336;&#30340;&#35805;&#65292;&#37027;&#20040;&#22806;&#32593;&#20351;&#29992;&#20869;&#32593;&#25645;&#24314;&#30340;&#26381;&#21153;&#22120;&#36895;&#24230;&#23601;&#24456;&#24555;&#20102;&#65292;&#19981;&#38656;&#35201;&#32463;&#36807;&#20013;&#38388;&#33410;&#28857;&#30340;&#36716;&#25509;&#65292;&#20063;&#19981;&#21463;&#21046;&#20110;&#20013;&#38388;&#33410;&#28857;&#30340;&#32593;&#36895;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -3623,13 +4082,13 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="Training&amp;Learning" FOLDED="true" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
+<node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="Linux Course" FOLDED="true" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
+<node TEXT="Linux Course" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<node TEXT="学习开源课程" FOLDED="true" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1563177025787" TEXT_SHORTENED="true">
+<node TEXT="学习开源课程" ID="ID_10057489" CREATED="1521017620157" MODIFIED="1563177025787" TEXT_SHORTENED="true">
 <icon BUILTIN="yes"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <font NAME="SansSerif"/>
@@ -3779,7 +4238,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="线性代数" FOLDED="true" ID="ID_119152989" CREATED="1615251940300" MODIFIED="1615251950571">
+<node TEXT="线性代数" ID="ID_119152989" CREATED="1615251940300" MODIFIED="1615251950571">
 <node TEXT="MIT线性代数视频课程" ID="ID_646266717" CREATED="1615251954035" MODIFIED="1615255636552">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -3816,7 +4275,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="AAS学习" FOLDED="true" ID="ID_5463576" CREATED="1615255655019" MODIFIED="1615256137279"><richcontent TYPE="NOTE">
+<node TEXT="AAS学习" ID="ID_5463576" CREATED="1615255655019" MODIFIED="1615256137279"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3835,17 +4294,21 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="FDD AAS的基础知识学完" ID="ID_421973552" CREATED="1615255846082" MODIFIED="1615255868567">
+<node TEXT="FDD AAS的基础知识学完" ID="ID_421973552" CREATED="1615255846082" MODIFIED="1618195985740">
 <icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:53+0800|yyyy-MM-dd"/>
 </node>
-<node TEXT="AAS的PPT完成" ID="ID_932175624" CREATED="1615255671037" MODIFIED="1615255872814">
+<node TEXT="AAS的PPT完成" ID="ID_932175624" CREATED="1615255671037" MODIFIED="1618195986155">
 <icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:53+0800|yyyy-MM-dd"/>
 </node>
 </node>
 </node>
-<node TEXT="BLD项目" FOLDED="true" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
+<node TEXT="BLD项目" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
 <icon BUILTIN="list"/>
-<node TEXT="编译系统" FOLDED="true" ID="ID_1526691709" CREATED="1596505674431" MODIFIED="1596505677476">
+<node TEXT="编译系统" ID="ID_1526691709" CREATED="1596505674431" MODIFIED="1596505677476">
 <node TEXT="研究一下menuconfig机制" ID="ID_654729734" CREATED="1596505515478" MODIFIED="1596505670386">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -3891,25 +4354,6 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="完成MR792功能的了解" ID="ID_1503100805" CREATED="1615338571377" MODIFIED="1617860461269">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="75%"/>
-<icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      FP和NDS都已经过完了。
-    </p>
-  </body>
-</html>
-</richcontent>
-<attribute NAME="WhenDone" VALUE="2021-04-08" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-08T13:41+0800|yyyy-MM-dd"/>
-</node>
 <node TEXT="完成MR6245功能的了解" ID="ID_313411427" CREATED="1615338582184" MODIFIED="1615338907864">
 <icon BUILTIN="yes"/>
 <richcontent TYPE="NOTE">
@@ -3961,8 +4405,9 @@
 </richcontent>
 </node>
 <node TEXT="SP3" ID="ID_1104892376" CREATED="1615338980574" MODIFIED="1615338982261">
-<node TEXT="7.2&amp;7.3章节完成" ID="ID_1446091077" CREATED="1617868423414" MODIFIED="1617868617304">
+<node TEXT="7.2&amp;7.3章节完成" ID="ID_1446091077" CREATED="1617868423414" MODIFIED="1618195335654">
 <icon BUILTIN="yes"/>
+<icon BUILTIN="50%"/>
 <attribute NAME="When" VALUE="2021-04-09" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-09T00:00+0800|yyyy-MM-dd"/>
 </node>
 </node>
@@ -3974,7 +4419,7 @@
 <icon BUILTIN="yes"/>
 </node>
 </node>
-<node TEXT="Personal Stuff" FOLDED="true" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
+<node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
 <icon BUILTIN="list"/>
 <node TEXT="研究一下多Wifi之间的协调" ID="ID_1025985208" CREATED="1598246409395" MODIFIED="1598246975822">
 <icon BUILTIN="yes"/>
@@ -4035,8 +4480,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="IP v6 小研究" FOLDED="true" ID="ID_1388108524" CREATED="1610589174318" MODIFIED="1617860491879">
+<node TEXT="小学生英语复习APP" ID="ID_940018741" CREATED="1618193478143" MODIFIED="1618194440831">
 <icon BUILTIN="yes"/>
+<attribute NAME="When" VALUE="this week"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -4045,127 +4491,17 @@
   </head>
   <body>
     <p>
-      家中宽带似乎已经分配了ipv6的地址。
+      不管是否参加校外的英语学习，校内学校教授的英语的复习工作要做好。
     </p>
     <p>
-      小研究一下，看看是否有类似内网穿透的可能性。
+      欧陆词典支持译林版的课本的单词复习，不过形式看起来跟大人的单词复习工具一样，比较的枯燥。最好能有一个更好的图形化或者更加适合低年级小孩的工具来帮忙复习。
     </p>
   </body>
 </html>
-
-</richcontent>
-<node TEXT="外网无法访问内网ipv6设备" FOLDED="true" ID="ID_1372788998" CREATED="1617860495780" MODIFIED="1617860716224"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      电信宽带已经完成了ipv6的覆盖，家中接入的设备都会被分配到一个ipv6的公网地址。
-    </p>
-    <p>
-      看起来非常的有可能通过ipv6的ddns来访问家中的设备。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      但是，实际的测试结果是，获取家中设备的ipv6地址之后，在外网无法ping通家中的设备。
-    </p>
-    <p>
-      但是家中的内网设备访问外部的ipv6网站倒是一点问题都没有。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      搜索了一下，发现有可能原因是在电信的光猫上，路由规则上将外部来的请求全部的给drop掉了。
-    </p>
-    <p>
-      这样的话，就无法从外部访问家中设备了。
-    </p>
-  </body>
-</html>
-
-</richcontent>
-<node TEXT="软路由可能解决方案" ID="ID_510052699" CREATED="1617860736396" MODIFIED="1617862805772">
-<icon BUILTIN="idea"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      家中的软路由有两个网口，可以尝试这样的方法：
-    </p>
-    <p>
-      1，两个网口都连接光猫
-    </p>
-    <p>
-      2，其中一个网口A获取dhcp地址，连接到家中的内网
-    </p>
-    <p>
-      3，另外一个网口B设置为pppoe拨号模式，主动拨号连接到外网，获取ipv6地址
-    </p>
-    <p>
-      4，在光猫上，将B口连接的那一个网口设置为穿透模式，这样B口就能够自己拨号了。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      这种方式，内网设备访问家中软路由可以使用A口获取的内部地址，而外网访问软路由的时候，就可以使用B口获取的ipv6地址，因为这时候B口上的路由规则已经不是光猫管理的了，所以就无所谓了。
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="中介方案" ID="ID_1619905995" CREATED="1617860961243" MODIFIED="1617862797148">
-<icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      可以使用一个刷机后的android手机作为中介。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      使用一个刷机后的android手机，这个手机通过sim卡连接到运行商的外网，目前运营商的网络一般都下发了ipv6的地址了。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      目前并不确定的一点是：手机上获取的ip地址应该也只有一个ipv6的公网地址，而没有ipv4的公网地址。所以这个公网地址能起什么作用还存疑。
-    </p>
-    <p>
-      所以如果可能的话，使用软路由本身来获取公网ipv6地址，同时避开光猫的路由规则是最为方便的一种方法。
-    </p>
-    <p>
-      可以尝试一下。
-    </p>
-  </body>
-</html>
-
 </richcontent>
 </node>
 </node>
-</node>
-</node>
-<node TEXT="System Improvements" FOLDED="true" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
+<node TEXT="System Improvements" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="【NII】开发自动填报工时工具" ID="ID_811419261" CREATED="1537927628558" MODIFIED="1563177025780" LINK="QuickMap/auto_time_report.mm#ID_611689550">

@@ -7797,7 +7797,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="双网口操作" ID="ID_1805704395" CREATED="1617961592308" MODIFIED="1617961780678"><richcontent TYPE="NOTE">
@@ -7824,11 +7823,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="WOL" ID="ID_909951503" CREATED="1613715087704" MODIFIED="1613715103628"><richcontent TYPE="NOTE">
+<node TEXT="WOL" ID="ID_909951503" CREATED="1613715087704" MODIFIED="1618282000049">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7838,9 +7838,479 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     <p>
       Wake On LAN:
     </p>
+    <p>
+      
+    </p>
+    <p>
+      这个问题在Debian系统上暂时还没有得到解决。
+    </p>
+    <p>
+      操作上，在BIOS上以及在ethtool上都配置好了，但是依然是无法成功唤醒。不知道是系统的问题，还是网卡的问题。暂时先不管了。
+    </p>
   </body>
 </html>
+
 </richcontent>
+</node>
+<node TEXT="监控系统的温度" ID="ID_1398986476" CREATED="1618282019745" MODIFIED="1618282087093"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      软路由放在弱电箱里面，虽然有风扇，但是一直开着机运行，摸上去感觉还满热的。
+    </p>
+    <p>
+      希望有一个工具来监控系统的温度。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="直接查看" ID="ID_101579701" CREATED="1618282092411" MODIFIED="1618282356566"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      直接查看的话，可以从系统中使用下面的命令查到系统的温度：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      echo $[$(cat /sys/class/thermal/thermal_zone0/temp)/1000]°
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      实际查看了一下，系统中thermal_zone总共有三个，分别为zone0,zone1和zone2
+    </p>
+    <p>
+      可以得到系统中的不同设备上的温度传感器的数值。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="使用工具" ID="ID_1629605474" CREATED="1618282099436" MODIFIED="1618282758100"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在Debian上，可以安装下面的软件来监控各种sensor的数值，其中自然也包含了温度传感器的数值。
+    </p>
+    <p>
+      <b><font color="#0000c0">apt install lm-sensor</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      直接使用sensors命令就可以查看系统中各种设备的温度了。不过lm-sensor这个模块还支持各种其他的传感器，可以使用下面的命令来扫描一下系统中的传感器，
+    </p>
+    <p>
+      然后<b><font color="#0000c0">sensors</font></b>命令的输出可能会更加的丰富:
+    </p>
+    <p>
+      <b><font color="#0000c0">sensors-detect</font></b>这个命令是一个交互式的命令，执行了之后跟着它一路走就行了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      配置完成之后，直接键入sensors命令就可以查看系统中的温度传感器的数值了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="示例输出" ID="ID_376386540" CREATED="1618282761542" MODIFIED="1618282786921"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在我的系统中，使用<b><font color="#0000c0">sensors</font></b>命令之后，输出的log如下：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      root@server:/home/proudeng# sensors
+    </p>
+    <p>
+      acpitz-acpi-0
+    </p>
+    <p>
+      Adapter: ACPI interface
+    </p>
+    <p>
+      temp1:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+27.8°C&nbsp;&nbsp;(crit = +106.0°C)
+    </p>
+    <p>
+      temp2:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+29.8°C&nbsp;&nbsp;(crit = +106.0°C)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      coretemp-isa-0000
+    </p>
+    <p>
+      Adapter: ISA adapter
+    </p>
+    <p>
+      Package id 0:&nbsp;&nbsp;+50.0°C&nbsp;&nbsp;(high = +87.0°C, crit = +105.0°C)
+    </p>
+    <p>
+      Core 0:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+50.0°C&nbsp;&nbsp;(high = +87.0°C, crit = +105.0°C)
+    </p>
+    <p>
+      Core 1:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+50.0°C&nbsp;&nbsp;(high = +87.0°C, crit = +105.0°C)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="查看系统外设" ID="ID_391350847" CREATED="1618294879543" MODIFIED="1618295253365"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      查看系统外设时，系统中本来有一些命令就可以查看，或者有一些log就能够知道。不过，安装一些集成的命令，显示效果会更加的简便，操作也更加的方便
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="需要安装的工具" ID="ID_1484685300" CREATED="1618295256930" MODIFIED="1618295326305"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apt-get install procinf
+    </p>
+    <p>
+      apt-get install lsscsi
+    </p>
+    <p>
+      apt-get install hwinfo
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="命令" ID="ID_875142085" CREATED="1618295329715" MODIFIED="1618295337988">
+<node TEXT="mount" ID="ID_1257173745" CREATED="1618295377994" MODIFIED="1618295387523"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      issuing the command with no parameters causes it to list all of the mounted filesystems, as well as the devices they are located on. So we can use this as a means of discovering those devices
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lsblk" ID="ID_588545097" CREATED="1618295391097" MODIFIED="1618295428602"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The lsblk command lists the block devices
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="df" ID="ID_1815822297" CREATED="1618295430242" MODIFIED="1618295450715"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The df command reports on drive capacities and used and free space
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fdisk" ID="ID_499825928" CREATED="1618295453562" MODIFIED="1618295478646"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The fdisk command is a tool designed to manipulate the disk partition table, but it can be used to view information as well. We can use this to our advantage when we are investigating the devices in a computer.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="/proc目录" ID="ID_1876780105" CREATED="1618295481345" MODIFIED="1618295516150"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The pseudo-files in /proc can be viewed to obtain some system information. The file we will look at is /proc/mounts, which will give us some information regarding the mounted filesystems. We will use nothing grander than cat&nbsp;&nbsp;to view the file。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lspci" ID="ID_1239265481" CREATED="1618295528842" MODIFIED="1618295549041"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The lspci command lists all of the PCI devices in your computer.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lsusb" ID="ID_1363346081" CREATED="1618295550434" MODIFIED="1618295570372"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The lsusb command will list devices that are connected to USB ports on your computer as well as USB enabled devices that are built into your computer.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lsdev" ID="ID_846768000" CREATED="1618295582618" MODIFIED="1618295592373"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The lsdev command displays information on all of the installed devices.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lshw" ID="ID_1818878042" CREATED="1618295607931" MODIFIED="1618295618252"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The lshw command lists the devices connected to your computer. This is another command with a lot of output. On the test computer, there were over 260 lines of information generated. We’ll pipe it through less once more.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lsscsi" ID="ID_451821293" CREATED="1618295627322" MODIFIED="1618295636923"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      As you would imagine by now, the lsscsi command lists the SCSI devices connected to your computer.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="dmidecode" ID="ID_1177193289" CREATED="1618295648546" MODIFIED="1618295690662"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The dmidecode commands decodes the Desktop Management Interface (DMI) tables, and extracts information related to the hardware connected to the computer, and inside the computer.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The DMI is also sometimes referred to as the SMBIOS (the System Management Basic Input/Output System) although they are really two different standards.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="hwinfo" ID="ID_605847789" CREATED="1618295691891" MODIFIED="1618295701227"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The hwinfo command is the most verbose of them all. When we say that you need to pipe something through less, this time it isn’t optional. On the test computer, it generated 5850 lines of output!
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="CPU调度策略调整" ID="ID_1964994936" CREATED="1618294866543" MODIFIED="1618295965309"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在Linux系统中支持好几种CPU调度的策略。这些策略会决定比如在低负载下cpu的频率处在什么范围以及在负载增高的时候cpu的频率调整速度是多少。
+    </p>
+    <p>
+      目前看来有几种默认的策略，这些默认的调度策略被称为不同的Governor，主要的Governor有下面的几种：
+    </p>
+    <ul>
+      <li>
+        ondemand
+      </li>
+      <li>
+        interactive
+      </li>
+      <li>
+        conservative
+      </li>
+      <li>
+        smartass
+      </li>
+      <li>
+        performance
+      </li>
+      <li>
+        powersave
+      </li>
+      <li>
+        userspace
+      </li>
+      <li>
+        Hotplug
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="不同Governer的行为" ID="ID_1856969880" CREATED="1618295980093" MODIFIED="1618296061598"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">ondemand</font></b>：系统默认的超频模式，按需调节，内核提供的功能，不是很强大，但有效实现了动态频率调节，平时以低速方式运行，当系统负载提高时候自动提高频率。以这种模式运行不会因为降频造成性能降低，同时也能节约电能和降低温度。一般官方内核默认的方式都是ondemand。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000c0"><b>interactive</b></font>：交互模式，直接上最高频率，然后看CPU负荷慢慢降低，比较耗电。Interactive 是以 CPU 排程数量而调整频率，从而实现省电。InteractiveX 是以 CPU 负载来调整 CPU 频率，不会过度把频率调低。所以比 Interactive 反应好些，但是省电的效果一般。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">conservative</font></b>：保守模式，类似于ondemand，但调整相对较缓，想省电就用他吧。Google官方内核，kang内核默认模式。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">smartass</font></b>：聪明模式，是I和C模式的升级，该模式在比interactive 模式不差的响应的前提下会做到了更加省电。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">performance</font></b>：性能模式！只有最高频率，从来不考虑消耗的电量，性能没得说，但是耗电量。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">powersave</font></b>：省电模式，通常以最低频率运行。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">userspace</font></b>：用户自定义模式，系统将变频策略的决策权交给了用户态应用程序，并提供了相应的接口供用户态应用程序调节CPU 运行频率使用。也就是长期以来都在用的那个模式。可以通过手动编辑配置文件进行配置
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">Hotplug</font></b>：类似于ondemand, 但是cpu会在关屏下尝试关掉一个cpu，并且带有deep sleep，比较省电。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -8764,8 +9234,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9251,8 +9721,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html>
 </richcontent>
 <node TEXT="域名绑定" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -10199,7 +10669,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </richcontent>
 <node TEXT="VLAN信息以及破解之后的超级用户密码" ID="ID_1555415270" CREATED="1534597014774" MODIFIED="1534597165449" LINK="../OneNote/HS8145V_超级用户密码和VLAN.one"/>
 </node>
-<node TEXT="TP-Link的WR720N的OpenWRT配置" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1540729940407"><richcontent TYPE="NOTE">
+<node TEXT="TP-Link的WR720N的OpenWRT配置" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1618192798367"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -10207,7 +10677,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
   </head>
   <body>
     <p>
-      &#25105;&#30340;&#36825;&#20010;&#36335;&#30001;&#22120;&#30340;&#22823;&#33268;&#20449;&#24687;&#26159;:
+      我的这个路由器的大致信息是:
     </p>
     <p>
       TP-Link TL-WRN720N V3,
@@ -10703,8 +11173,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="挂载数据盘的fstab的配置信息" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -14576,7 +15046,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 </node>
 </node>
-<node TEXT="CubieBoard2双卡版配置" FOLDED="true" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
+<node TEXT="CubieBoard2双卡版配置" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
 <node TEXT="似乎是双卡的一个问题" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE">
 
 <html>

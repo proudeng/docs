@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -5813,12 +5813,12 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -17730,7 +17730,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Admission Control" ID="ID_865312261" CREATED="1617844381727" MODIFIED="1617844387782">
 <node TEXT="MSR概念" ID="ID_1581523291" CREATED="1617845344074" MODIFIED="1617933985639"><richcontent TYPE="NOTE">
@@ -17766,7 +17765,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="相关的feature" ID="ID_1897935200" CREATED="1617845350912" MODIFIED="1617845355581">
@@ -17956,7 +17954,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="相关feature" ID="ID_1621336958" CREATED="1617867737910" MODIFIED="1617867742922">
 <node TEXT="Inter-Frequency Load Balancing" ID="ID_272688513" CREATED="1617867744126" MODIFIED="1617867760792">
@@ -17998,7 +17995,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18029,7 +18025,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="UE throughput-aware IFLB" ID="ID_1563325608" CREATED="1617867784319" MODIFIED="1617938377066"><richcontent TYPE="NOTE">
@@ -18050,7 +18045,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP相关性" ID="ID_215937718" CREATED="1617938380816" MODIFIED="1617947323482">
 <icon BUILTIN="button_cancel"/>
@@ -18078,7 +18072,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18096,7 +18089,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP相关性" ID="ID_489627495" CREATED="1617947923990" MODIFIED="1617947930497"/>
 </node>
@@ -18118,7 +18110,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP相关性" ID="ID_167827507" CREATED="1617949149917" MODIFIED="1617951365072">
 <icon BUILTIN="edit"/>
@@ -18149,7 +18140,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18189,7 +18179,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="小区负载状态" ID="ID_769041348" CREATED="1617950939151" MODIFIED="1617950943546">
 <node TEXT="normal traffic load" ID="ID_984012787" CREATED="1617949995317" MODIFIED="1617950412304"><richcontent TYPE="NOTE">
@@ -18207,7 +18196,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="high traffic load" ID="ID_234760514" CREATED="1617950016220" MODIFIED="1617950593760"><richcontent TYPE="NOTE">
@@ -18228,7 +18216,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="very high traffic load" ID="ID_1803704808" CREATED="1617950023741" MODIFIED="1617950947722"><richcontent TYPE="NOTE">
@@ -18282,7 +18269,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18292,10 +18278,444 @@
 </node>
 </node>
 </node>
-<node TEXT="Carrier Aggregation" ID="ID_382339363" CREATED="1617847843788" MODIFIED="1617847849052"/>
-<node TEXT="Load-Based CA SCell Handling" ID="ID_1953723612" CREATED="1617847866189" MODIFIED="1617847885232"/>
-<node TEXT="MIMO" ID="ID_850885356" CREATED="1617847890540" MODIFIED="1617847891832"/>
-<node TEXT="Shared LTE RAN" ID="ID_111969432" CREATED="1617847894837" MODIFIED="1617847898246"/>
+<node TEXT="Carrier Aggregation" ID="ID_382339363" CREATED="1617847843788" MODIFIED="1617847849052">
+<node TEXT="相关feature" ID="ID_1418083511" CREATED="1618195140128" MODIFIED="1618195144531">
+<node TEXT="CA" ID="ID_45851079" CREATED="1618195145848" MODIFIED="1618195147463">
+<node TEXT="RRP关系" ID="ID_525562896" CREATED="1618201923029" MODIFIED="1618202068816"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在CA的场景下，如果要在PCell和SCell上支持RRP，由于MoM参数的关系(具体的限制为什么这样还没有仔细调查)，要求：
+    </p>
+    <p>
+      PCell和SCell的partition 配置的ID必须相同，而且，每个partition中的PLMN必须相同，但是PCell和SCell上的不同partition的share比例可以调节成不一样大小。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="UL CA" ID="ID_44044125" CREATED="1618195150025" MODIFIED="1618195152212">
+<node TEXT="RRP关系" ID="ID_1027543966" CREATED="1618203894416" MODIFIED="1618464194229"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UL CA和RRP一起使用的影响也跟下行CA一样，关键点在于什么要求SCell和PCell关于partition member的ID是一样的，然后不同的Cell的share可以配置成不一样的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Cross-DU CA" ID="ID_1453969175" CREATED="1618195155023" MODIFIED="1618205919226"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature允许通过IDL2连接起来的DU之间做载波聚合。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="RRP关系" ID="ID_1088914526" CREATED="1618205922071" MODIFIED="1618206042384">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature和RRP有冲突的关系。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Inter-eNB CA" ID="ID_1410895884" CREATED="1618195161952" MODIFIED="1618464601381"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature允许通过X2接口连接起来的不同eNB之间做载波聚合。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      两个eNB，一个作为MeNB，一个作为EeNB,分别调度。
+    </p>
+    <p>
+      EeNB上只有在自己负载不是很高的时候，才会允许去调度remote cell上的数据传输。
+    </p>
+    <p>
+      而一旦EeNB允许remote cell上的数据传输，EeNB就会将remote eNB上的数据的优先级排的比较高。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="控制逻辑" ID="ID_33752276" CREATED="1618465569027" MODIFIED="1618465679513"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在EeNB上，它会根据一系列的counter值的情况，决定是否允许remote cell上的数据传输，以及至少需要保留多少资源给本地cell来使用。
+    </p>
+    <p>
+      可以参考下面的这些counter值：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000c0"><b>interEnbCaThEeNbNotBusy</b></font>&nbsp;
+    </p>
+    <p>
+      Inter-eNB CA resource reservation: Threshold on ratio of average resource to maximum value of resource for an eScell at an external eNB (EeNb) to be declared not busy
+    </p>
+    <p>
+      <b><font color="#0000c0">interEnbCaBackoffFactor</font></b>
+    </p>
+    <p>
+      Inter-eNB CA resource reservation: capacity allocation backoff factor used at an eScell to scale down the number of PRBs used for non-local traffic at the eScell
+    </p>
+    <p>
+      <b><font color="#0000c0">interEnbCaCellPrbRes</font></b>
+    </p>
+    <p>
+      Inter-eNB CA resource reservation: this value represents a fixed number of PRB per cell that must be reserved for local traffic in each subframe
+    </p>
+    <p>
+      <b><font color="#0000c0">interEnbCaUtilityfactor</font></b>
+    </p>
+    <p>
+      Inter-eNB CA resource reservation: PRB factor for utility (Ufactor) such that PRBs used for non-local traffic less than Ufactor * total number of PRBs defined by channel bandwidth
+    </p>
+    <p>
+      <b><font color="#0000c0">interEnbCaHeadroomIncFactor</font></b>
+    </p>
+    <p>
+      Inter-eNB CA resource reservation: PRB headroom (used for local traffic) increase fudge factor
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="RRP关系" ID="ID_1078607538" CREATED="1618465197123" MODIFIED="1618471626419">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      主要的问题依然是EeNB不知道从MeNB过来的traffic的partition信息，<font color="#ff0000">而EeNB对于从MeNB过来的数据总是会给予很高的优先级，而不会考虑这些数据中的partition相关的信息</font>。
+    </p>
+    <p>
+      所以从EeNB的角度来说，它没有办法去保证MeNB过来的数据的调度依然是满足MeNB上的partition配置的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，在EeNB上考虑traffic load的时候，EeNB会根据这个测量值来决定是否允许传输MeNB上的数据，EeNB同样没有考虑partition相关的信息。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Elastic RAN" ID="ID_1209727994" CREATED="1618195170416" MODIFIED="1618472160042"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature支持使用<b><font color="#0000c0">IDLe</font></b>接口互相连接起来的DU之间做载波聚合。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="RRP关系" ID="ID_750979005" CREATED="1618472258904" MODIFIED="1618472608002">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature的分析结果是跟RRP冲突的。
+    </p>
+    <p>
+      主要的原因是在Pcell上调度的时候，并没有考虑到remote cell上面的partition信息以及remote cell上面的partition的utilization情况。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以local cell和remote cell之间的这个协作本身就是没有考虑到partition的存在。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Load-Based CA SCell Handling" ID="ID_1953723612" CREATED="1617847866189" MODIFIED="1618473023954"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature提供了一个机制，在cell处于拥塞的场景下，资源很紧张了，这时候会停止SCell的调度，保证local cell的用户的服务不被影响。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="RRP关系" ID="ID_1640041140" CREATED="1618473056311" MODIFIED="1618473852443">
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature被认为是和RRP相冲突的，不建议它们在一起使用。理由是：
+    </p>
+    <p>
+      在这个feature中，它会考量一些MSR的数值，如果资源使用量超过了门限值的话，就停止SCell的调度，保证RRC连接的UE的服务器质量。可以参考兄弟节点的内容查看MSR的内容。
+    </p>
+    <p>
+      但是，和很多其他的feature一样，同样这些MSR是小区级别的，而不是partition级别的，所以它同样会存在下面的问题，导致这个feature本身预期的行为得不到保证。
+    </p>
+    <p>
+      <font color="#ff0000">如果在小区中，某个partition的资源使用率已经很高，可是小区级别的资源使用率还没有达到门限值的时候，这时候block Scell traffic的行为并不会启动。 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      其实感觉上来看，这个行为也没什么问题。
+    </p>
+    <p>
+      如果block Scell traffic的行为是为了保证local cell上连接的UE的服务质量的话，而这种资源争抢的场景如果只会在SCell使用的资源超过了feature里面定义的那些MSR之后才会发生。
+    </p>
+    <p>
+      那么在发生了partition中的UE的资源使用量已经超过了门限值，但是整体SCell上的资源使用率并没有超过门限值的时候，这时候对于local Cell上的UE来说，确实没有影响，不去block SCell的traffic似乎也没有什么问题。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="MSR" ID="ID_1971447003" CREATED="1618473187825" MODIFIED="1618473210010"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>•UL/DL PRB utilization per cell </b>
+    </p>
+    <p>
+      <b>•UL/DL SE utilization per cell </b>
+    </p>
+    <p>
+      <b>•CCE utilization per cell</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="MIMO" ID="ID_850885356" CREATED="1617847890540" MODIFIED="1617847891832">
+<node TEXT="相关的feature" ID="ID_1189993093" CREATED="1618474122727" MODIFIED="1618534237859"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      分类两类，参考子节点内容
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Basic Massive MIMO" ID="ID_1204755847" CREATED="1618474128631" MODIFIED="1618536483774"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里的feature是指的<b><font color="#0000c0">SU-MIMO</font></b>，其中包含的feature有下面的这些<b><font color="#0000c0">： </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">Basic&nbsp;AAS&nbsp;for&nbsp;FDD</font>&nbsp;(FAJ 121 4875) </b>
+    </p>
+    <p>
+      <b><font color="#0000c0">Basic&nbsp;AAS&nbsp;for&nbsp;TDD</font>&nbsp;(FAJ 121 4882) </b>
+    </p>
+    <p>
+      <b><font color="#0000c0">TM9 with&nbsp;AAS&nbsp;FDD</font>&nbsp;(FAJ 121 4876) </b>
+    </p>
+    <p>
+      <b><font color="#0000c0">Spatial&nbsp;AAS&nbsp;Traffic Distribution Observability</font>&nbsp;(FAJ 121 4899)</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP关系" ID="ID_856107606" CREATED="1618536491823" MODIFIED="1618544437226">
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MIMO与RRP之间的冲突主要是担心在MIMO的场景下，小区资源使用量统计不正确。
+    </p>
+    <p>
+      但是这个可以确认一下，因为这边的分析似乎跟Ruichao的描述有出入，在ruichao的描述中，只有MU-MIMO的时候，PRB的资源使用量的统计才有问题。
+    </p>
+    <p>
+      比如在MU-MIMO中，如果在某一个TTI上，一个PRB被8个UE同时使用，那么统计使用的PRB的时候，eNB就会将这个TTI使用的PRB数记为8而不是1. 这个行为是很不好的统计行为，完全在统计方式上抹灭了MU-MIMO的gain。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">但是，Ruichao说，如果是SU-MIMO的时候，其实统计值应该是准确的。因为行为是这样的，在某个TTI上，如果一个UE使用了1个PRB来传输，而且是使用的两层传输，那么统计上的操作，eNB会除以2，也就是算这个UE在这个TTI上使用的PRB个数为0.5。这种统计方式实际上是能够体现MIMO的gain的。</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="MU-MIMO" ID="ID_1874428159" CREATED="1618474166711" MODIFIED="1618538279932"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里指的是MU-MIMO，涉及到的feature license有下面这些：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000c0">Multi-User&nbsp;MIMO&nbsp;Downlink Layers Extension (FAJ 121 4877) </font></b>
+    </p>
+    <p>
+      <b><font color="#0000c0">Multi-User&nbsp;MIMO&nbsp;Uplink Layers Extension (FAJ 121 4878) </font></b>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP关系" ID="ID_318283371" CREATED="1618543331717" MODIFIED="1618543715223">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里RRP和MU-MIMO之间的关系为什么是不能共存的呢？
+    </p>
+    <p>
+      听Ruichao的介绍来看，主要是 因为MU-MIMO在配对的时候，是考虑的UE之间的正交性，而不会考虑这些UE是否属于不同的partition。
+    </p>
+    <p>
+      这就导致了在MU-MIMO的时候，调度器没法保证能够满足partition配置的资源使用的要求。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Shared LTE RAN" ID="ID_111969432" CREATED="1617847894837" MODIFIED="1618546757023"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature提供了
+    </p>
+    <p>
+      RAN共享的功能
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="Category-M Access" ID="ID_247210997" CREATED="1617847901244" MODIFIED="1617847913646"/>
 <node TEXT="Category-M Dynamic Access Sharing with LTE" ID="ID_1328685153" CREATED="1617847919780" MODIFIED="1617847933774"/>
 <node TEXT="NB-IoT Access" ID="ID_52136536" CREATED="1617847934420" MODIFIED="1617847944167"/>
