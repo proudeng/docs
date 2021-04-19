@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -5813,12 +5813,12 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="52;0;" ENDINCLINATION="52;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -7154,8 +7154,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="269;0;" ENDINCLINATION="269;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="283;0;" ENDINCLINATION="282;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
@@ -18584,7 +18584,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Basic Massive MIMO" ID="ID_1204755847" CREATED="1618474128631" MODIFIED="1618536483774"><richcontent TYPE="NOTE">
 
@@ -18613,7 +18612,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP关系" ID="ID_856107606" CREATED="1618536491823" MODIFIED="1618544437226">
 <icon BUILTIN="button_cancel"/>
@@ -18642,7 +18640,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18670,7 +18667,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP关系" ID="ID_318283371" CREATED="1618543331717" MODIFIED="1618543715223">
 <icon BUILTIN="button_cancel"/>
@@ -18692,13 +18688,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Shared LTE RAN" ID="ID_111969432" CREATED="1617847894837" MODIFIED="1618546757023"><richcontent TYPE="NOTE">
+<node TEXT="Shared LTE RAN" ID="ID_111969432" CREATED="1617847894837" MODIFIED="1618814589949"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -18706,15 +18701,218 @@
   </head>
   <body>
     <p>
-      这个feature提供了
+      这个feature提供了RAN共享的功能，这里所指的LTE shared RAN的功能，指的是一些feature的合集，包括子节点中提到的GWCN和MOCN以及 Shared LTE RAN.
     </p>
     <p>
-      RAN共享的功能
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在PPT里面的描述是：不同的LTE shared RAN是在同一个node上面使用不同的frequency来承载不同运营商的数据。那么不同的cell的
+    </p>
+    <p>
+      <font color="#ff0000">这个就跟我的理解不太一样了，在我的理解中，所谓shared LTE RAN的功能，主要是指一个cell中中能同时服务多个不同运营商的UE，而这些不同运营商是通过PLMN来区别的。</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      从描述上来看，似乎是这样的，eNB会向所有的MME发起S1连接，打个比方，如果有两个运营商共享这个eNB，那么eNB就会建立两个S1接口的连接。
+    </p>
+    <p>
+      同时，小区广播时，SIB1里面就会携带两个运营商的PLMN ID。
+    </p>
+    <p>
+      在UE接入的时候，RRC连接建立的时候，UE选择了哪个PLMN ID，eNB就认为这个UE是属于哪个运营商的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      跟测试的同事确认的行为是：
+    </p>
+    <p>
+      配置PLMN是在node级别配置的，node级别配置的PLMN会在小区的SIB1中广播出去。
+    </p>
+    <p>
+      然后，每个cell自己还能配置额外的additional PLMN。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#008000">所以从cell的角度来说，每个cell最终的SIB1里面携带的PLMN的list是node级别配置的PLMN加上cell自己额外的PLMN list。</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
     </p>
   </body>
 </html>
 
 </richcontent>
+<node TEXT="不同的网络分享策略" ID="ID_616206133" CREATED="1618799027947" MODIFIED="1618800122789" LINK="../attachment/network_sharing.png"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实，参考这个链接中的附件图片，各种<font color="#008000"><b>Network Sharing </b></font>feature之间的功能或者拓扑结构上的区别就一目了然了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Site Sharing" ID="ID_1841174811" CREATED="1618799047603" MODIFIED="1618799055751"/>
+<node TEXT="Geographical Split Network" ID="ID_92447978" CREATED="1618799060611" MODIFIED="1618799070247"/>
+<node TEXT="Gateway Core Network" ID="ID_807144701" CREATED="1618799075251" MODIFIED="1618799191890"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#008000">GWCN</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Roaming Network" ID="ID_1703042282" CREATED="1618799089043" MODIFIED="1618799211167"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#008000"><b>GWCN</b></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Multi Operator core Network" ID="ID_904101243" CREATED="1618799098931" MODIFIED="1618799228066"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#008000">MOCN</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Shared LTE RAN" ID="ID_322750852" CREATED="1618799112459" MODIFIED="1618799294945"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#008000">seperate frequencies</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个东西不是就是我们在feature interaction相关的内容吗？
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="MOCN的改进" ID="ID_1289169738" CREATED="1618814729329" MODIFIED="1618814735754">
+<node TEXT="L19.Q2" ID="ID_1716905928" CREATED="1618814738055" MODIFIED="1618814870315"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      从L19.Q2开始，LTE shared RAN这个feature功能被增强了，它的行为是这样的：
+    </p>
+    <p>
+      如果小区属于<b><font color="#0000c0">不同</font></b>的tracking area，那么每个小区支持配置不一样的additional PLMN list.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="L19.Q3" ID="ID_1962086180" CREATED="1618814747113" MODIFIED="1618814992210"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在L19.Q3这个release中，LTE shared RAN这个feature被进一步增强了，行为表现为：
+    </p>
+    <p>
+      如果同一个eNB下的不同cell<b><font color="#0000c0">属于</font></b>同一个tracking area，那么也允许它们配置不一样的additional PLMN list。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="与RRP关系" ID="ID_438592227" CREATED="1618813422884" MODIFIED="1618815415722">
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      实际上，LTE shared RAN这些个feature是RRP实现的基础。
+    </p>
+    <p>
+      正是因为在LTE shared RAN里面支持配置多个不同的PLMN list。所以才有了RRP中依据PLMN来做resource partition的功能。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Category-M Access" ID="ID_247210997" CREATED="1617847901244" MODIFIED="1617847913646"/>
 <node TEXT="Category-M Dynamic Access Sharing with LTE" ID="ID_1328685153" CREATED="1617847919780" MODIFIED="1617847933774"/>
@@ -18958,7 +19156,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Admission Control" ID="ID_1997449471" CREATED="1616117906983" MODIFIED="1617341255254"><richcontent TYPE="NOTE">
+<node TEXT="/；" ID="ID_1997449471" CREATED="1616117906983" MODIFIED="1618817351675"><richcontent TYPE="NOTE">
 
 <html>
   <head>
