@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="IoT协议" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
 <edge COLOR="#ff0000"/>
 <node TEXT="应用层" ID="ID_555749467" CREATED="1608122495335" MODIFIED="1608122500615">
@@ -702,7 +702,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="基于传统蓝牙技术" ID="ID_293833552" CREATED="1611540001262" MODIFIED="1611542464859"><richcontent TYPE="NOTE">
 
@@ -739,7 +738,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="基于设备的定位" ID="ID_1926324649" CREATED="1611540914779" MODIFIED="1611542514486"><richcontent TYPE="NOTE">
 
@@ -756,7 +754,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="基于基站的定位" ID="ID_198666577" CREATED="1611540921231" MODIFIED="1611542541271"><richcontent TYPE="NOTE">
@@ -777,7 +774,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -802,8 +798,125 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="UWB通信技术" POSITION="left" ID="ID_1333187219" CREATED="1618972993599" MODIFIED="1618973894286">
+<edge COLOR="#ff00ff"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ultra wide bandwidth 通信技术用于室内定位方面现在还是比较的火爆的，有必要了解一下这个技术的背景知识以及是否有可能用于我们的系统。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      首先了解一下这个通信技术的一些技术背景：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1，
+    </p>
+    <p>
+      UWB技术是一种使用1GHz以上频率带宽的无线载波通信技术。 所以它是一个非常宽带的无线通信技术。
+    </p>
+    <p>
+      它和当今使用的主流的无线通信系统的主要区别在于，<b><font color="#0000c0">它不采用正弦载波调制</font></b>，而是利用<b><font color="#0000c0">纳秒级的非正弦波窄脉冲</font></b>传输数据，因此其所占的频谱范围很大(对于脉冲信号来说，脉冲信号持续的时间越短，那么它所占的频带也就越宽。)，尽管使用无线通信，但其数据传输速率可以达到几百兆比特每秒以上
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT="基本原理" ID="ID_1022992540" CREATED="1618988209139" MODIFIED="1618988416755"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UWB实质上是以占空比很低的冲击脉冲作为信息载体的无载波扩谱技术，它是通过对具有很陡上升和下降时间的冲击脉冲进行直接调制。UWB开发了一个具有吉赫兹容量和最高空间容量的新无线信道
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="发射端" ID="ID_62271080" CREATED="1618988243008" MODIFIED="1618988264057"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      基于CDMA的UWB脉冲无线收发信机在发送端时钟发生器产生一定重复周期的脉冲序列，用户要传输的信息和表示该用户地址的伪随机码分别或合成后对上述周期脉冲序列进行一定方式的调制，调制后的脉冲序列驱动脉冲产生电路，形成一定脉冲形状和规律的脉冲序列，然后放大到所需功率，再耦合到UWB天线发射出去。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="接收端" ID="ID_377401086" CREATED="1618988249752" MODIFIED="1618988267177"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在接收端，UWB天线接收的信号经低噪声放大器放大后，送到相关器的一个输入端，相关器的另一个输入端加入一个本地产生的与发端同步的经用户伪随机码调制的脉冲序列，接收端信号与本地同步的伪随机码调制的脉冲序列一起经过相关器中的相乘、积分和取样保持运算，产生一个对用户地址信息经过分离的信号，其中仅含用户传输信息以及其他干扰，然后对该信号进行解调运算
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="特点" ID="ID_455989040" CREATED="1618988271856" MODIFIED="1618988379890"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.系统结构的实现比较简单
+    </p>
+    <p>
+      2.高速的数据传输；
+    </p>
+    <p>
+      3.功耗低
+    </p>
+    <p>
+      4.安全性高
+    </p>
+    <p>
+      5.多径分辨能力强
+    </p>
+    <p>
+      6.定位精确
+    </p>
+    <p>
+      7.工程简单造价便宜。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="应用" ID="ID_1121257318" CREATED="1618988285208" MODIFIED="1618988287850">
+<node TEXT="短距离高速应用" ID="ID_1110135943" CREATED="1618988298296" MODIFIED="1618988306977"/>
+<node TEXT="中长距离低速应用" ID="ID_822729686" CREATED="1618988307730" MODIFIED="1618988324033"/>
+<node TEXT="UWB高精度室内定位" ID="ID_974726503" CREATED="1618973083042" MODIFIED="1618988347499"/>
 </node>
 </node>
 </node>

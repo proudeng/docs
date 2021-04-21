@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -17472,7 +17472,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="新增MoM配置" ID="ID_1400339409" CREATED="1615344846655" MODIFIED="1615357970199"><richcontent TYPE="NOTE">
+<node TEXT="新增MoM配置" ID="ID_1400339409" CREATED="1615344846655" MODIFIED="1618909840293"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17493,6 +17493,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="STATIC模式的实现" ID="ID_1167521205" CREATED="1615360580674" MODIFIED="1615368235971"><richcontent TYPE="NOTE">
@@ -18762,7 +18763,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="不同的网络分享策略" ID="ID_616206133" CREATED="1618799027947" MODIFIED="1618800122789" LINK="../attachment/network_sharing.png"><richcontent TYPE="NOTE">
 
@@ -18776,7 +18776,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Site Sharing" ID="ID_1841174811" CREATED="1618799047603" MODIFIED="1618799055751"/>
 <node TEXT="Geographical Split Network" ID="ID_92447978" CREATED="1618799060611" MODIFIED="1618799070247"/>
@@ -18792,7 +18791,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Roaming Network" ID="ID_1703042282" CREATED="1618799089043" MODIFIED="1618799211167"><richcontent TYPE="DETAILS">
@@ -18807,7 +18805,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Multi Operator core Network" ID="ID_904101243" CREATED="1618799098931" MODIFIED="1618799228066"><richcontent TYPE="DETAILS">
@@ -18822,7 +18819,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Shared LTE RAN" ID="ID_322750852" CREATED="1618799112459" MODIFIED="1618799294945"><richcontent TYPE="DETAILS">
@@ -18837,7 +18833,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -18851,7 +18846,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18871,7 +18865,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="L19.Q3" ID="ID_1962086180" CREATED="1618814747113" MODIFIED="1618814992210"><richcontent TYPE="NOTE">
@@ -18889,7 +18882,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -18910,20 +18902,368 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Category-M Access" ID="ID_247210997" CREATED="1617847901244" MODIFIED="1618885028573"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cat-M网络中资源的使用限制比较的多。按照PPT上的描述，主要有下面的几个特点：
+    </p>
+    <ul>
+      <li>
+        从下行的物理资源上来说，最多使用6个RB用于MPDCCH和MPDSCH的传输。
+      </li>
+      <li>
+        从上行的物理资源上来说，最多使用6个RB用于MPUSCH的传输。
+      </li>
+      <li>
+        从调度的角度上来说，每个TTI最多允许一个SE的调度。
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      同时，在网络中，小区里面允许的最多连接的UE的个数，LTE和Cat-M网络是共享的。也就是说cat-m的UE是算做LTE网络的门限值里面的。
+    </p>
+    <p>
+      这也是它比较特殊的一个方面，跟NB-IoT的情况是不一样的。感觉上来说，LTE的UE的调度和Cat-M的UE的调度是放在一起来做的。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="与RRP关系" ID="ID_432858099" CREATED="1618885154323" MODIFIED="1618887475622">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      需要注意的是，Cat-M的UE也是分partition的，不同的Cat-M的UE也会分属不同的partition。
+    </p>
+    <p>
+      Cat-M的主要问题是，Cat-M的UE是和LTE的UE一起调度的，资源使用也是一起使用的，可是，对于Cat-M的UE，它的问题在于，在RRP的统计资源使用率的时候是把Cat-M的部分给去掉的，并没有考虑Cat-M的UE占用的资源。
+    </p>
+    <p>
+      <b><font color="#ff0000">而带来的问题就是，Cat-M的partition资源的时候，使用的是纯LTE的counter，这个是一个不合理的地方。</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，还有一个跟RRP有冲突的地方在于：
+    </p>
+    <p>
+      在LTE网络里面使用CAT-M，实际上对CAT-M是有限制的。但是，这些限制并不是基于partition来的，而是完全是基于小区的。所以这些限制跟RRP搅合在一起的话，系统的行为就会变得不合理。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      根据分析，CAT-M和RRP之间的关系是冲突的。主要的原因就是RRP相关的资源使用率的计算时，并没有考虑到CAT-M的存在，完全参考的是LTE的UE的资源的使用率。
+    </p>
+    <p>
+      这会导致CAT-M的UE的资源使用不能得到合理的分配。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Category-M Dynamic Access Sharing with LTE" ID="ID_1328685153" CREATED="1617847919780" MODIFIED="1618888369120">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature是一个可选的feature。
+    </p>
+    <p>
+      在legacy的CAT-M和LTE共存的场合下，CAT-M的调度相对于LTE的UE享有绝对的优先级。
+    </p>
+    <p>
+      而在引入了这个feature之后，CAT-M和LTE的UE之间的调度优先级不再是那种绝对的。CAT-M和LTE的UE共存的时候，调度时采用的策略调度上，相对来说会比legacy的行为更加的合理一些。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="与RRP关系" ID="ID_139195909" CREATED="1618888594135" MODIFIED="1618888651211">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature与RRP的关系，推测起来，应该跟CAT-M Access这个feature和RRP的关系一样。
+    </p>
+    <p>
+      所以，其实也是互相冲突的关系。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="NB-IoT Access" ID="ID_52136536" CREATED="1617847934420" MODIFIED="1618888854898"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NB-IoT和Cat-M在和RRP的关系上，它们的表现是不一样的。
+    </p>
+    <p>
+      最显著的区别在于NB-IoT会创建一个自己的小区。而且这个这个小区和CAT-M的小区不一样，NB的小区是不感知partition信息的。也就是说，NB-IoT的小区是不知道partition相关的任何信息的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，它与RRP也有关系，因为
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="RRP关系" ID="ID_1159866690" CREATED="1618898866708" MODIFIED="1618900411683">
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      首先，RRP这个feature不支持NB-IoT网络，它只支持能LTE和CAT-M网络。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以实际上，NB-IoT网络和RRP这个feature之间的关系是不相关的，没有什么冲突的情况发生。
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
-<node TEXT="Category-M Access" ID="ID_247210997" CREATED="1617847901244" MODIFIED="1617847913646"/>
-<node TEXT="Category-M Dynamic Access Sharing with LTE" ID="ID_1328685153" CREATED="1617847919780" MODIFIED="1617847933774"/>
-<node TEXT="NB-IoT Access" ID="ID_52136536" CREATED="1617847934420" MODIFIED="1617847944167"/>
-<node TEXT="TTI Bundling" ID="ID_988732974" CREATED="1617847947196" MODIFIED="1617847953862"/>
-<node TEXT="Volte Frequency Hopping" ID="ID_1611069390" CREATED="1617847958325" MODIFIED="1617847963191"/>
-<node TEXT="Flexible Channel bandwidth" ID="ID_797645653" CREATED="1617847968932" MODIFIED="1617847977311"/>
+<node TEXT="TTI Bundling" ID="ID_988732974" CREATED="1617847947196" MODIFIED="1618900393286"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在爱立信的实现中，TTI bundling只使用在上行传输中，而且只使用在servicetype = voip的场合下，当UE的上行SINR值低于门限值的时候，上行volte的调度就会使用TTI bundling的模式来进行。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      具体的来说，操作上是给UE发送一个RRCReconfig消息，让UE做一个IntraCell Handover，同时切换到的小区还是本小区。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      需要注意的一点是，使用TTI bundling传输的时候，调度的PRB最多不超过<b><font color="#ff0000">3个PRB</font></b>，这个是一个限制条件。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP关系" ID="ID_1724627094" CREATED="1618900399389" MODIFIED="1618902647728">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      看起来好像TTI bundling和RRP之间并没有很强的联系。文档中提了一点可能相关的联系，就是TTI bundling这个功能有一个CR，是说在传输bundling的4个TTI的时候，把它们当作是retransmission来处理。
+    </p>
+    <p>
+      如果TTI bundling中一个bundle的传输被当作retransmission来传输的话，那么就会对资源使用率的统计产生影响，因为在统计资源的使用率的时候，重传是不计入partition的资源使用率当中的。
+    </p>
+    <p>
+      <font color="#ff0000">但是，这个行为还没有最终被确定，按照文档的描述，还需要测试来检查实际的操作到底是什么样。</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Volte Frequency Hopping" ID="ID_1611069390" CREATED="1617847958325" MODIFIED="1618903074346"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature是TTI bundling的一个增强，在legacy的TTI bundling中，4个TTI中，占用的PRB都是相同的。
+    </p>
+    <p>
+      为了进一步提高coverage，在TTI bundling的4个TTI之间也做跳频。
+    </p>
+    <p>
+      从操作的角度来说，TTI bundling中的4个TTI，第一个和第三个TTI使用的PRB是相同的，第二个和第四个TTI使用的PRB也是相同的。但是1，3和2，4中使用的PRB是关于中心频点对称的关系。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以这样的行为
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP关系" ID="ID_1345871322" CREATED="1618903006691" MODIFIED="1618903071515">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature和RRP的关系其实和legacy的TTI bundling一样，影响的点就在于bundle里面的传输是否是作为重传还是新传来处理的。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_797645653" CREATED="1617847968932" MODIFIED="1618904184336"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#999999">Flexible Channel bandwidth</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature已经在SP1中被测试过了，所以这里不再是SP3的scope范围了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="UE throughput-based mobility to Wi-Fi" ID="ID_1122954796" CREATED="1617847983676" MODIFIED="1617848002495"/>
 <node TEXT="Subscriber Triggered Mobility" ID="ID_1764364401" CREATED="1617848002788" MODIFIED="1617848388364"/>
 <node TEXT="Intra-LTE Handover" ID="ID_1136883817" CREATED="1617848015891" MODIFIED="1617848020750"/>
-<node TEXT="Cell Sleep Mode" ID="ID_1319688940" CREATED="1617848024388" MODIFIED="1617848027749"/>
+<node TEXT="Cell Sleep Mode" ID="ID_1319688940" CREATED="1617848024388" MODIFIED="1618907534676"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个省电的feature。它的工作方式是负责广覆盖的大cell和一些负责热点的小cell一起工作。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      capacity cell和coverage cell一起工作。它们互相知道系统的配置信息。
+    </p>
+    <p>
+      系统中将一个大cell配置为coverage cell，这个cell会负责在这个地区负载比较低的时候进行覆盖。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      每一个capacity cell随时监控自己的系统负载，主要是PRB的使用率以及连接的RRC数量。
+    </p>
+    <p>
+      在系统负载降低到门限值以下的时候，capacity cell就会自己进入睡眠状态。而不进行发射，从而节省能源消耗。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，coverage cell此时就负责整个地区的覆盖。coverage cell也在随时的监控自己的系统负载，如果自己的系统负载增加到超过了门限值之后，
+    </p>
+    <p>
+      coverage cell也会主动的将capacity cell给唤醒，防止KPI下降影响小区的性能。
+    </p>
+    <p>
+      同时，相邻小区也有可能会主动将已经睡眠的capacity小区给唤醒，可能是由于覆盖不好。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP关系" ID="ID_927807101" CREATED="1618907588793" MODIFIED="1618907806831"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature跟RRP扯上关系，主要的原因是门限值。
+    </p>
+    <p>
+      同样的，在CSM里面，门限值是小区级别的，并没有考虑每个partition中的情况。
+    </p>
+    <p>
+      这会导致在capacity小区整体负载比较低的时候，cell进入睡眠模式了，但是从某个partition的角度来看，它还没有达到进入睡眠的门限值。
+    </p>
+    <p>
+      同样的，在coverage小区整体负载上升的时候，会重新激活睡眠态的小区，但是从某个特定的partition的角度来看，可能它没有达到需要激活capacity小区的门限值。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="LTE Broadcast" ID="ID_317915044" CREATED="1617848033221" MODIFIED="1617848038151"/>
 <node TEXT="MCPTT" ID="ID_1679296067" CREATED="1617848038540" MODIFIED="1617848046349"/>
 <node TEXT="Access Barring" ID="ID_1397541659" CREATED="1617848046652" MODIFIED="1617848064894"/>
@@ -18937,7 +19277,47 @@
 <node TEXT="Dynamic PUCCH" ID="ID_514076193" CREATED="1617848187395" MODIFIED="1617848191086"/>
 <node TEXT="Prescheduling and ASGH-based prescheduling" ID="ID_151453077" CREATED="1617848191332" MODIFIED="1617848218502"/>
 <node TEXT="Low Energy Scheduler solution" ID="ID_839483084" CREATED="1617848230372" MODIFIED="1617848256168"/>
-<node TEXT="System Information Modification" ID="ID_266838584" CREATED="1617848256564" MODIFIED="1617848266664"/>
+<node TEXT="System Information Modification" ID="ID_266838584" CREATED="1617848256564" MODIFIED="1618904638748"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个基本的feature，这个feature的行为是，在不用lock/unlock的情况下，更新系统信息的内容。
+    </p>
+    <p>
+      同时这个feature还决定小区的系统信息应该如何被调度。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRP关系" ID="ID_1780562989" CREATED="1618905270345" MODIFIED="1618906020780">
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个feature和RRP之间的联系是，在系统消息更新的过程中会产生下行调度，而这些调度并没有被partition化。
+    </p>
+    <p>
+      也就是说，SIB和Paging的PDSCH的调度，这些都是算在在base partition中的。
+    </p>
+    <p>
+      而MIB因为就不是使用PDSCH调度的方式来传输的，所以它也不算在partition的范畴之内，而且它所占用的资源也不算在max_available_resource里面。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="Priority Paging" ID="ID_1272490772" CREATED="1617848272557" MODIFIED="1617848276495"/>
 <node TEXT="Uplink Coordinated Multi-point Reception" ID="ID_1282502358" CREATED="1617848276804" MODIFIED="1617848299214"/>
 </node>
