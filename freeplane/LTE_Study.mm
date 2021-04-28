@@ -10496,7 +10496,8 @@
 <node TEXT="RRM Alg" POSITION="right" ID="ID_1441399205" CREATED="1614738241804" MODIFIED="1614738506172">
 <edge COLOR="#ff0000"/>
 <node TEXT="Workshop" ID="ID_264121083" CREATED="1614748708324" MODIFIED="1614749082932">
-<node TEXT="【LTE-DL】RRM培训" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1614738284469">
+<node TEXT="【LTE-DL】RRM培训" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1619576809074">
+<icon BUILTIN="bookmark"/>
 <node TEXT="下行调度算法" FOLDED="true" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
 <node TEXT="QOS Framework" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
 <node TEXT="QCI" ID="ID_198970372" CREATED="1549868306011" MODIFIED="1573451774082"><richcontent TYPE="NOTE">
@@ -12359,7 +12360,7 @@
 </node>
 </node>
 </node>
-<node TEXT="【NB-IoT】Link Adaptation培训" ID="ID_892950817" CREATED="1578295249744" MODIFIED="1614738287074" LINK="../../../Users/edenjun/Desktop/LTE/NB-IoT%20Link%20Adaptation.pptx"><richcontent TYPE="NOTE">
+<node TEXT="【NB-IoT】Link Adaptation培训" FOLDED="true" ID="ID_892950817" CREATED="1578295249744" MODIFIED="1614738287074" LINK="../../../Users/edenjun/Desktop/LTE/NB-IoT%20Link%20Adaptation.pptx"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -13532,6 +13533,237 @@
 <node TEXT="Repetition" ID="ID_1605240114" CREATED="1578380536354" MODIFIED="1578380539188"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="【LTE-UL】 上行调度Overview" ID="ID_473284932" CREATED="1619576774011" MODIFIED="1619598178004" LINK="../../../Users/edenjun/Desktop/LTE/RRM算法/UL%20Scheduling%20Presentation%20Jan%202011.ppt">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个关于上行调度非常好的材料，内容不多，简单易懂。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="RRM概述" ID="ID_1914533374" CREATED="1619598768802" MODIFIED="1619598789562">
+<node TEXT="目标" ID="ID_463322993" CREATED="1619598790911" MODIFIED="1619598945354"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      RRM相关的功能，它的主要的目的是想要达到高效的使用eNB的资源的这个目的。主要关注的点有下面的几点：
+    </p>
+    <p>
+      网络容量
+    </p>
+    <p>
+      网络覆盖
+    </p>
+    <p>
+      用户满意度
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="资源是指哪些内容" ID="ID_1836503082" CREATED="1619598844767" MODIFIED="1619599023876"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      共享的数据信道
+    </p>
+    <p>
+      控制信道
+    </p>
+    <p>
+      功率
+    </p>
+    <p>
+      干扰
+    </p>
+    <p>
+      内存
+    </p>
+    <p>
+      处理能力
+    </p>
+    <p>
+      传输网络的能力
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="功能" ID="ID_1317620185" CREATED="1619599037945" MODIFIED="1619599040548">
+<node TEXT="调度" ID="ID_314150539" CREATED="1619599044393" MODIFIED="1619599554288"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Which user/service shall have access to the shared channels?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="链路自适应" ID="ID_88523969" CREATED="1619599046673" MODIFIED="1619599563954"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How well can a user utilize the radio interface?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="功率控制" ID="ID_1137816998" CREATED="1619599052873" MODIFIED="1619599573616"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What power shall be used for transmissions
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="控制信道分配" ID="ID_1720403967" CREATED="1619599058745" MODIFIED="1619599582407"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How shall control channels be allocated to a user
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="准入控制" ID="ID_1901547564" CREATED="1619599067288" MODIFIED="1619599584903"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can the system handle this user/service resource-wise
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="上行调度过程简介" ID="ID_1102937273" CREATED="1619600067002" MODIFIED="1619600220112"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      上行调度过程的简介。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Buffer Estimation" ID="ID_885930627" CREATED="1619600102346" MODIFIED="1619600552920"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UE在通过PUCCH发起SR之后，eNB会调度PUSCH给UE用于汇报BSR。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="SE Prioritization &amp; Validation" ID="ID_1621316677" CREATED="1619600110203" MODIFIED="1619601619711"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Validation会验证这个UE：
+    </p>
+    <ul>
+      <li>
+        不是处于DRX状态
+      </li>
+      <li>
+        buffer中是否有数据，是否有重传的数据
+      </li>
+      <li>
+        是否处于Measurement Gap阶段
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="LCG not LC" ID="ID_633759703" CREATED="1619601621249" MODIFIED="1619601679373"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      上行调度的单位是LCG，一个UE只有四个LCG，所以如果有多个LC的话，需要把它们分别映射到4个LCG中的某一个。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="PDCCH Allocation" ID="ID_1826752136" CREATED="1619601014615" MODIFIED="1619601019993"/>
+<node TEXT="Resource Allocation" ID="ID_1608845762" CREATED="1619600128465" MODIFIED="1619600135564"/>
+<node TEXT="Link Adaptation" ID="ID_66785676" CREATED="1619600139777" MODIFIED="1619600143907"/>
+<node TEXT="Power Control" ID="ID_1007118869" CREATED="1619600144522" MODIFIED="1619600149029"/>
 </node>
 </node>
 </node>
@@ -17493,7 +17725,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="STATIC模式的实现" ID="ID_1167521205" CREATED="1615360580674" MODIFIED="1615368235971"><richcontent TYPE="NOTE">
@@ -19065,7 +19296,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -19093,7 +19323,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP关系" ID="ID_1724627094" CREATED="1618900399389" MODIFIED="1618902647728">
 <icon BUILTIN="help"/>
@@ -19115,7 +19344,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -19143,7 +19371,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP关系" ID="ID_1345871322" CREATED="1618903006691" MODIFIED="1618903071515">
 <icon BUILTIN="help"/>
@@ -19159,7 +19386,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -19175,7 +19401,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -19189,7 +19414,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="UE throughput-based mobility to Wi-Fi" ID="ID_1122954796" CREATED="1617847983676" MODIFIED="1617848002495"/>
@@ -19237,7 +19461,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP关系" ID="ID_927807101" CREATED="1618907588793" MODIFIED="1618907806831"><richcontent TYPE="NOTE">
 
@@ -19260,7 +19483,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -19292,7 +19514,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRP关系" ID="ID_1780562989" CREATED="1618905270345" MODIFIED="1618906020780">
 <icon BUILTIN="button_ok"/>
@@ -19314,7 +19535,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
