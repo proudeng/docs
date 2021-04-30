@@ -5817,8 +5817,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -13536,7 +13536,7 @@
 </node>
 </node>
 </node>
-<node TEXT="【LTE-UL】 上行调度Overview" ID="ID_473284932" CREATED="1619576774011" MODIFIED="1619598178004" LINK="../../../Users/edenjun/Desktop/LTE/RRM算法/UL%20Scheduling%20Presentation%20Jan%202011.ppt">
+<node TEXT="【LTE-UL】 上行调度Overview" ID="ID_473284932" CREATED="1619576774011" MODIFIED="1619675262051" LINK="../../../Users/edenjun/Desktop/LTE/RRM算法/UL%20Scheduling%20Presentation%20Jan%202011.ppt">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 
@@ -13548,9 +13548,14 @@
     <p>
       这是一个关于上行调度非常好的材料，内容不多，简单易懂。
     </p>
+    <p>
+      
+    </p>
+    <p>
+      这是一个非常不错的关于上行调度入门的介绍材料。
+    </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="RRM概述" ID="ID_1914533374" CREATED="1619598768802" MODIFIED="1619598789562">
 <node TEXT="目标" ID="ID_463322993" CREATED="1619598790911" MODIFIED="1619598945354"><richcontent TYPE="NOTE">
@@ -13577,7 +13582,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="资源是指哪些内容" ID="ID_1836503082" CREATED="1619598844767" MODIFIED="1619599023876"><richcontent TYPE="NOTE">
 
@@ -13609,7 +13613,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -13626,7 +13629,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="链路自适应" ID="ID_88523969" CREATED="1619599046673" MODIFIED="1619599563954"><richcontent TYPE="NOTE">
@@ -13641,7 +13643,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="功率控制" ID="ID_1137816998" CREATED="1619599052873" MODIFIED="1619599573616"><richcontent TYPE="NOTE">
@@ -13656,7 +13657,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="控制信道分配" ID="ID_1720403967" CREATED="1619599058745" MODIFIED="1619599582407"><richcontent TYPE="NOTE">
@@ -13671,7 +13671,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="准入控制" ID="ID_1901547564" CREATED="1619599067288" MODIFIED="1619599584903"><richcontent TYPE="NOTE">
@@ -13686,7 +13685,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -13702,7 +13700,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Buffer Estimation" ID="ID_885930627" CREATED="1619600102346" MODIFIED="1619600552920"><richcontent TYPE="NOTE">
 
@@ -13716,10 +13713,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="SE Prioritization &amp; Validation" ID="ID_1621316677" CREATED="1619600110203" MODIFIED="1619601619711"><richcontent TYPE="NOTE">
+<node TEXT="SE Prioritization &amp; Validation" ID="ID_1621316677" CREATED="1619600110203" MODIFIED="1619683140463"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -13740,9 +13736,11 @@
         是否处于Measurement Gap阶段
       </li>
     </ul>
+    <p>
+      
+    </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="LCG not LC" ID="ID_633759703" CREATED="1619601621249" MODIFIED="1619601679373"><richcontent TYPE="NOTE">
 
@@ -13756,13 +13754,699 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="HARQ Reception" ID="ID_1861408189" CREATED="1619664908724" MODIFIED="1619664981840"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      处理HARQ接收以及HARQ重传相关的内容。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CRC校验失败" ID="ID_1872948246" CREATED="1619664983943" MODIFIED="1619664987825"/>
+<node TEXT="DTX" ID="ID_1020836797" CREATED="1619664988116" MODIFIED="1619665389943"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      所谓DTX，就是eNB认为PDCCH调度丢失了，没有被UE成功的解码。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="重传和RA/MSG3冲突" ID="ID_1945533983" CREATED="1619665397902" MODIFIED="1619665797428"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果重传的TTI跟MSG3或者RA的TTI正好冲突了，那么就没有办法了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="重传" ID="ID_122191697" CREATED="1619665800159" MODIFIED="1619683928870">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果发生了CRC校验错误，或者发生了DTX的情况，那么就需要让UE来重传了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      从上行调度的流程图来看，重传的调度是肯定高于新传的，这可能是因为已经发生的传输相对还没有发生的传输，肯定更加的重要，如果重传没有被正确的接收的话，后面的新传的数据其实也没有多大的意义了。
+    </p>
+    <p>
+      所以其实在SE prioritization阶段，因为重传的PQ的优先级很高，所以这些SE肯定能被选中(?)，从而在资源分配阶段，肯定会有对这些重传的SE的
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="自适应重传" ID="ID_88485313" CREATED="1619665803240" MODIFIED="1619680448444"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      自适应重传对应的下面SE的PUSCH情况：
+    </p>
+    <p>
+      1，首先这个SE获得了PDCCH资源
+    </p>
+    <p>
+      2，这个重传PUSCH的PRB的位置跟RA的位置或者提前调度的MSG3的位置发生了冲突。
+    </p>
+    <p>
+      3，除了资源位置发生了冲突，也有可能是因为发生了DTX，这时候只能通过PDCCH来重新调度先前的PUSCH
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么，这种情况下使用自适应重传，调度重传的PUSCH，避开这些冲突的位置，寻找新的PRB的位置。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="非自适应重传" ID="ID_1638775158" CREATED="1619665809373" MODIFIED="1619680193908"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这部分重传指的是那些SE的PUSCH重传：
+    </p>
+    <p>
+      1，发生重传的这个PUSCH，它的位置没有跟RA和MSG3调度的资源重合。
+    </p>
+    <p>
+      2，这些SE在调度的时候没有获得PDCCH资源！
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以使用非自适应重传，这种方式并不需要消耗PDCCH的资源。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Postpond 重传" ID="ID_235629572" CREATED="1619665817151" MODIFIED="1619748590470">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_699707419" STARTINCLINATION="186;0;" ENDINCLINATION="186;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      如果上面的两种情况都不满足，也就是发生了下面的情况：
+    </p>
+    <p>
+      1，首先没有能够获取到PDCCH资源，所以不能够做自适应重传
+    </p>
+    <p>
+      2，另外，重传的这个PUSCH所占的频带资源还跟RA或者提前调度的MSG3的资源分配冲突了，所以不能做非自适应重传。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么，没有其他的办法，只能将这个PUSCH的重传给往后postpond了。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="PQ Weight 计算" ID="ID_530634099" CREATED="1619677425333" MODIFIED="1619677435456">
+<node TEXT="Round Robin" ID="ID_940129116" CREATED="1619677438719" MODIFIED="1619678837867"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在最初的版本的软件中，计算PQ的weight，只是使用Round Robin的方式来进行，具体的来说：
+    </p>
+    <ul>
+      <li>
+        对于LCG0来说，使用的是strict priority的方式，这个LCG的优先级绝对高于其他三个LCG
+      </li>
+      <li>
+        对于LCG1/2/3来说，使用的是Round-Robin的方式，也就是说，最长时间没有被调度的LCG的priority最高，最近被调度过的LCG的priority最低。
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Proportional fair" ID="ID_1490451823" CREATED="1619677442974" MODIFIED="1619679437896"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在后来更新的软件中，引入了proportional fair的weight计算方法。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="PDCCH Allocation" ID="ID_1826752136" CREATED="1619601014615" MODIFIED="1619684276404">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里实际上是根据前面的prioritization阶段PK weight得到的获准进入调度的SE的列表。
+    </p>
+    <p>
+      分配完了PDCCH之后，后续的PDSCH的分配就只针对这些获取到了PDCCH资源的SE中进行：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS：
+    </p>
+    <p>
+      <font color="#ff0000">有一点需要确认的是，eNB是如何调度出非自适应重传的呢？ </font>
+    </p>
+    <p>
+      <font color="#ff0000">猜测来看，首先eNB发现了有PUSCH需要重传，那么在进行SE prioritization的时候，如果这个重传的优先级比较高，被调度器选中了这个重传进入调度。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">那么，在PDCCH分配的阶段，eNB就会检查这个PUSCH所占用的PRB资源是否和RA以及提前两个TTI分配好的MSG3的资源冲突了。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">如果没有发生冲突，那么好，这时候就可以对这个PUSCH进行非自适应重传，调度它，同时不需要给它分配PDCCH的资源。 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">然后，接着在资源分配的阶段，首先将非自适应重传的部分的PRB给占掉，然后剩下来的那部分空闲资源，再接着给自适应重传的PUSCH和新传的PUSCH分配。 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">实际的操作是这样的吗？需要确认一下。 </font>
+    </p>
+    <p>
+      <font color="#ff0000">&nbsp;<b>感觉上需要确认的就是，是不是有可能，ReTX的SE会获取不到PDCCH的资源？如果是的话，为什么？ </b></font>
+    </p>
+    <p>
+      从RRM文档中看到的描述，发现这个是可能的，也就是说，重传的PUSCH，在PDCCH分配的时候，也有可能获取不到PDCCH资源。
+    </p>
+    <p>
+      如果是这样的话，那么在调度PUSCH的阶段，
+    </p>
+    <p>
+      如果发现这个PUSCH跟当前的RA和MSG3的调度不冲突，那么就可以使用非自使用重传。
+    </p>
+    <p>
+      如果发现这个PUSCH跟当前的RA或者MSG3的调度发生了冲突，那么没有办法了，只能postpond了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，如果在PDCCH分配阶段，
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Resource Allocation" ID="ID_1608845762" CREATED="1619600128465" MODIFIED="1619600135564">
+<node TEXT="频谱使用考虑" ID="ID_936148431" CREATED="1619666198049" MODIFIED="1619666308899"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      就是让频谱能够被尽可能的被使用，这是调度器相关的功能。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Scheduling" ID="ID_1290723070" CREATED="1619666341809" MODIFIED="1619666354900"/>
+</node>
+<node TEXT="频谱效率考虑" ID="ID_1740836198" CREATED="1619666203336" MODIFIED="1619666283833"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      频谱使用效率方面的考量是尽量使得在同样的频谱上能够传输更多的数据。这是链路自适应相关的内容
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="LA &amp; Power Control" ID="ID_1147900554" CREATED="1619666357769" MODIFIED="1619666366532"/>
+</node>
+<node TEXT="资源分配顺序" ID="ID_813377895" CREATED="1619666377968" MODIFIED="1619748120709">
+<icon BUILTIN="bookmark"/>
+<node TEXT="MSG3" ID="ID_183215369" CREATED="1619666386393" MODIFIED="1619684305803">
+<icon BUILTIN="full-1"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MSG3之所以优先级高，是因为它是提前调度的，它比PUSCH的调度要提前了两个TTI。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="非自适应重传" ID="ID_1052837408" CREATED="1619666392616" MODIFIED="1619749216467">
+<icon BUILTIN="full-2"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1614521739" STARTINCLINATION="107;0;" ENDINCLINATION="107;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      非自适应重传的优先级高也是因为，它占用的资源是固定的，并不能灵活分配。
+    </p>
+    <p>
+      所以一旦决定了一个PUSCH是使用非自适应的方式重传，那么它的资源就是固定的了，相当于说它的优先级也很高。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么，就是因为这个非自适应重传是不讲规矩的，它占的地方有可能是在带宽中的任何地方。
+    </p>
+    <p>
+      所以非自适应重传的调度之后，系统中剩下来的带宽就有可能已经被划分成了不连续的几个块了，这些个块就叫做<b><font color="#0000c0">fragments</font></b>。
+    </p>
+    <p>
+      因为上行的调度要求占用的资源必须是连续的，所以后续的调度都只能在某个fragment中调度了，不能跨<b><font color="#0000c0">fragment</font></b>分配资源。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="自适应重传" ID="ID_699707419" CREATED="1619666399921" MODIFIED="1619684401634">
+<icon BUILTIN="full-3"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      自适应重传也是放在新传之前调度的。在调度新传的SE之前已经提前调度了自适应的重传。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="资源分配策略" ID="ID_1322404625" CREATED="1619748143878" MODIFIED="1619748554710">
+<icon BUILTIN="edit"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在PPT里面描述的给自适应重传的SE分资源的时候，行为是这样的(但是同样的，他也说了下面的行为是目前是这样，后续不知道有没有新的feature去做增强)：
+    </p>
+    <p>
+      如果一个SE获取到了PDCCH的资源，那么它的发生重传的的PUSCH就使用自适应重传的方式来进行。
+    </p>
+    <p>
+      但是，因为<font color="#0000c0">非自适应重传</font>的存在，它们已经提前占据了频带中的一些资源，把上行的频带划分成了不同的<font color="#0000c0"><b>fragments</b></font>。
+    </p>
+    <p>
+      自适应重传的资源分配只能分配在某个fragment中，目前的行为是，eNB寻找资源最多也就是最大的一个fragment：
+    </p>
+    <ul>
+      <li>
+        如果自适应重传需要的SB小于这个fragment，那么就在这个fragment的边缘分配资源给这个自适应重传的PUSCH。
+      </li>
+      <li>
+        如果自使用重传需要的SB甚至都大于这个fragment，那么这次的自适应重传调度失败，这个重传就会被归类为postponded 重传，等待下一个TTI来继续尝试。
+      </li>
+    </ul>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
-<node TEXT="PDCCH Allocation" ID="ID_1826752136" CREATED="1619601014615" MODIFIED="1619601019993"/>
-<node TEXT="Resource Allocation" ID="ID_1608845762" CREATED="1619600128465" MODIFIED="1619600135564"/>
-<node TEXT="Link Adaptation" ID="ID_66785676" CREATED="1619600139777" MODIFIED="1619600143907"/>
+<node TEXT="新传" ID="ID_753064188" CREATED="1619666405986" MODIFIED="1619748692741">
+<icon BUILTIN="full-4"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1614521739" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在重传的操作都完成了之后，eNB这时候就可以来集中处理新传的SE了。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Pre Link Adaptation" ID="ID_370442703" CREATED="1619749424606" MODIFIED="1619749442169"/>
+</node>
+<node TEXT="Assign Spectrum to UE" ID="ID_66785676" CREATED="1619600139777" MODIFIED="1619750517439"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Link Adaptation
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      上行资源分配的策略跟下行的不太一样。下行是按需分配。上行奉行的风格是<b><font color="#0000c0">equal islands</font></b>的原则。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="fragments &amp; islands" ID="ID_1614521739" CREATED="1619673251480" MODIFIED="1619749763992">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      由于非自适应重传的存在，它们占据的资源可能会将上行带宽划分成好几个不连续的块。这些不连续的块就叫做<b><font color="#0000c0">fragments</font></b>。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      然后，在分配上行PRB的时候，调度器使用的策略又是尽量将资源平均分配给各个UE。所以就会出现island的概念。
+    </p>
+    <p>
+      在分配完了RAR MSG3，以及非自适应重传以及自适应重传之后，剩下的上行的PRB会被尽量均匀的分配给调度的这些个UE。
+    </p>
+    <p>
+      每个UE分配的资源块就叫做<b><font color="#0000c0">island</font></b>。在调度器上，是尽量平均的来将各个island分成大小一样的。所以在上行调度器中经常会出现equal islands的概念，说的就是这个。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Pre Link Adaptation" ID="ID_1910707944" CREATED="1619749399645" MODIFIED="1619750541599"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在给新传的UE分配资源之前，eNB需要做一个pre link adaptation的操作。这个操作是做了下面的这个事情：
+    </p>
+    <p>
+      针对所有已经获取了PDCCH资源的这些SE，分别计算一下，清空这些个SE的buffer，需要的PRB资源分别是多少，还有相应的数据量和MCS也给计算出来。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个计算之后，得到了一个表，这个表中就能清晰的反映出，每个UE<b><font color="#ff0000">渴望</font></b>能够被分配多少PRB资源(很显然，所有的UE肯定是渴望自己的buffer所有的数据都被一次性的调度完成)。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，实际的物理资源PRB是受限的，不可能这么任性的让所有的UE的buffer都一次性清空。所以这里的操作只能叫做Pre Link Adaptation，这里只是搜集UE的诉求。
+    </p>
+    <p>
+      真正的LA还在后面，根据UE的诉求以及实际的情况来做妥协。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">搜集需求阶段</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Link Adaptation" ID="ID_1988524095" CREATED="1619750001158" MODIFIED="1619752007722"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      前面pre-LA已经搜集到了每个SE的需求，然后LA阶段就是进行实际的资源分配了。
+    </p>
+    <p>
+      按照之前说的，上行资源分配实施的是<font color="#0000c0"><b>equal islands</b></font>原则，也就是说尽量将总资源平均分给给每个SE。
+    </p>
+    <p>
+      具体的实施起来，基本的流程参考子节点的描述。
+    </p>
+    <p>
+      1，
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      4，
+    </p>
+    <p>
+      5，然后跳到第三步，根据调度完的结果，重新计算一下剩下来的总资源是多少，再重新计算island的大小。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">实际分配</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="计算剩余的PRB资源总量" ID="ID_1341240202" CREATED="1619751109568" MODIFIED="1619751972128"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      首先去除掉PDCCH，RA，MSG3，非自适应重传，自适应重传占用的资源，计算剩下来的资源(fragments有多少，每个fragment有多大)。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      如果已经有新传的SE被调度过了，计算可用的资源时，这部分的资源也需要给减掉。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="计算island大小" ID="ID_1567209684" CREATED="1619751130512" MODIFIED="1619751994802"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      然后计算有几个SE获取到了PDCCH的资源，这些SE才有资格来瓜分剩下来的PUSCH频带资源。
+    </p>
+    <p>
+      根据被调度的SE的个数N，还有PRB资源的总数，平均分出N个大小差不多的islands(当然实际的情况会复杂一点，因为资源是在多个fragment中划分的，不一定能做到每个island大小一样。)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Step1-需求最小的那个SE需求的资源小于island大小" ID="ID_1259604344" CREATED="1619751158280" MODIFIED="1619752683929">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1341240202" MIDDLE_LABEL="迭代" STARTINCLINATION="160;0;" ENDINCLINATION="160;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      找出需求PRB最少的那个SE，跟island的大小比较，如果这个SE要求的PRB，比如说大小是<font color="#ff0000"><b>m</b></font>，还比island的大小<b><font color="#ff0000">M</font></b>还小。那么最好了，不需要给它分配<b><font color="#ff0000">M</font></b>大小的PRB，直接就满足这个SE的要求，给它<b><font color="#ff0000">m</font></b>个PRB。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也就是说，equal island的概念是，确保每一个SE分配的PRB的大小尽量不超过平均值(PRB总量/SE个数)，但是，如果有SE需求的PRB的数量本身就小于平均值，那么实际上不需要给这些SE分配island大小的PRB。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个操作完成了之后，相当于这个SE的调度完成了，这时候返回开头，更新剩余的总PRB资源，以及更新island大小。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Step2-所有SE需求的资源都比island大了" ID="ID_912348151" CREATED="1619751195049" MODIFIED="1619752696234"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      经过了上面的step1的反复迭代后，等到发现所有的SE需求的PRB资源都比island的大小要大了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      也就是说，这时候，所有剩下的SE，需要的资源都大于平均值(island)了，那么这时候，就使用equal island的概念将资源近似平均的分配给所有的SE。
+    </p>
+    <p>
+      实际操作起来，就是将剩下的SE按照优先级由高到低一次排列，然后把island也按大小依次排列(虽然是平均，但是毕竟有fragment，island的大小也不是完全一样)。
+    </p>
+    <p>
+      然后依次给SE分配资源。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="完成分配" ID="ID_1931056410" CREATED="1619752686689" MODIFIED="1619752735388"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Step2完成之后，实际上LA的工作也就完成了，每一个获取到了PDCCH资源的SE都被分配了PUSCH资源。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 <node TEXT="Power Control" ID="ID_1007118869" CREATED="1619600144522" MODIFIED="1619600149029"/>
 </node>
 </node>
@@ -17933,7 +18617,7 @@
 <node TEXT="NDS" ID="ID_1023909571" CREATED="1617765560217" MODIFIED="1617768591648" LINK="../../../Users/edenjun/Desktop/LTE/Feature/RRP/NDS_MR6245-SP3_Feature_Interaction_with_RRP.pdf"/>
 <node TEXT="SA" ID="ID_373328591" CREATED="1617765562941" MODIFIED="1617768628927" LINK="../../../Users/edenjun/Desktop/LTE/Feature/RRP/SA%20for%20MR6245%20SP3%20-%20Securing%20GBR%20and%20Radio%20Resource%20Partitioning%20-%20Feature%20interaction%20(1).pptx"/>
 </node>
-<node TEXT="Feature Interaction" ID="ID_601234404" CREATED="1617844371428" MODIFIED="1617948982272">
+<node TEXT="Feature Interaction" FOLDED="true" ID="ID_601234404" CREATED="1617844371428" MODIFIED="1617948982272">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE">
 

@@ -1977,6 +1977,16 @@
 <attribute NAME="When" VALUE="this week"/>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:24+0800|yyyy-MM-dd"/>
 </node>
+<node TEXT="FDD AAS的基础知识学完" ID="ID_421973552" CREATED="1615255846082" MODIFIED="1618195985740">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:53+0800|yyyy-MM-dd"/>
+</node>
+<node TEXT="AAS的PPT完成" ID="ID_932175624" CREATED="1615255671037" MODIFIED="1618195986155">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="button_ok"/>
+<attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:53+0800|yyyy-MM-dd"/>
+</node>
 </node>
 <node TEXT="Vocation Plan" FOLDED="true" ID="ID_271718975" CREATED="1533526028553" MODIFIED="1533526044845">
 <icon BUILTIN="list"/>
@@ -3195,7 +3205,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="探讨Anki作为商业公司给新人培训的工具" ID="ID_1576647378" CREATED="1553518307434" MODIFIED="1553518331627">
@@ -3325,7 +3334,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Assigned Input" FOLDED="true" ID="ID_1239004083" CREATED="1522138603142" MODIFIED="1572314203974">
@@ -4294,16 +4302,6 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="FDD AAS的基础知识学完" ID="ID_421973552" CREATED="1615255846082" MODIFIED="1618195985740">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:53+0800|yyyy-MM-dd"/>
-</node>
-<node TEXT="AAS的PPT完成" ID="ID_932175624" CREATED="1615255671037" MODIFIED="1618195986155">
-<icon BUILTIN="yes"/>
-<icon BUILTIN="button_ok"/>
-<attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:53+0800|yyyy-MM-dd"/>
-</node>
 </node>
 </node>
 <node TEXT="BLD项目" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
@@ -4416,6 +4414,12 @@
 </node>
 </node>
 <node TEXT="完成RRM文档中RRP相关功能的了解" ID="ID_272046590" CREATED="1615338656885" MODIFIED="1615338673714">
+<icon BUILTIN="yes"/>
+</node>
+<node TEXT="MR9180的OA报告研究" ID="ID_22916428" CREATED="1619747758594" MODIFIED="1619747774352">
+<icon BUILTIN="yes"/>
+</node>
+<node TEXT="4 times的描述的研究" ID="ID_1565767103" CREATED="1619747781122" MODIFIED="1619747795031">
 <icon BUILTIN="yes"/>
 </node>
 </node>
