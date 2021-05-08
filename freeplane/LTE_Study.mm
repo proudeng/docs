@@ -203,8 +203,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.297872293799536 pt" VSHIFT_QUANTITY="19.914893212929318 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="119;0;" ENDINCLINATION="119;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -5817,8 +5817,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="95;0;" ENDINCLINATION="95;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -14108,7 +14108,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="自适应重传" ID="ID_699707419" CREATED="1619666399921" MODIFIED="1619684401634">
@@ -14157,7 +14156,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -14176,7 +14174,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -14194,7 +14191,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -14208,7 +14204,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="fragments &amp; islands" ID="ID_1614521739" CREATED="1619673251480" MODIFIED="1619749763992">
 <icon BUILTIN="bookmark"/>
@@ -14236,7 +14231,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Pre Link Adaptation" ID="ID_1910707944" CREATED="1619749399645" MODIFIED="1619750541599"><richcontent TYPE="NOTE">
@@ -14269,7 +14263,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -14283,7 +14276,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Link Adaptation" ID="ID_1988524095" CREATED="1619750001158" MODIFIED="1619752007722"><richcontent TYPE="NOTE">
@@ -14316,7 +14308,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -14330,7 +14321,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="计算剩余的PRB资源总量" ID="ID_1341240202" CREATED="1619751109568" MODIFIED="1619751972128"><richcontent TYPE="NOTE">
 
@@ -14350,7 +14340,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="计算island大小" ID="ID_1567209684" CREATED="1619751130512" MODIFIED="1619751994802"><richcontent TYPE="NOTE">
@@ -14368,7 +14357,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Step1-需求最小的那个SE需求的资源小于island大小" ID="ID_1259604344" CREATED="1619751158280" MODIFIED="1619752683929">
@@ -14397,7 +14385,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Step2-所有SE需求的资源都比island大了" ID="ID_912348151" CREATED="1619751195049" MODIFIED="1619752696234"><richcontent TYPE="NOTE">
@@ -14427,7 +14414,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="完成分配" ID="ID_1931056410" CREATED="1619752686689" MODIFIED="1619752735388"><richcontent TYPE="NOTE">
@@ -14442,7 +14428,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -17878,7 +17863,7 @@
 </node>
 <node TEXT="【MR6245】" ID="ID_500212451" CREATED="1614753714491" MODIFIED="1614753722586">
 <node TEXT="依赖的Feature" ID="ID_1427156241" CREATED="1614753734479" MODIFIED="1614759545354">
-<node TEXT="【MR792】RRP" ID="ID_1352211281" CREATED="1614753741600" MODIFIED="1616120402982"><richcontent TYPE="NOTE">
+<node TEXT="【MR792】RRP" ID="ID_1352211281" CREATED="1614753741600" MODIFIED="1620374284988"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17904,6 +17889,7 @@
     </ol>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="适用的场景" ID="ID_991608326" CREATED="1614763890906" MODIFIED="1614763897988">
 <node TEXT="Shared LTE RAN(MOCN)" ID="ID_785249503" CREATED="1614759502430" MODIFIED="1614763929620"/>
@@ -17968,7 +17954,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="MOM配置" ID="ID_828251957" CREATED="1614764723611" MODIFIED="1615171201761" LINK="onenote:https://ericsson-my.sharepoint.com/personal/jun_a_deng_ericsson_com/Documents/OneNote/Personal/Ericsson.one#LTE%2520Carrier%2520Aggregation&amp;section-id=%7B01D1C75B-0B95-46D0-9162-0F4140EA1A24%7D&amp;page-id=%7BA4A04E1F-CACF-4B16-BE0A-7A3BE5A6CA28%7D&amp;end"><richcontent TYPE="NOTE">
+<node TEXT="MOM配置" ID="ID_828251957" CREATED="1614764723611" MODIFIED="1620376512870" LINK="onenote:https://ericsson-my.sharepoint.com/personal/jun_a_deng_ericsson_com/Documents/OneNote/Personal/Ericsson.one#LTE%2520Carrier%2520Aggregation&amp;section-id=%7B01D1C75B-0B95-46D0-9162-0F4140EA1A24%7D&amp;page-id=%7BA4A04E1F-CACF-4B16-BE0A-7A3BE5A6CA28%7D&amp;end"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -17986,11 +17972,12 @@
         一个eNodeB中，也会定义最多24个resource group，每个resource group中会包含若干个resource partition，同时每个resource partition上关联一个share参数，表示资源的配比。
       </li>
       <li>
-        每一个cell中，会关联一个resource group id，每个resource group id 就对应于eNodeB下的一个resource group，每个group中会包含若干个resource partition，最多不超过6个。这个group中定义的resource partition就定义了这个cell的资源分配的配置
+        每一个cell中，会关联一个resource group id，每个resource group id 就对应于eNodeB下的一个resource group，每个group中会包含若干个resource partition，最多不超过6个。这个group中定义的resource partition就定义了这个cell的资源分配的配置。
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="GBR的资源的分配是如何体现的？" ID="ID_595416392" CREATED="1614822656701" MODIFIED="1615169193110">
 <icon BUILTIN="help"/>
