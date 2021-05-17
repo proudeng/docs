@@ -1,4 +1,4 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="IoT_Network" FOLDED="false" ID="ID_437009040" CREATED="1608122447965" MODIFIED="1608122458369" STYLE="oval">
 <font SIZE="18"/>
@@ -6,10 +6,11 @@
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1998629170" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1998629170" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -77,8 +79,7 @@
 </node>
 <node TEXT="物理/数据链路层" ID="ID_371683824" CREATED="1608122506661" MODIFIED="1608122513160">
 <node TEXT="近距离通信" ID="ID_1254654519" CREATED="1608122557486" MODIFIED="1608122579687">
-<node TEXT="蓝牙" ID="ID_622983311" CREATED="1608122596310" MODIFIED="1608128897513"><richcontent TYPE="NOTE">
-
+<node TEXT="蓝牙" ID="ID_622983311" CREATED="1608122596310" MODIFIED="1621232903877"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -139,8 +140,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Zigbee" ID="ID_1634652426" CREATED="1608122623085" MODIFIED="1608128918554"><richcontent TYPE="NOTE">
-
+<node TEXT="Zigbee" ID="ID_1634652426" CREATED="1608122623085" MODIFIED="1621232787191"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -222,10 +222,10 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="UWB" ID="ID_456567349" CREATED="1621232787183" MODIFIED="1621232790533"/>
 </node>
 <node TEXT="远距离蜂窝" ID="ID_1519737917" CREATED="1608122581350" MODIFIED="1608122586655">
-<node TEXT="NB-IoT" ID="ID_1891298417" CREATED="1608122652631" MODIFIED="1608128881587"><richcontent TYPE="NOTE">
-
+<node TEXT="NB-IoT" ID="ID_1891298417" CREATED="1608122652631" MODIFIED="1608128881587"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -358,11 +358,9 @@
       对于NB-IoT的未来走向，可以预见NB-IoT还会与现有网络共存共生。当产业走到万物互联的5G时代，NB-IoT也将迎来了新的发展机遇
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="eMTC" ID="ID_900983469" CREATED="1608122655877" MODIFIED="1608128935351"><richcontent TYPE="NOTE">
-
+<node TEXT="eMTC" ID="ID_900983469" CREATED="1608122655877" MODIFIED="1621232777001"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -405,8 +403,7 @@
 </node>
 </node>
 <node TEXT="远距离非蜂窝" ID="ID_1308751519" CREATED="1608122586886" MODIFIED="1608122593935">
-<node TEXT="LoRA" ID="ID_653147325" CREATED="1608122660495" MODIFIED="1608128865445"><richcontent TYPE="NOTE">
-
+<node TEXT="LoRA" ID="ID_653147325" CREATED="1608122660495" MODIFIED="1621232777073"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -515,8 +512,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="SigFox" ID="ID_738747004" CREATED="1608122663166" MODIFIED="1608128945830"><richcontent TYPE="NOTE">
-
+<node TEXT="SigFox" ID="ID_738747004" CREATED="1608122663166" MODIFIED="1621232778183"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -600,8 +596,7 @@
 </node>
 <node TEXT="Patent Idea" POSITION="left" ID="ID_1570999189" CREATED="1608533820021" MODIFIED="1608533853562">
 <edge COLOR="#0000ff"/>
-<node TEXT="基于IoT的定位平台" ID="ID_1568606325" CREATED="1608533855339" MODIFIED="1608535283616"><richcontent TYPE="NOTE">
-
+<node TEXT="基于IoT的定位平台" ID="ID_1568606325" CREATED="1608533855339" MODIFIED="1608535283616"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -623,11 +618,9 @@
       这对于IoT的定位需求来说能够起到非常大的帮助。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="分布式的IoT系统" ID="ID_1426849094" CREATED="1608533865956" MODIFIED="1608535092214"><richcontent TYPE="NOTE">
-
+<node TEXT="分布式的IoT系统" ID="ID_1426849094" CREATED="1608533865956" MODIFIED="1608535092214"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -661,11 +654,9 @@
       使用复杂的组网方案，降低整个系统的cost
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="NB-IoT网关" ID="ID_907959152" CREATED="1609120367795" MODIFIED="1609120534292"><richcontent TYPE="NOTE">
-
+<node TEXT="NB-IoT网关" ID="ID_907959152" CREATED="1609120367795" MODIFIED="1609120534292"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -681,14 +672,12 @@
       NB-IoT网关不光能够提供网络连接，还可以合理的挑选位置，提供蓝牙设备不具备的能力，比如定位能力
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="蓝牙定位的研究" POSITION="left" ID="ID_1206902806" CREATED="1611539936941" MODIFIED="1611539995775">
 <edge COLOR="#00ff00"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -701,10 +690,8 @@
       传统的蓝牙和蓝牙5.1上对实现室内定位功能的思路是不一样的。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="基于传统蓝牙技术" ID="ID_293833552" CREATED="1611540001262" MODIFIED="1611542464859"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="基于传统蓝牙技术" ID="ID_293833552" CREATED="1611540001262" MODIFIED="1611542464859"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -737,10 +724,8 @@
       终端侧定位一般用于<font color="#0000ff">室内定位导航</font>，<font color="#0000ff">精准位置营销</font>等用户终端；而网络侧定位主要用于<font color="#009900">人员跟踪定位</font>，<font color="#009900">资产定位及客流分析</font>等情境之中
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="基于设备的定位" ID="ID_1926324649" CREATED="1611540914779" MODIFIED="1611542514486"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="基于设备的定位" ID="ID_1926324649" CREATED="1611540914779" MODIFIED="1611542514486"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -753,11 +738,9 @@
       然后在终端上就能够自己计算出相对于基站的位置。或者终端可以通过网络将计算出的RSSI强度值传输到后台的服务器上，服务器端有完整的基站的列表和位置信息，在服务器端计算出设备的位置。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="基于基站的定位" ID="ID_198666577" CREATED="1611540921231" MODIFIED="1611542541271"><richcontent TYPE="NOTE">
-
+<node TEXT="基于基站的定位" ID="ID_198666577" CREATED="1611540921231" MODIFIED="1611542541271"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -773,12 +756,10 @@
       在基站获取了设备的RSSI指标之后，同样的就可以根据其估算设备的位置了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="基于蓝牙5.1技术" ID="ID_69457844" CREATED="1611540014015" MODIFIED="1611542759716"><richcontent TYPE="NOTE">
-
+<node TEXT="基于蓝牙5.1技术" ID="ID_69457844" CREATED="1611540014015" MODIFIED="1611542759716"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -797,14 +778,12 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="UWB通信技术" POSITION="left" ID="ID_1333187219" CREATED="1618972993599" MODIFIED="1618973894286">
 <edge COLOR="#ff00ff"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -832,11 +811,8 @@
       它和当今使用的主流的无线通信系统的主要区别在于，<b><font color="#0000c0">它不采用正弦载波调制</font></b>，而是利用<b><font color="#0000c0">纳秒级的非正弦波窄脉冲</font></b>传输数据，因此其所占的频谱范围很大(对于脉冲信号来说，脉冲信号持续的时间越短，那么它所占的频带也就越宽。)，尽管使用无线通信，但其数据传输速率可以达到几百兆比特每秒以上
     </p>
   </body>
-</html>
-
-</richcontent>
-<node TEXT="基本原理" ID="ID_1022992540" CREATED="1618988209139" MODIFIED="1618988416755"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="基本原理" ID="ID_1022992540" CREATED="1618988209139" MODIFIED="1618988416755"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -846,11 +822,8 @@
       UWB实质上是以占空比很低的冲击脉冲作为信息载体的无载波扩谱技术，它是通过对具有很陡上升和下降时间的冲击脉冲进行直接调制。UWB开发了一个具有吉赫兹容量和最高空间容量的新无线信道
     </p>
   </body>
-</html>
-
-</richcontent>
-<node TEXT="发射端" ID="ID_62271080" CREATED="1618988243008" MODIFIED="1618988264057"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="发射端" ID="ID_62271080" CREATED="1618988243008" MODIFIED="1618988264057"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -860,12 +833,9 @@
       基于CDMA的UWB脉冲无线收发信机在发送端时钟发生器产生一定重复周期的脉冲序列，用户要传输的信息和表示该用户地址的伪随机码分别或合成后对上述周期脉冲序列进行一定方式的调制，调制后的脉冲序列驱动脉冲产生电路，形成一定脉冲形状和规律的脉冲序列，然后放大到所需功率，再耦合到UWB天线发射出去。
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="接收端" ID="ID_377401086" CREATED="1618988249752" MODIFIED="1618988267177"><richcontent TYPE="NOTE">
-
+<node TEXT="接收端" ID="ID_377401086" CREATED="1618988249752" MODIFIED="1618988267177"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -875,13 +845,10 @@
       在接收端，UWB天线接收的信号经低噪声放大器放大后，送到相关器的一个输入端，相关器的另一个输入端加入一个本地产生的与发端同步的经用户伪随机码调制的脉冲序列，接收端信号与本地同步的伪随机码调制的脉冲序列一起经过相关器中的相乘、积分和取样保持运算，产生一个对用户地址信息经过分离的信号，其中仅含用户传输信息以及其他干扰，然后对该信号进行解调运算
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="特点" ID="ID_455989040" CREATED="1618988271856" MODIFIED="1618988379890"><richcontent TYPE="NOTE">
-
+<node TEXT="特点" ID="ID_455989040" CREATED="1618988271856" MODIFIED="1618988379890"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -909,9 +876,7 @@
       7.工程简单造价便宜。
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="应用" ID="ID_1121257318" CREATED="1618988285208" MODIFIED="1618988287850">
 <node TEXT="短距离高速应用" ID="ID_1110135943" CREATED="1618988298296" MODIFIED="1618988306977"/>
