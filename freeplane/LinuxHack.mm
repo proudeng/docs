@@ -7636,7 +7636,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
   </body>
 </html>
 </richcontent>
-<node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1617860141672"><richcontent TYPE="NOTE">
+<node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1620747511248"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -7652,14 +7652,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     <p>
       <b><font color="#0000c0">systemctl enable frpc.service</font></b>
     </p>
-    <p>
-      
-    </p>
-    <p>
-      fdsa
-    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1617860056030"><richcontent TYPE="NOTE">
@@ -7849,7 +7844,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="监控系统的温度" ID="ID_1398986476" CREATED="1618282019745" MODIFIED="1618282087093"><richcontent TYPE="NOTE">
@@ -7867,7 +7861,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="直接查看" ID="ID_101579701" CREATED="1618282092411" MODIFIED="1618282356566"><richcontent TYPE="NOTE">
 
@@ -7896,7 +7889,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="使用工具" ID="ID_1629605474" CREATED="1618282099436" MODIFIED="1618282758100"><richcontent TYPE="NOTE">
@@ -7932,7 +7924,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="示例输出" ID="ID_376386540" CREATED="1618282761542" MODIFIED="1618282786921"><richcontent TYPE="NOTE">
 
@@ -7982,7 +7973,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7999,7 +7989,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="需要安装的工具" ID="ID_1484685300" CREATED="1618295256930" MODIFIED="1618295326305"><richcontent TYPE="NOTE">
 
@@ -8019,7 +8008,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="命令" ID="ID_875142085" CREATED="1618295329715" MODIFIED="1618295337988">
@@ -8035,7 +8023,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lsblk" ID="ID_588545097" CREATED="1618295391097" MODIFIED="1618295428602"><richcontent TYPE="NOTE">
@@ -8050,7 +8037,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="df" ID="ID_1815822297" CREATED="1618295430242" MODIFIED="1618295450715"><richcontent TYPE="NOTE">
@@ -8065,7 +8051,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="fdisk" ID="ID_499825928" CREATED="1618295453562" MODIFIED="1618295478646"><richcontent TYPE="NOTE">
@@ -8080,7 +8065,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="/proc目录" ID="ID_1876780105" CREATED="1618295481345" MODIFIED="1618295516150"><richcontent TYPE="NOTE">
@@ -8095,7 +8079,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lspci" ID="ID_1239265481" CREATED="1618295528842" MODIFIED="1618295549041"><richcontent TYPE="NOTE">
@@ -8110,7 +8093,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lsusb" ID="ID_1363346081" CREATED="1618295550434" MODIFIED="1618295570372"><richcontent TYPE="NOTE">
@@ -8125,7 +8107,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lsdev" ID="ID_846768000" CREATED="1618295582618" MODIFIED="1618295592373"><richcontent TYPE="NOTE">
@@ -8140,7 +8121,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lshw" ID="ID_1818878042" CREATED="1618295607931" MODIFIED="1618295618252"><richcontent TYPE="NOTE">
@@ -8155,7 +8135,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lsscsi" ID="ID_451821293" CREATED="1618295627322" MODIFIED="1618295636923"><richcontent TYPE="NOTE">
@@ -8170,7 +8149,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="dmidecode" ID="ID_1177193289" CREATED="1618295648546" MODIFIED="1618295690662"><richcontent TYPE="NOTE">
@@ -8191,7 +8169,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="hwinfo" ID="ID_605847789" CREATED="1618295691891" MODIFIED="1618295701227"><richcontent TYPE="NOTE">
@@ -8206,7 +8183,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8252,7 +8228,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="不同Governer的行为" ID="ID_1856969880" CREATED="1618295980093" MODIFIED="1618296061598"><richcontent TYPE="NOTE">
 
@@ -8308,7 +8283,6 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9233,9 +9207,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -9721,8 +9695,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html>
 </richcontent>
 <node TEXT="域名绑定" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -11173,8 +11147,8 @@ root@OpenWrt:~# wifi</pre>
 </richcontent>
 </node>
 <node TEXT="挂载数据盘的fstab的配置信息" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE">
 
 <html>
