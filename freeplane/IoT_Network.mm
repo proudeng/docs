@@ -79,7 +79,7 @@
 </node>
 <node TEXT="物理/数据链路层" ID="ID_371683824" CREATED="1608122506661" MODIFIED="1608122513160">
 <node TEXT="近距离通信" ID="ID_1254654519" CREATED="1608122557486" MODIFIED="1608122579687">
-<node TEXT="蓝牙" ID="ID_622983311" CREATED="1608122596310" MODIFIED="1621232903877"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="蓝牙" ID="ID_622983311" CREATED="1608122596310" MODIFIED="1621303720274"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -219,8 +219,7 @@
       在启用信标的网络中，Zigbee路由器节点发送周期性信标，zigbee的接收节点将定时的唤醒。节点在两个信标之间时间内睡眠，从而降低其占空比并延长其电池寿命。信标间隔取决于数据速率，它们在250 kbit / s时可以从15.36毫秒到251.65824秒， 在40 kbit / s时从24毫秒到393.216秒，在20 kbit / s时从48毫秒到786.432秒。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="UWB" ID="ID_456567349" CREATED="1621232787183" MODIFIED="1621232790533"/>
 </node>
@@ -398,8 +397,7 @@
       eMTC也可以以屏幕为抓手，应用到智能充电桩、候机宝、电梯卫士、智能公交站牌、公共自行车管理等方面
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="远距离非蜂窝" ID="ID_1308751519" CREATED="1608122586886" MODIFIED="1608122593935">
@@ -509,8 +507,7 @@
       可以看到，不论从技术、供应链体系、产业结构还是生态建设，LoRa依然是一个市场化行为为主导的技术选项，大国之间政治经济博弈对于LoRa供求各方产生的影响很小。采用LoRa通信的物联网项目中包含非常多的技术和元素，很多价值远远超过通信本身，未来发展中，业界应该更多聚焦于应用价值的创造，聚焦于市场化行为和商业模式，以求在物联网时代赢得先机。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="SigFox" ID="ID_738747004" CREATED="1608122663166" MODIFIED="1621232778183"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -588,8 +585,7 @@
       在中国，在产业的推进以及政府政策的鼓励下，三大运营商均在积极推进LPWA技术的应用，包括NB-IoT的商用以及eMTC的试点应用。此外，科技巨头纷纷入局LoRa，呈现出大中小型企业、传统企业与互联网企业共同参与的格局。国内提供给LoRa发展的产业大环境不断向好，LoRa联盟自身力量也在不断壮大。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

@@ -1,4 +1,4 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="BLD Project" FOLDED="false" ID="ID_89814672" CREATED="1583287173439" MODIFIED="1583287240578" STYLE="oval">
 <font SIZE="18"/>
@@ -6,10 +6,11 @@
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_628176781" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_628176781" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -64,8 +66,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -75,13 +76,11 @@
       Brutal Logistics Detect
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="【Platform】Thingy:91" FOLDED="true" POSITION="right" ID="ID_232176577" CREATED="1583287393218" MODIFIED="1583287421097">
 <edge COLOR="#0000ff"/>
 <node TEXT="硬件组成" ID="ID_1864208304" CREATED="1583287582672" MODIFIED="1583287668745">
-<node TEXT="nRF9160 SiP" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1637993052" CREATED="1583287597824" MODIFIED="1583291183558"><richcontent TYPE="NOTE">
-
+<node TEXT="nRF9160 SiP" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1637993052" CREATED="1583287597824" MODIFIED="1583291183558"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -91,8 +90,7 @@
       Low power SiP with intergrated LTE-M/NB-IoT modem and GPS
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="支持无线协议" ID="ID_589579321" CREATED="1583288827605" MODIFIED="1583288845087">
 <node TEXT="LTE-M" ID="ID_844368959" CREATED="1583288846254" MODIFIED="1583288850831"/>
 <node TEXT="NB-IoT" ID="ID_1586289182" CREATED="1583288851189" MODIFIED="1583298345317"/>
@@ -114,8 +112,7 @@
 </node>
 </node>
 </node>
-<node TEXT="nRF52840 SoC" LOCALIZED_STYLE_REF="styles.topic" ID="ID_200640378" CREATED="1583287611415" MODIFIED="1583291187544"><richcontent TYPE="NOTE">
-
+<node TEXT="nRF52840 SoC" LOCALIZED_STYLE_REF="styles.topic" ID="ID_200640378" CREATED="1583287611415" MODIFIED="1583291187544"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -125,11 +122,9 @@
       Advanced Bluetooth 5, Thread and Zigbee <b><font color="#ff0000">multiprotocol SoC</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="支持无线协议" ID="ID_1005051496" CREATED="1583288881585" MODIFIED="1583288884701">
-<node TEXT="低功耗蓝牙BLE5" ID="ID_1683380729" CREATED="1583288885757" MODIFIED="1608097596447"><richcontent TYPE="NOTE">
-
+<node TEXT="低功耗蓝牙BLE5" ID="ID_1683380729" CREATED="1583288885757" MODIFIED="1608097596447"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -139,8 +134,7 @@
       Bluetooth Low Energy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="BLE mesh" ID="ID_619969560" CREATED="1608097610979" MODIFIED="1608097616266"/>
 <node TEXT="802.15.4" ID="ID_164356994" CREATED="1608097644343" MODIFIED="1608097649309">
@@ -156,8 +150,7 @@
 <node TEXT="USB" ID="ID_1323440685" CREATED="1583290977274" MODIFIED="1583290978500"/>
 </node>
 </node>
-<node TEXT="1根远场通信天线" ID="ID_1189006399" CREATED="1583288923580" MODIFIED="1583291215266"><richcontent TYPE="NOTE">
-
+<node TEXT="1根远场通信天线" ID="ID_1189006399" CREATED="1583288923580" MODIFIED="1583291215266"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -167,11 +160,9 @@
       &#29992;&#20110;&#25903;&#25345;CAT-M,NB-IoT,GSP&#36890;&#20449;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="2根近场通信天线" ID="ID_1164953287" CREATED="1583289010398" MODIFIED="1583291219800"><richcontent TYPE="NOTE">
-
+<node TEXT="2根近场通信天线" ID="ID_1164953287" CREATED="1583289010398" MODIFIED="1583291219800"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -181,12 +172,10 @@
       &#29992;&#20110;&#25903;&#25345;&#34013;&#29273;&#21644;NFC
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="NANO Sim卡插槽" ID="ID_1823073213" CREATED="1583289741736" MODIFIED="1583289752490">
-<node TEXT="附带一张10M流量sim卡" ID="ID_1811281478" CREATED="1583290357938" MODIFIED="1583290392630"><richcontent TYPE="NOTE">
-
+<node TEXT="附带一张10M流量sim卡" ID="ID_1811281478" CREATED="1583290357938" MODIFIED="1583290392630"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -196,8 +185,7 @@
       iBasis
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="1400mAh锂电池" ID="ID_869090516" CREATED="1583290339898" MODIFIED="1583290352700"/>
@@ -220,8 +208,7 @@
 <node TEXT="软件平台" ID="ID_1346854721" CREATED="1583287669415" MODIFIED="1583287674041">
 <node TEXT="nRF Connect for Cloud" ID="ID_1924822029" CREATED="1583287675448" MODIFIED="1583287676586"/>
 <node TEXT="nRF Connect for Desktop" ID="ID_942997599" CREATED="1583288688868" MODIFIED="1583288690751"/>
-<node TEXT="nRF Connect SDK" ID="ID_58856914" CREATED="1583287680359" MODIFIED="1587710343514"><richcontent TYPE="NOTE">
-
+<node TEXT="nRF Connect SDK" ID="ID_58856914" CREATED="1583287680359" MODIFIED="1587710343514"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -231,11 +218,9 @@
       开发SDK
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="nRF Connect Programmer" ID="ID_1150188771" CREATED="1583292976157" MODIFIED="1583292995664"><richcontent TYPE="NOTE">
-
+<node TEXT="nRF Connect Programmer" ID="ID_1150188771" CREATED="1583292976157" MODIFIED="1583292995664"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -245,8 +230,7 @@
       &#20195;&#30721;&#28903;&#20889;&#36719;&#20214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="nRF9160 DK" ID="ID_1065040118" CREATED="1583299104061" MODIFIED="1583299111159"/>
 </node>
@@ -257,8 +241,7 @@
 </node>
 <node TEXT="【Platform】Ardesco" POSITION="right" ID="ID_235202325" CREATED="1583287832928" MODIFIED="1594765109682">
 <edge COLOR="#00ff00"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -268,13 +251,11 @@
       爱立信自己的物联网平台
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="nRF Connect SDK" POSITION="left" ID="ID_1143253232" CREATED="1587884204965" MODIFIED="1587884264902">
 <edge COLOR="#00ffff"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -284,13 +265,11 @@
       经常会看到一些描述中有ncs这样的描述，实际上就是指的nRF Connect SDK
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="各种模型" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
 <node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
 <node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html">
-<node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE">
-
+<node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -300,10 +279,8 @@
       这里的API是给驱动程序使用的，而非是给应用程序使用的。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="DEVICE_INIT()" ID="ID_850002459" CREATED="1587998570854" MODIFIED="1587998713027"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="DEVICE_INIT()" ID="ID_850002459" CREATED="1587998570854" MODIFIED="1587998713027"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -313,11 +290,9 @@
       create device object and set it up for boot time initialization.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="DEVICE_AND_API_INIT()" ID="ID_703810782" CREATED="1587998581845" MODIFIED="1587998727622"><richcontent TYPE="NOTE">
-
+<node TEXT="DEVICE_AND_API_INIT()" ID="ID_703810782" CREATED="1587998581845" MODIFIED="1587998727622"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -327,11 +302,9 @@
       Create device object and set it up for boot time initialization. This also takes a pointer to driver API struct for link time pointer assignment.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="DEVICE_NAME_GET()" ID="ID_1435952377" CREATED="1587998593806" MODIFIED="1587998737858"><richcontent TYPE="NOTE">
-
+<node TEXT="DEVICE_NAME_GET()" ID="ID_1435952377" CREATED="1587998593806" MODIFIED="1587998737858"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -341,11 +314,9 @@
       Expands to the full name of a global device object.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="DEVICE_GET()" ID="ID_574946737" CREATED="1587998601558" MODIFIED="1587998746462"><richcontent TYPE="NOTE">
-
+<node TEXT="DEVICE_GET()" ID="ID_574946737" CREATED="1587998601558" MODIFIED="1587998746462"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -355,11 +326,9 @@
       Obtain a pointer to a device object by name.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="DEVICE_DECLARE()" ID="ID_240355837" CREATED="1587998607182" MODIFIED="1587998753534"><richcontent TYPE="NOTE">
-
+<node TEXT="DEVICE_DECLARE()" ID="ID_240355837" CREATED="1587998607182" MODIFIED="1587998753534"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -369,12 +338,10 @@
       Declare a device object.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Driver Data Structures" ID="ID_1806101603" CREATED="1587998559389" MODIFIED="1587998869301"><richcontent TYPE="NOTE">
-
+<node TEXT="Driver Data Structures" ID="ID_1806101603" CREATED="1587998559389" MODIFIED="1587998869301"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -393,8 +360,7 @@
   <span class="p">[...]</span>
 <span class="p">};</span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -405,8 +371,7 @@
 </node>
 <node TEXT="应用代码使用传感器" ID="ID_797088572" CREATED="1588087380294" MODIFIED="1588087387177">
 <node TEXT="轮询方式" ID="ID_434350976" CREATED="1588087554320" MODIFIED="1588087558777">
-<node TEXT="sensor_sample_fetch()" ID="ID_382283456" CREATED="1588087389855" MODIFIED="1588087450164"><richcontent TYPE="NOTE">
-
+<node TEXT="sensor_sample_fetch()" ID="ID_382283456" CREATED="1588087389855" MODIFIED="1588087450164"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -416,11 +381,9 @@
       使用这个函数将传感器的数据获取到，保存在驱动程序的内部。此时应用程序还没有得到传感器的数据。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="sensor_channel_get(dev, channel, &amp;data)" ID="ID_1314873074" CREATED="1588087452654" MODIFIED="1588087540257"><richcontent TYPE="NOTE">
-
+<node TEXT="sensor_channel_get(dev, channel, &amp;data)" ID="ID_1314873074" CREATED="1588087452654" MODIFIED="1588087540257"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -430,13 +393,11 @@
       这个函数将上面采样的传感器的数据中，属性为channel的数据保存在data这个数据结构中。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="中断方式" ID="ID_961850342" CREATED="1588087564551" MODIFIED="1588087571033">
-<node TEXT="sensor_attr_set(dev,channel,attr,&amp;value)" ID="ID_1468246327" CREATED="1588087594095" MODIFIED="1588087684499"><richcontent TYPE="NOTE">
-
+<node TEXT="sensor_attr_set(dev,channel,attr,&amp;value)" ID="ID_1468246327" CREATED="1588087594095" MODIFIED="1588087684499"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -446,11 +407,9 @@
       在支持中断方式上报传感器数据的驱动中，可以先给传感器使用这个函数设置属性，后续可以根据这些提前设置的属性来制定触发中断的条件。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="sensor_trigger_set(dev,&amp;trigger, trigger_handler)" ID="ID_1320108864" CREATED="1588087699071" MODIFIED="1588087783107"><richcontent TYPE="NOTE">
-
+<node TEXT="sensor_trigger_set(dev,&amp;trigger, trigger_handler)" ID="ID_1320108864" CREATED="1588087699071" MODIFIED="1588087783107"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -460,8 +419,7 @@
       这就是定义触发中断的条件，这里的trigger就是可以选择先前设置的某个属性作为触发器，然后trigger_handler就是中断触发之后需要调用的处理函数。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -471,8 +429,7 @@
 <node TEXT="nRF Cloud library" ID="ID_1875148539" CREATED="1588172124633" MODIFIED="1588172263150" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/include/net/nrf_cloud.html"/>
 <node TEXT="Cloud API" ID="ID_668072753" CREATED="1588172151296" MODIFIED="1588172227316" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/include/net/cloud.html"/>
 <node TEXT="MQTT" ID="ID_1002261865" CREATED="1589902282076" MODIFIED="1589902284837">
-<node TEXT="Zephyr MQTT" ID="ID_1920358779" CREATED="1588173606535" MODIFIED="1588861269644" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/reference/networking/mqtt.html"><richcontent TYPE="NOTE">
-
+<node TEXT="Zephyr MQTT" ID="ID_1920358779" CREATED="1588173606535" MODIFIED="1588861269644" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/reference/networking/mqtt.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -482,12 +439,10 @@
       Zephyr提供了一个实现MQTT客户端的API，设备上的应用代码可以基于这套API快速的实现MQTT客户端。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="MQTT相关概念" ID="ID_888281402" CREATED="1588860607985" MODIFIED="1588860612368">
 <node TEXT="MQTT客户端" ID="ID_1820098959" CREATED="1588860614032" MODIFIED="1588860617628"/>
-<node TEXT="MQTT Broker" ID="ID_219981884" CREATED="1588860617968" MODIFIED="1588861287753"><richcontent TYPE="NOTE">
-
+<node TEXT="MQTT Broker" ID="ID_219981884" CREATED="1588860617968" MODIFIED="1588861287753"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -497,13 +452,11 @@
       其实就是网络端的MQTT的服务器
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="MQTT Sample" ID="ID_1833872346" CREATED="1588174139110" MODIFIED="1588862170882" LINK="https://github.com/NordicPlayground/fw-nrfconnect-nrf/tree/master/samples/nrf9160/mqtt_simple"><richcontent TYPE="NOTE">
-
+<node TEXT="MQTT Sample" ID="ID_1833872346" CREATED="1588174139110" MODIFIED="1588862170882" LINK="https://github.com/NordicPlayground/fw-nrfconnect-nrf/tree/master/samples/nrf9160/mqtt_simple"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -513,11 +466,9 @@
       在nRF9160上创建一个MQTT客户端的简单实例
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="MQTT简要" ID="ID_1436515793" CREATED="1589902291580" MODIFIED="1589902370463" LINK="https://segmentfault.com/a/1190000020914196?utm_source=tag-newest"><richcontent TYPE="NOTE">
-
+<node TEXT="MQTT简要" ID="ID_1436515793" CREATED="1589902291580" MODIFIED="1589902370463" LINK="https://segmentfault.com/a/1190000020914196?utm_source=tag-newest"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -527,12 +478,10 @@
       跳转链接中有有一个使用EMQ的网络工具，使用这个工具能够非常直观的了解什么是MQTT，它是干嘛的？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="QoS以及消息交互流程" ID="ID_1725909935" CREATED="1592880082795" MODIFIED="1592881713783" LINK="https://onedrive.live.com/view.aspx?resid=C924C414C7191D53%25211189&amp;id=documents&amp;wd=target%2528%25E5%25BF%25AB%25E9%2580%259F%25E7%25AC%2594%25E8%25AE%25B0.one%257C683E139F-43E4-4080-84E3-B1053D7F6260%252FMQTT%25E6%25B6%2588%25E6%2581%25AF%25E4%25BA%25A4%25E4%25BA%2592%25E6%25B5%2581%25E7%25A8%258B%2528%25E4%25B8%258D%25E5%2590%258CQoS%255C%2529%257CA5E06E9F-D338-428E-8334-5D63BB3DB2B7%252F%2529%20onenote:https://d.docs.live.net/c924c414c7191d53/Documents/军%2520的笔记本/快速笔记.one#MQTT消息交互流程(不同QoS)&amp;section-id=%7B683E139F-43E4-4080-84E3-B1053D7F6260%7D&amp;page-id=%7BA5E06E9F-D338-428E-8334-5D63BB3DB2B7%7D&amp;end">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -542,10 +491,8 @@
       MQTT的QoS的概念，实际上是规定了不同等级的消息，发布者，broker，订阅者之间如何进行消息交互
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="QoS0" ID="ID_1925072776" CREATED="1592880089955" MODIFIED="1592880126238"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="QoS0" ID="ID_1925072776" CREATED="1592880089955" MODIFIED="1592880126238"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -558,11 +505,9 @@
       消息发布完全依赖底层TCP/IP网络。会发生消息丢失或重复。这一级别可用于如下情况，环境传感器数据，丢失一次读记录无所谓，因为不久后还会有第二次发送。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="QoS1" ID="ID_441390180" CREATED="1592880094218" MODIFIED="1592880143165"><richcontent TYPE="NOTE">
-
+<node TEXT="QoS1" ID="ID_441390180" CREATED="1592880094218" MODIFIED="1592880143165"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -578,11 +523,9 @@
       如果一定时间内，发布端或服务器没有收到PUBACK消息，则会进行重发。这种方式虽然确保了消息到达，但消息重复可能会发生。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Qos2" ID="ID_875233555" CREATED="1592880097330" MODIFIED="1592880185524"><richcontent TYPE="NOTE">
-
+<node TEXT="Qos2" ID="ID_875233555" CREATED="1592880097330" MODIFIED="1621326329560"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -614,8 +557,7 @@
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
 </node>
-<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE">
-
+<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -625,10 +567,8 @@
       一个很好的讲解nRF Connect SDK的官方的教程
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装nRF开发环境" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1591074999640"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装nRF开发环境" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1591074999640"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -638,10 +578,8 @@
       在公开的云主机ali.proudj.com上安装nRF的开发环境。其中云主机是Ubuntu的系统
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装toolChain" ID="ID_1460453185" CREATED="1590462161196" MODIFIED="1590482414362"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装toolChain" ID="ID_1460453185" CREATED="1590462161196" MODIFIED="1590482414362"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -654,11 +592,9 @@
       <font color="#0000c0"><b>/home/proudeng/gnuarmemb</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装nRF的SDK代码" ID="ID_1416433480" CREATED="1590462258219" MODIFIED="1590482407537"><richcontent TYPE="NOTE">
-
+<node TEXT="安装nRF的SDK代码" ID="ID_1416433480" CREATED="1590462258219" MODIFIED="1590482407537"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -671,12 +607,10 @@
       <b><font color="#0000c0">/home/proudeng/ncs</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="配置环境变量" ID="ID_1790605616" CREATED="1590477801399" MODIFIED="1590477809345">
-<node TEXT="~/.profile文件" ID="ID_1531904512" CREATED="1590477814423" MODIFIED="1590482427994"><richcontent TYPE="NOTE">
-
+<node TEXT="~/.profile文件" ID="ID_1531904512" CREATED="1590477814423" MODIFIED="1590482427994"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -707,15 +641,13 @@
       <font color="#0000c0"><i>fi </i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="Part1" ID="ID_484875590" CREATED="1590417093033" MODIFIED="1590417095509">
 <node TEXT="最简单项目构成" ID="ID_39785052" CREATED="1590483289031" MODIFIED="1590483298249">
-<node TEXT="A folder named src with main.c inside" ID="ID_1553117378" CREATED="1590483311799" MODIFIED="1590483509409"><richcontent TYPE="NOTE">
-
+<node TEXT="A folder named src with main.c inside" ID="ID_1553117378" CREATED="1590483311799" MODIFIED="1590483509409"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -743,11 +675,9 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="CMakeLists.txt" ID="ID_336854346" CREATED="1590483322127" MODIFIED="1590483481733"><richcontent TYPE="NOTE">
-
+<node TEXT="CMakeLists.txt" ID="ID_336854346" CREATED="1590483322127" MODIFIED="1590483481733"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -769,11 +699,9 @@
       target_sources(app PRIVATE src/main.c)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="prj.conf" ID="ID_1883226606" CREATED="1590483328783" MODIFIED="1590483492478"><richcontent TYPE="NOTE">
-
+<node TEXT="prj.conf" ID="ID_1883226606" CREATED="1590483328783" MODIFIED="1590483492478"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -786,12 +714,10 @@
       CONFIG_UART_0_NRF_UARTE=y
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="编译代码" ID="ID_593364567" CREATED="1591075025836" MODIFIED="1591077050913"><richcontent TYPE="NOTE">
-
+<node TEXT="编译代码" ID="ID_593364567" CREATED="1591075025836" MODIFIED="1591077050913"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -813,13 +739,11 @@
       我们使用的-b参数是<font color="#0033ff">nrf9160_pca20035ns</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1591348922695" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-2-1478313418">
-<node TEXT="ncs中的一些概念" FOLDED="true" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE">
-
+<node TEXT="ncs中的一些概念" FOLDED="true" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -832,8 +756,7 @@
       这是一个Nordic的开发环境，它包含了一些开源的repo，用于开发
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="包含的软件包" ID="ID_53113676" CREATED="1591077052856" MODIFIED="1591077058978">
 <node TEXT="nrf" ID="ID_1048215340" CREATED="1591077060471" MODIFIED="1591077064776"/>
 <node TEXT="nrfxlib" ID="ID_870008305" CREATED="1591077065022" MODIFIED="1591077070170"/>
@@ -841,8 +764,7 @@
 <node TEXT="Zephyr" ID="ID_150385644" CREATED="1591077085630" MODIFIED="1591077090353"/>
 </node>
 <node TEXT="编译工具链集合" ID="ID_1382036462" CREATED="1591077142239" MODIFIED="1591078610611">
-<node TEXT="Kconfig" ID="ID_708230321" CREATED="1591077163367" MODIFIED="1591078443475"><richcontent TYPE="NOTE">
-
+<node TEXT="Kconfig" ID="ID_708230321" CREATED="1591077163367" MODIFIED="1591078443475"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -852,11 +774,9 @@
       Kconfig generates definitions that configure the whole system
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Device Tree" ID="ID_664702987" CREATED="1591077166766" MODIFIED="1591078447630"><richcontent TYPE="NOTE">
-
+<node TEXT="Device Tree" ID="ID_664702987" CREATED="1591077166766" MODIFIED="1591078447630"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -866,13 +786,11 @@
       Device Tree describes the hardware
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="CMake" ID="ID_992681936" CREATED="1591077171775" MODIFIED="1591594117777">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -882,11 +800,9 @@
       Cmake then uses the information from Kconfig and the device tree to generate build files
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Ninja" ID="ID_763848935" CREATED="1591077176647" MODIFIED="1591078526724"><richcontent TYPE="NOTE">
-
+<node TEXT="Ninja" ID="ID_763848935" CREATED="1591077176647" MODIFIED="1591078526724"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -896,11 +812,9 @@
       Ninja (comparable to make) will use build files to build the program.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="gcc" ID="ID_865867543" CREATED="1591077182359" MODIFIED="1591078542414"><richcontent TYPE="NOTE">
-
+<node TEXT="gcc" ID="ID_865867543" CREATED="1591077182359" MODIFIED="1591078542414"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -910,12 +824,10 @@
       GCC compiler system is used to create the executables
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="west工具" ID="ID_1641406121" CREATED="1591079541394" MODIFIED="1591079722275"><richcontent TYPE="NOTE">
-
+<node TEXT="west工具" ID="ID_1641406121" CREATED="1591079541394" MODIFIED="1591079722275"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -934,10 +846,8 @@
       这其实有点类似于以前clearcase里面的config spec的作用。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="west.yaml" ID="ID_1972650403" CREATED="1591080538659" MODIFIED="1591080592090"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="west.yaml" ID="ID_1972650403" CREATED="1591080538659" MODIFIED="1591080592090"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -947,14 +857,12 @@
       这个文件是一个配置文件，主要是配置系统中使用的各种repo的地址以及使用的这个repo的那个具体的版本。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Device Tree概念" ID="ID_360683697" CREATED="1591081899193" MODIFIED="1591594005441">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -967,10 +875,8 @@
       使用Device Tree的好处是，可以将硬件和软件解耦，因为根据Device Tree可以生成标准的头文件，设备驱动只要面向Device Tree生成出来的头文件编写就行了，而不用在驱动中管理各种不同的设备的不同的硬件特性。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="使用overlay文件来修改device tree配置" ID="ID_913911494" CREATED="1591334732871" MODIFIED="1591335001619"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="使用overlay文件来修改device tree配置" ID="ID_913911494" CREATED="1591334732871" MODIFIED="1591335001619"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -989,12 +895,10 @@
       这种操作就是修改device tree，这部分的delta的改动，可以通过overlay文件来实现，在项目的目录下创建一个以板子名称命名的overlay文件。修改的内容就在这个overlay中完成。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="配置项目" ID="ID_492215929" CREATED="1591082290589" MODIFIED="1591082504541"><richcontent TYPE="NOTE">
-
+<node TEXT="配置项目" ID="ID_492215929" CREATED="1591082290589" MODIFIED="1591082504541"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1010,15 +914,13 @@
       这些配置通过Kconfig和prj.conf文件进行配置，最终生成.config文件，并被生成标准的头文件。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Kconfig" ID="ID_143703335" CREATED="1591082297883" MODIFIED="1591082300214"/>
 <node TEXT="prj.conf文件" ID="ID_28463085" CREATED="1591082300523" MODIFIED="1591082306997"/>
 </node>
 <node TEXT="Secure&amp;Non-Secure概念" ID="ID_297660271" CREATED="1591082570130" MODIFIED="1591594010508">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1028,10 +930,8 @@
       Cortex-M33设备支持TrustZone技术，这种技术允许在同一个CPU上同时运行两种环境，安全环境和非安全环境。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="SPU硬件" ID="ID_873843902" CREATED="1591083214397" MODIFIED="1591083288571"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="SPU硬件" ID="ID_873843902" CREATED="1591083214397" MODIFIED="1591083288571"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1041,11 +941,9 @@
       System Protection Unit用于让CPU管理处于不同的区域的应用程序，这是一个硬件外设。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="SPM库" ID="ID_311714470" CREATED="1591083322318" MODIFIED="1591084469600"><richcontent TYPE="NOTE">
-
+<node TEXT="SPM库" ID="ID_311714470" CREATED="1591083322318" MODIFIED="1591084469600"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1064,8 +962,7 @@
       还有哪些外设是设置为secure的，哪些外设被设置为non-secure的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="spm_config()" ID="ID_90114145" CREATED="1591083415717" MODIFIED="1591083417097"/>
 <node TEXT="spm_jump()" ID="ID_1601709390" CREATED="1591083422903" MODIFIED="1591083423642"/>
 </node>
@@ -1073,8 +970,7 @@
 </node>
 </node>
 <node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1591348932419" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-3-temporary">
-<node TEXT="Zephyr Sensor Subsystem" FOLDED="true" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE">
-
+<node TEXT="Zephyr Sensor Subsystem" FOLDED="true" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1090,11 +986,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Zephyr传感器列表" ID="ID_955949050" CREATED="1591336106477" MODIFIED="1591336136338" LINK="https://github.com/nrfconnect/sdk-zephyr/tree/v2.1.99-ncs1/drivers/sensor"/>
-<node TEXT="Sensor首选需要一个驱动" ID="ID_956660526" CREATED="1591340742182" MODIFIED="1591342809293"><richcontent TYPE="NOTE">
-
+<node TEXT="Sensor首选需要一个驱动" ID="ID_956660526" CREATED="1591340742182" MODIFIED="1591342809293"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1110,8 +1004,7 @@
       然后同时在驱动代码中，提供一个sensor的接口。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="sensor API" ID="ID_910962818" CREATED="1591342861751" MODIFIED="1591342868018"/>
 <node TEXT="Device Binding" ID="ID_1156181883" CREATED="1591342868278" MODIFIED="1591342887313"/>
@@ -1120,8 +1013,7 @@
 <node TEXT="include the peripheral into the device tree" ID="ID_490898555" CREATED="1591342929512" MODIFIED="1591342939879"/>
 </node>
 </node>
-<node TEXT="定制一个板子" ID="ID_1396583217" CREATED="1591342984455" MODIFIED="1591348935787"><richcontent TYPE="NOTE">
-
+<node TEXT="定制一个板子" ID="ID_1396583217" CREATED="1591342984455" MODIFIED="1591348935787"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1143,11 +1035,9 @@
       一般不会从头开始定义一个板子，最实际的操作方法就是找到一个类似的板子，然后拷贝这个板子的文件夹，在里面做相应的修改。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="板子相关的文件" FOLDED="true" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
-<node TEXT="DTS文件" ID="ID_535798250" CREATED="1591343048079" MODIFIED="1591343349337"><richcontent TYPE="NOTE">
-
+<node TEXT="DTS文件" ID="ID_535798250" CREATED="1591343048079" MODIFIED="1591343349337"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1157,16 +1047,14 @@
       DTS文件是最为重要的一个文件，因为它完全定义了板子上的硬件信息，包括外设的类型，各种需要的地址信息等等。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="DTS语法" ID="ID_527980698" CREATED="1591343365106" MODIFIED="1591343401602">
 <node TEXT="compatible关键字" ID="ID_887415169" CREATED="1591343373366" MODIFIED="1591343389985"/>
 <node TEXT="chosen关键字" ID="ID_237980255" CREATED="1591343380902" MODIFIED="1591343393891"/>
 </node>
 </node>
 <node TEXT="配置文件" ID="ID_432489059" CREATED="1591343053304" MODIFIED="1591343061770">
-<node TEXT="Kconfig" ID="ID_1710687409" CREATED="1591343890783" MODIFIED="1591343968336"><richcontent TYPE="NOTE">
-
+<node TEXT="Kconfig" ID="ID_1710687409" CREATED="1591343890783" MODIFIED="1591343968336"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1176,11 +1064,9 @@
       you can define configuration symbols needed for your particular board
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Kconfig.board" ID="ID_501382939" CREATED="1591343901824" MODIFIED="1591344215997"><richcontent TYPE="NOTE">
-
+<node TEXT="Kconfig.board" ID="ID_501382939" CREATED="1591343901824" MODIFIED="1591344215997"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1190,11 +1076,9 @@
       defines the board configs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Kconfig.defconfig" ID="ID_1980897784" CREATED="1591343907487" MODIFIED="1591344218809"><richcontent TYPE="NOTE">
-
+<node TEXT="Kconfig.defconfig" ID="ID_1980897784" CREATED="1591343907487" MODIFIED="1591344218809"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1204,12 +1088,10 @@
       the default values of various features and hardware interfaces are set
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="yaml文件" ID="ID_1941376969" CREATED="1591343062135" MODIFIED="1591344262144"><richcontent TYPE="NOTE">
-
+<node TEXT="yaml文件" ID="ID_1941376969" CREATED="1591343062135" MODIFIED="1591344262144"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1225,11 +1107,9 @@
       specify the properties for your board, such as toolchain, supported features and ram and flash size
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="board.cmake文件" ID="ID_1825978761" CREATED="1591343083734" MODIFIED="1591344276860"><richcontent TYPE="NOTE">
-
+<node TEXT="board.cmake文件" ID="ID_1825978761" CREATED="1591343083734" MODIFIED="1591344276860"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1239,8 +1119,7 @@
       This file simply instructs how to flash and debug the board
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1259,8 +1138,7 @@
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1279,8 +1157,7 @@
       这里的主要的思想是，软件启动是一步一步启动的，在启动的过程当中，需要有bootloader，有不依赖于操作系统的硬件管理的软件，还有依赖于操作系统的软件。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="partition manager" ID="ID_454490265" CREATED="1591602518262" MODIFIED="1591602521831"/>
 </node>
@@ -1290,8 +1167,7 @@
 </node>
 </node>
 <node TEXT="Working with nRF9160" FOLDED="true" ID="ID_966196066" CREATED="1591602955622" MODIFIED="1591602979422">
-<node TEXT="Application MCU" ID="ID_889891090" CREATED="1591609354260" MODIFIED="1591609393241"><richcontent TYPE="NOTE">
-
+<node TEXT="Application MCU" ID="ID_889891090" CREATED="1591609354260" MODIFIED="1591609393241"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1307,12 +1183,10 @@
       The secure bootloader chain starts the Secure Partition Manager, which configures a part of memory and peripherals to be non-secure and then jumps to the main application located in the non-secure area
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="secure bootloader chain" FOLDED="true" ID="ID_1088062563" CREATED="1591609399919" MODIFIED="1592147857229" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_bootloader.html#ug-bootloader">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1322,10 +1196,8 @@
       在nRF SDK中，如果使用了bootloader chain的话，那么多个镜像文件会被同时编译出来，然后拼接为一个完整的镜像。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Chain" FOLDED="true" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591890218954"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Chain" FOLDED="true" ID="ID_1309466724" CREATED="1591862372994" MODIFIED="1591890218954"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1356,10 +1228,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Immutable bootloader" ID="ID_1875137729" CREATED="1591851270795" MODIFIED="1591931758289"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Immutable bootloader" ID="ID_1875137729" CREATED="1591851270795" MODIFIED="1591931758289"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1387,12 +1257,10 @@
       感觉大多数情况下，不需要两级的bootloader，直接使用MCUboot就够了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="upgradable bootloader" ID="ID_349943074" CREATED="1591851278738" MODIFIED="1591851289215">
-<node TEXT="MCUboot" ID="ID_1432477176" CREATED="1591851379650" MODIFIED="1591890442783"><richcontent TYPE="NOTE">
-
+<node TEXT="MCUboot" ID="ID_1432477176" CREATED="1591851379650" MODIFIED="1591890442783"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1417,10 +1285,8 @@
       可以参考子节点的一个介绍MCUboot的文章。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="介绍MCUboot的文章" ID="ID_1302133779" CREATED="1591888275778" MODIFIED="1591888325247"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="介绍MCUboot的文章" ID="ID_1302133779" CREATED="1591888275778" MODIFIED="1591888325247"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1433,15 +1299,13 @@
       https://lgl88911.gitee.io/2019/03/24/Zephyr%E4%BD%BF%E7%94%A8mcuboot/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="application" ID="ID_407522652" CREATED="1591851317531" MODIFIED="1591851320101"/>
 </node>
-<node TEXT="将bootloader与应用程序一起编译" FOLDED="true" ID="ID_1150932088" CREATED="1591862383922" MODIFIED="1591929886250"><richcontent TYPE="NOTE">
-
+<node TEXT="将bootloader与应用程序一起编译" FOLDED="true" ID="ID_1150932088" CREATED="1591862383922" MODIFIED="1591929886250"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1466,17 +1330,15 @@
       但是在nRF SDK里面，是集成在一起的，就是在编译application的时候，如果选择了包含bootloader的话，那么最终生成的image就是一个完整的同时包含了bootloader和application的镜像文件。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Add Immutable bootloader" ID="ID_1441630642" CREATED="1591862393292" MODIFIED="1591862399236"/>
 <node TEXT="Add upgradable bootloader" ID="ID_1197672140" CREATED="1591862407586" MODIFIED="1591862418597"/>
 </node>
 </node>
 <node TEXT="secure partition manager" FOLDED="true" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592288320676" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="775;0;" ENDINCLINATION="775;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="581.24998 pt;0 pt;" ENDINCLINATION="581.24998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1516,11 +1378,9 @@
       上面的PS的内容是不准确的，实际上示例代码提供了一些secure service，让处于non-secure区域的应用代码调用。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="SPM库" ID="ID_91206769" CREATED="1592203369245" MODIFIED="1592203371765"/>
-<node TEXT="Secure Service" ID="ID_219269690" CREATED="1592288331186" MODIFIED="1592288430102"><richcontent TYPE="NOTE">
-
+<node TEXT="Secure Service" ID="ID_219269690" CREATED="1592288331186" MODIFIED="1592288430102"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1539,16 +1399,14 @@
       https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/include/secure_services.html#lib-secure-services
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="application" ID="ID_904131689" CREATED="1591609421780" MODIFIED="1591609424357"/>
 <node TEXT="BSD socket" ID="ID_1381550855" CREATED="1591609429475" MODIFIED="1591609980740" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrfxlib/bsdlib/README.html#bsdlib"/>
 <node TEXT="LTE modem" ID="ID_11874769" CREATED="1591609433788" MODIFIED="1591609436599"/>
 </node>
-<node TEXT="Band lock" ID="ID_1432234983" CREATED="1591609486636" MODIFIED="1591610048782"><richcontent TYPE="NOTE">
-
+<node TEXT="Band lock" ID="ID_1432234983" CREATED="1591609486636" MODIFIED="1591610048782"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1564,12 +1422,10 @@
       The modem can only operate on four certified bands: 3, 4, 13, and 20. The application cannot override this restriction.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Network mode" ID="ID_878357465" CREATED="1591609497989" MODIFIED="1591609502768">
-<node TEXT="Concurrent GPS and LTE" ID="ID_245145890" CREATED="1591610114229" MODIFIED="1591610211335"><richcontent TYPE="NOTE">
-
+<node TEXT="Concurrent GPS and LTE" ID="ID_245145890" CREATED="1591610114229" MODIFIED="1591610211335"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1600,16 +1456,14 @@
       Typically the time ranges between 5 seconds to 70 seconds after the last data transfer on LTE. Sensor and GPS data is sent to the cloud only during the data transfer phase.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="FOTA upgrades" ID="ID_505906595" CREATED="1591610219430" MODIFIED="1591610223224"/>
 <node TEXT="Samples" ID="ID_671364008" CREATED="1591610281221" MODIFIED="1591610285665" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples.html#nrf9160-samples"/>
 </node>
 <node TEXT="Working with Thingy:91" FOLDED="true" ID="ID_1286848598" CREATED="1591704467813" MODIFIED="1591704476020">
-<node TEXT="烧写软件" ID="ID_873505696" CREATED="1594463635556" MODIFIED="1594478915524"><richcontent TYPE="NOTE">
-
+<node TEXT="烧写软件" ID="ID_873505696" CREATED="1594463635556" MODIFIED="1594478915524"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1628,10 +1482,8 @@
       同样需要注意的是，如果要使用这种方式来烧写板子，那么代码的配置文件里面，就必须 要把MCUboot给配置进去。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="代码配置prj.conf" ID="ID_1203853254" CREATED="1594478923711" MODIFIED="1594479021343"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="代码配置prj.conf" ID="ID_1203853254" CREATED="1594478923711" MODIFIED="1594479021343"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1686,11 +1538,9 @@
       CONFIG_IMG_ERASE_PROGRESSIVELY=y
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="烧写hex文件" ID="ID_737034938" CREATED="1594479024406" MODIFIED="1594479068575"><richcontent TYPE="NOTE">
-
+<node TEXT="烧写hex文件" ID="ID_737034938" CREATED="1594479024406" MODIFIED="1594479068575"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1700,15 +1550,13 @@
       使用programmer工具烧写app_signed.hex这个文件。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="Applications&amp;Samples" ID="ID_388318850" CREATED="1591594402673" MODIFIED="1591594413590">
-<node TEXT="GPS示例" ID="ID_1830389595" CREATED="1592465615786" MODIFIED="1592807981782"><richcontent TYPE="NOTE">
-
+<node TEXT="GPS示例" ID="ID_1830389595" CREATED="1592465615786" MODIFIED="1592807981782"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1736,11 +1584,9 @@
       4，定位功能完全是在GPS模块内部自己完成，GPS模块完成一次定位之后会通过socket接口向应用程序发送信息，应用程序只要使用recv()就可以接收到GPS的定位了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="依赖的库" FOLDED="true" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
-<node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1594825894919"><richcontent TYPE="NOTE">
-
+<node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1594825894919"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1759,10 +1605,8 @@
       在nRF提供的API是将这些功能封装成了socket，应用程序只需要建立特定的socket，就能够使用这些服务了。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1594825905713"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="AT命令Socket" ID="ID_1655698583" CREATED="1592470384926" MODIFIED="1594825905713"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1775,10 +1619,8 @@
       nRF提供了一个AT命令的Sockt，应用程序只需要创建这个socket，然后使用socket的读写命令就能够给Modem发送AT命令以及获取AT命令的返回字符串。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1598421282070"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1598421282070"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1800,13 +1642,11 @@
       在发生同时有多个写AT命令的请求时，AT命令接口内部会将这些请求排序，顺序的执行并依次将结果返回给各自的请求者。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="GPS Socket" ID="ID_1411648197" CREATED="1592470400848" MODIFIED="1592470405752"/>
-<node TEXT="PDN管理" ID="ID_1115375386" CREATED="1592534317253" MODIFIED="1592535029623"><richcontent TYPE="NOTE">
-
+<node TEXT="PDN管理" ID="ID_1115375386" CREATED="1592534317253" MODIFIED="1592535029623"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1837,12 +1677,10 @@
       3，然后用户application就可以使用自己创建的这个socket进行通信了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1594825981799"><richcontent TYPE="NOTE">
-
+<node TEXT="SUPL客户端库" ID="ID_745374773" CREATED="1592465970411" MODIFIED="1594825981799"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1875,13 +1713,11 @@
       所以使用SUPL的话，在nRF SDK的环境下，集成SUPL client OS integration library这个库就可以了。感受到了什么？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="SUPL client" ID="ID_244938073" CREATED="1592799611886" MODIFIED="1592799613250">
 <node TEXT="可能的问题" ID="ID_1412395199" CREATED="1592802466194" MODIFIED="1592802818750">
 <icon BUILTIN="stop-sign"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1897,8 +1733,7 @@
       在实际应用的时候，可能需要替换成能够在国内访问的服务器。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="SUPL client OS integration library" ID="ID_217017119" CREATED="1592799620934" MODIFIED="1592799622297"/>
@@ -1906,8 +1741,7 @@
 <node TEXT="AT命令接口" ID="ID_68316434" CREATED="1592466031803" MODIFIED="1592466042750"/>
 </node>
 </node>
-<node TEXT="简单MQTT实例" ID="ID_336610260" CREATED="1592808991801" MODIFIED="1592884895381"><richcontent TYPE="NOTE">
-
+<node TEXT="简单MQTT实例" ID="ID_336610260" CREATED="1592808991801" MODIFIED="1592884895381"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1941,11 +1775,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="使用的库" FOLDED="true" ID="ID_732475382" CREATED="1592809968522" MODIFIED="1592809973679">
-<node TEXT="LTE Link Control" ID="ID_383268992" CREATED="1592809974771" MODIFIED="1592816898738"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="使用的库" ID="ID_732475382" CREATED="1592809968522" MODIFIED="1592809973679">
+<node TEXT="LTE Link Control" ID="ID_383268992" CREATED="1592809974771" MODIFIED="1592816898738"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1958,10 +1790,8 @@
       相当于是封装了一个LTE库，只要编译的时候包含了这个库，就能够让nRF91板子轻易的完成LTE网络的配置。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="prj" ID="ID_1406184754" CREATED="1592816900834" MODIFIED="1592817097381"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="prj" ID="ID_1406184754" CREATED="1592816900834" MODIFIED="1592817097381"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1971,13 +1801,11 @@
       CONFIG_LTE_LINK_CONTROL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="BSD library" ID="ID_274367169" CREATED="1592842253614" MODIFIED="1592842258252"/>
-<node TEXT="MQTT" ID="ID_1203527956" CREATED="1592842263389" MODIFIED="1594479411849"><richcontent TYPE="NOTE">
-
+<node TEXT="MQTT" ID="ID_1203527956" CREATED="1592842263389" MODIFIED="1621321529551"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1993,10 +1821,9 @@
 </html>
 </richcontent>
 <node TEXT="流程" ID="ID_16500976" CREATED="1592883405632" MODIFIED="1592883579561">
-<node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1594479433005">
+<node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1621321703787">
 <icon BUILTIN="full-1"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2014,8 +1841,7 @@
 </node>
 <node TEXT="连接MQTT Broker" ID="ID_1755692985" CREATED="1592883870663" MODIFIED="1592884827514">
 <icon BUILTIN="full-2"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2025,13 +1851,11 @@
       这个阶段做的事情非常的简单，就是直接调用Zephyr的MQTT接口<b><font color="#008000">mqtt_connect()</font></b>函数。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="接收流程" ID="ID_1637162097" CREATED="1592884670681" MODIFIED="1592884829758">
 <icon BUILTIN="full-3"/>
-<node TEXT="获取Socket端口然后poll()" ID="ID_1734841746" CREATED="1592883922495" MODIFIED="1592883999411"><richcontent TYPE="NOTE">
-
+<node TEXT="获取Socket端口然后poll()" ID="ID_1734841746" CREATED="1592883922495" MODIFIED="1592883999411"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2041,10 +1865,8 @@
       这一步是为了接收从MQTT broker发过来的消息。在上面的mqtt_connect()执行完成之后，socket连接就已经建立起来了。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="mqtt_input()" ID="ID_667286307" CREATED="1592884022817" MODIFIED="1592884167588"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="mqtt_input()" ID="ID_667286307" CREATED="1592884022817" MODIFIED="1592884167588"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2057,12 +1879,10 @@
       需要注意的是，在接收完数据包之后，会自动触发我们注册的event handler函数
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="执行event_handler()" ID="ID_531378072" CREATED="1592884172455" MODIFIED="1592884187713">
-<node TEXT="mqtt_read_publish_payload()" ID="ID_505041442" CREATED="1592884578112" MODIFIED="1592884613044"><richcontent TYPE="NOTE">
-
+<node TEXT="mqtt_read_publish_payload()" ID="ID_505041442" CREATED="1592884578112" MODIFIED="1592884613044"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2072,16 +1892,14 @@
       使用这个接口获取发布内容的payload()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="Publish流程" ID="ID_1931567432" CREATED="1592884678688" MODIFIED="1592884831938">
 <icon BUILTIN="full-3"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2094,8 +1912,7 @@
       调用Zephyr的<b><font color="#008000">mqtt_publish()</font></b>函数完成数据的发布
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2107,8 +1924,7 @@
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2121,10 +1937,8 @@
       <a href="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_nrf9160.html">https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_nrf9160.html</a>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="设备Driver模型" ID="ID_627794340" CREATED="1587713173943" MODIFIED="1587714107168" LINK="https://onedrive.live.com/view.aspx?resid=C924C414C7191D53%25211189&amp;id=documents&amp;wd=target%2528%25E5%25BF%25AB%25E9%2580%259F%25E7%25AC%2594%25E8%25AE%25B0.one%257C683E139F-43E4-4080-84E3-B1053D7F6260%252FMotion_driver%257C2697D566-0F4A-400D-A863-043A5F8AB376%252F%2529%20onenote:https://d.docs.live.net/c924c414c7191d53/Documents/军%2520的笔记本/快速笔记.one#Motion_driver&amp;section-id=%7B683E139F-43E4-4080-84E3-B1053D7F6260%7D&amp;page-id=%7B2697D566-0F4A-400D-A863-043A5F8AB376%7D&amp;end"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="设备Driver模型" ID="ID_627794340" CREATED="1587713173943" MODIFIED="1587714107168" LINK="https://onedrive.live.com/view.aspx?resid=C924C414C7191D53%25211189&amp;id=documents&amp;wd=target%2528%25E5%25BF%25AB%25E9%2580%259F%25E7%25AC%2594%25E8%25AE%25B0.one%257C683E139F-43E4-4080-84E3-B1053D7F6260%252FMotion_driver%257C2697D566-0F4A-400D-A863-043A5F8AB376%252F%2529%20onenote:https://d.docs.live.net/c924c414c7191d53/Documents/军%2520的笔记本/快速笔记.one#Motion_driver&amp;section-id=%7B683E139F-43E4-4080-84E3-B1053D7F6260%7D&amp;page-id=%7B2697D566-0F4A-400D-A863-043A5F8AB376%7D&amp;end"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2134,11 +1948,9 @@
       参考跳转链接中显示的一个例子
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="项目编译的时候将需要的驱动包含进去" ID="ID_728461600" CREATED="1587713476989" MODIFIED="1587713499927"/>
-<node TEXT="device_get_binding(&quot;driver_name&quot;)" ID="ID_392364904" CREATED="1587713501461" MODIFIED="1587714141308"><richcontent TYPE="NOTE">
-
+<node TEXT="device_get_binding(&quot;driver_name&quot;)" ID="ID_392364904" CREATED="1587713501461" MODIFIED="1587714141308"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2148,11 +1960,9 @@
       使用driver_name这么一个字符串来获取驱动的dev对象
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="poll机制" ID="ID_448201104" CREATED="1587713791273" MODIFIED="1587714171112"><richcontent TYPE="NOTE">
-
+<node TEXT="poll机制" ID="ID_448201104" CREATED="1587713791273" MODIFIED="1587714171112"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2162,13 +1972,11 @@
       先采样，然后再读取采样得到的数据。参考子节点的连个函数
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="sensor_sample_fetch_channel(dev, channal)" ID="ID_769293338" CREATED="1587713840634" MODIFIED="1587713918963"/>
 <node TEXT="sensor_channel_get(dev, channel, &amp;data)" ID="ID_1752794650" CREATED="1587713840634" MODIFIED="1587713934690"/>
 </node>
-<node TEXT="trigger机制" ID="ID_1338942093" CREATED="1587713795555" MODIFIED="1587714219919"><richcontent TYPE="NOTE">
-
+<node TEXT="trigger机制" ID="ID_1338942093" CREATED="1587713795555" MODIFIED="1587714219919"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2178,13 +1986,11 @@
       trigger的方法是类似于中断机制，注册一个触发的条件，同时注册一个触发条件满足后的回调函数。当触发的条件满足的时候，回调函数就会被执行。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="sensor_trigger_set(dev, trigger, handler)" ID="ID_1014524621" CREATED="1587713993208" MODIFIED="1587714011035"/>
 </node>
 </node>
-<node TEXT="云Driver模型" ID="ID_922726756" CREATED="1587713203552" MODIFIED="1587718809385" LINK="../OneNote/AssesstTracker.one"><richcontent TYPE="NOTE">
-
+<node TEXT="云Driver模型" ID="ID_922726756" CREATED="1587713203552" MODIFIED="1587718809385" LINK="../OneNote/AssesstTracker.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2194,15 +2000,13 @@
       参考跳转链接中的例子。清晰的描述了设备和云端是如何连接和通信的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="项目编译的时候将需要的云驱动编译进去" ID="ID_261389211" CREATED="1587717034846" MODIFIED="1587717050922"/>
 </node>
 <node TEXT="代码分析" ID="ID_392767526" CREATED="1593605050976" MODIFIED="1593605056004">
 <node TEXT="prj.conf" ID="ID_1413036563" CREATED="1593605064248" MODIFIED="1593606394200">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2575,13 +2379,11 @@
       CONFIG_WATCHDOG=y
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="ZephyrOS的Workqueue处理" ID="ID_1194876135" CREATED="1593696210666" MODIFIED="1593697235055"/>
 <node TEXT="网络处理" ID="ID_793037479" CREATED="1593695956241" MODIFIED="1593695964180">
-<node TEXT="连接LTE网络" ID="ID_687420014" CREATED="1593695972717" MODIFIED="1593697213017"><richcontent TYPE="NOTE">
-
+<node TEXT="连接LTE网络" ID="ID_687420014" CREATED="1593695972717" MODIFIED="1593697213017"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2591,10 +2393,9 @@
       使用的是完全封装的LTE Link Control库
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="modem_configure()" ID="ID_904204409" CREATED="1593696249349" MODIFIED="1594025619870">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_891820953" STARTINCLINATION="1002;0;" ENDINCLINATION="1002;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_891820953" STARTINCLINATION="751.49998 pt;0 pt;" ENDINCLINATION="751.49998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="nRF云处理" ID="ID_675738347" CREATED="1593695982237" MODIFIED="1593696135562">
@@ -2615,8 +2416,7 @@
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2626,13 +2426,11 @@
       这个函数是非常重要的一个函数，是因为它注册了event handler这个callback函数，在设备从nRF云接收到数据，调用cloud_input()之后，会自动调用这里的event handler处理收到的数据。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="cloud_decode_init()" ID="ID_1596073095" CREATED="1593696190934" MODIFIED="1593696193492"/>
 <node TEXT="cloud_connect()" ID="ID_1192119864" CREATED="1593696273462" MODIFIED="1593696275402"/>
-<node TEXT="for(;;)" ID="ID_1564850437" CREATED="1593696287249" MODIFIED="1593697030494"><richcontent TYPE="NOTE">
-
+<node TEXT="for(;;)" ID="ID_1564850437" CREATED="1593696287249" MODIFIED="1593697030494"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2642,10 +2440,9 @@
       进入for循环，持续poll云端的socket
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="cloud_input()" ID="ID_267268416" CREATED="1593696351116" MODIFIED="1593697020416">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1673423060" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1673423060" STARTINCLINATION="84 pt;0 pt;" ENDINCLINATION="84 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="cloud_disconnect()" ID="ID_683111512" CREATED="1593696554002" MODIFIED="1593696556269"/>
@@ -2662,7 +2459,7 @@
 <node TEXT="sensors_start()" ID="ID_145194583" CREATED="1593699743536" MODIFIED="1593700263249">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1447496195" STARTINCLINATION="554;0;" ENDINCLINATION="554;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1447496195" STARTINCLINATION="415.49999 pt;0 pt;" ENDINCLINATION="415.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="CLOUD_EVT_ERROR" ID="ID_47074227" CREATED="1593697623822" MODIFIED="1593697624645"/>
@@ -2671,9 +2468,8 @@
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_37727885" STARTINCLINATION="270;0;" ENDINCLINATION="270;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_37727885" STARTINCLINATION="202.49999 pt;0 pt;" ENDINCLINATION="202.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2683,8 +2479,7 @@
       这个event表示设备上接收到了nRF云发过来的数据，这时候会调用另外一个重要的函数去解析云端数据具体内容，然后做出反应。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="CLOUD_EVT_PAIR_REQUEST" ID="ID_184557176" CREATED="1593697640789" MODIFIED="1593697641522"/>
 <node TEXT="CLOUD_EVT_PAIR_DONE" ID="ID_172726914" CREATED="1593697653697" MODIFIED="1593697653781"/>
@@ -2693,10 +2488,10 @@
 <node TEXT="cloud_decode_command()" ID="ID_37727885" CREATED="1593697780892" MODIFIED="1593699174348">
 <icon BUILTIN="bookmark"/>
 <node TEXT="cloud_search_cmd()" ID="ID_350497263" CREATED="1593699226749" MODIFIED="1593699256096">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="57;0;" ENDINCLINATION="57;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="42.75 pt;0 pt;" ENDINCLINATION="42.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="cloud_search_config()" ID="ID_386879525" CREATED="1593699235771" MODIFIED="1593699259300">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="30 pt;0 pt;" ENDINCLINATION="30 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="cloud_cmd_handler()" ID="ID_1141820697" CREATED="1593699162003" MODIFIED="1593699177922">
 <icon BUILTIN="bookmark"/>
@@ -2729,8 +2524,7 @@
 </node>
 <node TEXT="UI处理" ID="ID_1061314983" CREATED="1593696523032" MODIFIED="1593696529695"/>
 </node>
-<node TEXT="接入NB-IoT网络" ID="ID_130042723" CREATED="1594195630206" MODIFIED="1594195754127"><richcontent TYPE="NOTE">
-
+<node TEXT="接入NB-IoT网络" ID="ID_130042723" CREATED="1594195630206" MODIFIED="1594195754127"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2743,10 +2537,8 @@
       需要烧写新的接入NB-IoT网络的固件。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="默认固件的log" ID="ID_1847719399" CREATED="1594195724831" MODIFIED="1594195879037"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="默认固件的log" ID="ID_1847719399" CREATED="1594195724831" MODIFIED="1594195879037"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2756,11 +2548,9 @@
       如果使用默认的固件，但是插上了NB-IoT的sim卡，使用LTE Link Monitor观察串口的输出就会发现网络状态一直处于搜索网络的阶段。这就是因为设备一直在搜索CAT-M网络，但是国内没有运行商布了CaT-M的网络。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="PCO和ePCO" ID="ID_432418052" CREATED="1594195965566" MODIFIED="1594196518016"><richcontent TYPE="NOTE">
-
+<node TEXT="PCO和ePCO" ID="ID_432418052" CREATED="1594195965566" MODIFIED="1594196518016"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2790,10 +2580,8 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="中国移动的NB-IoT网络" ID="ID_1793282430" CREATED="1594196268615" MODIFIED="1594196374385"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="中国移动的NB-IoT网络" ID="ID_1793282430" CREATED="1594196268615" MODIFIED="1594196374385"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2803,11 +2591,9 @@
       中国移动的NB-IoT网络是使用的ePCO，所以如果我们的设备希望接入中国移动的NB-IoT网络的话，需要固件使用ePCO配置
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="iBasis的NB-IoT网络" ID="ID_647285746" CREATED="1594196277310" MODIFIED="1594196440999"><richcontent TYPE="NOTE">
-
+<node TEXT="iBasis的NB-IoT网络" ID="ID_647285746" CREATED="1594196277310" MODIFIED="1594196440999"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2817,16 +2603,14 @@
       设备默认赠送的iBasis的NB-IoT网络是使用的PCO，所以如果我们的设备希望使用这张卡接入网络的话，需要固件使用legacy的PCO配置。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="Drivers" ID="ID_1205682786" CREATED="1591594418208" MODIFIED="1591594420274">
-<node TEXT="nrfx" ID="ID_758059516" CREATED="1591597029535" MODIFIED="1591597106733"><richcontent TYPE="NOTE">
-
+<node TEXT="nrfx" ID="ID_758059516" CREATED="1591597029535" MODIFIED="1591597106733"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2836,13 +2620,11 @@
       这是一个驱动库，里面包含了Nordic产品SoC中使用到的外设的驱动。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Libraries" ID="ID_1732530383" CREATED="1591594435352" MODIFIED="1591594444924">
-<node TEXT="LTE Link Control" ID="ID_891820953" CREATED="1594025590962" MODIFIED="1594027540728"><richcontent TYPE="NOTE">
-
+<node TEXT="LTE Link Control" ID="ID_891820953" CREATED="1594025590962" MODIFIED="1594027540728"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2867,10 +2649,8 @@
       LTE Link Control这个库用于将使能和配置LTE网络的操作给封装成简单统一的API操作。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="最小使用集" ID="ID_1536825757" CREATED="1594027547876" MODIFIED="1594028400849"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="最小使用集" ID="ID_1536825757" CREATED="1594027547876" MODIFIED="1594028400849"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2921,8 +2701,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="配置选项" ID="ID_1526940872" CREATED="1594027839293" MODIFIED="1594028322222" LINK="../attachment/LteLinkControl.png"/>
 </node>
 </node>
@@ -2932,8 +2711,7 @@
 </node>
 <node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
 <edge COLOR="#7c0000"/>
-<node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE">
-
+<node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2961,12 +2739,10 @@
       基本上就是这么 一个思路。有一些例子，比如储存在板子上的密钥，还有bootloader之类的内容，就需要放在安全世界，这些内容不希望能够被普通的应用软件访问。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="参考资料" ID="ID_942787073" CREATED="1592216500317" MODIFIED="1592273246665">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2976,10 +2752,8 @@
       子节点中贴上的两个参考资料非常的好，基本上根据这两个文档能够很好的了解TrustZone了。英文的文档是ARM的官方文档，中文是一个讲座的文字版。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="中文介绍" ID="ID_1853256054" CREATED="1592216505122" MODIFIED="1592216751716" LINK="http://www.stmcu.org.cn/module/forum/thread-625180-1-1.html"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="中文介绍" ID="ID_1853256054" CREATED="1592216505122" MODIFIED="1592216751716" LINK="http://www.stmcu.org.cn/module/forum/thread-625180-1-1.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2995,14 +2769,12 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="英文介绍" ID="ID_594192066" CREATED="1592216585300" MODIFIED="1592271897076" LINK="../attachment/armv8_m_architecture_trustzone_technology_100690_0201_01_en.pdf"/>
 </node>
 <node TEXT="概要" ID="ID_1226050477" CREATED="1592275136361" MODIFIED="1592275141908">
-<node TEXT="系统地址划分不同区域" ID="ID_1625326526" CREATED="1592273066779" MODIFIED="1592276008667"><richcontent TYPE="NOTE">
-
+<node TEXT="系统地址划分不同区域" ID="ID_1625326526" CREATED="1592273066779" MODIFIED="1592276008667"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3012,10 +2784,8 @@
       Cortex-M33的TrustZone技术，主要要做的事情，就是将系统的地址空间划分成不同大的区域，标记出一些区域不让普通的应用程序访问。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Secure(S)" ID="ID_1220228381" CREATED="1592275921701" MODIFIED="1592276203461"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Secure(S)" ID="ID_1220228381" CREATED="1592275921701" MODIFIED="1592276203461"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3025,11 +2795,9 @@
       安全区域，这些内存地址区域是不允许Non-Secure的软件访问的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Non-Secure Callable(NSC)" ID="ID_573611338" CREATED="1592275924903" MODIFIED="1592276546165"><richcontent TYPE="NOTE">
-
+<node TEXT="Non-Secure Callable(NSC)" ID="ID_573611338" CREATED="1592275924903" MODIFIED="1592276546165"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3048,11 +2816,9 @@
       首先这个区间是Non-Secure区间的应用可以访问的，一般可以在这个区间中定义一些服务函数API，Non-Secure世界的代码通过调用这些定义在NSC中的API访问Secure时间的服务，因为在NSC区域，可以访问Secure时间的内存地址。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Non-Secure(NS)" ID="ID_1330058813" CREATED="1592275939263" MODIFIED="1592276230438"><richcontent TYPE="NOTE">
-
+<node TEXT="Non-Secure(NS)" ID="ID_1330058813" CREATED="1592275939263" MODIFIED="1592276230438"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3062,12 +2828,10 @@
       普通的用户软件就运行在Non-Secure划定的地址区间里面。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="需要的硬件设备" ID="ID_1365014748" CREATED="1592276238592" MODIFIED="1592284388093"><richcontent TYPE="NOTE">
-
+<node TEXT="需要的硬件设备" ID="ID_1365014748" CREATED="1592276238592" MODIFIED="1592284388093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3101,10 +2865,8 @@
       一般SAU和IDAU结合使用的时候使用IDAU进行静态的大块地址空间的配置，然后使用SAU进行动态的小范围的修改。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="SAU" ID="ID_285498550" CREATED="1592273110098" MODIFIED="1592278094528"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="SAU" ID="ID_285498550" CREATED="1592273110098" MODIFIED="1592278094528"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -3114,10 +2876,8 @@
       Secure Attribution Unit
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3127,11 +2887,9 @@
       这个是CPU自带的内部模块，用于
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="IDAU" ID="ID_684567539" CREATED="1592276644590" MODIFIED="1592276690370"><richcontent TYPE="DETAILS">
-
+<node TEXT="IDAU" ID="ID_684567539" CREATED="1592276644590" MODIFIED="1592276690370"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -3141,13 +2899,11 @@
       Implementation Defined Attribution Unit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="SAU寄存器小结" ID="ID_1919461156" CREATED="1592273130619" MODIFIED="1592273141846">
-<node TEXT="CTRL" ID="ID_1921586318" CREATED="1592284889484" MODIFIED="1592284943620"><richcontent TYPE="NOTE">
-
+<node TEXT="CTRL" ID="ID_1921586318" CREATED="1592284889484" MODIFIED="1592284943620"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3157,11 +2913,9 @@
       这个寄存器用于控制使能还是去使能SAU设备。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="TYPE" ID="ID_794531981" CREATED="1592284894226" MODIFIED="1592284991319"><richcontent TYPE="NOTE">
-
+<node TEXT="TYPE" ID="ID_794531981" CREATED="1592284894226" MODIFIED="1592284991319"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3171,11 +2925,9 @@
       只读寄存器，指示系统中有多少个region
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="RNR" ID="ID_795043298" CREATED="1592284899860" MODIFIED="1592285043627"><richcontent TYPE="NOTE">
-
+<node TEXT="RNR" ID="ID_795043298" CREATED="1592284899860" MODIFIED="1592285043627"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3185,11 +2937,9 @@
       配置一个Region的时候，使用这个寄存器选择一个将要操作的region的number
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="RBAR" ID="ID_508883086" CREATED="1592284909324" MODIFIED="1592285102196"><richcontent TYPE="NOTE">
-
+<node TEXT="RBAR" ID="ID_508883086" CREATED="1592284909324" MODIFIED="1592285102196"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3199,13 +2949,11 @@
       配置一个region的时候，使用这个寄存器指示当前配置的region的起始地址
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="RLAR" ID="ID_1815000314" CREATED="1592284914289" MODIFIED="1592285188064">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3227,31 +2975,29 @@
       并且还可以同时控制是否使能这个region
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="如何配置一个Region" ID="ID_1513436862" CREATED="1592285250274" MODIFIED="1592285256932">
 <node TEXT="选择操作region" ID="ID_585702928" CREATED="1592285258785" MODIFIED="1592285344653">
 <icon BUILTIN="full-1"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_795043298" STARTINCLINATION="211;0;" ENDINCLINATION="211;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_795043298" STARTINCLINATION="158.25 pt;0 pt;" ENDINCLINATION="158.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="填写region起始地址" ID="ID_992790401" CREATED="1592285272538" MODIFIED="1592285348973">
 <icon BUILTIN="full-2"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_508883086" STARTINCLINATION="227;0;" ENDINCLINATION="227;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_508883086" STARTINCLINATION="170.24999 pt;0 pt;" ENDINCLINATION="170.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="填写region结束地址以及region属性" ID="ID_836854815" CREATED="1592285290579" MODIFIED="1592285352987">
 <icon BUILTIN="full-3"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1815000314" STARTINCLINATION="299;0;" ENDINCLINATION="299;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1815000314" STARTINCLINATION="224.24999 pt;0 pt;" ENDINCLINATION="224.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="所有region配置结束后使能SAU" ID="ID_827916928" CREATED="1592285304323" MODIFIED="1592285358294">
 <icon BUILTIN="full-4"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1921586318" STARTINCLINATION="336;0;" ENDINCLINATION="336;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1921586318" STARTINCLINATION="251.99999 pt;0 pt;" ENDINCLINATION="251.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
 <node TEXT="Secure和Non-Secure状态互相跳转" ID="ID_640416932" CREATED="1592273149362" MODIFIED="1592286987561">
-<node TEXT="原则" ID="ID_1319313185" CREATED="1592286988628" MODIFIED="1592287147506"><richcontent TYPE="NOTE">
-
+<node TEXT="原则" ID="ID_1319313185" CREATED="1592286988628" MODIFIED="1592287147506"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3273,11 +3019,9 @@
       安全世界里的代码可以相应注册为non-secure的中断，这是为了降低中断处理的延迟。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安全世界和非安全世界联系" ID="ID_953421936" CREATED="1592287629281" MODIFIED="1592287843419"><richcontent TYPE="NOTE">
-
+<node TEXT="安全世界和非安全世界联系" ID="ID_953421936" CREATED="1592287629281" MODIFIED="1592287843419"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3296,8 +3040,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3306,8 +3049,7 @@
 </node>
 <node TEXT="Socket编程" POSITION="left" ID="ID_1964924697" CREATED="1592797181140" MODIFIED="1592797260358">
 <edge COLOR="#00007c"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3320,13 +3062,11 @@
       有必要简单的了解一下socket编程的基本知识。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Bld开发" POSITION="right" ID="ID_690499500" CREATED="1594620535285" MODIFIED="1606267690548">
 <edge COLOR="#007c00"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3351,10 +3091,8 @@
       而且，因为主要关注的是震动相关的数据采集，所以在三轴传感器的处理部分可能还需要做进一步的定制化处理。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Demo1版本" ID="ID_1294354754" CREATED="1594765111697" MODIFIED="1594765521451"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Demo1版本" ID="ID_1294354754" CREATED="1594765111697" MODIFIED="1594765521451"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3387,10 +3125,8 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="GPS配置" ID="ID_1823957208" CREATED="1594765394360" MODIFIED="1594765425863"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="GPS配置" ID="ID_1823957208" CREATED="1594765394360" MODIFIED="1594765425863"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3400,12 +3136,10 @@
       Demo版本使用Asset Tracker中的GPS配置的代码，做简单的移植
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="AssetTracker的GPS使用流程" ID="ID_1080613754" CREATED="1594766001607" MODIFIED="1594766065486" LINK="../OneNote/NRF-GPS代码.one"/>
 </node>
-<node TEXT="GPS无法定位" ID="ID_643704255" CREATED="1594892137869" MODIFIED="1594892218369"><richcontent TYPE="NOTE">
-
+<node TEXT="GPS无法定位" ID="ID_643704255" CREATED="1594892137869" MODIFIED="1594892218369"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3433,12 +3167,10 @@
       https://devzone.nordicsemi.com/f/nordic-q-a/63081/not-able-to-enable-psm/257401#257401
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="需要改进的问题" ID="ID_327284091" CREATED="1606792926350" MODIFIED="1606792931452">
-<node TEXT="静止时的三轴坐标只在系统初始话的时候确定一次" ID="ID_234417052" CREATED="1606792884931" MODIFIED="1606969911893"><richcontent TYPE="NOTE">
-
+<node TEXT="静止时的三轴坐标只在系统初始话的时候确定一次" ID="ID_234417052" CREATED="1606792884931" MODIFIED="1606969911893"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3463,10 +3195,8 @@
       使用简单的加权滤波的算法，在每次静止检测时，如果发现物体的位置跟初始位置没有发生变化，那么这次静止状态下测量到的三轴加速度值就可以和历史上储存下来的值做<b><font color="#ff0033">加权</font></b>平均。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="改进" ID="ID_1514933465" CREATED="1606973899970" MODIFIED="1606973983367"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="改进" ID="ID_1514933465" CREATED="1606973899970" MODIFIED="1606973983367"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3482,12 +3212,10 @@
       在检测到物体处于静止状态时，同时判断物体的姿态相对于初始姿态而言没有发生改变，那么就将最初姿态的值做加权平均。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="冲击检测时的参考值更新比较的慢" ID="ID_1157153190" CREATED="1606792942358" MODIFIED="1606796414248"><richcontent TYPE="NOTE">
-
+<node TEXT="冲击检测时的参考值更新比较的慢" ID="ID_1157153190" CREATED="1606792942358" MODIFIED="1606796414248"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3500,11 +3228,9 @@
       这样，就有可能因为轮询时间设置过长，导致冲击被漏检。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="冲击检测的算法过于简陋" ID="ID_1515796486" CREATED="1606796756384" MODIFIED="1606797300065"><richcontent TYPE="NOTE">
-
+<node TEXT="冲击检测的算法过于简陋" ID="ID_1515796486" CREATED="1606796756384" MODIFIED="1606797300065"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3553,11 +3279,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="冲击检测的软件框架可以优调" ID="ID_933670862" CREATED="1606883844339" MODIFIED="1606892499106"><richcontent TYPE="NOTE">
-
+<node TEXT="冲击检测的软件框架可以优调" ID="ID_933670862" CREATED="1606883844339" MODIFIED="1606892499106"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3567,11 +3291,9 @@
       当前冲击检测框架我们使用的是adxl362传感器。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="软件启动的控制" ID="ID_746450888" CREATED="1606973990059" MODIFIED="1606974179884"><richcontent TYPE="NOTE">
-
+<node TEXT="软件启动的控制" ID="ID_746450888" CREATED="1606973990059" MODIFIED="1606974179884"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3590,11 +3312,9 @@
       最好需要有一个开关控制。比如使用设备上的按键来触发软件运行，也就是说设备上电后处于卡死状态，等到安装完毕处于静止状态之后，再按下设备上的按键，然后设备上的代码才开始运行。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="翻转检测的局限性" ID="ID_1832103892" CREATED="1606974360566" MODIFIED="1606974592308"><richcontent TYPE="NOTE">
-
+<node TEXT="翻转检测的局限性" ID="ID_1832103892" CREATED="1606974360566" MODIFIED="1606974592308"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3616,12 +3336,10 @@
       一个可行的方式是在上电状态检测，有哪个轴上的加速度值接近9.8G或者-9.8G，那么这个轴就是我们的基准轴。这同样需要做一个假设，就是设备要么是平方，要么是侧着放，不能斜着放。不过这个假设条件比现在的假设条件已经要宽容很多了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="快速翻倒的时候有时候不能够检测到震动" ID="ID_1347899214" CREATED="1606977554652" MODIFIED="1606977569277"/>
-<node TEXT="网络连接/GPS获取需要长时间" ID="ID_953995090" CREATED="1606977589838" MODIFIED="1606977791125"><richcontent TYPE="NOTE">
-
+<node TEXT="网络连接/GPS获取需要长时间" ID="ID_953995090" CREATED="1606977589838" MODIFIED="1606977791125"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3646,15 +3364,13 @@
       可以使用FIFO来记录多个先后发生的事件，然后使用多线程来单独处理网络连接和GPS位置获取的任务，等到网络连接成功了或者GPS位置获取成功了，从FIFO buffer中获取存好的数据进行上报。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="再次尝试GPS和NB网络共存的模式" ID="ID_621301384" CREATED="1608080509827" MODIFIED="1608080522110"/>
 </node>
 </node>
 </node>
 <node TEXT="可能的系统级改进" ID="ID_197221239" CREATED="1607409703711" MODIFIED="1607409716290">
-<node TEXT="使用LWM2M协议联网" ID="ID_1284208" CREATED="1608080255035" MODIFIED="1608170345464"><richcontent TYPE="NOTE">
-
+<node TEXT="使用LWM2M协议联网" ID="ID_1284208" CREATED="1608080255035" MODIFIED="1608170345464"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3664,11 +3380,9 @@
       将方案改造成为基于LWM2M协议架构，能够带来很多方便的地方，比如像FOTA升级，配置参数更改，信息订阅这些事件都能够得到统一的处理。而且能够比较方便的和NB-IoT的省电功能更好的配合。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="增加一个网关设备" ID="ID_553971912" CREATED="1607409718633" MODIFIED="1608108732057"><richcontent TYPE="NOTE">
-
+<node TEXT="增加一个网关设备" ID="ID_553971912" CREATED="1607409718633" MODIFIED="1608108732057"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3687,10 +3401,8 @@
       也可以不使用蓝牙协议，在nRF52840这个芯片上，除了蓝牙协议之外，还支持zigbee协议，这个协议有可能能耗更加的低。可以调查一下是否可以使用zigbee协议来组成这种网关和节点的连接。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="网关设备和节点设备分离" ID="ID_943840539" CREATED="1608080289556" MODIFIED="1608080373239"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="网关设备和节点设备分离" ID="ID_943840539" CREATED="1608080289556" MODIFIED="1608080373239"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3706,12 +3418,10 @@
       网关设备具有联网功能，以及定位功能，同时通过蓝牙连接多个节点设备。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="增加手机网关" ID="ID_1575717509" CREATED="1607410503672" MODIFIED="1607410584050"><richcontent TYPE="NOTE">
-
+<node TEXT="增加手机网关" ID="ID_1575717509" CREATED="1607410503672" MODIFIED="1607410584050"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3721,11 +3431,9 @@
       在密集部署的时候，可以使用手机来作为网关设备，所有的设备都连接到手机上，通过手机和外界联系。包括获取位置信息，上报数据，获取指令这些内容。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="增加一个配对设备" ID="ID_1860820917" CREATED="1608170351452" MODIFIED="1608183301856"><richcontent TYPE="NOTE">
-
+<node TEXT="增加一个配对设备" ID="ID_1860820917" CREATED="1608170351452" MODIFIED="1608183301856"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3765,12 +3473,10 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="配对设备可以是任意设备" ID="ID_1894913822" CREATED="1608524580182" MODIFIED="1608524737055">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3783,16 +3489,14 @@
       这个设备可以是一个跟批量iot设备在一起的一个手机，或者是一个被烧写了不同软件功能的iot设备，只要它能够得到需要的信息就行。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="Hackathon" POSITION="right" ID="ID_688215932" CREATED="1605753302765" MODIFIED="1605753471284">
 <edge COLOR="#7c007c"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3817,10 +3521,8 @@
       这两种场景下，使用的方案其实与BLD项目的方案能够做到完全一致。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="遇到的问题" ID="ID_1401764076" CREATED="1606267692521" MODIFIED="1606267860189"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="遇到的问题" ID="ID_1401764076" CREATED="1606267692521" MODIFIED="1606267860189"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3854,8 +3556,7 @@
       或者可以通过蓝牙协议来接入到其他的电脑中，通过其他的电脑来上传设备的信息。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
