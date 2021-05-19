@@ -1,13 +1,14 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Hack" FOLDED="false" ID="ID_795276902" CREATED="1318948601309" MODIFIED="1519652586099"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="true"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1354658438" MAX_WIDTH="600 px" COLOR="#000000" STYLE="as_parent">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1354658438" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -19,6 +20,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -54,8 +56,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="ubuntu 11.10 lamp安装" FOLDED="true" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE">
-
+<node TEXT="ubuntu 11.10 lamp安装" FOLDED="true" POSITION="right" ID="ID_1687282173" CREATED="1318948673802" MODIFIED="1318948788817"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -65,10 +66,8 @@
       &#x8303;&#x5fb7;&#x8428;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="apache2 install" ID="ID_1820997748" CREATED="1318948788809" MODIFIED="1318948966239"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="apache2 install" ID="ID_1820997748" CREATED="1318948788809" MODIFIED="1318948966239"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -84,11 +83,9 @@
       sudo aptitude install apache2
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="mysql install" FOLDED="true" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE">
-
+<node TEXT="mysql install" FOLDED="true" ID="ID_957029222" CREATED="1318948803036" MODIFIED="1318948999032"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -104,10 +101,8 @@
       sudo aptitude install mysql-server mysql-client
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="root password" ID="ID_1808990028" CREATED="1319124557436" MODIFIED="1319124567921"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="root password" ID="ID_1808990028" CREATED="1319124557436" MODIFIED="1319124567921"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -117,14 +112,12 @@
       lovexiaoshe
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="VirtualBox上的Debian6.0虚拟机" FOLDED="true" POSITION="right" ID="ID_1086992913" CREATED="1331120397118" MODIFIED="1413880889265">
-<node TEXT="虚拟机上网设置" FOLDED="true" ID="ID_93588915" CREATED="1331120417500" MODIFIED="1331121590789"><richcontent TYPE="NOTE">
-
+<node TEXT="虚拟机上网设置" FOLDED="true" ID="ID_93588915" CREATED="1331120417500" MODIFIED="1331121590789"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -161,10 +154,8 @@
       <b><i><font color="#0000cc">www-proxy.ericsson.se:8080</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="公司代理的设置方法" ID="ID_911384363" CREATED="1331120606713" MODIFIED="1367048214373"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="公司代理的设置方法" ID="ID_911384363" CREATED="1331120606713" MODIFIED="1367048214373"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -182,12 +173,10 @@
       <b><i><font color="#0000cc">export http_proxy=http://www-proxy.ericsson.se:8080</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="虚拟机支持图形界面" ID="ID_1033022025" CREATED="1331121591276" MODIFIED="1331135677366"><richcontent TYPE="NOTE">
-
+<node TEXT="虚拟机支持图形界面" ID="ID_1033022025" CREATED="1331121591276" MODIFIED="1331135677366"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -275,11 +264,9 @@
       &#x4f46;&#x662f;&#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x662f;,windows&#x673a;&#x5668;&#x5fc5;&#x987b;&#x80fd;&#x591f;&#x8bbf;&#x95ee;&#x8fd9;&#x4e2a;&#x865a;&#x62df;&#x673a;.&#x6240;&#x4ee5;&#x865a;&#x62df;&#x673a;&#x7684;&#x914d;&#x7f6e;&#x4f7f;&#x7528;bridge&#x7684;&#x65b9;&#x5f0f;?&#x6211;&#x8bb0;&#x5f97;&#x4ee5;&#x524d;&#x4f7f;&#x7528;colinux&#x7684;&#x65f6;&#x5019;,&#x8fd8;&#x9700;&#x8981;&#x8fdb;&#x884c;&#x7aef;&#x53e3;&#x6620;&#x5c04;&#x7684;&#x8bbe;&#x7f6e;&#x4ec0;&#x4e48;&#x7684;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Perl环境" ID="ID_1018821201" CREATED="1331280935315" MODIFIED="1331280976040"><richcontent TYPE="NOTE">
-
+<node TEXT="Perl环境" ID="ID_1018821201" CREATED="1331280935315" MODIFIED="1331280976040"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -289,11 +276,9 @@
       &#x6309;&#x7167; Web Parser.mm&#x4e2d;&#x7684;&#x5728;Ubuntu&#x4e0a;&#x5b89;&#x88c5;LWP&#x7684;&#x65b9;&#x6cd5;,&#x540c;&#x6837;&#x5728;Debian&#x4e0a;&#x5b89;&#x88c5;LWP&#x73af;&#x5883;&#x6210;&#x529f;!!
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="中文环境设置" ID="ID_1596274777" CREATED="1363757604114" MODIFIED="1363757834793"><richcontent TYPE="NOTE">
-
+<node TEXT="中文环境设置" ID="ID_1596274777" CREATED="1363757604114" MODIFIED="1363757834793"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -330,11 +315,9 @@
       <span class="comment">aptitude install&#xa0;xfonts-wqy</span><span>&#xa0;&#xa0;</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="VIM编辑器的配置" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1394538838078"><richcontent TYPE="NOTE">
-
+<node TEXT="VIM编辑器的配置" ID="ID_290566025" CREATED="1365323295529" MODIFIED="1394538838078"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -350,10 +333,8 @@
       &#25152;&#20197;,&#24076;&#26395;&#22312;&#34394;&#25311;&#26426;&#19978;&#20063;&#37197;&#32622;&#22909;VIM.&#35753;&#20854;&#26082;&#33021;&#22815;&#29992;&#26469;&#20998;&#26512;log&#25991;&#20214;.&#26377;&#33021;&#22815;&#20316;&#20026;IDE&#20351;&#29992;,&#26597;&#30475;&#20195;&#30721;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装Mark插件" ID="ID_156002278" CREATED="1365325677576" MODIFIED="1365325952701"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装Mark插件" ID="ID_156002278" CREATED="1365325677576" MODIFIED="1365325952701"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -402,10 +383,8 @@
       4.&#x5b9e;&#x9645;&#x4e0a;,&#x5b89;&#x88c5;&#x6210;&#x529f;&#x4e4b;&#x540e;,&#x5728;.vim/plugin/&#x76ee;&#x5f55;&#x4e0b;,&#x5c31;&#x80fd;&#x591f;&#x53d1;&#x73b0;&#x4e00;&#x4e2a;&#x53eb;&#x505a;mark.vim&#x7684;&#x6587;&#x4ef6;&#x4e86;,&#x8fd9;&#x5c31;&#x8868;&#x793a;,&#x63d2;&#x4ef6;&#x5b89;&#x88c5;&#x6210;&#x529f;&#x4e86;!
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="如何给Mark插件添加更多的颜色" ID="ID_1640981653" CREATED="1365325989291" MODIFIED="1367048509284"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="如何给Mark插件添加更多的颜色" ID="ID_1640981653" CREATED="1365325989291" MODIFIED="1367048509284"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -457,12 +436,10 @@
       <font size="4" color="#0033ff">let g:mwDefaultHighlightingPalette = 'extended'</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="VIM中使用cscope" ID="ID_1706934409" CREATED="1365410570289" MODIFIED="1365411037409"><richcontent TYPE="NOTE">
-
+<node TEXT="VIM中使用cscope" ID="ID_1706934409" CREATED="1365410570289" MODIFIED="1365411037409"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -481,10 +458,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="快捷键配置" ID="ID_1234769349" CREATED="1365410652679" MODIFIED="1365411710581"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="快捷键配置" ID="ID_1234769349" CREATED="1365410652679" MODIFIED="1365411710581"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -511,11 +486,9 @@
     </p>
     <pre><b><font color="#ff3333">    0 &#x6216; s   &#x67e5;&#x627e;&#x672c; C &#x7b26;&#x53f7;(&#x53ef;&#x4ee5;&#x8df3;&#x8fc7;&#x6ce8;&#x91ca;) <br color="#ff3333"/>    1 &#x6216; g   &#x67e5;&#x627e;&#x672c;&#x5b9a;&#x4e49; <br color="#ff3333"/>    2 &#x6216; d   &#x67e5;&#x627e;&#x672c;&#x51fd;&#x6570;&#x8c03;&#x7528;&#x7684;&#x51fd;&#x6570; <br color="#ff3333"/>    3 &#x6216; c   &#x67e5;&#x627e;&#x8c03;&#x7528;&#x672c;&#x51fd;&#x6570;&#x7684;&#x51fd;&#x6570; <br color="#ff3333"/>    4 &#x6216; t   &#x67e5;&#x627e;&#x672c;&#x5b57;&#x7b26;&#x4e32; <br color="#ff3333"/>    6 &#x6216; e   &#x67e5;&#x627e;&#x672c; egrep &#x6a21;&#x5f0f; <br color="#ff3333"/>    7 &#x6216; f   &#x67e5;&#x627e;&#x672c;&#x6587;&#x4ef6; <br color="#ff3333"/>    8 &#x6216; i   &#x67e5;&#x627e;&#x5305;&#x542b;&#x672c;&#x6587;&#x4ef6;&#x7684;&#x6587;&#x4ef6; </font></b></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="如何在vim中使用cscope" ID="ID_657914668" CREATED="1365410885038" MODIFIED="1365411772988"><richcontent TYPE="NOTE">
-
+<node TEXT="如何在vim中使用cscope" ID="ID_657914668" CREATED="1365410885038" MODIFIED="1365411772988"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -531,12 +504,10 @@
       http://blog.csdn.net/dengxiayehu/article/details/6330200
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="在VIM中如何配置自动换行" ID="ID_949691974" CREATED="1372064380216" MODIFIED="1372066233501"><richcontent TYPE="NOTE">
-
+<node TEXT="在VIM中如何配置自动换行" ID="ID_949691974" CREATED="1372064380216" MODIFIED="1372066233501"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -612,10 +583,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="如何打开底部滚动条" ID="ID_934656120" CREATED="1372064538793" MODIFIED="1372065359019"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="如何打开底部滚动条" ID="ID_934656120" CREATED="1372064538793" MODIFIED="1372065359019"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -652,14 +621,12 @@
       <font size="5" color="#0000cc"><b>:set guioptions-=b</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="Git客户端的安装和配置" ID="ID_1134784686" CREATED="1365400095521" MODIFIED="1365400112272">
-<node TEXT="git命令的输出中,支持中文显示" ID="ID_198766797" CREATED="1365400521253" MODIFIED="1365400780692"><richcontent TYPE="NOTE">
-
+<node TEXT="git命令的输出中,支持中文显示" ID="ID_198766797" CREATED="1365400521253" MODIFIED="1365400780692"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -675,11 +642,9 @@
       <font size="6" color="#0000ff">git config core.quotepath false<br color="#0000ff" size="6"/></font><br/>core.quotepath&#x8bbe;&#x4e3a;false&#x7684;&#x8bdd;&#xff0c;&#x5c31;&#x4e0d;&#x4f1a;&#x5bf9;0x80&#x4ee5;&#x4e0a;&#x7684;&#x5b57;&#x7b26;&#x8fdb;&#x884c;quote&#x3002;&#x4e2d;&#x6587;&#x663e;&#x793a;&#x6b63;&#x5e38;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装git 的图形界面" ID="ID_1895139748" CREATED="1372899166129" MODIFIED="1394254426618"><richcontent TYPE="NOTE">
-
+<node TEXT="安装git 的图形界面" ID="ID_1895139748" CREATED="1372899166129" MODIFIED="1394254426618"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -704,12 +669,10 @@
       <i><font color="#0033ff" size="6">aptitude install git-gui</font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Debian上如何更新VirtualBox Additions" ID="ID_502772469" CREATED="1365392399681" MODIFIED="1394597484083"><richcontent TYPE="NOTE">
-
+<node TEXT="Debian上如何更新VirtualBox Additions" ID="ID_502772469" CREATED="1365392399681" MODIFIED="1394597484083"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -761,11 +724,9 @@
       &#x91cd;&#x542f;Debian&#x5373;&#x53ef;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="VirtualBox上设置共享盘用于虚拟机和宿主机之间文件共享" FOLDED="true" ID="ID_1022434570" CREATED="1365400163177" MODIFIED="1365400295931"><richcontent TYPE="NOTE">
-
+<node TEXT="VirtualBox上设置共享盘用于虚拟机和宿主机之间文件共享" FOLDED="true" ID="ID_1022434570" CREATED="1365400163177" MODIFIED="1365400295931"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -775,10 +736,8 @@
       &#x5176;&#x5b9e;&#x5f88;&#x7b80;&#x5355;,&#x5728;VM VirtualBox&#x7684;&#x865a;&#x62df;&#x673a;&#x7684;&#x7ba1;&#x7406;&#x5668;&#x4e0a;,&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x5171;&#x4eab;&#x6587;&#x4ef6;&#x5939;,&#x7136;&#x540e;&#x9009;&#x62e9;&#x81ea;&#x52a8;&#x6302;&#x8f7d;,&#x7136;&#x540e;&#x542f;&#x52a8;&#x4e4b;&#x540e;&#x5c31;&#x80fd;&#x591f;&#x5728;&#x865a;&#x62df;&#x673a;&#x7684;/media&#x76ee;&#x5f55;&#x4e0b;&#x770b;&#x5230;&#x6302;&#x8f7d;&#x7684;&#x5171;&#x4eab;&#x6587;&#x4ef6;&#x5939;&#x4e86;.&#x5f88;&#x65b9;&#x4fbf;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="当然可以通过编辑/etc/fstab来自己选择挂载点" ID="ID_404778722" CREATED="1365400299625" MODIFIED="1365400431009"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="当然可以通过编辑/etc/fstab来自己选择挂载点" ID="ID_404778722" CREATED="1365400299625" MODIFIED="1365400431009"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -794,12 +753,10 @@
       <font size="6" color="#0000ff">Debian_Share&#xa0;&#xa0;&#xa0;&#xa0;/mnt/share&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;vboxsf&#xa0;&#xa0;defaults&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="使用ssh密钥公钥无密码登录服务器" ID="ID_1706008408" CREATED="1370313058627" MODIFIED="1517532810705" LINK="../pub/ssh-key.htm"><richcontent TYPE="NOTE">
-
+<node TEXT="使用ssh密钥公钥无密码登录服务器" ID="ID_1706008408" CREATED="1370313058627" MODIFIED="1517532810705" LINK="../pub/ssh-key.htm"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -854,12 +811,10 @@
       &#19979;&#19968;&#27425;&#20351;&#29992;ssh test@server_ip_address&#21629;&#20196;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#65292;&#23601;&#33021;&#22815;&#30452;&#25509;&#30331;&#24405;&#20102;&#65292;&#19981;&#38656;&#35201;&#25105;&#20204;&#36755;&#20160;&#23494;&#30721;&#25110;&#32773;&#23494;&#30721;&#30701;&#21477;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="在客户端生成密钥和公钥文件" ID="ID_1022418868" CREATED="1370313949125" MODIFIED="1370325593509">
 <icon BUILTIN="full-1"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -939,13 +894,11 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="在服务器端安放公钥文件" ID="ID_1102343727" CREATED="1370313960970" MODIFIED="1517533310015">
 <icon BUILTIN="full-2"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1000,11 +953,9 @@
       &#22312;&#26381;&#21153;&#22120;&#31471;&#30340;&#25805;&#20316;&#65306;&#20844;&#38053;&#34987;&#19978;&#20256;&#21040;&#26381;&#21153;&#22120;&#31471;&#20043;&#21518;&#65292;&#22312;&#26381;&#21153;&#22120;&#31471;&#30340;&#29992;&#25143;home&#30446;&#24405;&#19979;&#65292;&#21019;&#24314;<b><font color="#336600" size="4">~/.ssh</font></b>&#30446;&#24405;&#65292;&#22914;&#26524;&#23427;&#26412;&#26469;&#19981;&#23384;&#22312;&#30340;&#35805;&#12290;&#28982;&#21518;&#25226;&#19978;&#20256;&#19978;&#26469;&#30340;&#20844;&#38053;&#25991;&#20214;(<b><font color="#336600" size="4">id_dsa.pub</font></b>)&#25918;&#21040;&#36825;&#20010;&#30446;&#24405;&#19979;&#65292;&#25913;&#21517;&#20026;<b><font color="#336600" size="4">authorized_keys</font></b>&#65292;&#24182;&#19988;&#25226;&#23427;&#30340;&#29992;&#25143;&#26435;&#38480;&#35774;&#25104;<b><font color="#336600" size="4">600</font></b>&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="keychain管理密钥，实现完全自动登录" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1517533619128"><richcontent TYPE="NOTE">
-
+<node TEXT="keychain管理密钥，实现完全自动登录" ID="ID_227926413" CREATED="1370313988975" MODIFIED="1517533619128"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1066,10 +1017,8 @@
       OK&#65292;&#23601;&#23436;&#25104;&#20102;&#65281;&#28982;&#21518;&#25105;&#20204;&#20351;&#29992;&#30340;&#26102;&#20505;&#65292;&#21482;&#35201;&#22312;&#31532;&#19968;&#27425;&#30331;&#24405;&#26381;&#21153;&#22120;&#30340;&#26102;&#20505;&#36755;&#20837;&#8220;&#23494;&#30721;&#30701;&#21477;&#8221;&#65292;&#28982;&#21518;&#21363;&#20351;&#23458;&#25143;&#31471;&#37325;&#21551;&#65292;&#20063;&#19981;&#29992;&#20877;&#27425;&#36755;&#20837;&#23494;&#30721;&#30701;&#21477;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="初次启动shell时候的输入" ID="ID_340530375" CREATED="1370360315954" MODIFIED="1370360394922"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="初次启动shell时候的输入" ID="ID_340530375" CREATED="1370360315954" MODIFIED="1370360394922"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1115,12 +1064,10 @@
       &#x8be6;&#x7ec6;&#x7684;&#x4e86;&#x89e3;keychain,&#x53ef;&#x4ee5;&#x5148;&#x4e86;&#x89e3;ssh-agent&#x76f8;&#x5173;&#x7684;&#x77e5;&#x8bc6;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="[附件]生成的公钥文件" FOLDED="true" ID="ID_235730934" CREATED="1370326597673" MODIFIED="1517533646580" LINK="../pub/id_dsa.pub"><richcontent TYPE="NOTE">
-
+<node TEXT="[附件]生成的公钥文件" FOLDED="true" ID="ID_235730934" CREATED="1370326597673" MODIFIED="1517533646580" LINK="../pub/id_dsa.pub"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1136,10 +1083,8 @@
       <b><font color="#0033cc" size="3">http://www.pub.proudj.com/id_dsa.pub</font></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="密码短句" ENCRYPTED_CONTENT="EWUZL5y/7mM= dMWwmUyY3bE=" ID="ID_1949922713" CREATED="1370360191421" MODIFIED="1370360239707"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="密码短句" ENCRYPTED_CONTENT="EWUZL5y/7mM= dMWwmUyY3bE=" ID="ID_1949922713" CREATED="1370360191421" MODIFIED="1370360239707"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1149,13 +1094,11 @@
       &#x5bc6;&#x7801;&#x77ed;&#x53e5;&#x4e3a;"luckyxiaoshe"
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Gnome桌面的护眼设置" ID="ID_200361465" CREATED="1393329327644" MODIFIED="1517532810729" LINK="../MiscDocuments/gnome_eye_protect.jpg"><richcontent TYPE="NOTE">
-
+<node TEXT="Gnome桌面的护眼设置" ID="ID_200361465" CREATED="1393329327644" MODIFIED="1517532810729" LINK="../MiscDocuments/gnome_eye_protect.jpg"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1165,15 +1108,13 @@
       &#21442;&#32771;&#32467;&#28857;&#38468;&#20214;&#20013;&#30340;&#26041;&#27861;&#36827;&#34892;&#35774;&#32622;&#23601;&#34892;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="安装Firefox" FOLDED="true" ID="ID_179321631" CREATED="1394254437333" MODIFIED="1394254445624">
 <node TEXT="安装" ID="ID_385102729" CREATED="1394259440326" MODIFIED="1394259483665" LINK="../MiscDocuments/Firefox_linux.png"/>
 <node TEXT="安装Flash插件" ID="ID_447048366" CREATED="1394259445002" MODIFIED="1394259490261" LINK="../MiscDocuments/Firefox_flash.png"/>
 </node>
-<node TEXT="如果发现虚拟机安装完之后分辨率有问题不能调整" ID="ID_52328120" CREATED="1394546885353" MODIFIED="1394546931955" LINK="#ID_502772469"><richcontent TYPE="NOTE">
-
+<node TEXT="如果发现虚拟机安装完之后分辨率有问题不能调整" ID="ID_52328120" CREATED="1394546885353" MODIFIED="1394546931955" LINK="#ID_502772469"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1183,11 +1124,9 @@
       &#36825;&#26159;&#22240;&#20026;VirtualBox&#30340;&#25554;&#20214;&#27809;&#26377;&#23433;&#35013;&#65292;&#21442;&#32771;&#36339;&#36716;&#32467;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Debian虚拟机支持登录Ericsson的Hub" ID="ID_1720046487" CREATED="1395035633143" MODIFIED="1395035701595"><richcontent TYPE="NOTE">
-
+<node TEXT="Debian虚拟机支持登录Ericsson的Hub" ID="ID_1720046487" CREATED="1395035633143" MODIFIED="1395035701595"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1200,10 +1139,8 @@
       &#38656;&#35201;&#23433;&#35013;&#19968;&#20123;&#36719;&#20214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="登录Hub上的Windows机器" ID="ID_1675725920" CREATED="1395035710448" MODIFIED="1395035940721"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="登录Hub上的Windows机器" ID="ID_1675725920" CREATED="1395035710448" MODIFIED="1395035940721"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1245,11 +1182,9 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="登录Hub上的Linux机器" ID="ID_392057921" CREATED="1395035992338" MODIFIED="1395040876911" LINK="#ID_1711989259"><richcontent TYPE="NOTE">
-
+<node TEXT="登录Hub上的Linux机器" ID="ID_392057921" CREATED="1395035992338" MODIFIED="1395040876911" LINK="#ID_1711989259"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1268,15 +1203,13 @@
       &#20855;&#20307;&#30340;&#22312;Debian&#19978;&#23433;&#35013;Java&#30340;&#27969;&#31243;&#21442;&#29031;&#38142;&#25509;&#25351;&#21521;&#30340;&#32467;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="登录Hub上的Solaris机器" ID="ID_1860041932" CREATED="1395035999203" MODIFIED="1395040949521">
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1295,12 +1228,10 @@
       &#25152;&#20197;&#65292;&#20063;&#27809;&#26377;&#33457;&#21151;&#22827;&#21435;&#30740;&#31350;&#24590;&#20040;&#35299;&#20915;&#36825;&#20010;&#38382;&#39064;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Debian上安装Java" FOLDED="true" ID="ID_1711989259" CREATED="1395039601512" MODIFIED="1395040188639"><richcontent TYPE="NOTE">
-
+<node TEXT="Debian上安装Java" FOLDED="true" ID="ID_1711989259" CREATED="1395039601512" MODIFIED="1395040188639"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1313,10 +1244,8 @@
       &#38656;&#35201;&#21040;Oracle&#30340;&#32593;&#31449;&#19978;&#21435;&#19979;&#36733;&#23433;&#35013;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="操作流程" FOLDED="true" ID="ID_1916528194" CREATED="1395039761915" MODIFIED="1395039986801"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="操作流程" FOLDED="true" ID="ID_1916528194" CREATED="1395039761915" MODIFIED="1395039986801"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1329,10 +1258,8 @@
       <a href="http://java.com/en/download/help/linux_install.xml">http://java.com/en/download/help/linux_install.xml </a>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="1,下载Java" ID="ID_1894478249" CREATED="1395039777892" MODIFIED="1395039790946"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="1,下载Java" ID="ID_1894478249" CREATED="1395039777892" MODIFIED="1395039790946"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1357,11 +1284,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;This is an archive binary file that can be installed by anyone (not only the root users), in any location that you can write to. However, only the root user can install Java into the system location.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="2,安装Java" FOLDED="true" ID="ID_1233706692" CREATED="1395039790941" MODIFIED="1395039818519"><richcontent TYPE="NOTE">
-
+<node TEXT="2,安装Java" FOLDED="true" ID="ID_1233706692" CREATED="1395039790941" MODIFIED="1395039818519"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1416,10 +1341,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="实际的安装地址" ID="ID_230033199" CREATED="1395039865217" MODIFIED="1395039907364"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="实际的安装地址" ID="ID_230033199" CREATED="1395039865217" MODIFIED="1395039907364"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1432,12 +1355,10 @@
       <b><font color="#0000cc" size="5">/usr/java</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="3,配置Java" ID="ID_1489742773" CREATED="1395039840040" MODIFIED="1395039851778"><richcontent TYPE="NOTE">
-
+<node TEXT="3,配置Java" ID="ID_1489742773" CREATED="1395039840040" MODIFIED="1395039851778"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1483,13 +1404,11 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ln -s &lt;Java installation directory&gt;/lib/i386/libnpjp2.so
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Debian8设置开启不进入图形界面" ID="ID_989176451" CREATED="1470272874441" MODIFIED="1511493343122"><richcontent TYPE="NOTE">
-
+<node TEXT="Debian8设置开启不进入图形界面" ID="ID_989176451" CREATED="1470272874441" MODIFIED="1511493343122"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1515,11 +1434,9 @@
     </p>
     <font color="#0033ff" size="4"><b><i>systemctl set-default graphical.target</i></b></font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="配置共享文件夹让其支持创建软链接" FOLDED="true" ID="ID_1916669212" CREATED="1501205059530" MODIFIED="1509932168811"><richcontent TYPE="NOTE">
-
+<node TEXT="配置共享文件夹让其支持创建软链接" FOLDED="true" ID="ID_1916669212" CREATED="1501205059530" MODIFIED="1509932168811"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1541,10 +1458,8 @@
       &#25152;&#20197;&#65292;&#22914;&#26524;&#35201;&#20351;&#29992;&#20849;&#20139;&#25991;&#20214;&#22841;&#26469;&#25193;&#23637;guest&#30340;&#20027;&#26426;&#30340;&#31995;&#32479;&#31354;&#38388;&#30340;&#35805;&#65292;&#23601;&#24517;&#39035;&#35201;&#35299;&#20915;&#36825;&#20010;&#38382;&#39064;&#65292;&#35753;&#20849;&#20139;&#25991;&#20214;&#22841;&#33021;&#22815;&#25903;&#25345;&#36719;&#38142;&#25509;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="操作" ID="ID_1704721738" CREATED="1501205853713" MODIFIED="1501206424043"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="操作" ID="ID_1704721738" CREATED="1501205853713" MODIFIED="1501206424043"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1578,13 +1493,11 @@
       &#28982;&#21518;&#25171;&#24320;&#34394;&#25311;&#26426;&#24212;&#35813;&#23601;&#21487;&#20197;&#20102;&#65292;&#22914;&#26524;&#19981;&#34892;&#30340;&#35805;&#35797;&#30528;&#20197;&#31649;&#29702;&#21592;&#26435;&#38480;&#25191;&#34892;&#35797;&#35797;&#30475;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="[vps.proudj.com@YardVPS]Debian6服务器" FOLDED="true" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1584615672179"><richcontent TYPE="NOTE">
-
+<node TEXT="[vps.proudj.com@YardVPS]Debian6服务器" FOLDED="true" POSITION="right" ID="ID_1396963128" CREATED="1346422329483" MODIFIED="1584615672179"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1597,10 +1510,8 @@
       yardvps.proudj.com
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="解决中文乱码问题" ID="ID_1287103330" CREATED="1346422399153" MODIFIED="1346422822729"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="解决中文乱码问题" ID="ID_1287103330" CREATED="1346422399153" MODIFIED="1346422822729"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1627,11 +1538,9 @@
       &#x7136;&#x540e;&#x9000;&#x51fa;&#x518d;&#x767b;&#x5f55;&#x8fdb;&#x53bb;&#xff0c;&#x5e94;&#x8be5;&#x5c31;&#x53ef;&#x4ee5;&#x80fd;&#x591f;&#x663e;&#x793a;&#x4e2d;&#x6587;&#x4e86;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装编译环境" ID="ID_1387488829" CREATED="1346423330133" MODIFIED="1365400062950"><richcontent TYPE="NOTE">
-
+<node TEXT="安装编译环境" ID="ID_1387488829" CREATED="1346423330133" MODIFIED="1365400062950"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1647,11 +1556,9 @@
       &#x5728;&#x5b89;&#x88c5;perl&#x7684;&#x6a21;&#x5757;&#x4e4b;&#x524d;&#xff0c;&#x9700;&#x8981;&#x5c06;&#x7f16;&#x8bd1;&#x73af;&#x5883;&#x5148;&#x642d;&#x5efa;&#x8d77;&#x6765;&#x3002;&#x5c31;&#x4f7f;&#x7528;&#x4e0a;&#x9762;&#x7684;&#x547d;&#x4ee4;&#x5c31;&#x53ef;&#x4ee5;&#x4e86;&#xff0c;gcc&#x7684;&#x7f16;&#x8bd1;&#x5668;&#x5c31;&#x5b89;&#x88c5;&#x6210;&#x529f;&#x4e86;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装perl模块" ID="ID_1372121527" CREATED="1346422912930" MODIFIED="1346428199804"><richcontent TYPE="NOTE">
-
+<node TEXT="安装perl模块" ID="ID_1372121527" CREATED="1346422912930" MODIFIED="1346428199804"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1661,11 +1568,9 @@
       &#x53c2;&#x8003;web parser.mm&#x4e2d;&#x5173;&#x4e8e;web parser&#x6a21;&#x5757;&#x7684;&#x5b89;&#x88c5;&#x65b9;&#x6cd5;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="防止ssh暴力破解登录" FOLDED="true" ID="ID_827860402" CREATED="1352817686321" MODIFIED="1352817893322"><richcontent TYPE="NOTE">
-
+<node TEXT="防止ssh暴力破解登录" FOLDED="true" ID="ID_827860402" CREATED="1352817686321" MODIFIED="1352817893322"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1741,10 +1646,8 @@
       &#x6709;&#x5fc5;&#x8981;&#x91c7;&#x53d6;&#x63aa;&#x65bd;&#x9632;&#x6b62;root&#x5bc6;&#x7801;&#x88ab;&#x8fd9;&#x6837;&#x66b4;&#x529b;&#x7834;&#x89e3;&#x4e86;!!
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="禁止root用户登录,只允许某些用户登录" ID="ID_1130918398" CREATED="1352817899148" MODIFIED="1352818822188"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="禁止root用户登录,只允许某些用户登录" ID="ID_1130918398" CREATED="1352817899148" MODIFIED="1352818822188"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1790,10 +1693,8 @@
       &#x8fd9;&#x6837;&#x7684;&#x8bdd;,&#x53ea;&#x6709;&#x4e0a;&#x8ff0;&#x7684;user1,user2,user3&#x80fd;&#x591f;&#x767b;&#x5f55;sshd,&#x5176;&#x4ed6;&#x7684;&#x7528;&#x6237;&#x90fd;&#x88ab;&#x7981;&#x6b62;&#x767b;&#x5f55;ssh
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="如何使用root账户呢?" ID="ID_1649480977" CREATED="1352818826032" MODIFIED="1385442989281"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="如何使用root账户呢?" ID="ID_1649480977" CREATED="1352818826032" MODIFIED="1385442989281"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1809,12 +1710,10 @@
       &#x4e5f;&#x5f88;&#x7b80;&#x5355;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="更改sshd的端口号" ID="ID_1077416951" CREATED="1352817908874" MODIFIED="1359030685073"><richcontent TYPE="NOTE">
-
+<node TEXT="更改sshd的端口号" ID="ID_1077416951" CREATED="1352817908874" MODIFIED="1359030685073"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1845,10 +1744,8 @@
       <font color="#ff0033" size="6">Port 1002</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="没有采用这个方法" ID="ID_1733469592" CREATED="1367462223155" MODIFIED="1367462346277"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="没有采用这个方法" ID="ID_1733469592" CREATED="1367462223155" MODIFIED="1367462346277"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1873,12 +1770,10 @@
       &#x53cd;&#x6b63;&#x6700;&#x540e;,&#x6211;&#x53c8;&#x8be5;&#x56de;&#x4e86;&#x6700;&#x521d;&#x7684;22&#x7aef;&#x53e3;&#x4e86;.&#x8fd9;&#x6837;&#x7684;&#x8bdd;,&#x4e0a;&#x73ed;&#x7684;&#x65f6;&#x5019;,&#x5728;&#x516c;&#x53f8;&#x4e5f;&#x80fd;&#x591f;&#x8bbf;&#x95ee;ssh&#x4e86;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="限制用户尝试连接的次数" ID="ID_870600743" CREATED="1352819206325" MODIFIED="1371090730444"><richcontent TYPE="NOTE">
-
+<node TEXT="限制用户尝试连接的次数" ID="ID_870600743" CREATED="1352819206325" MODIFIED="1371090730444"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1921,10 +1816,8 @@
       &#x7531;&#x4e8e;sshd&#x7684;&#x7aef;&#x53e3;&#x53f7;&#x53c8;&#x6539;&#x4e86;&#x56de;&#x6765;&#xff0c;&#x6240;&#x4ee5;&#x6700;&#x7ec8;&#x8fd8;&#x662f;&#x4f7f;&#x7528;&#x4e86;DenyHosts&#x5de5;&#x5177;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装和配置Denyhosts" ID="ID_1941153989" CREATED="1371090867215" MODIFIED="1371098217878" LINK="../pub/denyhosts.htm"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装和配置Denyhosts" ID="ID_1941153989" CREATED="1371090867215" MODIFIED="1371098217878" LINK="../pub/denyhosts.htm"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2009,10 +1902,8 @@
       &#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x662f;&#xff0c;&#x5728;Debian&#x7cfb;&#x7edf;&#x4e0b;&#xff0c;&#x5b89;&#x88c5;&#x5b8c;denyhosts&#x4e4b;&#x540e;&#xff0c;&#x9ed8;&#x8ba4;&#x7684;&#xff0c;&#x8fd9;&#x4e2a;&#x7a0b;&#x5e8f;&#x5c31;&#x4f1a;&#x5728;&#x7cfb;&#x7edf;&#x542f;&#x52a8;&#x7684;&#x65f6;&#x5019;&#x81ea;&#x52a8;&#x5f00;&#x542f;&#x4e86;&#xff0c;&#x4e0d;&#x9700;&#x8981;&#x6211;&#x4eec;&#x624b;&#x52a8;&#x7684;&#x53bb;&#x505a;&#x4ec0;&#x4e48;&#x8ba9;&#x5176;&#x5f00;&#x673a;&#x81ea;&#x52a8;&#x542f;&#x52a8;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装时的屏幕输出内容" ID="ID_273500013" CREATED="1371091356004" MODIFIED="1371091376696"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装时的屏幕输出内容" ID="ID_273500013" CREATED="1371091356004" MODIFIED="1371091376696"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2109,14 +2000,12 @@
       [ ok ] Starting DenyHosts: denyhosts.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="web服务器的安装" ID="ID_1931031054" CREATED="1355779483996" MODIFIED="1511493578505"><richcontent TYPE="NOTE">
-
+<node TEXT="web服务器的安装" ID="ID_1931031054" CREATED="1355779483996" MODIFIED="1511493578505"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2137,10 +2026,8 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="lighttpd安装" ID="ID_1250917492" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="lighttpd安装" ID="ID_1250917492" CREATED="1355779502448" MODIFIED="1355779921652"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2150,10 +2037,8 @@
       <i><b><font color="#000099">aptitude install lighttpd</font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="lightttp安装之后的配置" ID="ID_348106430" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="lightttp安装之后的配置" ID="ID_348106430" CREATED="1355780815766" MODIFIED="1355783179770"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2166,10 +2051,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="支持php" ID="ID_1257407935" CREATED="1355783146892" MODIFIED="1355783182321"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="支持php" ID="ID_1257407935" CREATED="1355783146892" MODIFIED="1355783182321"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2194,11 +2077,9 @@
       &#x6b64;&#x65f6;&#x5982;&#x679c;&#x67e5;&#x770b;conf-enabled&#x76ee;&#x5f55;&#x4e0b;,&#x5c31;&#x53d1;&#x73b0;&#x6709;&#x4e24;&#x4e2a;&#x6587;&#x4ef6;&#x88ab;&#x521b;&#x5efa;&#x4e86;,&#x5c31;&#x662f;&#x5bf9;&#x5e94;&#x4e0a;&#x9762;enable&#x7684;&#x4e24;&#x4e2a;&#x6a21;&#x5757;&#x7684;.&#x8fd9;&#x5c31;&#x5b8c;&#x6210;&#x4e86;&#x5bf9;php&#x7684;&#x652f;&#x6301;&#x4e86;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="支持virtual host" ID="ID_545346536" CREATED="1355783154576" MODIFIED="1359031305112"><richcontent TYPE="NOTE">
-
+<node TEXT="支持virtual host" ID="ID_545346536" CREATED="1355783154576" MODIFIED="1359031305112"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2250,12 +2131,10 @@
       <font color="#660066"><i><b>} </b></i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装log" ID="ID_1304428147" CREATED="1355781077883" MODIFIED="1355781088778"><richcontent TYPE="NOTE">
-
+<node TEXT="安装log" ID="ID_1304428147" CREATED="1355781077883" MODIFIED="1355781088778"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2349,12 +2228,10 @@
       update-alternatives: warning: not replacing /usr/share/man/man1/spawn-fcgi.1.gz with a link.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="php安装" ID="ID_709784635" CREATED="1355779507481" MODIFIED="1355779928257"><richcontent TYPE="NOTE">
-
+<node TEXT="php安装" ID="ID_709784635" CREATED="1355779507481" MODIFIED="1355779928257"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2364,11 +2241,9 @@
       <i><b><font color="#000099">aptitude install php5-cgi</font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="mysql安装" ID="ID_1546280381" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE">
-
+<node TEXT="mysql安装" ID="ID_1546280381" CREATED="1355779530142" MODIFIED="1355779941459"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2387,10 +2262,8 @@
       <i><b><font color="#000099">aptitude install php5-mysql</font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="mysql配置" ID="ID_425725795" CREATED="1355780708303" MODIFIED="1355780722158"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="mysql配置" ID="ID_425725795" CREATED="1355780708303" MODIFIED="1355780722158"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2403,11 +2276,9 @@
       lovexiaoshe0901
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="mysql-server安装log" ID="ID_1530412756" CREATED="1355781141740" MODIFIED="1355781174494"><richcontent TYPE="NOTE">
-
+<node TEXT="mysql-server安装log" ID="ID_1530412756" CREATED="1355781141740" MODIFIED="1355781174494"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2582,11 +2453,9 @@
       Setting up mysql-server (5.1.66-0+squeeze1) ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="php5-mysql安装log" ID="ID_849852670" CREATED="1355781176583" MODIFIED="1355781186554"><richcontent TYPE="NOTE">
-
+<node TEXT="php5-mysql安装log" ID="ID_849852670" CREATED="1355781176583" MODIFIED="1355781186554"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2653,12 +2522,10 @@
       Setting up php5-mysql (5.3.3-7+squeeze14) ...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装phpmyadmin" ID="ID_773894478" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE">
-
+<node TEXT="安装phpmyadmin" ID="ID_773894478" CREATED="1355784530842" MODIFIED="1367462403158"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2677,10 +2544,8 @@
       &#x8fd9;&#x4e2a;&#x5de5;&#x5177;&#x662f;&#x7528;&#x6765;&#x7ba1;&#x7406;mysql&#x6570;&#x636e;&#x5e93;&#x7684;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装log" ID="ID_212977861" CREATED="1355784548197" MODIFIED="1355784560054"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装log" ID="ID_212977861" CREATED="1355784548197" MODIFIED="1355784560054"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3017,11 +2882,9 @@
       Reloading web server configuration: lighttpd.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装好的工具的地址" ID="ID_50296669" CREATED="1355785264785" MODIFIED="1355785308357"><richcontent TYPE="NOTE">
-
+<node TEXT="安装好的工具的地址" ID="ID_50296669" CREATED="1355785264785" MODIFIED="1355785308357"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3043,13 +2906,11 @@
       &#x5176;&#x4e2d;&#x7528;&#x6237;&#x540d;&#x548c;&#x5bc6;&#x7801;&#x5c31;&#x662f;mysql&#x7684;root&#x548c;root&#x7684;&#x5bc6;&#x7801;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="基于上述配置的wordpress安装" ID="ID_1624834437" CREATED="1355780891979" MODIFIED="1355780903613">
-<node TEXT="数据库的设置" ID="ID_1380772518" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE">
-
+<node TEXT="数据库的设置" ID="ID_1380772518" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3059,11 +2920,9 @@
       &#x5728;phpmyadmin&#x4e2d;&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;wordpress,&#x7136;&#x540e;,&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x7528;&#x6237;xiaoshe,&#x5bc6;&#x7801;&#x662f;&#x7528;lovexiaoshe&#x751f;&#x6210;&#x7684;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="wordpress中如何扩大文件上传大小限制" ID="ID_295914283" CREATED="1382553223105" MODIFIED="1382553492295"><richcontent TYPE="NOTE">
-
+<node TEXT="wordpress中如何扩大文件上传大小限制" ID="ID_295914283" CREATED="1382553223105" MODIFIED="1382553492295"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3102,12 +2961,10 @@
       &#25353;&#29031;&#19978;&#38754;&#30340;&#21629;&#20196;,&#25105;&#23601;&#25226;&#25105;&#30340;wordpress&#30340;&#19978;&#20256;&#25991;&#20214;&#30340;&#38480;&#21046;&#25193;&#22823;&#21040;&#20102;20M.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装FTP服务器" ID="ID_1783884193" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
-
+<node TEXT="安装FTP服务器" ID="ID_1783884193" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3156,10 +3013,8 @@
       &#x66f4;&#x6539;&#x7684;&#x5730;&#x65b9;&#x90fd;&#x5f88;&#x5bb9;&#x6613;&#x627e;,&#x81ea;&#x5df1;&#x627e;&#x627e;&#x5c31;&#x884c;&#x4e86;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="修改FTP的unmask设置" ID="ID_548721811" CREATED="1370332853533" MODIFIED="1370333347107"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="修改FTP的unmask设置" ID="ID_548721811" CREATED="1370332853533" MODIFIED="1370333347107"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3199,13 +3054,11 @@
       <b><font size="4" color="#0033cc">local_umask = 022</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="选择速度快的aptitude源" ID="ID_868438502" CREATED="1364909698254" MODIFIED="1364909871452"><richcontent TYPE="NOTE">
-
+<node TEXT="选择速度快的aptitude源" ID="ID_868438502" CREATED="1364909698254" MODIFIED="1364909871452"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3296,10 +3149,8 @@
       <b><font color="#0033cc" size="3"><i>update Update the mirror list.</i></font></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="一个使用例子" ID="ID_1917778704" CREATED="1364909951244" MODIFIED="1385443544038"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="一个使用例子" ID="ID_1917778704" CREATED="1364909951244" MODIFIED="1385443544038"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3327,12 +3178,10 @@
       <i><font color="#0000cc" size="6"><b>/etc/apt/sources.list</b></font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="【取消安装】代理服务器的安装" FOLDED="true" ID="ID_621452073" CREATED="1364909361456" MODIFIED="1364914319370"><richcontent TYPE="NOTE">
-
+<node TEXT="【取消安装】代理服务器的安装" FOLDED="true" ID="ID_621452073" CREATED="1364909361456" MODIFIED="1364914319370"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3369,10 +3218,8 @@
       &#x53d6;&#x6d88;&#x5b89;&#x88c5;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#xff0c;&#x539f;&#x56e0;&#x662f;&#x5373;&#x4f7f;&#x6709;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#x5f88;&#x591a;&#x7684;&#x7f51;&#x7ad9;&#x4e5f;&#x4e0d;&#x80fd;&#x4e0a;&#xff0c;&#x56e0;&#x4e3a;DNS&#x89e3;&#x6790;&#x4e5f;&#x6709;&#x95ee;&#x9898;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Polipo的安装" ID="ID_1041590964" CREATED="1364909537815" MODIFIED="1364914363819"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Polipo的安装" ID="ID_1041590964" CREATED="1364909537815" MODIFIED="1364914363819"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3388,11 +3235,9 @@
       <b><font color="#0033cc" size="6"><i>aptitude install polipo</i></font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Polipo的配置" ID="ID_1482285326" CREATED="1364910087697" MODIFIED="1364914382647"><richcontent TYPE="NOTE">
-
+<node TEXT="Polipo的配置" ID="ID_1482285326" CREATED="1364910087697" MODIFIED="1364914382647"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3405,14 +3250,12 @@
       &#x5177;&#x4f53;&#x6765;&#x8bf4;&#xff0c;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x4e3a;<b><font color="#006666" size="4">/etc/polipo/config</font></b>&#x6587;&#x4ef6;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="如何使得vim编辑器能够高亮文字" FOLDED="true" ID="ID_1810877692" CREATED="1373426708046" MODIFIED="1373426903625" LINK="#ID_156002278">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_156002278" STARTINCLINATION="328;0;" ENDINCLINATION="328;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_156002278" STARTINCLINATION="245.99999 pt;0 pt;" ENDINCLINATION="245.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3437,16 +3280,14 @@
       &#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x662f;&#xff0c;&#x53c2;&#x8003;&#x7ed3;&#x70b9;&#x6240;&#x505a;&#x7684;&#x64cd;&#x4f5c;&#xff0c;&#x6211;&#x5728;&#x7528;&#x6237;root&#x548c;proudeng&#x4e0a;&#x505a;&#x4e86;&#x4e24;&#x904d;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="如何使得vim的插件能够是全局的，能够安装一次，所有的用户都能够使用？" ID="ID_1777996049" CREATED="1373426909672" MODIFIED="1373426956546">
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node TEXT="安装和配置基于PPTPD的VPN服务器" FOLDED="true" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1385454342449" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE">
-
+<node TEXT="安装和配置基于PPTPD的VPN服务器" FOLDED="true" ID="ID_998323634" CREATED="1373950595698" MODIFIED="1385454342449" LINK="../pub/vpn.htm"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3474,11 +3315,9 @@
       <a href="http://www.pub.proudj.com/vpn.htm">http://www.pub.proudj.comz/vpn.htm</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Trouble Shooting" ID="ID_1104269016" CREATED="1380548388000" MODIFIED="1385454339569">
-<node TEXT="MTU problem." ID="ID_911326503" CREATED="1380548450398" MODIFIED="1380637849625"><richcontent TYPE="NOTE">
-
+<node TEXT="MTU problem." ID="ID_911326503" CREATED="1380548450398" MODIFIED="1380637849625"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3517,10 +3356,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="found the problem that similiar to my problem." ID="ID_258880117" CREATED="1380637680299" MODIFIED="1380638035248"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="found the problem that similiar to my problem." ID="ID_258880117" CREATED="1380637680299" MODIFIED="1380638035248"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3554,11 +3391,9 @@
       the solution is to modify the MTU of the ethernet adapter to 1400
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="howto check and modify the MTU of ethernet adapter" ID="ID_778187550" CREATED="1380638040224" MODIFIED="1380638257648"><richcontent TYPE="NOTE">
-
+<node TEXT="howto check and modify the MTU of ethernet adapter" ID="ID_778187550" CREATED="1380638040224" MODIFIED="1380638257648"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3589,15 +3424,13 @@
       <font size="6" color="#2441c1">echo &quot;1460&quot; &gt; /sys/class/net/eth0/mtu</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="使用UnixBench测试VPS性能" FOLDED="true" ID="ID_1964664702" CREATED="1385431355713" MODIFIED="1385431363373">
-<node TEXT="安装和执行命令" ID="ID_1947689177" CREATED="1385431368233" MODIFIED="1385431391082" LINK="#ID_745571441"><richcontent TYPE="NOTE">
-
+<node TEXT="安装和执行命令" ID="ID_1947689177" CREATED="1385431368233" MODIFIED="1385431391082" LINK="#ID_745571441"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3607,13 +3440,11 @@
       &#21442;&#32771;&#38142;&#25509;&#25351;&#21521;&#32467;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性能测试结果" ID="ID_130365328" CREATED="1385431396102" MODIFIED="1385432324530">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1621598136" SOURCE_LABEL="对比" MIDDLE_LABEL="一分钱一分货" STARTINCLINATION="45;0;" ENDINCLINATION="46;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1621598136" SOURCE_LABEL="对比" MIDDLE_LABEL="一分钱一分货" STARTINCLINATION="33.75 pt;0 pt;" ENDINCLINATION="34.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3749,13 +3580,11 @@
       System Benchmarks Index Score&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc0033"><b>607.8</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="[virpus.proudj.com@Virpus]Debian7服务器" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1584615673801"><richcontent TYPE="NOTE">
-
+<node TEXT="[virpus.proudj.com@Virpus]Debian7服务器" FOLDED="true" POSITION="right" ID="ID_830753767" CREATED="1385427151317" MODIFIED="1584615673801"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3832,11 +3661,9 @@
       <font face="trebuchet ms,geneva">Virpus Networks, Inc. </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="使用UnixBench测试VPS性能" FOLDED="true" ID="ID_296808293" CREATED="1385430964994" MODIFIED="1385430981702">
-<node TEXT="安装和执行命令" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE">
-
+<node TEXT="安装和执行命令" ID="ID_745571441" CREATED="1385430985692" MODIFIED="1385431280445"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3866,11 +3693,9 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="性能测试结果" ID="ID_1621598136" CREATED="1385431285355" MODIFIED="1385431540038"><richcontent TYPE="NOTE">
-
+<node TEXT="性能测试结果" ID="ID_1621598136" CREATED="1385431285355" MODIFIED="1385431540038"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4009,12 +3834,10 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装linux系统检测工具" ID="ID_1316283962" CREATED="1385435856805" MODIFIED="1385435892455"><richcontent TYPE="NOTE">
-
+<node TEXT="安装linux系统检测工具" ID="ID_1316283962" CREATED="1385435856805" MODIFIED="1385435892455"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4024,11 +3847,9 @@
       <i><font color="#000099" size="3"><b>aptitude install sysstat</b></font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="web服务器的安装" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1584615679754"><richcontent TYPE="NOTE">
-
+<node TEXT="web服务器的安装" ID="ID_941582952" CREATED="1355779483996" MODIFIED="1584615679754"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4049,10 +3870,8 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="lighttpd安装" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1519275513211"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="lighttpd安装" ID="ID_1131801882" CREATED="1355779502448" MODIFIED="1519275513211"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4062,10 +3881,8 @@
       <i><b><font color="#000099">aptitude install lighttpd</font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="lightttp安装之后的配置" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1535895136987"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="lightttp安装之后的配置" ID="ID_1535805277" CREATED="1355780815766" MODIFIED="1535895136987"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4075,10 +3892,8 @@
       &#23433;&#35013;&#23436;&#20043;&#21518;,Lighttpd&#30340;&#37197;&#32622;&#25991;&#20214;&#20026;/etc/lighttpd/&#30446;&#24405;&#19979;,&#20027;&#35201;&#30340;&#37197;&#32622;&#25991;&#20214;&#20026;lighttpd.conf.&#36824;&#26377;&#20004;&#20010;&#30446;&#24405;,conf-available&#21644;conf-enabled.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="支持php" ID="ID_765390997" CREATED="1355783146892" MODIFIED="1535895746597"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="支持php" ID="ID_765390997" CREATED="1355783146892" MODIFIED="1535895746597"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4103,11 +3918,9 @@
       &#27492;&#26102;&#22914;&#26524;&#26597;&#30475;conf-enabled&#30446;&#24405;&#19979;,&#23601;&#21457;&#29616;&#26377;&#20004;&#20010;&#25991;&#20214;&#34987;&#21019;&#24314;&#20102;,&#23601;&#26159;&#23545;&#24212;&#19978;&#38754;enable&#30340;&#20004;&#20010;&#27169;&#22359;&#30340;.&#36825;&#23601;&#23436;&#25104;&#20102;&#23545;php&#30340;&#25903;&#25345;&#20102;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="支持virtual host" ID="ID_431989124" CREATED="1355783154576" MODIFIED="1535895067672"><richcontent TYPE="NOTE">
-
+<node TEXT="支持virtual host" ID="ID_431989124" CREATED="1355783154576" MODIFIED="1535895067672"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4174,10 +3987,8 @@
       <i><font color="#660066"><b>} </b></font></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="针对pub子域名要做的操作" ID="ID_16058721" CREATED="1385445252601" MODIFIED="1519453975224"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="针对pub子域名要做的操作" ID="ID_16058721" CREATED="1385445252601" MODIFIED="1519453975224"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4201,14 +4012,12 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="lighttpd为在Openwrt上搭的服务器做网址redirect" ID="ID_536180752" CREATED="1427641663623" MODIFIED="1519453953611">
 <attribute NAME="status" VALUE="unfinished"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4233,14 +4042,12 @@
       &#36825;&#26679;&#30340;&#35805;&#65292;&#22806;&#38142;&#20160;&#20040;&#30340;&#65292;&#21482;&#35201;&#37197;&#32622;openwrt&#30340;&#36825;&#20010;&#23376;&#22495;&#21517;&#23601;&#34892;&#20102;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="安装log" ID="ID_1318877008" CREATED="1355781077883" MODIFIED="1385444418212"/>
 </node>
-<node TEXT="php安装" ID="ID_169479926" CREATED="1355779507481" MODIFIED="1355779928257"><richcontent TYPE="NOTE">
-
+<node TEXT="php安装" ID="ID_169479926" CREATED="1355779507481" MODIFIED="1355779928257"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4250,11 +4057,9 @@
       <i><b><font color="#000099">aptitude install php5-cgi</font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="mysql安装" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE">
-
+<node TEXT="mysql安装" ID="ID_1950977457" CREATED="1355779530142" MODIFIED="1467250423505"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4273,10 +4078,8 @@
       <i><b><font color="#000099">aptitude install php5-mysql </font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="mysql配置" ID="ID_441686396" CREATED="1355780708303" MODIFIED="1535896210116"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="mysql配置" ID="ID_441686396" CREATED="1355780708303" MODIFIED="1535896210116"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4289,11 +4092,9 @@
       lovexiaoshe0901
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="mysql-server安装log" ID="ID_1760248379" CREATED="1355781141740" MODIFIED="1385444322921"><richcontent TYPE="NOTE">
-
+<node TEXT="mysql-server安装log" ID="ID_1760248379" CREATED="1355781141740" MODIFIED="1385444322921"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4537,11 +4338,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="php5-mysql安装log" ID="ID_196680588" CREATED="1355781176583" MODIFIED="1385444383891"><richcontent TYPE="NOTE">
-
+<node TEXT="php5-mysql安装log" ID="ID_196680588" CREATED="1355781176583" MODIFIED="1385444383891"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4602,12 +4401,10 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装phpmyadmin" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1535896360684"><richcontent TYPE="NOTE">
-
+<node TEXT="安装phpmyadmin" ID="ID_1329107775" CREATED="1355784530842" MODIFIED="1535896360684"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4626,10 +4423,8 @@
       &#36825;&#20010;&#24037;&#20855;&#26159;&#29992;&#26469;&#31649;&#29702;mysql&#25968;&#25454;&#24211;&#30340;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装log" ID="ID_338603841" CREATED="1355784548197" MODIFIED="1385445030079"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装log" ID="ID_338603841" CREATED="1355784548197" MODIFIED="1385445030079"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4963,11 +4758,9 @@
       [ ok ] Starting web server: lighttpd.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装好的工具的地址" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1604203312942"><richcontent TYPE="NOTE">
-
+<node TEXT="安装好的工具的地址" ID="ID_1041863536" CREATED="1355785264785" MODIFIED="1604203312942"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4989,10 +4782,8 @@
       其中用户名和密码就是mysql的root和root的密码.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="ultravps的登录用户名和密码" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1604203333247"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="ultravps的登录用户名和密码" ID="ID_1035769279" CREATED="1385444877475" MODIFIED="1604203333247"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5005,10 +4796,8 @@
       登录用户名为admin.密码为luckyxiaoshe
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="创建用于登陆phpmyadmin的用户" ID="ID_946229541" CREATED="1535986166020" MODIFIED="1604203320812"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="创建用于登陆phpmyadmin的用户" ID="ID_946229541" CREATED="1535986166020" MODIFIED="1604203320812"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5030,13 +4819,11 @@
       <font color="#0000ff">FLUSH PRIVILEGES;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Application passowrd" ID="ID_1478615245" CREATED="1385444565693" MODIFIED="1385444580753"><richcontent TYPE="NOTE">
-
+<node TEXT="Application passowrd" ID="ID_1478615245" CREATED="1385444565693" MODIFIED="1385444580753"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5046,11 +4833,9 @@
       lovexiaoshe
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Error现象以及处理" ID="ID_219121978" CREATED="1392005772161" MODIFIED="1392006555370"><richcontent TYPE="NOTE">
-
+<node TEXT="Error现象以及处理" ID="ID_219121978" CREATED="1392005772161" MODIFIED="1392006555370"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5098,12 +4883,10 @@
       &#20462;&#25913;&#23436;&#25104;&#20043;&#21518;&#65292;&#37325;&#21551;&#26381;&#21153;&#22120;&#65292;&#20877;&#27425;&#35775;&#38382;phpmyadmin&#39029;&#38754;&#65292;&#25104;&#21151;&#65281;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="从yardvps中迁移wordpress到Virpus中来" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE">
-
+<node TEXT="从yardvps中迁移wordpress到Virpus中来" ID="ID_918220350" CREATED="1355780891979" MODIFIED="1387369623390" LINK="#ID_257694630"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5113,10 +4896,8 @@
       &#26377;&#20123;&#37197;&#32622;&#30340;&#20869;&#23481;&#20063;&#21487;&#20197;&#21442;&#32771;&#26412;&#32467;&#28857;&#30340;&#36229;&#38142;&#25509;&#25351;&#21521;&#30340;&#32467;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="wordpress中如何扩大文件上传大小限制" ID="ID_877694790" CREATED="1382553223105" MODIFIED="1385451805313"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="wordpress中如何扩大文件上传大小限制" ID="ID_877694790" CREATED="1382553223105" MODIFIED="1385451805313"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5155,11 +4936,9 @@
       &#25353;&#29031;&#19978;&#38754;&#30340;&#21629;&#20196;,&#25105;&#23601;&#25226;&#25105;&#30340;wordpress&#30340;&#19978;&#20256;&#25991;&#20214;&#30340;&#38480;&#21046;&#25193;&#22823;&#21040;&#20102;20M.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Wordpress可以轻松的迁移" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE">
-
+<node TEXT="Wordpress可以轻松的迁移" ID="ID_1903056781" CREATED="1385449990931" MODIFIED="1385451197706"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5189,10 +4968,8 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="原则上迁移wordpress需要做的事情" ID="ID_1405227223" CREATED="1385451440490" MODIFIED="1385451643187"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="原则上迁移wordpress需要做的事情" ID="ID_1405227223" CREATED="1385451440490" MODIFIED="1385451643187"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5213,11 +4990,9 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="数据库的设置" ID="ID_547437990" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE">
-
+<node TEXT="数据库的设置" ID="ID_547437990" CREATED="1355785182276" MODIFIED="1355785231129"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5227,12 +5002,10 @@
       &#x5728;phpmyadmin&#x4e2d;&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;wordpress,&#x7136;&#x540e;,&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x7528;&#x6237;xiaoshe,&#x5bc6;&#x7801;&#x662f;&#x7528;lovexiaoshe&#x751f;&#x6210;&#x7684;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="【废弃】Wordpress支持MultiSite配置" ID="ID_565499545" CREATED="1386298256103" MODIFIED="1386559070974"><richcontent TYPE="NOTE">
-
+<node TEXT="【废弃】Wordpress支持MultiSite配置" ID="ID_565499545" CREATED="1386298256103" MODIFIED="1386559070974"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5248,10 +5021,8 @@
       &#25105;&#30340;Wordpress&#22312;&#37197;&#32622;multisite&#30340;&#26102;&#20505;&#65292;&#20351;&#29992;&#30340;Wordpress&#30340;&#29256;&#26412;&#26159;3.7.1
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="1.修改wp-config.php文件" ID="ID_334112981" CREATED="1386299813137" MODIFIED="1386299864599"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="1.修改wp-config.php文件" ID="ID_334112981" CREATED="1386299813137" MODIFIED="1386299864599"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5270,12 +5041,10 @@
       <i><font color="#0000ff"><b>define('WP_ALLOW_MULTISITE',true);</b></font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="配置服务器允许Wordpress自动Upgrade" FOLDED="true" ID="ID_1221511705" CREATED="1387369519678" MODIFIED="1387370233552"><richcontent TYPE="NOTE">
-
+<node TEXT="配置服务器允许Wordpress自动Upgrade" FOLDED="true" ID="ID_1221511705" CREATED="1387369519678" MODIFIED="1387370233552"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5300,11 +5069,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="wp的设置页面" ID="ID_1012766132" CREATED="1387369736605" MODIFIED="1387370305697" LINK="../MiscDocuments/wp_auto_upgrade.png"/>
-<node TEXT="给proudeng用户权限访问/var/www目录" ID="ID_1178545021" CREATED="1387370177922" MODIFIED="1387371752062" LINK="../MiscDocuments/wp_folder_privilige_change.png"><richcontent TYPE="NOTE">
-
+<node TEXT="给proudeng用户权限访问/var/www目录" ID="ID_1178545021" CREATED="1387370177922" MODIFIED="1387371752062" LINK="../MiscDocuments/wp_folder_privilige_change.png"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5332,13 +5099,11 @@
       &#38656;&#35201;&#23558;/var&#30446;&#24405;&#30340;&#26435;&#38480;&#21644;&#32452;&#21517;&#25913;&#25104;&#21644;/var/www&#19968;&#26679;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="给晓舌安装一个guoguo的博客" FOLDED="true" ID="ID_1612611537" CREATED="1392006616409" MODIFIED="1584615679736"><richcontent TYPE="NOTE">
-
+<node TEXT="给晓舌安装一个guoguo的博客" FOLDED="true" ID="ID_1612611537" CREATED="1392006616409" MODIFIED="1584615679736"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5365,12 +5130,10 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="创建一个新的单独的数据库" FOLDED="true" ID="ID_1735498120" CREATED="1392007125532" MODIFIED="1392008797038" LINK="#ID_1041863536">
 <icon BUILTIN="full-1"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5392,10 +5155,8 @@
       &#20851;&#20110;myphpadmin&#30340;&#25805;&#20316;&#21442;&#32771;&#36339;&#36716;&#21040;&#30340;&#32467;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="使用原有User的缺点" ID="ID_483179302" CREATED="1392013799021" MODIFIED="1392013876392"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="使用原有User的缺点" ID="ID_483179302" CREATED="1392013799021" MODIFIED="1392013876392"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5405,14 +5166,12 @@
       &#21407;&#20808;&#29992;&#25143;&#30340;&#23494;&#30721;&#21487;&#33021;&#26159;&#19968;&#38271;&#20018;&#20081;&#30721;&#19968;&#26679;&#30340;&#23383;&#31526;&#12290;&#38656;&#35201;&#22312;&#37197;&#32622;&#25991;&#20214;&#20013;&#23558;&#36825;&#27573;&#23383;&#31526;&#22635;&#20837;&#21040;&#23494;&#30721;&#21306;&#22495;&#21435;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="配置一个单独的域名" FOLDED="true" ID="ID_552040007" CREATED="1392007138935" MODIFIED="1392008609175">
 <icon BUILTIN="full-2"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5436,10 +5195,8 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
-<node TEXT="lighttpd的修改" ID="ID_197047114" CREATED="1392007799891" MODIFIED="1392008512049"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="lighttpd的修改" ID="ID_197047114" CREATED="1392007799891" MODIFIED="1392008512049"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5507,14 +5264,12 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="创建新目录安装新的wordpress" ID="ID_1994946234" CREATED="1392007153358" MODIFIED="1392008858480">
 <icon BUILTIN="full-3"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5544,13 +5299,11 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="修改wordpress的配置文件" ID="ID_508927777" CREATED="1392008872866" MODIFIED="1392014115471">
 <icon BUILTIN="full-4"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5628,12 +5381,10 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="后续操作" FOLDED="true" ID="ID_1522817251" CREATED="1396447612756" MODIFIED="1396447616923">
-<node TEXT="WP的文章中显示作者名字" ID="ID_626841602" CREATED="1396447618725" MODIFIED="1396447752059" LINK="../OneNote/WordPress%20Twenty%20Thirteen主题文章显示作者信息.one"><richcontent TYPE="NOTE">
-
+<node TEXT="WP的文章中显示作者名字" ID="ID_626841602" CREATED="1396447618725" MODIFIED="1396447752059" LINK="../OneNote/WordPress%20Twenty%20Thirteen主题文章显示作者信息.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5652,13 +5403,11 @@
       &#21442;&#32771;&#38142;&#25509;&#20013;&#30340;onenote&#31508;&#35760;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="安装FTP服务器" FOLDED="true" ID="ID_1080095665" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE">
-
+<node TEXT="安装FTP服务器" FOLDED="true" ID="ID_1080095665" CREATED="1355950463532" MODIFIED="1355951533914"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5707,10 +5456,8 @@
       &#x66f4;&#x6539;&#x7684;&#x5730;&#x65b9;&#x90fd;&#x5f88;&#x5bb9;&#x6613;&#x627e;,&#x81ea;&#x5df1;&#x627e;&#x627e;&#x5c31;&#x884c;&#x4e86;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="修改FTP的unmask设置" ID="ID_1418099147" CREATED="1370332853533" MODIFIED="1370333347107"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="修改FTP的unmask设置" ID="ID_1418099147" CREATED="1370332853533" MODIFIED="1370333347107"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5750,13 +5497,11 @@
       <b><font size="4" color="#0033cc">local_umask = 022</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="更新后的密码" ID="ID_582680798" CREATED="1418205926859" MODIFIED="1418205944169"><richcontent TYPE="NOTE">
-
+<node TEXT="更新后的密码" ID="ID_582680798" CREATED="1418205926859" MODIFIED="1418205944169"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5769,11 +5514,9 @@
       root/proudeng0306
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="更新时区" FOLDED="true" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1511493582015"><richcontent TYPE="NOTE">
-
+<node TEXT="更新时区" FOLDED="true" ID="ID_444834025" CREATED="1455514107094" MODIFIED="1511493582015"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5849,10 +5592,8 @@
       &#25630;&#23450;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="物理时间和系统时间" ID="ID_1264937144" CREATED="1455514877735" MODIFIED="1455515690260"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="物理时间和系统时间" ID="ID_1264937144" CREATED="1455514877735" MODIFIED="1455515690260"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5871,13 +5612,11 @@
       &#26377;&#21487;&#33021;&#22312;&#31995;&#32479;&#21551;&#21160;&#20043;&#21518;&#65292;linux&#20250;&#20351;&#29992;NTP&#30340;&#26102;&#38388;&#65292;&#37027;&#20040;&#20869;&#26680;&#26102;&#38388;&#23601;&#26377;&#21487;&#33021;&#36319;&#29289;&#29702;&#26102;&#38388;&#19981;&#19968;&#33268;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="[ali.proudj.com@AliYun]Ubuntu工作站" POSITION="right" ID="ID_541309669" CREATED="1534582390269" MODIFIED="1534582440089"><richcontent TYPE="NOTE">
-
+<node TEXT="[ali.proudj.com@AliYun]Ubuntu工作站" POSITION="right" ID="ID_541309669" CREATED="1534582390269" MODIFIED="1534582440089"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5887,10 +5626,8 @@
       &#38463;&#37324;&#20113;&#21333;&#26680;/2G&#20869;&#23384;/40G&#23384;&#20648;&#24037;&#20316;&#31449;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="远程管理密码" ID="ID_1317641530" CREATED="1537854613737" MODIFIED="1537854630222"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="远程管理密码" ID="ID_1317641530" CREATED="1537854613737" MODIFIED="1537854630222"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5900,12 +5637,10 @@
       644388
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE">
-
+<node TEXT="Android Linux Deploy" FOLDED="true" POSITION="right" ID="ID_825881001" CREATED="1517921787251" MODIFIED="1548134645262"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5942,17 +5677,15 @@
       Linux OS2: <b>Kali Linux</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="设备" FOLDED="true" ID="ID_731780486" CREATED="1534582539581" MODIFIED="1534582542623">
 <node TEXT="红米2高配版" ID="ID_161813112" CREATED="1534582545574" MODIFIED="1534582553479"/>
 <node TEXT="华为荣耀6" ID="ID_1341118826" CREATED="1534582553853" MODIFIED="1534582557862"/>
 </node>
 <node TEXT="服务器安装" FOLDED="true" ID="ID_717622015" CREATED="1519274542828" MODIFIED="1519274557200">
 <node TEXT="web服务器" ID="ID_1024424258" CREATED="1519275475439" MODIFIED="1519275578862" LINK="#ID_941582952">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="218;0;" ENDINCLINATION="218;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_941582952" STARTINCLINATION="163.5 pt;0 pt;" ENDINCLINATION="163.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5962,10 +5695,8 @@
       &#21442;&#32771;&#34394;&#25311;&#26426;&#19978;&#30340;&#26381;&#21153;&#22120;&#23433;&#35013;&#36807;&#31243;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装lighttpd" ID="ID_666001091" CREATED="1519275495856" MODIFIED="1519456732041"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装lighttpd" ID="ID_666001091" CREATED="1519275495856" MODIFIED="1519456732041"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5975,10 +5706,8 @@
       <i><b><font color="#000099">aptitude install lighttpd</font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="更改web服务器根目录" ID="ID_936316597" CREATED="1519275611772" MODIFIED="1519275942490"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="更改web服务器根目录" ID="ID_936316597" CREATED="1519275611772" MODIFIED="1519275942490"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6012,13 +5741,11 @@
       service lighttpd restart
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="支持php7.0" ID="ID_836463585" CREATED="1519276484274" MODIFIED="1519277722080">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1012849837" STARTINCLINATION="58;0;" ENDINCLINATION="58;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1012849837" STARTINCLINATION="43.5 pt;0 pt;" ENDINCLINATION="43.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6028,12 +5755,10 @@
       &#21442;&#32771;&#36339;&#36716;&#33410;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装php7" ID="ID_1161537075" CREATED="1519276131819" MODIFIED="1519276205250"><richcontent TYPE="NOTE">
-
+<node TEXT="安装php7" ID="ID_1161537075" CREATED="1519276131819" MODIFIED="1519276205250"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6049,10 +5774,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="修改ini文件" ID="ID_1676375519" CREATED="1519276206886" MODIFIED="1606815028737"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="修改ini文件" ID="ID_1676375519" CREATED="1519276206886" MODIFIED="1606815028737"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6083,11 +5806,9 @@
       service php7.0-fpm restart
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="配置lighttpd支持php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1569499350618"><richcontent TYPE="NOTE">
-
+<node TEXT="配置lighttpd支持php" ID="ID_1012849837" CREATED="1519276466858" MODIFIED="1569499350618"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6136,10 +5857,8 @@
       <i><font color="#000000">====&#25991;&#20214;&#32467;&#26463;,&#36825;&#19968;&#34892;&#19981;&#31639;</font></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="注意" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1606815801546"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="注意" ID="ID_34084456" CREATED="1519276830593" MODIFIED="1606815801546"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6182,10 +5901,8 @@
       <i><font color="#000000">====文件结束,这一行不算</font></i>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="/var/log/lighttpd/error.log" ID="ID_1194909261" CREATED="1519276999473" MODIFIED="1606815810032"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="/var/log/lighttpd/error.log" ID="ID_1194909261" CREATED="1519276999473" MODIFIED="1606815810032"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6249,13 +5966,11 @@
       //log结束
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="安装缺失的extension" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1606815789233"><richcontent TYPE="NOTE">
-
+<node TEXT="安装缺失的extension" ID="ID_1919205986" CREATED="1519460001728" MODIFIED="1606815789233"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6316,10 +6031,8 @@
       &gt;service php7.0-fpm restart &amp;&amp; service lighttpd restart
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="缺失extension的表现" ID="ID_1058492235" CREATED="1519460133491" MODIFIED="1560522982207"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="缺失extension的表现" ID="ID_1058492235" CREATED="1519460133491" MODIFIED="1560522982207"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6350,13 +6063,11 @@
       &#19978;&#38754;&#30340;log&#22522;&#26412;&#19978;&#23601;&#26159;&#26174;&#31034;&#20102;&#32570;&#22833;json&#21644;ctype&#36825;&#20004;&#20010;extension&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Flat-File CMS" ID="ID_647719980" CREATED="1519652606443" MODIFIED="1519653665825"><richcontent TYPE="NOTE">
-
+<node TEXT="Flat-File CMS" ID="ID_647719980" CREATED="1519652606443" MODIFIED="1519653665825"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6393,16 +6104,14 @@
       &#23376;&#33410;&#28857;&#20013;&#21015;&#20030;&#20102;&#20960;&#20010;&#22312;Redmi2&#19978;&#23433;&#35013;&#25104;&#21151;&#30340;&#20960;&#20010;&#39033;&#30446;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="HTMLy" ID="ID_885986992" CREATED="1519653574866" MODIFIED="1519653581260"/>
 <node TEXT="Typesetter" ID="ID_1526227773" CREATED="1519653581642" MODIFIED="1519653602332"/>
 <node TEXT="Hugo" ID="ID_1289475590" CREATED="1519653602690" MODIFIED="1519653605612"/>
 <node TEXT="Pico" ID="ID_606184524" CREATED="1534582699509" MODIFIED="1534582703198"/>
 <node TEXT="Grav" ID="ID_1306659786" CREATED="1534582703645" MODIFIED="1534582712630"/>
 </node>
-<node TEXT="dlna服务器" ID="ID_1330832302" CREATED="1534589201963" MODIFIED="1560525835018"><richcontent TYPE="NOTE">
-
+<node TEXT="dlna服务器" ID="ID_1330832302" CREATED="1534589201963" MODIFIED="1560525835018"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6415,10 +6124,8 @@
       &#23433;&#35013;&#23436;&#27605;&#20043;&#21518;&#21487;&#20197;&#32534;&#36753;/etc/minidlna.conf&#25991;&#20214;&#36827;&#34892;&#37197;&#32622;&#65292;&#20854;&#23454;&#38656;&#35201;&#37197;&#32622;&#30340;&#19968;&#33324;&#23601;&#26159;media_dir&#36825;&#20010;&#12290; &#20063;&#23601;&#26159;&#37197;&#32622;&#23186;&#20307;&#25991;&#20214;&#23384;&#25918;&#30340;&#30446;&#24405;&#12290;&#37197;&#32622;&#23436;&#25104;&#20043;&#21518;&#25353;&#29702;&#24212;&#20351;&#29992;service minidlna start&#23601;&#21487;&#20197;&#21551;&#21160;&#26381;&#21153;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="dlna用户权限问题" ID="ID_740309986" CREATED="1534589246155" MODIFIED="1534589303404"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="dlna用户权限问题" ID="ID_740309986" CREATED="1534589246155" MODIFIED="1534589303404"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6434,12 +6141,10 @@
       &#20351;&#29992;&#20102;&#19979;&#38754;&#30340;&#21629;&#20196;: usermod -a -G aid_sdcard_rw minidlna usermod -a -G aid_inet minidlna usermod -a -G aid_net_raw minidlna usermod -a -G aid_net_admin minidlna usermod -a -G aid_net_bw_stats minidlna usermod -a -G aid_net_bw_acct minidlna usermod -a -G aid_net_bt_stack minidlna
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="流媒体服务器" ID="ID_1279954065" CREATED="1573400667874" MODIFIED="1573402922784"><richcontent TYPE="NOTE">
-
+<node TEXT="流媒体服务器" ID="ID_1279954065" CREATED="1573400667874" MODIFIED="1573402922784"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6455,10 +6160,8 @@
       &#20284;&#20046;&#20063;&#21487;&#20197;&#20351;&#29992;&#27969;&#23186;&#20307;&#26381;&#21153;&#22120;&#26597;&#30475;&#25668;&#20687;&#22836;&#30340;&#20869;&#23481;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装" ID="ID_710220145" CREATED="1573401360968" MODIFIED="1573401387608"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装" ID="ID_710220145" CREATED="1573401360968" MODIFIED="1573401387608"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6471,11 +6174,9 @@
       https://blog.csdn.net/willhuo/article/details/79620876
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="路径" ID="ID_1861209788" CREATED="1573401395544" MODIFIED="1573401496177"><richcontent TYPE="NOTE">
-
+<node TEXT="路径" ID="ID_1861209788" CREATED="1573401395544" MODIFIED="1573401496177"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6509,11 +6210,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="配置文件" ID="ID_1883651781" CREATED="1573401469160" MODIFIED="1573401562673"><richcontent TYPE="NOTE">
-
+<node TEXT="配置文件" ID="ID_1883651781" CREATED="1573401469160" MODIFIED="1573401562673"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6577,14 +6276,12 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="图形界面应用安装" FOLDED="true" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE">
-
+<node TEXT="图形界面应用安装" FOLDED="true" ID="ID_125113703" CREATED="1519988733218" MODIFIED="1522388135271"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6597,12 +6294,10 @@
       &#25152;&#20197;&#38656;&#35201;&#33258;&#24049;&#23433;&#35013;&#30456;&#24212;&#30340;&#36719;&#20214;&#21644;&#32452;&#20214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="xauth" ID="ID_685934389" CREATED="1519988830331" MODIFIED="1519989068457">
 <icon BUILTIN="messagebox_warning"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6615,10 +6310,8 @@
       &#20986;&#38169;&#30340;log&#21442;&#32771;&#23376;&#33410;&#28857;&#30340;&#20869;&#23481;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="缺少xauth的表现" ID="ID_726580813" CREATED="1519988869651" MODIFIED="1519989052520"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="缺少xauth的表现" ID="ID_726580813" CREATED="1519988869651" MODIFIED="1519989052520"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6640,14 +6333,12 @@
       //log&#32467;&#26463;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="xterm" ID="ID_924049833" CREATED="1519988808090" MODIFIED="1519988811076"/>
 <node TEXT="gvim安装配置" ID="ID_905058782" CREATED="1519985462085" MODIFIED="1519985474007"/>
-<node TEXT="Chinese Input" ID="ID_276199738" CREATED="1517922007883" MODIFIED="1519453890801"><richcontent TYPE="NOTE">
-
+<node TEXT="Chinese Input" ID="ID_276199738" CREATED="1517922007883" MODIFIED="1519453890801"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6711,11 +6402,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Git客户端以及工具" ID="ID_1941712175" CREATED="1520401147679" MODIFIED="1520401340512"><richcontent TYPE="NOTE">
-
+<node TEXT="Git客户端以及工具" ID="ID_1941712175" CREATED="1520401147679" MODIFIED="1520401340512"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6740,14 +6429,12 @@
       &#20854;&#20013;gitk&#26159;git&#30340;&#22270;&#24418;&#21270;&#23458;&#25143;&#31471;&#65292;tkdiff&#26159;&#19968;&#20010;&#36731;&#37327;&#32423;&#30340;&#22270;&#24418;&#21270;diff&#24037;&#20855;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="通过USB线访问Linux Deploy" FOLDED="true" ID="ID_199779670" CREATED="1534583019404" MODIFIED="1534585261168">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6804,10 +6491,8 @@
       &#20869;&#32593;&#29992;&#25143;&#23558;&#36890;&#36807;USB&#32447;&#35775;&#38382;&#25163;&#26426;&#65292;&#25163;&#26426;&#36890;&#36807;USB&#32447;&#35775;&#38382;&#20869;&#32593;&#35774;&#22791;&#20197;&#21450;&#22806;&#32593;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="USB Tethering/ReverseTethering概念" ID="ID_418442024" CREATED="1534584737169" MODIFIED="1534585301326"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="USB Tethering/ReverseTethering概念" ID="ID_418442024" CREATED="1534584737169" MODIFIED="1534585301326"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6832,11 +6517,9 @@
       &#25105;&#20204;&#24819;&#36798;&#21040;&#30340;&#25928;&#26524;&#65292;&#23454;&#38469;&#19978;&#23646;&#20110;USB Reverse Tethering&#30340;&#35201;&#27714;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="【旧方法】荣耀六Reverse Tethering配置" FOLDED="true" ID="ID_376126602" CREATED="1534585040286" MODIFIED="1534587036843"><richcontent TYPE="NOTE">
-
+<node TEXT="【旧方法】荣耀六Reverse Tethering配置" FOLDED="true" ID="ID_376126602" CREATED="1534585040286" MODIFIED="1534587036843"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6852,10 +6535,8 @@
       &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#19981;&#30693;&#20026;&#20160;&#20040;&#65292;&#36825;&#20010;&#26041;&#27861;&#19981;&#36866;&#29992;&#20110;&#32418;&#31859;2&#31995;&#32479;&#65292;&#21487;&#33021;&#32418;&#31859;2&#31995;&#32479;&#30340;Lineageos&#36319;&#33635;&#32768;6&#30340;&#23448;&#26041;&#31995;&#32479;&#26377;&#19968;&#20123;&#19981;&#20026;&#20154;&#30693;&#30340;&#19981;&#21516;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="手机端操作" ID="ID_1789723755" CREATED="1534585347908" MODIFIED="1534586636059"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="手机端操作" ID="ID_1789723755" CREATED="1534585347908" MODIFIED="1534586636059"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6882,11 +6563,9 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Openwrt路由器端操作" ID="ID_1551547169" CREATED="1534585351276" MODIFIED="1534587194788" LINK="#ID_1868999429"><richcontent TYPE="NOTE">
-
+<node TEXT="Openwrt路由器端操作" ID="ID_1551547169" CREATED="1534585351276" MODIFIED="1534587194788" LINK="#ID_1868999429"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6934,14 +6613,12 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="红米2和荣耀6的通用方法" FOLDED="true" ID="ID_539855173" CREATED="1534585419971" MODIFIED="1534816801784" LINK="https://forum.xda-developers.com/showpost.php?p=57490025&amp;postcount=205">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6960,10 +6637,8 @@
       &#21442;&#32771;&#33410;&#28857;&#19978;&#30340;xda&#35770;&#22363;&#30340;&#24086;&#23376;&#65292;&#37324;&#38754;&#25551;&#36848;&#30340;&#24456;&#35814;&#32454;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Shell脚本" ID="ID_1355039793" CREATED="1534587509636" MODIFIED="1534588299105" LINK="../attachment/rn_openwrt.sh"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Shell脚本" ID="ID_1355039793" CREATED="1534587509636" MODIFIED="1534588299105" LINK="../attachment/rn_openwrt.sh"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6973,10 +6648,8 @@
       rn_openwrt.sh
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="内容" ID="ID_180635831" CREATED="1534587542108" MODIFIED="1534588269438"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="内容" ID="ID_180635831" CREATED="1534587542108" MODIFIED="1534588269438"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7019,11 +6692,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     </div>
   </body>
 </html>
-<!-- HTML generated using hilite.me -->
-</richcontent>
+<!-- HTML generated using hilite.me --></richcontent>
 </node>
-<node TEXT="更新版本" ID="ID_364796592" CREATED="1534816141370" MODIFIED="1534816184413"><richcontent TYPE="NOTE">
-
+<node TEXT="更新版本" ID="ID_364796592" CREATED="1534816141370" MODIFIED="1534816184413"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7036,10 +6707,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#20316;&#32773;&#21448;&#26356;&#26032;&#20102;&#19968;&#20010;&#26032;&#30340;&#29256;&#26412;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="内容" ID="ID_1017067389" CREATED="1534816348914" MODIFIED="1534816510259"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="内容" ID="ID_1017067389" CREATED="1534816348914" MODIFIED="1534816510259"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7175,13 +6844,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       fi
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="脚本使用方法" ID="ID_1773997424" CREATED="1534587514620" MODIFIED="1534588453792"><richcontent TYPE="NOTE">
-
+<node TEXT="脚本使用方法" ID="ID_1773997424" CREATED="1534587514620" MODIFIED="1534588453792"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7205,10 +6872,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
-<node TEXT="取消reverse tethering模式" ID="ID_1183733487" CREATED="1534816417285" MODIFIED="1534816443154"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="取消reverse tethering模式" ID="ID_1183733487" CREATED="1534816417285" MODIFIED="1534816443154"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7245,8 +6910,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       setprop sys.usb.config 'mtp'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7255,12 +6919,25 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 <icon BUILTIN="bookmark"/>
 </node>
 </node>
-<node TEXT="小马软路由" POSITION="right" ID="ID_1893027885" CREATED="1572187176322" MODIFIED="1572187179428">
+<node TEXT="家庭服务网关" POSITION="right" ID="ID_1893027885" CREATED="1572187176322" MODIFIED="1621410840312"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个设备目前是一台树莓派2。
+    </p>
+    <p>
+      它的任务是利用它低功耗的特点让它24小时在线，主要用于联通外部网络和内部网络，并且给内网用户提供一些基本的网络服务，比如wiki什么的。&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Debian" ID="ID_769180834" CREATED="1572187186770" MODIFIED="1572187188868">
 <node TEXT="网关简单配置" ID="ID_1026225973" CREATED="1572187205354" MODIFIED="1572187212436">
 <node TEXT="配置网口ip" ID="ID_1247374838" CREATED="1572188084544" MODIFIED="1572188090267">
-<node TEXT="/etc/network/interfaces" ID="ID_1013386605" CREATED="1572187229098" MODIFIED="1617696811094"><richcontent TYPE="NOTE">
-
+<node TEXT="/etc/network/interfaces" ID="ID_1013386605" CREATED="1572187229098" MODIFIED="1617696811094"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7315,10 +6992,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &nbsp;&nbsp;&nbsp;&nbsp;broadcast 192.168.99.255
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="暂时只配了两个网口" ID="ID_1019561078" CREATED="1572187273929" MODIFIED="1572187292955"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="暂时只配了两个网口" ID="ID_1019561078" CREATED="1572187273929" MODIFIED="1572187292955"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7331,14 +7006,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       2&#21475;&#20570;LAN
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="打开路由功能" ID="ID_1230675247" CREATED="1572188095392" MODIFIED="1572188127027">
-<node TEXT="/etc/sysctl.conf" ID="ID_1022462515" CREATED="1572187890353" MODIFIED="1572187916483"><richcontent TYPE="NOTE">
-
+<node TEXT="/etc/sysctl.conf" ID="ID_1022462515" CREATED="1572187890353" MODIFIED="1572187916483"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7348,14 +7021,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#21435;&#25481; net.ipv4.ip_forward=1 &#21069;&#38754;&#30340; #
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="dhcp服务" ID="ID_975848619" CREATED="1572188139784" MODIFIED="1572188146626">
 <node TEXT="安装dnsmasq" ID="ID_1083006491" CREATED="1572188155344" MODIFIED="1572188162273"/>
-<node TEXT="/etc/dnsmasq.conf" ID="ID_1606207584" CREATED="1572188182759" MODIFIED="1572188414279"><richcontent TYPE="NOTE">
-
+<node TEXT="/etc/dnsmasq.conf" ID="ID_1606207584" CREATED="1572188182759" MODIFIED="1572188414279"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7377,13 +7048,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       dhcp-option=3,192.168.99.1
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="iptables配置" ID="ID_399935916" CREATED="1572188434871" MODIFIED="1572188438937">
-<node TEXT="安装iptables-persistent" ID="ID_93140899" CREATED="1572188440127" MODIFIED="1572188518340"><richcontent TYPE="NOTE">
-
+<node TEXT="安装iptables-persistent" ID="ID_93140899" CREATED="1572188440127" MODIFIED="1572188518340"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7399,11 +7068,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#27599;&#27425;&#24320;&#26426;&#30340;&#26102;&#20505;&#20250;&#33258;&#21160;load&#36825;&#20004;&#20010;&#25991;&#20214;&#20013;&#30340;&#35268;&#21017;&#21040;iptables&#30340;&#35268;&#21017;&#37324;&#38754;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="/etc/iptables/rules.v4" ID="ID_1687351601" CREATED="1572188524959" MODIFIED="1572188641647"><richcontent TYPE="NOTE">
-
+<node TEXT="/etc/iptables/rules.v4" ID="ID_1687351601" CREATED="1572188524959" MODIFIED="1572188641647"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7473,8 +7140,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       # Completed on Sun Oct 27 18:38:02 2019
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="流媒体服务器" ID="ID_690404364" CREATED="1573609121528" MODIFIED="1573609131115">
@@ -7483,8 +7149,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 <node TEXT="命令行使用SS代理" ID="ID_1218946962" CREATED="1613714504305" MODIFIED="1613960272908">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7497,10 +7162,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       但是有时候需要做脱机下载这样的操作，或者命令行下访问一些被墙的网站，这时候就没法使用SS代理，导致无法访问或者访问速度非常的慢。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装shadowsocks客户端" ID="ID_754576653" CREATED="1613714732479" MODIFIED="1613714870901"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装shadowsocks客户端" ID="ID_754576653" CREATED="1613714732479" MODIFIED="1613714870901"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7519,11 +7182,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       配置参数按照VPS上的SS 服务器端的配置来，ss-local执行了之后，就已经建立起了一个sock5的代理，我们这里假设端口是1080.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装proxychains" ID="ID_122761670" CREATED="1613714660973" MODIFIED="1613714961251"><richcontent TYPE="NOTE">
-
+<node TEXT="安装proxychains" ID="ID_122761670" CREATED="1613714660973" MODIFIED="1613714961251"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7548,11 +7209,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       socks5 127.0.0.1 1080
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="使用SS代理" ID="ID_1755270867" CREATED="1613714964282" MODIFIED="1613715073148"><richcontent TYPE="NOTE">
-
+<node TEXT="使用SS代理" ID="ID_1755270867" CREATED="1613714964282" MODIFIED="1613715073148"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7586,12 +7245,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       这样就启动了一个新的bash shell，在这个shell中的所有的网络访问都是走的socks5的代理
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Systemd系统" ID="ID_896553454" CREATED="1617696496761" MODIFIED="1617860281767"><richcontent TYPE="NOTE">
-
+<node TEXT="Systemd系统" ID="ID_896553454" CREATED="1617696496761" MODIFIED="1617860281767"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7634,10 +7291,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       如果需要启用某一个service的话，只要使用systemctl enable some_service 就可以将这个some_service设置为开机自启动过了，然后系统会自动的从<b><font color="#ff0000">/lib/systemd</font></b>目录下面将相应的服务的配置文件拷贝到<b><font color="#ff0000">/etc/systemd/</font></b>目录下面去。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1620747511248"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1620747511248"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7653,12 +7308,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><font color="#0000c0">systemctl enable frpc.service</font></b>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1617860056030"><richcontent TYPE="NOTE">
-
+<node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1617860056030"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7701,11 +7353,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       ExecStart=/usr/bin/ss-local -c /etc/shadowsocks-libev/<font color="#ff0000">%i.json&nbsp; </font>--&gt; &nbsp;ExecStart=/usr/bin/ss-local -c /etc/shadowsocks-libev/<font color="#ff0000">config.json</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="frps服务" ID="ID_1687455863" CREATED="1617696693585" MODIFIED="1617699879126"><richcontent TYPE="NOTE">
-
+<node TEXT="frps服务" ID="ID_1687455863" CREATED="1617696693585" MODIFIED="1617699879126"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7727,12 +7377,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       ExecStart=/home/proudeng/frp/frps -c /home/proudeng/frp/frps.ini
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="IPV6 DDNS" ID="ID_1002439468" CREATED="1613714597666" MODIFIED="1617860415616"><richcontent TYPE="NOTE">
-
+<node TEXT="IPV6 DDNS" ID="ID_1002439468" CREATED="1613714597666" MODIFIED="1617860415616"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7748,10 +7396,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       由此想到，可以使用IPV6的 DDNS，来访问家中的内网设备。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="电信宽带+光猫拨号的坑" ID="ID_1006166592" CREATED="1617960280882" MODIFIED="1617961589390"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="电信宽带+光猫拨号的坑" ID="ID_1006166592" CREATED="1617960280882" MODIFIED="1617961589390"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7791,11 +7437,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       网上有人说将光猫里面的防火墙关闭就可以访问内网设备了，实测不行。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="双网口操作" ID="ID_1805704395" CREATED="1617961592308" MODIFIED="1617961780678"><richcontent TYPE="NOTE">
-
+<node TEXT="双网口操作" ID="ID_1805704395" CREATED="1617961592308" MODIFIED="1617961780678"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7817,14 +7461,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       这样子，内外网都能够访问软路由了！
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="WOL" ID="ID_909951503" CREATED="1613715087704" MODIFIED="1618282000049">
 <icon BUILTIN="button_cancel"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7843,11 +7485,38 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       操作上，在BIOS上以及在ethtool上都配置好了，但是依然是无法成功唤醒。不知道是系统的问题，还是网卡的问题。暂时先不管了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="监控系统的温度" ID="ID_1398986476" CREATED="1618282019745" MODIFIED="1618282087093"><richcontent TYPE="NOTE">
-
+<node TEXT="查看系统外设" FOLDED="true" ID="ID_391350847" CREATED="1618294879543" MODIFIED="1618295253365"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      查看系统外设时，系统中本来有一些命令就可以查看，或者有一些log就能够知道。不过，安装一些集成的命令，显示效果会更加的简便，操作也更加的方便
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="需要安装的工具" ID="ID_1484685300" CREATED="1618295256930" MODIFIED="1618295326305"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apt-get install procinf
+    </p>
+    <p>
+      apt-get install lsscsi
+    </p>
+    <p>
+      apt-get install hwinfo
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="监控系统的温度" ID="ID_1398986476" CREATED="1618282019745" MODIFIED="1618282087093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7860,10 +7529,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       希望有一个工具来监控系统的温度。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="直接查看" ID="ID_101579701" CREATED="1618282092411" MODIFIED="1618282356566"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="直接查看" ID="ID_101579701" CREATED="1618282092411" MODIFIED="1618282356566"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7888,11 +7555,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       可以得到系统中的不同设备上的温度传感器的数值。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="使用工具" ID="ID_1629605474" CREATED="1618282099436" MODIFIED="1618282758100"><richcontent TYPE="NOTE">
-
+<node TEXT="使用工具" ID="ID_1629605474" CREATED="1618282099436" MODIFIED="1618282758100"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7923,10 +7588,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       配置完成之后，直接键入sensors命令就可以查看系统中的温度传感器的数值了。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="示例输出" ID="ID_376386540" CREATED="1618282761542" MODIFIED="1618282786921"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="示例输出" ID="ID_376386540" CREATED="1618282761542" MODIFIED="1618282786921"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7972,47 +7635,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       Core 1:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+50.0°C&nbsp;&nbsp;(high = +87.0°C, crit = +105.0°C)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-</node>
-<node TEXT="查看系统外设" ID="ID_391350847" CREATED="1618294879543" MODIFIED="1618295253365"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      查看系统外设时，系统中本来有一些命令就可以查看，或者有一些log就能够知道。不过，安装一些集成的命令，显示效果会更加的简便，操作也更加的方便
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="需要安装的工具" ID="ID_1484685300" CREATED="1618295256930" MODIFIED="1618295326305"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      apt-get install procinf
-    </p>
-    <p>
-      apt-get install lsscsi
-    </p>
-    <p>
-      apt-get install hwinfo
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
 <node TEXT="命令" ID="ID_875142085" CREATED="1618295329715" MODIFIED="1618295337988">
-<node TEXT="mount" ID="ID_1257173745" CREATED="1618295377994" MODIFIED="1618295387523"><richcontent TYPE="NOTE">
-
+<node TEXT="mount" ID="ID_1257173745" CREATED="1618295377994" MODIFIED="1618295387523"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8022,11 +7650,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       issuing the command with no parameters causes it to list all of the mounted filesystems, as well as the devices they are located on. So we can use this as a means of discovering those devices
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="lsblk" ID="ID_588545097" CREATED="1618295391097" MODIFIED="1618295428602"><richcontent TYPE="NOTE">
-
+<node TEXT="lsblk" ID="ID_588545097" CREATED="1618295391097" MODIFIED="1618295428602"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8036,11 +7662,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The lsblk command lists the block devices
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="df" ID="ID_1815822297" CREATED="1618295430242" MODIFIED="1618295450715"><richcontent TYPE="NOTE">
-
+<node TEXT="df" ID="ID_1815822297" CREATED="1618295430242" MODIFIED="1618295450715"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8050,11 +7674,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The df command reports on drive capacities and used and free space
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="fdisk" ID="ID_499825928" CREATED="1618295453562" MODIFIED="1618295478646"><richcontent TYPE="NOTE">
-
+<node TEXT="fdisk" ID="ID_499825928" CREATED="1618295453562" MODIFIED="1618295478646"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8064,11 +7686,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The fdisk command is a tool designed to manipulate the disk partition table, but it can be used to view information as well. We can use this to our advantage when we are investigating the devices in a computer.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="/proc目录" ID="ID_1876780105" CREATED="1618295481345" MODIFIED="1618295516150"><richcontent TYPE="NOTE">
-
+<node TEXT="/proc目录" ID="ID_1876780105" CREATED="1618295481345" MODIFIED="1618295516150"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8078,11 +7698,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The pseudo-files in /proc can be viewed to obtain some system information. The file we will look at is /proc/mounts, which will give us some information regarding the mounted filesystems. We will use nothing grander than cat&nbsp;&nbsp;to view the file。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="lspci" ID="ID_1239265481" CREATED="1618295528842" MODIFIED="1618295549041"><richcontent TYPE="NOTE">
-
+<node TEXT="lspci" ID="ID_1239265481" CREATED="1618295528842" MODIFIED="1618295549041"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8092,11 +7710,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The lspci command lists all of the PCI devices in your computer.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="lsusb" ID="ID_1363346081" CREATED="1618295550434" MODIFIED="1618295570372"><richcontent TYPE="NOTE">
-
+<node TEXT="lsusb" ID="ID_1363346081" CREATED="1618295550434" MODIFIED="1618295570372"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8106,11 +7722,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The lsusb command will list devices that are connected to USB ports on your computer as well as USB enabled devices that are built into your computer.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="lsdev" ID="ID_846768000" CREATED="1618295582618" MODIFIED="1618295592373"><richcontent TYPE="NOTE">
-
+<node TEXT="lsdev" ID="ID_846768000" CREATED="1618295582618" MODIFIED="1618295592373"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8120,11 +7734,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The lsdev command displays information on all of the installed devices.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="lshw" ID="ID_1818878042" CREATED="1618295607931" MODIFIED="1618295618252"><richcontent TYPE="NOTE">
-
+<node TEXT="lshw" ID="ID_1818878042" CREATED="1618295607931" MODIFIED="1618295618252"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8134,11 +7746,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The lshw command lists the devices connected to your computer. This is another command with a lot of output. On the test computer, there were over 260 lines of information generated. We’ll pipe it through less once more.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="lsscsi" ID="ID_451821293" CREATED="1618295627322" MODIFIED="1618295636923"><richcontent TYPE="NOTE">
-
+<node TEXT="lsscsi" ID="ID_451821293" CREATED="1618295627322" MODIFIED="1618295636923"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8148,11 +7758,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       As you would imagine by now, the lsscsi command lists the SCSI devices connected to your computer.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="dmidecode" ID="ID_1177193289" CREATED="1618295648546" MODIFIED="1618295690662"><richcontent TYPE="NOTE">
-
+<node TEXT="dmidecode" ID="ID_1177193289" CREATED="1618295648546" MODIFIED="1618295690662"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8168,11 +7776,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The DMI is also sometimes referred to as the SMBIOS (the System Management Basic Input/Output System) although they are really two different standards.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="hwinfo" ID="ID_605847789" CREATED="1618295691891" MODIFIED="1618295701227"><richcontent TYPE="NOTE">
-
+<node TEXT="hwinfo" ID="ID_605847789" CREATED="1618295691891" MODIFIED="1618295701227"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8182,13 +7788,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       The hwinfo command is the most verbose of them all. When we say that you need to pipe something through less, this time it isn’t optional. On the test computer, it generated 5850 lines of output!
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="CPU调度策略调整" ID="ID_1964994936" CREATED="1618294866543" MODIFIED="1618295965309"><richcontent TYPE="NOTE">
-
+<node TEXT="CPU调度策略调整" ID="ID_1964994936" CREATED="1618294866543" MODIFIED="1618295965309"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8227,10 +7831,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="不同Governer的行为" ID="ID_1856969880" CREATED="1618295980093" MODIFIED="1618296061598"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="不同Governer的行为" ID="ID_1856969880" CREATED="1618295980093" MODIFIED="1621412754495"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8286,12 +7888,190 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </richcontent>
 </node>
 </node>
+<node TEXT="MQTT客户端" ID="ID_507213376" CREATED="1621410842429" MODIFIED="1621413292587"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      树莓派上面可以搭建一个MQTT的客户端。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      一般进行树莓派的管理最直接的方法是使用ssh客户端登陆系统，然后命令行进行各种管理。
+    </p>
+    <p>
+      这种方式能够实现的功能最为强大。但是其实也比较麻烦。
+    </p>
+    <p>
+      有时候其实想一键操作，完成一些常用的管理功能。这样的话，使用SSH的方式有点儿杀鸡使用牛刀的感觉。
+    </p>
+    <p>
+      其实可选的一种实现方式是使用MQTT客户端，定义一些常见的操作命令，然后使用MQTT的方式来和树莓派进行交互。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时使用MQTT还有一个好处是，在局域网外管理树莓派也变得简单了起来，因为使用这种方式，<b><font color="#0000c0">并不需要树莓派拥有公网的IP地址</font></b>。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="思路" ID="ID_1780037356" CREATED="1621412756144" MODIFIED="1621413399273"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      外部管理设备和树莓派之间使用MQTT协议联系起来。MQTT的使用方式是，外部管理设备和树莓派都作为MQTT的客户端，分别连接到MQTT Broker上，通过Broker转发消息。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="树莓派" ID="ID_197341363" CREATED="1621412804848" MODIFIED="1621413813173">
+<arrowlink DESTINATION="ID_1359210930"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      树莓派作为MQTT的客户端连接到公共的MQTT Broker上面。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      树莓派作为MQTT的客户，subscribe到我们定义的一些topic上，接收消息。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="topic" ID="ID_182722504" CREATED="1621413795020" MODIFIED="1621413797548">
+<node TEXT="订阅" ID="ID_1002737440" CREATED="1621413435152" MODIFIED="1621413438266">
+<node TEXT="/proudeng/home/control" ID="ID_1648763639" CREATED="1621413416752" MODIFIED="1621413423562"/>
+<node TEXT="/proudeng/home/query" ID="ID_479691592" CREATED="1621413423951" MODIFIED="1621413429649"/>
+</node>
+<node TEXT="发布" ID="ID_602251959" CREATED="1621413443784" MODIFIED="1621413444858">
+<node TEXT="/proudeng/home/pub" ID="ID_248716048" CREATED="1621413446570" MODIFIED="1621413451241"/>
+</node>
+</node>
+<node TEXT="功能" ID="ID_417354740" CREATED="1621413815442" MODIFIED="1621414087011"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      目前实现的功能非常的简单，<font color="#0000c0">在树莓派接收到消息之后，认为接收的数据就是应该执行的一个shell命令，然后执行这个命令，将返回的结果publish到pub这个topic上面去。</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这是一个非常粗糙和非常危险的操作，因为：
+    </p>
+    <ol>
+      <li>
+        消息内容不受限。消息可以包含任何的命令，树莓配完全没有过滤，有些命令可能会引起系统的极大问题。
+      </li>
+      <li>
+        管理方和被管理方没有鉴权的过程。消息经过broker转发的过程，可以被任何不怀好意的人监听，当这些人了解了通信的细节之后，就可以完全的掌控树莓派。
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="手机" ID="ID_1802317323" CREATED="1621412807608" MODIFIED="1621413722648">
+<arrowlink DESTINATION="ID_1359210930"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      手机端安装MQTT客户端，然后向树莓派发送管理消息。发布消息的topic就是使用树莓派自己订阅的消息。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Broker" ID="ID_1359210930" CREATED="1621413521104" MODIFIED="1621413712366"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      地址: broker.emqx.io
+    </p>
+    <p>
+      客户端端口:1883
+    </p>
+    <p>
+      web客户端端口:8083
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="工具" ID="ID_97539190" CREATED="1621414091427" MODIFIED="1621414449775"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      有很多的MQTT客户端。我选择的是一个shell命令行实现的客户端，叫做bish-bosh。
+    </p>
+    <p>
+      使用命令行版本的MQTT客户端的好处之一是，可以非常容易的在脚本中调用系统中的各种命令行工具。(其实python版本的工具也可以做到这些，只不过对python不是特别的熟悉)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      对于我们想要管理树莓派的目的来说，这样的好处确实是比较明显和值得关注了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="bish-bosh" ID="ID_1517038744" CREATED="1621414295116" MODIFIED="1621414323325" LINK="https://github.com/raphaelcohn/bish-bosh"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个github上公开的开源工具
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Linux下的策略路由" POSITION="right" ID="ID_789257683" CREATED="1422535205988" MODIFIED="1422535212919"/>
 <node TEXT="[zh@burstnet]CentOS服务器" FOLDED="true" POSITION="left" ID="ID_1286129281" CREATED="1325745025464" MODIFIED="1325745063906">
-<node TEXT="apache" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE">
-
+<node TEXT="apache" ID="ID_1895688340" CREATED="1325745070549" MODIFIED="1325745180089"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8313,10 +8093,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="apache操作基本命令" FOLDED="true" ID="ID_1956373118" CREATED="1325745184605" MODIFIED="1534589514925" LINK="http://www.phpchina.com/manual/apache/stopping.html"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="apache操作基本命令" FOLDED="true" ID="ID_1956373118" CREATED="1325745184605" MODIFIED="1534589514925" LINK="http://www.phpchina.com/manual/apache/stopping.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8332,10 +8110,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><font color="#ff0033" size="6">/opt/apache/bin</font></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="虚拟服务器的配置" ID="ID_209820949" CREATED="1325831815715" MODIFIED="1325848823565" LINK="http://www.phpchina.com/manual/apache/vhosts/index.html"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="虚拟服务器的配置" ID="ID_209820949" CREATED="1325831815715" MODIFIED="1325848823565" LINK="http://www.phpchina.com/manual/apache/vhosts/index.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8398,11 +8174,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x8fd9;&#x4e2a;&#x503c;&#x662f;&#x7528;&#x6765;&#x6307;&#x793a;&#x865a;&#x62df;&#x670d;&#x52a1;&#x5668;&#x7684;IP&#x7684;&#x3002;&#x4e5f;&#x5c31;&#x662f;&#x8bf4;&#x5982;&#x679c;&#x670d;&#x52a1;&#x5668;&#x4e0a;&#x4e0d;&#x4ec5;&#x4ec5;&#x7ed1;&#x5b9a;&#x4e86;&#x4e00;&#x4e2a;IP&#xff0c;&#x6709;&#x591a;&#x4e2a;IP&#x7684;&#x8bdd;&#xff0c;&#x90a3;&#x4e48;&#x8fd9;&#x4e2a;&#x503c;&#x5c31;&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#xff0c;&#x865a;&#x62df;&#x670d;&#x52a1;&#x5668;&#x662f;&#x5728;&#x54ea;&#x4e00;&#x4e2a;IP&#x4e0a;&#x5efa;&#x7acb;&#x7684;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="httpd.conf中配置mod_rewrite" FOLDED="true" ID="ID_1667570257" CREATED="1325997185517" MODIFIED="1325997751058"><richcontent TYPE="NOTE">
-
+<node TEXT="httpd.conf中配置mod_rewrite" FOLDED="true" ID="ID_1667570257" CREATED="1325997185517" MODIFIED="1325997751058"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8541,10 +8315,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x662f;&#xff0c;AllowOverride None&#x8fd9;&#x4e2a;&#x9009;&#x9879;&#xff0c;&#x5c31;&#x5c06;htaccess&#x7ed9;&#x5173;&#x95ed;&#x4e86;&#xff0c;&#x7cfb;&#x7edf;&#x4e2d;&#x7684;htaccess&#x5c31;&#x4e0d;&#x8d77;&#x4f5c;&#x7528;&#x4e86;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="有点" ID="ID_96165265" CREATED="1325997753001" MODIFIED="1325997796270"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="有点" ID="ID_96165265" CREATED="1325997753001" MODIFIED="1325997796270"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8557,14 +8329,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x5982;&#x679c;&#x4f7f;&#x7528;htaccess&#x7684;&#x8bdd;&#xff0c;&#x670d;&#x52a1;&#x5668;&#x5bf9;&#x4e8e;&#x6bcf;&#x4e00;&#x4e2a;&#x8bf7;&#x6c42;&#x90fd;&#x9700;&#x8981;&#x5728;&#x5f88;&#x591a;&#x7684;&#x76ee;&#x5f55;&#x4e0b;&#x53bb;&#x67e5;&#x627e;htaccess&#x6587;&#x4ef6;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="服务器的调优" FOLDED="true" ID="ID_677599364" CREATED="1325997995268" MODIFIED="1325998392541">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" STARTINCLINATION="107;0;" ENDINCLINATION="107;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" STARTINCLINATION="80.25 pt;0 pt;" ENDINCLINATION="80.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8612,10 +8382,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       http://hi.baidu.com/grayker/blog/item/e7a81a3044671c9ea9018eb8.html
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Apache的内存调优" ID="ID_918773756" CREATED="1326119549165" MODIFIED="1326119757522"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Apache的内存调优" ID="ID_918773756" CREATED="1326119549165" MODIFIED="1326119757522"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8673,11 +8441,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="KeepAlive相关" ID="ID_235525479" CREATED="1326119775810" MODIFIED="1326119821578"><richcontent TYPE="NOTE">
-
+<node TEXT="KeepAlive相关" ID="ID_235525479" CREATED="1326119775810" MODIFIED="1326119821578"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8711,14 +8477,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Apache转为其他轻量级服务器" ID="ID_1814699049" CREATED="1326120013477" MODIFIED="1326120044208"><richcontent TYPE="NOTE">
-
+<node TEXT="Apache转为其他轻量级服务器" ID="ID_1814699049" CREATED="1326120013477" MODIFIED="1326120044208"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8734,11 +8498,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       http://webserverhacks.com/performance-tests/how-to-run-lighttpd-with-wordpress-on-plesk/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="mysql" ID="ID_1707228022" CREATED="1325745923060" MODIFIED="1325746008223"><richcontent TYPE="NOTE">
-
+<node TEXT="mysql" ID="ID_1707228022" CREATED="1325745923060" MODIFIED="1325746008223"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8751,11 +8513,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x901a;&#x8fc7;&#x8fd9;&#x4e2a;&#x7f51;&#x9875;&#x5de5;&#x5177;&#x80fd;&#x591f;&#x76f4;&#x63a5;&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5e93;&#x7684;&#x521b;&#x5efa;,&#x7ba1;&#x7406;,&#x7528;&#x6237;&#x521b;&#x5efa;&#x7ba1;&#x7406;&#x7b49;&#x7b49;&#x7684;&#x64cd;&#x4f5c;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="不能访问wordpress目录的问题" ID="ID_1462281078" CREATED="1325745900548" MODIFIED="1325898981883"><richcontent TYPE="NOTE">
-
+<node TEXT="不能访问wordpress目录的问题" ID="ID_1462281078" CREATED="1325745900548" MODIFIED="1325898981883"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8786,11 +8546,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
     DirectoryIndex <font color="#ff0033">index.php</font> index.html
 &lt;/IfModule&gt;</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="安装lighttpd[版本1.4.30]" FOLDED="true" ID="ID_1277235146" CREATED="1326382037284" MODIFIED="1584615688146"><richcontent TYPE="NOTE">
-
+<node TEXT="安装lighttpd[版本1.4.30]" FOLDED="true" ID="ID_1277235146" CREATED="1326382037284" MODIFIED="1584615688146"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8823,10 +8581,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       配置文件在/etc/lighttpd/目录下面。/etc/lighttpd目录是手动创建的。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="编译后lighttpd不能启动的问题" ID="ID_606655900" CREATED="1326509303364" MODIFIED="1326509555161"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="编译后lighttpd不能启动的问题" ID="ID_606655900" CREATED="1326509303364" MODIFIED="1326509555161"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8866,13 +8622,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x4fee;&#x6539;&#x4e86;log&#x76ee;&#x5f55;&#x7684;&#x6743;&#x9650;&#x548c;&#x7528;&#x6237;&#x540d;&#x548c;&#x7ec4;&#x4e4b;&#x540e;&#xff0c;&#x5c31;&#x80fd;&#x591f;&#x6b63;&#x5e38;&#x7684;&#x542f;&#x52a8;&#x4e86;&#xff01;&#xff01;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="在lighttpd上支持wordpress的url rewrite" ID="ID_1553838250" CREATED="1326716956690" MODIFIED="1337111308184">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_103123836" STARTINCLINATION="322;0;" ENDINCLINATION="322;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_103123836" STARTINCLINATION="241.49999 pt;0 pt;" ENDINCLINATION="241.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8894,11 +8648,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       http://www.vk8.org/archives/270.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="lighttpd支持文件cache和expire" ID="ID_582942353" CREATED="1326866694106" MODIFIED="1326870580435"><richcontent TYPE="NOTE">
-
+<node TEXT="lighttpd支持文件cache和expire" ID="ID_582942353" CREATED="1326866694106" MODIFIED="1326870580435"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8941,11 +8693,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="启动lighttpd" ID="ID_1154780491" CREATED="1329209662830" MODIFIED="1329209695010"><richcontent TYPE="NOTE">
-
+<node TEXT="启动lighttpd" ID="ID_1154780491" CREATED="1329209662830" MODIFIED="1329209695010"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8961,12 +8711,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font color="#ff0000" size="6">/etc/init.d/lighttpd start</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="编译php-5.3.8[带fpm支持]" FOLDED="true" ID="ID_940956504" CREATED="1326431286584" MODIFIED="1511493586398"><richcontent TYPE="NOTE">
-
+<node TEXT="编译php-5.3.8[带fpm支持]" FOLDED="true" ID="ID_940956504" CREATED="1326431286584" MODIFIED="1511493586398"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9119,11 +8867,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <font color="#ff0033">/usr/local/sbin/php-fpm</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="php-fpm解析以及配置" ID="ID_882086367" CREATED="1326514167638" MODIFIED="1326514184471"/>
-<node TEXT="启动php-fmp" ID="ID_306451867" CREATED="1329209741148" MODIFIED="1329209779632"><richcontent TYPE="NOTE">
-
+<node TEXT="启动php-fmp" ID="ID_306451867" CREATED="1329209741148" MODIFIED="1329209779632"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9139,12 +8885,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font color="#ff0000" size="6">/etc/init.d/php-fpm start</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="为php安装eaccelerator" ID="ID_1014504029" CREATED="1326719303134" MODIFIED="1326719352087"><richcontent TYPE="NOTE">
-
+<node TEXT="为php安装eaccelerator" ID="ID_1014504029" CREATED="1326719303134" MODIFIED="1326719352087"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9163,11 +8907,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       http://js8.in/888.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Mysql服务器" FOLDED="true" ID="ID_1169936241" CREATED="1329209401017" MODIFIED="1511493589559"><richcontent TYPE="NOTE">
-
+<node TEXT="Mysql服务器" FOLDED="true" ID="ID_1169936241" CREATED="1329209401017" MODIFIED="1511493589559"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9189,10 +8931,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font color="#ff0000" size="6">/etc/init.d/mysqld start </font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="启动Mysql服务器" ID="ID_520374022" CREATED="1329209701453" MODIFIED="1329209716513"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="启动Mysql服务器" ID="ID_520374022" CREATED="1329209701453" MODIFIED="1329209716513"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9202,16 +8942,14 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font color="#ff0000" size="6">/etc/init.d/mysqld start </font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="28;0;" ENDINCLINATION="28;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="132;0;" ENDINCLINATION="132;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="21 pt;0 pt;" ENDINCLINATION="21 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="99 pt;0 pt;" ENDINCLINATION="99 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="75.75 pt;0 pt;" ENDINCLINATION="75.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9335,10 +9073,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x5728;/etc/rc3.d/&#x76ee;&#x5f55;&#x4e2d;,&#x4e3a;&#x6bcf;&#x4e00;&#x4e2a;&#x6211;&#x4eec;&#x60f3;&#x542f;&#x7528;&#x7684;&#x670d;&#x52a1;&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x4ee5;S&#x5f00;&#x5934;&#x7684;&#x8f6f;&#x94fe;&#x63a5;&#x5373;&#x53ef;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="让Apache服务程序在系统重启时不自动启动" FOLDED="true" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="让Apache服务程序在系统重启时不自动启动" FOLDED="true" ID="ID_1801743310" CREATED="1329210009270" MODIFIED="1329282580223"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9402,10 +9138,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="linux的运行级别以及默认启动服务" ID="ID_1247959091" CREATED="1329282405575" MODIFIED="1329283050875"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="linux的运行级别以及默认启动服务" ID="ID_1247959091" CREATED="1329282405575" MODIFIED="1329283050875"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9451,12 +9185,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#xa0;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="图形化的工具" ID="ID_1512888206" CREATED="1329293857920" MODIFIED="1329293911065"><richcontent TYPE="NOTE">
-
+<node TEXT="图形化的工具" ID="ID_1512888206" CREATED="1329293857920" MODIFIED="1329293911065"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9478,12 +9210,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font size="6" color="#000099">ntsysv</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装ftp服务器" FOLDED="true" ID="ID_916370041" CREATED="1329287069211" MODIFIED="1329287290575"><richcontent TYPE="NOTE">
-
+<node TEXT="安装ftp服务器" FOLDED="true" ID="ID_916370041" CREATED="1329287069211" MODIFIED="1329287290575"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9535,10 +9265,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       ==
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装使用的命令" ID="ID_369853469" CREATED="1329287144089" MODIFIED="1329287197308"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装使用的命令" ID="ID_369853469" CREATED="1329287144089" MODIFIED="1329287197308"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9560,12 +9288,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font size="6" color="#000099">yum install vsftpd.i686</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装超级服务器xinetd" FOLDED="true" ID="ID_455549898" CREATED="1329291401433" MODIFIED="1329293462042"><richcontent TYPE="NOTE">
-
+<node TEXT="安装超级服务器xinetd" FOLDED="true" ID="ID_455549898" CREATED="1329291401433" MODIFIED="1329293462042"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9620,10 +9346,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       xinetd&#x5c31;&#x662f;&#x4e0a;&#x9762;&#x6240;&#x8bf4;&#x7684;&#x90a3;&#x4e2a;&#x96c6;&#x4e2d;&#x76d1;&#x542c;&#x7684;daemon.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装xinetd" ID="ID_248350034" CREATED="1329293423313" MODIFIED="1329293438155"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装xinetd" ID="ID_248350034" CREATED="1329293423313" MODIFIED="1329293438155"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9633,11 +9357,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       yum install xinetd
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="重启xinetd服务器的命令" ID="ID_1326105766" CREATED="1329293942039" MODIFIED="1329294000561"><richcontent TYPE="NOTE">
-
+<node TEXT="重启xinetd服务器的命令" ID="ID_1326105766" CREATED="1329293942039" MODIFIED="1329294000561"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9656,16 +9378,14 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font size="6" color="#000099">service xinetd restart</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="Wordpress安装维护" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="left" ID="ID_257694630" CREATED="1325745860145" MODIFIED="1382553174645">
 <node TEXT="[zh@burstnet]CentOS上安装wordpress" FOLDED="true" ID="ID_475403749" CREATED="1325745876273" MODIFIED="1534589527803">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1462281078" STARTINCLINATION="24;0;" ENDINCLINATION="24;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1462281078" STARTINCLINATION="18 pt;0 pt;" ENDINCLINATION="18 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9692,13 +9412,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="域名绑定" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="392;0;" ENDINCLINATION="392;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="111;0;" ENDINCLINATION="111;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="83.25 pt;0 pt;" ENDINCLINATION="83.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="293.99999 pt;0 pt;" ENDINCLINATION="293.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9728,12 +9446,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x8fd9;&#x4e24;&#x9879;&#x5b8c;&#x6210;&#x540e;&#xff0c;&#x91cd;&#x542f;apache,&#x5c31;&#x53ef;&#x4ee5;&#x4e86;&#x3002;&#x4e0d;&#x8fc7;&#x53ef;&#x80fd;&#x4e5f;&#x9700;&#x8981;&#x7b49;&#x5f85;&#x4e00;&#x6bb5;&#x4e8b;&#x4ef6;&#xff0c;&#x7b49;&#x5f85;DNS&#x670d;&#x52a1;&#x5668;&#x5c06;A&#x8bb0;&#x5f55;&#x53ca;&#x65f6;&#x7684;&#x66f4;&#x65b0;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="[改用lighttpd,此结点废弃]更改固定链接类型时候遇到的404问题" FOLDED="true" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1534589534247"><richcontent TYPE="NOTE">
-
+<node TEXT="[改用lighttpd,此结点废弃]更改固定链接类型时候遇到的404问题" FOLDED="true" ID="ID_760531190" CREATED="1325922250495" MODIFIED="1534589534247"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9770,10 +9486,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#32487;&#32493;google.mod_rewrite&#27169;&#22359;&#26159;&#36890;&#36807;&#25913;&#21464;.htaccess&#25991;&#20214;&#21457;&#29983;&#20316;&#29992;&#30340;&#65292;&#20294;&#26159;&#22914;&#26524;&#22312;httpd.conf&#25991;&#20214;&#20013;&#65292;&#27809;&#26377;&#21551;&#29992;.htaccess&#30340;&#35805;&#65292;&#37027;&#20040;&#21363;&#20351;mod_rewrite&#29983;&#25104;&#20102;&#27491;&#30830;&#30340;.htaccess&#25991;&#20214;&#65292;Apache&#26381;&#21153;&#22120;&#36824;&#26159;&#20250;&#26080;&#35270;&#36825;&#20123;htaccess&#25991;&#20214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装mod_rewrite模块" ID="ID_1327185913" CREATED="1325922582000" MODIFIED="1325924879090"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装mod_rewrite模块" ID="ID_1327185913" CREATED="1325922582000" MODIFIED="1325924879090"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9800,11 +9514,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="修改httpd.conf文件，启用htaccess文件" FOLDED="true" ID="ID_1128222770" CREATED="1325923464975" MODIFIED="1534589534229"><richcontent TYPE="NOTE">
-
+<node TEXT="修改httpd.conf文件，启用htaccess文件" FOLDED="true" ID="ID_1128222770" CREATED="1325923464975" MODIFIED="1534589534229"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9853,12 +9565,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#160;&lt;/Directory&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="优化" ID="ID_1093340391" CREATED="1325997089286" MODIFIED="1325998228442">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" MIDDLE_LABEL="参考" STARTINCLINATION="177;0;" ENDINCLINATION="177;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1667570257" MIDDLE_LABEL="参考" STARTINCLINATION="132.75 pt;0 pt;" ENDINCLINATION="132.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9909,13 +9619,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       http://www.eygle.com/digest/2005/09/apache_oeoeooaeuooa_rewrite.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="添加Google Analytics到wordpress" ID="ID_1989413018" CREATED="1325931986337" MODIFIED="1325932187174"><richcontent TYPE="NOTE">
-
+<node TEXT="添加Google Analytics到wordpress" ID="ID_1989413018" CREATED="1325931986337" MODIFIED="1325932187174"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9943,11 +9651,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x8fc7;&#x4e00;&#x6bb5;&#x65f6;&#x95f4;&#xff0c;&#x53ef;&#x80fd;&#x662f;&#x51e0;&#x4e2a;&#x5c0f;&#x65f6;&#xff0c;&#x5f53;google&#x68c0;&#x6d4b;&#x5230;&#x4e86;&#x8fd9;&#x6bb5;&#x4ee3;&#x7801;&#x7684;&#x8bdd;&#xff0c;&#x5c31;OK&#x4e86;&#xff0c;&#x5728;google analytics&#x4e2d;&#x5c31;&#x80fd;&#x591f;&#x770b;&#x5230;&#x4fe1;&#x606f;&#x4e86;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="数据库定时备份" ID="ID_223631635" CREATED="1326808597396" MODIFIED="1326809186225"><richcontent TYPE="NOTE">
-
+<node TEXT="数据库定时备份" ID="ID_223631635" CREATED="1326808597396" MODIFIED="1326809186225"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9998,11 +9704,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       http://www.centos.bz/2011/12/php-can-not-send-mail-reasons/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="将wordpress站点添加到百度站长工具中" FOLDED="true" ID="ID_429181804" CREATED="1337110911404" MODIFIED="1584615692147"><richcontent TYPE="NOTE">
-
+<node TEXT="将wordpress站点添加到百度站长工具中" FOLDED="true" ID="ID_429181804" CREATED="1337110911404" MODIFIED="1584615692147"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10039,10 +9743,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       想了想,觉得是因为之前为了SEO的需要,做了url的rewrite.从而不能够正常的识别这个链接了.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="修改url rewrite规则" ID="ID_103123836" CREATED="1337111156489" MODIFIED="1337111251773"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="修改url rewrite规则" ID="ID_103123836" CREATED="1337111156489" MODIFIED="1337111251773"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10079,12 +9781,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="[基于lighttpd]Wordpress的url rewrite策略" ID="ID_64458106" CREATED="1337153405617" MODIFIED="1337153921375"><richcontent TYPE="NOTE">
-
+<node TEXT="[基于lighttpd]Wordpress的url rewrite策略" ID="ID_64458106" CREATED="1337153405617" MODIFIED="1337153921375"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10201,13 +9901,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x4e0a;&#x9762;&#x84dd;&#x8272;&#x7684;&#x90e8;&#x5206;&#x5c31;&#x662f;url rewrite&#x7684;&#x5185;&#x5bb9;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="域名申请和维护" FOLDED="true" POSITION="left" ID="ID_1214726821" CREATED="1325830749944" MODIFIED="1325830756086">
-<node TEXT="服务的提供商" FOLDED="true" ID="ID_283109790" CREATED="1325830796799" MODIFIED="1325847199399"><richcontent TYPE="NOTE">
-
+<node TEXT="服务的提供商" FOLDED="true" ID="ID_283109790" CREATED="1325830796799" MODIFIED="1325847199399"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10220,10 +9918,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x57df;&#x540d;&#x89e3;&#x6790;&#x670d;&#x52a1;&#x5546;:DNSPod
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="域名注册" FOLDED="true" ID="ID_258059785" CREATED="1325831525713" MODIFIED="1325831545645"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="域名注册" FOLDED="true" ID="ID_258059785" CREATED="1325831525713" MODIFIED="1325831545645"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10233,10 +9929,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       Godaddy
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Godaddy的注意事项" ID="ID_1849190113" CREATED="1325830813201" MODIFIED="1325830923868"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Godaddy的注意事项" ID="ID_1849190113" CREATED="1325830813201" MODIFIED="1325830923868"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10258,12 +9952,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="域名解析" ID="ID_1579192894" CREATED="1325831530077" MODIFIED="1325831636897"><richcontent TYPE="NOTE">
-
+<node TEXT="域名解析" ID="ID_1579192894" CREATED="1325831530077" MODIFIED="1325831636897"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10285,14 +9977,12 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="申请域名和解析域名可以在不同的服务商!!" ID="ID_497369239" CREATED="1325830935784" MODIFIED="1325847907535">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10359,12 +10049,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#x57fa;&#x4e8e;&#x57df;&#x540d;&#x7684;&#x865a;&#x62df;&#x4e3b;&#x673a;&#x76f8;&#x5bf9;&#x6bd4;&#x8f83;&#x7b80;&#x5355;&#xff0c;&#x56e0;&#x4e3a;&#x4f60;&#x53ea;&#x9700;&#x8981;&#x914d;&#x7f6e;&#x4f60;&#x7684;DNS&#x670d;&#x52a1;&#x5668;&#x5c06;&#x6bcf;&#x4e2a;&#x4e3b;&#x673a;&#x540d;&#x6620;&#x5c04;&#x5230;&#x6b63;&#x786e;&#x7684;IP&#x5730;&#x5740;&#xff0c;&#x7136;&#x540e;&#x914d;&#x7f6e;Apache HTTP&#x670d;&#x52a1;&#x5668;&#xff0c;&#x4ee4;&#x5176;&#x8fa8;&#x8bc6;&#x4e0d;&#x540c;&#x7684;&#x4e3b;&#x673a;&#x540d;&#x5c31;&#x53ef;&#x4ee5;&#x4e86;&#x3002;&#x57fa;&#x4e8e;&#x57df;&#x540d;&#x7684;&#x670d;&#x52a1;&#x5668;&#x4e5f;&#x53ef;&#x4ee5;&#x7f13;&#x89e3;IP&#x5730;&#x5740;&#x4e0d;&#x8db3;&#x7684;&#x95ee;&#x9898;&#x3002;&#x6240;&#x4ee5;&#xff0c;&#x5982;&#x679c;&#x6ca1;&#x6709;&#x7279;&#x6b8a;&#x539f;&#x56e0;&#x4f7f;&#x4f60;&#x5fc5;&#x987b;&#x4f7f;&#x7528;&#x57fa;&#x4e8e;IP&#x7684;&#x865a;&#x62df;&#x4e3b;&#x673a;&#xff0c;&#x60a8;&#x6700;&#x597d;&#x8fd8;&#x662f;&#x4f7f;&#x7528;&#x57fa;&#x4e8e;&#x57df;&#x540d;&#x7684;&#x865a;&#x62df;&#x4e3b;&#x673a;&#x3002;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="家里面中兴的无线猫破解" FOLDED="true" POSITION="left" ID="ID_359272330" CREATED="1361551851690" MODIFIED="1414835743706"><richcontent TYPE="NOTE">
-
+<node TEXT="家里面中兴的无线猫破解" FOLDED="true" POSITION="left" ID="ID_359272330" CREATED="1361551851690" MODIFIED="1414835743706"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10374,10 +10062,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#22411;&#21495;&#26159;F460
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="参考内容1" FOLDED="true" ID="ID_315082890" CREATED="1361551873084" MODIFIED="1361551889216"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="参考内容1" FOLDED="true" ID="ID_315082890" CREATED="1361551873084" MODIFIED="1361551889216"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10387,10 +10073,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       2012&#x5e74;6&#x6708;&#x5bb6;&#x91cc;&#x88c5;&#x7684;&#x5149;&#x7ea4;20M&#x5bbd;&#x5e26;&#xff0c;&#x7535;&#x4fe1;&#x9001;&#x7684;&#x662f;&#xa0;&#xa0;&#x4e2d;&#x5174;ZXA10 F460<br/>&#x8fd9;&#x4e2a;&#x5149;&#x7ea4;&#x732b;&#x5176;&#x5b9e; &#x5e26;&#x8def;&#x7531;&#x529f;&#x80fd;&#xff0c;&#x4f46;&#x662f;&#x6ca1;&#x6709;&#x8d85;&#x7ea7;&#x7528;&#x6237;&#xff0c;&#x662f;&#x65e0;&#x6cd5;&#x5f00;&#x7684;&#xff0c;&#x73b0;&#x5728;&#x6211;&#x81ea;&#x5df1;&#x6d4b;&#x8bd5;&#x7684;&#xff0c;&#x6559;&#x4f60;&#x5982;&#x4f55;&#x5f00;&#x542f; &#x8def;&#x7531;&#x529f;&#x80fd;&#xff0c;&#x548c;&#x589e;&#x52a0;itv&#x7aef;&#x53e3;&#x53f7;&#x3002;<br/>===============================================================================<br/>&#x91cd;&#x65b0;&#x7f16;&#x8f91;&#x6574;&#x7406;&#x4e86;&#x4e0b;&#xff0c;&#x53d1;&#x73b0;&#x4e4b;&#x524d;&#x51e0;&#x5929;&#x7684;&#x65b9;&#x6cd5;&#x6709;&#x70b9;&#x590d;&#x6742;&#xff0c;&#x6709;&#x4eba;&#x53ef;&#x80fd;&#x4e0d;&#x662f;&#x5f88;&#x61c2;&#xff0c;&#x6240;&#x4ee5;&#x7814;&#x7a76;&#x4e86;2&#x5929;&#xff0c;&#x7528;&#x53e6;&#x5916;1&#x4e2a;&#x66f4;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff0c;&#x6559;&#x7ed9;&#x5927;&#x5bb6;&#x3002;<br/><br/>===============================================================================<br/>&#x4e00;&#x3001;&#x4fee;&#x6539;&#x8d85;&#x7ea7;&#x7528;&#x6237;&#x548c;&#x5bc6;&#x7801;&#x3002;<br/>&#x5355;&#x72ec;&#x4f7f;&#x7528;1&#x6839;&#x7f51;&#x7ebf; &#x94fe;&#x63a5; &#x5149;&#x7ea4;&#x732b;&#x3002;<br/>1&#x3001;&#x6253;&#x5f00;&#x6d4f;&#x89c8;&#x5668;<a href="http://192.168.1.1/web_shell_cmd.gch" target="_blank">http://192.168.1.1/web_shell_cmd.gch</a><br/>2&#x3001;&#x8f93;&#x5165; sendcmd 1 DB p UserInfo (&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x4fee;&#x6539;&#x4fdd;&#x5b58; &#xff0c;&#x8fd9;&#x91cc;&#x5df2;&#x7ecf;&#x53ef;&#x4ee5;&#x770b;&#x5230; &#x8d85;&#x7ea7;&#x5bc6;&#x7801;&#x4e86;&#x3002;<br/>3&#x3001;&#x8f93;&#x5165; sendcmd 1 DB set UserInfo 0 Username admin (&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x4fee;&#x6539;&#x7528;&#x6237;&#x540d;&#x4e3a;admin<br/>4&#x3001;&#x8f93;&#x5165; sendcmd 1 DB set UserInfo 0 Password password (&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x4fee;&#x6539;&#x5bc6;&#x7801;&#x4e3a;password<br/>5&#x3001;&#x8f93;&#x5165; sendcmd 1 DB save (&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x4fee;&#x6539;&#x4fdd;&#x5b58;<br/>==========================================================================<br/>&#x4e8c;&#x3001;&#x5982;&#x4f55;&#x7a81;&#x7834;4&#x53f0;&#x7535;&#x8111;&#x9650;&#x5236;&#x3002;<br/>&#x5355;&#x72ec;&#x4f7f;&#x7528;1&#x6839;&#x7f51;&#x7ebf; &#x94fe;&#x63a5; &#x5149;&#x7ea4;&#x732b;&#x3002;<br/>1&#x3001;&#x6253;&#x5f00;&#x6d4f;&#x89c8;&#x5668;<a href="http://192.168.1.1/web_shell_cmd.gch" target="_blank">http://192.168.1.1/web_shell_cmd.gch</a><br/>2&#x3001;&#x8f93;&#x5165; sendcmd 1 DB p CltLmt &#xff08;&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x67e5;&#x770b;&#x4e00;&#x4e0b;&#x5f53;&#x524d;&#x7684;&#x7528;&#x6237;&#x6570;&#x91cf;<br/>3&#x3001;&#x8f93;&#x5165; sendcmd 1 DB set CltLmt 8 Max 10 &#xff08;&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x4fee;&#x6539;&#x6700;&#x5927;&#x7528;&#x6237;&#x6570;&#x4e3a;10&#xff0c;&#x539f;&#x6765;&#x662f;4&#xff0c;&#x53ef;&#x4ee5;&#x6539;&#x6210;&#x5176;&#x4ed6;&#x6570;&#x76ee;&#xff0c;&#x5efa;&#x8bae;&#x6700;&#x5927;&#x6570;&#x76ee;&#x4e0d;&#x8d85;&#x8fc7;255<br/>4&#x3001;&#x8f93;&#x5165; sendcmd 1 DB set CltLmt 8 Enable 0 (&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x53bb;&#x6389;&#x9650;&#x5236;&#xff0c;&#x90e8;&#x5206;&#x5730;&#x533a;&#x53ef;&#x80fd;&#x6709;&#x8fd9;&#x4e2a;&#x68c0;&#x67e5;&#xff0c;&#x4e3a;&#x5b89;&#x5168;&#x8d77;&#x89c1;&#x5efa;&#x8bae;&#x5927;&#x5bb6;&#x5c06;&#x8fd9;&#x4e2a;&#x503c;&#x6539;&#x6210;0<br/>5&#x3001;&#x8f93;&#x5165; sendcmd 1 DB save (&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x4fee;&#x6539;&#x4fdd;&#x5b58;<br/>=======================================================================<br/>&#x4e09;&#x3001;&#x5220;&#x9664;&#x6389;&#x7535;&#x4fe1;&#x7684;&#x8fdc;&#x7a0b;&#x63a7;&#x5236;&#x3002;<br/>&#x56e0;&#x4e3a;&#x7535;&#x4fe1;&#x53ef;&#x80fd;&#x4f1a;&#x8fdc;&#x7a0b;&#x63a7;&#x5236;&#x4f60;&#x7684;&#x732b;&#xff0c;&#x628a;&#x4e00;&#x4e9b;&#x7528;&#x6237;&#x81ea;&#x5df1;&#x4fee;&#x6539;&#x7684;&#x8bbe;&#x7f6e;&#x6539;&#x6210;&#x7535;&#x4fe1;&#x7684;&#x9ed8;&#x8ba4;&#x8bbe;&#x7f6e;&#x3002;&#x800c;&#x4e14;&#x4f1a;&#x4e0d;&#x65f6;&#x7684;&#x68c0;&#x67e5;&#xff0c;&#x53d1;&#x73b0;&#x6bd4;&#x5982;4&#x53f0;&#x9650;&#x5236;&#x88ab;&#x7834;&#x89e3;&#x7684;&#xff0c;&#x4f1a;&#x4fee;&#x6539;&#x56de;&#x53bb;&#x3002;&#x6240;&#x4ee5;&#x5927;&#x5bb6;&#x8981;&#x8bbe;&#x7f6e;&#x8fd9;&#x4e2a;&#x9009;&#x9879;&#x3002;<br/>&#x5355;&#x72ec;&#x4f7f;&#x7528;1&#x6839;&#x7f51;&#x7ebf; &#x94fe;&#x63a5; &#x5149;&#x7ea4;&#x732b;&#x3002;<br/>1&#x3001;&#x6253;&#x5f00;&#x6d4f;&#x89c8;&#x5668;<a href="http://192.168.1.1/web_shell_cmd.gch" target="_blank">http://192.168.1.1/web_shell_cmd.gch</a><br/>2&#x3001;&#x8f93;&#x5165; sendcmd 1 DB p MgtServer &#xff08;&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x67e5;&#x770b;&#x4e00;&#x4e0b;&#x5f53;&#x524d;&#x7684;&#x7535;&#x4fe1;&#x8fdc;&#x7a0b;&#x63a7;&#x5236;<br/>3&#x3001;&#x8f93;&#x5165; sendcmd 1 DB set MgtServer 0 URL <a href="http://127.0.0.1/" target="_blank">http://127.0.0.1</a>&#xa0;&#xff08;&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x7b80;&#x660e;&#x7684;&#x65b9;&#x6cd5;&#x662f;&#x628a; &#x670d;&#x52a1;&#x5668; URL &#x6539;&#x6389;<br/>4&#x3001;&#x8f93;&#x5165; sendcmd 1 DB set MgtServer 0 Tr069Enable 0 &#xff08;&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x7981;&#x7528;TR069&#x8fdc;&#x7a0b;&#x63a7;&#x5236;<br/>5&#x3001;&#x8f93;&#x5165; sendcmd 1 DB save (&#x6ce8;&#x610f;&#x7a7a;&#x683c;&#x548c;&#x5927;&#x5c0f;&#x5199;&#xff09;&#x89e3;&#x91ca;&#xff1a;&#x4fee;&#x6539;&#x4fdd;&#x5b58;<br/>==========================================================================<br/><strong><font color="red" size="4">&#x4ee5;&#x4e0a;&#x65b9;&#x6cd5;&#x5df2;&#x7ecf;&#x6d4b;&#x8bd5;&#x6210;&#x529f;&#x7684;&#x5149;&#x7ea4;&#x732b;&#xff1a;&#xa0;&#xa0;&#x7535;&#x4fe1;&#x4e2d; &#x5174;ZXHN F420/460&#xa0;&#xa0;&#x548c; ZXA10 F460</font><font size="4">&#x3002; </font></strong>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="修改数据库" ID="ID_1197775814" CREATED="1419475389938" MODIFIED="1419475531087" LINK="../OneNote/命令行修改F460.one"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="修改数据库" ID="ID_1197775814" CREATED="1419475389938" MODIFIED="1419475531087" LINK="../OneNote/命令行修改F460.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10400,13 +10084,11 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#21629;&#20196;&#34892;&#19979;&#36890;&#36807;telent&#30331;&#24405;&#20462;&#25913;&#25968;&#25454;&#24211;&#26469;&#26356;&#25913;F460&#37197;&#32622;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="参考内容2" FOLDED="true" ID="ID_745861624" CREATED="1361551890643" MODIFIED="1361552431925" LINK="../MiscDocuments/破解中兴%20ZXA10%20F460%20V3.0版本猫.pdf">
-<node TEXT="配置成路由器时的网络配置" ID="ID_608642283" CREATED="1381665867927" MODIFIED="1381666116368"><richcontent TYPE="NOTE">
-
+<node TEXT="配置成路由器时的网络配置" ID="ID_608642283" CREATED="1381665867927" MODIFIED="1381666116368"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10419,11 +10101,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <span id="sample-permalink" tabindex="-1">http://blog.proudj.com/?attachment_id=1160</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="如果想从路由模式回退默认模式时的网络设置" ID="ID_1928674712" CREATED="1381665989859" MODIFIED="1381666152294"><richcontent TYPE="NOTE">
-
+<node TEXT="如果想从路由模式回退默认模式时的网络设置" ID="ID_1928674712" CREATED="1381665989859" MODIFIED="1381666152294"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10439,12 +10119,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <span id="sample-permalink" tabindex="-1">http://blog.proudj.com/?attachment_id=1161</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="超级用户密码" ID="ID_1475903343" CREATED="1361552386264" MODIFIED="1419417588412" LINK="../MiscDocuments/中兴猫密码.bmp"><richcontent TYPE="NOTE">
-
+<node TEXT="超级用户密码" ID="ID_1475903343" CREATED="1361552386264" MODIFIED="1419417588412" LINK="../MiscDocuments/中兴猫密码.bmp"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10472,11 +10150,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       password: luckyxiaoshe
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="设置桥接和路由双模式" FOLDED="true" ID="ID_1944931410" CREATED="1414835706287" MODIFIED="1414836097215"><richcontent TYPE="NOTE">
-
+<node TEXT="设置桥接和路由双模式" FOLDED="true" ID="ID_1944931410" CREATED="1414835706287" MODIFIED="1414836097215"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10513,10 +10189,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#20855;&#20307;&#30340;&#23454;&#29616;&#21442;&#32771;&#23376;&#32467;&#28857;&#30340;&#22270;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="新建桥接连接绑定端口" ID="ID_1684926862" CREATED="1414836100419" MODIFIED="1414836349627" LINK="../OneNote/F460配置路由桥接双模式.one"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="新建桥接连接绑定端口" ID="ID_1684926862" CREATED="1414836100419" MODIFIED="1414836349627" LINK="../OneNote/F460配置路由桥接双模式.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10526,12 +10200,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65292;&#26032;&#24314;&#30340;&#36830;&#25509;&#37324;&#38754;&#30340;VLAN&#30340;ID&#36319;&#20043;&#21069;&#30340;&#20063;&#26159;&#19968;&#26679;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="家中的DDWRT的IP地址" ID="ID_205207512" CREATED="1381666160122" MODIFIED="1381666178001"><richcontent TYPE="NOTE">
-
+<node TEXT="家中的DDWRT的IP地址" ID="ID_205207512" CREATED="1381666160122" MODIFIED="1381666178001"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10541,11 +10213,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       192.168.1.1
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="解决ITV不能看的问题" ID="ID_1203533693" CREATED="1418215754343" MODIFIED="1418215813564"><richcontent TYPE="NOTE">
-
+<node TEXT="解决ITV不能看的问题" ID="ID_1203533693" CREATED="1418215754343" MODIFIED="1418215813564"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10558,12 +10228,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#25152;&#20197;&#35201;&#20570;&#30340;&#26159;,&#23558;LAN2&#21475;&#36824;&#26159;&#37197;&#25104;&#32473;ITV&#29992;&#30340;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="电信宽带华为HS8145V光纤猫破解" POSITION="left" ID="ID_267368889" CREATED="1534582465613" MODIFIED="1534597014781"><richcontent TYPE="NOTE">
-
+<node TEXT="电信宽带华为HS8145V光纤猫破解" POSITION="left" ID="ID_267368889" CREATED="1534582465613" MODIFIED="1534597014781"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10639,12 +10307,10 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       http://www.chinadsl.net/thread-151968-1-1.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="VLAN信息以及破解之后的超级用户密码" ID="ID_1555415270" CREATED="1534597014774" MODIFIED="1534597165449" LINK="../OneNote/HS8145V_超级用户密码和VLAN.one"/>
 </node>
-<node TEXT="TP-Link的WR720N的OpenWRT配置" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1618192798367"><richcontent TYPE="NOTE">
-
+<node TEXT="TP-Link的WR720N的OpenWRT配置" FOLDED="true" POSITION="left" ID="ID_1510704497" CREATED="1413722387061" MODIFIED="1618192798367"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10710,10 +10376,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       </table>
     </div>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装" FOLDED="true" ID="ID_1347864875" CREATED="1413722410406" MODIFIED="1418313731909" LINK="../OneNote/openwrt_startup.one"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装" FOLDED="true" ID="ID_1347864875" CREATED="1413722410406" MODIFIED="1418313731909" LINK="../OneNote/openwrt_startup.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10738,10 +10402,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       &#25105;&#23601;&#26159;&#21442;&#29031;&#38468;&#20214;&#30340;onenote&#37324;&#38754;&#30340;&#20869;&#23481;&#36827;&#34892;&#30340;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="设置拨号上网" ID="ID_1490509491" CREATED="1418136242085" MODIFIED="1418136336801"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="设置拨号上网" ID="ID_1490509491" CREATED="1418136242085" MODIFIED="1418136336801"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10832,11 +10494,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       #&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'dhcpv6'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="设置wifi密码" ID="ID_158560081" CREATED="1418136340738" MODIFIED="1418308646701"><richcontent TYPE="NOTE">
-
+<node TEXT="设置wifi密码" ID="ID_158560081" CREATED="1418136340738" MODIFIED="1418308646701"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10849,12 +10509,10 @@ root@OpenWrt:~# uci set wireless.@wifi-iface[0].key=&quot;your_password&quot;
 root@OpenWrt:~# uci commit wireless
 root@OpenWrt:~# wifi</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="配置支持USB设备" ID="ID_1359548302" CREATED="1413722414010" MODIFIED="1413814220025"><richcontent TYPE="NOTE">
-
+<node TEXT="配置支持USB设备" ID="ID_1359548302" CREATED="1413722414010" MODIFIED="1413814220025"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10885,10 +10543,8 @@ root@OpenWrt:~# wifi</pre>
       &#19981;&#30693;&#30495;&#20551;&#65292;&#23384;&#30041;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Openwrt的Overlay配置" ID="ID_644001396" CREATED="1413812139761" MODIFIED="1425219756329"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Openwrt的Overlay配置" ID="ID_644001396" CREATED="1413812139761" MODIFIED="1425219756329"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10946,10 +10602,8 @@ root@OpenWrt:~# wifi</pre>
       &gt;reboot
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="对USB进行分区" ID="ID_1370593195" CREATED="1413812958113" MODIFIED="1414834367743"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="对USB进行分区" ID="ID_1370593195" CREATED="1413812958113" MODIFIED="1414834367743"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10959,11 +10613,9 @@ root@OpenWrt:~# wifi</pre>
       &#20998;&#25104;&#20004;&#20010;&#21306;&#65292;&#19968;&#20010;EXT3&#30340;&#21306;&#65292;&#36824;&#26377;&#19968;&#20010;SWAP&#21306;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="更新/etc/config/fstab文件" ID="ID_943832133" CREATED="1413812978247" MODIFIED="1425219673307"><richcontent TYPE="NOTE">
-
+<node TEXT="更新/etc/config/fstab文件" ID="ID_943832133" CREATED="1413812978247" MODIFIED="1425219673307"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11033,10 +10685,8 @@ root@OpenWrt:~# wifi</pre>
       //////////////////////////////////////////////////////////////////////////////////////////
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="注意点" ID="ID_1765945812" CREATED="1413813607570" MODIFIED="1418311625817"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="注意点" ID="ID_1765945812" CREATED="1413813607570" MODIFIED="1418311625817"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11058,12 +10708,10 @@ root@OpenWrt:~# wifi</pre>
       &#36825;&#26679;&#65292;&#21487;&#33021;&#25105;&#20204;&#22312;&#19979;&#38754;&#30340;'mount'&#21644;'swap'&#27573;&#30340;&#37197;&#32622;&#23601;&#19981;&#36215;&#20316;&#29992;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="参考链接" ID="ID_1276931304" CREATED="1413813934267" MODIFIED="1413814015209"><richcontent TYPE="NOTE">
-
+<node TEXT="参考链接" ID="ID_1276931304" CREATED="1413813934267" MODIFIED="1413814015209"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11082,12 +10730,10 @@ root@OpenWrt:~# wifi</pre>
       <a href="http://wiki.openwrt.org/doc/uci/fstab">http://wiki.openwrt.org/doc/uci/fstab</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Overlay之后继续挂载多个U盘设备" ID="ID_1507896899" CREATED="1425219765428" MODIFIED="1426318615166"><richcontent TYPE="NOTE">
-
+<node TEXT="Overlay之后继续挂载多个U盘设备" ID="ID_1507896899" CREATED="1425219765428" MODIFIED="1426318615166"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11118,10 +10764,8 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="有用的block命令" ID="ID_95522622" CREATED="1425219927537" MODIFIED="1425220019106"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="有用的block命令" ID="ID_95522622" CREATED="1425219927537" MODIFIED="1425220019106"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11143,14 +10787,12 @@ root@OpenWrt:~# wifi</pre>
       block detec
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="挂载数据盘的fstab的配置信息" ID="ID_354426765" CREATED="1425220023266" MODIFIED="1426320040835">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="446;0;" ENDINCLINATION="446;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="373;0;" ENDINCLINATION="373;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_620904148" STARTINCLINATION="279.74999 pt;0 pt;" ENDINCLINATION="279.74999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_354534630" MIDDLE_LABEL="影响的结点" STARTINCLINATION="334.49999 pt;0 pt;" ENDINCLINATION="334.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11256,13 +10898,11 @@ root@OpenWrt:~# wifi</pre>
       <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option&#160;&#160;enabled '1' </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="打开无线开关和设置无线密码" FOLDED="true" ID="ID_1468435486" CREATED="1413814118863" MODIFIED="1413815440019"><richcontent TYPE="NOTE">
-
+<node TEXT="打开无线开关和设置无线密码" FOLDED="true" ID="ID_1468435486" CREATED="1413814118863" MODIFIED="1413815440019"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11305,10 +10945,8 @@ root@OpenWrt:~# wifi</pre>
       &gt;wifi
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="注意" ID="ID_279194370" CREATED="1413815401514" MODIFIED="1413815498521"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="注意" ID="ID_279194370" CREATED="1413815401514" MODIFIED="1413815498521"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11327,12 +10965,10 @@ root@OpenWrt:~# wifi</pre>
       <a href="http://wiki.openwrt.org/doc/uci/wireless/encryption">http://wiki.openwrt.org/doc/uci/wireless/encryption</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="支持USB硬盘休眠" FOLDED="true" ID="ID_1102349936" CREATED="1413816709332" MODIFIED="1522374964606"><richcontent TYPE="NOTE">
-
+<node TEXT="支持USB硬盘休眠" FOLDED="true" ID="ID_1102349936" CREATED="1413816709332" MODIFIED="1522374964606"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11427,10 +11063,8 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Hitachi移动硬盘和硬盘盒的特性" ID="ID_1624589551" CREATED="1426312319055" MODIFIED="1426312722403"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Hitachi移动硬盘和硬盘盒的特性" ID="ID_1624589551" CREATED="1426312319055" MODIFIED="1426312722403"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11448,11 +11082,9 @@ root@OpenWrt:~# wifi</pre>
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Hdparm的安装和使用" FOLDED="true" ID="ID_744010952" CREATED="1426314405901" MODIFIED="1426323068447"><richcontent TYPE="NOTE">
-
+<node TEXT="Hdparm的安装和使用" FOLDED="true" ID="ID_744010952" CREATED="1426314405901" MODIFIED="1426323068447"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11534,10 +11166,8 @@ root@OpenWrt:~# wifi</pre>
       //////////////////////////////////////////////////////////////////////////////////////////
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="hdparm的用法" FOLDED="true" ID="ID_933273363" CREATED="1426316885566" MODIFIED="1426320223219"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="hdparm的用法" FOLDED="true" ID="ID_933273363" CREATED="1426316885566" MODIFIED="1426320223219"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11733,10 +11363,8 @@ root@OpenWrt:~# wifi</pre>
       &#160;-z&#160;&#160;&#160;Re-read partition table
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="每次路由器重启之后都配置自动spin-down" ID="ID_1423390217" CREATED="1426320229982" MODIFIED="1427642353196"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="每次路由器重启之后都配置自动spin-down" ID="ID_1423390217" CREATED="1426320229982" MODIFIED="1427642353196"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11854,13 +11482,11 @@ root@OpenWrt:~# wifi</pre>
       <font color="#0000ff"><i>exit 0</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="每次硬盘重新mount上之后都自动spin-down" ID="ID_809686510" CREATED="1427642354966" MODIFIED="1427642628511">
 <attribute NAME="status" VALUE="unfinished"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11888,13 +11514,11 @@ root@OpenWrt:~# wifi</pre>
       &#26041;&#27861;&#26159;&#21542;&#21487;&#34892;&#65292;&#27491;&#22312;&#30740;&#31350;&#20013;&#12290;&#12290;&#12290;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="【废弃】配置/etc/config/hd-idle文件" ID="ID_1847038980" CREATED="1413816850986" MODIFIED="1426308943592"><richcontent TYPE="NOTE">
-
+<node TEXT="【废弃】配置/etc/config/hd-idle文件" ID="ID_1847038980" CREATED="1413816850986" MODIFIED="1426308943592"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11946,12 +11570,10 @@ root@OpenWrt:~# wifi</pre>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option 'idle_time_interval' '6'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装web管理界面" ID="ID_435067597" CREATED="1413892610751" MODIFIED="1540478451158"><richcontent TYPE="NOTE">
-
+<node TEXT="安装web管理界面" ID="ID_435067597" CREATED="1413892610751" MODIFIED="1540478451158"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11973,11 +11595,9 @@ root@OpenWrt:~# wifi</pre>
       <em>&gt;/etc/init.d/uhttpd start</em>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="使用DDNS动态域名" FOLDED="true" ID="ID_747226402" CREATED="1413894788194" MODIFIED="1548134649122"><richcontent TYPE="NOTE">
-
+<node TEXT="使用DDNS动态域名" FOLDED="true" ID="ID_747226402" CREATED="1413894788194" MODIFIED="1548134649122"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12005,10 +11625,8 @@ root@OpenWrt:~# wifi</pre>
       &#36825;&#26679;&#65292;&#31995;&#32479;&#19968;&#37325;&#21551;&#65292;&#20174;&#22806;&#32593;&#23601;&#33021;&#24471;&#21040;&#27491;&#30830;&#30340;IP&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="freedns服务" ID="ID_815622095" CREATED="1414074917165" MODIFIED="1425797457716"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="freedns服务" ID="ID_815622095" CREATED="1414074917165" MODIFIED="1425797457716"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12035,11 +11653,9 @@ root@OpenWrt:~# wifi</pre>
 &#19978;&#36848;&#30340;cron&#21629;&#20196;&#26159;&#26377;&#38382;&#39064;&#30340;&#65281;&#36825;&#20250;&#36896;&#25104;&#27599;&#38548;10&#20010;&#23567;&#26102;&#65292;&#28982;&#21518;&#26377;&#19968;&#20010;&#23567;&#26102;&#20043;&#20869;&#26159;&#27599;&#20998;&#38047;&#37117;&#20250;&#25191;&#34892;&#19968;&#27425;&#36825;&#20010;&#21629;&#20196;&#65281;&#25152;&#20197;&#27491;&#30830;&#30340;&#26684;&#24335;&#24212;&#35813;&#26159;&#19979;&#38754;&#36825;&#26679;&#30340;&#65292;&#36825;&#20250;&#20445;&#35777;&#21482;&#22312;&#27599;&#20010;10&#20010;&#23567;&#26102;&#30340;0&#20998;&#38047;&#26102;&#20250;&#25191;&#34892;&#19968;&#27425;:
 <font color="#ff0033">0</font> */10 * * * sleep 16 ; wget -O - http://freedns.afraid.org/dynamic/update.php?SjlPVWhXMzBpak5LWjhJZ2Z0QkdoRVMyOjEyNzgwMDM1 &gt;&gt; /tmp/freedns_wr720n_mooo_com.log</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="【废弃】dnspod服务" FOLDED="true" ID="ID_115176308" CREATED="1421070938140" MODIFIED="1425125245503" LINK="../OneNote/在Openwrt上使用DNSPod.one"><richcontent TYPE="NOTE">
-
+<node TEXT="【废弃】dnspod服务" FOLDED="true" ID="ID_115176308" CREATED="1421070938140" MODIFIED="1425125245503" LINK="../OneNote/在Openwrt上使用DNSPod.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12073,10 +11689,8 @@ root@OpenWrt:~# wifi</pre>
       &#22522;&#26412;&#19978;&#21442;&#32771;&#38468;&#20214;&#30340;&#35828;&#26126;&#36827;&#34892;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="一些配置参数" ID="ID_541626087" CREATED="1421071736249" MODIFIED="1421071794747"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="一些配置参数" ID="ID_541626087" CREATED="1421071736249" MODIFIED="1421071794747"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12098,12 +11712,10 @@ root@OpenWrt:~# wifi</pre>
       home.proudj.com
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="dnspod服务" ID="ID_821677896" CREATED="1425125147103" MODIFIED="1425797685604"><richcontent TYPE="NOTE">
-
+<node TEXT="dnspod服务" ID="ID_821677896" CREATED="1425125147103" MODIFIED="1425797685604"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12163,13 +11775,11 @@ root@OpenWrt:~# wifi</pre>
       <i><font size="3" color="#ff0033"><b>0</b></font><b><font size="3" color="#0000cc">&#160;*/10 * * * sleep 16 ; sh /root/dnspod.sh /root/dndpod.conf &amp;&gt; /dev/null</font></b></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font SIZE="10" BOLD="false"/>
 </node>
 </node>
-<node TEXT="【废弃】支持外网访问SSH和WEB" ID="ID_1354312414" CREATED="1414834508053" MODIFIED="1425123960870"><richcontent TYPE="NOTE">
-
+<node TEXT="【废弃】支持外网访问SSH和WEB" ID="ID_1354312414" CREATED="1414834508053" MODIFIED="1425123960870"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12239,13 +11849,11 @@ root@OpenWrt:~# wifi</pre>
       &#25105;&#20570;&#30340;&#26159;&#22806;&#32593;&#31471;&#21475;2200&#21040;&#20869;&#32593;&#31471;&#21475;22&#30340;&#26144;&#23556;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="无线猫配置桥接和路由双模式" ID="ID_1422194968" CREATED="1414836357485" MODIFIED="1414836385609" LINK="#ID_1944931410"/>
 <node TEXT="Openwrt做端口映射" ID="ID_396956879" CREATED="1414836830325" MODIFIED="1414836844325" LINK="../OneNote/Openwrt端口映射.one"/>
 </node>
-<node TEXT="【最新】开放路由器的WEB/SSH/FTP端口" FOLDED="true" ID="ID_248063579" CREATED="1425123861983" MODIFIED="1540478451267" LINK="../OneNote/openwrt开放FTP端口.one"><richcontent TYPE="NOTE">
-
+<node TEXT="【最新】开放路由器的WEB/SSH/FTP端口" FOLDED="true" ID="ID_248063579" CREATED="1425123861983" MODIFIED="1540478451267" LINK="../OneNote/openwrt开放FTP端口.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12264,10 +11872,8 @@ root@OpenWrt:~# wifi</pre>
       &#25152;&#20197;&#26368;&#32456;&#30340;&#23454;&#29616;&#20854;&#23454;&#21644;&#24456;&#31616;&#21333;&#12290;&#21487;&#20197;&#21442;&#32771;&#38468;&#20214;&#30340;&#22270;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="更新" ID="ID_1520097052" CREATED="1426308756276" MODIFIED="1426308841121"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="更新" ID="ID_1520097052" CREATED="1426308756276" MODIFIED="1426308841121"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12280,12 +11886,10 @@ root@OpenWrt:~# wifi</pre>
       &#35273;&#24471;&#28385;&#28902;&#30340;&#65292;&#25152;&#20197;&#36824;&#26159;&#25226;22&#21495;&#31471;&#21475;&#32473;&#20851;&#25481;&#20102;&#65292;&#36716;&#32780;&#20570;&#20102;&#31471;&#21475;&#36716;&#21457;&#65292;&#24320;&#25918;&#20102;2200&#31471;&#21475;&#65292;&#36716;&#21457;&#21040;&#36335;&#30001;&#22120;&#30340;22&#21495;&#31471;&#21475;&#19978;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="systemupgrade" FOLDED="true" ID="ID_201702831" CREATED="1418209182998" MODIFIED="1418210934906" LINK="../OneNote/Openwrt_upgrade_log.one"><richcontent TYPE="NOTE">
-
+<node TEXT="systemupgrade" FOLDED="true" ID="ID_201702831" CREATED="1418209182998" MODIFIED="1418210934906" LINK="../OneNote/Openwrt_upgrade_log.one"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12400,10 +12004,8 @@ root@OpenWrt:~# wifi</pre>
       Rebooting system...
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="缺点" ID="ID_1617479891" CREATED="1418210787142" MODIFIED="1418210829097"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="缺点" ID="ID_1617479891" CREATED="1418210787142" MODIFIED="1418210829097"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12413,11 +12015,9 @@ root@OpenWrt:~# wifi</pre>
       &#22914;&#26524;&#20570;&#20102;exroot,&#26681;&#25991;&#20214;&#31995;&#32479;&#26159;&#25918;&#22312;&#22806;&#25509;&#30340;USB&#19978;&#30340;&#35805;,&#26356;&#26032;&#20102;&#22266;&#20214;&#20043;&#21518;,&#20043;&#21069;&#20570;exroot&#30340;&#25805;&#20316;&#36824;&#35201;&#37325;&#26032;&#22312;&#20570;&#19968;&#36941;!
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="scp拷贝新的固件" ID="ID_836828445" CREATED="1418209272801" MODIFIED="1418210732704"><richcontent TYPE="NOTE">
-
+<node TEXT="scp拷贝新的固件" ID="ID_836828445" CREATED="1418209272801" MODIFIED="1418210732704"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12445,12 +12045,10 @@ root@OpenWrt:~# wifi</pre>
       scp <font color="#0000cc">/mnt/share2/openwrt-ar71xx-generic-tl-wr720n-v3-squashfs-sysupgrade_stable.bin</font>&#160;<font color="#cc0000">root@192.168.1.1:/tmp</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="[未实践]刷UBOOT教程" ID="ID_1647881117" CREATED="1418214841260" MODIFIED="1540729940406"><richcontent TYPE="NOTE">
-
+<node TEXT="[未实践]刷UBOOT教程" ID="ID_1647881117" CREATED="1418214841260" MODIFIED="1540729940406"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12466,11 +12064,9 @@ root@OpenWrt:~# wifi</pre>
       &#21442;&#32771;&#19978;&#38754;&#30340;&#38142;&#25509;,&#19981;&#36807;&#25105;&#36824;&#27809;&#26377;&#23454;&#36341;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="路由器复位" ID="ID_694911950" CREATED="1418308121909" MODIFIED="1426308721004"><richcontent TYPE="NOTE">
-
+<node TEXT="路由器复位" ID="ID_694911950" CREATED="1418308121909" MODIFIED="1426308721004"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12516,11 +12112,9 @@ root@OpenWrt:~# wifi</pre>
       &#28982;&#21518;&#37325;&#21551;,&#23601;&#21487;&#20197;&#20102;,&#23601;&#21448;&#21487;&#20197;&#30331;&#24405;openwrt&#31995;&#32479;,&#20294;&#26159;&#38656;&#35201;&#37325;&#22836;&#24320;&#22987;&#37197;&#32622;&#20102;,&#35201;&#23433;&#35013;&#30340;&#36719;&#20214;&#20063;&#35201;&#37325;&#26032;&#20877;&#23433;&#35013;&#19968;&#36941;&#20102;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="自己搭建opkg的package库" ID="ID_1679847752" CREATED="1418313555032" MODIFIED="1426598185281"><richcontent TYPE="NOTE">
-
+<node TEXT="自己搭建opkg的package库" ID="ID_1679847752" CREATED="1418313555032" MODIFIED="1426598185281"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12536,11 +12130,9 @@ root@OpenWrt:~# wifi</pre>
       &#20351;&#29992;&#36215;&#26469;&#24863;&#35273;&#36824;&#19981;&#38169;&#65292;&#27604;&#20351;&#29992;&#23448;&#26041;&#30340;&#28304;&#24555;&#22810;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="设置定时开关WIFI" ID="ID_1588587150" CREATED="1418569027147" MODIFIED="1522385220364"><richcontent TYPE="NOTE">
-
+<node TEXT="设置定时开关WIFI" ID="ID_1588587150" CREATED="1418569027147" MODIFIED="1522385220364"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12565,11 +12157,9 @@ root@OpenWrt:~# wifi</pre>
       0 18 * * 1-5 wifi up
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="配置DNS" ID="ID_997972677" CREATED="1418873027204" MODIFIED="1421069328285"><richcontent TYPE="NOTE">
-
+<node TEXT="配置DNS" ID="ID_997972677" CREATED="1418873027204" MODIFIED="1421069328285"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12607,11 +12197,9 @@ root@OpenWrt:~# wifi</pre>
       <pre>option resolvfile <font color="#800000">'/etc/config/sec_resolv.conf'</font></pre>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="设置单线多拨" FOLDED="true" ID="ID_538969939" CREATED="1418880050880" MODIFIED="1426598185407"><richcontent TYPE="NOTE">
-
+<node TEXT="设置单线多拨" FOLDED="true" ID="ID_538969939" CREATED="1418880050880" MODIFIED="1426598185407"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12627,10 +12215,8 @@ root@OpenWrt:~# wifi</pre>
       &#36825;&#20960;&#20010;&#21253;&#23433;&#35013;&#22909;&#20043;&#21518;,&#36719;&#20214;&#30340;&#20648;&#22791;&#23601;&#22815;&#20102;,&#25509;&#19979;&#26469;&#21487;&#20197;&#36827;&#34892;&#37197;&#32622;&#20102;.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="设置的方法就是完全按照附件操作" ID="ID_1230726848" CREATED="1418914650086" MODIFIED="1418915212706" LINK="../MiscDocuments/MWAN3配置手册.pdf"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="设置的方法就是完全按照附件操作" ID="ID_1230726848" CREATED="1418914650086" MODIFIED="1418915212706" LINK="../MiscDocuments/MWAN3配置手册.pdf"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12696,12 +12282,10 @@ root@OpenWrt:~# wifi</pre>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;option proto 'all'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="服务器配置" ID="ID_403399799" CREATED="1424875691944" MODIFIED="1426598185420"><richcontent TYPE="NOTE">
-
+<node TEXT="服务器配置" ID="ID_403399799" CREATED="1424875691944" MODIFIED="1426598185420"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12714,10 +12298,8 @@ root@OpenWrt:~# wifi</pre>
       &#25152;&#20197;&#65292;&#21363;&#20351;&#33021;&#22815;&#20570;http&#26381;&#21153;&#22120;&#65292;&#26368;&#22810;&#20063;&#21482;&#33021;&#20570;&#38745;&#24577;&#26381;&#21153;&#22120;&#65292;&#32780;&#36825;&#20854;&#23454;&#24050;&#32463;&#33021;&#22815;&#28385;&#36275;&#25105;&#30340;&#24456;&#22823;&#30340;&#38656;&#27714;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="uhttpd做静态服务器" ID="ID_453469763" CREATED="1424875697079" MODIFIED="1424875944256" LINK="#ID_435067597"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="uhttpd做静态服务器" ID="ID_453469763" CREATED="1424875697079" MODIFIED="1424875944256" LINK="#ID_435067597"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12733,10 +12315,8 @@ root@OpenWrt:~# wifi</pre>
       &#25105;&#20204;&#21487;&#20197;&#35774;&#32622;uhttpd&#35753;&#20854;&#30417;&#25511;&#21478;&#19968;&#20010;&#27604;&#22914;88&#30340;&#31471;&#21475;&#65292;&#32780;&#36825;&#20010;&#31471;&#21475;&#25105;&#20204;&#23601;&#29992;&#26469;&#21521;&#22806;&#30028;&#25552;&#20379;&#25991;&#20214;&#26381;&#21153;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="uhttpd配置步骤" FOLDED="true" ID="ID_300139978" CREATED="1424875946078" MODIFIED="1426319319957" LINK="#ID_354426765"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="uhttpd配置步骤" FOLDED="true" ID="ID_300139978" CREATED="1424875946078" MODIFIED="1426319319957" LINK="#ID_354426765"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12794,13 +12374,11 @@ root@OpenWrt:~# wifi</pre>
       /etc/init.d/uhttpd restart
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="服务器的目录规划策略" ID="ID_620904148" CREATED="1426318721397" MODIFIED="1427642243611" LINK="#ID_536180752">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12885,12 +12463,10 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="openwrt做端口映射" ID="ID_1694516318" CREATED="1424876108654" MODIFIED="1424876243121" LINK="#ID_396956879"><richcontent TYPE="NOTE">
-
+<node TEXT="openwrt做端口映射" ID="ID_1694516318" CREATED="1424876108654" MODIFIED="1424876243121" LINK="#ID_396956879"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12909,12 +12485,10 @@ root@OpenWrt:~# wifi</pre>
       &#35774;&#32622;&#27493;&#39588;&#21442;&#32771;&#36339;&#36716;&#32467;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="安装vsftp服务器" ID="ID_1507365629" CREATED="1425033076399" MODIFIED="1425033148628"><richcontent TYPE="NOTE">
-
+<node TEXT="安装vsftp服务器" ID="ID_1507365629" CREATED="1425033076399" MODIFIED="1425033148628"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12936,11 +12510,9 @@ root@OpenWrt:~# wifi</pre>
       &#19981;&#29992;&#20462;&#25913;&#37197;&#32622;&#65292;&#40664;&#35748;&#30340;&#37197;&#32622;&#19979;&#65292;&#31105;&#27490;&#21311;&#21517;&#30331;&#24405;&#65292;&#40664;&#35748;&#24320;&#25918;&#29992;&#25143;&#30331;&#24405;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="使用ushare构建uPnP服务器共享视频和音乐" FOLDED="true" ID="ID_1036638506" CREATED="1425814215604" MODIFIED="1425818902166"><richcontent TYPE="NOTE">
-
+<node TEXT="使用ushare构建uPnP服务器共享视频和音乐" FOLDED="true" ID="ID_1036638506" CREATED="1425814215604" MODIFIED="1425818902166"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -12980,10 +12552,8 @@ root@OpenWrt:~# wifi</pre>
       /etc/config/ushare
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="ushare的配置" ID="ID_354534630" CREATED="1425818520457" MODIFIED="1426319893169" LINK="#ID_1507896899"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="ushare的配置" ID="ID_354534630" CREATED="1425818520457" MODIFIED="1426319893169" LINK="#ID_1507896899"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13038,13 +12608,11 @@ root@OpenWrt:~# wifi</pre>
       &#25805;&#20316;&#20063;&#24456;&#31616;&#21333;&#65292;&#22312;windows&#19978;&#65292;&#25171;&#24320;windows media player&#65292;&#24212;&#35813;&#23601;&#33021;&#21457;&#29616;&#22810;&#20986;&#26469;&#19968;&#20010;&#21483;&#20570;OpenWrt&#30340;&#23186;&#20307;&#24211;&#65292;&#22312;&#37324;&#38754;&#25628;&#32034;&#23601;&#33021;&#25214;&#21040;&#36335;&#30001;&#22120;&#37324;&#38754;&#30340;&#20869;&#23481;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="安装SYNCY同步百度网盘数据" ID="ID_808027836" CREATED="1424957314716" MODIFIED="1426598185430"><richcontent TYPE="NOTE">
-
+<node TEXT="安装SYNCY同步百度网盘数据" ID="ID_808027836" CREATED="1424957314716" MODIFIED="1426598185430"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13060,11 +12628,9 @@ root@OpenWrt:~# wifi</pre>
       http://syncyhome.duapp.com/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="增加用户和组用户" ID="ID_643323807" CREATED="1425120574040" MODIFIED="1426598185444"><richcontent TYPE="NOTE">
-
+<node TEXT="增加用户和组用户" ID="ID_643323807" CREATED="1425120574040" MODIFIED="1426598185444"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13086,10 +12652,8 @@ root@OpenWrt:~# wifi</pre>
       &#20294;&#26159;&#26368;&#32456;&#27809;&#26377;&#23433;&#35013;&#12290;&#24819;&#24819;&#36335;&#30001;&#22120;&#36824;&#26159;&#19981;&#35201;&#24324;&#36825;&#20040;&#22797;&#26434;&#21543;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="命令" ID="ID_1512531917" CREATED="1425123611742" MODIFIED="1425814262604"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="命令" ID="ID_1512531917" CREATED="1425123611742" MODIFIED="1425814262604"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13111,13 +12675,11 @@ root@OpenWrt:~# wifi</pre>
       opkg install shadow-groupdel
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="通过PPTP翻墙" ID="ID_521559635" CREATED="1427373784972" MODIFIED="1427373802828"/>
-<node TEXT="USB网络" ID="ID_1868999429" CREATED="1522374981179" MODIFIED="1522388344784"><richcontent TYPE="NOTE">
-
+<node TEXT="USB网络" ID="ID_1868999429" CREATED="1522374981179" MODIFIED="1522388344784"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13142,10 +12704,8 @@ root@OpenWrt:~# wifi</pre>
       &#23545;&#20110;&#23433;&#21331;&#25163;&#26426;&#26469;&#35828;&#65292;&#33267;&#23569;&#26377;USB Tethering&#25216;&#26415;&#21644;ADB&#35843;&#35797;&#24037;&#20855;&#36825;&#20004;&#31181;&#26041;&#27861;&#21487;&#20197;&#23454;&#29616;&#36825;&#26679;&#30340;&#38656;&#27714;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="USB Tethering" ID="ID_1674764199" CREATED="1522387462627" MODIFIED="1522817141091"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="USB Tethering" ID="ID_1674764199" CREATED="1522387462627" MODIFIED="1522817141091"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13191,10 +12751,8 @@ root@OpenWrt:~# wifi</pre>
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
-<node TEXT="Android连接OpenWRT的需求" ID="ID_1257252800" CREATED="1522385826202" MODIFIED="1522818334883" LINK="#ID_825881001"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Android连接OpenWRT的需求" ID="ID_1257252800" CREATED="1522385826202" MODIFIED="1522818334883" LINK="#ID_825881001"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13268,10 +12826,8 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Hornor6实现USB Reverse Tethering" ID="ID_1251823420" CREATED="1522817274839" MODIFIED="1522820094744"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Hornor6实现USB Reverse Tethering" ID="ID_1251823420" CREATED="1522817274839" MODIFIED="1522820094744"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13298,12 +12854,10 @@ root@OpenWrt:~# wifi</pre>
       &#28982;&#21518;&#22312;&#36335;&#30001;&#22120;&#31471;&#23558;&#36825;&#20010;usb&#32593;&#32476;&#26725;&#25509;&#21040;&#20869;&#32593;&#25509;&#21475;&#19978;&#65292;&#36825;&#26679;&#23601;&#33021;&#22815;&#26159;&#30340;&#36825;&#20010;usb&#32593;&#32476;&#33021;&#22815;&#36890;&#36807;&#36335;&#30001;&#22120;&#30340;&#22806;&#32593;&#36830;&#25509;&#35775;&#38382;&#22806;&#32593;&#20102;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="路由器端需要的操作步骤" ID="ID_1127396063" CREATED="1522819095929" MODIFIED="1522820438364">
 <icon BUILTIN="full-1"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13334,13 +12888,11 @@ root@OpenWrt:~# wifi</pre>
       &#36335;&#30001;&#22120;&#31471;&#30340;&#25805;&#20316;&#23601;&#36825;&#20040;&#19968;&#20123;&#65292;&#28982;&#21518;&#37197;&#32622;&#25163;&#26426;&#31471;&#23601;&#21487;&#20197;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="手机端需要的操作步骤" ID="ID_548891811" CREATED="1522819078282" MODIFIED="1522819855663">
 <icon BUILTIN="full-2"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13389,12 +12941,10 @@ root@OpenWrt:~# wifi</pre>
       &#36825;&#26102;&#20505;&#21487;&#20197;&#25226;&#25163;&#26426;&#30340;wifi&#20851;&#38381;&#65292;&#35797;&#35797;&#30475;&#26159;&#19981;&#26159;&#25163;&#26426;&#20381;&#28982;&#21487;&#20197;&#19978;&#32593;&#65311;&#22914;&#26524;&#21487;&#20197;&#37027;&#20040;&#23601;&#25104;&#21151;&#20102;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Redmi2实现USB Tethering" FOLDED="true" ID="ID_631623666" CREATED="1522819864714" MODIFIED="1522820419449"><richcontent TYPE="NOTE">
-
+<node TEXT="Redmi2实现USB Tethering" FOLDED="true" ID="ID_631623666" CREATED="1522819864714" MODIFIED="1522820419449"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13431,10 +12981,8 @@ root@OpenWrt:~# wifi</pre>
       &#36825;&#26679;&#65292;&#21452;&#26041;&#23601;&#21487;&#20197;&#20351;&#29992;&#23545;&#26041;&#30340;&#36825;&#20010;ip&#22320;&#22336;&#35775;&#38382;&#23545;&#26041;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Redmi2实现USB Reverse Tethering失败" ID="ID_1840512724" CREATED="1522820096826" MODIFIED="1522820126158"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="Redmi2实现USB Reverse Tethering失败" ID="ID_1840512724" CREATED="1522820096826" MODIFIED="1522820126158"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13453,15 +13001,13 @@ root@OpenWrt:~# wifi</pre>
       (&#24576;&#30097;&#26159;&#22240;&#20026;&#25163;&#26426;&#21047;&#20102;Lineageos&#65292;&#36825;&#20010;&#31995;&#32479;&#30340;iptables&#30340;&#37197;&#32622;&#26377;&#20123;&#38382;&#39064;&#65292;&#38459;&#27490;&#20102;&#20174;usb&#21475;&#30340;&#35775;&#38382;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="通用Reverse Tethring方法" ID="ID_780896766" CREATED="1534588474646" MODIFIED="1534588496154" LINK="#ID_539855173"/>
 </node>
 </node>
-<node TEXT="ADB" ID="ID_466420185" CREATED="1522387490887" MODIFIED="1522817185602"><richcontent TYPE="NOTE">
-
+<node TEXT="ADB" ID="ID_466420185" CREATED="1522387490887" MODIFIED="1522817185602"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13474,12 +13020,10 @@ root@OpenWrt:~# wifi</pre>
       &#25628;&#32034;&#20102;&#19968;&#19979;&#65292;&#20063;&#26159;&#26377;openwrt&#30340;ipk&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="OpenWRT二级路由配置成交换机" ID="ID_723970541" CREATED="1534588897036" MODIFIED="1534589127077"><richcontent TYPE="NOTE">
-
+<node TEXT="OpenWRT二级路由配置成交换机" ID="ID_723970541" CREATED="1534588897036" MODIFIED="1534589127077"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13504,14 +13048,12 @@ root@OpenWrt:~# wifi</pre>
       &#24076;&#26395;&#36890;&#36807;Openwrt&#36830;&#25509;&#30340;&#35774;&#22791;&#20998;&#37197;&#30340;IP&#22320;&#22336;&#36319;&#20027;&#36335;&#30001;&#22788;&#20110;&#21516;&#19968;&#20010;&#32593;&#27573;&#65292;&#36825;&#26679;&#23478;&#20013;&#30340;&#32593;&#32476;&#35774;&#22791;&#65292;&#26080;&#35770;&#26159;&#36830;&#25509;&#20027;&#36335;&#30001;&#36824;&#26159;&#20108;&#32423;&#36335;&#30001;&#65292;&#20114;&#30456;&#20043;&#38388;&#33021;&#22815;&#36890;&#20449;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="参考onenote操作图解" ID="ID_217129351" CREATED="1534589134659" MODIFIED="1534589167492" LINK="../OneNote/WR720N做二级路由-配置成交换机.one"/>
 </node>
 </node>
 <node TEXT="Youhua的WR1200JS配置" FOLDED="true" POSITION="left" ID="ID_1459516959" CREATED="1527550751830" MODIFIED="1527550762630">
-<node TEXT="官方固件开始刷机" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE">
-
+<node TEXT="官方固件开始刷机" ID="ID_1296639929" CREATED="1527550765624" MODIFIED="1527550863437"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13524,12 +13066,10 @@ root@OpenWrt:~# wifi</pre>
       &#21487;&#26159;&#25105;&#30340;&#26426;&#22120;&#19978;&#24590;&#20040;&#37117;&#24320;&#19981;&#20102;telnet&#65292;&#25152;&#20197;&#27809;&#21150;&#27861;&#36873;&#25321;&#20102;&#30452;&#25509;&#21047;&#26426;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="刷机padavan" ID="ID_841843215" CREATED="1527550776976" MODIFIED="1527601568656">
 <icon BUILTIN="100%"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13539,12 +13079,10 @@ root@OpenWrt:~# wifi</pre>
       &#21047;padavan&#30340;&#30446;&#30340;&#26159;&#20026;&#20102;&#33021;&#22815;&#22312;&#21551;&#21160;&#21040;padavan&#20043;&#21518;&#21487;&#20197;enable telnet&#25110;&#32773;ssh&#21151;&#33021;&#65292;&#26041;&#20415;&#21518;&#38754;&#32487;&#32493;&#21047;&#26426;breed.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="直接官方固件升级页面刷入padavan固件" ID="ID_1288487668" CREATED="1527550913079" MODIFIED="1527601632557">
 <icon BUILTIN="full-1"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13566,11 +13104,9 @@ root@OpenWrt:~# wifi</pre>
       &#21047;&#23436;padavan&#20043;&#21518;&#65292;WAN&#21475;&#21464;&#25104;&#20102;&#31532;&#22235;&#20010;LAN&#21475;&#65292;&#22914;&#26524;&#35201;&#25509;&#19978;&#32423;&#36335;&#30001;&#30340;&#35805;&#65292;&#32593;&#32447;&#24212;&#35813;&#25509;&#22312;LAN4&#21475;&#19978;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="比较出名的Padavan版本" ID="ID_947663386" CREATED="1527689060324" MODIFIED="1527691398381"><richcontent TYPE="NOTE">
-
+<node TEXT="比较出名的Padavan版本" ID="ID_947663386" CREATED="1527689060324" MODIFIED="1527691398381"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13610,12 +13146,10 @@ root@OpenWrt:~# wifi</pre>
       WR1200JS_3.4.3.9-099.trx
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="刷机华硕原厂固件" ID="ID_525623439" CREATED="1527764233385" MODIFIED="1527766484522"><richcontent TYPE="NOTE">
-
+<node TEXT="刷机华硕原厂固件" ID="ID_525623439" CREATED="1527764233385" MODIFIED="1527766484522"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13625,13 +13159,11 @@ root@OpenWrt:~# wifi</pre>
       WR1200js&#30340;&#30828;&#20214;&#29256;&#26412;&#25454;&#35828;&#36319;&#21326;&#30805;&#21407;&#21378;&#30340;RT-AC1200GU&#19968;&#27169;&#19968;&#26679;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="刷Bootloader(breed)" FOLDED="true" ID="ID_531259129" CREATED="1527552494342" MODIFIED="1527764230888">
 <icon BUILTIN="100%"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13689,10 +13221,8 @@ root@OpenWrt:~# wifi</pre>
       5&#65292;&#28903;&#20889;&#25104;&#21151;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="执行mtd_write的输出log" ID="ID_60581928" CREATED="1527602266703" MODIFIED="1527602283645"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="执行mtd_write的输出log" ID="ID_60581928" CREATED="1527602266703" MODIFIED="1527602283645"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13705,11 +13235,9 @@ root@OpenWrt:~# wifi</pre>
       Writing from 'breed-mt7621-pbr-m1.bin' to MTD 'Bootloader' ...&#160;&#160;[ok]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="进入breed" ID="ID_1876518553" CREATED="1527602787327" MODIFIED="1527602910648"><richcontent TYPE="NOTE">
-
+<node TEXT="进入breed" ID="ID_1876518553" CREATED="1527602787327" MODIFIED="1527602910648"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13740,12 +13268,10 @@ root@OpenWrt:~# wifi</pre>
       &#25104;&#21151;&#21457;&#29616;breed&#30340;web&#39029;&#38754;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="刷机官方Openwrt固件" ID="ID_1008730692" CREATED="1534581121280" MODIFIED="1540729812331"><richcontent TYPE="NOTE">
-
+<node TEXT="刷机官方Openwrt固件" ID="ID_1008730692" CREATED="1534581121280" MODIFIED="1540729812331"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13758,15 +13284,13 @@ root@OpenWrt:~# wifi</pre>
       &#24320;&#24515;&#30340;&#21047;&#19978;&#65292;&#30446;&#27979;&#27604;&#36739;&#23436;&#32654;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="USB网络" ID="ID_615368049" CREATED="1534587214661" MODIFIED="1534587225663" LINK="#ID_1868999429"/>
 </node>
 </node>
 <node TEXT="OpenWRT配置" FOLDED="true" ID="ID_636474486" CREATED="1536209772336" MODIFIED="1536209779845">
 <node TEXT="USB网络" ID="ID_999407093" CREATED="1536209786931" MODIFIED="1536209797047" LINK="#ID_615368049"/>
-<node TEXT="aircrack_ng" FOLDED="true" ID="ID_468783745" CREATED="1536209799668" MODIFIED="1536212493727"><richcontent TYPE="NOTE">
-
+<node TEXT="aircrack_ng" FOLDED="true" ID="ID_468783745" CREATED="1536209799668" MODIFIED="1536212493727"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13782,10 +13306,8 @@ root@OpenWrt:~# wifi</pre>
       airmon-ng
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="设置网卡监听模式" ID="ID_1440784462" CREATED="1536212496252" MODIFIED="1536212617406"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="设置网卡监听模式" ID="ID_1440784462" CREATED="1536212496252" MODIFIED="1536212617406"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13795,11 +13317,9 @@ root@OpenWrt:~# wifi</pre>
       <code class="plain plain">airmon-ng start wlan0 </code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="扫描无线网络" ID="ID_938346165" CREATED="1536212531770" MODIFIED="1536212670335"><richcontent TYPE="NOTE">
-
+<node TEXT="扫描无线网络" ID="ID_938346165" CREATED="1536212531770" MODIFIED="1536212670335"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13821,11 +13341,9 @@ root@OpenWrt:~# wifi</pre>
       airodump-ng mon0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="抓包" ID="ID_294277167" CREATED="1536212618636" MODIFIED="1536212629671"><richcontent TYPE="NOTE">
-
+<node TEXT="抓包" ID="ID_294277167" CREATED="1536212618636" MODIFIED="1536212629671"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13835,11 +13353,9 @@ root@OpenWrt:~# wifi</pre>
       airodump-ng
     </h3>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="关闭网卡的监听模式" ID="ID_411618008" CREATED="1536212695584" MODIFIED="1536212722848"><richcontent TYPE="NOTE">
-
+<node TEXT="关闭网卡的监听模式" ID="ID_411618008" CREATED="1536212695584" MODIFIED="1536212722848"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13852,12 +13368,10 @@ root@OpenWrt:~# wifi</pre>
       ifconfig wlan0mon down
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT=" 内网穿透" ID="ID_117508308" CREATED="1540729855387" MODIFIED="1540730049923"><richcontent TYPE="NOTE">
-
+<node TEXT=" 内网穿透" ID="ID_117508308" CREATED="1540729855387" MODIFIED="1540730049923"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13867,10 +13381,8 @@ root@OpenWrt:~# wifi</pre>
       &#38656;&#35201;&#22312;&#22806;&#32593;&#35775;&#38382;&#36335;&#30001;&#22120;&#30340;&#26102;&#20505;&#23601;&#38656;&#35201;&#36827;&#34892;&#20869;&#32593;&#31359;&#36879;&#65292;&#23558;&#36335;&#30001;&#22120;&#36890;&#36807;&#26576;&#31181;&#26041;&#24335;&#26292;&#38706;&#22312;&#22806;&#32593;&#20013;&#65292;&#20174;&#32780;&#20351;&#24471;&#22312;&#22806;&#32593;&#29615;&#22659;&#19979;&#33021;&#22815;&#20197;&#26576;&#31181;&#26041;&#24335;&#32852;&#31995;&#19978;&#36335;&#30001;&#22120;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="ISP提供了动态外网IP" ID="ID_1034720807" CREATED="1540729877195" MODIFIED="1540730378660" LINK="#ID_747226402"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="ISP提供了动态外网IP" ID="ID_1034720807" CREATED="1540729877195" MODIFIED="1540730378660" LINK="#ID_747226402"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13880,11 +13392,9 @@ root@OpenWrt:~# wifi</pre>
       ddns&#26041;&#24335;&#26159;&#26368;&#26041;&#20415;&#30340;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="ISP未提供外网IP" ID="ID_1232042696" CREATED="1540729892554" MODIFIED="1540737126539"><richcontent TYPE="NOTE">
-
+<node TEXT="ISP未提供外网IP" ID="ID_1232042696" CREATED="1540729892554" MODIFIED="1540737126539"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13897,10 +13407,8 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="VPN" ID="ID_1100118737" CREATED="1540730316890" MODIFIED="1540730339546"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="VPN" ID="ID_1100118737" CREATED="1540730316890" MODIFIED="1540730339546"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13910,11 +13418,9 @@ root@OpenWrt:~# wifi</pre>
       &#20351;&#29992;vpn&#20063;&#26159;&#19968;&#31181;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="frp" ID="ID_737810720" CREATED="1540730323802" MODIFIED="1540734434028"><richcontent TYPE="NOTE">
-
+<node TEXT="frp" ID="ID_737810720" CREATED="1540730323802" MODIFIED="1540734434028"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13924,13 +13430,11 @@ root@OpenWrt:~# wifi</pre>
       frp&#26159;&#19968;&#20010;&#26041;&#20415;&#30340;&#20869;&#32593;&#31359;&#36879;&#24037;&#20855;&#65292;&#32780;&#19988;&#37197;&#32622;&#31616;&#21333;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Frp配置" ID="ID_248363388" CREATED="1540735259051" MODIFIED="1540735375846">
 <icon BUILTIN="yes"/>
 </node>
-<node TEXT="frp的缺陷" ID="ID_1754635629" CREATED="1540737133638" MODIFIED="1540737217081"><richcontent TYPE="NOTE">
-
+<node TEXT="frp的缺陷" ID="ID_1754635629" CREATED="1540737133638" MODIFIED="1540737217081"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13949,10 +13453,8 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="使用xfrpc" ID="ID_975441762" CREATED="1540737180985" MODIFIED="1540737230356"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="使用xfrpc" ID="ID_975441762" CREATED="1540737180985" MODIFIED="1540737230356"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13962,10 +13464,8 @@ root@OpenWrt:~# wifi</pre>
       xfrp&#38024;&#23545;frpc&#20307;&#31215;&#36807;&#22823;&#30340;&#36825;&#20010;&#38382;&#39064;&#65292;&#20351;&#29992;C&#35821;&#35328;&#31227;&#26893;&#20102;frp&#65292;&#20351;&#24471;&#24212;&#29992;&#31243;&#24207;&#30340;&#22823;&#23567;&#21482;&#26377;20&#20960;K&#12290;&#24590;&#20040;&#30475;&#37117;&#24863;&#35273;&#20687;xfrp&#36825;&#26679;&#30340;&#39033;&#30446;&#25165;&#26159;openwrt&#19978;&#20351;&#29992;frp&#24212;&#26377;&#30340;&#25171;&#24320;&#26041;&#24335;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="xfrpc编译" ID="ID_27558784" CREATED="1540735665813" MODIFIED="1540736356797" LINK="#ID_1724658367"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="xfrpc编译" ID="ID_27558784" CREATED="1540735665813" MODIFIED="1540736356797" LINK="#ID_1724658367"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13981,15 +13481,13 @@ root@OpenWrt:~# wifi</pre>
       &#20855;&#20307;&#20869;&#23481;&#21442;&#32771;&#38142;&#25509;&#36339;&#36716;&#21040;&#30340;Node
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="xfrp配置" ID="ID_1572286592" CREATED="1540737406779" MODIFIED="1540737422091">
 <icon BUILTIN="yes"/>
 </node>
 </node>
-<node TEXT="使用upx压缩可执行文件" ID="ID_333385667" CREATED="1540737236245" MODIFIED="1540737618768"><richcontent TYPE="NOTE">
-
+<node TEXT="使用upx压缩可执行文件" ID="ID_333385667" CREATED="1540737236245" MODIFIED="1540737618768"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14014,8 +13512,7 @@ root@OpenWrt:~# wifi</pre>
       &#23454;&#38469;&#25805;&#20316;&#30340;&#32467;&#26524;&#26159;&#65292;&#23558;&#36817;<font color="#cc0000"><b>8M</b>&#30340;</font>frpc&#25991;&#20214;&#32463;&#36807;upx&#22788;&#29702;&#20043;&#21518;&#65292;&#22823;&#27010;&#22312;<font color="#0033cc"><b>2M</b></font>&#24038;&#21491;&#65292;&#25928;&#26524;&#26126;&#26174;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14023,8 +13520,7 @@ root@OpenWrt:~# wifi</pre>
 </node>
 <node TEXT="Shadowsocks" ID="ID_1116823705" CREATED="1540730149778" MODIFIED="1540730155924"/>
 </node>
-<node TEXT="构建Openwrt开发环境" FOLDED="true" ID="ID_604975626" CREATED="1540730100874" MODIFIED="1540730735244"><richcontent TYPE="NOTE">
-
+<node TEXT="构建Openwrt开发环境" FOLDED="true" ID="ID_604975626" CREATED="1540730100874" MODIFIED="1540730735244"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14034,10 +13530,8 @@ root@OpenWrt:~# wifi</pre>
       &#20351;&#29992;Openwrt&#30340;Build&#31995;&#32479;&#30340;&#35805;&#65292;&#33021;&#22815;&#26041;&#20415;&#30340;&#33258;&#24049;&#32534;&#35793;&#26368;&#26032;&#30340;Openwrt&#22266;&#20214;&#65292;&#33021;&#22815;&#33258;&#24049;&#23450;&#21046;&#22266;&#20214;&#30340;&#20869;&#23481;&#65292;&#20063;&#33021;&#22815;&#21033;&#29992;Build&#31995;&#32479;&#33258;&#24049;&#32534;&#35793;Openwrt&#19978;&#30340;&#31532;&#19977;&#26041;ipk&#25110;&#32773;&#24212;&#29992;&#31243;&#24207;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="安装openwrt源码编译固件" ID="ID_115337241" CREATED="1540730756166" MODIFIED="1540734179076"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装openwrt源码编译固件" ID="ID_115337241" CREATED="1540730756166" MODIFIED="1540734179076"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14104,10 +13598,8 @@ root@OpenWrt:~# wifi</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="xfrp安装" ID="ID_1724658367" CREATED="1540735248748" MODIFIED="1540736940958"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="xfrp安装" ID="ID_1724658367" CREATED="1540735248748" MODIFIED="1540736940958"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14171,11 +13663,9 @@ root@OpenWrt:~# wifi</pre>
       &#38656;&#35201;&#27880;&#24847;&#30340;&#26159;&#65306;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="文件" ID="ID_1942294547" CREATED="1540736944075" MODIFIED="1540736946669">
-<node TEXT="Makefile文件" ID="ID_1442245384" CREATED="1540736381957" MODIFIED="1540736858226"><richcontent TYPE="NOTE">
-
+<node TEXT="Makefile文件" ID="ID_1442245384" CREATED="1540736381957" MODIFIED="1540736858226"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14341,11 +13831,9 @@ root@OpenWrt:~# wifi</pre>
       $(eval $(call BuildPackage,$(PKG_NAME)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="xfrpc.config文件" ID="ID_477965692" CREATED="1540736390856" MODIFIED="1540736862457"><richcontent TYPE="NOTE">
-
+<node TEXT="xfrpc.config文件" ID="ID_477965692" CREATED="1540736390856" MODIFIED="1540736862457"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14424,11 +13912,9 @@ root@OpenWrt:~# wifi</pre>
       # option remote_data_port 'remote_data_port'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="xfrpc.init文件" ID="ID_891325138" CREATED="1540736421305" MODIFIED="1540736951047"><richcontent TYPE="NOTE">
-
+<node TEXT="xfrpc.init文件" ID="ID_891325138" CREATED="1540736421305" MODIFIED="1540736951047"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14975,12 +14461,10 @@ root@OpenWrt:~# wifi</pre>
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="libevent的依赖问题" ID="ID_1335325272" CREATED="1540736956198" MODIFIED="1540737044769"><richcontent TYPE="NOTE">
-
+<node TEXT="libevent的依赖问题" ID="ID_1335325272" CREATED="1540736956198" MODIFIED="1540737044769"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -14993,13 +14477,11 @@ root@OpenWrt:~# wifi</pre>
       &#21482;&#26159;&#22914;&#26524;&#26159;&#32534;&#35793;&#30340;&#21333;&#29420;&#30340;ipk&#30340;&#35805;&#65292;&#23433;&#35013;xfrpc&#30340;&#21516;&#26102;&#65292;&#20063;&#38656;&#35201;&#23558;libevent&#30340;&#21253;&#32473;&#22312;&#31995;&#32479;&#20013;&#35013;&#19978;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="SDK和Image Builder" ID="ID_238491824" CREATED="1540733110301" MODIFIED="1540734317329"><richcontent TYPE="NOTE">
-
+<node TEXT="SDK和Image Builder" ID="ID_238491824" CREATED="1540733110301" MODIFIED="1540734317329"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15015,14 +14497,12 @@ root@OpenWrt:~# wifi</pre>
       Image Builder&#26159;&#29992;&#26469;&#29983;&#25104;&#22266;&#20214;&#30340;&#65292;&#21487;&#20197;&#36873;&#25321;&#23558;&#37027;&#20123;ipk&#25171;&#21253;&#36827;&#22266;&#20214;&#20013;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="CubieBoard2双卡版配置" POSITION="left" ID="ID_1507141389" CREATED="1419689320613" MODIFIED="1419689338299">
-<node TEXT="似乎是双卡的一个问题" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE">
-
+<node TEXT="似乎是双卡的一个问题" ID="ID_555432349" CREATED="1419750873721" MODIFIED="1419750955155"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15041,12 +14521,10 @@ root@OpenWrt:~# wifi</pre>
       &#22914;&#26524;&#29992;&#21040;&#25968;&#25454;&#21345;&#30340;&#35805;,&#23601;&#38656;&#35201;&#35843;&#26597;&#19968;&#19979;,&#24590;&#20040;&#35299;&#20915;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="基本配置" ID="ID_1568576141" CREATED="1419751845757" MODIFIED="1419751849474">
-<node TEXT="给CB2配置Debian的源" ID="ID_1035546729" CREATED="1419689811369" MODIFIED="1419690227885" LINK="#ID_868438502"><richcontent TYPE="NOTE">
-
+<node TEXT="给CB2配置Debian的源" ID="ID_1035546729" CREATED="1419689811369" MODIFIED="1419690227885" LINK="#ID_868438502"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15074,11 +14552,9 @@ root@OpenWrt:~# wifi</pre>
       <font size="4" color="#0000cc"><b><i>deb ftp://debian.ustc.edu.cn/debian-security/ stable/updates main</i></b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="修改时区" ID="ID_732122674" CREATED="1419690544453" MODIFIED="1419751852340"><richcontent TYPE="NOTE">
-
+<node TEXT="修改时区" ID="ID_732122674" CREATED="1419690544453" MODIFIED="1419751852340"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15090,11 +14566,9 @@ root@OpenWrt:~# wifi</pre>
       <font color="#0000cc" size="4"><b><i>sudo dpkg-reconfigure tzdata </i></b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="root密码" ID="ID_813745470" CREATED="1419750685232" MODIFIED="1421069322058"><richcontent TYPE="NOTE">
-
+<node TEXT="root密码" ID="ID_813745470" CREATED="1419750685232" MODIFIED="1421069322058"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15104,11 +14578,9 @@ root@OpenWrt:~# wifi</pre>
       flyingproudeng21181013
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="取消DHCP配置静态IP" ID="ID_1706507313" CREATED="1419751859635" MODIFIED="1419752010452"><richcontent TYPE="NOTE">
-
+<node TEXT="取消DHCP配置静态IP" ID="ID_1706507313" CREATED="1419751859635" MODIFIED="1419752010452"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15145,13 +14617,11 @@ root@OpenWrt:~# wifi</pre>
       &#20462;&#25913;CB2&#30340;IP&#20026;192.168.1.100
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="安装服务器" ID="ID_1926288953" CREATED="1424870214910" MODIFIED="1424870220236">
-<node TEXT="Lighttpd安装" ID="ID_16511115" CREATED="1424870235531" MODIFIED="1424873957519"><richcontent TYPE="NOTE">
-
+<node TEXT="Lighttpd安装" ID="ID_16511115" CREATED="1424870235531" MODIFIED="1424873957519"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15161,11 +14631,9 @@ root@OpenWrt:~# wifi</pre>
       <font color="#000099"><i><b>aptitude install lighttpd</b></i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Mysql安装" ID="ID_952792482" CREATED="1424873959202" MODIFIED="1424873981510"><richcontent TYPE="NOTE">
-
+<node TEXT="Mysql安装" ID="ID_952792482" CREATED="1424873959202" MODIFIED="1424873981510"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15175,10 +14643,8 @@ root@OpenWrt:~# wifi</pre>
       <font color="#000099"><i><b>aptitude install mysql-server</b></i></font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="root用户密码" ID="ID_1074089484" CREATED="1424873983334" MODIFIED="1424873997544"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="root用户密码" ID="ID_1074089484" CREATED="1424873983334" MODIFIED="1424873997544"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15188,8 +14654,7 @@ root@OpenWrt:~# wifi</pre>
       flyingproudeng21181013
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -15198,8 +14663,7 @@ root@OpenWrt:~# wifi</pre>
 <node TEXT="安装Kali" ID="ID_554380518" CREATED="1541382220403" MODIFIED="1541382224861">
 <node TEXT="Kali更新Kernel" ID="ID_472384086" CREATED="1541382226386" MODIFIED="1541393845715">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15218,10 +14682,8 @@ root@OpenWrt:~# wifi</pre>
       &#28982;&#21518;&#23454;&#38469;&#30340;&#25805;&#20316;&#26159;&#65292;&#30475;&#36215;&#26469;&#31995;&#32479;&#20869;&#26680;&#26356;&#26032;&#21040;&#20102;&#26368;&#26032;&#30340;&#29256;&#26412;&#65292;&#20294;&#26159;&#19968;&#26086;&#37325;&#21551;&#65292;&#21457;&#29616;&#37325;&#21551;&#21518;&#30340;&#31995;&#32479;&#24182;&#27809;&#26377;&#20999;&#25442;&#21040;&#26032;&#30340;&#20869;&#26680;&#19978;&#21435;&#12290;&#36824;&#26159;&#21574;&#22312;&#32769;&#30340;&#20869;&#26680;&#29256;&#26412;&#19978;&#65292;&#36825;&#26159;&#22240;&#20026;bootload&#22312;load&#20869;&#26680;&#30340;&#26102;&#20505;&#65292;&#26159;&#20174;/dev/mmcblk0p1&#37324;&#38754;&#25214;&#20869;&#26680;&#30340;&#65292;&#32780;&#25105;&#20204;&#26356;&#26032;&#30340;&#20869;&#26680;&#23384;&#22312;&#20110;/dev/mmcblk0p2&#20998;&#21306;&#20013;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="rpi-update脚本" ID="ID_1045292329" CREATED="1541393854647" MODIFIED="1541394149101"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="rpi-update脚本" ID="ID_1045292329" CREATED="1541393854647" MODIFIED="1541394149101"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15238,12 +14700,10 @@ root@OpenWrt:~# wifi</pre>
     </pre>
     <pre><code><b><i><font color="#0033cc" face="Arial">ROOT_PATH=/ BOOT_PATH=/dev/mmcblk0p1 rpi-update</font></i></b></code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="Kali使用无线网卡连接wifi热点" ID="ID_620238317" CREATED="1541423743479" MODIFIED="1541423899774"><richcontent TYPE="NOTE">
-
+<node TEXT="Kali使用无线网卡连接wifi热点" ID="ID_620238317" CREATED="1541423743479" MODIFIED="1541423899774"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15264,13 +14724,11 @@ root@OpenWrt:~# wifi</pre>
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Godaddy密码" POSITION="left" ID="ID_1916301877" CREATED="1547025419217" MODIFIED="1547025537219"><richcontent TYPE="NOTE">
-
+<node TEXT="Godaddy密码" POSITION="left" ID="ID_1916301877" CREATED="1547025419217" MODIFIED="1547025537219"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15280,8 +14738,7 @@ root@OpenWrt:~# wifi</pre>
       Lovexiaoshe0901
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1527550746804"><richcontent TYPE="NODE">
 
@@ -15296,8 +14753,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15354,12 +14810,10 @@ root@OpenWrt:~# wifi</pre>
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="参考Linux Foundation 培训给出的一些具体例子" ID="ID_251441128" CREATED="1521195779030" MODIFIED="1527550746804"/>
 </node>
-<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1617697918615" LINK="#ID_867421423"><richcontent TYPE="DETAILS" HIDDEN="true">
-
+<node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1617697918615" LINK="#ID_867421423"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -15390,11 +14844,9 @@ root@OpenWrt:~# wifi</pre>
       Icon: @<i>[CONTEXT]</i>&#160;&#160;&#160;- Icon to represent a context
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -15408,8 +14860,7 @@ root@OpenWrt:~# wifi</pre>
     </p>
     <pre><font color="#ff0033" face="SansSerif" size="5">* Action name</font><font face="SansSerif" size="5"> </font><font color="#0000ff" face="SansSerif" size="5">{when}</font><font face="SansSerif" size="5"> </font><font color="#006666" face="SansSerif" size="5">@context</font><font face="SansSerif" size="5"> </font><font color="#999900" face="SansSerif" size="5">[who]</font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Icon: @Computer" ID="ID_1821210832" CREATED="1427226511560" MODIFIED="1427226607171">
 <icon BUILTIN="male1"/>
 </node>
