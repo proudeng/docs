@@ -6932,8 +6932,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       它的任务是利用它低功耗的特点让它24小时在线，主要用于联通外部网络和内部网络，并且给内网用户提供一些基本的网络服务，比如wiki什么的。&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Debian" ID="ID_769180834" CREATED="1572187186770" MODIFIED="1572187188868">
 <node TEXT="网关简单配置" ID="ID_1026225973" CREATED="1572187205354" MODIFIED="1572187212436">
 <node TEXT="配置网口ip" ID="ID_1247374838" CREATED="1572188084544" MODIFIED="1572188090267">
@@ -7884,8 +7883,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><font color="#0000c0">Hotplug</font></b>：类似于ondemand, 但是cpu会在关屏下尝试关掉一个cpu，并且带有deep sleep，比较省电。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="MQTT客户端" ID="ID_507213376" CREATED="1621410842429" MODIFIED="1621413292587"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -7925,8 +7923,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="思路" ID="ID_1780037356" CREATED="1621412756144" MODIFIED="1621413399273"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -7937,8 +7934,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       外部管理设备和树莓派之间使用MQTT协议联系起来。MQTT的使用方式是，外部管理设备和树莓派都作为MQTT的客户端，分别连接到MQTT Broker上，通过Broker转发消息。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="树莓派" ID="ID_197341363" CREATED="1621412804848" MODIFIED="1621413813173">
 <arrowlink DESTINATION="ID_1359210930"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -7957,8 +7953,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       树莓派作为MQTT的客户，subscribe到我们定义的一些topic上，接收消息。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="topic" ID="ID_182722504" CREATED="1621413795020" MODIFIED="1621413797548">
 <node TEXT="订阅" ID="ID_1002737440" CREATED="1621413435152" MODIFIED="1621413438266">
 <node TEXT="/proudeng/home/control" ID="ID_1648763639" CREATED="1621413416752" MODIFIED="1621413423562"/>
@@ -7992,8 +7987,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="手机" ID="ID_1802317323" CREATED="1621412807608" MODIFIED="1621413722648">
@@ -8008,8 +8002,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       手机端安装MQTT客户端，然后向树莓派发送管理消息。发布消息的topic就是使用树莓派自己订阅的消息。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Broker" ID="ID_1359210930" CREATED="1621413521104" MODIFIED="1621413712366"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -8027,8 +8020,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       web客户端端口:8083
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="工具" ID="ID_97539190" CREATED="1621414091427" MODIFIED="1621414449775"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -8050,8 +8042,107 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       对于我们想要管理树莓派的目的来说，这样的好处确实是比较明显和值得关注了。
     </p>
   </body>
+</html></richcontent>
+<node TEXT="Demo版本" ID="ID_706479174" CREATED="1621475771978" MODIFIED="1621476019669"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个demo版本实现了的功能是，外部手机的管理方可以给树莓配发送命令，树莓派把接收到的命令当作shell command执行，然后给管理方发送执行的结果。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在树莓派上执行下面的命令来启动这个demo版本的程序：
+    </p>
+    <p>
+      <b><i><font color="#008000">/home/proudeng/bish-bosh/bish-bosh --verbose 2 -- /tmp/home_management &amp;</font></i></b>
+    </p>
+  </body>
 </html>
 </richcontent>
+<node TEXT="home_management" ID="ID_1695617361" CREATED="1621475873131" MODIFIED="1621476181640"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="color: #000000; background-color: #ffffff; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null"><font color="#3f7f59">#!</font>/usr/bin/env<font color="#7f0055"><b> bish-bosh</b></font>
+<font color="#3f7f59">#bishbosh_server=test.mosquitto.org</font>
+bishbosh_server=broker<font color="#7f0055"><b>.</b></font>emqx<font color="#7f0055"><b>.</b></font>io
+<font color="#3f7f59"># load your configuration if you need to, eg bishbosh_clientId=&quot;$(&lt;/path/to/client-id)&quot; or use '.' (source)</font>
+bishbosh_clientId=20
+
+bishbosh_connect_cleanSession=0
+bishbosh_connect_willTopic=<font color="#2a00ff">'/proudeng/home/pub'</font>
+bishbosh_connect_willMessage=<font color="#2a00ff">&quot;home disconnected&quot;</font>
+<font color="#3f7f59">#bishbosh_connect_willMessageFilePath=/tmp/will_message</font>
+bishbosh_connect_willQoS=0
+bishbosh_connect_willRetain=1
+<font color="#3f7f59"># 5 second ping</font>
+bishbosh_connect_keepAlive=30
+<font color="#3f7f59">#bishbosh_connect_username</font>
+<font color="#3f7f59">#bishbosh_connect_password</font>
+
+bishbosh_connection_handler_CONNACK()
+{
+        <font color="#3f7f59"># Set up some subscriptions... another implementation could read from a standard file</font>
+        bishbosh_subscribe <font color="#2a00ff">'/proudeng/home/control'</font> 0 <font color="#2a00ff">'/proudeng/home/query'</font> 0
+<font color="#3f7f59">#               '/proudeng/home/rcv/0' 0</font>
+<font color="#3f7f59">#               '/proudeng/home/rcv/1' 1 \</font>
+<font color="#3f7f59">#               '/proudeng/home/rcv/2' 2</font>
+
+<font color="#3f7f59">#       bishbosh_unsubscribe \</font>
+<font color="#3f7f59">#               '/topic/not/wanted' \</font>
+<font color="#3f7f59">#               '/and/also/topic/not/wanted'</font>
+
+        <font color="#3f7f59"># Publish a QoS 0 message</font>
+        <font color="#3f7f59"># On topic a/b</font>
+        <font color="#3f7f59"># Unretained</font>
+        <font color="#3f7f59"># With value 'X'</font>
+        bishbosh_publishText 0 <font color="#2a00ff">'/proudeng/home/pub'</font> no <font color="#2a00ff">'connected'</font>
+
+        <font color="#3f7f59"># Publish a QoS 1 message</font>
+        <font color="#3f7f59"># bish-bosh handles the QoS for us</font>
+        <font color="#3f7f59"># On topic a/b</font>
+        <font color="#3f7f59"># Unretained</font>
+        <font color="#3f7f59"># Using the contents of file '/path/to/message'</font>
+        <font color="#3f7f59">#bishbosh_publishFile 1 '/proudeng/home/pub/1' no '/path/to/message'</font>
+
+        <font color="#3f7f59"># Publish a QoS 2 message</font>
+        <font color="#3f7f59"># bish-bosh handles the QoS for us</font>
+        <font color="#3f7f59"># and will retransmit on re-connect</font>
+        <font color="#3f7f59"># On topic a/b</font>
+        <font color="#3f7f59"># Retained</font>
+        <font color="#3f7f59"># Using the contents of file '/path/to/message/to/remove/after/send'</font>
+        <font color="#3f7f59"># Then remove '/path/to/message/to/remove/after/send' after send (QoS 2 takes a copy)</font>
+        <font color="#3f7f59">#bishbosh_publishFileAndRemove 2 'a/b' yes '/path/to/message/to/remove/after/send'</font>
+}
+
+bishbosh_connection_handler_PUBLISH()
+{
+        <font color="#7f0055"><b>echo</b></font> <font color="#2a00ff">&quot;Message received: retain=$retain, QoS=$QoS, dup=$dup, topicLength=$topicLength, topicName=$topicName, messageLength=$messageLength, messageFilePath=$messageFilePath&quot;</font> 1&gt;&amp;2
+        output=$(<font color="#000000">`cat $messageFilePath`</font>)
+        <font color="#3f7f59">#bishbosh_publishFileAndRemove 0 '/proudeng/home/pub' no &quot;$output&quot;</font>
+        bishbosh_publishText 0 <font color="#2a00ff">'/proudeng/home/pub'</font> no <font color="#2a00ff">&quot;$output&quot;</font>
+
+}
+
+bishbosh_connection_handler_noControlPacketsRead()
+{
+        <font color="#3f7f59"># Down time - use this to publish some messages, change subscriptions or reload our configuration. Perhaps we could monitor a folder path?</font>
+        <font color="#3f7f59"># Note: bish-bosh silently handles any PING packets on our behalf</font>
+        bishbosh_publishText 0 <font color="#2a00ff">'/proudeng/home/pub/0'</font> no <font color="#2a00ff">'No response'</font>
+}</pre>
+    <!--Created using ToHtml.com on 2021-05-20 02:02:28 UTC -->
+    </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="bish-bosh" ID="ID_1517038744" CREATED="1621414295116" MODIFIED="1621414323325" LINK="https://github.com/raphaelcohn/bish-bosh"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -8062,8 +8153,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       这是一个github上公开的开源工具
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -8946,9 +9036,9 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </node>
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="21 pt;0 pt;" ENDINCLINATION="21 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="99 pt;0 pt;" ENDINCLINATION="99 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="75.75 pt;0 pt;" ENDINCLINATION="75.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="21 pt;0 pt;" ENDINCLINATION="21 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -9414,8 +9504,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
   </body>
 </html></richcontent>
 <node TEXT="域名绑定" ID="ID_1994750628" CREATED="1325830762153" MODIFIED="1325997087802">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="83.25 pt;0 pt;" ENDINCLINATION="83.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1214726821" STARTINCLINATION="293.99999 pt;0 pt;" ENDINCLINATION="293.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_209820949" STARTINCLINATION="83.25 pt;0 pt;" ENDINCLINATION="83.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -14740,7 +14830,7 @@ root@OpenWrt:~# wifi</pre>
   </body>
 </html></richcontent>
 </node>
-<node POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1527550746804"><richcontent TYPE="NODE">
+<node POSITION="right" ID="ID_617854629" CREATED="1519275690727" MODIFIED="1621476295478"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -14763,7 +14853,7 @@ root@OpenWrt:~# wifi</pre>
       <tr>
         <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
           <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            &#20195;&#30721;&#29255;&#27573;
+            代码片段
           </p>
         </td>
         <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
@@ -14775,7 +14865,7 @@ root@OpenWrt:~# wifi</pre>
       <tr>
         <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
           <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            &#25991;&#20214;&#21517;&#25110;&#36335;&#24452;
+            文件名或路径
           </p>
         </td>
         <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
@@ -14787,7 +14877,7 @@ root@OpenWrt:~# wifi</pre>
       <tr>
         <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
           <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            &#25991;&#20214;&#20869;&#23481;&#25688;&#25220;(&#27604;&#22914;&#25991;&#20214;&#20869;&#37096;&#30340;&#19968;&#34892;&#25991;&#23383;)
+            文件内容摘抄(比如文件内部的一行文字)
           </p>
         </td>
         <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
@@ -14799,19 +14889,42 @@ root@OpenWrt:~# wifi</pre>
       <tr>
         <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
           <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            log&#20869;&#23481;
-          </p>
-        </td>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            
+            log内容
           </p>
         </td>
       </tr>
     </table>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="参考Linux Foundation 培训给出的一些具体例子" ID="ID_251441128" CREATED="1521195779030" MODIFIED="1527550746804"/>
+<node ID="ID_781794023" CREATED="1621476302305" MODIFIED="1621476341238"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">在线代码高亮工具</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://tohtml.com/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="right" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1617697918615" LINK="#ID_867421423"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
