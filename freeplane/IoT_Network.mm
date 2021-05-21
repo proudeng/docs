@@ -65,12 +65,219 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="IoT协议" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
 <edge COLOR="#ff0000"/>
 <node TEXT="应用层" ID="ID_555749467" CREATED="1608122495335" MODIFIED="1608122500615">
 <node TEXT="MQTT" ID="ID_1990357631" CREATED="1608122517359" MODIFIED="1608122519582"/>
-<node TEXT="CoAP" ID="ID_1637354092" CREATED="1608122520502" MODIFIED="1608122524968"/>
+<node TEXT="CoAP" ID="ID_1637354092" CREATED="1608122520502" MODIFIED="1608122524968">
+<node TEXT="CoAP简介" ID="ID_1971423094" CREATED="1621584930130" MODIFIED="1621584934679">
+<node TEXT="CoAP协议特点" ID="ID_1209389868" CREATED="1621584853554" MODIFIED="1621584874020">
+<node TEXT="网络传输层基于UDP" ID="ID_805521750" CREATED="1621585064396" MODIFIED="1621585072928"/>
+<node TEXT="交互方式是REST结构" ID="ID_1251903919" CREATED="1621585088231" MODIFIED="1621585284943"/>
+<node TEXT="消息是二进制格式的" ID="ID_210828291" CREATED="1621585098556" MODIFIED="1621585270359"/>
+<node TEXT="消息是轻量化的" ID="ID_474035029" CREATED="1621585247867" MODIFIED="1621585262616"/>
+<node TEXT="支持可靠传输" ID="ID_1202375529" CREATED="1621585451734" MODIFIED="1621585457335"/>
+<node TEXT="支持IP多播" ID="ID_1173943607" CREATED="1621585464488" MODIFIED="1621585467789"/>
+<node TEXT="非长连接通信" ID="ID_195616563" CREATED="1621585637103" MODIFIED="1621585641945"/>
+</node>
+<node TEXT="CoAP协议消息类型" ID="ID_524070887" CREATED="1621584889536" MODIFIED="1621584897281">
+<node TEXT="CON" ID="ID_590809532" CREATED="1621585669952" MODIFIED="1621585733985"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      需要被确认的请求，如果CON请求被发送，那么对方必须做出响应。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NON" ID="ID_2682534" CREATED="1621585672499" MODIFIED="1621585739511"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      不需要被确认的请求，如果NON请求被发送，那么对方不必做出回应。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ACK" ID="ID_1606400876" CREATED="1621585686729" MODIFIED="1621585761992"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      应答消息，对应的是CON消息的应答。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="RST" ID="ID_657253526" CREATED="1621585692583" MODIFIED="1621585765146"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      复位消息，可靠传输时候接收的消息不认识或错误时，不能回ACK消息，必须回RST消息。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="CoAP协议消息格式" ID="ID_691085430" CREATED="1621584912297" MODIFIED="1621584918446">
+<node TEXT="URL" ID="ID_1590304726" CREATED="1621585967075" MODIFIED="1621585993389"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CoAP的URL
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="端口" ID="ID_789018738" CREATED="1621585971138" MODIFIED="1621586004986"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      默认端口是UDP&nbsp;5683
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="格式" ID="ID_1718107008" CREATED="1621585974248" MODIFIED="1621585975844">
+<node TEXT="消息头" ID="ID_1268351456" CREATED="1621586764364" MODIFIED="1621587459414"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      消息头的长度固定为4个字节
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Ver" ID="ID_540020961" CREATED="1621586940355" MODIFIED="1621587511916"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2bit
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      版本信息，当前是必须写0x01。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="T" ID="ID_624379576" CREATED="1621586944251" MODIFIED="1621587532368"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2bit
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      消息类型，包括 CON, NON. ACK, RST这4种.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="TKL" ID="ID_1564323256" CREATED="1621586948729" MODIFIED="1621587546789"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4bit
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      token长度， 当前支持0~8B长度，其他长度保留将来扩展用
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Code" ID="ID_1689852193" CREATED="1621586953581" MODIFIED="1621586955079">
+<node TEXT="前3bit" ID="ID_875830033" CREATED="1621587550028" MODIFIED="1621587556145"/>
+<node TEXT="后5bit" ID="ID_743861403" CREATED="1621587556372" MODIFIED="1621587561291"/>
+</node>
+</node>
+<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621586822946"/>
+<node TEXT="option" ID="ID_1690120717" CREATED="1621586823555" MODIFIED="1621586825347"/>
+<node TEXT="payload" ID="ID_783815467" CREATED="1621586926536" MODIFIED="1621586928617"/>
+</node>
+</node>
+<node TEXT="CoAP的安全性-DTLS" ID="ID_976873526" CREATED="1621584923140" MODIFIED="1621586094949"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      COAP的安全性是用DTLS加密实现的。
+    </p>
+    <p>
+      DTLS仅仅在单播情况下适用。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node TEXT="LWM2M" ID="ID_1010736435" CREATED="1608122529853" MODIFIED="1608122535111"/>
 </node>
 <node TEXT="传输层" ID="ID_397823946" CREATED="1608122502782" MODIFIED="1608122505631">
@@ -137,8 +344,7 @@
       蓝牙技术的出现是信息技术不断进步的结果，现在我们处在全球物联网快速发展的节点上，设备与设备，人与设备等都有时刻保持联网的需求，蓝牙技术为万物互联提供了一种非常高性价比的解决方案。倘若蓝牙技术在物联网领域的应用一旦铺开，那么依靠其巨大的出货量（低成本）与兼容性（连接手机），凭借其在产品生态系统上的优势，在不远的未来应该有一席之地
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Zigbee" ID="ID_1634652426" CREATED="1608122623085" MODIFIED="1621232787191"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -589,6 +795,10 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="IoT操作系统" POSITION="right" ID="ID_302717435" CREATED="1621574597805" MODIFIED="1621574602513">
+<edge COLOR="#00ffff"/>
+<node TEXT="分析总结各种OS的一篇网文" ID="ID_360761712" CREATED="1621574607656" MODIFIED="1621574626625" LINK="https://www.eet-china.com/news/202105180818.html"/>
 </node>
 <node TEXT="Patent Idea" POSITION="left" ID="ID_1570999189" CREATED="1608533820021" MODIFIED="1608533853562">
 <edge COLOR="#0000ff"/>
