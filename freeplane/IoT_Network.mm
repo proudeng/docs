@@ -3,7 +3,7 @@
 <node TEXT="IoT_Network" FOLDED="false" ID="ID_437009040" CREATED="1608122447965" MODIFIED="1608122458369" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -80,6 +80,19 @@
 <node TEXT="支持可靠传输" ID="ID_1202375529" CREATED="1621585451734" MODIFIED="1621585457335"/>
 <node TEXT="支持IP多播" ID="ID_1173943607" CREATED="1621585464488" MODIFIED="1621585467789"/>
 <node TEXT="非长连接通信" ID="ID_195616563" CREATED="1621585637103" MODIFIED="1621585641945"/>
+<node TEXT="双向通信" ID="ID_1425126776" CREATED="1621613121895" MODIFIED="1621613178304"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      跟HTPP协议不同，CoAP协议是一个双向的通信协议，client可以向server发送请求，同时server也能够对等的向client发起请求。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="CoAP协议消息类型" ID="ID_524070887" CREATED="1621584889536" MODIFIED="1621584897281">
 <node TEXT="CON" ID="ID_590809532" CREATED="1621585669952" MODIFIED="1621585733985"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -92,8 +105,7 @@
       需要被确认的请求，如果CON请求被发送，那么对方必须做出响应。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="NON" ID="ID_2682534" CREATED="1621585672499" MODIFIED="1621585739511"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -105,8 +117,7 @@
       不需要被确认的请求，如果NON请求被发送，那么对方不必做出回应。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="ACK" ID="ID_1606400876" CREATED="1621585686729" MODIFIED="1621585761992"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -118,8 +129,7 @@
       应答消息，对应的是CON消息的应答。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="RST" ID="ID_657253526" CREATED="1621585692583" MODIFIED="1621585765146"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -131,8 +141,7 @@
       复位消息，可靠传输时候接收的消息不认识或错误时，不能回ACK消息，必须回RST消息。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="CoAP协议消息格式" ID="ID_691085430" CREATED="1621584912297" MODIFIED="1621584918446">
@@ -146,8 +155,7 @@
       CoAP的URL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="端口" ID="ID_789018738" CREATED="1621585971138" MODIFIED="1621586004986"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -159,8 +167,7 @@
       默认端口是UDP&nbsp;5683
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="格式" ID="ID_1718107008" CREATED="1621585974248" MODIFIED="1621585975844">
 <node TEXT="消息头" ID="ID_1268351456" CREATED="1621586764364" MODIFIED="1621587459414"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -173,8 +180,7 @@
       消息头的长度固定为4个字节
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Ver" ID="ID_540020961" CREATED="1621586940355" MODIFIED="1621587511916"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
@@ -185,8 +191,7 @@
       2bit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -197,8 +202,7 @@
       版本信息，当前是必须写0x01。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="T" ID="ID_624379576" CREATED="1621586944251" MODIFIED="1621587532368"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -210,8 +214,7 @@
       2bit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -222,8 +225,7 @@
       消息类型，包括 CON, NON. ACK, RST这4种.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="TKL" ID="ID_1564323256" CREATED="1621586948729" MODIFIED="1621587546789"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -235,8 +237,7 @@
       4bit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -247,17 +248,155 @@
       token长度， 当前支持0~8B长度，其他长度保留将来扩展用
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Code" ID="ID_1689852193" CREATED="1621586953581" MODIFIED="1621586955079">
 <node TEXT="前3bit" ID="ID_875830033" CREATED="1621587550028" MODIFIED="1621587556145"/>
 <node TEXT="后5bit" ID="ID_743861403" CREATED="1621587556372" MODIFIED="1621587561291"/>
 </node>
+<node TEXT="Message ID" ID="ID_1144566313" CREATED="1621612722719" MODIFIED="1621612730288"/>
 </node>
-<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621586822946"/>
-<node TEXT="option" ID="ID_1690120717" CREATED="1621586823555" MODIFIED="1621586825347"/>
+<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621612704074"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">也叫做请求ID。把响应与之前的请求关联起来。有时候客户端发送出请求带上token，服务器端有时不能立即响应， 当服务器端准备好数据后，会单独发送一个消息给客户端， 这时候客户端需要判断这个消息是针对之前的哪个请求回复的，token用途就在这里，通过token，客户端收到响应后，取出TOKEN，就可以知道该响应是针对之前哪个请求回复的</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="option" ID="ID_1690120717" CREATED="1621586823555" MODIFIED="1621613121397"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      只要看看有哪些option就知道
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Uri-Host" ID="ID_600005403" CREATED="1621613324972" MODIFIED="1621613385106"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      访问的服务器主机的名称，也就是地址，<span charset="UTF-8" style="color: rgb(51, 51, 51); font-family: PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); text-decoration: none; display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">如californium.eclipse.org</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Uri-Port" ID="ID_1996258085" CREATED="1621613333317" MODIFIED="1621613410093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      服务器端口号，默认是5863
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Uri-Path" ID="ID_45248145" CREATED="1621613339158" MODIFIED="1621613456739"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      访问的资源路径，比如<span style="color: rgb(51, 51, 51); font-family: PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); text-decoration: none; display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">\temperature</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Uri-Query" ID="ID_126618580" CREATED="1621613344477" MODIFIED="1621613616929"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      访问资源的参数，比如?v=1&amp;t=2
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="payload" ID="ID_783815467" CREATED="1621586926536" MODIFIED="1621586928617"/>
+</node>
+</node>
+<node TEXT="块传输" ID="ID_1722168776" CREATED="1621614524625" MODIFIED="1621614528634"/>
+<node TEXT="订阅与发布" ID="ID_1427326273" CREATED="1621613617324" MODIFIED="1621614463726"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MQTT协议是基于订阅与发布模型的， 在CoAP中，也简单的实现了一个订阅与发布模型。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="登记" ID="ID_1231091375" CREATED="1621614271458" MODIFIED="1621614336660"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      client首先登记自己想要订阅的资源
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Observe Option" ID="ID_1335314489" CREATED="1621613828971" MODIFIED="1621614268868"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在client发送给server的GET请求消息里面，加了一个observe选项：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">oberser value 为 0： 代表向CoAP服务器端订阅一个主题。&nbsp;<br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/>oberser value 为 1： 代表向CoAP服务器端移除一个已订阅主题。 </font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="通知" ID="ID_1530648293" CREATED="1621614275027" MODIFIED="1621614458193"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      当client关心的资源达到了通知的条件时，server端就会主动的通知client
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="CoAP的安全性-DTLS" ID="ID_976873526" CREATED="1621584923140" MODIFIED="1621586094949"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -273,8 +412,7 @@
       DTLS仅仅在单播情况下适用。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
