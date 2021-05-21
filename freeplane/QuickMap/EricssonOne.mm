@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" .addon.mm="file"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" .addon.mm="file" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -92,7 +92,15 @@
       BootCamp
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node TEXT="BootCamp1" POSITION="right" ID="ID_1509712848" CREATED="1621477244841" MODIFIED="1621477251441">
+<node TEXT="Team Canvas" ID="ID_798133983" CREATED="1621477643581" MODIFIED="1621478029499" LINK="../../attachment/EricssonOne/TeamCanvas.pdf"/>
+<node TEXT="Problem Statement" ID="ID_720829309" CREATED="1621477673150" MODIFIED="1621478056176" LINK="../../attachment/EricssonOne/ProblemStatement.pdf"/>
+<node TEXT="Problem Solution" ID="ID_1064186013" CREATED="1621477682613" MODIFIED="1621478068483" LINK="../../attachment/EricssonOne/ProblemSolution.pptx"/>
+<node TEXT="How might We" ID="ID_1552008388" CREATED="1621477695094" MODIFIED="1621478076742" LINK="../../attachment/EricssonOne/HowMightWe.pdf"/>
+<node TEXT="Assumption" ID="ID_678279452" CREATED="1621477705959" MODIFIED="1621478087467" LINK="../../attachment/EricssonOne/Assumptions.docx"/>
+<node TEXT="Value Proposition Canvas" ID="ID_1401999056" CREATED="1621477716006" MODIFIED="1621478097937" LINK="../../attachment/EricssonOne/ValuePropositionCanvas.pdf"/>
+<node TEXT="Jobs to be Done" ID="ID_1711332753" CREATED="1621479156571" MODIFIED="1621479173738" LINK="../../attachment/EricssonOne/JobsToBeDone.docx"/>
+</node>
 </node>
 </map>

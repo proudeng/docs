@@ -544,8 +544,7 @@
       PUBCOMP消息是服务器对来自发布端的PUBREL消息的响应，或订阅者对来自服务器的PUBREL消息的响应。 它是QoS 2协议流程中的第四个也是最后一个消息。当发布端收到PUBCOMP消息时，它会丢弃原始消息，因为它已经将消息发给了服务器。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1818,8 +1817,7 @@
       其他的跟broker的交互工作都可以直接的调用MQTT库的接口来完成。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="流程" ID="ID_16500976" CREATED="1592883405632" MODIFIED="1592883579561">
 <node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1621321703787">
 <icon BUILTIN="full-1"/>
@@ -1836,8 +1834,7 @@
       然后调用Zephyr提供的MQTT库函数<b><font color="#008000">client_init()</font></b>函数
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="连接MQTT Broker" ID="ID_1755692985" CREATED="1592883870663" MODIFIED="1592884827514">
 <icon BUILTIN="full-2"/>
@@ -2608,6 +2605,7 @@
 </node>
 </node>
 </node>
+<node TEXT="CoAP_Client" ID="ID_1504595680" CREATED="1621480733661" MODIFIED="1621480739592"/>
 </node>
 <node TEXT="Drivers" ID="ID_1205682786" CREATED="1591594418208" MODIFIED="1591594420274">
 <node TEXT="nrfx" ID="ID_758059516" CREATED="1591597029535" MODIFIED="1591597106733"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
