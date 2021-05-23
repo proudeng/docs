@@ -3,7 +3,7 @@
 <node TEXT="IoT_Network" FOLDED="false" ID="ID_437009040" CREATED="1608122447965" MODIFIED="1608122458369" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icon_for_attributes="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -90,8 +90,7 @@
       跟HTPP协议不同，CoAP协议是一个双向的通信协议，client可以向server发送请求，同时server也能够对等的向client发起请求。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="CoAP协议消息类型" ID="ID_524070887" CREATED="1621584889536" MODIFIED="1621584897281">
@@ -254,16 +253,37 @@
 <node TEXT="前3bit" ID="ID_875830033" CREATED="1621587550028" MODIFIED="1621587556145"/>
 <node TEXT="后5bit" ID="ID_743861403" CREATED="1621587556372" MODIFIED="1621587561291"/>
 </node>
-<node TEXT="Message ID" ID="ID_1144566313" CREATED="1621612722719" MODIFIED="1621612730288"/>
-</node>
-<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621612704074"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Message ID" ID="ID_1144566313" CREATED="1621612722719" MODIFIED="1621783481431"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">也叫做请求ID。把响应与之前的请求关联起来。有时候客户端发送出请求带上token，服务器端有时不能立即响应， 当服务器端准备好数据后，会单独发送一个消息给客户端， 这时候客户端需要判断这个消息是针对之前的哪个请求回复的，token用途就在这里，通过token，客户端收到响应后，取出TOKEN，就可以知道该响应是针对之前哪个请求回复的</font>
+      在CON类型的消息交互中，ACK中携带的消息id也需要和CON中的消息Id一样。这样确保了一个ACK消息是某一个特定的CON消息的回应。
+    </p>
+    <p>
+      Message Id一般是顺次增加的，
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621783588619"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">其实感觉上token的作用跟message id的作用是类似的。 </font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">token是 一个可选项。因为一般message id的生成是依次加一，所以这个简单的规则容易被第三方的恶意使用者利用，所以可以选择使用额外的token来加强一下。 </font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">把响应与之前的请求关联起来。有时候客户端发送出请求带上token，服务器端有时不能立即响应， 当服务器端准备好数据后，会单独发送一个消息给客户端， 这时候客户端需要判断这个消息是针对之前的哪个请求回复的，token用途就在这里，通过token，客户端收到响应后，取出TOKEN，就可以知道该响应是针对之前哪个请求回复的</font>
     </p>
   </body>
 </html>
@@ -279,16 +299,15 @@
       只要看看有哪些option就知道
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Uri-Host" ID="ID_600005403" CREATED="1621613324972" MODIFIED="1621613385106"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html></richcontent>
+<node TEXT="Uri-Host" ID="ID_600005403" CREATED="1621613324972" MODIFIED="1621781341364"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      访问的服务器主机的名称，也就是地址，<span charset="UTF-8" style="color: rgb(51, 51, 51); font-family: PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); text-decoration: none; display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">如californium.eclipse.org</font></span>
+      访问的服务器主机的名称，也就是地址，<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">如californium.eclipse.org</font>
     </p>
   </body>
 </html>
@@ -304,17 +323,16 @@
       服务器端口号，默认是5863
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Uri-Path" ID="ID_45248145" CREATED="1621613339158" MODIFIED="1621613456739"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Uri-Path" ID="ID_45248145" CREATED="1621613339158" MODIFIED="1621781339093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      访问的资源路径，比如<span style="color: rgb(51, 51, 51); font-family: PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); text-decoration: none; display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">\temperature</font></span>
+      访问的资源路径，比如<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">\temperature</font>
     </p>
   </body>
 </html>
@@ -330,8 +348,7 @@
       访问资源的参数，比如?v=1&amp;t=2
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="payload" ID="ID_783815467" CREATED="1621586926536" MODIFIED="1621586928617"/>
@@ -348,8 +365,7 @@
       MQTT协议是基于订阅与发布模型的， 在CoAP中，也简单的实现了一个订阅与发布模型。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="登记" ID="ID_1231091375" CREATED="1621614271458" MODIFIED="1621614336660"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -360,9 +376,8 @@
       client首先登记自己想要订阅的资源
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Observe Option" ID="ID_1335314489" CREATED="1621613828971" MODIFIED="1621614268868"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html></richcontent>
+<node TEXT="Observe Option" ID="ID_1335314489" CREATED="1621613828971" MODIFIED="1621781357336"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -376,9 +391,6 @@
     </p>
     <p>
       <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">oberser value 为 0： 代表向CoAP服务器端订阅一个主题。&nbsp;<br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/>oberser value 为 1： 代表向CoAP服务器端移除一个已订阅主题。 </font>
-    </p>
-    <p>
-      
     </p>
   </body>
 </html>
@@ -395,8 +407,7 @@
       当client关心的资源达到了通知的条件时，server端就会主动的通知client
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="CoAP的安全性-DTLS" ID="ID_976873526" CREATED="1621584923140" MODIFIED="1621586094949"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
