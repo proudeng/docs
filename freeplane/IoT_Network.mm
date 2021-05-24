@@ -73,7 +73,30 @@
 <node TEXT="CoAP" ID="ID_1637354092" CREATED="1608122520502" MODIFIED="1608122524968">
 <node TEXT="CoAP简介" ID="ID_1971423094" CREATED="1621584930130" MODIFIED="1621584934679">
 <node TEXT="CoAP协议特点" ID="ID_1209389868" CREATED="1621584853554" MODIFIED="1621584874020">
-<node TEXT="网络传输层基于UDP" ID="ID_805521750" CREATED="1621585064396" MODIFIED="1621585072928"/>
+<node TEXT="网络传输层基于UDP" ID="ID_805521750" CREATED="1621585064396" MODIFIED="1621841230425">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      所以实际上CoAP协议本身是一个帧结构。
+    </p>
+    <p>
+      在下层，是使用<b><font color="#ff0000">IP协议和UDP协议</font></b>负责把CoAP协议帧在client和server之间传递。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="交互方式是REST结构" ID="ID_1251903919" CREATED="1621585088231" MODIFIED="1621585284943"/>
 <node TEXT="消息是二进制格式的" ID="ID_210828291" CREATED="1621585098556" MODIFIED="1621585270359"/>
 <node TEXT="消息是轻量化的" ID="ID_474035029" CREATED="1621585247867" MODIFIED="1621585262616"/>
@@ -266,16 +289,24 @@
       Message Id一般是顺次增加的，
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621783588619"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621853895245"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
+    <p>
+      
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">下面的描述其实并不准确，Message Id和Token一起使用的场景并非下面所描述的这样。 </font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">---------------------------- </font>
+    </p>
     <p>
       <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">其实感觉上token的作用跟message id的作用是类似的。 </font>
     </p>
@@ -310,8 +341,7 @@
       访问的服务器主机的名称，也就是地址，<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">如californium.eclipse.org</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Uri-Port" ID="ID_1996258085" CREATED="1621613333317" MODIFIED="1621613410093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -325,14 +355,14 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Uri-Path" ID="ID_45248145" CREATED="1621613339158" MODIFIED="1621781339093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Uri-Path" ID="ID_45248145" CREATED="1621613339158" MODIFIED="1621827927571"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      访问的资源路径，比如<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">\temperature</font>
+      访问的资源路径，比如<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">\temperature</font>
     </p>
   </body>
 </html>
@@ -377,7 +407,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Observe Option" ID="ID_1335314489" CREATED="1621613828971" MODIFIED="1621781357336"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Observe Option" ID="ID_1335314489" CREATED="1621613828971" MODIFIED="1621827925483"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -424,6 +454,129 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node TEXT="CoAP的消息交互" ID="ID_1363157618" CREATED="1621853565904" MODIFIED="1621853678043" LINK="https://blog.csdn.net/O4dC8OjO7ZL6/article/details/79454964"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      参考链接指向的页面，这是一个非常好的介绍COAP客户端和Server端是如何建立起连接，进行资源发现，获取资源信息，进行订阅操作这些过程的。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="客户端发现服务端资源" ID="ID_1011085714" CREATED="1621827767537" MODIFIED="1621841504099"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun">物联网终端设备通常无法人为操作，终端需要能够自动获取服务器的资源信息，查询“/.well-known/core”就是CoAP协议规定好的用于自动查询服务器所有资源路径的方式。 </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="GET /.well-known/core" ID="ID_340189348" CREATED="1621841508935" MODIFIED="1621853056650"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      客户端发现服务端的资源是通过向服务端发送一个GET消息完成中，其中：
+    </p>
+    <p>
+      Uri-Path中要填入.well-known/core这个URI，这个特定的URI就代表client要查询server上的资源清单和详情了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Uri-Path#1" ID="ID_1046337721" CREATED="1621827819835" MODIFIED="1621828003823"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun">.well-known</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Uri-Path#2" ID="ID_1182072136" CREATED="1621828005218" MODIFIED="1621828016096"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun">core</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Token和MessageId" ID="ID_506701816" CREATED="1621853897715" MODIFIED="1621863011867">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实messageid和token怎么样组合在一起工作，这个机制还是不是特别的清楚。
+    </p>
+    <p>
+      参考链接1和链接2的描述，其实两个里面的描述并不是完全的一致。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      从一些介绍来看，messageId的作用是用于检测重复的消息，而token是用于标明session信息的，同一个session中的消息都是使用同样的token
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="参考链接" ID="ID_756679908" CREATED="1621856573081" MODIFIED="1621862723481"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      子节点列出来的几个参考链接里面的内容还是很不错的。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_542039440" CREATED="1621856583881" MODIFIED="1621856642321" LINK="https://blog.csdn.net/O4dC8OjO7ZL6/article/details/79454964"/>
+<node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_1472983270" CREATED="1621856585209" MODIFIED="1621856598640" LINK="https://blog.csdn.net/llb19900510/article/details/107913255"/>
+<node TEXT="3" OBJECT="java.lang.Long|3" ID="ID_1622941733" CREATED="1621859222914" MODIFIED="1621859248214" LINK="https://blog.csdn.net/u010386121/article/details/106291929"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个链接中也描述了CoAP交互的流程
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>

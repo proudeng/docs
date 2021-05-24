@@ -1819,7 +1819,7 @@
   </body>
 </html></richcontent>
 <node TEXT="流程" ID="ID_16500976" CREATED="1592883405632" MODIFIED="1592883579561">
-<node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1621321703787">
+<node TEXT="初始化MQTT client" ID="ID_1124107053" CREATED="1592883581775" MODIFIED="1621840861536">
 <icon BUILTIN="full-1"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1834,7 +1834,8 @@
       然后调用Zephyr提供的MQTT库函数<b><font color="#008000">client_init()</font></b>函数
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="连接MQTT Broker" ID="ID_1755692985" CREATED="1592883870663" MODIFIED="1592884827514">
 <icon BUILTIN="full-2"/>
