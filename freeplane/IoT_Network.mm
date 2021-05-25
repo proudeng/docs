@@ -94,8 +94,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="交互方式是REST结构" ID="ID_1251903919" CREATED="1621585088231" MODIFIED="1621585284943"/>
 <node TEXT="消息是二进制格式的" ID="ID_210828291" CREATED="1621585098556" MODIFIED="1621585270359"/>
@@ -116,7 +115,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="CoAP协议消息类型" ID="ID_524070887" CREATED="1621584889536" MODIFIED="1621584897281">
+<node TEXT="CoAP协议消息报文类型" ID="ID_524070887" CREATED="1621584889536" MODIFIED="1621925706369">
 <node TEXT="CON" ID="ID_590809532" CREATED="1621585669952" MODIFIED="1621585733985"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -317,8 +316,7 @@
       <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">把响应与之前的请求关联起来。有时候客户端发送出请求带上token，服务器端有时不能立即响应， 当服务器端准备好数据后，会单独发送一个消息给客户端， 这时候客户端需要判断这个消息是针对之前的哪个请求回复的，token用途就在这里，通过token，客户端收到响应后，取出TOKEN，就可以知道该响应是针对之前哪个请求回复的</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="option" ID="ID_1690120717" CREATED="1621586823555" MODIFIED="1621613121397"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -365,8 +363,7 @@
       访问的资源路径，比如<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">\temperature</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Uri-Query" ID="ID_126618580" CREATED="1621613344477" MODIFIED="1621613616929"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -381,7 +378,15 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="payload" ID="ID_783815467" CREATED="1621586926536" MODIFIED="1621586928617"/>
+<node TEXT="payload" ID="ID_783815467" CREATED="1621586926536" MODIFIED="1621586928617">
+<node TEXT="类型" ID="ID_257241133" CREATED="1621925424810" MODIFIED="1621925427341">
+<node TEXT="文本类型" ID="ID_482303549" CREATED="1621925428242" MODIFIED="1621925430373"/>
+<node TEXT="二进制类型" ID="ID_1167960035" CREATED="1621925435035" MODIFIED="1621925437973"/>
+<node TEXT="XML类型" ID="ID_1006610072" CREATED="1621925440138" MODIFIED="1621925442709"/>
+<node TEXT="JSON类型" ID="ID_1207932491" CREATED="1621925444498" MODIFIED="1621925447636"/>
+<node TEXT="CBOR类型" ID="ID_277128261" CREATED="1621925452482" MODIFIED="1621925455061"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="块传输" ID="ID_1722168776" CREATED="1621614524625" MODIFIED="1621614528634"/>
@@ -423,8 +428,7 @@
       <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">oberser value 为 0： 代表向CoAP服务器端订阅一个主题。&nbsp;<br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/>oberser value 为 1： 代表向CoAP服务器端移除一个已订阅主题。 </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="通知" ID="ID_1530648293" CREATED="1621614275027" MODIFIED="1621614458193"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -466,9 +470,8 @@
       参考链接指向的页面，这是一个非常好的介绍COAP客户端和Server端是如何建立起连接，进行资源发现，获取资源信息，进行订阅操作这些过程的。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="客户端发现服务端资源" ID="ID_1011085714" CREATED="1621827767537" MODIFIED="1621841504099"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html></richcontent>
+<node TEXT="客户端发现服务端资源" ID="ID_1011085714" CREATED="1621827767537" MODIFIED="1621925792206"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -493,8 +496,7 @@
       Uri-Path中要填入.well-known/core这个URI，这个特定的URI就代表client要查询server上的资源清单和详情了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Uri-Path#1" ID="ID_1046337721" CREATED="1621827819835" MODIFIED="1621828003823"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -505,8 +507,7 @@
       <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun">.well-known</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Uri-Path#2" ID="ID_1182072136" CREATED="1621828005218" MODIFIED="1621828016096"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -518,8 +519,7 @@
       <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun">core</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -547,8 +547,24 @@
       
     </p>
   </body>
+</html></richcontent>
+<node TEXT="Token的分离模式和携带模式" ID="ID_1145864903" CREATED="1621924350144" MODIFIED="1621924571374"/>
+<node TEXT="MessageId" ID="ID_1782538654" CREATED="1621924573488" MODIFIED="1621924724233"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用messageId是因为传输层使用UDP，UDP不能够保证消息的传送是顺序到达的，所以需要MessageId来表明是哪个消息。
+    </p>
+    <p>
+      同时，要求ACK消息的MessageId需要跟CON消息中携带的MessageId一样。
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 <node TEXT="参考链接" ID="ID_756679908" CREATED="1621856573081" MODIFIED="1621862723481"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -560,8 +576,7 @@
       子节点列出来的几个参考链接里面的内容还是很不错的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_542039440" CREATED="1621856583881" MODIFIED="1621856642321" LINK="https://blog.csdn.net/O4dC8OjO7ZL6/article/details/79454964"/>
 <node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_1472983270" CREATED="1621856585209" MODIFIED="1621856598640" LINK="https://blog.csdn.net/llb19900510/article/details/107913255"/>
 <node TEXT="3" OBJECT="java.lang.Long|3" ID="ID_1622941733" CREATED="1621859222914" MODIFIED="1621859248214" LINK="https://blog.csdn.net/u010386121/article/details/106291929"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -574,9 +589,166 @@
       这个链接中也描述了CoAP交互的流程
     </p>
   </body>
+</html></richcontent>
+</node>
+<node TEXT="4" OBJECT="java.lang.Long|4" ID="ID_1181623521" CREATED="1621929510249" MODIFIED="1621929515005" LINK="https://blog.csdn.net/WifeJ/article/details/114252920"/>
+</node>
+</node>
+<node TEXT="请求响应模式" ID="ID_685526279" CREATED="1621925798037" MODIFIED="1621926662917"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      响应模式决定了如何在CoAP消息中使用MessageId和Token值。
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="携带模式" ID="ID_1575255647" CREATED="1621925806389" MODIFIED="1621927306833"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      携带模式中，Token和MessageId作用几乎一样，表示消息的id。所以在这个模式下，一般token这个可选的选项就不会被使用。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      发送端发送一个CON消息之后，对端直接回一个ACK消息，使用两条消息结束这次交互过程。
+    </p>
+    <p>
+      在CON消息和ACK消息中，MessageId和Token值都要保持不变。
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+<node TEXT="分离模式" ID="ID_1913325392" CREATED="1621925812141" MODIFIED="1621927580665"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      分离模式中，使用四条消息来完成一次消息的交互。
+    </p>
+    <p>
+      首先发送端发送一个CON消息，然后对端回一个ACK消息。只是ACK中不包含实际的返回数据。
+    </p>
+    <p>
+      然后对端再发送一个CON消息携带实际的返回数据，发送端回复一个ACK消息。
+    </p>
+    <p>
+      使用这样的四条消息完成这一轮的消息交互。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在这四条消息中，Token的值需要保持不变。但是MessageId的值，前两条消息中的MessageId的值是一样的，后两条消息中的MessageId也是一样的，但是前后消息中的MessageId是不一样的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以在这种响应模式下，
+    </p>
+    <p>
+      MessageId起的作用是用于标识消息，使其能够顺序接收的。
+    </p>
+    <p>
+      Token是用于标识Session的。将四个消息交互的这个流程看作一个session，在这个session中Token保持不变。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="非确认模式" ID="ID_889231022" CREATED="1621925817189" MODIFIED="1621925819551"/>
+</node>
+<node TEXT="CoAP重传机制" ID="ID_1571096765" CREATED="1621925825917" MODIFIED="1621928490928"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实MessageId的作用就体现在这里。在请求丢失或者响应丢失的时候，发送端会重传消息，那么重传消息中的MessageId不能发生变化。
+    </p>
+    <p>
+      这样的话，不管是请求丢失还是响应丢失，都不会对最终的接收造成问题。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CoAP请求丢失" ID="ID_1330646578" CREATED="1621927750255" MODIFIED="1621928677737"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      超时之后，发送端会重新发送一条请求消息。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      作为发送端来说，发送了两条请求消息，但是接收了一条响应消息。
+    </p>
+    <p>
+      作为接收端来说，只收到一条请求，并且针对请求进行了响应。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所有的三条消息中的MessageId都是相同的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="CoAP响应丢失" ID="ID_332716071" CREATED="1621927755008" MODIFIED="1621928655448"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      超时之后，发送端会重新发送一条请求消息。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      针对发送端来说，发送了两条请求消息，但是只接收了一条响应消息。
+    </p>
+    <p>
+      针对接收端来说，接收了两条请求消息，同时也响应了两条消息。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所有的四条消息中的MessageId都是一样的。
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

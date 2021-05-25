@@ -7247,7 +7247,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
 </html></richcontent>
 </node>
 </node>
-<node TEXT="Systemd系统" ID="ID_896553454" CREATED="1617696496761" MODIFIED="1621576540964"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Systemd系统" ID="ID_896553454" CREATED="1617696496761" MODIFIED="1621917524188"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7290,7 +7290,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       如果需要启用某一个service的话，只要使用systemctl enable some_service 就可以将这个some_service设置为开机自启动过了，然后系统会自动的从<b><font color="#ff0000">/lib/systemd</font></b>目录下面将相应的服务的配置文件拷贝到<b><font color="#ff0000">/etc/systemd/</font></b>目录下面去。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="frpc服务" ID="ID_727676541" CREATED="1617696686441" MODIFIED="1620747511248"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -7309,7 +7310,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
   </body>
 </html></richcontent>
 </node>
-<node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1621576345137"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="ss-local服务" ID="ID_1326141387" CREATED="1617696590794" MODIFIED="1621917529423"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7352,7 +7353,8 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       ExecStart=/usr/bin/ss-local -c /etc/shadowsocks-libev/<font color="#ff0000">%i.json&nbsp; </font>--&gt; &nbsp;ExecStart=/usr/bin/ss-local -c /etc/shadowsocks-libev/<font color="#ff0000">config.json</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="frps服务" ID="ID_1687455863" CREATED="1617696693585" MODIFIED="1617699879126"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -7934,8 +7936,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       外部管理设备和树莓派之间使用MQTT协议联系起来。MQTT的使用方式是，外部管理设备和树莓派都作为MQTT的客户端，分别连接到MQTT Broker上，通过Broker转发消息。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="树莓派" ID="ID_197341363" CREATED="1621412804848" MODIFIED="1621413813173">
 <arrowlink DESTINATION="ID_1359210930"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -8063,8 +8064,7 @@ dnsmasq --no-poll --pid-file --interface=rndis0 --interface=wlan0 --interface=rm
       <b><i><font color="#008000">/home/proudeng/bish-bosh/bish-bosh --verbose 2 -- /tmp/home_management &amp;</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="home_management" ID="ID_1695617361" CREATED="1621475873131" MODIFIED="1621840871057"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -8140,8 +8140,7 @@ bishbosh_connection_handler_noControlPacketsRead()
 }</pre>
     <!--Created using ToHtml.com on 2021-05-20 02:02:28 UTC -->
     </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="bish-bosh" ID="ID_1517038744" CREATED="1621414295116" MODIFIED="1621414323325" LINK="https://github.com/raphaelcohn/bish-bosh"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -9037,9 +9036,9 @@ bishbosh_connection_handler_noControlPacketsRead()
 </node>
 </node>
 <node TEXT="CentOS定制开机启动的服务器选项" FOLDED="true" ID="ID_372861030" CREATED="1329209789739" MODIFIED="1329282748990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="99 pt;0 pt;" ENDINCLINATION="99 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="21 pt;0 pt;" ENDINCLINATION="21 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_306451867" STARTINCLINATION="75.75 pt;0 pt;" ENDINCLINATION="75.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_520374022" STARTINCLINATION="21 pt;0 pt;" ENDINCLINATION="21 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1154780491" STARTINCLINATION="99 pt;0 pt;" ENDINCLINATION="99 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
