@@ -316,8 +316,7 @@
       <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">把响应与之前的请求关联起来。有时候客户端发送出请求带上token，服务器端有时不能立即响应， 当服务器端准备好数据后，会单独发送一个消息给客户端， 这时候客户端需要判断这个消息是针对之前的哪个请求回复的，token用途就在这里，通过token，客户端收到响应后，取出TOKEN，就可以知道该响应是针对之前哪个请求回复的</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="option" ID="ID_1690120717" CREATED="1621586823555" MODIFIED="1621613121397"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -340,8 +339,7 @@
       访问的服务器主机的名称，也就是地址，<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">如californium.eclipse.org</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Uri-Port" ID="ID_1996258085" CREATED="1621613333317" MODIFIED="1621613410093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -483,8 +481,7 @@
       <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun">物联网终端设备通常无法人为操作，终端需要能够自动获取服务器的资源信息，查询“/.well-known/core”就是CoAP协议规定好的用于自动查询服务器所有资源路径的方式。 </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="GET /.well-known/core" ID="ID_340189348" CREATED="1621841508935" MODIFIED="1621853056650"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -766,20 +763,177 @@
       后一种方法可能在实际的开发中，使用的比较多而且工作量会减少很多。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="接入中国移动OneNet" ID="ID_1998618170" CREATED="1622298691039" MODIFIED="1622298902617"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html></richcontent>
+<node TEXT="接入中国移动OneNet" ID="ID_1998618170" CREATED="1622298691039" MODIFIED="1622350785967" LINK="https://open.iot.10086.cn/doc/iot_platform/book/device-connect&amp;manager/CoAP/CoAP-connect.html#coap%E8%AE%BE%E5%A4%87%E8%BF%9E%E6%8E%A5"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      为了简化开发工作量，尝试接入中国移动Onenet平台
+      为了简化开发工作量，尝试接入中国移动Onenet平台。
     </p>
   </body>
 </html>
 </richcontent>
+<node TEXT="特点" ID="ID_338843369" CREATED="1622350789690" MODIFIED="1622350895577"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OneNet的特点是开发模型比较的直接和简单。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      OneNet上的CoAP看起来是不支持资源发现功能的。接入设备上的资源和资源的属性(比如资源的名称，资源的取值类型，资源的取值范围等等)必须在onenet的管理页面上定义好。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="疑问" ID="ID_1311580746" CREATED="1622352541826" MODIFIED="1622354335286"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      从接口的api上看，似乎是需要保活的。
+    </p>
+    <p>
+      那么如果不按照要求定期的发送保活的报文，结果会怎么样呢？
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="接入流程" ID="ID_1460362558" CREATED="1622350900259" MODIFIED="1622352540476"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      相对来说，使用onenote的coap接口接入，其实是比较简单和容易操作的。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      我觉得
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="web页面定义设备和设备资源" ID="ID_1633275994" CREATED="1622350904395" MODIFIED="1622351797251">
+<icon BUILTIN="full-1"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在onenote管理页面创建设备和设备的属性。在创建完成之后会获得设备的一些唯一的ID信息。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      后面在设备上使用coap协议登录平台的时候，带上这些id信息就能够标识特定的设备了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="设备登录平台" ID="ID_442610897" CREATED="1622350922709" MODIFIED="1622351809019">
+<icon BUILTIN="full-2"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用一个topic就可以完成设备到onenet平台的登录了。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      只要登录
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622350953501"/>
+</node>
+<node TEXT="设备和平台间交互" ID="ID_1857404491" CREATED="1622351812967" MODIFIED="1622351833695">
+<icon BUILTIN="full-3"/>
+<node TEXT="上行" ID="ID_1336463283" CREATED="1622351819033" MODIFIED="1622351982464"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备主动发起的CoAP消息
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="属性类" ID="ID_309398198" CREATED="1622351886657" MODIFIED="1622351888895">
+<node TEXT="属性上报" ID="ID_1659811686" CREATED="1622351845232" MODIFIED="1622351848024">
+<node TEXT="$sys/{pid}/{device-name}/thing/property/post" ID="ID_543876343" CREATED="1622352212309" MODIFIED="1622352214091"/>
+</node>
+<node TEXT="属性期望获取" ID="ID_415144348" CREATED="1622351851132" MODIFIED="1622351855898">
+<node TEXT="$sys/{pid}/{device-name}/thing/property/desired/get" ID="ID_1819953128" CREATED="1622352222975" MODIFIED="1622352224396"/>
+</node>
+<node TEXT="属性期望删除" ID="ID_189644696" CREATED="1622351857661" MODIFIED="1622351861029">
+<node TEXT="$sys/{pid}/{device-name}/thing/property/desired/delete" ID="ID_1746629226" CREATED="1622352231763" MODIFIED="1622352233136"/>
+</node>
+</node>
+<node TEXT="事件类" ID="ID_1506366138" CREATED="1622351895812" MODIFIED="1622351899828">
+<node TEXT="事件上报" ID="ID_1918860776" CREATED="1622351902548" MODIFIED="1622351904939">
+<node TEXT="$sys/{pid}/{device-name}/thing/event/post" ID="ID_1870783987" CREATED="1622352251739" MODIFIED="1622352253189"/>
+</node>
+</node>
+</node>
+<node TEXT="下行" ID="ID_190089719" CREATED="1622351821357" MODIFIED="1622351991791"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      平台主动发起的消息交互
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="属性类" ID="ID_1825831671" CREATED="1622351912203" MODIFIED="1622351914518">
+<node TEXT="属性设置" ID="ID_913944800" CREATED="1622351867987" MODIFIED="1622351870370">
+<node TEXT="$sys/{pid}/{device-name}/thing/property/set" ID="ID_456485603" CREATED="1622352442935" MODIFIED="1622352444921"/>
+</node>
+<node TEXT="属性获取" ID="ID_571584235" CREATED="1622351870596" MODIFIED="1622351873078">
+<node TEXT="$sys/{pid}/{device-name}/thing/property/get" ID="ID_601659017" CREATED="1622352453395" MODIFIED="1622352454610"/>
+</node>
+</node>
+<node TEXT="服务类" ID="ID_902624218" CREATED="1622351921042" MODIFIED="1622351925084"/>
+</node>
+<node TEXT="Keep Alive" ID="ID_1428043440" CREATED="1622352016143" MODIFIED="1622352022545">
+<node TEXT="$sys/{pid}/{device-name}/keep_alive" ID="ID_1794920774" CREATED="1622352155714" MODIFIED="1622352157249"/>
+</node>
+</node>
+<node TEXT="设备退出平台" ID="ID_431094442" CREATED="1622351946553" MODIFIED="1622351956564">
+<icon BUILTIN="full-4"/>
+<node TEXT="$sys/{pid}/{device-name}/logout" ID="ID_542032303" CREATED="1622351958999" MODIFIED="1622351960964"/>
+</node>
+</node>
 </node>
 </node>
 </node>
