@@ -165,7 +165,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="CoAP协议消息格式" ID="ID_691085430" CREATED="1621584912297" MODIFIED="1621584918446">
+<node TEXT="CoAP协议消息格式" FOLDED="true" ID="ID_691085430" CREATED="1621584912297" MODIFIED="1621584918446">
 <node TEXT="URL" ID="ID_1590304726" CREATED="1621585967075" MODIFIED="1621585993389"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -190,7 +190,7 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="格式" ID="ID_1718107008" CREATED="1621585974248" MODIFIED="1621585975844">
+<node TEXT="格式" FOLDED="true" ID="ID_1718107008" CREATED="1621585974248" MODIFIED="1621585975844">
 <node TEXT="消息头" ID="ID_1268351456" CREATED="1621586764364" MODIFIED="1621587459414"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -291,7 +291,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1621853895245"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="token" ID="ID_748640123" CREATED="1621586819651" MODIFIED="1622293981222"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -316,7 +316,8 @@
       <font color="rgb(0, 0, 0)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">把响应与之前的请求关联起来。有时候客户端发送出请求带上token，服务器端有时不能立即响应， 当服务器端准备好数据后，会单独发送一个消息给客户端， 这时候客户端需要判断这个消息是针对之前的哪个请求回复的，token用途就在这里，通过token，客户端收到响应后，取出TOKEN，就可以知道该响应是针对之前哪个请求回复的</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="option" ID="ID_1690120717" CREATED="1621586823555" MODIFIED="1621613121397"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -329,17 +330,18 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Uri-Host" ID="ID_600005403" CREATED="1621613324972" MODIFIED="1621781341364"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Uri-Host" ID="ID_600005403" CREATED="1621613324972" MODIFIED="1622293987166"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      访问的服务器主机的名称，也就是地址，<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif" size="14px">如californium.eclipse.org</font>
+      访问的服务器主机的名称，也就是地址，<font color="rgb(51, 51, 51)" face="PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif">如californium.eclipse.org</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="Uri-Port" ID="ID_1996258085" CREATED="1621613333317" MODIFIED="1621613410093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -471,7 +473,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="客户端发现服务端资源" ID="ID_1011085714" CREATED="1621827767537" MODIFIED="1621925792206"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="客户端发现服务端资源" ID="ID_1011085714" CREATED="1621827767537" MODIFIED="1622294534155"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -562,8 +564,7 @@
       同时，要求ACK消息的MessageId需要跟CON消息中携带的MessageId一样。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="参考链接" ID="ID_756679908" CREATED="1621856573081" MODIFIED="1621862723481"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -607,8 +608,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="携带模式" ID="ID_1575255647" CREATED="1621925806389" MODIFIED="1621927306833"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -628,8 +628,7 @@
       在CON消息和ACK消息中，MessageId和Token值都要保持不变。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="分离模式" ID="ID_1913325392" CREATED="1621925812141" MODIFIED="1621927580665"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -674,8 +673,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="非确认模式" ID="ID_889231022" CREATED="1621925817189" MODIFIED="1621925819551"/>
 </node>
@@ -692,8 +690,7 @@
       这样的话，不管是请求丢失还是响应丢失，都不会对最终的接收造成问题。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="CoAP请求丢失" ID="ID_1330646578" CREATED="1621927750255" MODIFIED="1621928677737"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -719,8 +716,7 @@
       所有的三条消息中的MessageId都是相同的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="CoAP响应丢失" ID="ID_332716071" CREATED="1621927755008" MODIFIED="1621928655448"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -745,6 +741,41 @@
     </p>
     <p>
       所有的四条消息中的MessageId都是一样的。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="libcoap" ID="ID_182152168" CREATED="1622294539530" MODIFIED="1622294544972"/>
+<node TEXT="CoAP开发模型" ID="ID_1463463451" CREATED="1622294300675" MODIFIED="1622299208971"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CoAP的开发，实际上涉及到server和client端的双方面的开发，一般可以同时开发client端的应用和sever端的应用。
+    </p>
+    <p>
+      不过现在有很多成熟的IoT平台，直接就支持CoAP协议。我们只要开发设备端的程序，然后按照云平台的要求接入平台即可。
+    </p>
+    <p>
+      成熟的平台已经帮我们实现了很多跟核心业务不相关的繁琐而又必须实现的功能。同时成熟的平台上也实现了图形化显示和图形化操作这样便捷的功能。
+    </p>
+    <p>
+      后一种方法可能在实际的开发中，使用的比较多而且工作量会减少很多。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="接入中国移动OneNet" ID="ID_1998618170" CREATED="1622298691039" MODIFIED="1622298902617"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      为了简化开发工作量，尝试接入中国移动Onenet平台
     </p>
   </body>
 </html>
