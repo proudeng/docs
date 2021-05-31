@@ -1834,8 +1834,7 @@
       然后调用Zephyr提供的MQTT库函数<b><font color="#008000">client_init()</font></b>函数
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="连接MQTT Broker" ID="ID_1755692985" CREATED="1592883870663" MODIFIED="1592884827514">
 <icon BUILTIN="full-2"/>
@@ -3369,6 +3368,31 @@
 </node>
 </node>
 <node TEXT="可能的系统级改进" ID="ID_197221239" CREATED="1607409703711" MODIFIED="1607409716290">
+<node TEXT="使用CoAP协议上报状态" ID="ID_1736056755" CREATED="1622446921951" MODIFIED="1622447198008"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      相对于MQTT这种基于TCP的协议，CoPA协议基于UDP实现，同时为IoT设备做了很多的轻量化的改进。
+    </p>
+    <p>
+      从系统的开销方面来看，使用CoAP协议比使用MQTT协议需要消耗的资源要少很多。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，从应用角度来说，MQTT适用的场景是那些需要通信双方能够实时交互的场景，对即时响应的要求比较的高。
+    </p>
+    <p>
+      但是在物联网设备大部分时间休眠，只是偶尔上报少量的数据这样的场景来说，使用MQTT就没有那么有必要了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="使用LWM2M协议联网" ID="ID_1284208" CREATED="1608080255035" MODIFIED="1608170345464"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>

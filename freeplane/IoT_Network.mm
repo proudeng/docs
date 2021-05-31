@@ -774,9 +774,8 @@
       为了简化开发工作量，尝试接入中国移动Onenet平台。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="特点" ID="ID_338843369" CREATED="1622350789690" MODIFIED="1622350895577"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html></richcontent>
+<node TEXT="特点" ID="ID_338843369" CREATED="1622350789690" MODIFIED="1622440787429"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -789,7 +788,7 @@
       
     </p>
     <p>
-      OneNet上的CoAP看起来是不支持资源发现功能的。接入设备上的资源和资源的属性(比如资源的名称，资源的取值类型，资源的取值范围等等)必须在onenet的管理页面上定义好。
+      OneNet上的CoAP看起来是不支持<b><font color="#00cccc">资源发现功能</font></b>的。接入设备上的资源和资源的属性(比如资源的名称，资源的取值类型，资源的取值范围等等)必须在onenet的管理页面上定义好。
     </p>
   </body>
 </html>
@@ -807,8 +806,7 @@
       那么如果不按照要求定期的发送保活的报文，结果会怎么样呢？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="接入流程" ID="ID_1460362558" CREATED="1622350900259" MODIFIED="1622352540476"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -827,8 +825,7 @@
       我觉得
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="web页面定义设备和设备资源" ID="ID_1633275994" CREATED="1622350904395" MODIFIED="1622351797251">
 <icon BUILTIN="full-1"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -847,8 +844,7 @@
       后面在设备上使用coap协议登录平台的时候，带上这些id信息就能够标识特定的设备了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="设备登录平台" ID="ID_442610897" CREATED="1622350922709" MODIFIED="1622351809019">
 <icon BUILTIN="full-2"/>
@@ -868,8 +864,7 @@
       只要登录
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622350953501"/>
 </node>
 <node TEXT="设备和平台间交互" ID="ID_1857404491" CREATED="1622351812967" MODIFIED="1622351833695">
@@ -884,8 +879,7 @@
       设备主动发起的CoAP消息
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="属性类" ID="ID_309398198" CREATED="1622351886657" MODIFIED="1622351888895">
 <node TEXT="属性上报" ID="ID_1659811686" CREATED="1622351845232" MODIFIED="1622351848024">
 <node TEXT="$sys/{pid}/{device-name}/thing/property/post" ID="ID_543876343" CREATED="1622352212309" MODIFIED="1622352214091"/>
@@ -913,8 +907,7 @@
       平台主动发起的消息交互
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="属性类" ID="ID_1825831671" CREATED="1622351912203" MODIFIED="1622351914518">
 <node TEXT="属性设置" ID="ID_913944800" CREATED="1622351867987" MODIFIED="1622351870370">
 <node TEXT="$sys/{pid}/{device-name}/thing/property/set" ID="ID_456485603" CREATED="1622352442935" MODIFIED="1622352444921"/>
