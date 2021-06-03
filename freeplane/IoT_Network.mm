@@ -743,7 +743,44 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="libcoap" ID="ID_182152168" CREATED="1622294539530" MODIFIED="1622294544972"/>
+<node TEXT="libcoap" ID="ID_182152168" CREATED="1622294539530" MODIFIED="1622705608173"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个是一个coap的实现，既可以跑在Linux上面，也可以跑在资源受限的device上面。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在linux上面，可以直接搜索libcoap的软件包安装，安装完了之后就能够得到一个可执行的命令行client端和一个可执行的命令行server端
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="debian上安装libcoap" ID="ID_565380860" CREATED="1622705636643" MODIFIED="1622705742861"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用下面的命令行安装libcoap的client和server:
+    </p>
+    <p>
+      <i><font color="#0000c0">sudo apt install libcoap-1-0 </font></i>
+    </p>
+    <p>
+      <i><font color="#0000c0">sudo apt install libcoap-1-0-bin</font></i>
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="coap-client" ID="ID_456976885" CREATED="1622705728210" MODIFIED="1622705738592"/>
+<node TEXT="coap-server" ID="ID_1295243270" CREATED="1622705738859" MODIFIED="1622705741582"/>
+</node>
+</node>
 <node TEXT="CoAP开发模型" ID="ID_1463463451" CREATED="1622294300675" MODIFIED="1622299208971"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -791,8 +828,7 @@
       OneNet上的CoAP看起来是不支持<b><font color="#00cccc">资源发现功能</font></b>的。接入设备上的资源和资源的属性(比如资源的名称，资源的取值类型，资源的取值范围等等)必须在onenet的管理页面上定义好。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="疑问" ID="ID_1311580746" CREATED="1622352541826" MODIFIED="1622354335286"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -809,7 +845,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="接入流程" ID="ID_1460362558" CREATED="1622350900259" MODIFIED="1622352540476"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="接入流程" ID="ID_1460362558" CREATED="1622350900259" MODIFIED="1622705619878"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -820,9 +856,6 @@
     </p>
     <p>
       
-    </p>
-    <p>
-      我觉得
     </p>
   </body>
 </html></richcontent>
@@ -846,7 +879,7 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="设备登录平台" ID="ID_442610897" CREATED="1622350922709" MODIFIED="1622351809019">
+<node TEXT="设备登录平台" ID="ID_442610897" CREATED="1622350922709" MODIFIED="1622712150099">
 <icon BUILTIN="full-2"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -857,15 +890,253 @@
     <p>
       使用一个topic就可以完成设备到onenet平台的登录了。
     </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="URI" ID="ID_392655226" CREATED="1622706125988" MODIFIED="1622706128343">
+<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622712169055"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里的topic的特殊地方在于它有一个&quot;$sys&quot;这个奇怪的路径名。这个$sys看起来像是一个变量的名称，在生成实际的URI的时候需不需要把它做一些转变呢？
+    </p>
     <p>
       
     </p>
     <p>
-      只要登录
+      在经过反复操作之后发现，在请求coap的URI链接的时候，并不需要做任何的转换，就将第一级的URI当作字符串&quot;$sys&quot;处理。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      需要注意的是，如果是使用libcoap的coap-client这样的命令行来访问coap server的时候，shell会自动的把$sys当作变量扩展。这时候需要我们特意的将其使用单括号括起来‘$sys’
+    </p>
+    <p>
+      这样shell就不会尝试去将其当作变量去解析了。
     </p>
   </body>
-</html></richcontent>
-<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622350953501"/>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Payload内容" ID="ID_1766567633" CREATED="1622706132093" MODIFIED="1622713330938" LINK="https://open.iot.10086.cn/doc/iot_platform/book/device-connect&amp;manager/device-auth.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      登陆的时候需要带上payload
+    </p>
+    <p>
+      这里的payload起到的作用是进行设备的安全鉴权。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      payload的内容如下，是一个json格式的数据:
+    </p>
+    <p>
+      <b>{&quot;lt&quot;:<font color="#0000c0">12345</font>, &quot;lt&quot;:<font color="#0000c0">字符串token</font>}</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="字符串token" ID="ID_1965162919" CREATED="1622713217050" MODIFIED="1622713247961"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">version</font>=2018-10-31&amp;<font color="#0000c0">res</font>=products%2F123123%2Fdevices%2Fche1&amp;<font color="#0000c0">et</font>=1537255523&amp;<font color="#0000c0">method</font>=sha1&amp;<font color="#0000c0">sign</font>=ZjA1NzZlMmMxYzIOTg3MjBzNjYTI2MjA4Yw%3D
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Token计算" ID="ID_214859731" CREATED="1622712267916" MODIFIED="1622712625221"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里的Token其实跟CoAP协议中header中的token不是一个概念。它是设备计算出来的一个鉴权参数。
+    </p>
+    <p>
+      计算方法如下：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">sign = base64(hmac_&lt;method&gt;(base64decode(</font><font color="#008000" size="4">key</font><font size="4">), utf-8(</font><font color="#ff0000" size="4">StringForSignature</font><font size="4">)))</font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_661663663" CREATED="1622712460956" MODIFIED="1622713438969"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#008000">key</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink DESTINATION="ID_1558451443"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备的密钥，在web端创建设备的时候会生成唯一的密钥key
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_69304206" CREATED="1622712463285" MODIFIED="1622713425927"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">StringForSignature</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      <font size="3">StringForSignature = </font><font color="#0000c0" size="3">et</font><font size="3">&nbsp;+ '\n' + </font><font color="#0000c0" size="3">method</font><font size="3">&nbsp;+ '\n' + </font><font color="#0000c0" size="3">res</font><font size="3">+ '\n' + </font><font color="#0000c0" size="3">version</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="version" ID="ID_342467103" CREATED="1622712350283" MODIFIED="1622712763342"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      固定字符串
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="res" ID="ID_1543367132" CREATED="1622712359236" MODIFIED="1622713276553">
+<arrowlink DESTINATION="ID_1394982288"/>
+<arrowlink DESTINATION="ID_523214700"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000c0">products</font></b>/xxxx/<b><font color="#0000c0">devices</font></b>/yyy
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="et" ID="ID_1433658449" CREATED="1622712362549" MODIFIED="1622713078934">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      过期时间，是使用的Unix Time
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      实践表明，这个参数非常的重要：
+    </p>
+    <p>
+      <font color="#0000c0"><b>如果server在接收到这个参数之后，对比这个时间戳和当前系统时间戳，如果发现系统时间戳已经超过了发送过来的这个时间戳，server就会认为这是一个非法的请求。 </b></font>
+    </p>
+    <p>
+      <b>会返回一个<font color="#ff0000">4.00</font>错误码，所以我们在准备login请求的时候，一定要精细的计算好这个et参数，让它足够的超前。</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="method" ID="ID_10090849" CREATED="1622712365259" MODIFIED="1622713094202"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      加密算法，一般是md5或者sha1
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="鉴权参数" ID="ID_697782540" CREATED="1622712226539" MODIFIED="1622712265431"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备需要携带上三个参数来标明自己是一个合法的用户
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="产品id" ID="ID_1394982288" CREATED="1622712232963" MODIFIED="1622712235514"/>
+<node TEXT="设备名称" ID="ID_523214700" CREATED="1622712238100" MODIFIED="1622712243673"/>
+<node TEXT="key" ID="ID_1558451443" CREATED="1622713296913" MODIFIED="1622713298715"/>
+</node>
+</node>
 </node>
 <node TEXT="设备和平台间交互" ID="ID_1857404491" CREATED="1622351812967" MODIFIED="1622351833695">
 <icon BUILTIN="full-3"/>
