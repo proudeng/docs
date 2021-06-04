@@ -760,7 +760,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="debian上安装libcoap" ID="ID_565380860" CREATED="1622705636643" MODIFIED="1622705742861"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="debian上安装libcoap" ID="ID_565380860" CREATED="1622705636643" MODIFIED="1622785409128"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -770,13 +770,26 @@
       使用下面的命令行安装libcoap的client和server:
     </p>
     <p>
-      <i><font color="#0000c0">sudo apt install libcoap-1-0 </font></i>
+      <i><font color="#0000c0">sudo apt install libcoap2</font></i>
     </p>
     <p>
-      <i><font color="#0000c0">sudo apt install libcoap-1-0-bin</font></i>
+      <i><font color="#0000c0">sudo apt install libcoap2-bin </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      安装完之后在系统中就会出现了两个可执行的文件coap-client和coap-server
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      我们就可以使用coap-client这个命令行的coap客户端来和onenet上的coap平台进行交互了。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="coap-client" ID="ID_456976885" CREATED="1622705728210" MODIFIED="1622705738592"/>
 <node TEXT="coap-server" ID="ID_1295243270" CREATED="1622705738859" MODIFIED="1622705741582"/>
 </node>
@@ -891,10 +904,9 @@
       使用一个topic就可以完成设备到onenet平台的登录了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="URI" ID="ID_392655226" CREATED="1622706125988" MODIFIED="1622706128343">
-<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622712169055"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622784725444"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -948,8 +960,7 @@
       <b>{&quot;lt&quot;:<font color="#0000c0">12345</font>, &quot;lt&quot;:<font color="#0000c0">字符串token</font>}</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="字符串token" ID="ID_1965162919" CREATED="1622713217050" MODIFIED="1622713247961"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -960,8 +971,7 @@
       <font color="#0000c0">version</font>=2018-10-31&amp;<font color="#0000c0">res</font>=products%2F123123%2Fdevices%2Fche1&amp;<font color="#0000c0">et</font>=1537255523&amp;<font color="#0000c0">method</font>=sha1&amp;<font color="#0000c0">sign</font>=ZjA1NzZlMmMxYzIOTg3MjBzNjYTI2MjA4Yw%3D
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Token计算" ID="ID_214859731" CREATED="1622712267916" MODIFIED="1622712625221"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -984,8 +994,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_661663663" CREATED="1622712460956" MODIFIED="1622713438969"><richcontent TYPE="NODE">
 
 <html>
@@ -998,7 +1007,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink DESTINATION="ID_1558451443"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1011,10 +1019,9 @@
       设备的密钥，在web端创建设备的时候会生成唯一的密钥key
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node ID="ID_69304206" CREATED="1622712463285" MODIFIED="1622713425927"><richcontent TYPE="NODE">
+<node ID="ID_69304206" CREATED="1622712463285" MODIFIED="1622771948276"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1026,7 +1033,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1053,12 +1059,11 @@
       固定字符串
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="res" ID="ID_1543367132" CREATED="1622712359236" MODIFIED="1622713276553">
-<arrowlink DESTINATION="ID_1394982288"/>
 <arrowlink DESTINATION="ID_523214700"/>
+<arrowlink DESTINATION="ID_1394982288"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1072,8 +1077,26 @@
       
     </p>
   </body>
+</html></richcontent>
+<node TEXT="Unixtime?" ID="ID_416250477" CREATED="1622787119736" MODIFIED="1622787127856"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      时间戳是自 1970 年 1 月 1 日（00:00:00 GMT）以来的秒数。它也被称为 Unix 时间戳（Unix Timestamp）。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      　　Unix时间戳(Unix timestamp)，或称Unix时间(Unix time)、POSIX时间(POSIX time)，是一种时间表示方式，定义为从格林威治时间1970年01月01日00时00分00秒起至现在的总秒数。Unix时间戳不仅被使用在Unix系统、类Unix系统中，也在许多其他操作系统中被广泛采用。
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 <node TEXT="et" ID="ID_1433658449" CREATED="1622712362549" MODIFIED="1622713078934">
 <icon BUILTIN="bookmark"/>
@@ -1101,8 +1124,7 @@
       <b>会返回一个<font color="#ff0000">4.00</font>错误码，所以我们在准备login请求的时候，一定要精细的计算好这个et参数，让它足够的超前。</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="method" ID="ID_10090849" CREATED="1622712365259" MODIFIED="1622713094202"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1114,11 +1136,28 @@
       加密算法，一般是md5或者sha1
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="lt" ID="ID_876023698" CREATED="1622785229910" MODIFIED="1622785306087">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个lt表示<b><font color="#0000c0">lifetime</font></b>
+    </p>
+    <p>
+      具体的含义是？
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
-</node>
 </node>
 <node TEXT="鉴权参数" ID="ID_697782540" CREATED="1622712226539" MODIFIED="1622712265431"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1130,11 +1169,22 @@
       设备需要携带上三个参数来标明自己是一个合法的用户
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="产品id" ID="ID_1394982288" CREATED="1622712232963" MODIFIED="1622712235514"/>
 <node TEXT="设备名称" ID="ID_523214700" CREATED="1622712238100" MODIFIED="1622712243673"/>
-<node TEXT="key" ID="ID_1558451443" CREATED="1622713296913" MODIFIED="1622713298715"/>
+<node TEXT="key" ID="ID_1558451443" CREATED="1622713296913" MODIFIED="1622785026338"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备的密钥
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
