@@ -606,7 +606,9 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="携带模式" ID="ID_1575255647" CREATED="1621925806389" MODIFIED="1621927306833"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="非确认模式" ID="ID_889231022" CREATED="1621925817189" MODIFIED="1621925819551"/>
+<node TEXT="确认模式" ID="ID_1678595292" CREATED="1622874974407" MODIFIED="1622874979502">
+<node TEXT="携带模式" ID="ID_1575255647" CREATED="1621925806389" MODIFIED="1622875105837"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -619,13 +621,17 @@
       
     </p>
     <p>
-      发送端发送一个CON消息之后，对端直接回一个ACK消息，使用两条消息结束这次交互过程。
+      发送端发送一个CON消息之后，对端直接回一个ACK消息，同时对端返回的消息的payload也包含在这个ACK消息中，通信双发使用两条消息结束一次交互过程。
+    </p>
+    <p>
+      
     </p>
     <p>
       在CON消息和ACK消息中，MessageId和Token值都要保持不变。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="分离模式" ID="ID_1913325392" CREATED="1621925812141" MODIFIED="1621927580665"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -672,7 +678,7 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="非确认模式" ID="ID_889231022" CREATED="1621925817189" MODIFIED="1621925819551"/>
+</node>
 </node>
 <node TEXT="CoAP重传机制" ID="ID_1571096765" CREATED="1621925825917" MODIFIED="1621928490928"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -788,8 +794,7 @@
       我们就可以使用coap-client这个命令行的coap客户端来和onenet上的coap平台进行交互了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="coap-client" ID="ID_456976885" CREATED="1622705728210" MODIFIED="1622705738592"/>
 <node TEXT="coap-server" ID="ID_1295243270" CREATED="1622705738859" MODIFIED="1622705741582"/>
 </node>
@@ -906,7 +911,7 @@
   </body>
 </html></richcontent>
 <node TEXT="URI" ID="ID_392655226" CREATED="1622706125988" MODIFIED="1622706128343">
-<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622784725444"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622876682199"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1021,7 +1026,7 @@
   </body>
 </html></richcontent>
 </node>
-<node ID="ID_69304206" CREATED="1622712463285" MODIFIED="1622771948276"><richcontent TYPE="NODE">
+<node ID="ID_69304206" CREATED="1622712463285" MODIFIED="1622876683031"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1094,8 +1099,7 @@
       　　Unix时间戳(Unix timestamp)，或称Unix时间(Unix time)、POSIX时间(POSIX time)，是一种时间表示方式，定义为从格林威治时间1970年01月01日00时00分00秒起至现在的总秒数。Unix时间戳不仅被使用在Unix系统、类Unix系统中，也在许多其他操作系统中被广泛采用。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="et" ID="ID_1433658449" CREATED="1622712362549" MODIFIED="1622713078934">
@@ -1156,8 +1160,7 @@
       具体的含义是？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="鉴权参数" ID="ID_697782540" CREATED="1622712226539" MODIFIED="1622712265431"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1182,9 +1185,37 @@
       设备的密钥
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node TEXT="返回消息" ID="ID_343807788" CREATED="1622875189887" MODIFIED="1622875267350"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在平台接受到登陆请求之后，如果认证通过的话，会给设备回一个ACK的消息，code是2.01
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
+<node TEXT="payload" ID="ID_926409672" CREATED="1622875240814" MODIFIED="1622876672939"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在payload的部分，只包含一个重要的信息，也就是token。
+    </p>
+    <p>
+      在设备登陆后，只要设备没有下线，设备给平台发送消息的时候，都需要在coap消息中携带上这个token option
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
