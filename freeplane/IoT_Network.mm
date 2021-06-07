@@ -630,8 +630,7 @@
       在CON消息和ACK消息中，MessageId和Token值都要保持不变。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="分离模式" ID="ID_1913325392" CREATED="1621925812141" MODIFIED="1621927580665"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -766,12 +765,27 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="debian上安装libcoap" ID="ID_565380860" CREATED="1622705636643" MODIFIED="1622785409128"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="debian上安装libcoap" ID="ID_565380860" CREATED="1622705636643" MODIFIED="1623079014285"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      实践证明需要自己编译libcoap生成的coap-client才能够完美的工作，使用deb安装的libcoap的client在添加option的时候，Uri-Path的个数超过5个的时候就会出问题了。
+    </p>
+    <p>
+      /////////////////////////////
+    </p>
     <p>
       使用下面的命令行安装libcoap的client和server:
     </p>
@@ -794,8 +808,35 @@
       我们就可以使用coap-client这个命令行的coap客户端来和onenet上的coap平台进行交互了。
     </p>
   </body>
-</html></richcontent>
-<node TEXT="coap-client" ID="ID_456976885" CREATED="1622705728210" MODIFIED="1622705738592"/>
+</html>
+</richcontent>
+<node TEXT="coap-client" ID="ID_456976885" CREATED="1622705728210" MODIFIED="1622705738592">
+<node TEXT="使用的脚本" ID="ID_34640330" CREATED="1623079023350" MODIFIED="1623079345711"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="color: #000000; background-color: #ffffff; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null"><font color="#3f7f59">#!</font>/bin/bash
+
+<font color="#3f7f59">#remove the login ack cache</font>
+<font color="#3f7f59">#rm /home/proudeng/login_ack.txt</font>
+
+<font color="#3f7f59">#login to onenet</font>
+token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/libcoap/examples/coap-client</font><font color="#000000"> -m post -t json coap:</font><font color="#3f3fbf">//183.230.102.116/</font><font color="#2a00ff">'$sys'</font><font color="#3f3fbf">/01W2Sk05I3/thingy1/login</font><font color="#000000"> -f </font><font color="#3f3fbf">/home/proudeng/login.txt</font><font color="#000000"> -o -v 9`</font>
+
+<font color="#3f7f59">#update property value to onenet</font>
+<font color="#3f3fbf">/home/proudeng/code/libcoap/examples/coap-client</font> -m post -t json -T $token coap:<font color="#3f3fbf">//183.230.102.116/</font><font color="#2a00ff">'$sys'</font><font color="#3f3fbf">/01W2Sk05I3/thingy1/thing/property/post</font> -f <font color="#3f3fbf">/home/proudeng/property_post2.txt</font> -v 9
+
+<font color="#3f7f59">#logout onenet</font>
+<font color="#3f7f59">#/home/proudeng/code/libcoap/examples/coap-client -m post -t json coap://183.230.102.116/'$sys'/01W2Sk05I3/thingy1/logout -f /home/proudeng/logout.txt -v 9</font>
+</pre>
+    <!--Created using ToHtml.com on 2021-06-07 15:21:34 UTC -->
+    </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="coap-server" ID="ID_1295243270" CREATED="1622705738859" MODIFIED="1622705741582"/>
 </node>
 </node>
@@ -911,7 +952,7 @@
   </body>
 </html></richcontent>
 <node TEXT="URI" ID="ID_392655226" CREATED="1622706125988" MODIFIED="1622706128343">
-<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1622876682199"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="$sys/{pid}/{device-name}/login" ID="ID_809728415" CREATED="1622350951670" MODIFIED="1623077956671"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -966,17 +1007,24 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="字符串token" ID="ID_1965162919" CREATED="1622713217050" MODIFIED="1622713247961"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="字符串token" ID="ID_1965162919" CREATED="1622713217050" MODIFIED="1623078206334"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
+      这里的token并不是coap协议中携带的token，而是平台鉴权设备的一个字符串，它的内容示例如下：
+    </p>
+    <p>
+      
+    </p>
+    <p>
       <font color="#0000c0">version</font>=2018-10-31&amp;<font color="#0000c0">res</font>=products%2F123123%2Fdevices%2Fche1&amp;<font color="#0000c0">et</font>=1537255523&amp;<font color="#0000c0">method</font>=sha1&amp;<font color="#0000c0">sign</font>=ZjA1NzZlMmMxYzIOTg3MjBzNjYTI2MjA4Yw%3D
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="Token计算" ID="ID_214859731" CREATED="1622712267916" MODIFIED="1622712625221"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1026,7 +1074,7 @@
   </body>
 </html></richcontent>
 </node>
-<node ID="ID_69304206" CREATED="1622712463285" MODIFIED="1622876683031"><richcontent TYPE="NODE">
+<node ID="ID_69304206" CREATED="1622712463285" MODIFIED="1623077963050"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1083,7 +1131,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Unixtime?" ID="ID_416250477" CREATED="1622787119736" MODIFIED="1622787127856"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Unixtime?" ID="ID_416250477" CREATED="1622787119736" MODIFIED="1623078195982"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1099,10 +1147,11 @@
       　　Unix时间戳(Unix timestamp)，或称Unix时间(Unix time)、POSIX时间(POSIX time)，是一种时间表示方式，定义为从格林威治时间1970年01月01日00时00分00秒起至现在的总秒数。Unix时间戳不仅被使用在Unix系统、类Unix系统中，也在许多其他操作系统中被广泛采用。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node TEXT="et" ID="ID_1433658449" CREATED="1622712362549" MODIFIED="1622713078934">
+<node TEXT="et" ID="ID_1433658449" CREATED="1622712362549" MODIFIED="1623078201757">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -1128,7 +1177,8 @@
       <b>会返回一个<font color="#ff0000">4.00</font>错误码，所以我们在准备login请求的时候，一定要精细的计算好这个et参数，让它足够的超前。</b>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="method" ID="ID_10090849" CREATED="1622712365259" MODIFIED="1622713094202"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1145,7 +1195,7 @@
 </node>
 </node>
 </node>
-<node TEXT="lt" ID="ID_876023698" CREATED="1622785229910" MODIFIED="1622785306087">
+<node TEXT="lt" ID="ID_876023698" CREATED="1622785229910" MODIFIED="1623078032276">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1157,10 +1207,11 @@
       这个lt表示<b><font color="#0000c0">lifetime</font></b>
     </p>
     <p>
-      具体的含义是？
+      具体的含义是？实际操作过程看起来，这个lifetime的意思是告诉平台，在此次登录请求之后，没有后续消息更新的情况下，平台保留多长时间的在线状态。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="鉴权参数" ID="ID_697782540" CREATED="1622712226539" MODIFIED="1622712265431"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1189,29 +1240,53 @@
 </node>
 </node>
 </node>
-<node TEXT="返回消息" ID="ID_343807788" CREATED="1622875189887" MODIFIED="1622875267350"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="返回消息" ID="ID_343807788" CREATED="1622875189887" MODIFIED="1623077414113">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      在平台接受到登陆请求之后，如果认证通过的话，会给设备回一个ACK的消息，code是2.01
+      在平台接受到登陆请求之后，如果认证通过的话，会给设备回一个ACK的消息，code是2.01.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这个ACK消息是一个极为重要的消息，因为它带回了一个token(没错，这里的token就是指的CoAP协议的token)，因为后续的设备和平台之间的交互，每一个消息的交互，都需要在coap协议的header里面携带上这个token值。
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="payload" ID="ID_926409672" CREATED="1622875240814" MODIFIED="1622876672939"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="payload" ID="ID_926409672" CREATED="1622875240814" MODIFIED="1623078087451">
+<arrowlink DESTINATION="ID_925647189" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      在payload的部分，只包含一个重要的信息，也就是token。
+      在payload的部分，只包含一个信息，也就是token。
     </p>
     <p>
-      在设备登陆后，只要设备没有下线，设备给平台发送消息的时候，都需要在coap消息中携带上这个token option
+      <b>在设备登陆后，只要设备没有下线，设备给平台发送消息的时候，都需要在coap消息中携带上这个token option </b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      token
     </p>
   </body>
 </html>
@@ -1221,7 +1296,7 @@
 </node>
 <node TEXT="设备和平台间交互" ID="ID_1857404491" CREATED="1622351812967" MODIFIED="1622351833695">
 <icon BUILTIN="full-3"/>
-<node TEXT="上行" ID="ID_1336463283" CREATED="1622351819033" MODIFIED="1622351982464"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="上行" ID="ID_1336463283" CREATED="1622351819033" MODIFIED="1623077488997"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1247,6 +1322,24 @@
 <node TEXT="事件上报" ID="ID_1918860776" CREATED="1622351902548" MODIFIED="1622351904939">
 <node TEXT="$sys/{pid}/{device-name}/thing/event/post" ID="ID_1870783987" CREATED="1622352251739" MODIFIED="1622352253189"/>
 </node>
+</node>
+<node TEXT="携带token" ID="ID_925647189" CREATED="1623077477919" MODIFIED="1623077809265">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备在向平台发送coap消息的时候，需要携带上coap token，这个token值是在login的时候平台下发给设备的。
+    </p>
+    <p>
+      不携带这个token值直接的结果就是平台会回一个<b><font color="#ff0000">4.00</font></b>的错误码
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="下行" ID="ID_190089719" CREATED="1622351821357" MODIFIED="1622351991791"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1277,6 +1370,21 @@
 <node TEXT="设备退出平台" ID="ID_431094442" CREATED="1622351946553" MODIFIED="1622351956564">
 <icon BUILTIN="full-4"/>
 <node TEXT="$sys/{pid}/{device-name}/logout" ID="ID_542032303" CREATED="1622351958999" MODIFIED="1622351960964"/>
+<node TEXT="payload" ID="ID_1992874512" CREATED="1623077950891" MODIFIED="1623078092095">
+<arrowlink DESTINATION="ID_1965162919"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>{&quot;lt&quot;:<font color="#0000c0">字符串token</font>}</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
