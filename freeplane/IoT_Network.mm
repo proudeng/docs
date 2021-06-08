@@ -808,10 +808,9 @@
       我们就可以使用coap-client这个命令行的coap客户端来和onenet上的coap平台进行交互了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="coap-client" ID="ID_456976885" CREATED="1622705728210" MODIFIED="1622705738592">
-<node TEXT="使用的脚本" ID="ID_34640330" CREATED="1623079023350" MODIFIED="1623079345711"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="使用的脚本" ID="ID_34640330" CREATED="1623079023350" MODIFIED="1623115315247"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -937,6 +936,56 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
     </p>
   </body>
 </html></richcontent>
+<node TEXT="创建产品" ID="ID_373086228" CREATED="1623131706474" MODIFIED="1623132452680">
+<node TEXT="产品的属性" ID="ID_1990502389" CREATED="1623132386227" MODIFIED="1623132394214">
+<node TEXT="定义属性" ID="ID_1327834052" CREATED="1623131745635" MODIFIED="1623132781587"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      属性就是设备的一些状态值。在平台上定义了这些属性之后(包括名字和取值类型以及取值范围)，设备就可以在发生状态改变的时候上报这些定义好的属性的状态。
+    </p>
+    <p>
+      同时平台也能够主动的去向设备发起请求，要求设备上报当前的某些属性的最新状态。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="定义事件" ID="ID_1133552919" CREATED="1623132181642" MODIFIED="1623133195492"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      事件概念其实也比较的简单，针对属性上报只能够上报单独的一个属性值(似乎其实也可以在一个上报报文中上报多个属性)，
+    </p>
+    <p>
+      事件是定义一个事件，并且定义事件发生的条件，当这个事件发生的时候，设备能够上报一组属性值。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="定义服务" ID="ID_1932447801" CREATED="1623132404195" MODIFIED="1623132410016"/>
+</node>
+<node TEXT="创建设备" ID="ID_760365392" CREATED="1623131729578" MODIFIED="1623132536104"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备就是产品的一个实例。比如一个烟雾传感器产品，它有非常多的实例，每个实例的属性都是一样的，但是这些属性的取值或者状态跟是各不相同的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="设备登录平台" ID="ID_442610897" CREATED="1622350922709" MODIFIED="1622712150099">
 <icon BUILTIN="full-2"/>
@@ -980,8 +1029,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       这样shell就不会尝试去将其当作变量去解析了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Payload内容" ID="ID_1766567633" CREATED="1622706132093" MODIFIED="1622713330938" LINK="https://open.iot.10086.cn/doc/iot_platform/book/device-connect&amp;manager/device-auth.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1023,8 +1071,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       <font color="#0000c0">version</font>=2018-10-31&amp;<font color="#0000c0">res</font>=products%2F123123%2Fdevices%2Fche1&amp;<font color="#0000c0">et</font>=1537255523&amp;<font color="#0000c0">method</font>=sha1&amp;<font color="#0000c0">sign</font>=ZjA1NzZlMmMxYzIOTg3MjBzNjYTI2MjA4Yw%3D
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Token计算" ID="ID_214859731" CREATED="1622712267916" MODIFIED="1622712625221"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1100,8 +1147,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       <font size="3">StringForSignature = </font><font color="#0000c0" size="3">et</font><font size="3">&nbsp;+ '\n' + </font><font color="#0000c0" size="3">method</font><font size="3">&nbsp;+ '\n' + </font><font color="#0000c0" size="3">res</font><font size="3">+ '\n' + </font><font color="#0000c0" size="3">version</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="version" ID="ID_342467103" CREATED="1622712350283" MODIFIED="1622712763342"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1147,11 +1193,10 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       　　Unix时间戳(Unix timestamp)，或称Unix时间(Unix time)、POSIX时间(POSIX time)，是一种时间表示方式，定义为从格林威治时间1970年01月01日00时00分00秒起至现在的总秒数。Unix时间戳不仅被使用在Unix系统、类Unix系统中，也在许多其他操作系统中被广泛采用。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="et" ID="ID_1433658449" CREATED="1622712362549" MODIFIED="1623078201757">
+<node TEXT="et" ID="ID_1433658449" CREATED="1622712362549" MODIFIED="1623114743892">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -1210,8 +1255,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       具体的含义是？实际操作过程看起来，这个lifetime的意思是告诉平台，在此次登录请求之后，没有后续消息更新的情况下，平台保留多长时间的在线状态。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="鉴权参数" ID="ID_697782540" CREATED="1622712226539" MODIFIED="1622712265431"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1260,8 +1304,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       这个ACK消息是一个极为重要的消息，因为它带回了一个token(没错，这里的token就是指的CoAP协议的token)，因为后续的设备和平台之间的交互，每一个消息的交互，都需要在coap协议的header里面携带上这个token值。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="payload" ID="ID_926409672" CREATED="1622875240814" MODIFIED="1623078087451">
 <arrowlink DESTINATION="ID_925647189" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1277,8 +1320,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       <b>在设备登陆后，只要设备没有下线，设备给平台发送消息的时候，都需要在coap消息中携带上这个token option </b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
@@ -1289,8 +1331,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       token
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1307,6 +1348,25 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
     </p>
   </body>
 </html></richcontent>
+<node TEXT="携带token" ID="ID_925647189" CREATED="1623077477919" MODIFIED="1623133626683">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设备在向平台发送coap消息的时候，需要携带上coap token，这个token值是在login的时候平台下发给设备的。
+    </p>
+    <p>
+      不携带这个token值直接的结果就是平台会回一个<b><font color="#ff0000">4.00</font></b>的错误码
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node TEXT="属性类" ID="ID_309398198" CREATED="1622351886657" MODIFIED="1622351888895">
 <node TEXT="属性上报" ID="ID_1659811686" CREATED="1622351845232" MODIFIED="1622351848024">
 <node TEXT="$sys/{pid}/{device-name}/thing/property/post" ID="ID_543876343" CREATED="1622352212309" MODIFIED="1622352214091"/>
@@ -1323,7 +1383,9 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 <node TEXT="$sys/{pid}/{device-name}/thing/event/post" ID="ID_1870783987" CREATED="1622352251739" MODIFIED="1622352253189"/>
 </node>
 </node>
-<node TEXT="携带token" ID="ID_925647189" CREATED="1623077477919" MODIFIED="1623077809265">
+<node TEXT="payload" ID="ID_503468299" CREATED="1623133572508" MODIFIED="1623134247367" LINK="https://open.iot.10086.cn/doc/iot_platform/book/device-connect&amp;manager/thing-model/protocol/OneJSON/OneJSON-introduce.html">
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1332,14 +1394,36 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
   </head>
   <body>
     <p>
-      设备在向平台发送coap消息的时候，需要携带上coap token，这个token值是在login的时候平台下发给设备的。
-    </p>
-    <p>
-      不携带这个token值直接的结果就是平台会回一个<b><font color="#ff0000">4.00</font></b>的错误码
+      上行上报属性和事件的时候，payload中存放的是OneNet自己定义的OneJson数据类型。
     </p>
   </body>
 </html>
 </richcontent>
+<node TEXT="oneJson" ID="ID_1227617886" CREATED="1623134791815" MODIFIED="1623135196946"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实在OneNet中的coap接入方式，使用这个jason格式的payload的话，就有点儿不是那么的对嵌入式设备友好了，数据量相对来说就会比较的大，本来使用coap协议的话，负载可以采用二进制格式的，这样能够尽量的压缩传输数据量。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      不过能够理解，作为一个平台来说，需要多种接入多种协议，那么与其为每个不同的协议做分别的优化，还不如使用统一的格式，牺牲一点性能，换来操作的方便性。
+    </p>
+    <p>
+      回头再继续了解一下Onenet也支持的Lwm2m协议，这个协议承载在coap协议的payload中，应该就避开了OneJson格式的负载了，能够享受到coap协议的内容紧凑带宽占用小的优点了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="下行" ID="ID_190089719" CREATED="1622351821357" MODIFIED="1622351991791"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1382,8 +1466,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       <b>{&quot;lt&quot;:<font color="#0000c0">字符串token</font>}</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
