@@ -187,8 +187,8 @@
 </node>
 </node>
 <node TEXT="EUTRAN" ID="ID_1826097742" CREATED="1542176900417" MODIFIED="1543155818790" HGAP_QUANTITY="16.29787 pt" VSHIFT_QUANTITY="19.91489 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="30 pt;0 pt;" ENDINCLINATION="30 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1419196562" MIDDLE_LABEL="S1-U接口" STARTINCLINATION="89.25 pt;0 pt;" ENDINCLINATION="89.25 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61254623" MIDDLE_LABEL="X2接口" STARTINCLINATION="30 pt;0 pt;" ENDINCLINATION="30 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -5277,12 +5277,12 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="39 pt;0 pt;" ENDINCLINATION="39 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="60 pt;0 pt;" ENDINCLINATION="60 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="39 pt;0 pt;" ENDINCLINATION="39 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="71.25 pt;0 pt;" ENDINCLINATION="71.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="91.5 pt;0 pt;" ENDINCLINATION="91.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="71.25 pt;0 pt;" ENDINCLINATION="71.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -13086,8 +13086,7 @@
       在准备进行真正的LA之前，这个功能做一些准备工作，操作的对象是所有被调度到的SE。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="LA" ID="ID_1216537933" CREATED="1621568696052" MODIFIED="1621568862361">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -13112,8 +13111,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Stop Scheduling in this TTI" ID="ID_890858126" CREATED="1621568466140" MODIFIED="1621569467505"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -13147,8 +13145,7 @@
       同时在这个功能里面，还会发送ACK/NACK消息给每个接收到并解码CRC的HARQ进程
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Power Control" ID="ID_1007118869" CREATED="1619600144522" MODIFIED="1619600149029"/>
 <node TEXT="上行调度相关的feature" ID="ID_560773289" CREATED="1621566563101" MODIFIED="1621566569641">
@@ -13610,10 +13607,10 @@
 </node>
 </node>
 </node>
-<node TEXT="【MR5621】Duct Interference Suppression" FOLDED="true" ID="ID_1097351868" CREATED="1552020719423" MODIFIED="1552020741401">
-<node TEXT="OA Report" FOLDED="true" ID="ID_1344359930" CREATED="1552020827328" MODIFIED="1552020887200" LINK="../../../C:/Users/edenjun/Desktop/LTE/Feature/Duct/Opportunity+Analysis+Report+MR5621+Duct+Interference+Suppression.pptx">
+<node TEXT="【MR5621】Duct Interference Suppression" ID="ID_1097351868" CREATED="1552020719423" MODIFIED="1552020741401">
+<node TEXT="OA Report" ID="ID_1344359930" CREATED="1552020827328" MODIFIED="1552020887200" LINK="../../../C:/Users/edenjun/Desktop/LTE/Feature/Duct/Opportunity+Analysis+Report+MR5621+Duct+Interference+Suppression.pptx">
 <node TEXT="CMCC需求" ID="ID_1513861249" CREATED="1552020890782" MODIFIED="1552020901514" LINK="../../../C:/Users/edenjun/Desktop/LTE/Feature/Duct/CMCC_Duct_Spec.docx"/>
-<node TEXT="Comments" ID="ID_678723074" CREATED="1552029066365" MODIFIED="1552029349716">
+<node TEXT="Comments" ID="ID_678723074" CREATED="1552029066365" MODIFIED="1624243762887">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -13622,22 +13619,23 @@
   </head>
   <body>
     <div style="margin-top: 3.84pt; margin-bottom: 0pt; margin-left: .19in; text-indent: -.19in; text-align: left; vertical-align: baseline">
-      <font color="#00A9D4" face="Arial">&#8250;</font><font size="16.0pt" face="Arial" color="#58585A">While if remote interference disappears for a period of symPowerDuctInterfTimer, then symbolPowerFlag&#160;will be set to false</font>
+      <font color="#00A9D4" face="Arial">›</font><font color="#58585A" face="Arial">While if remote interference disappears for a period of symPowerDuctInterfTimer, then symbolPowerFlag&nbsp;will be set to false</font>
     </div>
     <p>
       
     </p>
     <p>
-      &#38024;&#23545;&#19978;&#38754;&#30340;&#25551;&#36848;&#65292;&#22914;&#26524;&#22312;&#22823;&#27668;&#27874;&#23548;&#24433;&#21709;&#28040;&#22833;&#20043;&#21518;&#65292;&#25105;&#20204;&#23601;&#25226;SSP&#35843;&#25972;&#22238;&#21407;&#26469;&#30340;SSP&#65292;&#36825;&#20250;&#19981;&#20250;&#23548;&#33268;&#20050;&#20051;&#21453;&#24212;&#65311;
+      针对上面的描述，如果在大气波导影响消失之后，我们就把SSP调整回原来的SSP，这会不会导致乒乓反应？
     </p>
     <p>
-      &#22240;&#20026;&#23384;&#22312;&#36825;&#26679;&#30340;&#24773;&#20917;&#65292;&#22312;&#22823;&#27668;&#27874;&#23548;&#25928;&#24212;&#25345;&#32493;&#19968;&#30452;&#23384;&#22312;&#65292;&#36825;&#26159;&#21487;&#33021;&#30340;&#65292;&#22914;&#26524;&#22312;&#20390;&#27979;&#21040;&#36825;&#20010;&#25928;&#24212;&#20043;&#21518;&#23601;&#36864;&#22238;&#20102;SSP5&#20043;&#21518;&#65292;&#28982;&#21518;&#30151;&#29366;&#20943;&#36731;&#65292;&#25105;&#20204;&#23601;&#20999;&#25442;&#21040;&#36895;&#29575;&#26356;&#39640;&#30340;SSP&#65292;&#36825;&#20250;&#23548;&#33268;&#22823;&#27668;&#27874;&#23548;&#25928;&#24212;&#21448;&#22686;&#24378;&#20102;&#12290;&#36825;&#26102;&#31995;&#32479;&#21448;&#20250;&#36827;&#20837;&#21040;SSP5&#30340;&#29366;&#24577;&#65292;&#22914;&#27492;&#21453;&#22797;&#12290;
+      因为存在这样的情况，在大气波导效应持续一直存在，这是可能的，如果在侦测到这个效应之后就退回了SSP5之后，然后症状减轻，我们就切换到速率更高的SSP，这会导致大气波导效应又增强了。这时系统又会进入到SSP5的状态，如此反复。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node TEXT="需要研究的事项" FOLDED="true" ID="ID_1409262528" CREATED="1552877531509" MODIFIED="1552877538112">
+<node TEXT="需要研究的事项" ID="ID_1409262528" CREATED="1552877531509" MODIFIED="1552877538112">
 <node TEXT="eNB的上行功率测量机制" ID="ID_101619539" CREATED="1552877544674" MODIFIED="1552879775206">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -13655,7 +13653,7 @@
 <node TEXT="eNB的特征序列发送机制" ID="ID_478329476" CREATED="1552877603504" MODIFIED="1552877623920">
 <icon BUILTIN="help"/>
 </node>
-<node TEXT="eNB的特征序列检测机制" ID="ID_1371460923" CREATED="1552877612575" MODIFIED="1552891927517">
+<node TEXT="eNB的特征序列检测机制" ID="ID_1371460923" CREATED="1552877612575" MODIFIED="1624243771234">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -13664,15 +13662,16 @@
   </head>
   <body>
     <p>
-      &#26681;&#25454;ppt&#37324;&#38754;&#30340;&#25551;&#36848;&#65292;&#37319;&#29992;&#30340;&#26159;&#30456;&#24178;&#21151;&#29575;&#26816;&#27979;&#65292;&#22312;&#25509;&#25910;&#31471;&#65292;&#20351;&#29992;&#19981;&#21516;&#30340;&#24207;&#21015;&#21435;&#36319;&#25509;&#25910;&#30340;&#24207;&#21015;&#36827;&#34892;&#30456;&#20851;&#65292;&#28982;&#21518;&#26816;&#27979;<font color="#ff0033">&#21151;&#29575;</font>(?)&#65292;&#36229;&#36807;&#38376;&#38480;&#20540;&#23601;&#35748;&#20026;&#20004;&#32773;&#26159;&#30456;&#21516;&#30340;&#65311;
+      根据ppt里面的描述，采用的是相干功率检测，在接收端，使用不同的序列去跟接收的序列进行相关，然后检测<font color="#ff0033">功率</font>(?)，超过门限值就认为两者是相同的？
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="eNB的底噪检测机制" ID="ID_556005919" CREATED="1552877739926" MODIFIED="1552877750127">
 <icon BUILTIN="help"/>
 </node>
-<node TEXT="如何保证特征序列一定可以被检测出来？" ID="ID_1130180658" CREATED="1552879852587" MODIFIED="1552880188913">
+<node TEXT="如何保证特征序列一定可以被检测出来？" ID="ID_1130180658" CREATED="1552879852587" MODIFIED="1624243926072">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -13681,13 +13680,14 @@
   </head>
   <body>
     <p>
-      &#29305;&#24449;&#24207;&#21015;&#22266;&#23450;&#22312;dwPTS&#30340;&#26368;&#21518;&#20004;&#20010;symbol&#19978;&#21457;&#36865;&#65292;&#20294;&#26159;&#24178;&#25200;&#21457;&#29983;&#30340;&#26102;&#20505;&#65292;&#24182;&#19981;&#33021;&#22815;&#20445;&#35777;&#29305;&#24449;&#24207;&#21015;&#25152;&#22312;&#30340;&#20004;&#20010;symbol&#33021;&#22815;&#21644;&#34987;&#24178;&#25200;&#23567;&#21306;&#30340;&#19978;&#34892;symbol&#23545;&#40784;&#12290; &#26816;&#27979;&#26426;&#21046;&#26159;&#22914;&#20309;&#20445;&#35777;&#34429;&#28982;&#19981;&#19968;&#33268;&#20294;&#26159;&#20063;&#33021;&#22815;&#26816;&#27979;&#20986;&#26469;&#30340;&#21602;&#65311;
+      特征序列固定在dwPTS的最后两个symbol上发送，但是干扰发生的时候，并不能够保证特征序列所在的两个symbol能够和被干扰小区的上行symbol对齐。 检测机制是如何保证虽然不一致但是也能够检测出来的呢？
     </p>
     <p>
-      (&#20013;&#22269;&#31227;&#21160;&#30340;&#38656;&#27714;&#20070;&#37324;&#38754;&#25551;&#36848;&#30340;&#21069;&#21518;&#21152;CP&#30340;&#20570;&#27861;&#65292;&#26159;&#19981;&#26159;&#23601;&#26159;&#20026;&#20102;&#36825;&#20010;&#30446;&#30340;&#65311;&#65311;)
+      (中国移动的需求书里面描述的前后加CP的做法，是不是就是为了这个目的？？)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="为什么有功率斜坡特性？" ID="ID_1233613940" CREATED="1552886586266" MODIFIED="1552886658656">
 <icon BUILTIN="help"/>
@@ -16967,8 +16967,7 @@
       需要注意的是：SP3是基于SP6的实现来做feature interaction的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="文档" ID="ID_520494755" CREATED="1617765552312" MODIFIED="1617765559014">
 <node TEXT="NDS" ID="ID_1023909571" CREATED="1617765560217" MODIFIED="1617768591648" LINK="../../../Users/edenjun/Desktop/LTE/Feature/RRP/NDS_MR6245-SP3_Feature_Interaction_with_RRP.pdf"/>
 <node TEXT="SA" ID="ID_373328591" CREATED="1617765562941" MODIFIED="1617768628927" LINK="../../../Users/edenjun/Desktop/LTE/Feature/RRP/SA%20for%20MR6245%20SP3%20-%20Securing%20GBR%20and%20Radio%20Resource%20Partitioning%20-%20Feature%20interaction%20(1).pptx"/>

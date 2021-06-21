@@ -266,7 +266,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="各种模型" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
+<node TEXT="各种模型" FOLDED="true" ID="ID_1303444627" CREATED="1587996905241" MODIFIED="1587996907619">
 <node TEXT="驱动" ID="ID_776580970" CREATED="1587884293782" MODIFIED="1587884295473">
 <node TEXT="Device Driver Model" ID="ID_117761149" CREATED="1587884296524" MODIFIED="1587884319635" LINK="https://docs.zephyrproject.org/latest/reference/drivers/index.html">
 <node TEXT="Driver APIs" ID="ID_369899115" CREATED="1587998551094" MODIFIED="1587998658330"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -551,7 +551,7 @@
 </node>
 </node>
 </node>
-<node TEXT="项目构成" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
+<node TEXT="项目构成" FOLDED="true" ID="ID_133941553" CREATED="1587996916384" MODIFIED="1587996920012">
 <node TEXT="Kconfig" ID="ID_1577093772" CREATED="1587996924272" MODIFIED="1587996927690"/>
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
@@ -578,6 +578,7 @@
     </p>
   </body>
 </html></richcontent>
+<node TEXT="手动安装" ID="ID_1541204747" CREATED="1624265987056" MODIFIED="1624265990614">
 <node TEXT="安装toolChain" ID="ID_1460453185" CREATED="1590462161196" MODIFIED="1590482414362"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -641,6 +642,63 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+<node TEXT="使用Docker安装" ID="ID_1730291067" CREATED="1624266003312" MODIFIED="1624266337014" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/build-ncs-application-firmware-images-using-docker?pifragment-628=2"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      比起手动在linux下安装，我们可以使用docker来快速的安装nrf connect sdk的环境。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      安装的方法也有两个，可以参考节点链接中的网页上一步一步的自己编译容器。
+    </p>
+    <p>
+      PS:
+    </p>
+    <p>
+      但是实际操作过程当中因为要下载nrf 的git项目中的代码，而网络访问不畅导致容器安装失败。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="使用现成的docker镜像" ID="ID_655739313" CREATED="1624266039906" MODIFIED="1624266343297"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      最简单的方式是使用别人已经打包好了的docker镜像文件。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      其实也是参考父节点中的链接，那个链接的最后的部分就是讲述如何使用现成的docker镜像文件来编译我们的项目。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      实际操作过程中使用下面的的命令：
+    </p>
+    <p>
+      <font color="#0000c0"><i>docker run --name fw-nrfconnect-nrf-docker --rm -v /tmp/fw-nrfconnect-nrf:/workdir/ncs/fw-nrfconnect-nrf coderbyheart/fw-nrfconnect-nrf-docker:latest \ </i></font>
+    </p>
+    <p>
+      <font color="#0000c0"><i>&nbsp;&nbsp;/bin/bash -c 'cd ncs/fw-nrfconnect-nrf/applications/asset_tracker; west build -p always -b nrf9160_pca20035ns'</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -1124,7 +1182,7 @@
 </node>
 </node>
 </node>
-<node TEXT="nRF SDK Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
+<node TEXT="nRF SDK Documents" FOLDED="true" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
 <node TEXT="User Guides" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
 <node TEXT="Application Development" FOLDED="true" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
 <node TEXT="build&amp;config system" ID="ID_771765127" CREATED="1591601073709" MODIFIED="1591601083153">
@@ -1583,8 +1641,7 @@
       4，定位功能完全是在GPS模块内部自己完成，GPS模块完成一次定位之后会通过socket接口向应用程序发送信息，应用程序只要使用recv()就可以接收到GPS的定位了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="依赖的库" FOLDED="true" ID="ID_210716027" CREATED="1592466020100" MODIFIED="1592466025030">
 <node TEXT="BSD库" ID="ID_684559161" CREATED="1592465959522" MODIFIED="1594825894919"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1619,8 +1676,7 @@
       nRF提供了一个AT命令的Sockt，应用程序只需要创建这个socket，然后使用socket的读写命令就能够给Modem发送AT命令以及获取AT命令的返回字符串。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="AT命令接口" ID="ID_982380268" CREATED="1592552631122" MODIFIED="1623206167659"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1643,8 +1699,7 @@
       在发生同时有多个写AT命令的请求时，AT命令接口内部会将这些请求排序，顺序的执行并依次将结果返回给各自的请求者。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="GPS Socket" ID="ID_1411648197" CREATED="1592470400848" MODIFIED="1592470405752"/>
@@ -2580,8 +2635,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="中国移动的NB-IoT网络" ID="ID_1793282430" CREATED="1594196268615" MODIFIED="1594196374385"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2651,8 +2705,7 @@
       LTE Link Control这个库用于将使能和配置LTE网络的操作给封装成简单统一的API操作。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="最小使用集" ID="ID_1536825757" CREATED="1594027547876" MODIFIED="1594028400849"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
