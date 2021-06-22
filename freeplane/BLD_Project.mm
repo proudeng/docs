@@ -556,7 +556,9 @@
 <node TEXT="Device Tree" ID="ID_1964979602" CREATED="1587996928088" MODIFIED="1587996931434"/>
 <node TEXT="yaml文件" ID="ID_1594848841" CREATED="1587997076559" MODIFIED="1587997079586"/>
 </node>
-<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1590417152660" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Tutorial" ID="ID_1809729424" CREATED="1590417076210" MODIFIED="1624346939417" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/ncs-tutorial---temporary">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -644,6 +646,47 @@
 </html></richcontent>
 </node>
 </node>
+<node TEXT="切换不同的nrf sdk版本" ID="ID_430634446" CREATED="1624341921926" MODIFIED="1624341963753"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      可以简单的使用命令行工具来切换不同的nrf sdk的版本
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="命令" ID="ID_217023073" CREATED="1624341967649" MODIFIED="1624342091271"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      总共需要两个命令：
+    </p>
+    <p>
+      首先进入到nrf文件夹下面，然后使用下面的命令来切换响应的sdk版本,比如：
+    </p>
+    <p>
+      <font color="#0000c0"><b><i>git checkout v1.5.1</i></b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      然后使用下面的命令更新整个sdk的对应的文件的版本:
+    </p>
+    <p>
+      <b><font color="#0000c0"><i>west update</i></font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="使用Docker安装" ID="ID_1730291067" CREATED="1624266003312" MODIFIED="1624266337014" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/build-ncs-application-firmware-images-using-docker?pifragment-628=2"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -667,8 +710,7 @@
       但是实际操作过程当中因为要下载nrf 的git项目中的代码，而网络访问不畅导致容器安装失败。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="使用现成的docker镜像" ID="ID_655739313" CREATED="1624266039906" MODIFIED="1624266343297"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -697,8 +739,7 @@
       <font color="#0000c0"><i>&nbsp;&nbsp;/bin/bash -c 'cd ncs/fw-nrfconnect-nrf/applications/asset_tracker; west build -p always -b nrf9160_pca20035ns'</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -800,7 +841,7 @@
 </node>
 </node>
 <node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1591348922695" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-2-1478313418">
-<node TEXT="ncs中的一些概念" FOLDED="true" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="ncs中的一些概念" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -821,31 +862,7 @@
 <node TEXT="Zephyr" ID="ID_150385644" CREATED="1591077085630" MODIFIED="1591077090353"/>
 </node>
 <node TEXT="编译工具链集合" ID="ID_1382036462" CREATED="1591077142239" MODIFIED="1591078610611">
-<node TEXT="Kconfig" ID="ID_708230321" CREATED="1591077163367" MODIFIED="1591078443475"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Kconfig generates definitions that configure the whole system
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="Device Tree" ID="ID_664702987" CREATED="1591077166766" MODIFIED="1591078447630"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Device Tree describes the hardware
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="CMake" ID="ID_992681936" CREATED="1591077171775" MODIFIED="1591594117777">
+<node TEXT="CMake" ID="ID_992681936" CREATED="1591077171775" MODIFIED="1624347477639">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -856,8 +873,46 @@
     <p>
       Cmake then uses the information from Kconfig and the device tree to generate build files
     </p>
+    <p>
+      
+    </p>
+    <p>
+      CMake起到一个<b><font color="#ff0000">makefile</font></b>的作用。
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node TEXT="作用" ID="ID_353341390" CREATED="1624347261715" MODIFIED="1624347458719"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CMAKE实际上是编译系统的配置工具。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这里所说的编译系统的配置工具，指的是配置什么呢？是下面的这一些的信息：
+    </p>
+    <p>
+      <i>软件的软代码目录在哪儿？ </i>
+    </p>
+    <p>
+      <i>包含哪些软件库？ </i>
+    </p>
+    <p>
+      <i>包含哪些头文件以及这些头文件的目录在哪儿？</i>
+    </p>
+    <p>
+      等等这样的信息
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="Ninja" ID="ID_763848935" CREATED="1591077176647" MODIFIED="1591078526724"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -955,12 +1010,45 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="配置项目" ID="ID_492215929" CREATED="1591082290589" MODIFIED="1591082504541"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="配置参数" ID="ID_1102777984" CREATED="1624347492162" MODIFIED="1624350281927"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
+    <p>
+      系统的配置参数的选择是通过Kconfig和devicetree来完成的。这两套系统起到的作用并不一样。
+    </p>
+    <p>
+      Kconfig是配置系统中软件相关的参数。
+    </p>
+    <p>
+      而devicetree是配置系统中硬件相关参数。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这两套系统的本质其实都是定义全局宏。
+    </p>
+    <p>
+      在讲解的老师看来，Kconfig和Devicetree只要知道了它们的概念，然后在实际操作的时候，参考已有的例子修改就行了，不需要深入的研究，没有必要。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Kconfig" ID="ID_708230321" CREATED="1591077163367" MODIFIED="1624350770604"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kconfig generates definitions that configure the whole system
+    </p>
+    <p>
+      
+    </p>
     <p>
       项目可以做这种的配置，包括使用哪些硬件，以及如何使用他们，选择使用哪个驱动代码，选择包括哪些库，不包括哪些库，选择打开哪些功能，不打开哪些功能等等。
     </p>
@@ -971,9 +1059,282 @@
       这些配置通过Kconfig和prj.conf文件进行配置，最终生成.config文件，并被生成标准的头文件。
     </p>
   </body>
+</html>
+</richcontent>
+<node TEXT="构成" ID="ID_1844890670" CREATED="1624347896081" MODIFIED="1624348899635"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kconfig系统由两种文件构成，Kconfig文件以及proj.conf文件构成。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Kconfig" ID="ID_1576526609" CREATED="1624347905466" MODIFIED="1624348338980"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kconfig并非是只有一个文件，一个项目中可能有多个嵌套的Kconfig文件分布在不同的文件夹目录中。最终的Kconfig的结果是所有的这些Kconfig配置的合集。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="prj.conf" ID="ID_914878297" CREATED="1624347909165" MODIFIED="1624348745254"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      prj.conf这个文件的作用是<font color="#ff0000"><b>修改Kconfig定义的默认值</b></font>。并且这个修改是全局的和只在本项目有效。
+    </p>
+    <p>
+      也就是说这里的配置参数的配置是会覆盖掉Kconfig中的配置值。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="生成的头文件" ID="ID_468892958" CREATED="1624347609962" MODIFIED="1624348942801"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kconfig和prj.conf配置的软件参数最终会生成一个.config文件，这个文件会自动生成一个下面的头文件：
+    </p>
+    <p>
+      <b><font color="#0000c0">autoconf.h</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Device Tree" ID="ID_664702987" CREATED="1591077166766" MODIFIED="1591078447630"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Device Tree describes the hardware
+    </p>
+  </body>
 </html></richcontent>
-<node TEXT="Kconfig" ID="ID_143703335" CREATED="1591082297883" MODIFIED="1591082300214"/>
-<node TEXT="prj.conf文件" ID="ID_28463085" CREATED="1591082300523" MODIFIED="1591082306997"/>
+<node TEXT="生成的头文件" ID="ID_1367458973" CREATED="1624347655387" MODIFIED="1624347706203"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Devicetree配置的系统硬件的参数最终会自动生成下面的头文件：
+    </p>
+    <p>
+      <font color="#0000c0"><b>devicetree_unfixed.h</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;board&gt;.dts" ID="ID_970053325" CREATED="1624349005804" MODIFIED="1624349019008"/>
+<node TEXT="&lt;board&gt;.overlay" ID="ID_49604108" CREATED="1624349022169" MODIFIED="1624350404784"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个文件的作用跟Kconfig的prj.conf文件的作用是一样的：
+    </p>
+    <p>
+      在某一个特定的项目中，使用overlay的这个文件来覆盖默认的devicetree的配置。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="单Image应用和多Image应用" ID="ID_1117668062" CREATED="1624350811377" MODIFIED="1624350820903">
+<node TEXT="单image应用" ID="ID_367666681" CREATED="1624350850462" MODIFIED="1624351032171"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nrf应用，最终生成的image只有一个，这种应用就叫做单imag应用。
+    </p>
+    <p>
+      这样的应用，最终编译完成之后，会生成一个叫做<b><font color="#0000c0">zephyr.hex</font></b>的文件。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="多image应用" ID="ID_1560796137" CREATED="1624350855356" MODIFIED="1624351091953"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在nrf项目中，编译一个项目会生成多个image，这种应用称为多image应用，比如：
+    </p>
+    <p>
+      Bootloader image + app image
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在生成了多个image之后，系统会将多个image再次合并起来，最终呈现在用户这边的文件是一个叫做<b><font color="#0000c0">merged.hex</font></b>的二进制文件
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="NCS包含的子应用" ID="ID_949156059" CREATED="1624351784934" MODIFIED="1624351794146">
+<node TEXT="mcuboot" ID="ID_312574066" CREATED="1624351797050" MODIFIED="1624352191181"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      第三方开发的可以升级的bootloader
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      它由CONFIG_BOOTLOADER_MCUBOOT这个Kconfig宏来控制是否加载它。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="b0" ID="ID_1585309450" CREATED="1624351800339" MODIFIED="1624351868307"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nordic开发的不可升级的bootloader
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="spm" ID="ID_1288427045" CREATED="1624351808514" MODIFIED="1624351999718"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nordic开发的Cortex-M33的非安全应用(Non-secure)的引导程序，由CONFIG_SPM控制是否加载。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      这是由于对于一个非安全应用的话，系统上电之后，必须执行一个安全的应用，然后由安全应用跳转到非安全的应用中去。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="如何选择" ID="ID_1629863606" CREATED="1624352470258" MODIFIED="1624352549289"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其实这个spm的选择不是用户手动的在Kconfig中或者prj.conf中选择的，而是在编译的时候，如果指定的板子类型是ns类型的板子的话，系统就会自动的将这个CONFIG_SPM置为y，然后一起编译进来。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="tfm" ID="ID_886084329" CREATED="1624351816675" MODIFIED="1624352027300"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      tfm的作用跟spm的作用是一样的，但是它是符合PSA标准，由第三方开发的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Partition Manager" ID="ID_1831045057" CREATED="1624352736397" MODIFIED="1624354507014"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      完成对多个image的管理，以及存储划分。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      用户不指定存储分区的时候，partition manager会自动的划分不同的image的存储位置。
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="用户指定存储分区方案" ID="ID_939033777" CREATED="1624354508655" MODIFIED="1624354603034"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在根目录下创建pm_static.yml文件，这个就是作为用户自己配置的存储分区文件。partition manager就不会去尝试再自动分配存储空间。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="中间文件" ID="ID_325216291" CREATED="1624354522409" MODIFIED="1624354624526"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在build目录下会生成partition.yml文件以及pm.config文件
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="Secure&amp;Non-Secure概念" ID="ID_297660271" CREATED="1591082570130" MODIFIED="1591594010508">
 <icon BUILTIN="bookmark"/>
@@ -1027,7 +1388,7 @@
 </node>
 </node>
 <node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1591348932419" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-3-temporary">
-<node TEXT="Zephyr Sensor Subsystem" FOLDED="true" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1591336101746"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Zephyr Sensor Subsystem" FOLDED="true" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1624346871116"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1039,11 +1400,9 @@
     <p>
       子节点包含了当前Zephyr项目已经支持的传感器列表。
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="Zephyr传感器列表" ID="ID_955949050" CREATED="1591336106477" MODIFIED="1591336136338" LINK="https://github.com/nrfconnect/sdk-zephyr/tree/v2.1.99-ncs1/drivers/sensor"/>
 <node TEXT="Sensor首选需要一个驱动" ID="ID_956660526" CREATED="1591340742182" MODIFIED="1591342809293"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1093,7 +1452,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="板子相关的文件" FOLDED="true" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
+<node TEXT="板子相关的文件" ID="ID_1316549339" CREATED="1591343039383" MODIFIED="1591343045936">
 <node TEXT="DTS文件" ID="ID_535798250" CREATED="1591343048079" MODIFIED="1591343349337"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -3395,7 +3754,7 @@
 </html></richcontent>
 </node>
 <node TEXT="快速翻倒的时候有时候不能够检测到震动" ID="ID_1347899214" CREATED="1606977554652" MODIFIED="1606977569277"/>
-<node TEXT="网络连接/GPS获取需要长时间" ID="ID_953995090" CREATED="1606977589838" MODIFIED="1606977791125"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="网络连接/GPS获取需要长时间" ID="ID_953995090" CREATED="1606977589838" MODIFIED="1624350176050"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3420,7 +3779,8 @@
       可以使用FIFO来记录多个先后发生的事件，然后使用多线程来单独处理网络连接和GPS位置获取的任务，等到网络连接成功了或者GPS位置获取成功了，从FIFO buffer中获取存好的数据进行上报。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="再次尝试GPS和NB网络共存的模式" ID="ID_621301384" CREATED="1608080509827" MODIFIED="1608080522110"/>
 </node>
 </node>
