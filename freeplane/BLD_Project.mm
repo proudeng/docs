@@ -656,8 +656,7 @@
       可以简单的使用命令行工具来切换不同的nrf sdk的版本
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="命令" ID="ID_217023073" CREATED="1624341967649" MODIFIED="1624342091271"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -683,8 +682,7 @@
       <b><font color="#0000c0"><i>west update</i></font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -880,8 +878,7 @@
       CMake起到一个<b><font color="#ff0000">makefile</font></b>的作用。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="作用" ID="ID_353341390" CREATED="1624347261715" MODIFIED="1624347458719"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -910,8 +907,7 @@
       等等这样的信息
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Ninja" ID="ID_763848935" CREATED="1591077176647" MODIFIED="1591078526724"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1035,8 +1031,7 @@
       在讲解的老师看来，Kconfig和Devicetree只要知道了它们的概念，然后在实际操作的时候，参考已有的例子修改就行了，不需要深入的研究，没有必要。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Kconfig" ID="ID_708230321" CREATED="1591077163367" MODIFIED="1624350770604"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1059,8 +1054,7 @@
       这些配置通过Kconfig和prj.conf文件进行配置，最终生成.config文件，并被生成标准的头文件。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="构成" ID="ID_1844890670" CREATED="1624347896081" MODIFIED="1624348899635"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1077,8 +1071,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Kconfig" ID="ID_1576526609" CREATED="1624347905466" MODIFIED="1624348338980"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1089,8 +1082,7 @@
       Kconfig并非是只有一个文件，一个项目中可能有多个嵌套的Kconfig文件分布在不同的文件夹目录中。最终的Kconfig的结果是所有的这些Kconfig配置的合集。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="prj.conf" ID="ID_914878297" CREATED="1624347909165" MODIFIED="1624348745254"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1105,8 +1097,7 @@
       也就是说这里的配置参数的配置是会覆盖掉Kconfig中的配置值。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="生成的头文件" ID="ID_468892958" CREATED="1624347609962" MODIFIED="1624348942801"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1122,8 +1113,7 @@
       <b><font color="#0000c0">autoconf.h</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Device Tree" ID="ID_664702987" CREATED="1591077166766" MODIFIED="1591078447630"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1150,8 +1140,7 @@
       <font color="#0000c0"><b>devicetree_unfixed.h</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;board&gt;.dts" ID="ID_970053325" CREATED="1624349005804" MODIFIED="1624349019008"/>
 <node TEXT="&lt;board&gt;.overlay" ID="ID_49604108" CREATED="1624349022169" MODIFIED="1624350404784"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1167,8 +1156,7 @@
       在某一个特定的项目中，使用overlay的这个文件来覆盖默认的devicetree的配置。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1186,8 +1174,7 @@
       这样的应用，最终编译完成之后，会生成一个叫做<b><font color="#0000c0">zephyr.hex</font></b>的文件。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="多image应用" ID="ID_1560796137" CREATED="1624350855356" MODIFIED="1624351091953"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1208,8 +1195,7 @@
       在生成了多个image之后，系统会将多个image再次合并起来，最终呈现在用户这边的文件是一个叫做<b><font color="#0000c0">merged.hex</font></b>的二进制文件
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="NCS包含的子应用" ID="ID_949156059" CREATED="1624351784934" MODIFIED="1624351794146">
 <node TEXT="mcuboot" ID="ID_312574066" CREATED="1624351797050" MODIFIED="1624352191181"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1228,8 +1214,7 @@
       它由CONFIG_BOOTLOADER_MCUBOOT这个Kconfig宏来控制是否加载它。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="b0" ID="ID_1585309450" CREATED="1624351800339" MODIFIED="1624351868307"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1241,8 +1226,7 @@
       Nordic开发的不可升级的bootloader
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="spm" ID="ID_1288427045" CREATED="1624351808514" MODIFIED="1624351999718"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1260,8 +1244,7 @@
       这是由于对于一个非安全应用的话，系统上电之后，必须执行一个安全的应用，然后由安全应用跳转到非安全的应用中去。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="如何选择" ID="ID_1629863606" CREATED="1624352470258" MODIFIED="1624352549289"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1272,8 +1255,7 @@
       其实这个spm的选择不是用户手动的在Kconfig中或者prj.conf中选择的，而是在编译的时候，如果指定的板子类型是ns类型的板子的话，系统就会自动的将这个CONFIG_SPM置为y，然后一起编译进来。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="tfm" ID="ID_886084329" CREATED="1624351816675" MODIFIED="1624352027300"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1286,8 +1268,7 @@
       tfm的作用跟spm的作用是一样的，但是它是符合PSA标准，由第三方开发的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Partition Manager" ID="ID_1831045057" CREATED="1624352736397" MODIFIED="1624354507014"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1306,9 +1287,8 @@
       用户不指定存储分区的时候，partition manager会自动的划分不同的image的存储位置。
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="用户指定存储分区方案" ID="ID_939033777" CREATED="1624354508655" MODIFIED="1624354603034"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html></richcontent>
+<node TEXT="用户指定存储分区方案" ID="ID_939033777" CREATED="1624354508655" MODIFIED="1624361739422"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1331,8 +1311,7 @@
       在build目录下会生成partition.yml文件以及pm.config文件
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1401,8 +1380,7 @@
       子节点包含了当前Zephyr项目已经支持的传感器列表。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Zephyr传感器列表" ID="ID_955949050" CREATED="1591336106477" MODIFIED="1591336136338" LINK="https://github.com/nrfconnect/sdk-zephyr/tree/v2.1.99-ncs1/drivers/sensor"/>
 <node TEXT="Sensor首选需要一个驱动" ID="ID_956660526" CREATED="1591340742182" MODIFIED="1591342809293"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1753,7 +1731,7 @@
 </node>
 <node TEXT="secure partition manager" FOLDED="true" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592288320676" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="581.24998 pt;0 pt;" ENDINCLINATION="581.24998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="581.28442 pt;0 pt;" ENDINCLINATION="581.28442 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2334,7 +2312,7 @@
 </node>
 </node>
 <node TEXT="Cloud Client" ID="ID_1879742012" CREATED="1592893402601" MODIFIED="1592893408482"/>
-<node TEXT="Asset Tracker Demo" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1594024118156">
+<node TEXT="Asset Tracker Demo" FOLDED="true" ID="ID_1033207634" CREATED="1587537516109" MODIFIED="1594024118156">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
@@ -2809,7 +2787,7 @@
   </body>
 </html></richcontent>
 <node TEXT="modem_configure()" ID="ID_904204409" CREATED="1593696249349" MODIFIED="1594025619870">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_891820953" STARTINCLINATION="751.49998 pt;0 pt;" ENDINCLINATION="751.49998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_891820953" STARTINCLINATION="751.70645 pt;0 pt;" ENDINCLINATION="751.70645 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="nRF云处理" ID="ID_675738347" CREATED="1593695982237" MODIFIED="1593696135562">
@@ -2856,7 +2834,7 @@
   </body>
 </html></richcontent>
 <node TEXT="cloud_input()" ID="ID_267268416" CREATED="1593696351116" MODIFIED="1593697020416">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1673423060" STARTINCLINATION="84 pt;0 pt;" ENDINCLINATION="84 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1673423060" STARTINCLINATION="83.88991 pt;0 pt;" ENDINCLINATION="83.88991 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="cloud_disconnect()" ID="ID_683111512" CREATED="1593696554002" MODIFIED="1593696556269"/>
@@ -2873,7 +2851,7 @@
 <node TEXT="sensors_start()" ID="ID_145194583" CREATED="1593699743536" MODIFIED="1593700263249">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1447496195" STARTINCLINATION="415.49999 pt;0 pt;" ENDINCLINATION="415.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1447496195" STARTINCLINATION="415.48625 pt;0 pt;" ENDINCLINATION="415.48625 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="CLOUD_EVT_ERROR" ID="ID_47074227" CREATED="1593697623822" MODIFIED="1593697624645"/>
@@ -2882,7 +2860,7 @@
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_37727885" STARTINCLINATION="202.49999 pt;0 pt;" ENDINCLINATION="202.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_37727885" STARTINCLINATION="202.789 pt;0 pt;" ENDINCLINATION="202.789 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2902,10 +2880,10 @@
 <node TEXT="cloud_decode_command()" ID="ID_37727885" CREATED="1593697780892" MODIFIED="1593699174348">
 <icon BUILTIN="bookmark"/>
 <node TEXT="cloud_search_cmd()" ID="ID_350497263" CREATED="1593699226749" MODIFIED="1593699256096">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="42.75 pt;0 pt;" ENDINCLINATION="42.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="42.93578 pt;0 pt;" ENDINCLINATION="42.93578 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="cloud_search_config()" ID="ID_386879525" CREATED="1593699235771" MODIFIED="1593699259300">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="30 pt;0 pt;" ENDINCLINATION="30 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="29.72477 pt;0 pt;" ENDINCLINATION="29.72477 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="cloud_cmd_handler()" ID="ID_1141820697" CREATED="1593699162003" MODIFIED="1593699177922">
 <icon BUILTIN="bookmark"/>
@@ -3395,19 +3373,19 @@
 <node TEXT="如何配置一个Region" ID="ID_1513436862" CREATED="1592285250274" MODIFIED="1592285256932">
 <node TEXT="选择操作region" ID="ID_585702928" CREATED="1592285258785" MODIFIED="1592285344653">
 <icon BUILTIN="full-1"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_795043298" STARTINCLINATION="157.5 pt;0 pt;" ENDINCLINATION="157.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_795043298" STARTINCLINATION="157.21101 pt;0 pt;" ENDINCLINATION="157.21101 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="填写region起始地址" ID="ID_992790401" CREATED="1592285272538" MODIFIED="1592285348973">
 <icon BUILTIN="full-2"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_508883086" STARTINCLINATION="170.24999 pt;0 pt;" ENDINCLINATION="170.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_508883086" STARTINCLINATION="170.42202 pt;0 pt;" ENDINCLINATION="170.42202 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="填写region结束地址以及region属性" ID="ID_836854815" CREATED="1592285290579" MODIFIED="1592285352987">
 <icon BUILTIN="full-3"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1815000314" STARTINCLINATION="224.24999 pt;0 pt;" ENDINCLINATION="224.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1815000314" STARTINCLINATION="223.92661 pt;0 pt;" ENDINCLINATION="223.92661 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="所有region配置结束后使能SAU" ID="ID_827916928" CREATED="1592285304323" MODIFIED="1592285358294">
 <icon BUILTIN="full-4"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1921586318" STARTINCLINATION="251.99999 pt;0 pt;" ENDINCLINATION="251.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1921586318" STARTINCLINATION="251.66973 pt;0 pt;" ENDINCLINATION="251.66973 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -3779,8 +3757,7 @@
       可以使用FIFO来记录多个先后发生的事件，然后使用多线程来单独处理网络连接和GPS位置获取的任务，等到网络连接成功了或者GPS位置获取成功了，从FIFO buffer中获取存好的数据进行上报。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="再次尝试GPS和NB网络共存的模式" ID="ID_621301384" CREATED="1608080509827" MODIFIED="1608080522110"/>
 </node>
 </node>
