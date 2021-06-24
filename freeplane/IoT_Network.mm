@@ -65,8 +65,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="IoT协议" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="IoT协议" FOLDED="true" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
 <edge COLOR="#ff0000"/>
 <node TEXT="应用层" ID="ID_555749467" CREATED="1608122495335" MODIFIED="1608122500615">
 <node TEXT="MQTT" ID="ID_1990357631" CREATED="1608122517359" MODIFIED="1608122519582"/>
@@ -832,8 +832,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 </pre>
     <!--Created using ToHtml.com on 2021-06-07 15:21:34 UTC -->
     </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="coap-server" ID="ID_1295243270" CREATED="1622705738859" MODIFIED="1622705741582"/>
@@ -951,8 +950,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       同时平台也能够主动的去向设备发起请求，要求设备上报当前的某些属性的最新状态。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="定义事件" ID="ID_1133552919" CREATED="1623132181642" MODIFIED="1623133195492"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -967,8 +965,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       事件是定义一个事件，并且定义事件发生的条件，当这个事件发生的时候，设备能够上报一组属性值。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="定义服务" ID="ID_1932447801" CREATED="1623132404195" MODIFIED="1623132410016"/>
 </node>
@@ -982,8 +979,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       设备就是产品的一个实例。比如一个烟雾传感器产品，它有非常多的实例，每个实例的属性都是一样的，但是这些属性的取值或者状态跟是各不相同的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1222,8 +1218,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       <b>会返回一个<font color="#ff0000">4.00</font>错误码，所以我们在准备login请求的时候，一定要精细的计算好这个et参数，让它足够的超前。</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="method" ID="ID_10090849" CREATED="1622712365259" MODIFIED="1622713094202"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1397,8 +1392,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       上行上报属性和事件的时候，payload中存放的是OneNet自己定义的OneJson数据类型。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="oneJson" ID="ID_1227617886" CREATED="1623134791815" MODIFIED="1623135196946"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1421,8 +1415,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       回头再继续了解一下Onenet也支持的Lwm2m协议，这个协议承载在coap协议的payload中，应该就避开了OneJson格式的负载了，能够享受到coap协议的内容紧凑带宽占用小的优点了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1995,6 +1988,44 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 <edge COLOR="#00ffff"/>
 <node TEXT="分析总结各种OS的一篇网文" ID="ID_360761712" CREATED="1621574607656" MODIFIED="1621574626625" LINK="https://www.eet-china.com/news/202105180818.html"/>
 </node>
+<node TEXT="IoT硬件平台" POSITION="right" ID="ID_1984044424" CREATED="1624514392814" MODIFIED="1624514402495">
+<edge COLOR="#7c0000"/>
+<node TEXT="ESP32" ID="ID_222258173" CREATED="1624514409059" MODIFIED="1624514561735"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个支持wifi和蓝牙的低成本芯片。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      而且一个好消息是，在这个片子上可以跑zephyr系统。
+    </p>
+    <p>
+      从而也就意味着zephyr的很多的网络协议栈可以直接拿来使用了。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="树莓派pico" ID="ID_1518048384" CREATED="1624514414289" MODIFIED="1624515692316"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一款支持休眠功能的低功耗树莓派平台。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="Patent Idea" POSITION="left" ID="ID_1570999189" CREATED="1608533820021" MODIFIED="1608533853562">
 <edge COLOR="#0000ff"/>
 <node TEXT="基于IoT的定位平台" ID="ID_1568606325" CREATED="1608533855339" MODIFIED="1608535283616"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -2182,7 +2213,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 </html></richcontent>
 </node>
 </node>
-<node TEXT="UWB通信技术" POSITION="left" ID="ID_1333187219" CREATED="1618972993599" MODIFIED="1618973894286">
+<node TEXT="UWB通信技术" POSITION="left" ID="ID_1333187219" CREATED="1618972993599" MODIFIED="1624515668439">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -2212,7 +2243,8 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       它和当今使用的主流的无线通信系统的主要区别在于，<b><font color="#0000c0">它不采用正弦载波调制</font></b>，而是利用<b><font color="#0000c0">纳秒级的非正弦波窄脉冲</font></b>传输数据，因此其所占的频谱范围很大(对于脉冲信号来说，脉冲信号持续的时间越短，那么它所占的频带也就越宽。)，尽管使用无线通信，但其数据传输速率可以达到几百兆比特每秒以上
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="基本原理" ID="ID_1022992540" CREATED="1618988209139" MODIFIED="1618988416755"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2283,6 +2315,36 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 <node TEXT="短距离高速应用" ID="ID_1110135943" CREATED="1618988298296" MODIFIED="1618988306977"/>
 <node TEXT="中长距离低速应用" ID="ID_822729686" CREATED="1618988307730" MODIFIED="1618988324033"/>
 <node TEXT="UWB高精度室内定位" ID="ID_974726503" CREATED="1618973083042" MODIFIED="1618988347499"/>
+</node>
+</node>
+<node TEXT="传感器" POSITION="right" ID="ID_1436938915" CREATED="1624515696557" MODIFIED="1624515699586">
+<edge COLOR="#00007c"/>
+<node TEXT="人体传感器" ID="ID_780815692" CREATED="1624515701372" MODIFIED="1624515704210">
+<node TEXT="HC-SR501" ID="ID_1330790666" CREATED="1624515715272" MODIFIED="1624517200096"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在网络上搜集红外线人体传感器信息，不少的文章都提到了这个传感器。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      价格也不贵，大约在10元左右。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      但是，这个传感器的使用场景似乎主要是，人体移动检测传感器，也就是说，似乎是如果人体虽然靠近了传感器，但是处于静止状态的话，是不太容易检测出来这样的情形的。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
