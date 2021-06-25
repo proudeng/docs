@@ -1,15 +1,16 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linear Algebra" FOLDED="false" ID="ID_1347990175" CREATED="1547529392459" MODIFIED="1547529439496" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_960895755" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_960895755" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -66,25 +68,23 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Concept" POSITION="right" ID="ID_1542591498" CREATED="1547529463230" MODIFIED="1547529466321">
 <edge COLOR="#ff0000"/>
-<node TEXT="&#x5185;&#x79ef;" ID="ID_1886975687" CREATED="1547529467213" MODIFIED="1547529598240"><richcontent TYPE="NOTE">
-
+<node TEXT="内积" ID="ID_1886975687" CREATED="1547529467213" MODIFIED="1624594656004"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#20004;&#20010;&#21521;&#37327;&#23545;&#24212;&#21508;&#20010;&#20998;&#37327;&#30340;&#31215;&#30340;&#21644;&#31216;&#20026;&#36825;&#20004;&#20010;&#21521;&#37327;&#30340;&#20869;&#31215;&#12290;
+      两个向量对应各个分量的积的和称为这两个向量的内积。
     </p>
     <p>
       
     </p>
     <p>
-      &#22312;&#20004;&#20010;&#30697;&#38453;A X B&#30456;&#20056;&#30340;&#26102;&#20505;&#65292;&#26032;&#30340;&#21521;&#37327;&#30340;&#27599;&#19968;&#20010;&#20803;&#32032;&#23601;&#26159;A&#30697;&#38453;&#20013;&#26576;&#19968;&#34892;&#20110;B&#30697;&#38453;&#20013;&#26576;&#19968;&#21015;&#30340;&#20869;&#31215;&#12290;
+      在两个矩阵A X B相乘的时候，新的向量的每一个元素就是A矩阵中某一行于B矩阵中某一列的内积。
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
