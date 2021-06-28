@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -98,7 +98,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="《第一章》" POSITION="left" ID="ID_134590108" CREATED="1624798830710" MODIFIED="1624802504964">
+<node TEXT="《第一章》" POSITION="left" ID="ID_134590108" CREATED="1624798830710" MODIFIED="1624843990241">
 <edge COLOR="#0000ff"/>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -107,10 +107,14 @@
   </head>
   <body>
     <p>
-      行列式与线性方程组的高斯消元法
+      行列式与
+    </p>
+    <p>
+      线性方程组的高斯消元法
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -127,7 +131,7 @@
       
     </p>
     <p>
-      感觉上，行列式的应用实际在后续的章节中会体现出来，会用于计算特征向量中。
+      感觉上，行列式的应用实际在后续的章节中会体现出来，会用于计算特征向量和特征值中，也会用于判断矩阵的列向量是否线性相关。
     </p>
   </body>
 </html>
@@ -160,8 +164,7 @@
       <b><font color="#0000c0">任一排列经过对换后必定改变奇偶性</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="【推论1.1】" ID="ID_1377248212" CREATED="1624804204662" MODIFIED="1624804595782"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -172,8 +175,7 @@
       <b><font color="#0000c0">所有的n阶排列中，奇排列和偶排列各占一半，为n!/2个。</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -198,8 +200,7 @@
       这个定义叫做行列式的<b><font color="#0000c0">完全展开式</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="上(下)三角形行列式" ID="ID_1715730465" CREATED="1624805041124" MODIFIED="1624805157942"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -212,8 +213,7 @@
       对于这样的行列式来说，其值就是对角线上的元素的<b><font color="#0000c0">连乘</font></b>。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -229,8 +229,7 @@
       一个行列式的值等于其转置行列式的值。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性质2" ID="ID_511438099" CREATED="1624806725202" MODIFIED="1624806763525"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -242,8 +241,7 @@
       将行列式中的任意两行(列)互换，行列式的值反号。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性质3" ID="ID_1595336930" CREATED="1624806773241" MODIFIED="1624806801895"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -255,8 +253,7 @@
       如果行列式中两行(列)对应元素的值相等，那么行列式的值为0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性质4" ID="ID_417326549" CREATED="1624806833057" MODIFIED="1624806867701"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -268,8 +265,7 @@
       如果行列式中的某一行或者某一列有公因子k，那么公因子k可以提取到行列式符号外面。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性质5" ID="ID_1405840791" CREATED="1624806877298" MODIFIED="1624806913245"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -281,8 +277,7 @@
       行列式中如果某一个行(列)中的元素都为0，那么此行列式的值为0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性质6" ID="ID_748679509" CREATED="1624806939297" MODIFIED="1624806970901"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -294,8 +289,7 @@
       行列式中如果两行(列)元素对应成比例，那么行列式的值为0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性质7" ID="ID_1159280111" CREATED="1624807007449" MODIFIED="1624807053590"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -307,8 +301,7 @@
       行列式中如果某行(列)的元素可以写为两个元素的和，那么行列式也可以写为两个特行列式和的形式。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="性质8" ID="ID_156088790" CREATED="1624807083481" MODIFIED="1624807116333"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -320,8 +313,7 @@
       将行列式的某行(列)的k倍加到另外一行(列)上去，行列式的值不变。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="n阶行列式的展开定理" ID="ID_1164998449" CREATED="1624802819798" MODIFIED="1624802850057">
@@ -332,6 +324,15 @@
 </node>
 <node TEXT="高斯消元法" ID="ID_1632602554" CREATED="1624802842111" MODIFIED="1624802853526">
 <icon BUILTIN="full-5"/>
+</node>
+</node>
+<node TEXT="图标" POSITION="right" ID="ID_436155361" CREATED="1624842636096" MODIFIED="1624842647657">
+<edge COLOR="#00ff00"/>
+<node TEXT="定义" ID="ID_276993141" CREATED="1624842649093" MODIFIED="1624842667236">
+<icon BUILTIN="idea"/>
+</node>
+<node TEXT="定理" ID="ID_419116241" CREATED="1624842651357" MODIFIED="1624842674135">
+<icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
 </node>

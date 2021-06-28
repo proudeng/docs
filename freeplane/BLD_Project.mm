@@ -1730,7 +1730,7 @@
 </node>
 <node TEXT="secure partition manager" FOLDED="true" ID="ID_646794927" CREATED="1591609412301" MODIFIED="1592288320676" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/nrf9160/spm/README.html#secure-partition-manager">
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="581.28442 pt;0 pt;" ENDINCLINATION="581.28442 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_796314520" STARTINCLINATION="581.24998 pt;0 pt;" ENDINCLINATION="581.24998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2786,7 +2786,7 @@
   </body>
 </html></richcontent>
 <node TEXT="modem_configure()" ID="ID_904204409" CREATED="1593696249349" MODIFIED="1594025619870">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_891820953" STARTINCLINATION="751.70645 pt;0 pt;" ENDINCLINATION="751.70645 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_891820953" STARTINCLINATION="751.49998 pt;0 pt;" ENDINCLINATION="751.49998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="nRF云处理" ID="ID_675738347" CREATED="1593695982237" MODIFIED="1593696135562">
@@ -2833,7 +2833,7 @@
   </body>
 </html></richcontent>
 <node TEXT="cloud_input()" ID="ID_267268416" CREATED="1593696351116" MODIFIED="1593697020416">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1673423060" STARTINCLINATION="83.88991 pt;0 pt;" ENDINCLINATION="83.88991 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="7 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1673423060" STARTINCLINATION="84 pt;0 pt;" ENDINCLINATION="84 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="cloud_disconnect()" ID="ID_683111512" CREATED="1593696554002" MODIFIED="1593696556269"/>
@@ -2850,7 +2850,7 @@
 <node TEXT="sensors_start()" ID="ID_145194583" CREATED="1593699743536" MODIFIED="1593700263249">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1447496195" STARTINCLINATION="415.48625 pt;0 pt;" ENDINCLINATION="415.48625 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1447496195" STARTINCLINATION="415.49999 pt;0 pt;" ENDINCLINATION="415.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="CLOUD_EVT_ERROR" ID="ID_47074227" CREATED="1593697623822" MODIFIED="1593697624645"/>
@@ -2859,7 +2859,7 @@
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="bookmark"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_37727885" STARTINCLINATION="202.789 pt;0 pt;" ENDINCLINATION="202.789 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_37727885" STARTINCLINATION="202.49999 pt;0 pt;" ENDINCLINATION="202.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2879,10 +2879,10 @@
 <node TEXT="cloud_decode_command()" ID="ID_37727885" CREATED="1593697780892" MODIFIED="1593699174348">
 <icon BUILTIN="bookmark"/>
 <node TEXT="cloud_search_cmd()" ID="ID_350497263" CREATED="1593699226749" MODIFIED="1593699256096">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="42.93578 pt;0 pt;" ENDINCLINATION="42.93578 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="42.75 pt;0 pt;" ENDINCLINATION="42.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="cloud_search_config()" ID="ID_386879525" CREATED="1593699235771" MODIFIED="1593699259300">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="29.72477 pt;0 pt;" ENDINCLINATION="29.72477 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1141820697" STARTINCLINATION="30 pt;0 pt;" ENDINCLINATION="30 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="cloud_cmd_handler()" ID="ID_1141820697" CREATED="1593699162003" MODIFIED="1593699177922">
 <icon BUILTIN="bookmark"/>
@@ -3372,19 +3372,19 @@
 <node TEXT="如何配置一个Region" ID="ID_1513436862" CREATED="1592285250274" MODIFIED="1592285256932">
 <node TEXT="选择操作region" ID="ID_585702928" CREATED="1592285258785" MODIFIED="1592285344653">
 <icon BUILTIN="full-1"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_795043298" STARTINCLINATION="157.21101 pt;0 pt;" ENDINCLINATION="157.21101 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_795043298" STARTINCLINATION="157.5 pt;0 pt;" ENDINCLINATION="157.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="填写region起始地址" ID="ID_992790401" CREATED="1592285272538" MODIFIED="1592285348973">
 <icon BUILTIN="full-2"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_508883086" STARTINCLINATION="170.42202 pt;0 pt;" ENDINCLINATION="170.42202 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_508883086" STARTINCLINATION="170.24999 pt;0 pt;" ENDINCLINATION="170.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="填写region结束地址以及region属性" ID="ID_836854815" CREATED="1592285290579" MODIFIED="1592285352987">
 <icon BUILTIN="full-3"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1815000314" STARTINCLINATION="223.92661 pt;0 pt;" ENDINCLINATION="223.92661 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1815000314" STARTINCLINATION="224.24999 pt;0 pt;" ENDINCLINATION="224.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="所有region配置结束后使能SAU" ID="ID_827916928" CREATED="1592285304323" MODIFIED="1592285358294">
 <icon BUILTIN="full-4"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1921586318" STARTINCLINATION="251.66973 pt;0 pt;" ENDINCLINATION="251.66973 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1921586318" STARTINCLINATION="251.99999 pt;0 pt;" ENDINCLINATION="251.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -3777,7 +3777,36 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="网络连接部分的代码逻辑需要优化" ID="ID_1732799613" CREATED="1624598866931" MODIFIED="1624599773742"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</node>
+</node>
+<node TEXT="可能的系统级改进" ID="ID_197221239" CREATED="1607409703711" MODIFIED="1607409716290">
+<node TEXT="使用CoAP协议上报状态" ID="ID_1736056755" CREATED="1622446921951" MODIFIED="1624865514838">
+<icon BUILTIN="100%"/>
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      相对于MQTT这种基于TCP的协议，CoPA协议基于UDP实现，同时为IoT设备做了很多的轻量化的改进。
+    </p>
+    <p>
+      从系统的开销方面来看，使用CoAP协议比使用MQTT协议需要消耗的资源要少很多。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      同时，从应用角度来说，MQTT适用的场景是那些需要通信双方能够实时交互的场景，对即时响应的要求比较的高。
+    </p>
+    <p>
+      但是在物联网设备大部分时间休眠，只是偶尔上报少量的数据这样的场景来说，使用MQTT就没有那么有必要了。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="网络连接部分的代码逻辑需要优化" ID="ID_1732799613" CREATED="1624598866931" MODIFIED="1624865521562"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3821,6 +3850,74 @@
     </p>
   </body>
 </html></richcontent>
+<node TEXT="架构设计改进" ID="ID_1941760600" CREATED="1624865596938" MODIFIED="1624865634435">
+<node TEXT="消息接收专用线程" ID="ID_1562292534" CREATED="1624865559752" MODIFIED="1624865788477"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      需要一个专用线程吗？还是使用一个专门的work queue就行了？
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="监听NB-IoT的连接状态" ID="ID_33194098" CREATED="1624867143696" MODIFIED="1624872261388"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      实际上，比较可行的一种方式是：
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      在设备处于NB-IoT的连接态或者IDLE态的时候，可以可以一直监听服务器端的请求。
+    </p>
+    <p>
+      而当设备使用了PSM模式进入了睡眠态之后，设备就可以取消监听，这时候没有必要监听服务器端的请求了，因为反正肯定是不会有任何的请求能够到达设备了。
+    </p>
+    <p>
+      问题是：
+    </p>
+    <p>
+      如果在设备进入了PSM的睡眠态之后，还没有取消监听udp消息的话，代码会发生什么？会报错吗？
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="基于flag的状态机" ID="ID_634444009" CREATED="1624865574438" MODIFIED="1624865774627"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用专用线程来统一接收消息的话，那么需要一个状态机机制。这个机制可以实现一个滤波机制，过滤掉在特定状态下不期望接收的消息。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="需要探讨的问题" ID="ID_1988253025" CREATED="1624865609997" MODIFIED="1624865863133"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      参考子节点，这个猜测可以通过测试代码验证我们的想法。
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="设备处于PSM状态能够监听网络端的UDP请求吗？" ID="ID_1784848685" CREATED="1624716395858" MODIFIED="1624783452960">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -3840,33 +3937,6 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="可能的系统级改进" ID="ID_197221239" CREATED="1607409703711" MODIFIED="1607409716290">
-<node TEXT="使用CoAP协议上报状态" ID="ID_1736056755" CREATED="1622446921951" MODIFIED="1624526637425">
-<icon BUILTIN="100%"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      相对于MQTT这种基于TCP的协议，CoPA协议基于UDP实现，同时为IoT设备做了很多的轻量化的改进。
-    </p>
-    <p>
-      从系统的开销方面来看，使用CoAP协议比使用MQTT协议需要消耗的资源要少很多。
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      同时，从应用角度来说，MQTT适用的场景是那些需要通信双方能够实时交互的场景，对即时响应的要求比较的高。
-    </p>
-    <p>
-      但是在物联网设备大部分时间休眠，只是偶尔上报少量的数据这样的场景来说，使用MQTT就没有那么有必要了。
-    </p>
-  </body>
-</html></richcontent>
 </node>
 <node TEXT="使用LWM2M协议联网" ID="ID_1284208" CREATED="1608080255035" MODIFIED="1608170345464"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>

@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="IoT协议" FOLDED="true" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
 <edge COLOR="#ff0000"/>
 <node TEXT="应用层" ID="ID_555749467" CREATED="1608122495335" MODIFIED="1608122500615">
@@ -1157,8 +1157,8 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 </html></richcontent>
 </node>
 <node TEXT="res" ID="ID_1543367132" CREATED="1622712359236" MODIFIED="1622713276553">
-<arrowlink DESTINATION="ID_523214700"/>
 <arrowlink DESTINATION="ID_1394982288"/>
+<arrowlink DESTINATION="ID_523214700"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2009,8 +2009,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       从而也就意味着zephyr的很多的网络协议栈可以直接拿来使用了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="树莓派pico" ID="ID_1518048384" CREATED="1624514414289" MODIFIED="1624515692316"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -2022,8 +2021,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       一款支持休眠功能的低功耗树莓派平台。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Patent Idea" POSITION="left" ID="ID_1570999189" CREATED="1608533820021" MODIFIED="1608533853562">
@@ -2243,8 +2241,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       它和当今使用的主流的无线通信系统的主要区别在于，<b><font color="#0000c0">它不采用正弦载波调制</font></b>，而是利用<b><font color="#0000c0">纳秒级的非正弦波窄脉冲</font></b>传输数据，因此其所占的频谱范围很大(对于脉冲信号来说，脉冲信号持续的时间越短，那么它所占的频带也就越宽。)，尽管使用无线通信，但其数据传输速率可以达到几百兆比特每秒以上
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="基本原理" ID="ID_1022992540" CREATED="1618988209139" MODIFIED="1618988416755"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2342,9 +2339,114 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       但是，这个传感器的使用场景似乎主要是，人体移动检测传感器，也就是说，似乎是如果人体虽然靠近了传感器，但是处于静止状态的话，是不太容易检测出来这样的情形的。
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node TEXT="IoT相关产品的商业模式" POSITION="right" ID="ID_565395894" CREATED="1624843166711" MODIFIED="1624862651121">
+<icon BUILTIN="help"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<icon BUILTIN="bookmark"/>
+<edge COLOR="#007c00"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这里所说的商业模式简单是指，利用IoT的技术，怎么样可以挣钱？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      从IoT这个技术本身来看，它其实不是一个产品，它只是一个技术而已。而且通信功能说到底是一个产品的能力，它本身来说作为一个产品的场景不多(只能说不多吧，并非永远不是一个产品)
+    </p>
+    <p>
+      所以它的产品形态一般是只能附着在其他的产品上，它的价值体现的方式也是通过改造现有的产品，提升现有产品的体验，降低现有产品的各方面成本。
+    </p>
+    <p>
+      所以IoT的方式一般是提供解决方案，也就是和其他的现有的产品和现有的产业结合在一起。改善现有产业的体验。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      所以，基于这样的实际情况，如何来使用IoT来挣钱呢？
+    </p>
+    <p>
+      尤其是对于初创公司来说，初创的公司一般有能力提供一个产品的解决方案，但是他们一般比较难切入到具体的行业中去，对具体的行业的运作和流程不熟悉。
+    </p>
+    <p>
+      而且这样的工程也需要有人在这些行业中能够有相关的经验和话语权才容易执行。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      而且改造其他行业这件事情，利益相关方很多，初创公司认为的痛点在行业相关人员看起来并不存在--当然这一点从另一个角度来看，还是说明痛点没有抓到位。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="作为通信从业者的切入点？" ID="ID_871210620" CREATED="1624862125476" MODIFIED="1624862645334"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      作为通信的从业者而言，我们希望利用无线网络知识提供的产品形态是什么样的？
+    </p>
+    <p>
+      或者说，什么样的产品是我们比较有优势，容易切入的？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      看起来，应该是这样的一种形态：
+    </p>
+    <p>
+      无线连接这个技术，不是作为传统行业的一种附属增值产品，只是帮传统行业减去了连线的束缚，这样的功能不是我们的优势所在。
+    </p>
+    <p>
+      我们要关注的是，无线连接本身就能够构成一种产品，这种产品是原先的传统行业中没有的新的产品。
+    </p>
+    <p>
+      我想，比较典型的产品就是<b><font color="#ff0000">定位：</font></b>
+    </p>
+    <p>
+      利用无线技术来做定位，这个功能原先在传统行业中没有，同时，也是我们通信行业的从业者比较擅长的领域。
+    </p>
+    <p>
+      这样的产品其实突破性就比较的强，而且对于传统行业系统的依赖就不是那么的强，面对改造传统行业时的那些阻力就会比较的小。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      那么问题来了，除了定位这个典型的应用之外，还有其他的性质类似的通信的产品或者服务了吗？
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
 </node>
 </node>
 </node>

@@ -1,4 +1,4 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="My tasks" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1583389716585">
 <icon BUILTIN="mindmap"/>
@@ -6,10 +6,11 @@
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="default" ID="ID_362457421" MAX_WIDTH="600 px" COLOR="#000000" STYLE="as_parent">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_362457421" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 <edge STYLE="bezier" WIDTH="thin"/>
 </stylenode>
@@ -22,6 +23,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -58,8 +60,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
-<richcontent TYPE="DETAILS">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -69,14 +70,12 @@
       Hover the mouse over the items for help.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1618193853511">
+<node TEXT="Someday-Maybe" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1137711775" CREATED="1427225928280" MODIFIED="1624843319696">
 <icon BUILTIN="calendar"/>
 <edge COLOR="#ff00ff"/>
-<richcontent TYPE="DETAILS" HIDDEN="true">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -92,26 +91,22 @@
       You can move the tasks, projects here using the mindmap shortcuts, or with drag and drop.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#25628;&#38598;&#19968;&#20123;&#20043;&#21069;&#35843;&#26597;&#36807;&#30340;&#20294;&#26159;&#27809;&#26377;&#32467;&#26463;&#25110;&#32773;&#32467;&#26463;&#20102;&#20294;&#26159;&#27809;&#26377;&#24635;&#32467;&#30340;topic
+      搜集一些之前调查过的但是没有结束或者结束了但是没有总结的topic
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="好玩的东西" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1618193853510">
+</html></richcontent>
+<node TEXT="好玩的东西" FOLDED="true" ID="ID_544927870" CREATED="1528075783970" MODIFIED="1618193853510">
 <font NAME="SansSerif"/>
-<node TEXT="Seleium &amp; Katalon" ID="ID_367235526" CREATED="1528075797595" MODIFIED="1539224700294"><richcontent TYPE="NOTE">
-
+<node TEXT="Seleium &amp; Katalon" ID="ID_367235526" CREATED="1528075797595" MODIFIED="1539224700294"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -121,8 +116,7 @@
       &#32593;&#39029;&#33258;&#21160;&#21270;&#24037;&#20855;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node TEXT="深入研究一下GRUB的机制" ID="ID_1094159151" CREATED="1526452402467" MODIFIED="1526452414152">
@@ -136,8 +130,7 @@
 </node>
 <node TEXT="计算购买爱立信股价真实成本" ID="ID_576065009" CREATED="1528420168744" MODIFIED="1528420272350">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -147,13 +140,11 @@
       &#26368;&#32456;&#21334;&#25481;&#20026;65907&#20811;&#26391;&#12290;&#20294;&#26159;&#22240;&#20026;&#26159;&#20998;&#26399;&#20080;&#20837;&#30340;&#65292;&#36824;&#26377;&#27719;&#29575;&#21644;&#32929;&#20215;&#22312;&#21516;&#26102;&#21464;&#21270;&#65292;&#24635;&#25104;&#26412;&#19981;&#30693;&#36947;&#20855;&#20307;&#26159;&#22810;&#23569;&#65292;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="手机的自动化工具" ID="ID_750349361" CREATED="1529550388022" MODIFIED="1529550411628">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -163,20 +154,18 @@
       &#27604;&#22914;&#21487;&#20197;&#33258;&#21160;&#30340;&#27599;&#22825;&#21508;&#31181;app&#31614;&#21040;&#12290;&#12290;&#12290;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="homepage定制" ID="ID_1128816817" CREATED="1529911869103" MODIFIED="1530515435364">
+<node TEXT="homepage定制" ID="ID_1128816817" CREATED="1529911869103" MODIFIED="1624865056682">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#26597;&#30475;&#19968;&#19979;start.me
+      查看一下start.me
     </p>
   </body>
 </html>
@@ -185,17 +174,16 @@
 <node TEXT="手机群控研究" ID="ID_1827638136" CREATED="1532656503759" MODIFIED="1532656514301">
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="perf&amp;Cache研究" FOLDED="true" ID="ID_504645044" CREATED="1533266654857" MODIFIED="1534146541441">
+<node TEXT="perf&amp;Cache研究" FOLDED="true" ID="ID_504645044" CREATED="1533266654857" MODIFIED="1624865057056">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#24037;&#20855;:
+      工具:
     </p>
     <p>
       gprof
@@ -220,8 +208,7 @@
 </node>
 <node TEXT="树莓派上的bootloader" ID="ID_1866414656" CREATED="1541394609462" MODIFIED="1541394664734">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -231,16 +218,14 @@
       &#26641;&#33683;&#27966;&#19978;&#32473;SD&#21345;&#20998;&#21306;&#30340;&#26102;&#20505;&#20998;&#20102;&#20004;&#20010;&#21306;&#65292;&#19968;&#20010;boot&#21306;&#65292;&#19968;&#20010;&#31995;&#32479;&#21306;&#12290;&#19981;&#30693;&#36947;&#23427;&#36825;&#20010;bootloader&#26159;&#20160;&#20040;&#26679;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="=textUtils.getText(&apos;freeplaneGTD.config.archiveDirName&apos;)" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="left" ID="ID_1068479685" CREATED="1427225933330" MODIFIED="1596506187140">
 <icon BUILTIN="folder"/>
 <edge COLOR="#00ffff"/>
-<richcontent TYPE="DETAILS" HIDDEN="true">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -262,8 +247,7 @@
       You can use the shortcut F6 to move tasks and their respective projects here.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 <node TEXT="Prepare PC-BTS/3-5" FOLDED="true" ID="ID_1639391950" CREATED="1520219554138" MODIFIED="1520219654429">
 <icon BUILTIN="list"/>
@@ -290,8 +274,7 @@
 <attribute NAME="Who" VALUE="David LI"/>
 <attribute NAME="When" VALUE="28-Feb"/>
 <attribute NAME="Priority" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -316,8 +299,7 @@
       &#36825;&#19968;&#20010;&#25805;&#20316;&#20854;&#23454;&#24182;&#19981;&#38656;&#35201;&#65292;&#25105;&#33258;&#24049;&#26032;&#24314;&#30340;backlog item&#24182;&#19981;&#20250;&#22312;David&#30340;kanban&#19978;&#26174;&#31034;&#20986;&#26469;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="决定策略区分自己内部和node team的日常backlog" ID="ID_189137042" CREATED="1519375955403" MODIFIED="1563765585356">
 <icon BUILTIN="yes"/>
@@ -338,8 +320,7 @@
 <icon BUILTIN="button_ok"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -349,8 +330,7 @@
       &#35299;&#20915;&#20102;git&#30340;&#20914;&#31361;&#65292;&#24182;&#26356;&#26032;&#30340;mm&#35760;&#36848;&#20102;&#19968;&#20123;&#24515;&#24471;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="查看VIM插件Mark的详细使用方法" ID="ID_1497116138" CREATED="1520847955209" MODIFIED="1545357340248">
 <icon BUILTIN="yes"/>
@@ -375,8 +355,7 @@
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 <attribute NAME="Who" VALUE="Lin Tong"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -389,16 +368,14 @@
       &#24050;&#32463;&#21457;&#20449;&#32473;Lin Tong&#65292;&#30475;&#30475;&#22905;&#26377;&#20160;&#20040;&#24847;&#35265;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Update G18.Q1 GA RN" FOLDED="true" ID="ID_1967596768" CREATED="1519437277769" MODIFIED="1520927292859">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -419,8 +396,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="RBS6000已经更新完成" ID="ID_180477565" CREATED="1520849819153" MODIFIED="1520849838887">
 <font NAME="SansSerif"/>
 </node>
@@ -429,8 +405,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -445,16 +420,14 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="Who" VALUE="Sean Zhang Z"/>
 </node>
 <node TEXT="Update G17.Q3 RN" ID="ID_449968517" CREATED="1519716032532" MODIFIED="1545357340252">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -466,8 +439,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="Who" VALUE="Sean Zhang Z"/>
 </node>
 <node TEXT="G18.Q2 RN" ID="ID_1215387203" CREATED="1524536820500" MODIFIED="1545357340252">
@@ -484,8 +456,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -506,15 +477,13 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="讨论流程中如何进入隐私评估报告" ID="ID_636657416" CREATED="1519442984325" MODIFIED="1520495151668">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -524,16 +493,14 @@
       &#24050;&#32463;&#21457;&#37038;&#20214;&#32473;Batos&#65292; &#35201;&#27714;&#22312;GA&#30340;release checklist&#37324;&#38754;&#22686;&#21152;&#19982;PIA&#21644;PTI&#30456;&#20851;&#30340;check item
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="PTI存储到GASK里面" ID="ID_64725018" CREATED="1519443078728" MODIFIED="1545357340253">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
 <attribute NAME="Who" VALUE="Metis Liu"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -543,16 +510,14 @@
       Metis&#24050;&#32463;&#30830;&#35748;&#19981;&#38656;&#35201;BTS CM&#25805;&#20316;&#65292;&#27599;&#27425;GA Release&#20043;&#21518;&#65292;&#35780;&#20272;&#20986;PTI&#30340;&#20540;&#20043;&#21518;&#65292;&#20174;RAN&#32423;&#21035;&#22635;&#20889;&#19968;&#20010;&#36825;&#20010;&#20540;&#23601;&#21487;&#20197;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="完成第一版本的隐私评估报告" FOLDED="true" ID="ID_1640754166" CREATED="1519443049064" MODIFIED="1524193903530">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="50%"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -574,12 +539,10 @@
       4&#65292;PD&#38656;&#35201;&#19968;&#20010;Risk treatment plan(&#30446;&#30340;&#26159;&#20026;&#20102;&#28040;&#38500;&#36825;&#20123;&#34987;&#23450;&#20026;&#20986;&#26469;&#30340;risk&#25110;&#32773;privacy items.)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="需要做的事情" ID="ID_1199003837" CREATED="1522724955599" MODIFIED="1522725310524">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -598,13 +561,11 @@
       IV.&#160;&#160;&#160;&#160;If PTI is &gt;= 180 then chapters 5.3 and 5.5 need to be filled in
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="调查结果" ID="ID_1296431326" CREATED="1523260089298" MODIFIED="1523260482432">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -635,8 +596,7 @@
       IMSI&#25110;&#32773;TMSI&#23545;&#20110;GSM BTS&#26469;&#35828;&#65292;&#32431;&#31929;&#30340;&#21482;&#26159;&#19968;&#20010;&#38656;&#35201;&#26242;&#26102;&#20445;&#23384;&#30340;&#21442;&#25968;&#32780;&#24050;&#12290;BTS&#19981;&#33021;&#22522;&#20110;&#36825;&#20010;&#21442;&#25968;&#23601;&#35782;&#21035;&#20986;&#19968;&#20010;&#23436;&#25972;&#30340;&#29992;&#25143;&#65292;&#20063;&#19981;&#20250;&#22240;&#20026;&#25509;&#35302;&#36825;&#20010;&#21442;&#25968;&#20174;&#32780;&#20351;&#24471;&#29992;&#25143;&#30340;&#38544;&#31169;&#27844;&#38706;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="收集RA&amp;PIA报告的反馈并安排会议" FOLDED="true" ID="ID_94892102" CREATED="1523847645629" MODIFIED="1545357340254">
@@ -645,8 +605,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="2018-05-09" OBJECT="org.freeplane.features.format.FormattedDate|2018-05-09T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -664,8 +623,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Will Send for Approval on 9th May" ID="ID_1803315258" CREATED="1525675880064" MODIFIED="1525675909612">
 <font NAME="SansSerif"/>
 </node>
@@ -684,8 +642,7 @@
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -695,8 +652,7 @@
       <span style="font-family: Calibri,sans-serif; color: #0563C1"><font face="Calibri,sans-serif" color="#0563C1" size="10.5pt"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cff418e?docno=130/0360-110/FCP1307999Uen&amp;action=current&amp;format=ppt8">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8cff418e?docno=130/0360-110/FCP1307999Uen&amp;action=current&amp;format=ppt8</a></font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Times New Roman,serif"><font size="10.5pt" face="Times New Roman,serif"><o p="#DEFAULT"></o></font></span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="了解US4的详细方案" ID="ID_1260803485" CREATED="1520847921000" MODIFIED="1545357340254">
 <icon BUILTIN="yes"/>
@@ -715,8 +671,7 @@
 <icon BUILTIN="button_ok"/>
 <attribute NAME="When" VALUE="2018-03-28" OBJECT="org.freeplane.features.format.FormattedDate|2018-03-28T00:00+0800|yyyy-MM-dd"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -726,8 +681,7 @@
       <span style="font-size: 10.0pt; font-family: Tahoma,sans-serif; color: #0563C1"><font size="10.0pt" face="Tahoma,sans-serif" color="#0563C1"><a href="https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bfe781e?docno=227/0363-110/FCP1307999Uen&amp;action=current&amp;format=msw8">https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8bfe781e?docno=227/0363-110/FCP1307999Uen&amp;action=current&amp;format=msw8</a></font></span><span lang="EN-US" style="font-size: 10.0pt; font-family: Tahoma,sans-serif"><font size="10.0pt" face="Tahoma,sans-serif"><o p="#DEFAULT"></o></font></span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node TEXT="CPI Review" ID="ID_206866850" CREATED="1524036919175" MODIFIED="1545357340255">
@@ -776,8 +730,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="2018-03-15" OBJECT="org.freeplane.features.format.FormattedDate|2018-03-15T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -787,15 +740,13 @@
       G:\Group_RD\RD-clean-monthend\CBC_XJM_J\CompetenceMatrix\TVC\2018
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="更新车子保养记录" ID="ID_563806474" CREATED="1522030272213" MODIFIED="1522286751539">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -817,16 +768,14 @@
       -&#26410;&#26356;&#25442;&#28779;&#33457;&#22622;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="学法消分" ID="ID_921068415" CREATED="1521705841222" MODIFIED="1545357340257">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -839,8 +788,7 @@
       &#21335;&#20140;&#20844;&#23433;-&gt;&#24494;&#26381;&#21153;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="友华WR1200JS路由器" ID="ID_1071508945" CREATED="1522206256195" MODIFIED="1545357340258" TEXT_SHORTENED="true">
 <icon BUILTIN="yes"/>
@@ -848,8 +796,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="2018-05-25" OBJECT="org.freeplane.features.format.FormattedDate|2018-05-25T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -859,8 +806,7 @@
       5&#26376;&#20221;&#30005;&#20449;&#25442;&#23485;&#24102;&#65292;&#20284;&#20046;&#26159;&#20250;&#36865;&#36335;&#30001;&#22120;&#12290;&#22914;&#26524;&#38750;WR1200JS&#30340;&#35805;&#21487;&#20197;&#36141;&#20080;&#36825;&#19968;&#27454;&#30340;&#36229;&#20540;&#36335;&#30001;&#22120;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="查看王军团关于ML的邮件" ID="ID_1766744025" CREATED="1520823672073" MODIFIED="1545357340258" TEXT_SHORTENED="true">
 <icon BUILTIN="yes"/>
@@ -895,8 +841,7 @@
 <attribute NAME="When" VALUE="2018-04-22" OBJECT="org.freeplane.features.format.FormattedDate|2018-04-22T00:00+0800|yyyy-MM-dd"/>
 <attribute NAME="Where" VALUE="Nanjing Library"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -906,16 +851,14 @@
       &#22270;&#20070;&#24212;&#35813;&#26159;&#22312;4/23&#21495;&#20511;&#38405;&#21040;&#26399;&#65292;&#38656;&#35201;&#25552;&#21069;&#21435;&#32493;&#32422;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="阅读沙龙讲座-如何阅读一本书" ID="ID_59105506" CREATED="1523243446541" MODIFIED="1545357340260">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <attribute NAME="Where" VALUE="ENC Training Room"/>
 <attribute NAME="When" VALUE="2018-04-23" OBJECT="org.freeplane.features.format.FormattedDate|2018-04-23T00:00+0800|yyyy-MM-dd"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -936,8 +879,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node TEXT="AI的webinar" ID="ID_975601739" CREATED="1523956188021" MODIFIED="1545357340261">
@@ -946,8 +888,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="Today"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -979,8 +920,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="更新电信套餐" FOLDED="true" ID="ID_1973577112" CREATED="1520218508109" MODIFIED="1545357340261" TEXT_SHORTENED="true">
 <icon BUILTIN="yes"/>
@@ -996,8 +936,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="2018-05-03" OBJECT="org.freeplane.features.format.FormattedDate|2018-05-03T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1007,8 +946,7 @@
       5&#26376;3&#21495;&#30340;&#37096;&#38376;&#20250;&#35758;&#19978;&#38656;&#35201;&#20998;&#20139;&#12290;&#33267;&#23569;&#38656;&#35201;&#25552;&#21069;&#20004;&#20010;&#31036;&#25308;&#20934;&#22791;&#22909;&#65292;&#20063;&#23601;&#26159;4&#26376;18&#21495;&#24038;&#21491;&#23601;&#38656;&#35201;&#24320;&#22987;&#20934;&#22791;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Una的U盘还给她" ID="ID_1754562615" CREATED="1523860656154" MODIFIED="1545357340262">
 <icon BUILTIN="yes"/>
@@ -1093,8 +1031,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="2018-06-13" OBJECT="org.freeplane.features.format.FormattedDate|2018-06-13T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1134,15 +1071,13 @@
       &#30830;&#35748;Release Notes&#37324;&#38754;&#38656;&#35201;&#20026;EBU&#21152;&#19978;&#30340;limitation&#20869;&#23481;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="更改Matrix" ID="ID_1118839273" CREATED="1531903991709" MODIFIED="1532395892193">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1155,8 +1090,7 @@
       &#36824;&#26377;&#26159;&#21542;&#38656;&#35201;&#28155;&#21152;G3&#30340;&#24037;&#20316;&#20316;&#20026;&#30446;&#26631;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="发出来BTS-SI-15的总结" ID="ID_86290257" CREATED="1531972184801" MODIFIED="1532395886704">
 <icon BUILTIN="yes"/>
@@ -1172,8 +1106,7 @@
 <node TEXT="OSS丢失的fault code" ID="ID_1273777720" CREATED="1532499676850" MODIFIED="1532917453438">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1209,8 +1142,7 @@
       </p>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node TEXT="更新RFS的Releae Slides" ID="ID_1813752045" CREATED="1532499733469" MODIFIED="1532917456642">
@@ -1226,8 +1158,7 @@
 <node TEXT="Merge Freeplane" ID="ID_1731527367" CREATED="1532415601043" MODIFIED="1533632939954">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1237,8 +1168,7 @@
       Freeplane&#30340;&#21508;&#20010;&#20998;&#25903;&#38656;&#35201;merge&#21040;&#19968;&#36215;&#21435;&#65292;&#36825;&#20010;&#25805;&#20316;&#35201;&#20570;&#20102;&#65292;&#19981;&#20570;&#20869;&#23481;&#22826;&#20998;&#25955;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node TEXT="Check Stock payment result" ID="ID_1902473982" CREATED="1528680575396" MODIFIED="1545357340265">
@@ -1252,8 +1182,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1266,15 +1195,13 @@
       &#36824;&#26377;Radio&#30340;TAG&#30340;&#35268;&#21017;&#65292;&#38656;&#35201;&#32487;&#32493;&#35752;&#35770; &#19968;&#19979;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="跟Nicolas讨论一下如何过滤Radio的TR，判断对GSM的 影响" ID="ID_236019040" CREATED="1532672605060" MODIFIED="1535012987186">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1295,8 +1222,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="更新G18.Q1.2的Radio TR" ID="ID_1195295844" CREATED="1533526147614" MODIFIED="1534145434560">
 <icon BUILTIN="yes"/>
@@ -1327,8 +1253,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1350,8 +1275,7 @@
       Any question, please contact Peng LV.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="图书馆还书" FOLDED="true" ID="ID_1116977657" CREATED="1524536923304" MODIFIED="1545357340266">
 <icon BUILTIN="yes"/>
@@ -1360,8 +1284,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="2018-10-07" OBJECT="org.freeplane.features.format.FormattedDate|2018-10-07T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1371,12 +1294,10 @@
       10&#26376;7&#21495;&#65292;&#20511;&#30340;&#26524;&#26524;&#20004;&#26412;&#20070;&#38656;&#35201;&#32493;&#20511;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="心理学与生活" ID="ID_899333616" CREATED="1527561256123" MODIFIED="1527561381611">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1386,13 +1307,11 @@
       &#27941;&#24052;&#22810;&#30340;&#29256;&#26412;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="地理与生活" ID="ID_1834495392" CREATED="1527561261099" MODIFIED="1531102536816">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1402,16 +1321,14 @@
       &#24494;&#20449;&#35835;&#20070;&#20013;&#26377;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="汽车年检以及车险更新" FOLDED="true" ID="ID_271573638" CREATED="1534820043115" MODIFIED="1545357340267">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1421,14 +1338,12 @@
       &#25214;Shirley&#30830;&#35748;&#19968;&#19979;&#22905;&#35748;&#35782;&#30340;&#37027;&#20010;&#20154;&#30340;&#20215;&#26684;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="When" VALUE="2018-09-13" OBJECT="org.freeplane.features.format.FormattedDate|2018-09-13T00:00+0800|yyyy-MM-dd"/>
 <node TEXT="2018车险更新" ID="ID_933179589" CREATED="1537926961980" MODIFIED="1537927163118">
 <icon BUILTIN="100%"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1438,8 +1353,7 @@
       &#23436;&#25104;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="违章处理" ID="ID_272546704" CREATED="1539141165479" MODIFIED="1539141241171">
 <icon BUILTIN="0%"/>
@@ -1448,8 +1362,7 @@
 <node TEXT="年检" FOLDED="true" ID="ID_1535219920" CREATED="1537926977066" MODIFIED="1539142176157">
 <icon BUILTIN="25%"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1465,10 +1378,8 @@
       &#22823;&#27010;&#38656;&#35201;&#32564;&#36153;200&#22810;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="周末提供车辆检测的站点" ID="ID_1617252902" CREATED="1539142191407" MODIFIED="1539142211432"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="周末提供车辆检测的站点" ID="ID_1617252902" CREATED="1539142191407" MODIFIED="1539142211432"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1532,8 +1443,7 @@
       &#27743;&#28006;&#28006;&#28304;&#27773;&#36710;(&#25705;&#25176;&#36710;)&#26816;&#27979;&#31449;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 </node>
@@ -1542,8 +1452,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1553,12 +1462,10 @@
       &#24494;&#20449;&#20844;&#20247;&#21495;&#20013;&#21487;&#20197;&#25805;&#20316;:<b>&#24609;&#21644;&#27721;&#28145;</b>&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="检查家属" ID="ID_1130253858" CREATED="1539162158054" MODIFIED="1540173960028">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1568,13 +1475,11 @@
       &#22312;&#33258;&#24049;&#23436;&#25104;&#20102;&#20307;&#26816;&#20043;&#21518;&#65292;&#23478;&#23646;&#20063;&#21487;&#20197;&#39044;&#32422;&#12290;&#22312;&#25163;&#26426;&#31471;&#23601;&#21487;&#20197;&#30452;&#25509;&#39044;&#32422;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="检查附加检查项" ID="ID_95092812" CREATED="1539162178271" MODIFIED="1540173934253">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1584,8 +1489,7 @@
       &#22686;&#21152;&#20102;&#32959;&#30244;&#31579;&#26597;&#39033;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="北京出差报销" ID="ID_1389266827" CREATED="1554103388932" MODIFIED="1557192833284">
@@ -1613,8 +1517,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="Today"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1624,15 +1527,13 @@
       &#26597;&#30475;&#19968;&#19979;&#20132;&#20114;&#30340;&#37038;&#20214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Investigate the proposed SI" ID="ID_1573230460" CREATED="1521689589642" MODIFIED="1545357340268">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1642,8 +1543,7 @@
       Hansoft&#37324;&#38754;&#38656;&#35201;&#21019;&#24314;&#19968;&#20010;item
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Mini Air 4455 NDS" FOLDED="true" ID="ID_1445796488" CREATED="1525672398390" MODIFIED="1525672418679">
@@ -1653,8 +1553,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1664,8 +1563,7 @@
       US3 Left. should be done 21/5.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="FOP&amp;OA Review" ID="ID_1911489209" CREATED="1525673806990" MODIFIED="1545357340268">
 <icon BUILTIN="yes"/>
@@ -1685,8 +1583,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1696,8 +1593,7 @@
       &#35774;&#35745;&#19968;&#20010;&#20551;&#30340;CR&#65292;&#28982;&#21518;&#35774;&#35745;&#19968;&#20010;&#20551;&#30340;test case&#65292;&#22312;FR Loop&#37324;&#38754;&#21435;&#27979;&#35797;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Usability TR" FOLDED="true" ID="ID_1647062772" CREATED="1526283438475" MODIFIED="1526375323548">
@@ -1759,8 +1655,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1787,15 +1682,13 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Msg2的TBS选择" ID="ID_638437271" CREATED="1586834246265" MODIFIED="1596506521709">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_70996630" STARTINCLINATION="500;0;" ENDINCLINATION="500;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="NOTE">
-
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_70996630" STARTINCLINATION="374.99999 pt;0 pt;" ENDINCLINATION="374.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1828,15 +1721,13 @@
       可以在代码中增加一个开关。在实际没有BI发送的情况下，Msg2的TBS还是回退到legacy的值。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-08-04" OBJECT="org.freeplane.features.format.FormattedDate|2020-08-04T10:02+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="研究Hackthon的Idea" ID="ID_1248529441" CREATED="1597889263034" MODIFIED="1610504646406" LINK="BLD_Project.mm#ID_688215932">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1852,8 +1743,7 @@
       准备demo一个用iot设备来监控车祸/轮船倾覆以及泥石流检测的平台。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2021-01-13" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-13T10:24+0800|yyyy-MM-dd"/>
 </node>
 </node>
@@ -1869,8 +1759,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1889,8 +1778,7 @@
       3,EBU&#30340;script&#36716;&#31227;&#21040;BTS&#26469;&#65292;&#36825;&#20010;&#26159;&#21487;&#33021;&#22312;Q3&#23436;&#25104;&#30340;&#65292;&#32780;&#19988;&#20248;&#20808;&#32423;&#24212;&#35813;&#25552;&#39640;&#19968;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Oslo Radio" FOLDED="true" ID="ID_1475202924" CREATED="1533892623785" MODIFIED="1533892653866">
@@ -1912,8 +1800,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1932,8 +1819,7 @@
       &gt;openwrt-mtk
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="搭建Openwrt开发环境" ID="ID_1629062252" CREATED="1522286827017" MODIFIED="1557192862176" TEXT_SHORTENED="true">
 <icon BUILTIN="yes"/>
@@ -1941,8 +1827,7 @@
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <attribute NAME="When" VALUE="2018-04-13" OBJECT="org.freeplane.features.format.FormattedDate|2018-04-13T00:00+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1955,8 +1840,7 @@
       MTK&#20284;&#20046;&#37322;&#25918;&#20986;&#20102;&#38381;&#28304;&#30340;&#26080;&#32447;&#39537;&#21160;&#21487;&#20197;&#34987;openwrt&#20351;&#29992;&#12290;&#21487;&#20197;&#30740;&#31350;&#30740;&#31350;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="ESS Workshop过完" ID="ID_1412617310" CREATED="1596505798010" MODIFIED="1606105485544">
@@ -1996,8 +1880,7 @@
 <icon BUILTIN="100%"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2010,8 +1893,7 @@
       &#38271;&#38534;&#20048;&#22253;&#30340;&#31080;&#21644;&#29664;&#28023;&#30340;&#20303;&#23487;&#36824;&#27809;&#23433;&#25490;&#22909;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="广州和珠海攻略阅读" ID="ID_489849624" CREATED="1534735628707" MODIFIED="1537857218612">
 <icon BUILTIN="yes"/>
@@ -2097,8 +1979,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2111,8 +1992,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="分成三块L1/L2/L3" ID="ID_554300793" CREATED="1551935975076" MODIFIED="1551935997352">
 <font NAME="SansSerif"/>
 </node>
@@ -2129,8 +2009,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2140,8 +2019,7 @@
       &#36825;&#20010;&#20219;&#21153;&#25512;&#36831;&#20102;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="EDT的上行GRANT是按最大的size来发送的，如果UE不需要这么多资源怎么办" ID="ID_1858877474" CREATED="1555061328851" MODIFIED="1555061381792">
 <font NAME="SansSerif"/>
 </node>
@@ -2167,8 +2045,7 @@
 <node TEXT="2,找Li Kai讨论新增CF Key的容量" ID="ID_1452841710" CREATED="1533633010408" MODIFIED="1536547516593">
 <icon BUILTIN="100%"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2190,8 +2067,7 @@
       BTS-SI&#24050;&#32463;&#21019;&#24314;&#65292;&#31561;Richard&#20132;&#32473;Team&#21435;&#25191;&#34892;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="3,新的Radio尽量不增加CF Key" ID="ID_1515961065" CREATED="1533633029512" MODIFIED="1535080153548">
 <icon BUILTIN="100%"/>
@@ -2203,8 +2079,7 @@
 <icon BUILTIN="idea"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2217,8 +2092,7 @@
       &#21487;&#20197;&#23581;&#35797;&#25209;&#37327;&#30340;&#23548;&#20837;&#21040;Jira&#37324;&#38754;&#21435;&#65292;&#26041;&#20415;&#21518;&#32493;&#26597;&#25214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="【NII】开发自动触发daily更新Meter的工具" ID="ID_1840962830" CREATED="1537927642845" MODIFIED="1557193200314">
 <icon BUILTIN="yes"/>
@@ -2231,8 +2105,7 @@
 <font NAME="SansSerif"/>
 <node TEXT="进度" ID="ID_1134255641" CREATED="1540173981481" MODIFIED="1540174003195">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2242,8 +2115,7 @@
       Metis&#24050;&#32463;&#25552;&#20132;&#20102;&#30003;&#35831;&#65292;&#29616;&#22312;&#38656;&#35201;&#20248;&#21270;&#19968;&#19979;&#25551;&#36848;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="【NPI】跟Fuquan沟通NGS的行为优化" ID="ID_1819253288" CREATED="1537928826309" MODIFIED="1557193201089">
@@ -2256,8 +2128,7 @@
 <icon BUILTIN="idea"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2276,8 +2147,7 @@
       &#24314;&#35758;&#30340;&#19968;&#31181;&#26041;&#24335;&#26159;&#20351;&#29992;&#31867;&#20284;&#20110;&#37197;&#32622;&#25991;&#20214;&#36825;&#26679;&#30340;&#26041;&#24335;&#65292;&#37197;&#32622;&#25991;&#20214;&#20013;&#23450;&#20041;&#20102;&#25152;&#26377;&#21487;&#33021;&#30340;&#26684;&#24335;&#12290;&#20195;&#30721;&#21482;&#35201;&#25195;&#25551;&#36825;&#20010;&#37197;&#32622;&#25991;&#20214;&#23547;&#25214;&#26368;&#21305;&#37197;&#30340;&#26041;&#24335;&#23601;&#21487;&#20197;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="NB-R15 EDT" FOLDED="true" ID="ID_674306442" CREATED="1559697948893" MODIFIED="1560149309570">
 <icon BUILTIN="list"/>
@@ -2287,8 +2157,7 @@
 <icon BUILTIN="75%"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2298,8 +2167,7 @@
       &#22240;&#20026;EDT&#28041;&#21450;&#21040;&#30450;&#35299;MSG3&#30340;&#21151;&#33021;&#12290;&#36825;&#37096;&#20998;&#21151;&#33021;&#28041;&#21450;&#21040;&#20102;&#20449;&#36947;&#30340;&#35299;&#30721;&#27969;&#31243;&#12290;&#25152;&#20197;&#30740;&#31350;&#36825;&#20010;&#36807;&#31243;&#30340;&#35805;&#65292;&#20854;&#23454;&#23601;&#24050;&#32463;&#29087;&#24713;&#20102;eNB&#31471;&#25509;&#25910;&#36807;&#31243;&#30340;&#21518;&#21322;&#27573;&#20102;&#12290;(&#24403;&#28982;&#21069;&#21322;&#27573;&#26159;&#38590;&#28857;&#12290;&#12290;&#12290;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2019-12-10" OBJECT="org.freeplane.features.format.FormattedDate|2019-12-10T10:28+0800|yyyy-MM-dd"/>
 </node>
 </node>
@@ -2310,8 +2178,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2324,16 +2191,14 @@
       &#38656;&#35201;&#35843;&#26597;&#24037;&#20316;&#37327;&#26377;&#22810;&#22823;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2019-12-10" OBJECT="org.freeplane.features.format.FormattedDate|2019-12-10T10:28+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="研究上行接收过程" ID="ID_1890663923" CREATED="1558934884632" MODIFIED="1575944926804">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2343,8 +2208,7 @@
       &#22522;&#20110;NPUSCH Format2&#36825;&#20010;&#26368;&#20026;&#31616;&#21333;&#30340;&#20449;&#36947;&#65292;&#38590;&#24230;&#24212;&#35813;&#20250;&#27604;NPUSCH format1&#21644;NPRACH&#35201;&#23567;&#24456;&#22810;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2019-12-10" OBJECT="org.freeplane.features.format.FormattedDate|2019-12-10T10:28+0800|yyyy-MM-dd"/>
 </node>
 </node>
@@ -2355,8 +2219,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2369,15 +2232,13 @@
       &#21516;&#26102;&#65292;&#22914;&#26524;&#38656;&#35201;&#20248;&#21270;RSRP&#30340;&#39044;&#27979;&#32467;&#26524;&#30340;&#35805;&#65292;&#26032;&#30340;&#26041;&#26696;&#20063;&#38656;&#35201;&#20102;&#35299;&#19978;&#34892;&#21457;&#36865;&#21644;&#25509;&#25910;&#30340;&#27969;&#31243;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2019-12-10" OBJECT="org.freeplane.features.format.FormattedDate|2019-12-10T10:28+0800|yyyy-MM-dd"/>
 <node TEXT="UE端的发射流程" ID="ID_1818256921" CREATED="1558946407016" MODIFIED="1575944961693">
 <icon BUILTIN="25%"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1890663923" STARTINCLINATION="183;0;" ENDINCLINATION="183;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1890663923" STARTINCLINATION="137.25 pt;0 pt;" ENDINCLINATION="137.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2387,15 +2248,13 @@
       &#36825;&#37096;&#20998;&#30340;&#20869;&#23481;&#36824;&#26159;&#38656;&#35201;&#20102;&#35299;&#30340;&#65292;eNB&#31471;&#30340;&#35299;&#30721;&#36807;&#31243;&#65292;&#26377;&#24456;&#22823;&#19968;&#37096;&#20998;&#26159;UE&#31471;&#27969;&#31243;&#30340;&#21453;&#36807;&#31243;&#65292;&#25152;&#20197;&#24819;&#35201;&#20102;&#35299;eNB&#31471;&#30340;&#35299;&#35843;&#21644;&#35299;&#30721;&#36807;&#31243;&#65292;&#20102;&#35299;UE&#31471;&#30340;&#32534;&#30721;&#21644;&#35843;&#21046;&#36807;&#31243;&#36824;&#26159;&#24456;&#26377;&#24110;&#21161;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="eNB端的接收流程" ID="ID_1409932408" CREATED="1558946421447" MODIFIED="1575944961692">
 <icon BUILTIN="25%"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1890663923" STARTINCLINATION="194;0;" ENDINCLINATION="194;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1890663923" STARTINCLINATION="145.5 pt;0 pt;" ENDINCLINATION="145.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2405,8 +2264,7 @@
       &#36825;&#19968;&#27573;&#26159;&#37325;&#28857;&#65292;&#20063;&#26159;&#29702;&#35299;&#31639;&#27861;&#25991;&#26723;&#30340;&#37325;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2419,8 +2277,7 @@
 <attribute NAME="WhenDone" VALUE="2019-10-28" OBJECT="org.freeplane.features.format.FormattedDate|2019-10-28T14:17+0800|yyyy-MM-dd"/>
 <node TEXT="进度" ID="ID_535482494" CREATED="1562241860973" MODIFIED="1562241902510">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2430,15 +2287,13 @@
       &#21021;&#26399;&#30340;&#26694;&#26550;&#24050;&#32463;&#24324;&#22909;&#20102;&#65292;&#29616;&#22312;&#33021;&#22815;&#36755;&#20837;&#19968;&#20010;&#28857;&#20987;&#20540;&#65292;&#24471;&#21040;&#19968;&#20010;&#36755;&#20986;&#30340;&#20540;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="商业保险需要更新子女的信息" ID="ID_1716827525" CREATED="1583977202388" MODIFIED="1591164458045">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2448,15 +2303,13 @@
       已经完成！
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="relative/absolute hyperlink之间互相转换的脚本" ID="ID_698348921" CREATED="1585036466863" MODIFIED="1606105473016">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2466,8 +2319,7 @@
       有时候需要将freeplane文件和其附件拷贝到其他地方使用，但是freeplane中已经有了大量的保存为绝对路径的链接。这时候如果能够将这些链接转变为相对路径，那么将freeplane和附件拷贝到其他地方之后，也能够完全无障碍的使用。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:24+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="黑五的VPS研究" ID="ID_680498849" CREATED="1606268264442" MODIFIED="1610588933132">
@@ -2478,8 +2330,7 @@
 <node TEXT="IP v6 小研究" ID="ID_1388108524" CREATED="1610589174318" MODIFIED="1618193466130">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2492,13 +2343,11 @@
       小研究一下，看看是否有类似内网穿透的可能性。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2021-04-12" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-12T10:11+0800|yyyy-MM-dd"/>
 <node TEXT="外网无法访问内网ipv6设备" ID="ID_1372788998" CREATED="1617860495780" MODIFIED="1618193455964">
 <icon BUILTIN="100%"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2529,12 +2378,10 @@
       这样的话，就无法从外部访问家中设备了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="软路由可能解决方案" ID="ID_510052699" CREATED="1617860736396" MODIFIED="1617862805772">
 <icon BUILTIN="idea"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2562,13 +2409,11 @@
       这种方式，内网设备访问家中软路由可以使用A口获取的内部地址，而外网访问软路由的时候，就可以使用B口获取的ipv6地址，因为这时候B口上的路由规则已经不是光猫管理的了，所以就无所谓了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="中介方案" ID="ID_1619905995" CREATED="1617860961243" MODIFIED="1617862797148">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2599,8 +2444,7 @@
       可以尝试一下。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2612,8 +2456,7 @@
 <attribute NAME="Priority" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
 <attribute NAME="WhenDone" VALUE="2019-12-10" OBJECT="org.freeplane.features.format.FormattedDate|2019-12-10T10:41+0800|yyyy-MM-dd"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2623,8 +2466,7 @@
       &#21019;&#24314;&#19968;&#20010;confluence page&#65292;&#28982;&#21518;&#25152;&#26377;delivery&#30340;feature&#20449;&#24687;&#20197;&#21450;TR fix&#30340;&#20449;&#24687;&#37117;&#25918;&#22312;&#19978;&#38754;&#65292;&#28165;&#26224;&#21487;&#26597;&#65292;&#32780;&#19988;&#21487;&#20197;&#25209;&#37327;&#30340;&#23548;&#20837;&#21040;RN&#37324;&#38754;&#21435;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Release Note自动导入发布的内容信息" ID="ID_1724779599" CREATED="1537927685610" MODIFIED="1575945677141">
 <icon BUILTIN="yes"/>
@@ -2684,8 +2526,7 @@
 <font NAME="SansSerif"/>
 <node TEXT="必要性如何" ID="ID_611973460" CREATED="1575946782533" MODIFIED="1575946863820">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2701,14 +2542,12 @@
       &#26159;&#21542;&#21487;&#20197;&#25105;&#20204;&#22312;MOM&#30340;&#20171;&#32461;&#37096;&#20998;&#23558;&#34920;&#26684;&#30340;&#20869;&#23481;&#21253;&#21547;&#22312;&#37324;&#38754;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="d10 pmcounter所属的BB Element" FOLDED="true" ID="ID_1334472163" CREATED="1575946303771" MODIFIED="1575947293068">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2721,15 +2560,13 @@
       &#22312;LTE&#37324;&#38754;&#26159;&#22312;ulMacCe&#37324;&#38754;&#23436;&#25104;BI&#35745;&#31639;&#30340;&#65292;&#24182;&#19988;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="ulMacCe" ID="ID_386322965" CREATED="1575946970412" MODIFIED="1575946978886"/>
 <node TEXT="dlMacCe" ID="ID_853852033" CREATED="1575946979649" MODIFIED="1575946988611"/>
 </node>
 <node TEXT="d10 pmcounter的bin个数调整" ID="ID_1192372271" CREATED="1575951332765" MODIFIED="1575952972664">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2739,13 +2576,11 @@
       bin&#30340;&#20010;&#25968;&#26159;&#21542;&#38656;&#35201;&#35843;&#25972;&#65292;&#22914;&#20309;&#35843;&#25972;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="pmcounter的计数方式" ID="ID_1761049984" CREATED="1575952994737" MODIFIED="1575953157712">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2758,8 +2593,7 @@
       &#22240;&#20026;&#27491;&#24120;&#30340;&#24773;&#20917;&#19979;&#65292;&#22914;&#26524;&#26377;&#22810;&#20010;RAR&#30340;&#35805;&#65292;BI&#30340;&#20540;&#26159;&#20174;&#22823;&#21040;&#23567;&#21464;&#21270;&#30340;&#65292;&#36825;&#36896;&#25104;&#30340;&#32467;&#26524;&#23601;&#26159;&#26412;&#24212;&#35813;&#32479;&#35745;&#26576;&#20010;BI&#20540;&#30340;&#65292;&#32467;&#26524;&#27604;&#36825;&#20010;BI&#20540;&#22823;&#30340;&#37027;&#20123;bin&#20063;&#34987;&#32479;&#35745;&#21040;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="SA内部review结果分析" FOLDED="true" ID="ID_1917449304" CREATED="1575945561206" MODIFIED="1582696052190">
@@ -2780,8 +2614,7 @@
 <node TEXT="爱立信NB的实现中NPRACH是否长短CP都支持？" ID="ID_1252214069" CREATED="1583917745551" MODIFIED="1591164474646">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2791,15 +2624,13 @@
       &#26681;&#25454;Xu Li&#30340;&#35828;&#27861;&#65292;&#29233;&#31435;&#20449;&#20135;&#21697;&#20013;&#26159;&#38271;CP&#21644;&#30701;CP&#37117;&#21516;&#26102;&#25903;&#25345;&#30340;&#12290;&#40664;&#35748;&#24773;&#20917;&#19979;&#37197;&#32622;&#30340;&#26159;&#38271;CP&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="对Msg2的TBS的影响" ID="ID_70996630" CREATED="1586834267778" MODIFIED="1591164475832">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2818,8 +2649,7 @@
       在CE1/2上，使用的是Buffer based的策略，不提高SF，尝试提高MCS index取值，达到提高TBS的要求。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:07+0800|yyyy-MM-dd"/>
 </node>
 </node>
@@ -2836,8 +2666,7 @@
 <node TEXT="了解一下NB-IoT随机接入的多种场景" FOLDED="true" ID="ID_176141259" CREATED="1584002888834" MODIFIED="1591164572650">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2850,8 +2679,7 @@
       在NB-IoT的书中有描述。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-06-03" OBJECT="org.freeplane.features.format.FormattedDate|2020-06-03T14:09+0800|yyyy-MM-dd"/>
 <node TEXT="了解协议中多次描述的MAC Control Element概念" ID="ID_660574504" CREATED="1584068633479" MODIFIED="1584068652857"/>
 </node>
@@ -2859,8 +2687,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2870,16 +2697,14 @@
       NPSS&#65292;NSSS&#65292;MIB&#65292;SIB1&#65292;SI&#20986;&#29616;&#30340;&#20301;&#32622;&#21644;&#39057;&#29575;&#65292;DL Gap&#20986;&#29616;&#30340;&#26102;&#26426;&#21644;&#25345;&#32493;&#30340;&#38271;&#24230;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="澄清检查NPDCCH是否在SS里面的原则" ID="ID_199458749" CREATED="1583389052585" MODIFIED="1606105512410">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2892,16 +2717,14 @@
       &#20294;&#26159;Search Space&#37324;&#38754;&#26377;&#22909;&#20960;&#20010;&#21487;&#33021;&#23384;&#25918;NPDCCH&#30340;&#20301;&#32622;&#65292;&#19968;&#23450;&#35201;&#22312;Search Space&#30340;&#24320;&#22836;&#25165;&#31639;&#26159;valide&#30340;&#21527;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="澄清一下当前子帧上的调度操作是调度的具体哪个子帧" ID="ID_1692177340" CREATED="1583389263097" MODIFIED="1606105512948">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2914,15 +2737,13 @@
       这个需要跟Qi Qin再再次确认一下。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="确认一下计算上行Gain的场景" ID="ID_1809770746" CREATED="1585632046018" MODIFIED="1606105513461">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2938,8 +2759,7 @@
       那么NPUSCH Format2呢？是否也会被eNB用于计算上行Gain?
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 </node>
@@ -2948,8 +2768,7 @@
 <node TEXT="了解一下flow和flowpoint的概念" ID="ID_1502719039" CREATED="1583746067467" MODIFIED="1606105521109">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2968,15 +2787,13 @@
       &#36825;&#20010;&#32467;&#26500;&#26159;&#20160;&#20040;&#26679;&#30340;&#65292;&#36825;&#20010;periodtask&#26159;&#22914;&#20309;&#21608;&#26399;&#24615;&#30340;&#23884;&#20837;&#21040;event queue&#20013;&#30340;&#21602;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="了解一下统计中的CDF和PDF概念" ID="ID_511661455" CREATED="1583746303171" MODIFIED="1606105521796">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2986,8 +2803,7 @@
       &#22312;Redhawk&#30340;&#21518;&#22788;&#29702;&#30011;&#22270;&#20013;&#20250;&#20986;&#29616;&#36825;&#20123;&#32479;&#35745;&#20998;&#24067;&#65292;&#38656;&#35201;&#20102;&#35299;&#19968;&#19979;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="了解一下Redhawk中的mainloop结构" ID="ID_1342779987" CREATED="1583827001974" MODIFIED="1606105522284">
@@ -2998,8 +2814,7 @@
 <node TEXT="了解一下debug的技巧" ID="ID_1723921092" CREATED="1585466642777" MODIFIED="1606105522749">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3009,8 +2824,7 @@
       redhawk的执行过程比较的复杂，需要找到一些好的技巧来更好的梳理redhawk的执行过程
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2020-11-23" OBJECT="org.freeplane.features.format.FormattedDate|2020-11-23T12:25+0800|yyyy-MM-dd"/>
 </node>
 </node>
@@ -3018,8 +2832,7 @@
 <icon BUILTIN="yes"/>
 <icon BUILTIN="button_ok"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3029,14 +2842,12 @@
       了解一下如何获取ipv6地址
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2021-01-14" OBJECT="org.freeplane.features.format.FormattedDate|2021-01-14T09:52+0800|yyyy-MM-dd"/>
 </node>
 <node TEXT="LTE RRP" ID="ID_617758466" CREATED="1615338492560" MODIFIED="1615338546906">
 <icon BUILTIN="list"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3046,14 +2857,12 @@
       了解LTE的RRP功能，给予项目上的支持。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="完成MR792功能的了解" ID="ID_1503100805" CREATED="1615338571377" MODIFIED="1617860461269">
 <icon BUILTIN="yes"/>
 <icon BUILTIN="75%"/>
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3063,16 +2872,14 @@
       FP和NDS都已经过完了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute NAME="WhenDone" VALUE="2021-04-08" OBJECT="org.freeplane.features.format.FormattedDate|2021-04-08T13:41+0800|yyyy-MM-dd"/>
 </node>
 </node>
 </node>
 <node TEXT="Config" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" POSITION="left" ID="ID_867421423" CREATED="1427226495651" MODIFIED="1539668056662" LINK="#ID_867421423">
 <edge COLOR="#7c0000"/>
-<richcontent TYPE="DETAILS" HIDDEN="true">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -3103,11 +2910,9 @@
       Icon: @<i>[CONTEXT]</i>&#160;&#160;&#160;- Icon to represent a context
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3121,8 +2926,7 @@
     </p>
     <pre><font size="5" face="SansSerif" color="#ff0033">* Action name</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#0000ff">{when}</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#006666">@context</font><font size="5" face="SansSerif"> </font><font size="5" face="SansSerif" color="#999900">[who]</font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Icon: @Computer" ID="ID_1821210832" CREATED="1427226511560" MODIFIED="1427226607171">
 <icon BUILTIN="male1"/>
 </node>
@@ -3154,8 +2958,7 @@
 <node TEXT="Inbox" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1133937836" CREATED="1427225825443" MODIFIED="1521423256059">
 <icon BUILTIN="edit"/>
 <edge COLOR="#ff0000"/>
-<richcontent TYPE="DETAILS" HIDDEN="true">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -3177,8 +2980,7 @@
       You can use the mindmap shortcuts to move the items from here to it's respective folder.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 <node TEXT="个人助理类APP研究" ID="ID_1734852159" CREATED="1524193955542" MODIFIED="1524194008448">
 <icon BUILTIN="info"/>
@@ -3187,8 +2989,7 @@
 <node TEXT="Freeplane和Anki的集成" ID="ID_1515571808" CREATED="1553518149477" MODIFIED="1618195887100">
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3204,8 +3005,7 @@
       可以将两者结合起来吗？一种建议的场景是，使用freeplane记录的笔记，通过某种特殊的tag来标记，并生成Anki的卡片。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="探讨Anki作为商业公司给新人培训的工具" ID="ID_1576647378" CREATED="1553518307434" MODIFIED="1553518331627">
 <icon BUILTIN="info"/>
@@ -3225,8 +3025,7 @@
 </node>
 <node TEXT="物理世界与数字文档的交互" FOLDED="true" ID="ID_1982782125" CREATED="1584340930997" MODIFIED="1584341984328">
 <icon BUILTIN="info"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3272,15 +3071,13 @@
       有没有好的工具能够方便的结合数字世界和物理世界的各自优点，并在数字世界中更方便完成数字文档的批注等等工作呢？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="物理世界的内容如何导入到数字世界" ID="ID_1117609053" CREATED="1584596262847" MODIFIED="1584596312072"/>
 <node TEXT="数字世界的内容如何使用物理世界的方式操作" ID="ID_1431755283" CREATED="1584596275860" MODIFIED="1584596330166"/>
 </node>
 <node TEXT="Mytask中的task从其他map中抽取" ID="ID_1337981260" CREATED="1618193532615" MODIFIED="1618193797138">
 <icon BUILTIN="info"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3314,13 +3111,11 @@
       task的来原可以是mytask中创建的，也可以是来源于不同mm文件中具体的上下文中标了task的那些节点。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="了解OpenRAN相关的内容" ID="ID_600099472" CREATED="1618195209495" MODIFIED="1618195309156">
 <icon BUILTIN="info"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3333,8 +3128,7 @@
       需要了解一下这个方向的技术背景和这个领域当前的发展状况。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Assigned Input" FOLDED="true" ID="ID_1239004083" CREATED="1522138603142" MODIFIED="1572314203974">
 <font NAME="SansSerif"/>
@@ -3490,8 +3284,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3501,8 +3294,7 @@
       1,&#26356;&#26032;PICO&#30340;&#20869;&#23481;&#65292;&#23558;PICO&#25913;&#25104;RBS2409
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_1291901548" CREATED="1519363975165" MODIFIED="1522138639899">
 <icon BUILTIN="info"/>
@@ -3519,8 +3311,7 @@
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3530,8 +3321,7 @@
       &#28155;&#21152;GA&#20043;&#21518;&#36807;F4&#30340;feature
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node ID="ID_1871840119" CREATED="1519363659938" MODIFIED="1522138639913">
@@ -3549,8 +3339,7 @@
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3563,8 +3352,7 @@
       2,&#20135;&#21697;&#24320;&#21457;&#27969;&#31243;&#37324;&#38754;&#24341;&#20837;&#38544;&#31169;&#35780;&#20272;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 <node ID="ID_1906364649" CREATED="1520216792640" MODIFIED="1520496767542" LINK="#ID_761494071">
@@ -3617,8 +3405,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3628,8 +3415,7 @@
       &#24314;&#31435;&#33258;&#24049;&#30340;work item backlog
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_1434774121" CREATED="1522206175376" MODIFIED="1618193915467">
 <icon BUILTIN="info"/>
@@ -3647,8 +3433,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3658,8 +3443,7 @@
       EA6200&#24050;&#32463;&#21334;&#20986;&#21435;&#20102;&#65292;&#38656;&#35201;&#34917;&#20805;&#19968;&#20010;&#21315;&#20806;&#32593;&#21475;&#30340;&#36335;&#30001;&#22120;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_1951604427" CREATED="1525225866847" MODIFIED="1618193923070" LINK="#ID_852231417">
 <icon BUILTIN="info"/>
@@ -3729,18 +3513,17 @@
 </richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="六一儿童节礼物" ID="ID_1457029435" CREATED="1526366651175" MODIFIED="1526366689040">
+<node TEXT="六一儿童节礼物" ID="ID_1457029435" CREATED="1526366651175" MODIFIED="1624865035990">
 <icon BUILTIN="info"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#25552;&#21069;&#20799;&#31461;&#25163;&#34920;
+      提前儿童手表
     </p>
   </body>
 </html>
@@ -3796,8 +3579,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3807,8 +3589,7 @@
       2018&#24180;6&#26376;&#24213;&#21069;&#36824;&#26377;5&#22825;&#30340;&#24180;&#20551;&#35201;&#20241;&#23436;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_966923476" CREATED="1531793172513" MODIFIED="1618193986671">
 <icon BUILTIN="info"/>
@@ -3843,8 +3624,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3854,8 +3634,7 @@
       2018-7-31 ~ 2018-8-2&#20250;&#26377;&#39640;&#32423;JAVA&#30340;&#22521;&#35757;&#12290;&#38656;&#35201;&#25552;&#21069;&#20934;&#22791;&#19968;&#19979;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_1542293416" CREATED="1530515399256" MODIFIED="1618194000252">
 <icon BUILTIN="info"/>
@@ -3873,8 +3652,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3884,8 +3662,7 @@
       &#26242;&#23450;&#36149;&#24030;&#65292;&#26102;&#38388;&#26159;8&#26376;6&#21495;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_1285046697" CREATED="1534146137795" MODIFIED="1618194007388" LINK="#ID_1840510357">
 <icon BUILTIN="info"/>
@@ -3920,8 +3697,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3931,8 +3707,7 @@
       Yi Lu&#21644; feature driver&#20043;&#38388;&#26377;&#19968;&#20123;&#37038;&#20214;&#30340;&#27807;&#36890;&#65292;&#26597;&#30475;&#19968;&#19979;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_561131706" CREATED="1522393106428" MODIFIED="1618194020890">
 <icon BUILTIN="info"/>
@@ -3984,8 +3759,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4009,8 +3783,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_1062945270" CREATED="1559006902007" MODIFIED="1618194045664">
 <icon BUILTIN="info"/>
@@ -4045,8 +3818,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4056,16 +3828,14 @@
       &#23478;&#24237;&#32593;&#32476;&#37324;&#38754;&#22914;&#26524;&#33021;&#22815;&#33719;&#21462;&#21040;ipv6&#30340;&#22320;&#22336;&#30340;&#35805;&#65292;&#37027;&#20040;&#22806;&#32593;&#20351;&#29992;&#20869;&#32593;&#25645;&#24314;&#30340;&#26381;&#21153;&#22120;&#36895;&#24230;&#23601;&#24456;&#24555;&#20102;&#65292;&#19981;&#38656;&#35201;&#32463;&#36807;&#20013;&#38388;&#33410;&#28857;&#30340;&#36716;&#25509;&#65292;&#20063;&#19981;&#21463;&#21046;&#20110;&#20013;&#38388;&#33410;&#28857;&#30340;&#32593;&#36895;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Projects" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1256051703" CREATED="1427225914994" MODIFIED="1522142510072">
+<node TEXT="Projects" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="right" ID="ID_1256051703" CREATED="1427225914994" MODIFIED="1522142510072">
 <icon BUILTIN="desktop_new"/>
 <edge COLOR="#ffff00"/>
-<richcontent TYPE="DETAILS" HIDDEN="true">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -4087,10 +3857,9 @@
       You can move around your tasks using the mindmap shorcuts.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
-<node TEXT="Training&amp;Learning" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
+<node TEXT="Training&amp;Learning" FOLDED="true" ID="ID_867086193" CREATED="1534733781928" MODIFIED="1534733846080">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
 <node TEXT="Linux Course" ID="ID_1587395562" CREATED="1521197446696" MODIFIED="1531790021017">
@@ -4100,8 +3869,7 @@
 <icon BUILTIN="yes"/>
 <attribute NAME="Who" VALUE="Jun Deng"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4111,10 +3879,8 @@
       <font face="Verdana,sans-serif">Register at: <a href="https://u6376458.ct.sendgrid.net/wf/click?upn=-2Fgeg8fLxXgJbTxwx2i-2F-2FHUjBlGQ6M4YbO9UAnOBeAGYLosbr-2BVPhUCsanmxuIWV6dsaDmv4KgHRZh1ZIs1Dm-2Bm5pqQ1vzJFa0vwliznjBPQANIAjSyxTOdn5-2F8OklIxOXcT3jKvkeJk-2FryoGme1fvQ-3D-3D_jvqhxd8AAJ4lzM8RFtDpYM-2F4NaNVkmm4CwYeH-2F4s7KjMI-2BDSvU0Blvk8ELkaG4ICG3vS9jnP2sIEW8FdFNxTuV1gFesJj60XitOSvPrm2by3BXtKXL-2Br2Byx4CHZwTb7RGJNwtHwdru1K-2Fo4U-2FyrDx8L-2BeYMO5-2FPtD28H5HBZDvuuEWlUa7jzEY65Mi1LoJRq9-2FENJA4lw9c9dmZSTvKYciJ52Bf-2F3PqxhKcl-2FMvdEU-3D">https://lms.quickstart.com/lms/learnerRegistration.do?registrationId=48578&amp;brand=ericsson&amp;lang=en</a><br/>Invitation Passcode: LinuxRocks1<o p="#DEFAULT"></o></font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="培训内容" ID="ID_1840476330" CREATED="1536138731643" MODIFIED="1551235724949"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="培训内容" ID="ID_1840476330" CREATED="1536138731643" MODIFIED="1551235724949"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4180,12 +3946,10 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
-<node TEXT="认证" ID="ID_118493991" CREATED="1536138764858" MODIFIED="1583991209465"><richcontent TYPE="NOTE">
-
+<node TEXT="认证" ID="ID_118493991" CREATED="1536138764858" MODIFIED="1583991209465"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4223,34 +3987,30 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 </node>
 </node>
-<node TEXT="爱立信在线5G基础培训" ID="ID_163201155" CREATED="1536547187427" MODIFIED="1536547659552" LINK="../OneNote/5G%20online%20training%20materials.one">
+<node TEXT="爱立信在线5G基础培训" ID="ID_163201155" CREATED="1536547187427" MODIFIED="1624843920307" LINK="../OneNote/5G%20online%20training%20materials.one">
 <icon BUILTIN="list"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#22320;&#22336;&#35831;&#21442;&#32771;&#38142;&#25509;
+      地址请参考链接
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="线性代数" ID="ID_119152989" CREATED="1615251940300" MODIFIED="1615251950571">
 <node TEXT="MIT线性代数视频课程" ID="ID_646266717" CREATED="1615251954035" MODIFIED="1615255636552">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4260,8 +4020,7 @@
       了解一下之前学习到了什么进度，将之前放下的给补起来，然后完成剩余的内容，并且补完Anki卡片。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;&lt;线性代数应该这么学&gt;&gt;" ID="ID_543268500" CREATED="1615251963846" MODIFIED="1615252029286">
 <icon BUILTIN="yes"/>
@@ -4269,8 +4028,7 @@
 </node>
 <node TEXT="&lt;&lt;中国简史&gt;&gt;" ID="ID_540698170" CREATED="1615252001931" MODIFIED="1615252149771">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4280,11 +4038,9 @@
       回顾总结一下学习的内容。生成Anki卡片。最好能够完成一篇读后感。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="AAS学习" ID="ID_5463576" CREATED="1615255655019" MODIFIED="1615256137279"><richcontent TYPE="NOTE">
-
+<node TEXT="AAS学习" ID="ID_5463576" CREATED="1615255655019" MODIFIED="1624843922491"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4300,17 +4056,15 @@
       主要是FDD AAS的P2A的内容是难点，这个点过了其实就没有什么复杂的内容了，因为FDD只有小区赋形的common beamforming，除此之外接收方法也跟TDD非常的相似了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="BLD项目" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
+<node TEXT="BLD项目" FOLDED="true" ID="ID_216121772" CREATED="1583390151049" MODIFIED="1583390166413">
 <icon BUILTIN="list"/>
 <node TEXT="编译系统" ID="ID_1526691709" CREATED="1596505674431" MODIFIED="1596505677476">
 <node TEXT="研究一下menuconfig机制" ID="ID_654729734" CREATED="1596505515478" MODIFIED="1596505670386">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4329,18 +4083,16 @@
       需要了解 一下，使用menuconfig添加一些配置参数的时候，如何需要如何特定的函数库的地址以及头文件的地址的。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="研究一下CMAKE机制" ID="ID_573359454" CREATED="1596505682235" MODIFIED="1596505691740">
 <icon BUILTIN="yes"/>
 </node>
 </node>
 </node>
-<node TEXT="LTE RRP" ID="ID_1182137075" CREATED="1615338492560" MODIFIED="1615338546906">
+<node TEXT="LTE RRP" FOLDED="true" ID="ID_1182137075" CREATED="1615338492560" MODIFIED="1615338546906">
 <icon BUILTIN="list"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4350,12 +4102,10 @@
       了解LTE的RRP功能，给予项目上的支持。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="完成MR6245功能的了解" ID="ID_313411427" CREATED="1615338582184" MODIFIED="1615338907864">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4368,12 +4118,10 @@
       NDS的内容还没有看完
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="SP1" ID="ID_1076465999" CREATED="1615338975199" MODIFIED="1617868362788">
 <icon BUILTIN="100%"/>
-<richcontent TYPE="DETAILS">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4383,13 +4131,11 @@
       Static Resource Sharing
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="SP2" ID="ID_1975003326" CREATED="1615338978464" MODIFIED="1617868365623">
 <icon BUILTIN="100%"/>
-<richcontent TYPE="DETAILS">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4399,8 +4145,7 @@
       GBR Partitioning
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="SP3" ID="ID_1104892376" CREATED="1615338980574" MODIFIED="1615338982261">
 <node TEXT="7.2&amp;7.3章节完成" ID="ID_1446091077" CREATED="1617868423414" MODIFIED="1618195335654">
@@ -4423,12 +4168,11 @@
 <icon BUILTIN="yes"/>
 </node>
 </node>
-<node TEXT="Personal Stuff" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
+<node TEXT="Personal Stuff" FOLDED="true" ID="ID_1698974524" CREATED="1562133600844" MODIFIED="1562133621235">
 <icon BUILTIN="list"/>
 <node TEXT="研究一下多Wifi之间的协调" ID="ID_1025985208" CREATED="1598246409395" MODIFIED="1598246975822">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4465,13 +4209,11 @@
       这样的一套系统，需要在各个家庭分立，互相没有连接的wifi节点上，建立一个虚拟的网络，将其连接起来。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="调查便利店相关内容" ID="ID_248403136" CREATED="1599119511964" MODIFIED="1599119569072">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4481,14 +4223,12 @@
       便利店模式。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="小学生英语复习APP" ID="ID_940018741" CREATED="1618193478143" MODIFIED="1618194440831">
 <icon BUILTIN="yes"/>
 <attribute NAME="When" VALUE="this week"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4501,8 +4241,7 @@
       欧陆词典支持译林版的课本的单词复习，不过形式看起来跟大人的单词复习工具一样，比较的枯燥。最好能有一个更好的图形化或者更加适合低年级小孩的工具来帮忙复习。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="System Improvements" ID="ID_1923550259" CREATED="1527736633458" MODIFIED="1537927626308">
@@ -4513,40 +4252,38 @@
 <font NAME="SansSerif"/>
 <attribute NAME="When" VALUE="2019-05-10" OBJECT="org.freeplane.features.format.FormattedDate|2019-05-10T00:00+0800|yyyy-MM-dd"/>
 </node>
-<node TEXT="研究一下如何增强NB中的SINR计算准确性" ID="ID_309128742" CREATED="1559530828270" MODIFIED="1559531133751">
+<node TEXT="研究一下如何增强NB中的SINR计算准确性" ID="ID_309128742" CREATED="1559530828270" MODIFIED="1624865043913">
 <icon BUILTIN="yes"/>
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      NB&#20013;&#65292;&#35745;&#31639;SINR&#30340;&#20844;&#24335;&#37324;&#38754;&#21487;&#20197;&#30475;&#20986;&#26469;&#65292;
+      NB中，计算SINR的公式里面可以看出来，
     </p>
     <p>
-      &#19979;&#34892;&#30340;SINR&#35745;&#31639;&#20013;&#65292;&#36335;&#25439;&#30340;&#20272;&#35745;&#26159;&#22522;&#20110;MSG3&#19978;&#25253;&#30340;&#65292;&#36825;&#20010;&#20540;&#21487;&#33021;&#22312;&#21518;&#32493;&#30340;&#26102;&#20505;&#20013;&#21487;&#33021;&#24182;&#19981;&#20934;&#30830;&#12290;&#36335;&#25439;&#30340;&#20272;&#35745;&#26041;&#27861;&#19978;&#26377;&#27809;&#26377;&#22909;&#30340;&#26041;&#27861;&#21602;&#65311;
+      下行的SINR计算中，路损的估计是基于MSG3上报的，这个值可能在后续的时候中可能并不准确。路损的估计方法上有没有好的方法呢？
     </p>
     <p>
-      &#19978;&#19979;&#34892;&#30340;SINR&#35745;&#31639;&#20013;&#65292;IpN&#37117;&#26159;&#20889;&#27515;&#30340;&#22266;&#23450;&#20540;&#65292;&#34429;&#28982;&#26377;&#36890;&#36807;ACK/NACK&#21453;&#39304;&#26469;&#35843;&#25972;&#30340;&#26426;&#21046;&#65292;&#20294;&#26159;&#26377;&#27809;&#26377;&#26356;&#22909;&#30340;&#26041;&#27861;&#26469;&#20174;&#19968;&#24320;&#22987;&#23601;&#26159;&#22522;&#20110;&#27979;&#37327;&#26469;&#24471;&#21040;&#36825;&#20010;IpN&#21602;&#65311;
+      上下行的SINR计算中，IpN都是写死的固定值，虽然有通过ACK/NACK反馈来调整的机制，但是有没有更好的方法来从一开始就是基于测量来得到这个IpN呢？
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node TEXT="NB-IoT中软合并的方法能否增强?" ID="ID_1374791901" CREATED="1560476967437" MODIFIED="1560477039203">
+<node TEXT="NB-IoT中软合并的方法能否增强?" ID="ID_1374791901" CREATED="1560476967437" MODIFIED="1624865046373">
 <font NAME="SansSerif"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      NB-IoT&#30340;&#23454;&#29616;&#20013;&#65292;&#36719;&#21512;&#24182;&#30340;&#26041;&#26696;&#26159;&#30452;&#25509;&#21472;&#21152;&#12290;&#26159;&#21542;&#26377;&#22909;&#30340;&#26041;&#26696;&#33021;&#22815;&#20248;&#21270;&#36825;&#20010;&#36807;&#31243;&#65292;&#25552;&#39640;&#35299;&#30721;&#30340;&#25104;&#21151;&#29575;&#65311;
+      NB-IoT的实现中，软合并的方案是直接叠加。是否有好的方案能够优化这个过程，提高解码的成功率？
     </p>
   </body>
 </html>
@@ -4560,8 +4297,7 @@
 <node TEXT="=textUtils.getText(&apos;freeplaneGTD.config.reviewDirName&apos;)" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_117855996" CREATED="1427225917881" MODIFIED="1519611199314">
 <icon BUILTIN="revision"/>
 <edge COLOR="#00ff00"/>
-<richcontent TYPE="DETAILS" HIDDEN="true">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -4583,8 +4319,7 @@
       You can use the shortcut F5 to move tasks along with their project structure here for review.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif"/>
 </node>
 </node>
