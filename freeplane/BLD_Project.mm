@@ -569,7 +569,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="安装nRF开发环境" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1591074999640"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="安装nRF开发环境" FOLDED="true" ID="ID_19607735" CREATED="1590418441484" MODIFIED="1591074999640"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -838,7 +838,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="Part2" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1591348922695" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-2-1478313418">
+<node TEXT="Part2" FOLDED="true" ID="ID_870658991" CREATED="1590417095849" MODIFIED="1591348922695" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-2-1478313418">
 <node TEXT="ncs中的一些概念" ID="ID_1903679027" CREATED="1591076943286" MODIFIED="1591078489174"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1365,7 +1365,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Part3" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1591348932419" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-3-temporary">
+<node TEXT="Part3" FOLDED="true" ID="ID_1586187992" CREATED="1590417103794" MODIFIED="1591348932419" LINK="https://devzone.nordicsemi.com/nordic/nrf-connect-sdk-guides/b/getting-started/posts/nrf-connect-sdk-tutorial---part-3-temporary">
 <node TEXT="Zephyr Sensor Subsystem" FOLDED="true" ID="ID_128526495" CREATED="1591335886980" MODIFIED="1624346871116"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1517,8 +1517,20 @@
 </node>
 </node>
 </node>
+<node TEXT="" ID="ID_723519121" CREATED="1624951355774" MODIFIED="1625016003673" LINK="https://online.21dianyuan.com/special/activity/id/4?utm_campaign=2021%20Webinars&amp;utm_medium=email&amp;_hsmi=126800187&amp;_hsenc=p2ANqtz--OOZH5siRWU6_FpPsRWvFYXmD87S7Gjmu474k3naPgY8zlu6LlV0k2ogbtRgCQ1Tu0PnWsGCH5vicB1Rpc_KvkEm3bwg&amp;utm_content=126727932&amp;utm_source=hs_email"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个教程是介绍nrf connect的开发框架以及如何使用这个开发环境开发蓝牙应用的视频。
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node TEXT="nRF SDK Documents" FOLDED="true" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
+</node>
+<node TEXT="nRF SDK Documents" ID="ID_1028985528" CREATED="1591597187357" MODIFIED="1592147943959" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html">
 <node TEXT="User Guides" ID="ID_602196951" CREATED="1591600118284" MODIFIED="1591600170426">
 <node TEXT="Application Development" FOLDED="true" ID="ID_1029089824" CREATED="1591601063188" MODIFIED="1591601163366" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/application/index.html#application">
 <node TEXT="build&amp;config system" ID="ID_771765127" CREATED="1591601073709" MODIFIED="1591601083153">
@@ -3016,7 +3028,8 @@
 </node>
 </node>
 <node TEXT="Libraries" ID="ID_1732530383" CREATED="1591594435352" MODIFIED="1591594444924">
-<node TEXT="LTE Link Control" ID="ID_891820953" CREATED="1594025590962" MODIFIED="1623206174044"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="lwm2m" ID="ID_1726154912" CREATED="1606267894995" MODIFIED="1606267907507"/>
+<node TEXT="LTE Link Control" FOLDED="true" ID="ID_891820953" CREATED="1594025590962" MODIFIED="1625031144018"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3097,13 +3110,91 @@
 <node TEXT="配置选项" ID="ID_1526940872" CREATED="1594027839293" MODIFIED="1594028322222" LINK="../attachment/LteLinkControl.png"/>
 </node>
 </node>
-<node TEXT="lwm2m" ID="ID_1726154912" CREATED="1606267894995" MODIFIED="1606267907507"/>
+<node TEXT="Modem Library" ID="ID_1704899740" CREATED="1625031151237" MODIFIED="1625033626993" LINK="https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrfxlib/nrf_modem/doc/architecture.html">
+<icon BUILTIN="bookmark"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这是一个及其重要的库。参考外部链接，了解其不言而喻的重要性。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      总而言之，这个库是类似于nrf9160上的LTE modem的驱动。
+    </p>
+    <p>
+      nrf91的Modem能够完成的工作非常的多，可以参考子结点列出来的一些功能。
+    </p>
+  </body>
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000"><b>nrfxlib</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Modem功能" ID="ID_108825277" CREATED="1625033631628" MODIFIED="1625033637521">
+<node TEXT="GPS功能" ID="ID_576975070" CREATED="1625033639274" MODIFIED="1625033648236"/>
+<node TEXT="LTE Cat-M/NB-NoT功能" ID="ID_795267993" CREATED="1625033649159" MODIFIED="1625033667135"/>
+<node TEXT="IPV4/V6协议栈" ID="ID_1885896337" CREATED="1625033668034" MODIFIED="1625033679946"/>
+<node TEXT="TLS/DTLS功能" ID="ID_200103222" CREATED="1625034062015" MODIFIED="1625034065208"/>
+<node TEXT="Modem的DFU功能" ID="ID_1432579332" CREATED="1625033709319" MODIFIED="1625033714459"/>
+<node TEXT="Modem Trace功能" ID="ID_418787115" CREATED="1625033756065" MODIFIED="1625033762436"/>
+<node TEXT="支持AT命令" ID="ID_964168035" CREATED="1625033767140" MODIFIED="1625033778207"/>
+</node>
+<node TEXT="主控CPU与Modem的交互" ID="ID_1555188091" CREATED="1625033804995" MODIFIED="1625033848256"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nrf91上的ARM cortex-M33 CPU和Modem之间的数据交互是通过共享内存来完成的。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="共享内存" ID="ID_1989415765" CREATED="1625033852780" MODIFIED="1625033884273"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      共享内存分为了四块：
+    </p>
+    <p>
+      1，control
+    </p>
+    <p>
+      2，TX
+    </p>
+    <p>
+      3，RX
+    </p>
+    <p>
+      4，Trace
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
 <node TEXT="Cortex-M33" POSITION="left" ID="ID_1337092377" CREATED="1592205880366" MODIFIED="1592205886202">
 <edge COLOR="#7c0000"/>
-<node TEXT="TrustZone技术" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1592275802071"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="TrustZone技术" FOLDED="true" ID="ID_796314520" CREATED="1592206034412" MODIFIED="1624951330928"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3806,7 +3897,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="网络连接部分的代码逻辑需要优化" ID="ID_1732799613" CREATED="1624598866931" MODIFIED="1624865521562"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="网络连接部分的代码逻辑需要优化" ID="ID_1732799613" CREATED="1624598866931" MODIFIED="1625016217911"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3861,8 +3952,7 @@
       需要一个专用线程吗？还是使用一个专门的work queue就行了？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="监听NB-IoT的连接状态" ID="ID_33194098" CREATED="1624867143696" MODIFIED="1624872261388"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -3888,8 +3978,7 @@
       如果在设备进入了PSM的睡眠态之后，还没有取消监听udp消息的话，代码会发生什么？会报错吗？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="基于flag的状态机" ID="ID_634444009" CREATED="1624865574438" MODIFIED="1624865774627"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -3902,9 +3991,41 @@
       使用专用线程来统一接收消息的话，那么需要一个状态机机制。这个机制可以实现一个滤波机制，过滤掉在特定状态下不期望接收的消息。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+<node TEXT="从UDP client/server的角度来看这个问题" ID="ID_8125343" CREATED="1625016266425" MODIFIED="1625016817952"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      父节点探讨的这种双向通信的机制，其实从udp的client和server的角度来看是这样的一个结构：
+    </p>
+    <p>
+      1，
+    </p>
+    <p>
+      设备端需要同时具有client和server的角色
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2，
+    </p>
+    <p>
+      设备端的server角色通过监听udp报文来实现，这个功能需要被封装于一个单独的线程中。
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3，
+    </p>
+  </body>
+</html></richcontent>
 </node>
 <node TEXT="需要探讨的问题" ID="ID_1988253025" CREATED="1624865609997" MODIFIED="1624865863133"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -3916,8 +4037,7 @@
       参考子节点，这个猜测可以通过测试代码验证我们的想法。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="设备处于PSM状态能够监听网络端的UDP请求吗？" ID="ID_1784848685" CREATED="1624716395858" MODIFIED="1624783452960">
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">

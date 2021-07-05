@@ -5277,12 +5277,12 @@
 <node TEXT="上行物理控制信息" ID="ID_750060347" CREATED="1542763014905" MODIFIED="1542763020838">
 <node TEXT="调度请求" ID="ID_1086340708" CREATED="1542763026152" MODIFIED="1542763029245"/>
 <node TEXT="ACK/NACK" ID="ID_220557894" CREATED="1542763029416" MODIFIED="1542763075990">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="60 pt;0 pt;" ENDINCLINATION="60 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="39 pt;0 pt;" ENDINCLINATION="39 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="60 pt;0 pt;" ENDINCLINATION="60 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="反馈" ID="ID_1472973405" CREATED="1542763033536" MODIFIED="1542763071785">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="91.5 pt;0 pt;" ENDINCLINATION="91.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_533648186" STARTINCLINATION="71.25 pt;0 pt;" ENDINCLINATION="71.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_409159644" STARTINCLINATION="91.5 pt;0 pt;" ENDINCLINATION="91.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -6500,8 +6500,8 @@
 <node TEXT="RRC连接请求" ID="ID_661251684" CREATED="1544358511873" MODIFIED="1552372640506">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="up"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="212.24999 pt;0 pt;" ENDINCLINATION="211.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_505874600" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="201.74999 pt;0 pt;" ENDINCLINATION="201.74999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1227470616" MIDDLE_LABEL="对应于随机接入流程的MSG3" STARTINCLINATION="212.24999 pt;0 pt;" ENDINCLINATION="211.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="RRC连接建立" ID="ID_1277314825" CREATED="1544364435278" MODIFIED="1544364539186">
 <icon BUILTIN="full-2"/>
@@ -9506,7 +9506,7 @@
 <node TEXT="Workshop" ID="ID_264121083" CREATED="1614748708324" MODIFIED="1614749082932">
 <node TEXT="【LTE-DL】RRM培训" ID="ID_1502569675" CREATED="1547530364700" MODIFIED="1619576809074">
 <icon BUILTIN="bookmark"/>
-<node TEXT="下行调度算法" FOLDED="true" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
+<node TEXT="下行调度算法" ID="ID_794890125" CREATED="1547530371035" MODIFIED="1573202302591" LINK="https://ericsson-my.sharepoint.com/personal/yuance_deng_ericsson_com/_layouts/15/onedrive.aspx?listurl=https%3A%2F%2Fericsson%2Esharepoint%2Ecom%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents&amp;id=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo%2FRRM%20AS%20DL%20training%20course%20%282%29%20part%201%2D%20DL%20Scheduler%20algorithm%20and%20realization%20%20%2D%20Tuesday%2C%20January%2015%2C%202019%201%2E33%2E35%20PM%2Emp4&amp;parent=%2Fsites%2FPDU4G5GPB4RSMCompetencePortal%2FShared%20Documents%2F2019%2DRRM%5FAS%5FDL%5FTraining%2FVideo">
 <node TEXT="QOS Framework" ID="ID_1222098327" CREATED="1547530581575" MODIFIED="1547530594351">
 <node TEXT="QCI" ID="ID_198970372" CREATED="1549868306011" MODIFIED="1573451774082"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -9781,7 +9781,7 @@
 </node>
 </node>
 <node TEXT="Scheduling Strategies" ID="ID_1301142172" CREATED="1573202274379" MODIFIED="1573202279193">
-<node TEXT="Flow prioritization strategies" ID="ID_158870065" CREATED="1573453698154" MODIFIED="1576572341810">
+<node TEXT="Flow prioritization strategies" ID="ID_158870065" CREATED="1573453698154" MODIFIED="1625119124930">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -9790,16 +9790,17 @@
   </head>
   <body>
     <p>
-      &#26681;&#25454;QOS&#30340;&#38656;&#27714;&#65292;&#20915;&#23450;&#20248;&#20808;&#32473;&#35841;&#20998;&#37197;&#26080;&#32447;&#36164;&#28304;&#12290;
+      根据QOS的需求，决定优先给谁分配无线资源。
     </p>
     <p>
       
     </p>
     <p>
-      &#36825;&#37324;&#20570;&#30340;&#20107;&#24773;&#20027;&#35201;&#23601;&#26159;&#20915;&#23450;&#24403;&#21069;&#23376;&#24103;&#20013;&#30340;&#25152;&#26377;PQ&#30340;&#20248;&#20808;&#32423;&#12290;
+      这里做的事情主要就是决定当前子帧中的所有PQ的优先级。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="characteristics" ID="ID_744524344" CREATED="1573453899694" MODIFIED="1576563587364"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -10020,7 +10021,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Resrouce allocation strategies" ID="ID_1198786918" CREATED="1573453705708" MODIFIED="1576572390248">
+<node TEXT="Resrouce allocation strategies" ID="ID_1198786918" CREATED="1573453705708" MODIFIED="1625119118864">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -10029,18 +10030,19 @@
   </head>
   <body>
     <p>
-      &#26681;&#25454;3GPP&#30340;&#38480;&#21046;&#65292;&#20915;&#23450;&#20351;&#29992;&#21738;&#20123;&#36164;&#28304;&#26469;&#36827;&#34892;&#20256;&#36755;&#12290;
+      根据3GPP的限制，决定使用哪些资源来进行传输。
     </p>
     <p>
-      &#36825;&#37324;&#20570;&#30340;&#20027;&#35201;&#20107;&#24773;&#23601;&#26159;&#22312;&#24050;&#32463;&#20915;&#23450;&#20102;PQ&#30340;&#20248;&#20808;&#32423;&#20043;&#21518;&#65292;&#22914;&#20309;&#32473;&#19981;&#21516;&#30340;PQ&#20998;&#37197;&#29289;&#29702;&#36164;&#28304;(&#31354;&#21475;&#36164;&#28304;)
+      这里做的主要事情就是在已经决定了PQ的优先级之后，如何给不同的PQ分配物理资源(空口资源)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="Ericsson Realization" ID="ID_641481509" CREATED="1573202280719" MODIFIED="1573202285697"/>
 </node>
-<node TEXT="DL Scheduling Engine" FOLDED="true" ID="ID_653518968" CREATED="1573526083090" MODIFIED="1573526100523">
+<node TEXT="DL Scheduling Engine" ID="ID_653518968" CREATED="1573526083090" MODIFIED="1573526100523">
 <node TEXT="PDSCH" FOLDED="true" ID="ID_185284056" CREATED="1573526962900" MODIFIED="1573526965526">
 <node TEXT="Transmission flow" ID="ID_1324822730" CREATED="1573526148271" MODIFIED="1573526974490">
 <node TEXT="eNB发送DCI" ID="ID_1611044738" CREATED="1573527033815" MODIFIED="1573527047330"/>
@@ -10235,17 +10237,18 @@
 </node>
 <node TEXT="Paging and Msg2 entities always valid" ID="ID_613460698" CREATED="1573544220398" MODIFIED="1573544231233"/>
 </node>
-<node TEXT="Prioritization" ID="ID_1836729971" CREATED="1573544331478" MODIFIED="1573545350450"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Prioritization" ID="ID_1836729971" CREATED="1573544331478" MODIFIED="1625120791848"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#30830;&#23450;SE&#30340;&#20248;&#20808;&#32423;&#65292;SE&#30340;&#20248;&#20808;&#32423;&#21516;&#26679;&#26159;&#20197;weight&#26469;&#34913;&#37327;&#30340;&#65292;SE&#30340;weight&#21462;SE&#20013;&#25152;&#26377;PQ&#30340;&#26368;&#39640;&#20540;&#12290;&#30830;&#23450;SE&#30340;&#20248;&#20808;&#32423;&#30340;&#20316;&#29992;&#26159;&#21518;&#32493;&#30340;PDCCH&#30340;allocation&#38656;&#35201;&#36827;&#34892;PK
+      确定SE的优先级，SE的优先级同样是以weight来衡量的，SE的weight取SE中所有PQ的最高值。确定SE的优先级的作用是后续的PDCCH的allocation需要进行PK
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="set SE weight" ID="ID_1872549253" CREATED="1573545071232" MODIFIED="1594086204870">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1345060467" MIDDLE_LABEL="used for" STARTINCLINATION="170.24999 pt;0 pt;" ENDINCLINATION="170.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -10367,107 +10370,114 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Control Resrouce allocation" ID="ID_1756787478" CREATED="1573614547016" MODIFIED="1573614857180"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Control Resrouce allocation" ID="ID_1756787478" CREATED="1573614547016" MODIFIED="1625119983903"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#22909;&#30340;&#21543;
+      好的吧
     </p>
   </body>
-</html></richcontent>
-<node TEXT="PRB weight" ID="ID_1618274851" CREATED="1573614862694" MODIFIED="1573615316962"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html>
+</richcontent>
+<node TEXT="PRB weight" ID="ID_1618274851" CREATED="1573614862694" MODIFIED="1625119996510"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#20998;&#37197;&#36164;&#28304;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#32473;&#31995;&#32479;&#24102;&#23485;&#20013;&#30340;PRB&#26631;&#35760;weight&#65292;&#22312;&#32473;SE&#20998;&#37197;PRB&#30340;&#26102;&#20505;&#65292;&#23601;&#20250;&#25353;&#29031;PRB&#30340;weight&#20540;&#20174;&#22823;&#21040;&#23567;&#20998;&#37197;&#36164;&#28304;&#12290;
+      分配资源的时候，需要给系统带宽中的PRB标记weight，在给SE分配PRB的时候，就会按照PRB的weight值从大到小分配资源。
     </p>
     <p>
-      &#26631;&#35760;weight&#30340;&#26041;&#27861;&#26377;&#22909;&#20960;&#31181;&#65292;&#21487;&#20197;&#20154;&#20026;&#30340;&#25353;&#29031;PRB&#32534;&#21495;&#20174;&#23567;&#21040;&#22823;&#20381;&#27425;&#36882;&#22686;weight&#65292;&#20063;&#21487;&#20197;&#25353;&#29031;PRB&#30340;&#32534;&#21495;&#20174;&#23567;&#21040;&#22823;&#20381;&#27425;&#36882;&#20943;weight&#12290;
+      标记weight的方法有好几种，可以人为的按照PRB编号从小到大依次递增weight，也可以按照PRB的编号从小到大依次递减weight。
     </p>
     <p>
-      &#20063;&#21487;&#20197;&#26681;&#25454;&#20449;&#36947;&#24773;&#20917;&#65292;&#32473;SE&#20998;&#37197;&#20449;&#36947;&#36136;&#37327;&#27604;&#36739;&#22909;&#30340;&#37027;&#20123;PRB&#65292;&#36825;&#31181;&#26041;&#24335;&#20063;&#21483;&#20570;<b><font color="#0000ff">&#39057;&#29575;&#36873;&#25321;&#24615;&#35843;&#24230;</font></b>&#12290;
+      也可以根据信道情况，给SE分配信道质量比较好的那些PRB，这种方式也叫做<b><font color="#0000ff">频率选择性调度</font></b>。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node TEXT="Frequency Selective Scheduling" ID="ID_1280716279" CREATED="1573615362985" MODIFIED="1573620685263"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Frequency Selective Scheduling" ID="ID_1280716279" CREATED="1573615362985" MODIFIED="1625119998376"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#26681;&#25454;&#19981;&#21516;PRB&#30340;&#20449;&#36947;&#36136;&#37327;&#65292;&#36873;&#25321;&#20449;&#36947;&#36136;&#37327;&#26368;&#22909;&#30340;&#37027;&#20123;PRB
+      根据不同PRB的信道质量，选择信道质量最好的那些PRB
     </p>
   </body>
-</html></richcontent>
-<node TEXT="Phase1" ID="ID_1016701549" CREATED="1573615443255" MODIFIED="1573620410330"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html>
+</richcontent>
+<node TEXT="Phase1" ID="ID_1016701549" CREATED="1573615443255" MODIFIED="1625120001465"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#23545;&#20110;&#27599;&#19968;&#20010;SE&#26469;&#35828;&#65292;&#35774;&#23450;&#19968;&#20010;&#20449;&#36947;&#36136;&#37327;&#30340;&#38376;&#38480;&#20540;&#12290;&#38376;&#38480;&#20540;&#21462;&#30340;&#23601;&#26159;&#35745;&#31639;&#20986;&#26469;&#30340;&#24179;&#22343;&#30340;QCI&#20540;&#12290;&#22312;Phase1&#30340;&#26102;&#20505;&#65292;&#21482;&#20998;&#37197;&#20449;&#36947;&#36136;&#37327;&#39640;&#20110;&#36825;&#20010;&#38376;&#38480;&#20540;&#30340;&#37027;&#20123;PRB&#32473;&#21508;&#20010;SE
+      对于每一个SE来说，设定一个信道质量的门限值。门限值取的就是计算出来的平均的QCI值。在Phase1的时候，只分配信道质量高于这个门限值的那些PRB给各个SE
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node TEXT="Phase2" ID="ID_1786787459" CREATED="1573615445800" MODIFIED="1573615642312"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Phase2" ID="ID_1786787459" CREATED="1573615445800" MODIFIED="1625120003734"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#22312;Phase1&#38454;&#27573;&#65292;&#22240;&#20026;&#21487;&#33021;&#26377;&#20123;PRB&#30340;&#20449;&#36947;&#36136;&#37327;&#23545;&#25152;&#26377;&#30340;SE&#26469;&#35828;&#37117;&#19981;&#26159;&#29305;&#21035;&#30340;&#22909;&#65292;&#25152;&#20197;&#27809;&#26377;&#34987;&#20998;&#37197;&#32473;&#20219;&#20309;SE&#65292;&#37027;&#20040;&#22312;&#36825;&#20010;Phase2&#38454;&#27573;&#65292;&#23601;&#25353;&#29031;SE&#30340;&#20248;&#20808;&#32423;&#20998;&#37197;&#21097;&#20313;&#19979;&#26469;&#30340;&#37027;&#20123;PRB&#36164;&#28304;
+      在Phase1阶段，因为可能有些PRB的信道质量对所有的SE来说都不是特别的好，所以没有被分配给任何SE，那么在这个Phase2阶段，就按照SE的优先级分配剩余下来的那些PRB资源
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Priority Queue Selection &amp; HARQ process selection" ID="ID_1903485745" CREATED="1573620840091" MODIFIED="1573621086825"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Priority Queue Selection &amp; HARQ process selection" ID="ID_1903485745" CREATED="1573620840091" MODIFIED="1625120011396"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#35843;&#24230;&#22120;&#30340;&#25805;&#20316;&#24773;&#20917;&#26159;&#65292;&#20998;&#37197;&#36164;&#28304;&#26159;&#20026;PQ&#20998;&#37197;&#30340;&#65292;&#20294;&#26159;&#20256;&#36755;&#30340;&#35805;&#26159;&#36890;&#36807;HARQ process&#26469;&#20256;&#36755;&#30340;&#12290;
+      调度器的操作情况是，分配资源是为PQ分配的，但是传输的话是通过HARQ process来传输的。
     </p>
     <p>
-      &#20174;&#36825;&#20010;&#35282;&#24230;&#26469;&#35828;&#65292;PQ&#20195;&#34920;&#30340;&#26159;&#38656;&#35201;&#20256;&#36755;&#30340;&#20869;&#23481;&#65292;&#20294;&#26159;HARQ process&#20195;&#34920;&#30340;&#26159;&#25215;&#36733;&#36825;&#20123;&#20869;&#23481;&#20256;&#36755;&#30340;&#23186;&#20171;&#12290;
+      从这个角度来说，PQ代表的是需要传输的内容，但是HARQ process代表的是承载这些内容传输的媒介。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="每个SE中选择权重最高的那个PQ" ID="ID_1250766883" CREATED="1573620859861" MODIFIED="1573620875601"/>
 <node TEXT="HARQ process优先选择NACKED的HARQ Process" ID="ID_1953658848" CREATED="1573620875976" MODIFIED="1573620895646"/>
 </node>
 <node TEXT="Transport Format Selection" ID="ID_395556240" CREATED="1573622265487" MODIFIED="1573622294091">
-<node TEXT="Requst appropriate TBS from LA" ID="ID_698567771" CREATED="1573622311285" MODIFIED="1576725801876"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Requst appropriate TBS from LA" ID="ID_698567771" CREATED="1573622311285" MODIFIED="1625120025271"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      LA&#38656;&#35201;&#26681;&#25454;PQ&#30340;buffersize&#20197;&#21450;&#21487;&#29992;&#30340;SB&#36164;&#28304;&#65292;&#35745;&#31639;&#24182;&#36755;&#20986;TBS&#65292;MCS&#65292;&#20197;&#21450;&#20998;&#37197;&#30340;SB&#36164;&#28304;&#30340;&#20449;&#24687;&#12290;
+      LA需要根据PQ的buffersize以及可用的SB资源，计算并输出TBS，MCS，以及分配的SB资源的信息。
     </p>
     <p>
       
     </p>
     <p>
-      &#35843;&#24230;&#22120;&#20174;LA&#37027;&#36793;&#25343;&#21040;&#23376;&#33410;&#28857;&#19978;&#25551;&#36848;&#30340;&#20449;&#24687;&#12290;
+      调度器从LA那边拿到子节点上描述的信息。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="LA提供给调度器的信息" ID="ID_469717491" CREATED="1576729845226" MODIFIED="1576729860631">
 <node TEXT="TB Size" ID="ID_1388007190" CREATED="1576725754981" MODIFIED="1576725760321"/>
 <node TEXT="MCS" ID="ID_327635689" CREATED="1576725760978" MODIFIED="1576725764144"/>
@@ -10480,7 +10490,7 @@
 <node TEXT="新传两个code word" ID="ID_458503958" CREATED="1573622687334" MODIFIED="1573622697221"/>
 <node TEXT="重传两个code word" ID="ID_337989315" CREATED="1573622697480" MODIFIED="1573622703772"/>
 <node TEXT="重传+新传分别使用一个code word" ID="ID_1007152777" CREATED="1573622704085" MODIFIED="1573622724226"/>
-<node TEXT="fixed code word" ID="ID_794984250" CREATED="1573622732745" MODIFIED="1576725938475">
+<node TEXT="fixed code word" ID="ID_794984250" CREATED="1573622732745" MODIFIED="1625121822273">
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="help"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -10490,33 +10500,35 @@
   </head>
   <body>
     <p>
-      Msg2, BCCH, PCCH&#31561;&#31561;&#20844;&#20849;&#28040;&#24687;&#35843;&#24230;&#30340;&#26102;&#20505;&#26159;&#22522;&#20110;&#26368;&#24046;&#24773;&#20917;&#26469;&#35843;&#24230;&#30340;&#12290;
+      Msg2, BCCH, PCCH等等公共消息调度的时候是基于最差情况来调度的。
     </p>
     <p>
       
     </p>
     <p>
-      &#36825;&#37324;&#25152;&#35859;&#30340;fixed bit rate&#65292;&#25105;&#24863;&#35273;&#19978;&#26159;&#22240;&#20026;&#36825;&#20123;&#26159;&#20844;&#20849;&#20449;&#36947;&#65292;&#23427;&#30340;LA&#24182;&#19981;&#26159;&#26681;&#25454;&#27599;&#20010;UE&#30340;&#20449;&#36947;&#36136;&#37327;&#26469;&#20570;&#35843;&#25972;&#30340;&#65292;&#32780;&#26159;&#21462;&#20102;&#24179;&#22343;(&#65311;)&#65292;&#25152;&#20197;&#23545;&#25152;&#26377;&#30340;UE&#26469;&#35828;&#37117;&#26159;&#19968;&#26679;&#30340;&#12290;
+      这里所谓的fixed bit rate，我感觉上是因为这些是公共信道，它的LA并不是根据每个UE的信道质量来做调整的，而是取了平均(？)，所以对所有的UE来说都是一样的。
     </p>
     <p>
-      &#20174;&#36825;&#20010;&#35282;&#24230;&#26469;&#35828;&#65292;&#26159;&#19968;&#31181;fixed code rate&#25805;&#20316;&#12290;
+      从这个角度来说，是一种fixed code rate操作。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Prioriy Queue assignment" ID="ID_1115788979" CREATED="1576729874031" MODIFIED="1576730136128"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Prioriy Queue assignment" ID="ID_1115788979" CREATED="1576729874031" MODIFIED="1625120053486"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#22312;&#26576;&#20010;SE&#34987;&#20998;&#37197;&#21040;&#30456;&#24212;&#30340;TB size&#20043;&#21518;&#65292;&#36825;&#20123;TB size&#21487;&#20197;&#34987;&#20854;&#20013;&#30340;&#22810;&#20010;PQ&#20849;&#20139;&#12290;
+      在某个SE被分配到相应的TB size之后，这些TB size可以被其中的多个PQ共享。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="Prepare L1 transmission" ID="ID_865228299" CREATED="1573543617064" MODIFIED="1573543713746"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -10530,27 +10542,28 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="通知MAC和RLC" ID="ID_436182569" CREATED="1573623087605" MODIFIED="1573623154974"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="通知MAC和RLC" ID="ID_436182569" CREATED="1573623087605" MODIFIED="1625120056643"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#38656;&#35201;&#23558;&#35843;&#24230;&#30340;&#20449;&#24687;&#21578;&#30693;MAC&#21644;RLC&#23618;&#65292;&#20869;&#23481;&#22914;&#19979;&#65306;
+      需要将调度的信息告知MAC和RLC层，内容如下：
     </p>
     <p>
-      &#27599;&#19968;&#20010;PQ&#37324;&#38754;&#34987;&#35843;&#24230;&#30340;&#27604;&#29305;&#25968;
+      每一个PQ里面被调度的比特数
     </p>
     <p>
-      &#20351;&#29992;&#30340;HARQ process number
+      使用的HARQ process number
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="生成DCI消息告知PHY" ID="ID_1171714976" CREATED="1573623168951" MODIFIED="1573623194658"/>
 </node>
-<node TEXT="SE中有多个PQ的调度过程" ID="ID_500241239" CREATED="1576732048592" MODIFIED="1576732708955">
+<node TEXT="SE中有多个PQ的调度过程" ID="ID_500241239" CREATED="1576732048592" MODIFIED="1625120575815">
 <icon BUILTIN="bookmark"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -10559,16 +10572,17 @@
   </head>
   <body>
     <p>
-      &#20854;&#23454;&#21482;&#35201;&#24324;&#28165;&#26970;&#19968;&#20123;&#22522;&#26412;&#30340;&#21407;&#21017;&#23601;&#34892;&#20102;&#65306;
+      其实只要弄清楚一些基本的原则就行了：
     </p>
     <p>
-      &#35843;&#24230;&#22120;&#22312;&#26576;&#20010;TTI&#20013;&#36873;&#21462;&#21738;&#20123;UE&#26469;&#21442;&#19982;&#35843;&#24230;&#26159;&#26681;&#25454;SE&#30340;&#20248;&#20808;&#32423;&#26469;&#25490;&#24207;&#30340;&#12290;
+      调度器在某个TTI中选取哪些UE来参与调度是根据SE的优先级来排序的。
     </p>
     <p>
-      &#35843;&#24230;&#22120;&#22312;&#26576;&#20010;TTI&#20013;&#23454;&#38469;&#35843;&#24230;UE&#26159;&#25353;&#29031;PQ&#30340;&#20248;&#20808;&#32423;&#26469;&#25490;&#24207;&#30340;&#12290;
+      调度器在某个TTI中实际调度UE是按照PQ的优先级来排序的。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="调度器如何选取调度哪些SE？" ID="ID_1897294680" CREATED="1576732568822" MODIFIED="1576732914314"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -10584,26 +10598,27 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="调度器如何分配实际的资源？" ID="ID_1130565666" CREATED="1576732585293" MODIFIED="1576733135242"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="调度器如何分配实际的资源？" ID="ID_1130565666" CREATED="1576732585293" MODIFIED="1625120731088"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#35843;&#24230;&#22120;&#22312;&#20998;&#37197;&#36164;&#28304;&#30340;&#26102;&#20505;&#65292;&#24182;&#19981;&#26159;&#25353;&#29031;SE&#30340;weight&#30340;&#39640;&#20302;&#20381;&#27425;&#20998;&#37197;&#29289;&#29702;&#36164;&#28304;&#30340;&#12290;
+      调度器在分配资源的时候，并不是按照SE的weight的高低依次分配物理资源的。
     </p>
     <p>
-      &#22312;&#36825;&#20010;&#38454;&#27573;&#65292;&#23454;&#38469;&#19978;&#26159;&#23558;&#25152;&#26377;&#21442;&#19982;&#35843;&#24230;&#30340;SE&#30340;&#25152;&#26377;&#30340;PQ&#25918;&#22312;&#19968;&#36215;PK&#65292;&#28982;&#21518;&#25353;&#29031;PQ&#30340;weight&#20174;&#39640;&#21040;&#20302;&#20381;&#27425;&#20998;&#37197;&#29289;&#29702;&#36164;&#28304;&#12290;
+      在这个阶段，实际上是将所有参与调度的SE的所有的PQ放在一起PK，然后按照PQ的weight从高到低依次分配物理资源。
     </p>
     <p>
       
     </p>
     <p>
-      &#21482;&#19981;&#36807;&#65292;&#22914;&#26524;&#22312;&#19968;&#20010;TTI&#20013;&#19968;&#20010;SE&#26377;&#22810;&#20010;PQ&#26377;&#24184;&#34987;&#35843;&#24230;&#21040;&#30340;&#35805;&#65292;&#37027;&#20040;&#36825;&#20010;SE&#30340;PDCCH&#20250;&#22312;&#27599;&#19968;&#27425;&#26377;&#33258;&#24049;&#30340;PQ&#34987;&#35843;&#24230;&#21040;&#30340;&#26102;&#20505;&#26356;&#26032;&#33258;&#24049;&#30340;PDCCH&#12290;
+      只不过，如果在一个TTI中一个SE有多个PQ有幸被调度到的话，那么这个SE的PDCCH会在每一次有自己的PQ被调度到的时候更新自己的PDCCH。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node TEXT="问题？" ID="ID_470018990" CREATED="1576733138785" MODIFIED="1576736381892">
 <icon BUILTIN="idea"/>
@@ -10973,7 +10988,7 @@
 </node>
 <node TEXT="Regular Outerloop Adjustment" ID="ID_699367824" CREATED="1575872277302" MODIFIED="1575872295069"/>
 </node>
-<node TEXT="DL Link Adaptation" FOLDED="true" ID="ID_1663726212" CREATED="1576137991871" MODIFIED="1617774758568"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="DL Link Adaptation" ID="ID_1663726212" CREATED="1576137991871" MODIFIED="1617774758568"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -10985,47 +11000,50 @@
   </body>
 </html></richcontent>
 <node TEXT="Overview" ID="ID_681287839" CREATED="1576138055188" MODIFIED="1576138058468">
-<node TEXT="LA" ID="ID_844138715" CREATED="1576138471215" MODIFIED="1576138582329"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="LA" ID="ID_844138715" CREATED="1576138471215" MODIFIED="1625121267994"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#19979;&#34892;&#30340;link adaptation&#26426;&#21046;&#26159;&#20351;&#29992;CQI&#21453;&#39304;&#20197;&#21450;HARQ ACK/NACK&#21453;&#39304;&#26469;&#20570;Transport Format Selection,
+      下行的link adaptation机制是使用CQI反馈以及HARQ ACK/NACK反馈来做Transport Format Selection,
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="task" ID="ID_1801675512" CREATED="1576139308189" MODIFIED="1576139309332">
 <node TEXT="下行链路估计" ID="ID_737854495" CREATED="1576139311928" MODIFIED="1576139321907"/>
 <node TEXT="Transoprt format selection" ID="ID_834270757" CREATED="1576139326254" MODIFIED="1576139338109">
 <node TEXT="决定" ID="ID_266859058" CREATED="1576139113511" MODIFIED="1576139116534">
-<node TEXT="MCS" ID="ID_993251765" CREATED="1576138584331" MODIFIED="1576139253862"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="MCS" ID="ID_993251765" CREATED="1576138584331" MODIFIED="1625121769361"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#35843;&#21046;&#26041;&#24335;&#21644;TBS&#26159;&#19968;-&#23545;&#24212;&#30340;&#65292;&#22240;&#20026;MCS index&#21516;&#26102;&#20915;&#23450;&#20102;&#35843;&#21046;&#30340;&#26041;&#24335;&#20197;&#21450;TBS&#30340;index
+      调制方式和TBS是一-对应的，因为MCS index同时决定了调制的方式以及TBS的index
     </p>
     <p>
       coding scheme
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node TEXT="RB资源" ID="ID_482902388" CREATED="1576138586414" MODIFIED="1576138619899"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="RB资源" ID="ID_482902388" CREATED="1576138586414" MODIFIED="1625120836060"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#20998;&#37197;&#30340;RB&#36164;&#28304;
+      分配的RB资源
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -11040,33 +11058,35 @@
 <icon BUILTIN="full-1"/>
 <node TEXT="wide-band CQI" ID="ID_1358124981" CREATED="1576139545376" MODIFIED="1576139559429">
 <node TEXT="周期型的CSI上报" ID="ID_563653145" CREATED="1576139507903" MODIFIED="1576139515895">
-<node TEXT="使用PUCCH上报" ID="ID_333559034" CREATED="1576139520023" MODIFIED="1576139752855"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="使用PUCCH上报" ID="ID_333559034" CREATED="1576139520023" MODIFIED="1625121772801"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#29233;&#31435;&#20449;&#31995;&#32479;&#20013;&#37197;&#32622;&#30340;&#40664;&#35748;&#20540;&#26159;80ms
+      爱立信系统中配置的默认值是80ms
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
 <node TEXT="sub-band CQI" ID="ID_1680859267" CREATED="1576139564618" MODIFIED="1576139569307">
 <node TEXT="非周期eNB端主动触发" ID="ID_1438403564" CREATED="1576139635211" MODIFIED="1576139663867">
-<node TEXT="使用PUSCH上报" ID="ID_1294204413" CREATED="1576139744459" MODIFIED="1576140052771"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="使用PUSCH上报" ID="ID_1294204413" CREATED="1576139744459" MODIFIED="1625121777031"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#19978;&#25253;&#30340;&#20540;&#24182;&#38750;sub-band&#30340;&#23454;&#38469;&#30340;CQI index&#65292;&#32780;&#26159;sub-band CQI&#30456;&#23545;&#20110;wide-band CQI&#30340;&#20559;&#31227;&#20540;&#12290;
+      上报的值并非sub-band的实际的CQI index，而是sub-band CQI相对于wide-band CQI的偏移值。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -11140,7 +11160,7 @@
 </node>
 </node>
 <node TEXT="Pre LA" ID="ID_143612525" CREATED="1576138073902" MODIFIED="1576142453292">
-<node TEXT="计算ICC" ID="ID_1813738905" CREATED="1576142609648" MODIFIED="1576142811155"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="计算ICC" ID="ID_1813738905" CREATED="1576142609648" MODIFIED="1625119467840"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -11153,13 +11173,11 @@
       
     </p>
     <p>
-      ICC&#23427;&#34920;&#31034;&#19968;&#20010;RE&#33021;&#22815;&#20256;&#36755;&#22810;&#23569;&#27604;&#29305;&#65292;&#27604;&#22914;&#22312;SINR&#20540;&#24456;&#39640;&#30340;&#24773;&#20917;&#19979;&#65292;&#19968;&#20010;&#20351;&#29992;64QAM&#35843;&#21046;&#30340;RE&#65292;&#23427;&#25152;&#33021;&#25215;&#36733;&#30340;&#27604;&#29305;&#25968;&#23601;&#26159;6&#20010;&#12290;
-    </p>
-    <p>
-      
+      ICC它表示一个RE能够传输多少比特，比如在SINR值很高的情况下，一个使用64QAM调制的RE，它所能承载的比特数就是6个。
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="Final LA" ID="ID_1032016006" CREATED="1576138083025" MODIFIED="1576144813512">
@@ -11184,7 +11202,7 @@
 </node>
 </node>
 </node>
-<node TEXT="【NB-IoT】Link Adaptation培训" FOLDED="true" ID="ID_892950817" CREATED="1578295249744" MODIFIED="1614738287074" LINK="../../../Users/edenjun/Desktop/LTE/NB-IoT%20Link%20Adaptation.pptx"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="【NB-IoT】Link Adaptation培训" ID="ID_892950817" CREATED="1578295249744" MODIFIED="1614738287074" LINK="../../../Users/edenjun/Desktop/LTE/NB-IoT%20Link%20Adaptation.pptx"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -13631,8 +13649,7 @@
       因为存在这样的情况，在大气波导效应持续一直存在，这是可能的，如果在侦测到这个效应之后就退回了SSP5之后，然后症状减轻，我们就切换到速率更高的SSP，这会导致大气波导效应又增强了。这时系统又会进入到SSP5的状态，如此反复。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="需要研究的事项" ID="ID_1409262528" CREATED="1552877531509" MODIFIED="1552877538112">
@@ -13665,8 +13682,7 @@
       根据ppt里面的描述，采用的是相干功率检测，在接收端，使用不同的序列去跟接收的序列进行相关，然后检测<font color="#ff0033">功率</font>(?)，超过门限值就认为两者是相同的？
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="eNB的底噪检测机制" ID="ID_556005919" CREATED="1552877739926" MODIFIED="1552877750127">
 <icon BUILTIN="help"/>
@@ -13686,8 +13702,7 @@
       (中国移动的需求书里面描述的前后加CP的做法，是不是就是为了这个目的？？)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="为什么有功率斜坡特性？" ID="ID_1233613940" CREATED="1552886586266" MODIFIED="1552886658656">
 <icon BUILTIN="help"/>
