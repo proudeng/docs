@@ -66,11 +66,11 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="IoT协议" FOLDED="true" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
+<node TEXT="IoT协议" POSITION="right" ID="ID_1947118584" CREATED="1608122486846" MODIFIED="1608122490632">
 <edge COLOR="#ff0000"/>
 <node TEXT="应用层" ID="ID_555749467" CREATED="1608122495335" MODIFIED="1608122500615">
 <node TEXT="MQTT" ID="ID_1990357631" CREATED="1608122517359" MODIFIED="1608122519582"/>
-<node TEXT="CoAP" ID="ID_1637354092" CREATED="1608122520502" MODIFIED="1608122524968">
+<node TEXT="CoAP" FOLDED="true" ID="ID_1637354092" CREATED="1608122520502" MODIFIED="1608122524968">
 <node TEXT="CoAP简介" ID="ID_1971423094" CREATED="1621584930130" MODIFIED="1621584934679">
 <node TEXT="CoAP协议特点" ID="ID_1209389868" CREATED="1621584853554" MODIFIED="1621584874020">
 <node TEXT="网络传输层基于UDP" ID="ID_805521750" CREATED="1621585064396" MODIFIED="1621841230425">
@@ -1157,8 +1157,8 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 </html></richcontent>
 </node>
 <node TEXT="res" ID="ID_1543367132" CREATED="1622712359236" MODIFIED="1622713276553">
-<arrowlink DESTINATION="ID_1394982288"/>
 <arrowlink DESTINATION="ID_523214700"/>
+<arrowlink DESTINATION="ID_1394982288"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -1618,7 +1618,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
 <node TEXT="UWB" ID="ID_456567349" CREATED="1621232787183" MODIFIED="1621232790533"/>
 </node>
 <node TEXT="远距离蜂窝" ID="ID_1519737917" CREATED="1608122581350" MODIFIED="1608122586655">
-<node TEXT="NB-IoT" ID="ID_1891298417" CREATED="1608122652631" MODIFIED="1608128881587"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="NB-IoT" ID="ID_1891298417" CREATED="1608122652631" MODIFIED="1625472876069"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1751,9 +1751,23 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       对于NB-IoT的未来走向，可以预见NB-IoT还会与现有网络共存共生。当产业走到万物互联的5G时代，NB-IoT也将迎来了新的发展机遇
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node TEXT="NB-IoT开发最佳实践" ID="ID_1651941503" CREATED="1625472878228" MODIFIED="1625473002160" LINK="../../../Users/edenjun/Desktop/BLD/SARA-N2-Application-Development_AppNote_(UBX-16017368).pdf"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这个文档是从软件开发者的角度来介绍了一些使用NB-IoT网络进行通信的注意事项和推荐的建议。
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="eMTC" ID="ID_900983469" CREATED="1608122655877" MODIFIED="1621232777001"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</node>
+<node TEXT="eMTC" ID="ID_900983469" CREATED="1608122655877" MODIFIED="1625472871610"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1791,7 +1805,8 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       eMTC也可以以屏幕为抓手，应用到智能充电桩、候机宝、电梯卫士、智能公交站牌、公共自行车管理等方面
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="远距离非蜂窝" ID="ID_1308751519" CREATED="1608122586886" MODIFIED="1608122593935">
@@ -2445,8 +2460,7 @@ token=<font color="#000000">`</font><font color="#3f3fbf">/home/proudeng/code/li
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
